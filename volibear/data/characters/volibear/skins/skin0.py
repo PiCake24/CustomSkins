@@ -171,7 +171,7 @@ entries: map[hash,embed] = {
 	 	 	skinScale: f32 = 2
             selfIllumination: f32 = 0.699999988
             reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
-            initialSubmeshToHide: string = "mane, ice_back,ice_arms,ice_arms_float, Poro"
+            initialSubmeshToHide: string = "HeadFrenzy, FrenzyDaggers, ShacklePieces, Crystal, ShackleBlades"
             materialOverride: list[embed] = {
                 SkinMeshDataProperties_MaterialOverride {
                     texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
@@ -192,21 +192,6 @@ entries: map[hash,embed] = {
                 SkinMeshDataProperties_MaterialOverride {
                     texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Poro_TX_CM.dds"
                     submesh: string = "Poro"
-                }
-            }
-            rigPoseModifierData: list[pointer] = {
-                ConformToPathRigPoseModifierData {
-                    mStartingJointName: hash = 0xb9f64139
-                    mEndingJointName: hash = 0xbbf6445f
-                    mDefaultMaskName: hash = 0x7136e1bc
-                    mMaxBoneAngle: f32 = 120
-                }
-                ConformToPathRigPoseModifierData {
-                    mStartingJointName: hash = 0x433de8f4
-                    mEndingJointName: hash = 0xbf3778ee
-                    mDefaultMaskName: hash = 0x7136e1bc
-                    mMaxBoneAngle: f32 = 50
-                    mDampingValue: f32 = 15
                 }
             }
         }
@@ -7028,6 +7013,7 @@ entries: map[hash,embed] = {
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
                 isRandomStartFrame: flag = true
+                doesCastShadow: flag = true
                 isRotationEnabled: flag = true
                 isGroundLayer: flag = true
                 birthRotation0: embed = ValueVector3 {
