@@ -1,0 +1,20210 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {
+    "DATA/Characters/Chogath/Chogath.bin"
+    "DATA/Characters/Chogath/Animations/Skin0.bin"
+    "DATA/Chogath_Skins_Root_Skins_Skin0_Skins_Skin1_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin29_Skins_Skin3_Skins_Skin30_Skins_Skin31_Skins_Skin32_Skins_Skin33_Skins_Skin34_Skins_Skin35_Skins_Skin36_Skins_Skin37_Skins_Skin38_Skins_Skin39_Skins_Skin4_Skins_Skin40_Skins_Skin6_Skins_Skin7.bin"
+    "DATA/Chogath_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin29_Skins_Skin30_Skins_Skin31.bin"
+}
+entries: map[hash,embed] = {
+    "Characters/Chogath/Skins/Skin23" = SkinCharacterDataProperties {
+        skinClassification: u32 = 1
+        championSkinName: string = "ChogathSkin23"
+        metaDataTags: string = "faction:void,gender:male,race:monster,skinline:brokencovenant"
+        loadscreen: embed = CensoredImage {
+            image: string = "ASSETS/Characters/Chogath/skins/Skin23/ChogathLoadscreen_23.tex"
+        }
+        loadscreenVintage: embed = CensoredImage {
+            image: string = "ASSETS/Characters/Chogath/skins/Skin23/ChogathLoadscreen_23_LE.tex"
+        }
+        skinAudioProperties: embed = skinAudioProperties {
+            tagEventList: list[string] = {
+                "Chogath"
+            }
+            bankUnits: list2[embed] = {
+                BankUnit {
+                    name: string = "Chogath_Base_SFX"
+                    bankPath: list[string] = {
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Chogath/Skins/Base/Chogath_Base_SFX_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Chogath/Skins/Base/Chogath_Base_SFX_events.bnk"
+                    }
+                    events: list[string] = {
+                        "Play_sfx_Chogath_ChogathBasicAttack2_OnCast"
+                        "Play_sfx_Chogath_ChogathBasicAttack2_OnHit"
+                        "Play_sfx_Chogath_ChogathBasicAttack_OnCast"
+                        "Play_sfx_Chogath_ChogathBasicAttack_OnHit"
+                        "Play_sfx_Chogath_ChogathCritAttack_OnCast"
+                        "Play_sfx_Chogath_ChogathCritAttack_OnHit"
+                        "Play_sfx_Chogath_Feast_Cast_Anim"
+                        "Play_sfx_Chogath_Feast_OnHit"
+                        "Play_sfx_Chogath_FeralScream_hit"
+                        "Play_sfx_Chogath_FeralScream_OnCast"
+                        "Play_sfx_Chogath_Rupture_cast1"
+                        "Play_sfx_Chogath_Rupture_cast2"
+                        "Play_sfx_Chogath_Rupture_Cast_Anim"
+                        "Play_sfx_Chogath_Rupture_OnCast"
+                        "Play_sfx_Chogath_VorpalSpikes_buffactivate"
+                        "Play_sfx_Chogath_VorpalSpikes_OnBuffDeactivate"
+                        "Play_sfx_Chogath_VorpalSpikesMissle_hit"
+                        "Play_sfx_Chogath_VorpalSpikesMissle_OnMissileLaunch"
+                        "Play_sfx_ChogathEAttack_OnCast"
+                    }
+                }
+                BankUnit {
+                    name: string = "Chogath_Base_VO"
+                    bankPath: list[string] = {
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Chogath/Skins/Base/Chogath_Base_VO_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Chogath/Skins/Base/Chogath_Base_VO_events.bnk"
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Chogath/Skins/Base/Chogath_Base_VO_audio.wpk"
+                    }
+                    events: list[string] = {
+                        "Play_vo_Chogath_Attack2DGeneral"
+                        "Play_vo_Chogath_Death3D"
+                        "Play_vo_Chogath_Joke3DGeneral"
+                        "Play_vo_Chogath_Laugh3DGeneral"
+                        "Play_vo_Chogath_Move2DStandard"
+                        "Play_vo_Chogath_Taunt3DGeneral"
+                    }
+                    voiceOver: bool = true
+                }
+            }
+        }
+        skinAnimationProperties: embed = skinAnimationProperties {
+            animationGraphData: link = "Characters/Chogath/Animations/Skin0"
+        }
+        skinMeshProperties: embed = SkinMeshDataProperties {
+            skeleton: string = "ASSETS/Characters/Chogath/skins/base/Chogath.skl"
+            simpleSkin: string = "ASSETS/Characters/Chogath/skins/base/Chogath.skn"
+            texture: string = "ASSETS/Characters/Chogath/skins/base/GreenTerror.tex"
+	 	 	skinScale: f32 = 2
+            selfIllumination: f32 = 0.699999988
+            overrideBoundingBox: option[vec3] = {
+                { 130, 230, 130 }
+            }
+            initialSubmeshToHide: string = "HeadFrenzy FrenzyDaggers ShacklePieces ShackleBlades Crystal"
+            reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
+        }
+        armorMaterial: string = "Flesh"
+        mContextualActionData: link = "Characters/Chogath/CAC/Chogath_Base"
+        iconCircle: option[string] = {
+            "ASSETS/Characters/Chogath/HUD/GreenTerror_Circle.tex"
+        }
+        iconSquare: option[string] = {
+            "ASSETS/Characters/Chogath/HUD/GreenTerror_Square.tex"
+        }
+        healthBarData: embed = CharacterHealthBarDataRecord {
+            unitHealthBarStyle: u8 = 12
+        }
+        mResourceResolver: link = "Characters/Chogath/Skins/Skin0/Resources"
+    }
+    "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_mis_child" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.5
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Temp_Mesh"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -30, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Spikey01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.00208333344
+                            0.267361104
+                            0.855010688
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 6
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.00486111129
+                                0.0901326165
+                                0.740651965
+                                1
+                            }
+                            values: list[f32] = {
+                                1
+                                0
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Noise01_01.tex"
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.5, 1.79999995, 1.5 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Spikey02_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.600000024
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "shadow"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 60, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail02_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.168627456, 0.149019614, 0.121568628, 0.952941179 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.97999543 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.337047368
+                            0.46836248
+                            0.651439726
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.97999543 }
+                            { 1, 1, 1, 0.97999543 }
+                            { 1, 1, 1, 0.745167613 }
+                            { 1, 1, 1, 0.175387636 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 1
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2, 0, 1.79999995 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.131081074
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.271551728, 0, 0.525862098 }
+                            { 0.859504104, 0, 0.800000012 }
+                            { 1, 0, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Glow09_01.tex"
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    texAddressModeMult: u8 = 2
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, -0.100000001 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Glow"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 80, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail02_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.910002291, 0.650003791, 0.2399939, 0.400000006 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.97999543 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.337047368
+                            0.47647059
+                            0.647385657
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.97999543 }
+                            { 1, 1, 1, 0.97999543 }
+                            { 1, 1, 1, 0.891603708 }
+                            { 0.513725519, 0.596078455, 0.592156887, 0.107607342 }
+                            { 0.211764708, 0.211764708, 0.211764708, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 4
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 3, 0, 2 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Glow09_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Trail6"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 30, -3 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail03_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.500007629 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.200000003
+                            0.600000024
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.850980401, 0.862745106, 0.686274529, 0 }
+                            { 0.850980401, 0.862745106, 0.686274529, 1 }
+                            { 0.850980401, 0.862745106, 0.686274529, 0.639215708 }
+                            { 0.200000003, 0.23137255, 0.262745112, 0.0901960805 }
+                            { 0, 0, 0, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 7
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 2, 4.5 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.243852466
+                            0.441364616
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 1.5, 0.75, 0.75 }
+                            { 1.36939573, 1, 1.00826442 }
+                            { 1, 0.5, 0.528925598 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke18_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.100000001
+                                    0.899999976
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, 0.5 }
+                        }
+                    }
+                }
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -1 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.232026145
+                            0.51797384
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, -3 }
+                            { 0, -2.82644629 }
+                            { 0, -0.892561972 }
+                            { 0, -0.5 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask06_01.tex"
+                    texAddressModeMult: u8 = 2
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 1, 1.29999995 }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, 0.200000003 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.5
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1.20000005
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[f32] = {
+                            0.75
+                            1.5
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    2
+                }
+                lifetime: option[f32] = {
+                    0.5
+                }
+                emitterLinger: option[f32] = {}
+                rateByVelocityFunction: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.0199999996, 0 }
+                }
+                emitterName: string = "Lightning_AOE_Ring"
+                importance: u8 = 2
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 200, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 200, 0 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 0.300000012
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0.75
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, 0, 0 }
+                            }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Lighting_Cyl.sco"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.480003059 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.600000024
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0.121169917
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.964705884, 0.823529422, 0.480003059 }
+                            { 0.623529434, 0.690196097, 0.70588237, 0.0188236497 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.102973275
+                            0.276713938
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.984313726, 0.792156875, 0 }
+                            { 0.650980413, 0.776470602, 0.749019623, 0.790263712 }
+                            { 0.56078434, 0.623529434, 0.666666687, 0.249087214 }
+                            { 0.388235301, 0.43921569, 0.458823532, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 10
+                alphaRef: u8 = 0
+                softParticleParams: pointer = VfxSoftParticleDefinitionData {
+                    deltaIn: f32 = 30
+                }
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.216184646
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Despairpool_tar_Flames_Floor_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                isRotationEnabled: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 50, 1, 50 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -360
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 50, 1, 50 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                rotation0: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, -6, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0560439564
+                            0.123076923
+                            0.23956044
+                            0.384615391
+                            0.520879149
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, -6, 0 }
+                            { 0, -3.52475238, 0 }
+                            { 0, -1.96039605, 0 }
+                            { 0, -0.910891116, 0 }
+                            { 0, -0.455445558, 0 }
+                            { 0, -0.297029704, 0 }
+                            { 0, -0, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 20, 50, 20 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1.20000005
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1.20000005
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 20, 50, 20 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            1.11022302e-16
+                            0.0935857296
+                            0.205747709
+                            0.290241152
+                            0.428395391
+                            0.690176845
+                            1.00469148
+                        }
+                        values: list[vec3] = {
+                            { 0.775015414, 0.789773405, 0.775015414 }
+                            { 1.22485054, 1.14845228, 1.2557503 }
+                            { 1.66445982, 1.52719271, 1.6404264 }
+                            { 1.93367851, 1.83477068, 1.93382931 }
+                            { 2.21445131, 2.08504534, 2.14989448 }
+                            { 2.57728744, 2.57728744, 2.57728744 }
+                            { 3, 2.76546884, 2.78385711 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_W_FlameNoise02_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.550000012
+                }
+                particleLinger: option[f32] = {
+                    11
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Temp_Mesh2"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -5, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Chain03_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.269993126, 0.220004573, 0.179995418, 0.259998471 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.326538473
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 1
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                useNavmeshMask: flag = true
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 1000, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.5, 0.800000012, 1.5 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.281449884
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 1 }
+                            { 1, 1, 1 }
+                            { 1, 2, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Chain04_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -3 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, -3 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.800000012, 2 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask08_01.tex"
+                    texAddressModeMult: u8 = 2
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.5
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Trail7"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { -7, -15, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail03_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            0.249424338
+                            0.364414543
+                            0.449999988
+                            0.590618312
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.913725495, 0.592156887, 1 }
+                            { 1, 0.992156863, 0.725490212, 1 }
+                            { 0.815686285, 0.992156863, 1, 0.75686276 }
+                            { 0.376470596, 0.513725519, 0.58431375, 0.325490206 }
+                            { 0.239215687, 0.333333343, 0.407843143, 0.219607845 }
+                            { 0.152941182, 0.211764708, 0.250980407, 0.0666666701 }
+                            { 0.125490203, 0.149019614, 0.164705887, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 10
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.70000005, 4, 0 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.245984659
+                            0.477124184
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 1, 0.560000002, 0.561983466 }
+                            { 1, 0.600000024, 0.611570239 }
+                            { 1, 0.628000021, 0.628099203 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke23_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -2 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.202435598
+                            0.43029055
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, -6 }
+                            { 0, -2.62638927 }
+                            { 0, -1.48140502 }
+                            { 0, -0.948489547 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 1, 2 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0682302788
+                            0.159914717
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 1, 3.14049578 }
+                            { 1, 2.55966115 }
+                            { 1, 2.16774797 }
+                            { 1, 2 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask11_01.tex"
+                    texAddressModeMult: u8 = 2
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.550000012
+                }
+                particleLinger: option[f32] = {
+                    11
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Temp_Mesh3"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -30.5, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Spikey01_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.700007617, 0.650003791, 0.530006886, 0.900007606 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.765277803
+                            0.809027791
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0.441624373 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 7
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.00486111129
+                                0.0901326165
+                                0.740651965
+                                1
+                            }
+                            values: list[f32] = {
+                                1
+                                0
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Noise01_01.tex"
+                }
+                miscRenderFlags: u8 = 1
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.5, 1.79999995, 1.5 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Spikey01_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Glow1"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 37, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail02_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.949019611, 0.784313738, 0.392156869, 1 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.97999543 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.337047368
+                            0.47647059
+                            0.647385657
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.97999543 }
+                            { 1, 1, 1, 0.97999543 }
+                            { 1, 1, 1, 0.548803449 }
+                            { 1, 1, 1, 0.0293991156 }
+                            { 0.211764708, 0.211764708, 0.211764708, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 12
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0.600000024, 0, 0.5 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Glow03_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Trail8"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail03_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 0.905882359, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.225356832
+                            0.375186563
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 0.87843138, 1, 0.929411769, 1 }
+                            { 0.862745106, 0.972549021, 0.937254906, 0.756345153 }
+                            { 0.870588243, 0.976884604, 0.980392158, 0.223469689 }
+                            { 0.843137264, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 8
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.29999995, 5, 6 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.192679748
+                            0.304416299
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 1, 0.430000007, 0.429752052 }
+                            { 1, 0.800000012, 0.842975199 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke27_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    0.5
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, 0.5 }
+                        }
+                    }
+                }
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -0.699999988 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.232026145
+                            0.55553019
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, -2.0999999 }
+                            { 0, -1.97851241 }
+                            { 0, -1.50991738 }
+                            { 0, -1.1309917 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 1, 2 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 1, 3.14049578 }
+                            { 1, 2.86715388 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask07_01.tex"
+                    texAddressModeMult: u8 = 2
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.5
+                }
+                particleLinger: option[f32] = {
+                    1.5
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Trail9"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 30, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.570000768 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.512638927
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.211764708, 0.250980407, 0.250980407, 0 }
+                            { 0.227450982, 0.270588249, 0.270588249, 0.960784316 }
+                            { 0.219607845, 0.250980407, 0.298039228, 0.529411793 }
+                            { 0.164705887, 0.176470593, 0.192156866, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 1
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 2
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.409381658
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0.297520667
+                                2
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 1.29999995
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_W_FlameNoise01_01.tex"
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 3, 6, 6 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.279601604
+                            0.38108784
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0.53719008 }
+                            { 1, 0.600000024, 0.661157012 }
+                            { 1, 0.577529252, 0.685950398 }
+                            { 0.892562032, 0.289562553, 0.669421494 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke28_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.100000001
+                                    0.899999976
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, 0.5 }
+                        }
+                    }
+                }
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.154283702
+                            0.368648142
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, -1.5 }
+                            { 0, -0.959568262 }
+                            { 0, -0.614224136 }
+                            { 0, -0.258460402 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask09_01.tex"
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.600000024
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Glow2"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 20, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.910002291, 0.719996929, 0.689997733 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.97999543 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.337047368
+                            0.47647059
+                            0.647385657
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.97999543 }
+                            { 1, 1, 1, 0.97999543 }
+                            { 1, 1, 1, 0.891603708 }
+                            { 1, 1, 1, 0.107801743 }
+                            { 0.211764708, 0.211764708, 0.211764708, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 8
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0, 90 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 40, 15, 0.649999976 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Glow10_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.699999988
+                }
+                particleLinger: option[f32] = {
+                    1.5
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Trail11"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.643137276, 0.643137276, 0.643137276, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.104767583
+                            0.201426715
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.980392158, 1, 0.75686276, 0 }
+                            { 1, 0.929411769, 0.670588255, 0.909803927 }
+                            { 1, 0.858823538, 0.572549045, 0.988235295 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 2
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 2
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.409381658
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0.297520667
+                                2
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 1.29999995
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_W_FlameNoise01_01.tex"
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2, 4, 6 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.279601604
+                            0.576198101
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0.53719008 }
+                            { 1, 0.600000024, 0.661157012 }
+                            { 1, 0.680000007, 0.685950398 }
+                            { 0.892562032, 0.699999988, 0.669421494 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke28_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.100000001
+                                    0.899999976
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, 0.5 }
+                        }
+                    }
+                }
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.251599133
+                            0.543710053
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, -1.5 }
+                            { 0, -1.43801653 }
+                            { 0, -0.557851255 }
+                            { 0, -0.303719014 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask07_01.tex"
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.550000012
+                }
+                particleLinger: option[f32] = {
+                    11
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Temp_Mesh4"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -5, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Chain03_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.505882382, 0.309803933, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.855010688
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 9
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.491850436
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Noise01_01.tex"
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 1000, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.5, 0.800000012, 1.5 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.281449884
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 1 }
+                            { 1, 1, 1 }
+                            { 1, 2, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Chain05_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -3 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, -3 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.800000012, 2 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask07_01.tex"
+                    texAddressModeMult: u8 = 2
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.550000012
+                }
+                particleLinger: option[f32] = {
+                    11
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Temp_Mesh5"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -5, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Chain03_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.694117665, 0.345098048, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.855010688
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 8
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.506232023
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Noise01_01.tex"
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                useNavmeshMask: flag = true
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 1000, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.5, 0.800000012, 1.5 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.281449884
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 1 }
+                            { 1, 1, 1 }
+                            { 1, 2, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Chain03_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -3 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, -3 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.800000012, 2 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask07_01.tex"
+                    texAddressModeMult: u8 = 2
+                }
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.370000005
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 7
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.5
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0.800000012
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    2
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1.5
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    10.5
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Flash_Flame"
+                birthOrbitalVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0.5, 0 }
+                }
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 60, 0, 0 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 5, 5, 3 }
+                }
+                birthAcceleration: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -600, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, -600, 0 }
+                        }
+                    }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = VfxShapeCylinder {
+                    flags: u8 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -6, 0 }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.2399939 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0354266539
+                            0.198705658
+                            0.300000012
+                            0.449999988
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.717647076, 0.737254918, 0.513725519, 0.772549033 }
+                            { 0.62999922, 0.620004594, 0.530006886, 0.39000535 }
+                            { 0.478431374, 0.56078434, 0.564705908, 0.13333334 }
+                            { 0.400000006, 0.466666669, 0.474509805, 0.0980392173 }
+                            { 0.172549024, 0.192156866, 0.203921571, 0.0701680705 }
+                            { 0.172549024, 0.192156866, 0.203921571, 0 }
+                        }
+                    }
+                }
+                colorLookUpTypeY: u8 = 3
+                colorLookUpScales: vec2 = { 0.5, 1 }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                        }
+                    }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 220, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 80, 1, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.600000024
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 80, 1, 1 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.14108175
+                            0.407444358
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.100000001, 0.100000001, 0.100000001 }
+                            { 0.580138862, 0.699999988, 1 }
+                            { 0.816996038, 1, 1 }
+                            { 1, 0.300000012, 0.300000012 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_MagicFire.tex"
+                numFrames: u16 = 11
+                texDiv: vec2 = { 4, 4 }
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.400000006
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 5
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.600000024
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.600000024
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    0.5
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Sparkles_Rainbow"
+                translationOverride: vec3 = { 10, 30, 10 }
+                birthOrbitalVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.400000006
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 1, 0 }
+                            { 0, 0.200000003, 0 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 200, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 200, 0, 0 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 5, 5, 5 }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = VfxShapeSphere {
+                    flags: u8 = 1
+                    radius: f32 = 20
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -50, 0 }
+                }
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_colorhold.tex"
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.960006118, 0.770000756, 0.650003791 }
+                }
+                colorLookUpTypeY: u8 = 3
+                alphaRef: u8 = 0
+                isUniformScale: flag = true
+                isRandomStartFrame: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 7, 25, 50 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.600000024
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 7, 25, 50 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.285618424
+                            0.510067105
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 1, 1, 1 }
+                            { 0.346551716, 0.200000003, 0.200000003 }
+                            { 0.663793087, 1, 1 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_sparks_gold_01.tex"
+                numFrames: u16 = 2
+                texDiv: vec2 = { 2, 1 }
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.360000014
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 7
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.800000012
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    0.699999988
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.800000012
+                        }
+                    }
+                }
+                lifetime: option[f32] = {
+                    0.5
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    2
+                }
+                emitterName: string = "DarkWisps"
+                birthOrbitalVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0.25, 0 }
+                }
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 50, 0, 0 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 5, 5, 5 }
+                }
+                birthAcceleration: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -500, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.600000024
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, -500, 0 }
+                        }
+                    }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = VfxShapeCylinder {
+                    flags: u8 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -3, 0 }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.910002291, 0.910002291, 0.910002291, 0.97999543 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.768627465, 0.917647064, 0.925490201, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.187105
+                            0.575150013
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.41897732, 0.493010372, 0.388342947, 0 }
+                            { 0.403906196, 0.471418679, 0.362937331, 0.210052758 }
+                            { 0.215218037, 0.266115546, 0.222112, 0.0299992375 }
+                            { 0.123583242, 0.201522499, 0.275832385, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 30
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.349999994
+                    erosionFeatherOut: f32 = 0.349999994
+                    erosionSliceWidth: f32 = 1.79999995
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Alpha_Mult.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 0, 1, 0, 0 }
+                    }
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRandomStartFrame: flag = true
+                isRotationEnabled: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    350
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 50, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 50, 15, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0.521428585
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.879999995
+                                    1.39999998
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.100000001
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 50, 15, 0 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.103927627
+                            0.336632669
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.300000012, 1, 1 }
+                            { 0.4833363, 1, 1 }
+                            { 0.750521481, 1, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Wisps38.tex"
+                numFrames: u16 = 4
+                paletteDefinition: pointer = VfxPaletteDefinitionData {
+                    paletteCount: i32 = 16
+                }
+                texDiv: vec2 = { 2, 2 }
+            }
+        }
+        particleName: string = "Chogath_Skin23_E_mis_child"
+        particlePath: string = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_mis_child"
+    }
+    "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_R_indicator" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 4
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLinger: option[f32] = {}
+                emitterName: string = "burnt_ground"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.970000744, 0.86999315, 0.310002297 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.523969293
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.960784316, 1, 0.941176474, 0 }
+                            { 0.917647064, 1, 0.90196079, 0.43921569 }
+                            { 0.627451003, 0.952941179, 1, 0 }
+                        }
+                    }
+                }
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 70, 510, 510 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Distort_01_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 5
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.39999998
+                }
+                particleLinger: option[f32] = {}
+                emitterName: string = "burnt_ground1"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.149019614, 0.168627456, 0.184313729, 0.800000012 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.00143815915
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.749019623 }
+                            { 0.0899977088, 0.0899977088, 0.0899977088, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -25
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 130, 510, 510 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Distort_01_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 3
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.5
+                }
+                particleLinger: option[f32] = {}
+                emitterName: string = "geo_MistLayer1"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Wave10_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.937254906, 1, 0.968627453, 0.941176474 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.418887824
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.362244904 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -13
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.145805836
+                                1
+                            }
+                            values: list[f32] = {
+                                0.161105067
+                                0.800000012
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ramp01_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                stencilRef: u8 = 4
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 180, 360, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 180, 360, 0 }
+                        }
+                    }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -10, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.20000005, 1, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Noise01_01.tex"
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.100000001, 0 }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 2, 1 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoCowl_Galaxy_03.tex"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 2, 2 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 2, 2 }
+                                { 2, 1.20000005 }
+                            }
+                        }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 0.100000001, -0.200000003 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec2] = {
+                                { 0.100000001, -0.200000003 }
+                            }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 3
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLinger: option[f32] = {}
+                emitterName: string = "burnt_ground3"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.654901981, 0.937254906, 1, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.418024927
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.53061223 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -14
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.254476905
+                                0.480678618
+                                0.769085765
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0.375700921
+                                0.671028018
+                                0.871028066
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.200000003
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_juan_yunV.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRotationEnabled: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 360, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { -90, 360, 0 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                rotation0: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, -1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, -5, 0 }
+                            { 0, -0, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 180, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.275887847, 0, 0 }
+                            { 1.29999995, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Somke01_01.tex"
+                particleUVRotateRate: embed = IntegratedValueFloat {
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Distort_01_01.tex"
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLinger: option[f32] = {}
+                emitterName: string = "decal_DarkRing"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.109803922, 0.101960786, 0.0862745121, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.421764165
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.571428597 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 1
+                meshRenderFlags: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 95, 330, 330 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_ego_Skin19_R_decal.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLinger: option[f32] = {}
+                emitterName: string = "CIRCLE"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 5, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Wave09_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.992156863, 0.992156863, 0.90196079, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.44295302
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 20
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 0.300000012
+                }
+                disableBackfaceCull: bool = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 180, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0.5, 0.100000001, 0.5 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Chain05_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, 0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, 0.5 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 1, 7 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Noise02_01.tex"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.5, 3 }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 0, 0.5 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec2] = {
+                                { 0, 0.5 }
+                            }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 3
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.5
+                }
+                particleLinger: option[f32] = {}
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Trail"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Wave08_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.886274517, 0.960784316, 0.890196085, 0.749019623 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.167375743
+                            0.417014331
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.952941179, 1, 0.898039222, 0 }
+                            { 0.97647059, 1, 0.898039222, 0.556862772 }
+                            { 0.4627451, 0.600000024, 0.670588255, 0.914165676 }
+                            { 0.192156866, 0.250980407, 0.301960796, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 30
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 1.29999995
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1.29999995
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.5
+                    erosionFeatherOut: f32 = 0.5
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_W_Erosion01_01.tex"
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 180, 360, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 180, 360, 0 }
+                        }
+                    }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 10, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 10, 0 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 5, 4, 5 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.800000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 5, 4, 5 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.560344815, 0, 0 }
+                            { 0.875, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke18_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 0.5 }
+                }
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, 0.200000003 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, 0.400000006 }
+                            { 0, 0.104958676 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_SmokeTrail02_01.tex"
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, 0.300000012 }
+                    }
+                    TextureMultFilpV: flag = true
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, 0.99000001 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLinger: option[f32] = {}
+                emitterName: string = "decal_DarkRing1"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.940001547, 0.76000613, 0.319996953, 0.7400015 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.421764165
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.571428597 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 20
+                meshRenderFlags: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 105, 330, 330 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Icon13_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLinger: option[f32] = {}
+                emitterName: string = "decal_DarkRing2"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.145098045, 0.137254909, 0.117647059, 0.980392158 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.389165878
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 19
+                meshRenderFlags: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 105, 330, 330 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Icon14_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 3
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLinger: option[f32] = {}
+                emitterName: string = "decal_DarkRing3"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.669993162 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.421764165
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.571428597 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 20
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 105, 330, 330 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Icon12_01.tex"
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Somke02_01.tex"
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, 0.300000012 }
+                    }
+                    ParticleIntegratedUvRotateMult: embed = IntegratedValueFloat {
+                        constantValue: f32 = 10
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[f32] = {
+                                10
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        particleName: string = "Chogath_Skin23_R_indicator"
+        particlePath: string = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_R_indicator"
+        flags: u16 = 132
+    }
+    "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Idle_Shine" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "shine4"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveAttachedMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSubmeshesToDraw: list[hash] = {
+                            "Shine"
+                        }
+                        mSubmeshesToDrawAlways: list[hash] = {
+                            "Shine"
+                        }
+                        mLockMeshToAttachment: bool = true
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.960006118, 0.960006118, 0.459998488, 1 }
+                }
+                pass: i16 = 2
+                meshRenderFlags: u8 = 0
+                colorLookUpTypeY: u8 = 1
+                particleIsLocalOrientation: flag = true
+                isUniformScale: flag = true
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Idle_Shine01_01.tex"
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.100000001, 0 }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.5, 1 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Idle_Alpha02_01.tex"
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "shine6"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveAttachedMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSubmeshesToDraw: list[hash] = {
+                            "Light"
+                        }
+                        mSubmeshesToDrawAlways: list[hash] = {
+                            "Light"
+                        }
+                        mLockMeshToAttachment: bool = true
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.960784316, 0.960784316, 0.588235319, 1 }
+                }
+                pass: i16 = 2
+                colorLookUpTypeY: u8 = 1
+                particleIsLocalOrientation: flag = true
+                isUniformScale: flag = true
+                texture: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.dds"
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 1 }
+                }
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.5, 0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.349999994
+                                    0.75
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    -0.5
+                                    0.5
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.349999994
+                                    0.75
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    -0.5
+                                    0.5
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0.5, 0.5 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 10, 6 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.dds"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 6, 6 }
+                    }
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, -1 }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.5, 0.5 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        0.349999994
+                                        0.75
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        -1
+                                        -0.5
+                                        0.5
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        0.349999994
+                                        0.75
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        -1
+                                        -0.5
+                                        0.5
+                                        1
+                                    }
+                                }
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec2] = {
+                                { 0.5, 0.5 }
+                            }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "shine7"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveAttachedMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSubmeshesToDraw: list[hash] = {
+                            "Light"
+                        }
+                        mSubmeshesToDrawAlways: list[hash] = {
+                            "Light"
+                        }
+                        mLockMeshToAttachment: bool = true
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.894117653, 0.870588243, 0.521568656, 1 }
+                }
+                pass: i16 = 1
+                colorLookUpTypeY: u8 = 1
+                particleIsLocalOrientation: flag = true
+                isUniformScale: flag = true
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+            }
+        }
+        visibilityRadius: f32 = 9999
+        particleName: string = "Chogath_Skin23_Idle_Shine"
+        particlePath: string = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Idle_Shine"
+        flags: u16 = 199
+    }
+    "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Idle_Soul1" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Mesh_Licks"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 100, 0, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveAttachedMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSubmeshesToDraw: list[hash] = {
+                            "Smoke3"
+                        }
+                        mSubmeshesToDrawAlways: list[hash] = {
+                            "Smoke3"
+                        }
+                        mLockMeshToAttachment: bool = true
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.639993906, 0.86999315, 0.960006118, 0.650003791 }
+                }
+                pass: i16 = 11
+                meshRenderFlags: u8 = 0
+                colorLookUpTypeY: u8 = 1
+                depthBiasFactors: vec2 = { -3, -100 }
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                isUniformScale: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 90, 0 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke24_01.tex"
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, -0.300000012 }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 1, 0.699999988 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Idle_Alpha01_01.tex"
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Mesh_Licks1"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, 0, 0 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {}
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 0, 0, 0 }
+                        { 0, 0, 0 }
+                    }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveAttachedMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSubmeshesToDraw: list[hash] = {
+                            "Smoke3"
+                        }
+                        mSubmeshesToDrawAlways: list[hash] = {
+                            "Smoke3"
+                        }
+                        mLockMeshToAttachment: bool = true
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.190005347, 0.289997697, 0.300007641, 0.579995394 }
+                }
+                pass: i16 = 10
+                meshRenderFlags: u8 = 0
+                colorLookUpTypeY: u8 = 1
+                softParticleParams: pointer = VfxSoftParticleDefinitionData {
+                    deltaIn: f32 = 10
+                }
+                depthBiasFactors: vec2 = { -3, -100 }
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                isUniformScale: flag = true
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke24_01.tex"
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, -0.300000012 }
+                }
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 0.5 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Idle_Alpha01_01.tex"
+                }
+            }
+        }
+        visibilityRadius: f32 = 9999
+        particleName: string = "Chogath_Skin23_Idle_Soul1"
+        particlePath: string = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Idle_Soul1"
+        flags: u16 = 199
+    }
+    "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Idle_Soul" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Mesh_Licks3"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, 0, 0 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {}
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 0, 0, 0 }
+                        { 0, 0, 0 }
+                    }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveAttachedMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSubmeshesToDraw: list[hash] = {
+                            "Smoke2"
+                        }
+                        mSubmeshesToDrawAlways: list[hash] = {
+                            "Smoke2"
+                        }
+                        mLockMeshToAttachment: bool = true
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.749996185, 0.910002291, 0.960006118, 0.700007617 }
+                }
+                pass: i16 = 10
+                meshRenderFlags: u8 = 0
+                colorLookUpTypeY: u8 = 1
+                softParticleParams: pointer = VfxSoftParticleDefinitionData {
+                    deltaIn: f32 = 10
+                }
+                depthBiasFactors: vec2 = { -3, -100 }
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                isUniformScale: flag = true
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke24_01.tex"
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, -0.150000006 }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 1, 0.5 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Idle_Alpha01_01.tex"
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Mesh_Licks4"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, 0, 0 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {}
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 0, 0, 0 }
+                        { 0, 0, 0 }
+                    }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveAttachedMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSubmeshesToDraw: list[hash] = {
+                            "Smoke2"
+                        }
+                        mSubmeshesToDrawAlways: list[hash] = {
+                            "Smoke2"
+                        }
+                        mLockMeshToAttachment: bool = true
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.190005347, 0.289997697, 0.300007641, 0.680003047 }
+                }
+                pass: i16 = 11
+                meshRenderFlags: u8 = 0
+                colorLookUpTypeY: u8 = 1
+                softParticleParams: pointer = VfxSoftParticleDefinitionData {
+                    deltaIn: f32 = 10
+                }
+                depthBiasFactors: vec2 = { -3, -100 }
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                isUniformScale: flag = true
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke29_01.tex"
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, -0.300000012 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Idle_Alpha01_01.tex"
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = -1
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Mesh_Licks5"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, 0, 0 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {}
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 0, 0, 0 }
+                        { 0, 0, 0 }
+                    }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveAttachedMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSubmeshesToDraw: list[hash] = {
+                            "Smoke2"
+                        }
+                        mSubmeshesToDrawAlways: list[hash] = {
+                            "Smoke2"
+                        }
+                        mLockMeshToAttachment: bool = true
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.960784316, 0.952941179, 0.65882355, 0.580392182 }
+                }
+                pass: i16 = 10
+                meshRenderFlags: u8 = 0
+                colorLookUpTypeY: u8 = 1
+                softParticleParams: pointer = VfxSoftParticleDefinitionData {
+                    deltaIn: f32 = 10
+                }
+                depthBiasFactors: vec2 = { -3, -100 }
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                isUniformScale: flag = true
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke24_01.tex"
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, -0.300000012 }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 1, 0.699999988 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Idle_Alpha01_01.tex"
+                }
+            }
+        }
+        visibilityRadius: f32 = 9999
+        particleName: string = "Chogath_Skin23_Idle_Soul"
+        particlePath: string = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Idle_Soul"
+        flags: u16 = 199
+    }
+    "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_mis_child03" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.449999988
+                }
+                particleLinger: option[f32] = {
+                    11
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Temp_Mesh"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -30, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Spikey01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                pass: i16 = 3
+                alphaRef: u8 = 0
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 800, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.70000005, 2.29999995, 1.70000005 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Spikey01_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.699999988
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "shadow"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 90, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail02_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.278431386, 0.258823544, 0.20784314, 0.952941179 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.97999543 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.337047368
+                            0.47647059
+                            0.647385657
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.97999543 }
+                            { 0.815686285, 0.960784316, 1, 0.97999543 }
+                            { 0.411764711, 0.470588237, 0.521568656, 0.889880896 }
+                            { 0.259998471, 0.300007641, 0.330006868, 0.137200847 }
+                            { 0.164705887, 0.192156866, 0.211764708, 0 }
+                        }
+                    }
+                }
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 3.29999995, 0, 3 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Glow02_01.tex"
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask01_01.tex"
+                    texAddressModeMult: u8 = 2
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, -0.100000001 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.699999988
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Glow"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 70, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail02_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.690196097, 0.639215708, 0.490196079, 1 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.97999543 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.337047368
+                            0.47647059
+                            0.647385657
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.97999543 }
+                            { 1, 1, 1, 0.97999543 }
+                            { 1, 1, 1, 0.891603708 }
+                            { 1, 1, 1, 0.107801743 }
+                            { 0.211764708, 0.211764708, 0.211764708, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 4
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 5, 0, 2 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Glow03_01.tex"
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask02_01.tex"
+                    texAddressModeMult: u8 = 2
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Trail"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -30, -5 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail02_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.498039216, 0.70588237, 0.792156875, 0.400000006 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.620004594 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.337047368
+                            0.47647059
+                            0.647385657
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.409202069 }
+                            { 0.823529422, 0.952941179, 1, 0.615141809 }
+                            { 0.835294127, 0.956862748, 1, 0.328237742 }
+                            { 0.835294127, 0.956862748, 1, 0.13615787 }
+                            { 0.764705896, 0.858823538, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 3
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2, 0, 3 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.334219962
+                            0.573031247
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 0.867768586, 0, 0.735537231 }
+                            { 0.844438493, 0, 0.752066135 }
+                            { 0.776859522, 0, 0.504132211 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke08_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.100000001
+                                    0.899999976
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, 0.5 }
+                        }
+                    }
+                }
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.269607842
+                            0.495098025
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, -1.5 }
+                            { 0, -1.27906227 }
+                            { 0, -0.9223243 }
+                            { 0, -0.700413227 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask03_01.tex"
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Trail2"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 0, -10 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.779995441, 0.779995441, 0.779995441, 0.880003035 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.200000003
+                            0.300000012
+                            0.600000024
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.34117648, 0.411764711, 0.458823532, 0 }
+                            { 0.34117648, 0.411764711, 0.458823532, 1 }
+                            { 0.34117648, 0.411764711, 0.458823532, 1 }
+                            { 0.340001523, 0.409994662, 0.459998488, 0.469993144 }
+                            { 0.34117648, 0.411764711, 0.458823532, 0.168627456 }
+                            { 0.254901975, 0.294117659, 0.325490206, 0 }
+                        }
+                    }
+                }
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 2
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.409381658
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0.297520667
+                                2
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 1.29999995
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_W_FlameNoise01_01.tex"
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 3, 0, 4.5 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.245486453
+                            0.652957201
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 0.876033068, 0, 0.69421488 }
+                            { 0.773317397, 0, 0.917355359 }
+                            { 0.760330617, 0, 0.942148805 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke10_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.100000001
+                                    0.899999976
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, 0.5 }
+                        }
+                    }
+                }
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.41577825
+                            0.639658868
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, -1.5 }
+                            { 0, -0.904958665 }
+                            { 0, -0.644628108 }
+                            { 0, -0.576446295 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 1, 2 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask03_01.tex"
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.600000024
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Trail4"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { -6, -30, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail03_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.964705884, 1, 0.988235295, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.400426447
+                            0.600000024
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 0.39000535, 0.39000535, 0.39000535, 0.195402294 }
+                            { 0.333333343, 0.333333343, 0.333333343, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 8
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2, 0, 4 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.243852466
+                            0.477124184
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 1, 0, 0.69421488 }
+                            { 1, 0, 0.611570239 }
+                            { 1, 0, 0.289256215 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke23_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    0.5
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, 0.5 }
+                        }
+                    }
+                }
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -0.699999988 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.232026145
+                            0.547001421
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, -2.0999999 }
+                            { 0, -1.97851241 }
+                            { 0, -1.09338844 }
+                            { 0, -0.558264434 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1.5
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                            0.0852878466
+                            0.236673772
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 1, 1.57024789 }
+                            { 1, 1.28925622 }
+                            { 1, 1.10743797 }
+                            { 1, 1 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask01_01.tex"
+                    texAddressModeMult: u8 = 2
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, 0.200000003 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.449999988
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.150000006
+                                    2.25
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.449999988
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    0.5
+                }
+                rateByVelocityFunction: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.0199999996, 0 }
+                }
+                emitterName: string = "SparkBurst_Small"
+                importance: u8 = 2
+                birthOrbitalVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 5, 0 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 5, 10, 3 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 89, 100 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.100000001
+                                    2
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 89, 100 }
+                        }
+                    }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 0.200000003
+                }
+                SpawnShape: pointer = VfxShapeCylinder {
+                    flags: u8 = 1
+                    radius: f32 = 30
+                    height: f32 = 20
+                }
+                blendMode: u8 = 4
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.811764717, 0.470588237, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.811764717, 0.470588237, 0 }
+                            { 1, 0.811764717, 0.470588237, 1 }
+                            { 1, 0.811764717, 0.470588237, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 900
+                colorLookUpTypeY: u8 = 3
+                alphaRef: u8 = 0
+                isDirectionOriented: flag = true
+                isUniformScale: flag = true
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                directionVelocityScale: f32 = 0.00499999989
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 7, 15, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    3
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    3
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 7, 15, 0 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0.75
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 0, 0, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_EnergyMote.tex"
+            }
+        }
+        particleName: string = "Chogath_Skin23_E_mis_child03"
+        particlePath: string = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_mis_child03"
+    }
+    "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_mis_child02" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 5
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.730000019
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Trail3"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { -5, 0, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail02_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.698039234, 0.835294127, 0.874509811, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.206396595
+                            0.482729226
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 0.949996173, 0.97999543, 1, 1 }
+                            { 1, 1, 1, 0.187234506 }
+                            { 0.164705887, 0.192156866, 0.211764708, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 6
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2, 0, 3 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.243852466
+                            0.504901946
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 1, 0, 0.743801653 }
+                            { 1, 0, 0.867768586 }
+                            { 1, 0, 0.727272749 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke23_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -1.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.232026145
+                            0.51797384
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, -4.5 }
+                            { 0, -4.23966932 }
+                            { 0, -1.33884299 }
+                            { 0, -0.75 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask02_01.tex"
+                    texAddressModeMult: u8 = 2
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 1, 1.5 }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, 0.200000003 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.449999988
+                }
+                particleLinger: option[f32] = {
+                    11
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Temp_Mesh1"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -30, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Spikey01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                pass: i16 = 3
+                alphaRef: u8 = 0
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 800, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.70000005, 2, 1.70000005 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Spikey01_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.699999988
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "shadow1"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 90, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail02_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.278431386, 0.258823544, 0.20784314, 0.952941179 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.97999543 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.337047368
+                            0.47647059
+                            0.647385657
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.97999543 }
+                            { 0.815686285, 0.960784316, 1, 0.97999543 }
+                            { 0.411764711, 0.470588237, 0.521568656, 0.889880896 }
+                            { 0.259998471, 0.300007641, 0.330006868, 0.137200847 }
+                            { 0.164705887, 0.192156866, 0.211764708, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 1
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 3.29999995, 0, 3 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Glow02_01.tex"
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask01_01.tex"
+                    texAddressModeMult: u8 = 2
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, -0.100000001 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.699999988
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Glow1"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 50, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail02_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.690196097, 0.639215708, 0.490196079, 1 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.97999543 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.337047368
+                            0.47647059
+                            0.647385657
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.97999543 }
+                            { 1, 1, 1, 0.97999543 }
+                            { 1, 1, 1, 0.891603708 }
+                            { 1, 1, 1, 0.107801743 }
+                            { 0.211764708, 0.211764708, 0.211764708, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 4
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 5, 0, 2 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Glow03_01.tex"
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask02_01.tex"
+                    texAddressModeMult: u8 = 2
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.649999976
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Trail6"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -30, -5 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail02_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.730006874, 0.86999315, 0.930006862, 0.76000613 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.337047368
+                            0.47647059
+                            0.647385657
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.659998477 }
+                            { 0.823529422, 0.952941179, 1, 0.992156863 }
+                            { 0.835294127, 0.956862748, 1, 0.529411793 }
+                            { 0.835294127, 0.956862748, 1, 0.219607845 }
+                            { 0.764705896, 0.858823538, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 4
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.5, 0, 2.5 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.334219962
+                            0.573031247
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 0.867768586, 0, 0.735537231 }
+                            { 0.844438493, 0, 0.752066135 }
+                            { 0.776859522, 0, 0.504132211 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke08_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 0.100000001 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.300000012
+                                    0.600000024
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, 0.100000001 }
+                        }
+                    }
+                }
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.269607842
+                            0.495098025
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, -1.5 }
+                            { 0, -1.27906227 }
+                            { 0, -0.9223243 }
+                            { 0, -0.700413227 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask03_01.tex"
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.20000005
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Trail7"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 0, -10 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.779995441, 0.779995441, 0.779995441, 0.880003035 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.200000003
+                            0.300000012
+                            0.600000024
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.34117648, 0.411764711, 0.458823532, 0 }
+                            { 0.34117648, 0.411764711, 0.458823532, 1 }
+                            { 0.34117648, 0.411764711, 0.458823532, 1 }
+                            { 0.340001523, 0.409994662, 0.459998488, 0.469993144 }
+                            { 0.34117648, 0.411764711, 0.458823532, 0.168627456 }
+                            { 0.254901975, 0.294117659, 0.325490206, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 1
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 2
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.409381658
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0.297520667
+                                2
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 1.29999995
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_W_FlameNoise01_01.tex"
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 3, 0, 4.5 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.245486453
+                            0.652957201
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 0.876033068, 0, 0.69421488 }
+                            { 0.773317397, 0, 0.917355359 }
+                            { 0.760330617, 0, 0.942148805 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke10_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 0.100000001 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.100000001
+                                    0.899999976
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, 0.100000001 }
+                        }
+                    }
+                }
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.41577825
+                            0.639658868
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, -1.5 }
+                            { 0, -0.904958665 }
+                            { 0, -0.644628108 }
+                            { 0, -0.576446295 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 1, 2 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask03_01.tex"
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.699999988
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Trail8"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { -6, -30, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail03_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.964705884, 1, 0.988235295, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.400426447
+                            0.600000024
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 0.39000535, 0.39000535, 0.39000535, 0.195402294 }
+                            { 0.333333343, 0.333333343, 0.333333343, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 5
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2, 0, 4 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.243852466
+                            0.477124184
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 1, 0, 0.69421488 }
+                            { 1, 0, 0.611570239 }
+                            { 1, 0, 0.289256215 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke23_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 0.100000001 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    0.5
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, 0.100000001 }
+                        }
+                    }
+                }
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -0.699999988 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.232026145
+                            0.547001421
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, -2.0999999 }
+                            { 0, -1.97851241 }
+                            { 0, -1.09338844 }
+                            { 0, -0.558264434 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1.5
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                            0.0852878466
+                            0.236673772
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 1, 1.57024789 }
+                            { 1, 1.28925622 }
+                            { 1, 1.10743797 }
+                            { 1, 1 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask03_01.tex"
+                    texAddressModeMult: u8 = 2
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, 0.200000003 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.449999988
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.150000006
+                                    2.25
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.449999988
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    0.5
+                }
+                rateByVelocityFunction: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.0199999996, 0 }
+                }
+                emitterName: string = "SparkBurst_Small"
+                importance: u8 = 2
+                birthOrbitalVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 5, 0 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 5, 10, 3 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 89, 100 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.100000001
+                                    2
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 89, 100 }
+                        }
+                    }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 0.200000003
+                }
+                SpawnShape: pointer = VfxShapeCylinder {
+                    flags: u8 = 1
+                    radius: f32 = 30
+                    height: f32 = 20
+                }
+                blendMode: u8 = 4
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.811764717, 0.470588237, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.811764717, 0.470588237, 0 }
+                            { 1, 0.811764717, 0.470588237, 1 }
+                            { 1, 0.811764717, 0.470588237, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 900
+                colorLookUpTypeY: u8 = 3
+                alphaRef: u8 = 0
+                isDirectionOriented: flag = true
+                isUniformScale: flag = true
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                directionVelocityScale: f32 = 0.00499999989
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 7, 15, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    3
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    3
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 7, 15, 0 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0.75
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 0, 0, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_EnergyMote.tex"
+            }
+        }
+        particleName: string = "Chogath_Skin23_E_mis_child02"
+        particlePath: string = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_mis_child02"
+    }
+    "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_mis_child01" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "shadow1"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 45, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail02_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.0941176489, 0.0862745121, 0.0705882385, 0.952941179 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.97999543 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.337047368
+                            0.46836248
+                            0.651439726
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.97999543 }
+                            { 1, 1, 1, 0.97999543 }
+                            { 1, 1, 1, 0.745167613 }
+                            { 1, 1, 1, 0.175387636 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 1
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.5, 0, 1.5 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.131081074
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.271551728, 0, 0.525862098 }
+                            { 0.859504104, 0, 0.800000012 }
+                            { 1, 0, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Glow09_01.tex"
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    texAddressModeMult: u8 = 2
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, -0.100000001 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Glow1"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 45, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail02_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.941176474, 1, 0.717647076, 0.400000006 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.97999543 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.337047368
+                            0.47647059
+                            0.647385657
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.97999543 }
+                            { 1, 1, 1, 0.97999543 }
+                            { 1, 1, 1, 0.891603708 }
+                            { 0.513725519, 0.596078455, 0.592156887, 0.107607342 }
+                            { 0.211764708, 0.211764708, 0.211764708, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 4
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                particleIsLocalOrientation: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.5, 0, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Glow09_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.25
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Trail7"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -15, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail03_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.968627453, 1, 0.956862748, 0.78039217 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.308741987
+                            0.414498955
+                            0.590618312
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 0.97647059, 0.650980413 }
+                            { 0.431372553, 0.43921569, 0.403921574, 0.156862751 }
+                            { 0.2399939, 0.250003815, 0.209994659, 0.0699931309 }
+                            { 0.156862751, 0.164705887, 0.137254909, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 12
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0.699999988, 3, 0 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.245984659
+                            0.477124184
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 1, 0.560000002, 0.561983466 }
+                            { 1, 0.600000024, 0.611570239 }
+                            { 1, 0.628000021, 0.628099203 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke05_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -1 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.202435598
+                            0.43029055
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, -3 }
+                            { 0, -1.31319463 }
+                            { 0, -0.74070251 }
+                            { 0, -0.474244773 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 1, 1.57024789 }
+                            { 1, 1 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask08_01.tex"
+                    texAddressModeMult: u8 = 2
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.5
+                }
+                particleLinger: option[f32] = {
+                    1.5
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Trail8"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { -1.5, 5, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.607843161, 0.607843161, 0.607843161, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.284930408
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.227450982, 0.250980407, 0.215686277, 0 }
+                            { 0.250980407, 0.270588249, 0.235294119, 0.960784316 }
+                            { 0.250980407, 0.278431386, 0.298039228, 0.274509817 }
+                            { 0.164705887, 0.176470593, 0.192156866, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 1
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 2
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.409381658
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0.297520667
+                                2
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 1.29999995
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_W_FlameNoise01_01.tex"
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.29999995, 3.5, 0 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.279601604
+                            0.38108784
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0.53719008 }
+                            { 1, 0.600000024, 0.661157012 }
+                            { 1, 0.577529252, 0.685950398 }
+                            { 0.892562032, 0.289562553, 0.669421494 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke28_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.100000001
+                                    0.899999976
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, 0.5 }
+                        }
+                    }
+                }
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.154283702
+                            0.368648142
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, -1.5 }
+                            { 0, -0.959568262 }
+                            { 0, -0.614224136 }
+                            { 0, -0.258460402 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask09_01.tex"
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Trail10"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, 5, -3 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail03_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.500007629 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.200000003
+                            0.600000024
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.850980401, 0.862745106, 0.686274529, 0 }
+                            { 0.850980401, 0.862745106, 0.686274529, 1 }
+                            { 0.850980401, 0.862745106, 0.686274529, 0.639215708 }
+                            { 0.200000003, 0.23137255, 0.262745112, 0.0901960805 }
+                            { 0, 0, 0, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 7
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 2, 4.5 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.243852466
+                            0.441364616
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 1.5, 0.75, 0.75 }
+                            { 1.36939573, 1, 1.00826442 }
+                            { 1, 0.5, 0.528925598 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke18_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.100000001
+                                    0.899999976
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, 0.5 }
+                        }
+                    }
+                }
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -1 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.232026145
+                            0.51797384
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, -3 }
+                            { 0, -2.82644629 }
+                            { 0, -0.892561972 }
+                            { 0, -0.5 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask06_01.tex"
+                    texAddressModeMult: u8 = 2
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 1, 1.29999995 }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, 0.200000003 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.5
+                }
+                particleLinger: option[f32] = {
+                    11
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Temp_Mesh"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -20, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Spikey01_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.988235295, 0.97647059, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.670661569
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 7
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.69223392
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Noise01_01.tex"
+                }
+                miscRenderFlags: u8 = 1
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1.20000005, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Spikey01_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.5
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Trail11"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -15, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_trail03_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.880003035, 1, 0.97999543, 0.489997715 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.308741987
+                            0.414498955
+                            0.590618312
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 0.97647059, 0.650980413 }
+                            { 0.431372553, 0.43921569, 0.403921574, 0.156862751 }
+                            { 0.2399939, 0.250003815, 0.209994659, 0.0699931309 }
+                            { 0.156862751, 0.164705887, 0.137254909, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 10
+                alphaRef: u8 = 0
+                disableBackfaceCull: bool = true
+                particleIsLocalOrientation: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 3, 0 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.245984659
+                            0.477124184
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 1, 0.560000002, 0.561983466 }
+                            { 1, 0.600000024, 0.611570239 }
+                            { 1, 0.628000021, 0.628099203 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke28_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -1.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.202435598
+                            0.43029055
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, -4.5 }
+                            { 0, -1.96979189 }
+                            { 0, -1.11105371 }
+                            { 0, -0.71136713 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 1, 1.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 1, 2.35537195 }
+                            { 1, 1.5 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Mask08_01.tex"
+                    texAddressModeMult: u8 = 2
+                }
+            }
+        }
+        particleName: string = "Chogath_Skin23_E_mis_child01"
+        particlePath: string = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_mis_child01"
+    }
+    "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Q_Ally_team" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "decal_DarkRing"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.109803922, 0.105882354, 0.0705882385, 0.670588255 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.800000012
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                meshRenderFlags: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 280, 330, 330 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_ego_Skin19_R_decal.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground3"
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.510002315, 0.510002315, 0.510002315, 0.600000024 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.698039234, 0.666666687, 0.301960796, 1 }
+                            { 0.590005338, 0.689997733, 0.500007629, 0.749996185 }
+                            { 1, 0.980392158, 0.725490212, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -12
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 500, 510, 510 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Distort_01_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground4"
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -150, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.886274517, 0.690196097, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.990005314, 1, 0.7400015, 1 }
+                            { 0.929411769, 1, 0.752941191, 0.749019623 }
+                            { 0.627451003, 0.952941179, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -24
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 300, 510, 510 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Distort_01_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "geo_MistLayer"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ring01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.870588243, 1, 0.996078432, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                }
+                                keyValues: list[f32] = {
+                                    5
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec4] = {
+                            { 0.870588243, 1, 0.996078432, 1 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.800000012
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -13
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.145805836
+                                1
+                            }
+                            values: list[f32] = {
+                                0.161105067
+                                0.800000012
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ramp01_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 180, 360, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 180, 360, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.35000002, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 1.20000005, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Somke02_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { -0.300000012, 0 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.137150437
+                            0.226298958
+                            0.405454814
+                            0.800000012
+                        }
+                        values: list[vec2] = {
+                            { -0.449999988, 0 }
+                            { -0.294224322, 0 }
+                            { -0.204075709, 0 }
+                            { -0.140876651, 0 }
+                            { -0.120000005, 0 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 2, 1 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoCowl_Galaxy_03.tex"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 2, 2 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 2, 2 }
+                                { 2, 1.20000005 }
+                            }
+                        }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 1, -1 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                0.0970782265
+                                0.238454282
+                                0.476908565
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 0.998130858, -1 }
+                                { 0.566355169, -0.553744912 }
+                                { 0.267289728, -0.252336442 }
+                                { 0.102803737, -0.0915887877 }
+                                { 0, -0 }
+                            }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        times: list[f32] = {
+                            0
+                            0.00999999978
+                            0.0199999996
+                        }
+                        values: list[f32] = {
+                            0
+                            0
+                            1
+                        }
+                    }
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.5
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "geo_Edge"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoR_Edge.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.474509805, 0.43921569, 0.274509817, 0.862745106 }
+                }
+                pass: i16 = 10
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1.39999998
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 0.400000006
+                    erosionSliceWidth: f32 = 1.20000005
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoDemon_Trail_Rotate.tex"
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRotationEnabled: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 20, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 20, 0 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                rotation0: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.400000006
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 1, 0 }
+                            { 0, 1, 0 }
+                            { 0, 1, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2.5, 2.5, 2.5 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                        }
+                        values: list[vec3] = {
+                            { 1, 3, 1 }
+                            { 1, 6, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_ego_R_Mis_Dirt_Sides_V03.tex"
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 2, 1 }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.5
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "geo_Edge1"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoR_Edge.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.719996929, 0.910002291, 1, 0.450003803 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.300000012
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.647058845, 0.831372559, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 11
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.400000006
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1.39999998
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 0.400000006
+                    erosionSliceWidth: f32 = 1.20000005
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoDemon_Trail_Rotate.tex"
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRotationEnabled: flag = true
+                isGroundLayer: flag = true
+                isLocalOrientation: flag = false
+                rotation0: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.400000006
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 1, 0 }
+                            { 0, 1, 0 }
+                            { 0, 1, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2.5, 2.5, 2.5 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                        }
+                        values: list[vec3] = {
+                            { 1, 3, 1 }
+                            { 1, 6, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_ego_R_Mis_Dirt_Sides_V03.tex"
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 2, 1 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoCowl_Galaxy_03.tex"
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.39999998
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground6"
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.211764708, 0.227450982, 0.141176477, 0.882352948 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0.749019623 }
+                            { 0.0899977088, 0.0899977088, 0.0899977088, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -25
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 500, 510, 510 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Distort_01_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                lifetime: option[f32] = {
+                    2
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground8"
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.654901981, 0.937254906, 1, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -14
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.254476905
+                                0.480678618
+                                0.769085765
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0.375700921
+                                0.671028018
+                                0.871028066
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.200000003
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_juan_yunV.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRotationEnabled: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                rotation0: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, -1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, -5, 0 }
+                            { 0, -0, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 300, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.275887847, 0, 0 }
+                            { 1.29999995, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Somke01_01.tex"
+                particleUVRotateRate: embed = IntegratedValueFloat {
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Distort_01_01.tex"
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                lifetime: option[f32] = {
+                    0.150000006
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "UnderGlow"
+                Filtering: pointer = VfxEmitterFiltering {
+                    keywordsExcluded: list[string] = {
+                        "ZacGrumpy"
+                    }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, 0, 0 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {}
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 0, 0, 0 }
+                        { 0, 0, 0 }
+                    }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_W_Alpha01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0, 0, 0, 1 }
+                }
+                pass: i16 = -200
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 1
+                stencilRef: u8 = 6
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 16, 1, 1 }
+                }
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.5
+                }
+                lifetime: option[f32] = {
+                    0.100000001
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Purple Ring"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Indicator.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.509803951, 0.419607848, 0.266666681, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            0.5
+                            0.999899983
+                        }
+                        values: list[vec4] = {
+                            { 0.509803951, 0.419607848, 0.266666681, 0 }
+                            { 0.509803951, 0.419607848, 0.266666681, 1 }
+                            { 0.509803951, 0.419607848, 0.266666681, 1 }
+                            { 0.509803951, 0.419607848, 0.266666681, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 13
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -360
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 1, 0 }
+                        }
+                    }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 20, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2.45000005, 1, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_IndicatorLine01.tex"
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_SwirlTrail.tex"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 3, 1 }
+                    }
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.5, 0 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "geo_MistLayer1"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -50, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ring01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.533333361, 0.662745118, 0.701960802, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                }
+                                keyValues: list[f32] = {
+                                    3
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec4] = {
+                            { 0.533333361, 0.662745118, 0.701960802, 1 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.800000012
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -18
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 0.349999994
+                    }
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ramp01_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 180, 120, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.5, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 1.20000005, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Somke02_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0.5, 0 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100204162
+                            0.244395092
+                            0.467283279
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0.75, 0 }
+                            { 0.550000012, 0 }
+                            { 0.390500009, 0 }
+                            { 0.279000014, 0 }
+                            { 0.200000003, 0 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 2, 1 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoCowl_Galaxy_03.tex"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 2, 2 }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 0, -2 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                0.12158341
+                                0.274269551
+                                0.500471234
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 0, -2 }
+                                { 0, -1.17851782 }
+                                { 0, -0.684112132 }
+                                { 0, -0.306542069 }
+                                { 0, -0.200000003 }
+                            }
+                        }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.5, 0.5 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec2] = {
+                                { 0.5, 0.5 }
+                            }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "geo_MistLayer2"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -100, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ring01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.403921574, 0.458823532, 0.4627451, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                }
+                                keyValues: list[f32] = {
+                                    3
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec4] = {
+                            { 0.403921574, 0.458823532, 0.4627451, 1 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.800000012
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -19
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 0.400000006
+                    }
+                    erosionFeatherOut: f32 = 0.150000006
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ramp01_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 180, 360, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 180, 360, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.60000002, 1, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Somke02_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0.300000012, 0 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100204162
+                            0.244395092
+                            0.467283279
+                            0.800000012
+                        }
+                        values: list[vec2] = {
+                            { 0.449999988, 0 }
+                            { 0.330000013, 0 }
+                            { 0.234300002, 0 }
+                            { 0.167400002, 0 }
+                            { 0.120000005, 0 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoCowl_Galaxy_03.tex"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 2, 2 }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 0, -1 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                0.12158341
+                                0.274269551
+                                0.500471234
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 0, -1 }
+                                { 0, -0.589258909 }
+                                { 0, -0.342056066 }
+                                { 0, -0.153271034 }
+                                { 0, -0 }
+                            }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "geo_MistLayer3"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -70, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_ego_Skin19_R_Energy.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.75686276, 0.980392158, 1, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0500000007
+                            0.649017572
+                            0.899999976
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -15
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.200000003
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ramp01_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 360, 180, 360 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    0
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.200000003
+                                    0.600000024
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    0.300000012
+                                    0.550000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    0
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 360, 180, 360 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.5, 1, 2 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoBasicGradient.tex"
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoCowl_Galaxy_03.tex"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 2, 1 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 2, 1 }
+                                { 2, 2 }
+                            }
+                        }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 0.0500000007, -1 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                0.119808309
+                                0.311501592
+                                0.535143793
+                                0.800000012
+                            }
+                            values: list[vec2] = {
+                                { 0.075000003, -1.5 }
+                                { 0.0549999997, -1.10000002 }
+                                { 0.0390500017, -0.780682445 }
+                                { 0.027900001, -0.55806452 }
+                                { 0.0199999996, -0.400000006 }
+                            }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "geo_MistLayer4"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ring01_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.674509823, 0.800000012, 1, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.800000012
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -11
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.145805836
+                                1
+                            }
+                            values: list[f32] = {
+                                0.161105067
+                                0.800000012
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ramp01_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 180, 360, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 180, 360, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.35000002, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 1.20000005, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.dds"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0.349999994, 0 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.133945912
+                            0.23402752
+                            0.420534939
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0.524999976, 0 }
+                            { 0.343261689, 0 }
+                            { 0.272338718, 0 }
+                            { 0.230623156, 0 }
+                            { 0.188397303, 0 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Cape_Nebula_01.tex"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 5, 2 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 5, 2 }
+                                { 5, 2 }
+                            }
+                        }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 1, -1 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                0.107445806
+                                0.259189427
+                                0.488218635
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 0.998130858, -1 }
+                                { 0.676635563, -0.553744912 }
+                                { 0.493457943, -0.338317752 }
+                                { 0.371962607, -0.218691587 }
+                                { 0.155140191, -0.106542058 }
+                            }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground10"
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -190, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveRay {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.650003791, 0.60999465, 0.400000006, 0.349996179 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.300000012
+                            0.600000024
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0.0500038154 }
+                            { 1, 1, 1, 0.409994662 }
+                            { 1, 1, 1, 1 }
+                            { 1, 0.919996977, 0.790005326, 0.200000003 }
+                        }
+                    }
+                }
+                pass: i16 = -18
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 80, 80, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Clock_01.tex"
+                frameRate: f32 = 5
+                numFrames: u16 = 4
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { -0.180000007, 0.300000012 }
+                }
+                texDiv: vec2 = { 2, 2 }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { -1, 1 }
+                }
+                uvRotation: embed = ValueFloat {
+                    constantValue: f32 = 3
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLinger: option[f32] = {
+                    3.20000005
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "prestige_spotlight"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 100, 0 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 2, 0 }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -350, 0 }
+                }
+                primitive: pointer = VfxPrimitiveRay {}
+                blendMode: u8 = 4
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.909803927, 0.960784316, 0.639215708, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.300000012
+                        }
+                        values: list[vec4] = {
+                            { 0.909803927, 0.960784316, 0.639215708, 0 }
+                            { 0.909803927, 0.960784316, 0.639215708, 1 }
+                        }
+                    }
+                }
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.25
+                                0.349999994
+                                1
+                            }
+                            values: list[f32] = {
+                                0.649999976
+                                0
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_ultbeams.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 650, 900, 0 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0149999997
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.300000012, 0, 0 }
+                            { 0.800000012, 0.800000012, 0 }
+                            { 1, 1.20000005, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Shine01_01.tex"
+                texDiv: vec2 = { 1, -1 }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.dds"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 3.5, 0.300000012 }
+                    }
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, 0.5 }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, 1 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.39999998
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground24"
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -500, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveRay {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.889997721, 0.420004576, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.400000006
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -19
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.600000024
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_BuildRamp01_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 0, 1, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 530, 800, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_BuildGlow01_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { -0.0299999993, 0 }
+                }
+                texDiv: vec2 = { -1, 1 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.39999998
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground25"
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -500, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveRay {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.600000024 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.449999988
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.130006865, 0.130006865, 0.130006865, 0 }
+                            { 0.2399939, 0.2399939, 0.2399939, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0.530006886 }
+                        }
+                    }
+                }
+                pass: i16 = -18
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 1.5
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.600000024
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0
+                                1.5
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 0.349999994
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_BuildRamp01_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 0, 1, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 500, 800, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Build02_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { -0.0299999993, 0 }
+                }
+                texDiv: vec2 = { -1, 1 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.39999998
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground26"
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -500, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveRay {}
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.449999988
+                            0.460000008
+                            0.699999988
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -19
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 1.5
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.5
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0
+                                1.5
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_BuildRamp01_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 0, 0, 1, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 500, 800, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Build02_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { -0.0299999993, 0 }
+                }
+                texDiv: vec2 = { -1, 1 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.39999998
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground27"
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -500, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveRay {}
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.300000012
+                            0.600000024
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.13333334, 0.13333334, 0.13333334, 0.349019617 }
+                            { 0.239215687, 0.239215687, 0.239215687, 1 }
+                            { 0.337254912, 0.337254912, 0.337254912, 1 }
+                            { 1, 0.919996977, 0.790005326, 0.200000003 }
+                        }
+                    }
+                }
+                pass: i16 = -20
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 1.5
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.600000024
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0
+                                1.5
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 0.400000006
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_BuildRamp01_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 1, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 500, 800, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Build01_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { -0.0299999993, 0 }
+                }
+                texDiv: vec2 = { -1, 1 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.39999998
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground28"
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -190, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveRay {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.650003791, 0.60999465, 0.400000006, 0.110002287 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.300000012
+                            0.600000024
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 0.919996977, 0.790005326, 0.439993888 }
+                        }
+                    }
+                }
+                pass: i16 = -18
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 80, 80, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Clock01_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { -0.180000007, 0.300000012 }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { -1, 1 }
+                }
+                uvRotation: embed = ValueFloat {
+                    constantValue: f32 = 3
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.5
+                }
+                lifetime: option[f32] = {
+                    0.100000001
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Purple Ring1"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Indicator.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.694117665, 0.623529434, 0.403921574, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            0.5
+                            0.999899983
+                        }
+                        values: list[vec4] = {
+                            { 0.694117665, 0.623529434, 0.403921574, 0 }
+                            { 0.694117665, 0.623529434, 0.403921574, 1 }
+                            { 0.694117665, 0.623529434, 0.403921574, 1 }
+                            { 0.694117665, 0.623529434, 0.403921574, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 12
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -360
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 1, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2.45000005, 1, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_IndicatorLine01.tex"
+            }
+        }
+        particleName: string = "Chogath_Skin23_Q_Ally_team"
+        particlePath: string = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Q_Ally_team"
+        soundOnCreateDefault: string = "Play_sfx_Chogath_Rupture_cast1"
+    }
+    "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Q_Enemy_team" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground"
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -190, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveRay {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.650003791, 0.60999465, 0.400000006, 0.349996179 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.300000012
+                            0.600000024
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0.0500038154 }
+                            { 1, 1, 1, 0.409994662 }
+                            { 1, 1, 1, 1 }
+                            { 1, 0.919996977, 0.790005326, 0.200000003 }
+                        }
+                    }
+                }
+                pass: i16 = -18
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 80, 80, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Clock_01.tex"
+                frameRate: f32 = 5
+                numFrames: u16 = 4
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { -0.180000007, 0.300000012 }
+                }
+                texDiv: vec2 = { 2, 2 }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { -1, 1 }
+                }
+                uvRotation: embed = ValueFloat {
+                    constantValue: f32 = 3
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.39999998
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground1"
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -190, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveRay {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.650003791, 0.60999465, 0.400000006, 0.110002287 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.300000012
+                            0.600000024
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 0.919996977, 0.790005326, 0.439993888 }
+                        }
+                    }
+                }
+                pass: i16 = -18
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 80, 80, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Clock01_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { -0.180000007, 0.300000012 }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { -1, 1 }
+                }
+                uvRotation: embed = ValueFloat {
+                    constantValue: f32 = 3
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.39999998
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground2"
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -500, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveRay {}
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.300000012
+                            0.600000024
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.13333334, 0.13333334, 0.13333334, 0.349019617 }
+                            { 0.239215687, 0.239215687, 0.239215687, 1 }
+                            { 0.337254912, 0.337254912, 0.337254912, 1 }
+                            { 1, 0.919996977, 0.790005326, 0.200000003 }
+                        }
+                    }
+                }
+                pass: i16 = -20
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 1.5
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.600000024
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0
+                                1.5
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 0.400000006
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_BuildRamp01_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 1, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 500, 800, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Build01_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { -0.0299999993, 0 }
+                }
+                texDiv: vec2 = { -1, 1 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.39999998
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground3"
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -500, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveRay {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.600000024 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.449999988
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.130006865, 0.130006865, 0.130006865, 0 }
+                            { 0.2399939, 0.2399939, 0.2399939, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0.530006886 }
+                        }
+                    }
+                }
+                pass: i16 = -18
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 1.5
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.600000024
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0
+                                1.5
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 0.349999994
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_BuildRamp01_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 0, 1, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 500, 800, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Build02_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { -0.0299999993, 0 }
+                }
+                texDiv: vec2 = { -1, 1 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.39999998
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground4"
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -500, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveRay {}
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.449999988
+                            0.460000008
+                            0.699999988
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -19
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 1.5
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.5
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0
+                                1.5
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_BuildRamp01_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 0, 0, 1, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 500, 800, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Build02_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { -0.0299999993, 0 }
+                }
+                texDiv: vec2 = { -1, 1 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.39999998
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground5"
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -500, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveRay {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.889997721, 0.420004576, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.400000006
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -19
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.600000024
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_BuildRamp01_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 0, 1, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 530, 800, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_BuildGlow01_01.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { -0.0299999993, 0 }
+                }
+                texDiv: vec2 = { -1, 1 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                lifetime: option[f32] = {
+                    0.150000006
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "UnderGlow"
+                Filtering: pointer = VfxEmitterFiltering {
+                    keywordsExcluded: list[string] = {
+                        "ZacGrumpy"
+                    }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, 0, 0 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {}
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 0, 0, 0 }
+                        { 0, 0, 0 }
+                    }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_W_Alpha01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0, 0, 0, 1 }
+                }
+                pass: i16 = -200
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 1
+                stencilRef: u8 = 6
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 16, 1, 1 }
+                }
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground7"
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -150, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.886274517, 0.690196097, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.990005314, 1, 0.7400015, 1 }
+                            { 0.929411769, 1, 0.752941191, 0.749019623 }
+                            { 0.627451003, 0.952941179, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -24
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 300, 510, 510 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Distort_01_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.39999998
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground8"
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.211764708, 0.227450982, 0.141176477, 0.882352948 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0.749019623 }
+                            { 0.0899977088, 0.0899977088, 0.0899977088, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -25
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 500, 510, 510 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Distort_01_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground9"
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.510002315, 0.510002315, 0.510002315, 0.600000024 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.698039234, 0.666666687, 0.301960796, 1 }
+                            { 0.590005338, 0.689997733, 0.500007629, 0.749996185 }
+                            { 1, 0.980392158, 0.725490212, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -12
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 500, 510, 510 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Distort_01_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "geo_MistLayer"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ring01_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.674509823, 0.800000012, 1, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.800000012
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -11
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.145805836
+                                1
+                            }
+                            values: list[f32] = {
+                                0.161105067
+                                0.800000012
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ramp01_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 180, 360, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 180, 360, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.35000002, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 1.20000005, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.dds"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0.349999994, 0 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.133945912
+                            0.23402752
+                            0.420534939
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0.524999976, 0 }
+                            { 0.343261689, 0 }
+                            { 0.272338718, 0 }
+                            { 0.230623156, 0 }
+                            { 0.188397303, 0 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Cape_Nebula_01.tex"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 5, 2 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 5, 2 }
+                                { 5, 2 }
+                            }
+                        }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 1, -1 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                0.107445806
+                                0.259189427
+                                0.488218635
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 0.998130858, -1 }
+                                { 0.676635563, -0.553744912 }
+                                { 0.493457943, -0.338317752 }
+                                { 0.371962607, -0.218691587 }
+                                { 0.155140191, -0.106542058 }
+                            }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "geo_MistLayer1"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ring01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.870588243, 1, 0.996078432, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                }
+                                keyValues: list[f32] = {
+                                    5
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec4] = {
+                            { 0.870588243, 1, 0.996078432, 1 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.800000012
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -13
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.145805836
+                                1
+                            }
+                            values: list[f32] = {
+                                0.161105067
+                                0.800000012
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ramp01_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 180, 360, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 180, 360, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.35000002, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 1.20000005, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Somke02_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { -0.300000012, 0 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.137150437
+                            0.226298958
+                            0.405454814
+                            0.800000012
+                        }
+                        values: list[vec2] = {
+                            { -0.449999988, 0 }
+                            { -0.294224322, 0 }
+                            { -0.204075709, 0 }
+                            { -0.140876651, 0 }
+                            { -0.120000005, 0 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 2, 1 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoCowl_Galaxy_03.tex"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 2, 2 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 2, 2 }
+                                { 2, 1.20000005 }
+                            }
+                        }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 1, -1 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                0.0970782265
+                                0.238454282
+                                0.476908565
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 0.998130858, -1 }
+                                { 0.566355169, -0.553744912 }
+                                { 0.267289728, -0.252336442 }
+                                { 0.102803737, -0.0915887877 }
+                                { 0, -0 }
+                            }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "geo_MistLayer2"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -50, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ring01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.533333361, 0.662745118, 0.701960802, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                }
+                                keyValues: list[f32] = {
+                                    3
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec4] = {
+                            { 0.533333361, 0.662745118, 0.701960802, 1 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.800000012
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -18
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 0.349999994
+                    }
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ramp01_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 180, 120, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.5, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 1.20000005, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Somke02_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0.5, 0 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100204162
+                            0.244395092
+                            0.467283279
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0.75, 0 }
+                            { 0.550000012, 0 }
+                            { 0.390500009, 0 }
+                            { 0.279000014, 0 }
+                            { 0.200000003, 0 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 2, 1 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoCowl_Galaxy_03.tex"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 2, 2 }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 0, -2 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                0.12158341
+                                0.274269551
+                                0.500471234
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 0, -2 }
+                                { 0, -1.17851782 }
+                                { 0, -0.684112132 }
+                                { 0, -0.306542069 }
+                                { 0, -0.200000003 }
+                            }
+                        }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.5, 0.5 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec2] = {
+                                { 0.5, 0.5 }
+                            }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "geo_MistLayer3"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -100, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ring01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.403921574, 0.458823532, 0.4627451, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                }
+                                keyValues: list[f32] = {
+                                    3
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec4] = {
+                            { 0.403921574, 0.458823532, 0.4627451, 1 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.800000012
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -19
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 0.400000006
+                    }
+                    erosionFeatherOut: f32 = 0.150000006
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ramp01_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 180, 360, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 180, 360, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.60000002, 1, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Somke02_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0.300000012, 0 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100204162
+                            0.244395092
+                            0.467283279
+                            0.800000012
+                        }
+                        values: list[vec2] = {
+                            { 0.449999988, 0 }
+                            { 0.330000013, 0 }
+                            { 0.234300002, 0 }
+                            { 0.167400002, 0 }
+                            { 0.120000005, 0 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoCowl_Galaxy_03.tex"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 2, 2 }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 0, -1 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                0.12158341
+                                0.274269551
+                                0.500471234
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 0, -1 }
+                                { 0, -0.589258909 }
+                                { 0, -0.342056066 }
+                                { 0, -0.153271034 }
+                                { 0, -0 }
+                            }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "geo_MistLayer4"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -70, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_ego_Skin19_R_Energy.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.75686276, 0.980392158, 1, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0500000007
+                            0.649017572
+                            0.899999976
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -15
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.200000003
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ramp01_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 360, 180, 360 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    0
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.200000003
+                                    0.600000024
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    0.300000012
+                                    0.550000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    0
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 360, 180, 360 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.5, 1, 2 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoBasicGradient.tex"
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoCowl_Galaxy_03.tex"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 2, 1 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 2, 1 }
+                                { 2, 2 }
+                            }
+                        }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 0.0500000007, -1 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                0.119808309
+                                0.311501592
+                                0.535143793
+                                0.800000012
+                            }
+                            values: list[vec2] = {
+                                { 0.075000003, -1.5 }
+                                { 0.0549999997, -1.10000002 }
+                                { 0.0390500017, -0.780682445 }
+                                { 0.027900001, -0.55806452 }
+                                { 0.0199999996, -0.400000006 }
+                            }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                lifetime: option[f32] = {
+                    2
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground10"
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.654901981, 0.937254906, 1, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -14
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.254476905
+                                0.480678618
+                                0.769085765
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0.375700921
+                                0.671028018
+                                0.871028066
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.200000003
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_juan_yunV.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRotationEnabled: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                rotation0: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, -1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, -5, 0 }
+                            { 0, -0, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 300, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.275887847, 0, 0 }
+                            { 1.29999995, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Somke01_01.tex"
+                particleUVRotateRate: embed = IntegratedValueFloat {
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Distort_01_01.tex"
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "decal_DarkRing"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.109803922, 0.105882354, 0.0705882385, 0.670588255 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.800000012
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                meshRenderFlags: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 280, 330, 330 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_ego_Skin19_R_decal.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        times: list[f32] = {
+                            0
+                            0.00999999978
+                            0.0199999996
+                        }
+                        values: list[f32] = {
+                            0
+                            0
+                            1
+                        }
+                    }
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.5
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "geo_Edge"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoR_Edge.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.474509805, 0.43921569, 0.274509817, 0.862745106 }
+                }
+                pass: i16 = 10
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1.39999998
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 0.400000006
+                    erosionSliceWidth: f32 = 1.20000005
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoDemon_Trail_Rotate.tex"
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRotationEnabled: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 20, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 20, 0 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                rotation0: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.400000006
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 1, 0 }
+                            { 0, 1, 0 }
+                            { 0, 1, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2.5, 2.5, 2.5 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                        }
+                        values: list[vec3] = {
+                            { 1, 3, 1 }
+                            { 1, 6, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_ego_R_Mis_Dirt_Sides_V03.tex"
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 2, 1 }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.5
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "geo_Edge1"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoR_Edge.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.719996929, 0.910002291, 1, 0.450003803 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.300000012
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.647058845, 0.831372559, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 11
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.400000006
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1.39999998
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 0.400000006
+                    erosionSliceWidth: f32 = 1.20000005
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoDemon_Trail_Rotate.tex"
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRotationEnabled: flag = true
+                isGroundLayer: flag = true
+                isLocalOrientation: flag = false
+                rotation0: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.400000006
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 1, 0 }
+                            { 0, 1, 0 }
+                            { 0, 1, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2.5, 2.5, 2.5 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                        }
+                        values: list[vec3] = {
+                            { 1, 3, 1 }
+                            { 1, 6, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_ego_R_Mis_Dirt_Sides_V03.tex"
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 2, 1 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoCowl_Galaxy_03.tex"
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLinger: option[f32] = {
+                    3.20000005
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "prestige_spotlight"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 100, 0 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 2, 0 }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -350, 0 }
+                }
+                primitive: pointer = VfxPrimitiveRay {}
+                blendMode: u8 = 4
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.909803927, 0.960784316, 0.639215708, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.300000012
+                        }
+                        values: list[vec4] = {
+                            { 0.909803927, 0.960784316, 0.639215708, 0 }
+                            { 0.909803927, 0.960784316, 0.639215708, 1 }
+                        }
+                    }
+                }
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.25
+                                0.349999994
+                                1
+                            }
+                            values: list[f32] = {
+                                0.649999976
+                                0
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_ultbeams.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 650, 900, 0 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0149999997
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.300000012, 0, 0 }
+                            { 0.800000012, 0.800000012, 0 }
+                            { 1, 1.20000005, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Shine01_01.tex"
+                texDiv: vec2 = { 1, -1 }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.dds"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 3.5, 0.300000012 }
+                    }
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, 0.5 }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, 1 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.5
+                }
+                lifetime: option[f32] = {
+                    0.100000001
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Purple Ring1"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Indicator.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.309803933, 0.172549024, 1 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.509803951, 0.419607848, 0.266666681, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            0.5
+                            0.999899983
+                        }
+                        values: list[vec4] = {
+                            { 0.509803951, 0.419607848, 0.266666681, 0 }
+                            { 0.509803951, 0.419607848, 0.266666681, 1 }
+                            { 0.509803951, 0.419607848, 0.266666681, 1 }
+                            { 0.509803951, 0.419607848, 0.266666681, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 13
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -360
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 1, 0 }
+                        }
+                    }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 20, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2.45000005, 1, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_IndicatorLine01.tex"
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_SwirlTrail.tex"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 3, 1 }
+                    }
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.5, 0 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.5
+                }
+                lifetime: option[f32] = {
+                    0.100000001
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Purple Ring2"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Indicator.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.411764711, 0.215686277, 1 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.694117665, 0.623529434, 0.403921574, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            0.5
+                            0.999899983
+                        }
+                        values: list[vec4] = {
+                            { 0.694117665, 0.623529434, 0.403921574, 0 }
+                            { 0.694117665, 0.623529434, 0.403921574, 1 }
+                            { 0.694117665, 0.623529434, 0.403921574, 1 }
+                            { 0.694117665, 0.623529434, 0.403921574, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 12
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -360
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 1, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2.45000005, 1, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_IndicatorLine01.tex"
+            }
+        }
+        particleName: string = "Chogath_Skin23_Q_Enemy_team"
+        particlePath: string = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Q_Enemy_team"
+        soundOnCreateDefault: string = "Play_sfx_Chogath_Rupture_cast1"
+    }
+    "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_R_tar_Child02" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.0599999987
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.300000012
+                }
+                lifetime: option[f32] = {
+                    0.600000024
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "DarkShockwave"
+                importance: u8 = 2
+                SpawnShape: pointer = VfxShapeBox {
+                    flags: u8 = 1
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.894117653, 0.894117653, 0.894117653, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.211941659
+                            0.327217788
+                            0.554168642
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.972549021, 1, 0.823529422, 1 }
+                            { 1, 0.886274517, 0.619607866, 1 }
+                            { 0.278431386, 0.419607848, 0.470588237, 1 }
+                            { 0.184313729, 0.23137255, 0.23137255, 0.593997598 }
+                            { 0, 0, 0, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 150
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 45, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 60, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.116313592
+                            0.24112314
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 2.49732852, 0, 0 }
+                            { 3.25217295, 0, 0 }
+                            { 5, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Shockwave_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.0500000007
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.300000012
+                }
+                particleLinger: option[f32] = {
+                    2.5
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "POP7"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.949996173, 0.829999208, 1 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.952941179, 0.945098042, 0.862745106, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100081757
+                            0.197411314
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.930519044, 0.945098042, 0.73079586, 1 }
+                            { 0.933878005, 0.945098042, 0.733336627, 0.420004576 }
+                            { 0.455916971, 0.422514409, 0.284198374, 0.0980392173 }
+                            { 0.104636677, 0.122306809, 0.104882739, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 31
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 500, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0.00342465751
+                            0.211487636
+                            0.384074688
+                            0.999522269
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 0.351702809, 0, 0 }
+                            { 0.0775862336, 0, 0 }
+                            { 0.00862068962, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Glow10_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.150000006
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 3
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.5
+                }
+                particleLinger: option[f32] = {
+                    2.5
+                }
+                lifetime: option[f32] = {
+                    0.300000012
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Icon2"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.686274529, 0.725490212, 0.576470613, 0.992156863 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.00343053183
+                            0.1652852
+                            0.318578154
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 0.972549021, 0.933333337, 1 }
+                            { 0.258823544, 0.298039228, 0.305882365, 0.215686277 }
+                            { 0, 0, 0, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 72
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 120, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.298463702
+                            0.459379911
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 0.619834721, 0, 0 }
+                            { 0.851239681, 0, 0 }
+                            { 1, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Glow08_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 3
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.360000014
+                }
+                particleLinger: option[f32] = {
+                    2.5
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Icon3"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.211764708, 0.192156866, 0.145098045, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.171837881
+                            0.374490112
+                            0.648370504
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0.793103456 }
+                            { 1, 1, 1, 0.402298868 }
+                            { 1, 1, 1, 0.126436785 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 31
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.555746138
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0.190082639
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.200000003
+                    erosionFeatherOut: f32 = 0.200000003
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 200, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.131102547
+                            0.285988897
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 0.409197807, 0, 0 }
+                            { 0.555927634, 0, 0 }
+                            { 1, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Glow10_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.0500000007
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 10
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.300000012
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.200000003
+                                    1.5
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.300000012
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    10.3999996
+                }
+                lifetime: option[f32] = {
+                    0.200000003
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "BitsBlend"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 700, 0, 700 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.699999988
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 700, 0, 700 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 3, 0, 3 }
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 1, 0, 0 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 1, 1, 1 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {
+                            constantValue: f32 = 1
+                            dynamics: pointer = VfxAnimatedFloatVariableData {
+                                probabilityTables: list[pointer] = {
+                                    VfxProbabilityTableData {
+                                        keyTimes: list[f32] = {
+                                            0
+                                            1
+                                        }
+                                        keyValues: list[f32] = {
+                                            0
+                                            360
+                                        }
+                                    }
+                                }
+                                times: list[f32] = {
+                                    0
+                                }
+                                values: list[f32] = {
+                                    1
+                                }
+                            }
+                        }
+                        ValueFloat {
+                            constantValue: f32 = 1
+                            dynamics: pointer = VfxAnimatedFloatVariableData {
+                                probabilityTables: list[pointer] = {
+                                    VfxProbabilityTableData {
+                                        keyTimes: list[f32] = {
+                                            0
+                                            1
+                                        }
+                                        keyValues: list[f32] = {
+                                            0
+                                            360
+                                        }
+                                    }
+                                }
+                                times: list[f32] = {
+                                    0
+                                }
+                                values: list[f32] = {
+                                    1
+                                }
+                            }
+                        }
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 0, 1, 0 }
+                        { 0, 0, 1 }
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.709803939, 0.996078432, 1, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.470294207
+                            0.9990412
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.97647059, 0.858823538, 1 }
+                            { 0.859998465, 0.97999543, 1, 0.549996197 }
+                            { 0.86999315, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 90
+                isDirectionOriented: flag = true
+                isRandomStartFrame: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 50, 200, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.300000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.300000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 50, 200, 0 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.219178081
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 1 }
+                            { 1, 1, 0.846575379 }
+                            { 0, 0, 0.300000012 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_sparks_gold_01.tex"
+                numFrames: u16 = 2
+                texDiv: vec2 = { 2, 1 }
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.100000001
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.5
+                }
+                particleLinger: option[f32] = {
+                    10.25
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "shockwave"
+                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {}
+                blendMode: u8 = 4
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.345098048, 0.356862754, 0.247058824, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.345098048, 0.356862754, 0.247058824, 1 }
+                            { 0, 0, 0, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 30
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 50, 500, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0.00171232875
+                            0.158219174
+                            0.307534248
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.0413223132, 1, 1 }
+                            { 3.15289259, 1, 1 }
+                            { 4.11570263, 1, 1 }
+                            { 5, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Assets_1_57_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 20
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.400000006
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.400000006
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    0.5
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Sparkles_Rainbow"
+                translationOverride: vec3 = { 10, 30, 10 }
+                birthOrbitalVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.400000006
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 1, 0 }
+                            { 0, 0.200000003, 0 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 800, 800, 800 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 800, 800, 800 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 7, 15, 7 }
+                }
+                birthAcceleration: embed = ValueVector3 {
+                    constantValue: vec3 = { 2, 2, 2 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, -100, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, -50, 0 }
+                            { 0, -100, 0 }
+                        }
+                    }
+                }
+                SpawnShape: pointer = VfxShapeSphere {}
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_colorhold.tex"
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.709803939, 0.996078432, 1, 1 }
+                }
+                colorLookUpTypeY: u8 = 3
+                alphaRef: u8 = 0
+                isUniformScale: flag = true
+                isRandomStartFrame: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 7, 25, 50 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.600000024
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 7, 25, 50 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.300000012
+                            0.5
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 1, 1, 1 }
+                            { 0.200000003, 0.200000003, 0.200000003 }
+                            { 1, 1, 1 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_sparks_gold_01.tex"
+                numFrames: u16 = 2
+                texDiv: vec2 = { 2, 1 }
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.100000001
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.349999994
+                }
+                particleLinger: option[f32] = {
+                    2.5
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Icon9"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.790005326, 0.560006082, 0.200000003, 0.990005314 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.13874948
+                            0.413531542
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0.739933431 }
+                            { 0.596078455, 0.596078455, 0.596078455, 0.596078455 }
+                        }
+                    }
+                }
+                pass: i16 = 90
+                alphaRef: u8 = 1
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.250988424
+                                0.649152994
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0.120171674
+                                0.820124686
+                                1
+                            }
+                        }
+                    }
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Noise03_01.tex"
+                }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 90, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.231682867
+                            0.474790871
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 0.727272749, 0, 0 }
+                            { 0.876033008, 0, 0 }
+                            { 1, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Icon11_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.0299999993
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 3
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.300000012
+                }
+                particleLinger: option[f32] = {
+                    2.5
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "POP10"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.970000744 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.0549019612, 0.0666666701, 0.0823529437, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.530354023
+                            0.649885535
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.0549019612, 0.0666666701, 0.0823529437, 1 }
+                            { 0.0549019612, 0.0666666701, 0.0823529437, 1 }
+                            { 0.0116262976, 0.014117647, 0.0174394455, 0.286274523 }
+                            { 0, 0, 0, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 1
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 300, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0655295253
+                            0.165811166
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 0.603448212, 0, 0 }
+                            { 0.892205775, 0, 0 }
+                            { 1, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Glow10_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.170000002
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.300000012
+                }
+                particleLinger: option[f32] = {
+                    2.5
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Icon11"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.835294127, 0.80392158, 0.631372571, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.292808205
+                            0.491438389
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0.809646189 }
+                            { 0.596078455, 0.596078455, 0.596078455, 0.596078455 }
+                        }
+                    }
+                }
+                pass: i16 = 40
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.410958916
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0.380165279
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.200000003
+                    erosionFeatherOut: f32 = 0.200000003
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Noise03_01.tex"
+                }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 70, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.231682867
+                            0.474790871
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 0.727272749, 0, 0 }
+                            { 0.876033008, 0, 0 }
+                            { 1, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Icon03_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.0500000007
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.300000012
+                }
+                particleLinger: option[f32] = {
+                    2.5
+                }
+                lifetime: option[f32] = {
+                    1.20000005
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "POP11"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.889997721 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.886274517, 0.619607866, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.504314482
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.886274517, 0.619607866, 1 }
+                            { 0.495685518, 0.439313442, 0.307130635, 1 }
+                            { 0, 0, 0, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 90
+                miscRenderFlags: u8 = 1
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 30, 450, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.113153234
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 0.952586234, 0.842975199, 0 }
+                            { 0, 1, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Glow01_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.100000001
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.349999994
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.800000012
+                                    0.5
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.349999994
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    10.3999996
+                }
+                lifetime: option[f32] = {
+                    0.200000003
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "BitsBlend1"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 800, 200, 800 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 800, 200, 800 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 5, 1, 1 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, -300, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, -300, 0 }
+                        }
+                    }
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 1, 0, 0 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 1, 1, 1 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {
+                            constantValue: f32 = 1
+                            dynamics: pointer = VfxAnimatedFloatVariableData {
+                                probabilityTables: list[pointer] = {
+                                    VfxProbabilityTableData {
+                                        keyTimes: list[f32] = {
+                                            0
+                                            1
+                                        }
+                                        keyValues: list[f32] = {
+                                            0
+                                            360
+                                        }
+                                    }
+                                }
+                                times: list[f32] = {
+                                    0
+                                }
+                                values: list[f32] = {
+                                    1
+                                }
+                            }
+                        }
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 0, 1, 0 }
+                        { 0, 0, 0 }
+                    }
+                }
+                blendMode: u8 = 1
+                pass: i16 = 90
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.385871559
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_AlphaSlice_1_01.tex"
+                }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                        }
+                    }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 300, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 300, 0, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 28, 90, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.899999976
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.300000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 28, 90, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Debris02_01.tex"
+                numFrames: u16 = 4
+                texDiv: vec2 = { 2, 2 }
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.100000001
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 4
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.800000012
+                                    0.5
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.800000012
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    10.3999996
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "BitsBlend2"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 900, 0, 900 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 900, 0, 900 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 5, 5, 5 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, -800, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, -800, 0 }
+                        }
+                    }
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 1, 0, 0 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 1, 1, 1 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {
+                            constantValue: f32 = 1
+                            dynamics: pointer = VfxAnimatedFloatVariableData {
+                                probabilityTables: list[pointer] = {
+                                    VfxProbabilityTableData {
+                                        keyTimes: list[f32] = {
+                                            0
+                                            1
+                                        }
+                                        keyValues: list[f32] = {
+                                            0
+                                            360
+                                        }
+                                    }
+                                }
+                                times: list[f32] = {
+                                    0
+                                }
+                                values: list[f32] = {
+                                    1
+                                }
+                            }
+                        }
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 0, 1, 0 }
+                        { 0, 0, 0 }
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.980392158, 0.854901969, 0.678431392, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.427536219
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 0.819607854, 0.823529422, 0.698039234, 1 }
+                        }
+                    }
+                }
+                pass: i16 = 90
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.385871559
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_AlphaSlice_1_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                        }
+                    }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 300, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 300, 0, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 25, 90, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.899999976
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.300000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 25, 90, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Debris02_01.tex"
+                numFrames: u16 = 4
+                texDiv: vec2 = { 2, 2 }
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.100000001
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 5
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.349999994
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.200000003
+                                    1.5
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.349999994
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    10.3999996
+                }
+                lifetime: option[f32] = {
+                    0.200000003
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "BitsBlend3"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 1200, 300, 1200 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 1200, 300, 1200 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 5, 3, 5 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, -500, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, -500, 0 }
+                        }
+                    }
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 1, 0, 0 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 1, 1, 1 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {
+                            constantValue: f32 = 1
+                            dynamics: pointer = VfxAnimatedFloatVariableData {
+                                probabilityTables: list[pointer] = {
+                                    VfxProbabilityTableData {
+                                        keyTimes: list[f32] = {
+                                            0
+                                            1
+                                        }
+                                        keyValues: list[f32] = {
+                                            0
+                                            360
+                                        }
+                                    }
+                                }
+                                times: list[f32] = {
+                                    0
+                                }
+                                values: list[f32] = {
+                                    1
+                                }
+                            }
+                        }
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 0, 1, 0 }
+                        { 0, 0, 0 }
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.768627465, 0.36470589, 0.800000012 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.97647059, 0.858823538, 1 }
+                            { 1, 0.964705884, 0.752941191, 1 }
+                            { 0.870588243, 1, 0.980392158, 1 }
+                        }
+                    }
+                }
+                pass: i16 = 90
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.385871559
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_AlphaSlice_1_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                        }
+                    }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 600, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 600, 0, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 30, 90, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.899999976
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.300000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 30, 90, 0 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.236337483
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 1, 0, 0 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Debris03_01.tex"
+                numFrames: u16 = 4
+                texDiv: vec2 = { 2, 2 }
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.100000001
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 4
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.550000012
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.800000012
+                                    0.5
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.550000012
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    10.3999996
+                }
+                lifetime: option[f32] = {
+                    0.200000003
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "BitsBlend4"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 300, 200, 300 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 300, 200, 300 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 5, 2, 1 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, -1000, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, -1000, 0 }
+                        }
+                    }
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 1, 0, 0 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 1, 1, 1 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {
+                            constantValue: f32 = 1
+                            dynamics: pointer = VfxAnimatedFloatVariableData {
+                                probabilityTables: list[pointer] = {
+                                    VfxProbabilityTableData {
+                                        keyTimes: list[f32] = {
+                                            0
+                                            1
+                                        }
+                                        keyValues: list[f32] = {
+                                            0
+                                            360
+                                        }
+                                    }
+                                }
+                                times: list[f32] = {
+                                    0
+                                }
+                                values: list[f32] = {
+                                    1
+                                }
+                            }
+                        }
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 0, 1, 0 }
+                        { 0, 0, 0 }
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.980392158, 0.80392158, 0.549019635, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.427536219
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 0.819607854, 0.823529422, 0.698039234, 1 }
+                        }
+                    }
+                }
+                pass: i16 = 90
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.385871559
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_AlphaSlice_1_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                        }
+                    }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 500, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 500, 0, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 25, 90, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.899999976
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.300000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 25, 90, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Debris02_01.tex"
+                numFrames: u16 = 4
+                texDiv: vec2 = { 2, 2 }
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.0500000007
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 3
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.25
+                }
+                particleLinger: option[f32] = {
+                    2.5
+                }
+                lifetime: option[f32] = {
+                    1.20000005
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "POP12"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                blendMode: u8 = 4
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.917647064, 0.611764729, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.917647064, 0.611764729, 1 }
+                            { 0, 0, 0, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 90
+                miscRenderFlags: u8 = 1
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 360, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 360, 0, 0 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 100, 300, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.800000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.699999988
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 100, 300, 1 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.134725615
+                            0.279659569
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 1, 0.717975199, 0 }
+                            { 0.261717081, 0.917818487, 0 }
+                            { 0, 1, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Glow01_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.0500000007
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLinger: option[f32] = {
+                    2.5
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "POP13"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                blendMode: u8 = 4
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.952941179, 0.850980401, 0.670588255, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.158566892
+                            0.264621288
+                            0.453403622
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.930519044, 0.850980401, 0.568027675, 1 }
+                            { 0.930519044, 0.850980401, 0.568027675, 0.650980413 }
+                            { 0.478339136, 0.553971589, 0.457577884, 0.325150073 }
+                            { 0.164429069, 0.173533261, 0.144636676, 0.0623649471 }
+                            { 0, 0, 0, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 90
+                alphaRef: u8 = 0
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 400, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0.00342465751
+                            0.0949804634
+                            0.206030935
+                            0.356955707
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 0.506875217, 0, 0 }
+                            { 0.706397831, 0, 0 }
+                            { 0.780172467, 0, 0 }
+                            { 1, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Glow10_01.tex"
+            }
+        }
+        particleName: string = "Chogath_Skin23_R_tar_Child02"
+        particlePath: string = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_R_tar_Child02"
+        flags: u16 = 198
+    }
+    "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_R_tar_Child03" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.349999994
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Trail"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, 0, 0 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {}
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 0, 0, 0 }
+                        { 0, 0, 0 }
+                    }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Chain06_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.770000756, 0.659998477, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.186481297
+                            0.512464046
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0.127551019 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 50
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 0
+                    }
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Somke02_01.tex"
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                particleIsLocalOrientation: flag = true
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0.699999988, 1.5, 0 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.117449664
+                            0.324065208
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1.5, 0, 0 }
+                            { 1.05841255, 0.548072875, 0 }
+                            { 0.941847503, 0.718300641, 0 }
+                            { 0.941810369, 0.773706913, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Chain05_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -0.200000003 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, -0.200000003 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 1, 1.5 }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.349999994
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Trail1"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, 0, 0 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {}
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 0, 0, 0 }
+                        { 0, 0, 0 }
+                    }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Chain06_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.990005314, 0.62999922, 0.489997715, 0.689997733 }
+                }
+                pass: i16 = 48
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 1.20000005
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.158676893
+                                0.459252149
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0
+                                0.71896553
+                                1.20000005
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.200000003
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Fire_Trail_Up_01.tex"
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                particleIsLocalOrientation: flag = true
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0.699999988, 1.5, 0 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.117449664
+                            0.324065208
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1.5, 0, 0 }
+                            { 1.05841255, 0.548072875, 0 }
+                            { 0.941847503, 0.718300641, 0 }
+                            { 0.941810369, 0.773706913, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Chain05_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -0.200000003 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, -0.200000003 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 1, 1.5 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    texAddressModeMult: u8 = 2
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.349999994
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Trail2"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, 0, 0 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {}
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 0, 0, 0 }
+                        { 0, 0, 0 }
+                    }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Chain06_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                pass: i16 = 49
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 1.20000005
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.136145741
+                                1
+                            }
+                            values: list[f32] = {
+                                -1.20000005
+                                0
+                                1.20000005
+                            }
+                        }
+                    }
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Fire_Trail_Up_01.tex"
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                particleIsLocalOrientation: flag = true
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0.699999988, 1.5, 0 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0.00239693187
+                            0.136145726
+                            0.251677841
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 2, 0, 0 }
+                            { 0.963545918, 0.539452195, 0 }
+                            { 0.941847503, 0.72692132, 0 }
+                            { 0.941810369, 0.773706913, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Chain03_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -0.200000003 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, -0.200000003 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 1, 1.5 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Somke02_01.tex"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 2, 4 }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec2] = {
+                                { 0, 0 }
+                            }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.349999994
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "Trail3"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, 0, 0 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {}
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 0, 0, 0 }
+                        { 0, 0, 0 }
+                    }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Chain06_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.0705882385, 0.0823529437, 0.0745098069, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.239693195
+                            0.567114115
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0.990005314 }
+                            { 1, 1, 1, 0.765306115 }
+                            { 1, 1, 1, 0.418367356 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 47
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 0
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.474592537
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0
+                                0
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.200000003
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Fire_Trail_Up_01.tex"
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                particleIsLocalOrientation: flag = true
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0.699999988, 1.5, 0 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.117449664
+                            0.324065208
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1.5, 0, 0 }
+                            { 1.05841255, 0.548072875, 0 }
+                            { 0.941847503, 0.718300641, 0 }
+                            { 0.941810369, 0.773706913, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_ChainMask02_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -0.200000003 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, -0.200000003 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 1, 1.5 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    texAddressModeMult: u8 = 2
+                }
+            }
+        }
+        particleName: string = "Chogath_Skin23_R_tar_Child03"
+        particlePath: string = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_R_tar_Child03"
+        flags: u16 = 198
+    }
+    "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Q_cas" = VfxSystemDefinitionData {
+        complexEmitterDefinitionData: list[pointer] = {
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 8
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.25
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    2
+                }
+                lifetime: option[f32] = {
+                    3.5
+                }
+                isSingleParticle: flag = true
+                fieldCollectionDefinition: pointer = VfxFieldCollectionDefinitionData {
+                    fieldAttractionDefinitions: list[embed] = {
+                        VfxFieldAttractionDefinitionData {
+                            radius: embed = ValueFloat {
+                                constantValue: f32 = 500
+                            }
+                            acceleration: embed = ValueFloat {
+                                constantValue: f32 = 200
+                            }
+                        }
+                    }
+                    fieldNoiseDefinitions: list[embed] = {
+                        VfxFieldNoiseDefinitionData {
+                            radius: embed = ValueFloat {
+                                constantValue: f32 = 500
+                            }
+                            frequency: embed = ValueFloat {
+                                constantValue: f32 = 300
+                            }
+                            velocityDelta: embed = ValueFloat {
+                                constantValue: f32 = 70
+                            }
+                            axisFraction: vec3 = { 0.25, 0.5, 0.25 }
+                        }
+                    }
+                }
+                emitterName: string = "Embers"
+                birthOrbitalVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -2, 0 }
+                }
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 800, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 800, 0 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 2, 0 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 150, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 150, 0 }
+                        }
+                    }
+                }
+                SpawnShape: pointer = VfxShapeCylinder {
+                    radius: f32 = 180
+                    height: f32 = 10
+                }
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.698039234, 0.894117653, 1, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 0.843137264, 1, 0.992156863, 1 }
+                        }
+                    }
+                }
+                pass: i16 = 800
+                depthBiasFactors: vec2 = { -1, -1 }
+                isDirectionOriented: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                        }
+                    }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 500, 0 }
+                }
+                directionVelocityScale: f32 = 0.00100000005
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 10, 20, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 10, 20, 0 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 1, 1, 0 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Glow5.tex"
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.0500000007
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 20
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.200000003
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    4
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "FLOATING_ROCKS"
+                birthOrbitalVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0.159999996, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.200000003
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0.159999996, 0 }
+                        }
+                    }
+                }
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 2000, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    0
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.400000006
+                                    1.20000005
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.100000001
+                                    0
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 2000, 0 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 4, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    1.5
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 4, 0 }
+                        }
+                    }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                SpawnShape: pointer = VfxShapeCylinder {
+                    radius: f32 = 200
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -50, 0 }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.156862751, 0.337254912, 0.352941185, 0.850980401 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            0.649999976
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 0.874509811, 0.874509811, 0.874509811, 1 }
+                            { 0.866666675, 0.866666675, 0.866666675, 0.419607848 }
+                            { 0.772549033, 0.772549033, 0.772549033, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 600
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRandomStartFrame: flag = true
+                isRotationEnabled: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                        }
+                    }
+                }
+                directionVelocityScale: f32 = 0.00100000005
+                rotation0: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 20, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                            0.25
+                            0.400000006
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 20, 0, 0 }
+                            { 5, 0, 0 }
+                            { 1, 0, 0 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 3, 25, 25 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.300000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 3, 25, 25 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 3, 3, 3 }
+                            { 2, 2, 2 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_rockshards.tex"
+                numFrames: u16 = 8
+                texDiv: vec2 = { 2, 2 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.300000012
+                }
+                particleLinger: option[f32] = {
+                    0.200000003
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                emitterName: string = "Flare"
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 25, 25, 25 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1.5
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 25, 25, 25 }
+                        }
+                    }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                                VfxProbabilityTableData {
+                                    keyTimes: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    keyValues: list[f32] = {
+                                        0
+                                        5
+                                    }
+                                }
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, 0, 0 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {
+                            constantValue: f32 = 1
+                            dynamics: pointer = VfxAnimatedFloatVariableData {
+                                probabilityTables: list[pointer] = {
+                                    VfxProbabilityTableData {
+                                        keyTimes: list[f32] = {
+                                            0
+                                            1
+                                        }
+                                        keyValues: list[f32] = {
+                                            0
+                                            360
+                                        }
+                                    }
+                                }
+                                times: list[f32] = {
+                                    0
+                                }
+                                values: list[f32] = {
+                                    1
+                                }
+                            }
+                        }
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 0, 1.00000012, 0 }
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.549996197 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.300000012
+                            0.699999988
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.670588255, 0.886274517, 0.815686285, 1 }
+                            { 0.75686276, 0.905882359, 0.87843138, 1 }
+                            { 0.733333349, 0.862745106, 0.843137264, 0.180392161 }
+                            { 0.509803951, 0.494117647, 0.411764711, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 800
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 30, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 600, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.118503675
+                            0.249833003
+                            0.619906485
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.5, 0.5, 0.5 }
+                            { 1.20000005, 1.20000005, 1.20000005 }
+                            { 0.98007971, 0.965846479, 0.965846479 }
+                            { 0.326359153, 0.310756981, 0.318953574 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_BA_Glow.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.200000003
+                }
+                particleLinger: option[f32] = {
+                    2.5
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Pop"
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.409994662 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.800000012, 0, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.800000012, 0, 1 }
+                            { 1, 0.800000012, 0, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 31
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 200, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                            { 0.300000012, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Star.tex"
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.100000001
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.20000005
+                }
+                particleLinger: option[f32] = {
+                    2.5
+                }
+                lifetime: option[f32] = {
+                    1.10000002
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Pop1"
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.790005326 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.90196079, 0.329411775, 1 }
+                            { 0.435294122, 0.600000024, 0.576470613, 0.219607845 }
+                            { 0.20784314, 0.286274523, 0.290196091, 0.180392161 }
+                            { 0.113725491, 0.176470593, 0.184313729, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 1500
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 450, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0500000007
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.400000006, 0, 0 }
+                            { 0.699999988, 0, 0 }
+                            { 0.600000024, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_ring_Glow_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.100000001
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLinger: option[f32] = {
+                    2.5
+                }
+                lifetime: option[f32] = {
+                    1.10000002
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Pop2"
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.489997715 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.650980413, 1, 1, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.650980413, 1, 1, 1 }
+                            { 0.650980413, 0.992156863, 0.670588255, 0.600000024 }
+                            { 0.650980413, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 900
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 0
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                0.300000012
+                            }
+                            values: list[f32] = {
+                                0
+                                0
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.200000003
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_juan_yunV.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 250, 1, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Glow.tex"
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.100000001
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.5
+                }
+                particleLinger: option[f32] = {
+                    2.5
+                }
+                lifetime: option[f32] = {
+                    1.10000002
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Pop3"
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 10, 0 }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.980392158, 0.745098054, 0.580392182 }
+                            { 0.690196097, 1, 1, 0.419607848 }
+                            { 1, 0.97647059, 0.717647076, 0.200000003 }
+                            { 1, 0.964705884, 0.752941191, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 800
+                alphaRef: u8 = 10
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0.5
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.5
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_juan_yunV.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 300, 1, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Sphere_Q_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.400000006
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.699999988
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.400000006
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {}
+                lifetime: option[f32] = {
+                    0.300000012
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "StrokeDissolve_Right"
+                importance: u8 = 2
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 600, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.300000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 600, 0 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 2, 2, 5 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                SpawnShape: pointer = VfxShapeBox {
+                    flags: u8 = 1
+                    Size: vec3 = { 20, 10, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { -110, -20, -110 }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.752941191, 0.752941191, 0.752941191, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.752941191, 0.752941191, 0.752941191, 1 }
+                            { 0.752941191, 0.752941191, 0.752941191, 0 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.972549021, 0.670588255, 1 }
+                            { 0.701960802, 0.80392158, 0.80392158, 1 }
+                            { 0.580392182, 0.666666687, 0.666666687, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 800
+                softParticleParams: pointer = VfxSoftParticleDefinitionData {
+                    deltaIn: f32 = 40
+                }
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.0500000007
+                    erosionSliceWidth: f32 = 1
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Smoke_2_Erosion.tex"
+                    erosionMapAddressMode: u8 = 0
+                }
+                depthBiasFactors: vec2 = { -1, -15 }
+                disableBackfaceCull: bool = true
+                isDirectionOriented: flag = true
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 90, -90, 0 }
+                }
+                directionVelocityScale: f32 = 0.00100000005
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 500, 70, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            0.5
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.5, 0.5, 0.800000012 }
+                            { 0.75, 0.800000012, 0.75 }
+                            { 1, 1.10000002, 1 }
+                            { 0.899999976, 1.29999995, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Smoke_3.tex"
+                startFrame: u16 = 3
+                texDiv: vec2 = { 2, 2 }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Smoke_3.tex"
+                    texDivMult: vec2 = { 2, 2 }
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.300000012, 0 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.600000024
+                }
+                particleLinger: option[f32] = {
+                    1
+                }
+                lifetime: option[f32] = {
+                    0.100000001
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "prestige_up_glow"
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 2, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -20, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_expo_cylinder_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.800000012
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.300000012
+                            0.699999988
+                        }
+                        values: list[vec4] = {
+                            { 0.945098042, 0.87843138, 0.529411793, 1 }
+                            { 0.247058824, 0.239215687, 0.149019614, 1 }
+                            { 0.203921571, 0.196078435, 0.109803922, 0 }
+                        }
+                    }
+                }
+                softParticleParams: pointer = VfxSoftParticleDefinitionData {
+                    deltaIn: f32 = 70
+                }
+                disableBackfaceCull: bool = true
+                uvScrollClamp: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 30, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2.29999995, 1, 2.29999995 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    1.39999998
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 2.29999995, 1, 2.29999995 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0989899039
+                            0.185185179
+                            0.370370358
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.5, 0.699999988, 0.5 }
+                            { 1, 0.837037027, 1 }
+                            { 1, 1.39999998, 1 }
+                            { 1, 1.5, 1 }
+                            { 1, 1.60000002, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_juan_jian_22.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 0.800000012 }
+                }
+                texDiv: vec2 = { 0.600000024, 3 }
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -1 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.25
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, -2.5999999 }
+                            { 0, -0.400000006 }
+                            { 0, -0.100000001 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 0.699999988, 1 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_luoxuan_039.tex"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 2, 1 }
+                    }
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.100000001, -0.300000012 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.400000006
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.699999988
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            0.400000006
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {}
+                lifetime: option[f32] = {
+                    0.300000012
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "StrokeDissolve_Right1"
+                importance: u8 = 2
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 600, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.300000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 600, 0 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 2, 2, 5 }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        constantValue: vec3 = { 60, 10, 0 }
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 60, 10, 0 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {}
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 0, 0, 0 }
+                        { 0, 0, 0 }
+                    }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.972549021, 0.670588255, 1 }
+                            { 0.580392182, 0.752941191, 0.717647076, 1 }
+                            { 0.117647059, 0.13333334, 0.129411772, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 800
+                softParticleParams: pointer = VfxSoftParticleDefinitionData {
+                    deltaIn: f32 = 40
+                }
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.0500000007
+                    erosionSliceWidth: f32 = 1
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Smoke_2_Erosion.tex"
+                    erosionMapAddressMode: u8 = 0
+                }
+                depthBiasFactors: vec2 = { -1, -15 }
+                disableBackfaceCull: bool = true
+                isDirectionOriented: flag = true
+                isRandomStartFrame: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 90, -90, 0 }
+                }
+                directionVelocityScale: f32 = 0.00100000005
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 500, 150, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            0.5
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.5, 0.5, 0.800000012 }
+                            { 0.75, 0.800000012, 0.75 }
+                            { 1, 1.10000002, 1 }
+                            { 0.899999976, 1.29999995, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Smoke_3.tex"
+                startFrame: u16 = 4
+                texDiv: vec2 = { 2, 2 }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Smoke_3.tex"
+                    texDivMult: vec2 = { 2, 2 }
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.300000012, 0 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.25
+                }
+                lifetime: option[f32] = {
+                    0.129999995
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "activate_sheen"
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -270, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_dome_tallDome.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.58431375, 0.568627477, 0.388235301, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.58431375, 0.568627477, 0.388235301, 0 }
+                            { 0.58431375, 0.568627477, 0.388235301, 1 }
+                            { 0.58431375, 0.568627477, 0.388235301, 0.470588237 }
+                            { 0.58431375, 0.568627477, 0.388235301, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 800
+                alphaRef: u8 = 3
+                softParticleParams: pointer = VfxSoftParticleDefinitionData {
+                    deltaIn: f32 = 70
+                }
+                modulationFactor: vec4 = { 1, 1, 1, 2 }
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_ErosionPack01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0.0200045779, 0.779995441 }
+                        dynamics: pointer = VfxAnimatedColorVariableData {
+                            times: list[f32] = {
+                                0
+                                0.100000001
+                            }
+                            values: list[vec4] = {
+                                { 1, 0, 0.000313797296, 0.779995441 }
+                                { 1, 0, 0.00040018314, 0 }
+                            }
+                        }
+                    }
+                }
+                disableBackfaceCull: bool = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 120, 0 }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                            { 0, 0, 0 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 2.0250001, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.600000024, 0.800000012, 0.600000024 }
+                            { 1, 1.39999998, 1 }
+                            { 1, 2, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_juan_jian.tex"
+                birthUvScrollRate: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 0.800000012 }
+                }
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, -0.200000003 }
+                }
+                texDiv: vec2 = { 2.5, 1 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    0.150000006
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Mask"
+                Filtering: pointer = VfxEmitterFiltering {
+                    keywordsExcluded: list[string] = {
+                        "ZacGrumpy"
+                    }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                SpawnShape: pointer = VfxShapeLegacy {
+                    emitOffset: embed = ValueVector3 {
+                        dynamics: pointer = VfxAnimatedVector3fVariableData {
+                            probabilityTables: list[pointer] = {
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                                VfxProbabilityTableData {}
+                            }
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec3] = {
+                                { 0, 0, 0 }
+                            }
+                        }
+                    }
+                    emitRotationAngles: list[embed] = {
+                        ValueFloat {}
+                        ValueFloat {}
+                    }
+                    emitRotationAxes: list[vec3] = {
+                        { 0, 0, 0 }
+                        { 0, 0, 0 }
+                    }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_W_Alpha01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0, 0, 0, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.800000012
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -200
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 1
+                stencilRef: u8 = 6
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 16, 1, 1 }
+                }
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        times: list[f32] = {
+                            0
+                            0.00999999978
+                            0.0199999996
+                        }
+                        values: list[f32] = {
+                            0
+                            0
+                            1
+                        }
+                    }
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "geo_Edge"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoR_Edge.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.113725491, 0.164705887, 0.219607845, 0.862745106 }
+                }
+                pass: i16 = 10
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1.39999998
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 0.400000006
+                    erosionSliceWidth: f32 = 1.20000005
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoDemon_Trail_Rotate.tex"
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRotationEnabled: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 20, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 20, 0 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                rotation0: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 1, 0 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2.5, 2.5, 2.5 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                        }
+                        values: list[vec3] = {
+                            { 1, 3, 1 }
+                            { 1, 6, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_ego_R_Mis_Dirt_Sides_V03.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 0.100000001 }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 2, 0.5 }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "geo_Edge1"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoR_Edge.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.719996929, 0.910002291, 1, 0.450003803 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.300000012
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.647058845, 0.831372559, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 11
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.400000006
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1.39999998
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 0.400000006
+                    erosionSliceWidth: f32 = 1.20000005
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoDemon_Trail_Rotate.tex"
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRotationEnabled: flag = true
+                isGroundLayer: flag = true
+                isLocalOrientation: flag = false
+                rotation0: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0, 1, 0 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2.5, 2.5, 2.5 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                        }
+                        values: list[vec3] = {
+                            { 1, 3, 1 }
+                            { 1, 6, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_ego_R_Mis_Dirt_Sides_V03.tex"
+                birthUVOffset: embed = ValueVector2 {
+                    constantValue: vec2 = { 0, 0.100000001 }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 2, 1 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoBASkin05_BA_Einstein_01_mult.tex"
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.20000005
+                }
+                lifetime: option[f32] = {
+                    4.25
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "CIRCLE"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoParticles_1_147.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.980392158, 1, 0.768627465, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.800000012
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 20
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_AlphaSlice_1_01.tex"
+                }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 1, 0 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 3.70000005, 0, 0 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_AlphaSlice_1_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { -0.100000001, 0 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { -0.100000001, 0 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 1, 1.5 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Cape_Nebula_01.tex"
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { -0.200000003, -0.5 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec2] = {
+                                { -0.200000003, -0.5 }
+                            }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Purple Ring3"
+                importance: u8 = 2
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 600, 0 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 10, 0 }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -80, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Temple02_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.992156863, 0.992156863, 0.992156863, 1 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.988235295, 0.90196079, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.988235295, 0.90196079, 1 }
+                            { 0.300007641, 0.296478122, 0.270595133, 1 }
+                        }
+                    }
+                }
+                pass: i16 = 70
+                meshRenderFlags: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.5
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_TempleRamp02_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0.0200045779, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 3.5999999, 3, 3.5999999 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.150000006
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 1 }
+                            { 1, 1.29999995, 1 }
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Temple02_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 3
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    0.100000001
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Purple Ring4"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Indicator.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.509803951, 0.419607848, 0.266666681, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            0.800000012
+                            0.999899983
+                        }
+                        values: list[vec4] = {
+                            { 0.509803951, 0.419607848, 0.266666681, 0 }
+                            { 0.509803951, 0.419607848, 0.266666681, 1 }
+                            { 0.509803951, 0.419607848, 0.266666681, 1 }
+                            { 0.509803951, 0.419607848, 0.266666681, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 10
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -360
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 1, 0 }
+                        }
+                    }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 50, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2.4000001, 1, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_IndicatorText.tex"
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 2, 1 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_SwirlTrail.tex"
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.5, 0 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.39999998
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "decal_DarkRing"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.109803922, 0.105882354, 0.0705882385, 0.670588255 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.800000012
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -20
+                meshRenderFlags: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.5
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.400000006
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Revive_erosion_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0.0200045779, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 280, 330, 330 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_ego_Skin19_R_decal.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.20000005
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "geo_MistLayer1"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_ego_Skin19_R_Energy.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.829999208, 0.97999543, 0.97999543, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0500000007
+                            0.649017572
+                            0.899999976
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 60
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.200000003
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ramp01_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 360, 180, 360 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    0
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.200000003
+                                    0.600000024
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    0.300000012
+                                    0.550000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    0
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 360, 180, 360 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.5, 1, 2 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoBasicGradient.tex"
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoCowl_Galaxy_03.tex"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 2, 1 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 2, 1 }
+                                { 2, 2 }
+                            }
+                        }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { -0.300000012, -1 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                0.119808309
+                                0.311501592
+                                0.535143793
+                                0.800000012
+                            }
+                            values: list[vec2] = {
+                                { -0.449999988, -1.5 }
+                                { -0.330000013, -1.10000002 }
+                                { -0.234300002, -0.780682445 }
+                                { -0.167400002, -0.55806452 }
+                                { -0.120000005, -0.400000006 }
+                            }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.20000005
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    1
+                }
+                emitterName: string = "geo_MistLayer2"
+                importance: u8 = 2
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_ego_Skin19_R_Energy.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.517647088, 0.627451003, 0.713725507, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                }
+                                keyValues: list[f32] = {
+                                    2
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec4] = {
+                            { 0.517647088, 0.627451003, 0.713725507, 1 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0500000007
+                            0.649017572
+                            0.899999976
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -9
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.200000003
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ramp01_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 360, 180, 360 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    0
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.200000003
+                                    0.600000024
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    0.300000012
+                                    0.550000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    0
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 360, 180, 360 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.54999995, 1, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoBasicGradient.tex"
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_egoCowl_Galaxy_03.tex"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 2, 1 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 2, 1 }
+                                { 2, 2 }
+                            }
+                        }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { -0.0500000007, -1 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                0.119808309
+                                0.311501592
+                                0.535143793
+                                0.800000012
+                            }
+                            values: list[vec2] = {
+                                { -0.075000003, -1.5 }
+                                { -0.0549999997, -1.10000002 }
+                                { -0.0390500017, -0.780682445 }
+                                { -0.027900001, -0.55806452 }
+                                { -0.0199999996, -0.400000006 }
+                            }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.400000006
+                }
+                lifetime: option[f32] = {
+                    0.100000001
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Purple Ring5"
+                importance: u8 = 2
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 600, 0 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 10, 0 }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -80, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Temple02_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.992156863, 0.929411769, 0.556862772, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                        }
+                    }
+                }
+                meshRenderFlags: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0.25
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.200000003
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_TempleRamp03_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0.0200045779, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 3.70000005, 4.5, 3.70000005 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 1 }
+                            { 1, 1, 1 }
+                            { 1, 1.5, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_TempleRamp03_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, 1 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec2] = {
+                            { 0, 1 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.dds"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 3, 2 }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 0, 3 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 0, 3 }
+                                { 0, 0.600000024 }
+                            }
+                        }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.5, 0 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground16"
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveArbitraryQuad {}
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.970000744, 0.620004594, 0.549996197 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 0.530006886, 0.530006886, 0.530006886, 0.200000003 }
+                            { 0.168627456, 0.141176477, 0.0666666701, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 70
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.400000006
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_R_Revive_erosion_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { -90, 0, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 250, 1, 1 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_ego_Skin19_R_decal.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Waves_B"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_W_Mesh01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.20784314, 0.282352954, 0.372549027, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            0.800000012
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 100
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.349999994
+                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.SKINS_Sion_Skin49.dds"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                isRotationEnabled: flag = true
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                rotation0: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 0, 0.0500000007, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0.0500000007, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 17, -70, 17 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.150000006
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 1 }
+                            { 1, 0.449999988, 1 }
+                            { 1, 1.20000005, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Ring_Shockwave_01_01.tex"
+                uvMode: u8 = 2
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 3, -1 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.dds"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 3, 0.300000012 }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 0, -0.5 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 0, -0.5 }
+                                { 0, -0 }
+                            }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 10
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 2.5
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.800000012
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    0.699999988
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            2.5
+                        }
+                    }
+                }
+                lifetime: option[f32] = {
+                    0.5
+                }
+                isSingleParticle: flag = true
+                emitterLinger: option[f32] = {
+                    2
+                }
+                emitterName: string = "DarkWisps"
+                birthOrbitalVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -0.25, 0 }
+                }
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0, 500 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 5, 5, 5 }
+                }
+                SpawnShape: pointer = VfxShapeCylinder {
+                    radius: f32 = 150
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 10, 0 }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.910002291, 0.910002291, 0.910002291, 0.450003803 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 0.768627465, 0.917647064, 0.925490201, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.461066663
+                            0.845916808
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.768627465, 0.917647064, 0.925490201, 1 }
+                            { 0.768627465, 0.917647064, 0.805170119, 1 }
+                            { 0.304436773, 0.496609002, 0.620622814, 0.227450982 }
+                            { 0.123583242, 0.201522499, 0.275832385, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 100
+                alphaRef: u8 = 0
+                softParticleParams: pointer = VfxSoftParticleDefinitionData {
+                    deltaIn: f32 = 60
+                }
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.349999994
+                    erosionFeatherOut: f32 = 0.349999994
+                    erosionSliceWidth: f32 = 1.79999995
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Alpha_Mult.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 0, 1, 0, 0 }
+                    }
+                    erosionMapAddressMode: u8 = 0
+                }
+                disableBackfaceCull: bool = true
+                isUniformScale: flag = true
+                isRandomStartFrame: flag = true
+                isRotationEnabled: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 1, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    350
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 50, 0, 0 }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 110, 15, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0.521428585
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.879999995
+                                    1.39999998
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.100000001
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 110, 15, 0 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0841691941
+                            0.406317413
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.300000012, 1, 1 }
+                            { 0.300000012, 1, 1 }
+                            { 0.702229321, 1, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Wisps38.tex"
+                numFrames: u16 = 4
+                paletteDefinition: pointer = VfxPaletteDefinitionData {
+                    paletteCount: i32 = 16
+                }
+                texDiv: vec2 = { 2, 2 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground17"
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_UnderGround01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.90196079, 0.545098066, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                }
+                                keyValues: list[f32] = {
+                                    2
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.90196079, 0.545098066, 1 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.699999988
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 0.482352942, 0.482352942, 0.482352942, 1 }
+                            { 0.200000003, 0.200000003, 0.200000003, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -23
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.800000012
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.400000006
+                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.dds"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 360, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 1, 360, 0 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 3.79999995, 6, 3.79999995 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Noise_03.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0.100000001, 0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0.100000001, 0.5 }
+                            { 0.00999999978, 0.100000001 }
+                        }
+                    }
+                }
+                uvRotation: embed = ValueFloat {
+                    constantValue: f32 = 90
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Noise_03.tex"
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 0.200000003, -0.300000012 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 0.200000003, -0.300000012 }
+                                { 0, -0 }
+                            }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground18"
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_UnderGround01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.447058827, 0.525490224, 0.549019635, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                }
+                                keyValues: list[f32] = {
+                                    2
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec4] = {
+                            { 0.447058827, 0.525490224, 0.549019635, 1 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.699999988
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 0.627451003, 0.627451003, 0.627451003, 1 }
+                            { 0.368627459, 0.368627459, 0.368627459, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -24
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.800000012
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.400000006
+                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.dds"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 360, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 1, 360, 0 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 3.79999995, 6, 3.79999995 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Noise_03.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0.100000001, 0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0.100000001, 0.5 }
+                            { 0.00999999978, 0.100000001 }
+                        }
+                    }
+                }
+                uvRotation: embed = ValueFloat {
+                    constantValue: f32 = 90
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Noise_03.tex"
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 0.200000003, -0.300000012 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 0.200000003, -0.300000012 }
+                                { 0, -0 }
+                            }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground19"
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_UnderGround01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.820004582, 0.820004582, 0.820004582, 1 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            0.800000012
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 0.409994662, 0.409994662, 0.409994662, 0.349996179 }
+                            { 0.168627456, 0.168627456, 0.168627456, 0 }
+                        }
+                    }
+                }
+                pass: i16 = -26
+                meshRenderFlags: u8 = 0
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.400000006
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_SmokeErode_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 360, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 360, 0 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 3.79999995, 4, 3.79999995 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_UnderGround01_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { -1, 0 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec2] = {
+                            { -1, 0 }
+                            { -0, 0 }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 10
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1.5
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1.5
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    0.400000006
+                }
+                lifetime: option[f32] = {
+                    6
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "rippleWaves"
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_waveBACK.scb"
+                        mLockMeshToAttachment: bool = true
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.815686285, 0.960784316, 1, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    2
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec4] = {
+                            { 0.815686285, 0.960784316, 1, 1 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            0.600000024
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 0.835294127, 0.835294127, 0.835294127, 1 }
+                            { 0.301960796, 0.301960796, 0.301960796, 0.549019635 }
+                            { 0.109803922, 0.109803922, 0.109803922, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 71
+                alphaRef: u8 = 0
+                softParticleParams: pointer = VfxSoftParticleDefinitionData {
+                    deltaIn: f32 = 40
+                }
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        constantValue: f32 = 0
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.0328542106
+                                0.104626648
+                                0.218118712
+                                0.458220929
+                                0.68225348
+                                0.869066
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                0
+                                0
+                                0
+                                0
+                                0
+                                0
+                            }
+                        }
+                    }
+                    erosionFeatherIn: f32 = 0.300000012
+                    erosionFeatherOut: f32 = 0.5
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_SmokeErode_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                reflectionDefinition: pointer = VfxReflectionDefinitionData {
+                    reflectionFresnelColor: vec4 = { 0, 0, 0, 1 }
+                    fresnel: f32 = 0.200000003
+                    fresnelColor: vec4 = { 0.470588237, 0.607843161, 0.68235296, 0 }
+                }
+                depthBiasFactors: vec2 = { -1, -3 }
+                miscRenderFlags: u8 = 1
+                isGroundLayer: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -360
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, -1, 0 }
+                        }
+                    }
+                }
+                birthRotationalVelocity0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -50, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    -1
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, -50, 0 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0.550000012, 0.699999988, 0.550000012 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.5
+                                }
+                                keyValues: list[f32] = {
+                                    0.800000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    0.166666672
+                                    0.522222221
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.200000003
+                                    0.553548396
+                                    0.904516101
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.800000012
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0.550000012, 0.699999988, 0.550000012 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1.20000005, 0.300000012, 1.20000005 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Noise_03.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { -1, 0.300000012 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec2] = {
+                            { -1, 0 }
+                            { -0, 0.300000012 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_W_FlameNoise04_01.tex"
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, 0.5 }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                            }
+                            values: list[vec2] = {
+                                { 0, 0 }
+                            }
+                        }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                timeBeforeFirstEmission: f32 = 0.0500000007
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 10
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.200000003
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {
+                    4
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "FLOATING_ROCKS1"
+                birthOrbitalVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 0.159999996, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.200000003
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0.159999996, 0 }
+                        }
+                    }
+                }
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 1500, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    0
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.400000006
+                                    1.20000005
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.100000001
+                                    0
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 1500, 0 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 4, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    1
+                                    1.5
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 4, 0 }
+                        }
+                    }
+                }
+                worldAcceleration: embed = IntegratedValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                SpawnShape: pointer = VfxShapeCylinder {
+                    flags: u8 = 1
+                    radius: f32 = 150
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -50, 0 }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.352941185, 0.345098048, 0.262745112, 0.850980401 }
+                }
+                color: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            0.649999976
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 0.874509811, 0.874509811, 0.874509811, 1 }
+                            { 0.866666675, 0.866666675, 0.866666675, 0.419607848 }
+                            { 0.772549033, 0.772549033, 0.772549033, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 600
+                miscRenderFlags: u8 = 1
+                isUniformScale: flag = true
+                isRandomStartFrame: flag = true
+                isRotationEnabled: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 0 }
+                        }
+                    }
+                }
+                directionVelocityScale: f32 = 0.00100000005
+                rotation0: embed = IntegratedValueVector3 {
+                    constantValue: vec3 = { 20, 0, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                            0.25
+                            0.400000006
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 20, 0, 0 }
+                            { 5, 0, 0 }
+                            { 1, 0, 0 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 10, 1, 1 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.300000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 10, 1, 1 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.200000003
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 3, 3, 3 }
+                            { 2, 2, 2 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_rockshards.tex"
+                numFrames: u16 = 8
+                texDiv: vec2 = { 2, 2 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Purple Ring6"
+                importance: u8 = 2
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 600, 0 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 10, 0 }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -40, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Chain01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.988235295, 0.90196079, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.988235295, 0.90196079, 1 }
+                            { 0.110002287, 0.108708143, 0.0992177501, 0.360006094 }
+                        }
+                    }
+                }
+                pass: i16 = 9
+                meshRenderFlags: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.5
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.400000006
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_SmokeErode_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0.0200045779, 0 }
+                    }
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 4, 3, 4 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0754948184
+                            0.193402454
+                            0.268614531
+                            0.346842617
+                            0.458058447
+                            0.583411872
+                            0.722902894
+                            0.857681453
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 1 }
+                            { 1, 3, 1 }
+                            { 1, -1.99065423, 1 }
+                            { 1, 0.99999994, 1 }
+                            { 1, 1.5, 1 }
+                            { 1, 1, 1 }
+                            { 1, 0.897196233, 1 }
+                            { 1, 1.0018692, 1 }
+                            { 1, 1.10093462, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Chain01_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, 0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, 0.5 }
+                            { 0, 0 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { -1, 10 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec2] = {
+                            { -1, 10 }
+                            { -1, 10.5 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.dds"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 1, 3 }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 0, -1 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 0, -1 }
+                                { 0, -0.200000003 }
+                            }
+                        }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.5, 0 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.899999976
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Purple Ring7"
+                importance: u8 = 2
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 600, 0 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 10, 0 }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 10, -40, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Chain01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.647058845, 0.647058845, 0.647058845, 1 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.988235295, 0.90196079, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.988235295, 0.90196079, 1 }
+                            { 0.117647059, 0.116262972, 0.106113032, 0.227450982 }
+                        }
+                    }
+                }
+                pass: i16 = 7
+                meshRenderFlags: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.5
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.150000006
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_SmokeErode_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0.0200045779, 0 }
+                    }
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 180, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 3.5, 3, 3.5 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0754948184
+                            0.202827513
+                            0.285579652
+                            0.373232812
+                            0.475966066
+                            0.583411872
+                            0.722902894
+                            0.857681453
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 1 }
+                            { 1, 3, 1 }
+                            { 1, -1.99065423, 1 }
+                            { 1, 0.990671635, 1 }
+                            { 1, 1.5, 1 }
+                            { 1, 1, 1 }
+                            { 1, 0.897196233, 1 }
+                            { 1, 1.0018692, 1 }
+                            { 1, 1.10093462, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Chain01_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, -0.5 }
+                            { 0, -0 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { -1, 8 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec2] = {
+                            { -1, 8 }
+                            { -1, 8.39999962 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.dds"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 1, 5 }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 0, -1 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 0, -1 }
+                                { 0, -0.200000003 }
+                            }
+                        }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.5, 0 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Purple Ring9"
+                importance: u8 = 2
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 600, 0 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 10, 0 }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -120, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Chain01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.470588237, 0.470588237, 0.470588237, 1 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.988235295, 0.90196079, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.988235295, 0.90196079, 1 }
+                            { 0.459998488, 0.454586715, 0.414900601, 0.130006865 }
+                        }
+                    }
+                }
+                pass: i16 = -22
+                meshRenderFlags: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.5
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.150000006
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_SmokeErode_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0.0200045779, 0 }
+                    }
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 230, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 4, 4, 4 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0839773789
+                            0.246182844
+                            0.364750236
+                            0.473138571
+                            0.583411872
+                            0.723845422
+                            0.856738925
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 1 }
+                            { 1, 3, 1 }
+                            { 1, -2, 1 }
+                            { 1, 1, 1 }
+                            { 1, 1.19626164, 1 }
+                            { 1, 1, 1 }
+                            { 1, 0.908411264, 1 }
+                            { 1, 0.998130858, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Chain01_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, -0.5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, -0.5 }
+                            { 0, -0 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { -1, 8 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec2] = {
+                            { -1, 8 }
+                            { -1, 8.39999962 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.dds"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 1, 5 }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 0, -1 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 0, -1 }
+                                { 0, -0.200000003 }
+                            }
+                        }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.5, 0 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.75
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1
+                        }
+                    }
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Purple Ring10"
+                importance: u8 = 2
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 300, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.649999976
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 300, 0 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 3, 0 }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -40, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Chain01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.800000012
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.349999994
+                                    2
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.988235295, 0.90196079, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.741176486, 0.910726666, 0.90196079, 1 }
+                            { 0.717647076, 0.794463694, 0.90196079, 1 }
+                            { 0.298039228, 0.352664351, 0.382006913, 0.360784322 }
+                        }
+                    }
+                }
+                pass: i16 = 20
+                meshRenderFlags: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.5
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.400000006
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_SmokeErode_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0.0200045779, 0 }
+                    }
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 1, 0 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 4, 10, 4 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.349999994
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 4, 10, 4 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1, 1.5, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_Smoke24_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, 1 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, 1 }
+                            { 0, 0 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 1, 2 }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.dds"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 1, 3 }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 0, 1 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 0, 1 }
+                                { 0, 0.200000003 }
+                            }
+                        }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.5, 0 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 2
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.75
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1
+                        }
+                    }
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Purple Ring11"
+                importance: u8 = 2
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 300, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.649999976
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 300, 0 }
+                        }
+                    }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 3, 0 }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -40, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Chain01_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.176470593, 0.176470593, 0.176470593, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.349999994
+                                    2
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec4] = {
+                            { 0.176470593, 0.176470593, 0.176470593, 1 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.988235295, 0.90196079, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.741176486, 0.910726666, 0.90196079, 1 }
+                            { 0.717647076, 0.794463694, 0.90196079, 1 }
+                            { 0.298039228, 0.352664351, 0.382006913, 0.360784322 }
+                        }
+                    }
+                }
+                pass: i16 = 21
+                meshRenderFlags: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.5
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.400000006
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_SmokeErode_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0.0200045779, 0 }
+                    }
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 1, 0 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 1, 0 }
+                        }
+                    }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 4, 10, 4 }
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.349999994
+                                    1
+                                }
+                            }
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 4, 10, 4 }
+                        }
+                    }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1, 1.5, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_W_FlameNoise06_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, 1 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, 1 }
+                            { 0, 0 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.dds"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 1, 3 }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 0, 1 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 0, 1 }
+                                { 0, 0.200000003 }
+                            }
+                        }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.5, 0 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Purple Ring12"
+                importance: u8 = 2
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 600, 0 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 10, 0 }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -80, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Temple02_01.scb"
+                    }
+                }
+                blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.280003041, 0.459998488, 0.669993162, 0.500007629 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.988235295, 0.90196079, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.988235295, 0.90196079, 1 }
+                            { 0.300007641, 0.296478122, 0.270595133, 0.450003803 }
+                        }
+                    }
+                }
+                pass: i16 = 71
+                meshRenderFlags: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.5
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_TempleRamp02_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0.0200045779, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 3.61999989, 3.01999998, 3.61999989 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.150000006
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 1 }
+                            { 1, 1.29999995, 1 }
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Temple02_01.tex"
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.dds"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 6, 2 }
+                    }
+                    birthUvScrollRateMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0, -1 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.899999976
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Purple Ring13"
+                importance: u8 = 2
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 600, 0 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 10, 0 }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -50, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Chain02_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                }
+                                keyValues: list[f32] = {
+                                    1.5
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                        }
+                    }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.988235295, 0.90196079, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.988235295, 0.90196079, 1 }
+                            { 0.110002287, 0.108708143, 0.0992177501, 0.360006094 }
+                        }
+                    }
+                }
+                pass: i16 = 71
+                meshRenderFlags: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.5
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.400000006
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_E_SmokeErode_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0.0200045779, 0 }
+                    }
+                }
+                disableBackfaceCull: bool = true
+                miscRenderFlags: u8 = 1
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 3.5999999, 3.5999999, 3.5999999 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.0651272386
+                            0.101790763
+                            0.174552307
+                            0.248821884
+                            0.351555139
+                            0.458058447
+                            0.749293089
+                            1
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 1 }
+                            { 1, 1.68470609, 1 }
+                            { 1, 1.00373828, 1 }
+                            { 1, 0.901126742, 1 }
+                            { 1, 0.990671635, 1 }
+                            { 1, 1.07089698, 1 }
+                            { 1, 1, 1 }
+                            { 1, 0.970000029, 1 }
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Chain01_01.tex"
+                particleUVScrollRate: embed = IntegratedValueVector2 {
+                    constantValue: vec2 = { 0, 1 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                            0.0980207324
+                            0.247879356
+                            0.475023568
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 0, 1 }
+                            { 0, 0.637383163 }
+                            { 0, 0.330841124 }
+                            { 0, 0.149532706 }
+                            { 0, 0 }
+                        }
+                    }
+                }
+                uvScale: embed = ValueVector2 {
+                    constantValue: vec2 = { 1, 5 }
+                    dynamics: pointer = VfxAnimatedVector2fVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec2] = {
+                            { 1, 5 }
+                            { 1, 5.25 }
+                        }
+                    }
+                }
+                textureMult: pointer = VfxTextureMultDefinitionData {
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.dds"
+                    uvScaleMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 1, 3 }
+                    }
+                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
+                        constantValue: vec2 = { 0, -1 }
+                        dynamics: pointer = VfxAnimatedVector2fVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec2] = {
+                                { 0, -1 }
+                                { 0, -0.200000003 }
+                            }
+                        }
+                    }
+                    birthUVOffsetMult: embed = ValueVector2 {
+                        constantValue: vec2 = { 0.5, 0 }
+                    }
+                }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 0.800000012
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "Purple Ring14"
+                importance: u8 = 2
+                birthVelocity: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 600, 0 }
+                }
+                birthDrag: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 10, 0 }
+                }
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, -80, 0 }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Temple03_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.489997715, 0.489997715, 0.489997715, 0.719996929 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 0.988235295, 0.90196079, 1 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 0.988235295, 0.90196079, 1 }
+                            { 0.300007641, 0.296478122, 0.270595133, 0.530006886 }
+                        }
+                    }
+                }
+                pass: i16 = 69
+                meshRenderFlags: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.5
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.300000012
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_TempleRamp02_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0.0200045779, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 1.60000002, 1.60000002, 1.60000002 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.100000001
+                            0.150000006
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 1, 0, 1 }
+                            { 1, 1.29999995, 1 }
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Temple02_01.tex"
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                lifetime: option[f32] = {
+                    1
+                }
+                isSingleParticle: flag = true
+                emitterName: string = "burnt_ground20"
+                SpawnShape: pointer = 0xee39916f {
+                    emitOffset: vec3 = { 0, -160, 0 }
+                }
+                EmitterPosition: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                            VfxProbabilityTableData {}
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                primitive: pointer = VfxPrimitiveMesh {
+                    mMesh: embed = VfxMeshDefinitionData {
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Temple03_01.scb"
+                    }
+                }
+                blendMode: u8 = 1
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.333333343, 0.333333343, 0.333333343, 1 }
+                }
+                color: embed = ValueColor {
+                    constantValue: vec4 = { 1, 1, 1, 0.330006868 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 1, 1, 1, 0.330006868 }
+                            { 1, 1, 1, 0.330006868 }
+                        }
+                    }
+                }
+                pass: i16 = -21
+                alphaRef: u8 = 0
+                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
+                    erosionDriveCurve: embed = ValueFloat {
+                        dynamics: pointer = VfxAnimatedFloatVariableData {
+                            times: list[f32] = {
+                                0.300000012
+                                1
+                            }
+                            values: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    erosionFeatherOut: f32 = 0.400000006
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_TempleRamp03_01.tex"
+                    erosionMapChannelMixer: embed = ValueColor {
+                        constantValue: vec4 = { 1, 0, 0.0200045779, 0 }
+                    }
+                }
+                miscRenderFlags: u8 = 1
+                stencilMode: u8 = 2
+                stencilRef: u8 = 6
+                isGroundLayer: flag = true
+                useNavmeshMask: flag = true
+                birthRotation0: embed = ValueVector3 {
+                    constantValue: vec3 = { 0, 30, 0 }
+                }
+                isLocalOrientation: flag = false
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 2, 2, 2 }
+                }
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Temple02_01.tex"
+            }
+        }
+        particleName: string = "Chogath_Skin23_Q_cas"
+        particlePath: string = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Q_cas"
+        soundOnCreateDefault: string = "Play_sfx_ChogathSkin23_Rupture_cast2"
+    }
+    "Characters/Chogath/Skins/Skin23/Resources" = ResourceResolver {
+        resourceMap: map[hash,link] = {
+            "Chogath_BA_tar" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_BA_tar"
+            "Chogath_Death_SoundDust" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Death_SoundDust"
+            "Chogath_E_Cas" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_Cas"
+            "Chogath_E_mis" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_mis"
+            "Chogath_E_mis2" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_mis2"
+            "Chogath_E_mis3" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_mis3"
+            "Chogath_E_mis4" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_mis4"
+            "Chogath_E_mis5" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_mis5"
+            "Chogath_E_mis6" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_mis6"
+            "Chogath_E_tar" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_tar"
+            "Chogath_E_Tar02" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_Tar02"
+            "Chogath_P_heal" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_P_heal"
+            "Chogath_Q_Ally_team" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Q_Ally_team"
+            "Chogath_Q_cas" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Q_cas"
+            "Chogath_Q_Enemy_team" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Q_Enemy_team"
+            "Chogath_R_indicator" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_R_indicator"
+            "Chogath_R_tar" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_R_tar"
+            "Chogath_W_cas" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_W_cas"
+            "Chogath_W_Sound01" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_W_Sound01"
+            "Chogath_W_tar" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_W_tar"
+            "Chogath_E_Cas_Spikes" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_Cas_Spikes"
+            "Chogath_E_mis_child" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_mis_child"
+            "Chogath_W_cas_child" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_W_cas_child"
+            "Chogath_R_mis" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_R_mis"
+            "Chogath_BA_Crit_tar" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_BA_Crit_tar"
+            "Chogath_E_mis_Child_Spike" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_mis_Child_Spike"
+            "Chogath_Neck_mist" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Neck_mist"
+            "Chogath_Q_cas_Child_Spike" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Q_cas_Child_Spike"
+            "Chogath_Recall_Glow" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Recall_Glow"
+            "Chogath_Recall_groundImpact" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Recall_groundImpact"
+            "Chogath_Recall_groundOpen" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Recall_groundOpen"
+            "Chogath_Recall_Roar" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Recall_Roar"
+            "Chogath_Z_StarTrail_01" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Z_StarTrail_01"
+            "Chogath_R_tar_Child" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_R_tar_Child"
+            "Chogath_BlackHole" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_BlackHole"
+            "Chogath_Z_StarTrail_02" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Z_StarTrail_02"
+            "Chogath_BlackHole2" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_BlackHole2"
+            "Chogath_BlackHole3" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_BlackHole3"
+            "Chogath_RecallHands" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_RecallHands"
+            "Chogath_RecallPortal" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_RecallPortal"
+            "Chogath_RecallRoar" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_RecallRoar"
+            "Chogath_Z_Joke" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Z_Joke"
+            "Chogath_E_mis_child02" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_mis_child02"
+            "Chogath_W_cas_child1" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_W_cas_child1"
+            "Chogath_E_mis_child_Big" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_mis_child_Big"
+            "Chogath_E_mis_child01" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_mis_child01"
+            "Chogath_E_mis_child03" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_E_mis_child03"
+            "Chogath_Idle_Soul" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Idle_Soul"
+            "Chogath_Idle_Soul1" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Idle_Soul1"
+            "Chogath_Idle_Shine" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Idle_Shine"
+            "Chogath_R_tar_Child02" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_R_tar_Child02"
+            "Chogath_R_tar_Child03" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_R_tar_Child03"
+            "Chogath_Emote_RecallHole1" = "Characters/Chogath/Skins/Skin23/Particles/Chogath_Skin23_Emote_RecallHole1"
+        }
+    }
+    "Characters/Chogath/Skins/Skin23/Materials/ChoGath_Skin23_FlowMap_Bloom_inst" = StaticMaterialDef {
+        name: string = "Characters/Chogath/Skins/Skin23/Materials/ChoGath_Skin23_FlowMap_Bloom_inst"
+        samplerValues: list2[embed] = {
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "FlowMap"
+                texturePath: string = "ASSETS/Characters/Chogath/skins/Skin23/Chogath_Skin23_Flowmap.tex"
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "Diffuse_Texture"
+                texturePath: string = "ASSETS/Characters/Chogath/skins/Skin23/Chogath_Skin23_TX_CM.tex"
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "Mask"
+                texturePath: string = "ASSETS/Characters/Chogath/skins/Skin23/Chogath_Skin23_mask.tex"
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "Anim_Scale_Intensity"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Anim_Scale_Frequency"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Anim_Scale_Speed"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Anim_Wave_Speed"
+                value: vec4 = { 0.512499988, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Anim_Wave_Dir"
+                value: vec4 = { 14, 10, 14, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Anim_Wave_Frequency"
+                value: vec4 = { 1.08749998, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "FlowIntensity"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "FlowSpeed"
+                value: vec4 = { 0.850000024, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "BloomColorIntensity"
+                value: vec4 = { 8.85000038, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Fresnel_Color_Intensity"
+                value: vec4 = { 3, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "BloomColor"
+                value: vec4 = { 1, 0.330006868, 0, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Fresnel"
+                value: vec4 = { 2, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Fresnel_Color"
+                value: vec4 = { 0.87843138, 1, 0.596078455, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Fresnel_Noise_Tiling_Speed"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Anim_Wave_Dir_Intensity"
+                value: vec4 = { 0.382499993, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "HardOutlineSize"
+                value: vec4 = { 5, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutLine_Intensity"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutLine_Color"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Alpha_Control"
+            }
+        }
+        switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "ALPHA"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "APPLY_FLOWMAP_TO_ALPHA"
+            }
+        }
+        shaderMacros: map[string,string] = {
+            "NUM_BLEND_WEIGHTS" = "4"
+        }
+        techniques: list[embed] = {
+            StaticMaterialTechniqueDef {
+                name: string = "normal"
+                passes: list[embed] = {
+                    StaticMaterialPassDef {
+                        shader: link = "Shaders/SkinnedMesh/HKG_Diff_Flowmap_Bloom"
+                        blendEnable: bool = true
+                        srcColorBlendFactor: u32 = 6
+                        srcAlphaBlendFactor: u32 = 6
+                        dstColorBlendFactor: u32 = 7
+                        dstAlphaBlendFactor: u32 = 7
+                    }
+                }
+            }
+        }
+        childTechniques: list[embed] = {
+            StaticMaterialChildTechniqueDef {
+                name: string = "transition"
+                parentName: string = "normal"
+                shaderMacros: map[string,string] = {
+                    "TRANSITION" = "1"
+                }
+            }
+        }
+        dynamicMaterial: pointer = DynamicMaterialDef {
+            parameters: list[embed] = {
+                DynamicMaterialParameterDef {
+                    name: string = "Anim_Wave_Speed"
+                    driver: pointer = SwitchMaterialDriver {
+                        mElements: list[embed] = {
+                            SwitchMaterialDriverElement {
+                                mCondition: pointer = HasBuffDynamicMaterialBoolDriver {
+                                    Spell: hash = "Shared/Spells/ZhonyasRingShield"
+                                }
+                                mValue: pointer = FloatGraphMaterialDriver {
+                                    driver: pointer = HasBuffDynamicMaterialBoolDriver {
+                                        Spell: hash = "Shared/Spells/ZhonyasRingShield"
+                                    }
+                                    graph: embed = VfxAnimatedFloatVariableData {
+                                        times: list[f32] = {
+                                            0
+                                            0.0425101221
+                                        }
+                                        values: list[f32] = {
+                                            1
+                                            0
+                                        }
+                                    }
+                                }
+                            }
+                            SwitchMaterialDriverElement {
+                                mCondition: pointer = IsAnimationPlayingDynamicMaterialBoolDriver {
+                                    mAnimationNames: list[hash] = {
+                                        "death"
+                                    }
+                                }
+                                mValue: pointer = FloatGraphMaterialDriver {
+                                    driver: pointer = AnimationFractionDynamicMaterialFloatDriver {
+                                        mAnimationName: hash = "death"
+                                    }
+                                    graph: embed = VfxAnimatedFloatVariableData {
+                                        times: list[f32] = {
+                                            0
+                                            0.0384615399
+                                        }
+                                        values: list[f32] = {
+                                            1
+                                            0
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        mDefaultValue: pointer = FloatLiteralMaterialDriver {
+                            mValue: f32 = 1
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
