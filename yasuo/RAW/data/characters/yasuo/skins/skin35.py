@@ -1102,7 +1102,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 20, 90, 60 }
                 }
-                texture: string = "ASSETS/Characters/Qiyana/Skins/Skin02/Particles/Qiyana_Skin02_Q_LongDot.dds"
+                texture: string = "ASSETS/Characters/Qiyana/Skins/Skin02/Particles/Qiyana_Skin02_Q_LongDot.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 5, 1 }
                 }
@@ -1177,12 +1177,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Qiyana/Skins/Skin02/Particles/Qiyana_Skin02_Q_LongDot.dds"
+                texture: string = "ASSETS/Characters/Qiyana/Skins/Skin02/Particles/Qiyana_Skin02_Q_LongDot.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 5, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Qiyana/Skins/Skin02/Particles/Qiyana_Skin02_Q_LongDot.dds"
+                    textureMult: string = "ASSETS/Characters/Qiyana/Skins/Skin02/Particles/Qiyana_Skin02_Q_LongDot.tex"
                     texAddressModeMult: u8 = 2
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 0 }
@@ -1265,7 +1265,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Qiyana/Skins/Skin02/Particles/Qiyana_Skin02_Q_LongDot.dds"
+                texture: string = "ASSETS/Characters/Qiyana/Skins/Skin02/Particles/Qiyana_Skin02_Q_LongDot.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 5, 1 }
                 }
@@ -1340,12 +1340,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Qiyana/Skins/Skin02/Particles/Qiyana_Skin02_Q_LongDot.dds"
+                texture: string = "ASSETS/Characters/Qiyana/Skins/Skin02/Particles/Qiyana_Skin02_Q_LongDot.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 5, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Qiyana/Skins/Skin02/Particles/Qiyana_Skin02_Q_LongDot.dds"
+                    textureMult: string = "ASSETS/Characters/Qiyana/Skins/Skin02/Particles/Qiyana_Skin02_Q_LongDot.tex"
                     texAddressModeMult: u8 = 2
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 0 }
@@ -1578,7 +1578,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Qiyana/Skins/Skin02/Particles/Qiyana_Skin02_Z_Glow.dds"
+                texture: string = "ASSETS/Characters/Qiyana/Skins/Skin02/Particles/Qiyana_Skin02_Z_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 7.5
@@ -1649,7 +1649,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Qiyana/Skins/Skin02/Particles/Qiyana_Skin02_Z_Glow.dds"
+                texture: string = "ASSETS/Characters/Qiyana/Skins/Skin02/Particles/Qiyana_Skin02_Z_Glow.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 5, 1 }
                 }
