@@ -10,6 +10,6 @@ Volibear -> Base Briar, without Heels
 
 Yasuo -> Base Riven
 
-Syndra -> Custom Base Skin (all include custom loadscreen)
-
 Briar -> Custom Base Skin
+
+Qiyana -> Custom Base Skin with Loadscreen
