@@ -60220,6 +60220,10 @@ entries: map[hash,embed] = {
         }
         switches: list2[embed] = {
             StaticMaterialSwitchDef {
+                name: string = "BLOOM_SCROLLTEX_ONLY"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
                 name: string = "ADDITIVESCROLLTEX_R_SCREENSPACE"
                 on: bool = false
             }
@@ -60444,6 +60448,10 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "BLOOM_SCROLLTEX_ONLY"
+                on: bool = false
+            }
             StaticMaterialSwitchDef {
                 name: string = "ADDITIVESCROLLTEX_R_SCREENSPACE"
                 on: bool = false
