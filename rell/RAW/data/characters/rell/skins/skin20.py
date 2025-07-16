@@ -148,7 +148,7 @@ entries: map[hash,embed] = {
             }
         }
         skinAnimationProperties: embed = skinAnimationProperties {
-            animationGraphData: link = 0xb6617d0b
+            animationGraphData: link = "Characters/Rell/Animations/Skin20"
         }
         skinMeshProperties: embed = SkinMeshDataProperties {
             skeleton: string = "ASSETS/Characters/Rell/Skins/Skin20/Rell_Skin20.skl"

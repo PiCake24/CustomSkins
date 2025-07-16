@@ -4578,7 +4578,7 @@ entries: map[hash,embed] = {
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 1, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Swain/Skins/Skin11/Particles/Swain_Skin11_R_WispMultAlpha.dds"
+                    textureMult: string = "ASSETS/Characters/Swain/Skins/Skin11/Particles/Swain_Skin11_R_WispMultAlpha.tex"
                     texDivMult: vec2 = { 100, 100 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, -0.300000012 }
@@ -7699,7 +7699,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0299999993
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/distort-pinch.dds"
+                    normalMapTexture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/distort-pinch.tex"
                 }
                 miscRenderFlags: u8 = 5
                 isUniformScale: flag = true
@@ -7725,7 +7725,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -9520,7 +9520,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Samira/Skins/Base/Particles/Samira_Base_E_Cracks_Mult.dds"
+                    erosionMapName: string = "ASSETS/Characters/Samira/Skins/Base/Particles/Samira_Base_E_Cracks_Mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -9617,7 +9617,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Samira/Skins/Base/Particles/Samira_Base_E_Cracks_Mult.dds"
+                    erosionMapName: string = "ASSETS/Characters/Samira/Skins/Base/Particles/Samira_Base_E_Cracks_Mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -10377,7 +10377,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Senna/Skins/Base/Particles/Senna_Base_AutoAttack_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Senna/Skins/Base/Particles/Senna_Base_AutoAttack_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -15250,7 +15250,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Samira/Skins/Base/Particles/Samira_Base_E_Cracks_Mult.dds"
+                    erosionMapName: string = "ASSETS/Characters/Samira/Skins/Base/Particles/Samira_Base_E_Cracks_Mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -15347,7 +15347,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Samira/Skins/Base/Particles/Samira_Base_E_Cracks_Mult.dds"
+                    erosionMapName: string = "ASSETS/Characters/Samira/Skins/Base/Particles/Samira_Base_E_Cracks_Mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -24001,14 +24001,14 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0299999993
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Sona_Skin17_Q_Distort_Blurred.dds"
+                    normalMapTexture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Sona_Skin17_Q_Distort_Blurred.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 400, 400 }
                 }
-                texture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -30177,7 +30177,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sett/Skins/Base/Particles/Sett_Base_E_Dome_Swipe_Mult.dds"
+                texture: string = "ASSETS/Characters/Sett/Skins/Base/Particles/Sett_Base_E_Dome_Swipe_Mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 0 }
                 }
@@ -30226,7 +30226,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.5, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sett/Skins/Base/Particles/Sett_Base_Mask_Horizontal_A.dds"
+                    textureMult: string = "ASSETS/Characters/Sett/Skins/Base/Particles/Sett_Base_Mask_Horizontal_A.tex"
                     texAddressModeMult: u8 = 2
                     uvScrollClampMult: flag = true
                 }
@@ -30292,7 +30292,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.699999988, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Sett/Skins/Base/Particles/Sett_Base_Center_Mask_A.dds"
+                texture: string = "ASSETS/Characters/Sett/Skins/Base/Particles/Sett_Base_Center_Mask_A.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.5 }
                 }
@@ -30304,7 +30304,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 180
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sett/Skins/Base/Particles/Sett_Base_Vertical_Glow.dds"
+                    textureMult: string = "ASSETS/Characters/Sett/Skins/Base/Particles/Sett_Base_Vertical_Glow.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -37360,7 +37360,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_R_ErosionPack01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_R_ErosionPack01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -37451,7 +37451,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_R_WindSwirl01.dds"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_R_WindSwirl01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -37557,7 +37557,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_Z_Fire_Trail_Up.dds"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_Z_Fire_Trail_Up.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1.5 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -37692,7 +37692,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_Noise_05.dds"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_Noise_05.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 1.5 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -38252,7 +38252,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 10, 0, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Sona_Skin17_R_Distortion_Gradient.dds"
+                particleColorTexture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Sona_Skin17_R_Distortion_Gradient.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0 }
@@ -38277,7 +38277,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0399999991
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Sona_Skin17_R_Distortion.dds"
+                    normalMapTexture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Sona_Skin17_R_Distortion.tex"
                 }
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
@@ -38296,7 +38296,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -39054,7 +39054,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0299999993
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/distort-pinch.dds"
+                    normalMapTexture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/distort-pinch.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -39080,7 +39080,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {

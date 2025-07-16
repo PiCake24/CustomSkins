@@ -24,7 +24,7 @@ linked: list[string] = {
 }
 entries: map[hash,embed] = {
     "Characters/Ashe/Skins/Skin20" = SkinCharacterDataProperties {
-        skinClassification: u32 = 1
+        skinClassification: u32 = 2
         championSkinName: string = "Ashe"
         metaDataTags: string = "race:human,gender:female,faction:freljord,element:ice"
         loadscreen: embed = CensoredImage {
@@ -1810,91 +1810,210 @@ entries: map[hash,embed] = {
         name: string = "Characters/Ashe/Skins/Skin20/Materials/MagicalPanningAngelFresnel2_inst"
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
-                textureName: string = "AlphaMask_Fresnel"
-                texturePath: string = "ASSETS/Shared/Materials/white.dds"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
+                textureName: string = "MatCap_Tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "MatCap_Mask"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture"
+                texturePath: string = "ASSETS/Characters/Ashe/Skins/Skin17/Ashe_Skin17_Transform_Scroll_TX.tex"
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "Main_Texture"
                 texturePath: string = "ASSETS/Characters/Ashe/Skins/Skin20/Ashe_Skin20_Transform_TX_CM.tex"
-                addressU: u32 = 1
-                addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Scroll_01"
-                texturePath: string = "ASSETS/Characters/Ashe/Skins/Skin17/Particles/Ashe_Skin17_MagicalPan2.tex"
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Mask"
-                texturePath: string = "ASSETS/Characters/Ashe/Skins/Skin17/Particles/Ashe_Skin17_MagicalPan2.tex"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Scroll_02"
-                texturePath: string = "ASSETS/Characters/Ashe/Skins/Skin17/Particles/Ashe_Skin17_MagicalPan2.tex"
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Scroll_03"
-                texturePath: string = "ASSETS/Characters/Ashe/Skins/Skin17/Particles/Ashe_Skin17_MagicalPan2.tex"
-                addressW: u32 = 1
+                textureName: string = "OutlineMask_Texture"
+                texturePath: string = "ASSETS/Shared/Materials/white.dds"
+                addressU: u32 = 2
+                addressV: u32 = 2
+                addressW: u32 = 2
             }
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
-                name: string = "Fresnel_Size"
-                value: vec4 = { 0.75, 0, 0, 0 }
+                name: string = "Distortion_Diffuse_Tex_B_Control"
+                value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Alpha_Bias"
+                name: string = "Distortion_Diffuse_Tex_RG_Control"
+                value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Texture_UV_Scale01"
-                value: vec4 = { 3, 3, 0, 0 }
+                name: string = "Distortion_Main_Tex_Control"
+                value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Fresnel_Color"
-                value: vec4 = { 0.333333343, 0.247058824, 0.141176477, 0 }
+                name: string = "MatCap_TintColor"
+                value: vec4 = { 1, 1, 1, 1 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Panning_Noise_Color"
-                value: vec4 = { 1, 0.501960814, 0.0941176489, 0 }
+                name: string = "MatCap_Control"
+                value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "ScrollTexture_Control01"
+                name: string = "OutlineMask_Texture_B_UV"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "ScrollSpeedBase"
                 value: vec4 = { 0.200000003, 0, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Texture_UV_Scale02"
+                name: string = "ScrollSpeedBlend"
+                value: vec4 = { 0.100000001, 0.100000001, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "ScrollTexture_Control02"
-                value: vec4 = { -0.300000012, 0, 0, 0 }
+                name: string = "TintColor"
+                value: vec4 = { 1, 1, 1, 1 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Texture_UV_Scale03"
+                name: string = "Base_Tile"
+                value: vec4 = { 3, 3, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "ScrollTexture_Control03"
-                value: vec4 = { 0.100000001, 0.300000012, 0, 0 }
+                name: string = "Blend_Tile"
+                value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "BloomIntensity"
-                value: vec4 = { 1.35000002, 0, 0, 0 }
+                name: string = "BaseMat_Tint"
+                value: vec4 = { 0.600000024, 0.400000006, 0, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "BlendMat_Tint"
+                value: vec4 = { 1, 0.800000012, 0.200000003, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MaskStrength"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "BloomValue"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineColor"
+                value: vec4 = { 0.566399634, 0.512184322, 0.445563436, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MainTex_TintColor"
+                value: vec4 = { 1, 1, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineControl"
+                value: vec4 = { 0.00100000005, 0.699999988, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineMask_Strength"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "WaveController"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "WaveStrength"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "AlphaClipValue"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "AlphaClipNoiseStrength"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Bloom_TintColor"
+                value: vec4 = { 1, 0.5, 0.200000003, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "NoiseUV"
+                value: vec4 = { 5, 5, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "ScrollSpeedMainTex"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MainTex_Tile"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Alpha_Control"
             }
         }
         switches: list2[embed] = {
             StaticMaterialSwitchDef {
-                name: string = "INVERT_FRESNEL"
+                name: string = "DISTORTION_DIFFUSE_TEX_RG"
+                on: bool = false
             }
             StaticMaterialSwitchDef {
-                name: string = "USE_DIFFUSE_ALPHA"
+                name: string = "DISTORTION_DIFFUSE_TEX_B"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "DISTORTION_MAIN_TEX"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "MATCAP_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_OUTLINEMASK_B_ALPHA"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "BLENDCOLOR_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "ADDITIVEALPHA_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "MASK_ON"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "MAINTEX_ON"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "OUTLINE_ON"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "OUTLINE_MASK_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "ALPHABLEND_MAIN"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_MAINTEXCOLOR"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "DEFORM_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "TWO_D_DEFORM_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_MAINTEXALPHA"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "ALPHACLIP_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "BLOOM_TINTCOLOR_ON"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "SCROLL_MAIN_TEX"
                 on: bool = false
             }
         }
@@ -1906,7 +2025,7 @@ entries: map[hash,embed] = {
                 name: string = "normal"
                 passes: list[embed] = {
                     StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/MultiMask_Panner_Fresnel"
+                        shader: link = "Shaders/SkinnedMesh/AlphaBlend_Additive_Scroll_Packed"
                         blendEnable: bool = true
                         srcColorBlendFactor: u32 = 6
                         srcAlphaBlendFactor: u32 = 6
@@ -1930,93 +2049,211 @@ entries: map[hash,embed] = {
         name: string = "Characters/Ashe/Skins/Skin20/Materials/MagicalPanningAngelCape2_inst"
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
-                textureName: string = "AlphaMask_Fresnel"
-                texturePath: string = "ASSETS/Shared/Materials/white.dds"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
+                textureName: string = "MatCap_Tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "MatCap_Mask"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture"
+                texturePath: string = "ASSETS/Characters/Ashe/Skins/Skin17/Ashe_Skin17_Transform_Scroll_TX.tex"
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "Main_Texture"
                 texturePath: string = "ASSETS/Characters/Ashe/Skins/Skin20/Ashe_Skin20_Transform_TX_CM.tex"
-                addressU: u32 = 1
-                addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Scroll_01"
-                texturePath: string = "ASSETS/Characters/Ashe/Skins/Skin17/Particles/Ashe_Skin17_MagicalPan2.tex"
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Mask"
-                texturePath: string = "ASSETS/Characters/Ashe/Skins/Skin17/Particles/Ashe_Skin17_MagicalPan2.tex"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Scroll_02"
-                texturePath: string = "ASSETS/Characters/Ashe/Skins/Skin17/Particles/Ashe_Skin17_MagicalPan2.tex"
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Scroll_03"
-                texturePath: string = "ASSETS/Characters/Ashe/Skins/Skin17/Particles/Ashe_Skin17_MagicalPan2.tex"
-                addressW: u32 = 1
+                textureName: string = "OutlineMask_Texture"
+                texturePath: string = "ASSETS/Shared/Materials/white.dds"
+                addressU: u32 = 2
+                addressV: u32 = 2
+                addressW: u32 = 2
             }
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
-                name: string = "Fresnel_Size"
-                value: vec4 = { 0.449999988, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Alpha_Bias"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Texture_UV_Scale01"
+                name: string = "Distortion_Diffuse_Tex_B_Control"
                 value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Fresnel_Color"
-                value: vec4 = { 0.392156869, 0.309803933, 0.113725491, 0 }
+                name: string = "Distortion_Diffuse_Tex_RG_Control"
+                value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Panning_Noise_Color"
-                value: vec4 = { 0.556862772, 0.396078438, 0.0509803928, 0 }
+                name: string = "Distortion_Main_Tex_Control"
+                value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "ScrollTexture_Control01"
-                value: vec4 = { 0.200000003, 0, 0, 0 }
+                name: string = "MatCap_TintColor"
+                value: vec4 = { 1, 1, 1, 1 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Texture_UV_Scale02"
-                value: vec4 = { 5, 5, 0, 0 }
+                name: string = "MatCap_Control"
+                value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "ScrollTexture_Control02"
+                name: string = "OutlineMask_Texture_B_UV"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "ScrollSpeedBase"
                 value: vec4 = { -0.300000012, 0, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Texture_UV_Scale03"
-                value: vec4 = { 0.5, 3, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "ScrollTexture_Control03"
+                name: string = "ScrollSpeedBlend"
                 value: vec4 = { 0.100000001, 0.300000012, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "BloomIntensity"
-                value: vec4 = { 1.75, 0, 0, 0 }
+                name: string = "TintColor"
+                value: vec4 = { 1, 1, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Base_Tile"
+                value: vec4 = { 5, 5, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Blend_Tile"
+                value: vec4 = { 3, 3, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "BaseMat_Tint"
+                value: vec4 = { 0, 0, 0, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "BlendMat_Tint"
+                value: vec4 = { 1, 0.5, 0, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MaskStrength"
+                value: vec4 = { 1.5, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "BloomValue"
+                value: vec4 = { 0.5, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineColor"
+                value: vec4 = { 1, 0.938292503, 0.689356804, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MainTex_TintColor"
+                value: vec4 = { 1, 1, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineControl"
+                value: vec4 = { 0.00499999989, 0.600000024, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineMask_Strength"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "WaveController"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "WaveStrength"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "AlphaClipValue"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "AlphaClipNoiseStrength"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Bloom_TintColor"
+                value: vec4 = { 1, 1, 0.5, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "NoiseUV"
+                value: vec4 = { 5, 5, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "ScrollSpeedMainTex"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MainTex_Tile"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Alpha_Control"
             }
         }
         switches: list2[embed] = {
             StaticMaterialSwitchDef {
-                name: string = "INVERT_FRESNEL"
+                name: string = "DISTORTION_DIFFUSE_TEX_RG"
+                on: bool = false
             }
             StaticMaterialSwitchDef {
-                name: string = "USE_DIFFUSE_ALPHA"
+                name: string = "DISTORTION_DIFFUSE_TEX_B"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "DISTORTION_MAIN_TEX"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "MATCAP_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_OUTLINEMASK_B_ALPHA"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "BLENDCOLOR_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "ADDITIVEALPHA_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "MASK_ON"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "MAINTEX_ON"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "OUTLINE_ON"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "OUTLINE_MASK_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "ALPHABLEND_MAIN"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_MAINTEXCOLOR"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "DEFORM_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "TWO_D_DEFORM_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_MAINTEXALPHA"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "ALPHACLIP_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "BLOOM_TINTCOLOR_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "SCROLL_MAIN_TEX"
                 on: bool = false
             }
         }
@@ -2028,7 +2265,7 @@ entries: map[hash,embed] = {
                 name: string = "normal"
                 passes: list[embed] = {
                     StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/MultiMask_Panner_Fresnel"
+                        shader: link = "Shaders/SkinnedMesh/AlphaBlend_Additive_Scroll_Packed"
                         blendEnable: bool = true
                         srcColorBlendFactor: u32 = 6
                         srcAlphaBlendFactor: u32 = 6
@@ -2421,28 +2658,6 @@ entries: map[hash,embed] = {
     }
     "Characters/Ashe/Skins/Skin20/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
-            "Ashe_Q_tar" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_tar"
-            "Ashe_BA_Crit_tar" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_BA_Crit_tar"
-            "Ashe_BA_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_BA_mis"
-            "Ashe_BA_tar" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_BA_tar"
-            "Ashe_Emote_" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Emote_"
-            "Ashe_E_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_E_mis"
-            "Ashe_E_tar_explode" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_E_tar_explode"
-            "Ashe_E_tar_linger" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_E_tar_linger"
-            "Ashe_freeze" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_freeze"
-            "Ashe_Q_Buf" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_buf"
-            "Ashe_Q_Buf_attack" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_Buf_attack"
-            "Ashe_Q_Buf_bow" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_Buf_bow"
-            "Ashe_Q_Hurricane_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_Hurricane_mis"
-            "Ashe_Q_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_mis"
-            "Ashe_Q_ready" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_ready"
-            "Ashe_R_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_R_mis"
-            "Ashe_R_Tar" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_R_tar"
-            "Ashe_W_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_W_mis"
-            "Ashe_W_Tar" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_W_tar"
-            "Ashe_W_FlipedOnX_mis" = 0x00000000
-            "Ashe_W_Mid_Mis" = 0x00000000
-            "Ashe_R_mis_Child_Trail" = 0x00000000
             "Ashe_Q_tar" = "Characters/Ashe/Skins/Skin17/Particles/Ashe_Skin17_Q_tar"
             "Ashe_BA_Crit_tar" = "Characters/Ashe/Skins/Skin17/Particles/Ashe_Skin17_BA_Crit_tar"
             "Ashe_BA_mis" = "Characters/Ashe/Skins/Skin17/Particles/Ashe_Skin17_BA_mis"
@@ -2483,6 +2698,9 @@ entries: map[hash,embed] = {
             "Ashe_Z_BirdDanceTrail" = "Characters/Ashe/Skins/Skin17/Particles/Ashe_Skin17_Z_BirdDanceTrail"
             "Ashe_Z_EmoteHawkAppear" = "Characters/Ashe/Skins/Skin17/Particles/Ashe_Skin17_Z_EmoteHawkAppear"
             "Ashe_Z_HawkPoof" = "Characters/Ashe/Skins/Skin17/Particles/Ashe_Skin17_Z_HawkPoof"
+            "Ashe_W_FlipedOnX_mis" = 0x00000000
+            "Ashe_W_Mid_Mis" = 0x00000000
+            "Ashe_R_mis_Child_Trail" = 0x00000000
         }
     }
 }

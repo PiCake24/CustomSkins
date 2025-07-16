@@ -32,7 +32,7 @@ linked: list[string] = {
 }
 entries: map[hash,embed] = {
     "Characters/Xayah/Skins/Skin5" = SkinCharacterDataProperties {
-        skinClassification: u32 = 1
+        skinClassification: u32 = 2
         championSkinName: string = "BaseXayah"
         metaDataTags: string = "faction:ionia,gender:female,race:vastaya"
         loadscreen: embed = CensoredImage {
@@ -22413,7 +22413,7 @@ entries: map[hash,embed] = {
                         mSmoothingMode: u8 = 1
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.37000075 }
@@ -22498,7 +22498,7 @@ entries: map[hash,embed] = {
                         mSmoothingMode: u8 = 1
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.579995394 }
@@ -22707,7 +22707,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.0549019612, 0.180392161, 0.258823544 }
@@ -22766,7 +22766,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 25, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -22857,7 +22857,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0, 1, 0.701960802, 0.600000024 }
@@ -22981,7 +22981,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 25, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.700007975 }
@@ -23030,7 +23030,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 25, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.480003059 }
@@ -23098,7 +23098,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 25, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -23391,7 +23391,7 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.650980413, 0.450980395, 1, 1 }
@@ -23473,7 +23473,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "core_flash"
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.31764707, 0.294117659, 1, 1 }
@@ -23561,7 +23561,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_Respawn_Sphere.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.730006874 }
@@ -24057,7 +24057,7 @@ entries: map[hash,embed] = {
                 }
                 emitterName: string = "CastGlow"
                 importance: u8 = 2
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.489997715 }
                 }
@@ -24120,7 +24120,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.469993144 }
                 }
@@ -24225,7 +24225,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.859998465 }
@@ -24336,7 +24336,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 10, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.850980461, 0.850980461, 0.850980461, 1 }
@@ -24453,7 +24453,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.379995435 }
                 }
@@ -24530,7 +24530,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.674509823, 0.109803922, 1, 0.419607848 }
@@ -24605,7 +24605,7 @@ entries: map[hash,embed] = {
                         mAnimationName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_R_Wings.anm"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.300007641 }
@@ -24695,7 +24695,7 @@ entries: map[hash,embed] = {
                         mAnimationName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_R_Wings.anm"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.300007641 }
@@ -24787,7 +24787,7 @@ entries: map[hash,embed] = {
                         mAnimationName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_R_Wings.anm"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.250003815 }
@@ -24879,7 +24879,7 @@ entries: map[hash,embed] = {
                         mAnimationName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_R_Wings.anm"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.200000003 }
@@ -24971,7 +24971,7 @@ entries: map[hash,embed] = {
                         mAnimationName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_R_Wings.anm"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.149996191 }
@@ -25063,7 +25063,7 @@ entries: map[hash,embed] = {
                         mAnimationName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_R_Wings.anm"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.100007631 }
@@ -25155,7 +25155,7 @@ entries: map[hash,embed] = {
                         mAnimationName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_R_Wings.anm"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.0500038154 }
@@ -25247,7 +25247,7 @@ entries: map[hash,embed] = {
                         mAnimationName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_R_Wings.anm"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.0200045779 }
@@ -25339,7 +25339,7 @@ entries: map[hash,embed] = {
                         mAnimationName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_R_Wings.anm"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.86999315, 0.200000003, 1, 0.130006865 }
@@ -25558,7 +25558,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Feathers.sco"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.721568644, 1, 0.941176474, 0.450980395 }
@@ -25838,7 +25838,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Feathers.sco"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.768627465, 1, 0.968627453, 0.368627459 }
@@ -25975,7 +25975,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.113725491, 0.0274509806, 0.239215687, 1 }
@@ -26051,7 +26051,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0, 0, 0, 1 }
@@ -26133,7 +26133,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0, 0, 0, 1 }
@@ -26215,7 +26215,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.330006868, 1, 0.889997721, 0.749996185 }
@@ -26379,7 +26379,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.719996929 }
@@ -26646,7 +26646,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.400000006 }
@@ -26733,7 +26733,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.870588243, 0.203921571, 1, 0.250980407 }
@@ -26820,7 +26820,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.2399939 }
@@ -26900,7 +26900,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.SRT_2025_S2_MegaLayer.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.319996953 }
@@ -26955,54 +26955,6 @@ entries: map[hash,embed] = {
     }
     "Characters/Xayah/Skins/Skin5/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
-            "Xayah_BA_Crit_Mis" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_BA_Crit_Mis"
-            "Xayah_BA_Hit_Tar" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_BA_Hit_Tar"
-            "Xayah_BA_Hit_Tar_Crit" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_BA_Hit_Tar_Crit"
-            "Xayah_BA_Mis" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_BA_Mis"
-            "Xayah_DaggerReturn_RootSuccess" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_DaggerReturn_RootSuccess"
-            "Xayah_E_Mis" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_E_mis"
-            "Xayah_E_mis_SFX_Only" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_E_mis_SFX_Only"
-            "Xayah_E_Root_Tar" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_E_Root_Tar"
-            "Xayah_E_tar" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_E_tar"
-            "Xayah_E_Tar_1" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_E_Tar_1"
-            "Xayah_Idle_smoke" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_Idle_smoke"
-            "Xayah_Passive_Dagger_child8s" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_Passive_Dagger_child8s"
-            "Xayah_Passive_Dagger_death_child" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_Passive_Dagger_death_child"
-            "Xayah_Passive_Dagger_indicator8s" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_Passive_Dagger_indicator8s"
-            "Xayah_Passive_Dagger_indicator_enemy8s" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_Passive_Dagger_indicator_enemy8s"
-            "Xayah_Passive_Dagger_Mark8s" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_Passive_Dagger_Mark8s"
-            "Xayah_Passive_Dagger_Mark8s_enemy" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_Passive_Dagger_Mark8s_enemy"
-            "Xayah_Passive_Dagger_Ready" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_Passive_Dagger_Ready"
-            "Xayah_Passive_Mis" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_Passive_Mis"
-            "Xayah_Passive_Ready_weapon" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_Passive_Ready_weapon"
-            "Xayah_Passive_tar" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_Passive_tar"
-            "Xayah_P_Speedbuff" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_P_Speedbuff"
-            "Xayah_Q_cas_handGlow" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_Q_cas_handGlow"
-            "Xayah_Q_Mis" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_Q_Mis"
-            "Xayah_Q_Mis2" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_Q_Mis2"
-            "Xayah_Q_tar" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_Q_tar"
-            "Xayah_Rakan_Indicator" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_Rakan_Indicator"
-            "Xayah_Recall_avatar" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_Recall_avatar"
-            "Xayah_Recall_feathers" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_Recall_feathers"
-            "Xayah_Recall_Trail" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_Recall_Trail"
-            "Xayah_R_Body_Cas" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_R_Body_Cas"
-            "Xayah_R_Ground_Cas" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_R_Ground_Cas"
-            "Xayah_R_Ground_Cas_indicator" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_R_Ground_Cas_indicator"
-            "Xayah_R_Ground_Cas_indicator_enemy" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_R_Ground_Cas_indicator_enemy"
-            "Xayah_R_Ground_impact" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_R_Ground_impact"
-            "Xayah_R_Tar" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_R_Tar"
-            "Xayah_Taunt_ground" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_Taunt_ground"
-            "Xayah_W_buf" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_W_buf"
-            "Xayah_W_cas_SFX_ONLY" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_W_cas_SFX_ONLY"
-            "Xayah_W_Mis" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_W_Mis"
-            "Xayah_W_mis_cas" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_W_mis_cas"
-            "Xayah_W_Rakan_Indicator" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_W_Rakan_Indicator"
-            "Xayah_W_return_tar" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_W_return_tar"
-            "Xayah_W_Tar" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_W_Tar"
-            "Xayah_W_Transfer_Mis" = "Characters/Xayah/Skins/Skin0/Particles/Xayah_Base_W_Transfer_Mis"
-            0x6c37485c = "Characters/Xayah/CAC/Xayah_Conversation_Base"
-            0xd6629e4d = 0x00000000
-            "Xayah_Skin04_W_Eye" = 0x00000000
             "Xayah_BA_Crit_Mis" = "Characters/Xayah/Skins/Skin4/Particles/Xayah_Skin04_BA_Crit_Mis"
             "Xayah_BA_Hit_Tar" = "Characters/Xayah/Skins/Skin4/Particles/Xayah_Skin04_BA_Hit_Tar"
             "Xayah_BA_Hit_Tar_Crit" = "Characters/Xayah/Skins/Skin4/Particles/Xayah_Skin04_BA_Hit_Tar_Crit"

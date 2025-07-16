@@ -26,7 +26,7 @@ linked: list[string] = {
 }
 entries: map[hash,embed] = {
     "Characters/Irelia/Skins/Skin61" = SkinCharacterDataProperties {
-        skinClassification: u32 = 1
+        skinClassification: u32 = 2
         championSkinName: string = "Irelia"
         metaDataTags: string = "gender:female,faction:ionia,race:human"
         loadscreen: embed = CensoredImage {
@@ -862,20 +862,20 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -3659,14 +3659,14 @@ entries: map[hash,embed] = {
                         mSubmeshesToDraw: list[hash] = {
                             "BODY"
                             "cloth"
-                            0x69e16ebc
+                            "ShoulderArmor"
                             "Pants"
                             "Hair"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
                             "BODY"
                             "cloth"
-                            0x69e16ebc
+                            "ShoulderArmor"
                             "Pants"
                             "Hair"
                         }
@@ -6482,20 +6482,20 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -6541,14 +6541,14 @@ entries: map[hash,embed] = {
                         mSubmeshesToDraw: list[hash] = {
                             "BODY"
                             "cloth"
-                            0x69e16ebc
+                            "ShoulderArmor"
                             "Pants"
                             "Hair"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
                             "BODY"
                             "cloth"
-                            0x69e16ebc
+                            "ShoulderArmor"
                             "Pants"
                             "Hair"
                         }
@@ -7261,14 +7261,14 @@ entries: map[hash,embed] = {
                         mSubmeshesToDraw: list[hash] = {
                             "BODY"
                             "cloth"
-                            0x69e16ebc
+                            "ShoulderArmor"
                             "Pants"
                             "Hair"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
                             "BODY"
                             "cloth"
-                            0x69e16ebc
+                            "ShoulderArmor"
                             "Pants"
                             "Hair"
                         }
@@ -7564,20 +7564,20 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -7618,20 +7618,20 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -7730,20 +7730,20 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -8862,20 +8862,20 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                     }
                 }
@@ -24468,20 +24468,20 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                     }
                 }
@@ -25570,14 +25570,14 @@ entries: map[hash,embed] = {
                         mSubmeshesToDraw: list[hash] = {
                             "BODY"
                             "cloth"
-                            0x69e16ebc
+                            "ShoulderArmor"
                             "Pants"
                             "Hair"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
                             "BODY"
                             "cloth"
-                            0x69e16ebc
+                            "ShoulderArmor"
                             "Pants"
                             "Hair"
                         }
@@ -26521,12 +26521,12 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x271a709c
-                            0xb346d99e
+                            "ArmR1"
+                            "ArmL1"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x271a709c
-                            0xb346d99e
+                            "ArmR1"
+                            "ArmL1"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -29275,12 +29275,12 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x271a709c
-                            0xb346d99e
+                            "ArmR1"
+                            "ArmL1"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x271a709c
-                            0xb346d99e
+                            "ArmR1"
+                            "ArmL1"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -29397,14 +29397,14 @@ entries: map[hash,embed] = {
                         mSubmeshesToDraw: list[hash] = {
                             "BODY"
                             "cloth"
-                            0x69e16ebc
+                            "ShoulderArmor"
                             "Pants"
                             "Hair"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
                             "BODY"
                             "cloth"
-                            0x69e16ebc
+                            "ShoulderArmor"
                             "Pants"
                             "Hair"
                         }
@@ -32318,20 +32318,20 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -33326,20 +33326,20 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -33421,20 +33421,20 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                     }
                 }
@@ -33613,20 +33613,20 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -33677,20 +33677,20 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                     }
                 }
@@ -36088,14 +36088,14 @@ entries: map[hash,embed] = {
                         mSubmeshesToDraw: list[hash] = {
                             "BODY"
                             "cloth"
-                            0x69e16ebc
+                            "ShoulderArmor"
                             "Pants"
                             "Hair"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
                             "BODY"
                             "cloth"
-                            0x69e16ebc
+                            "ShoulderArmor"
                             "Pants"
                             "Hair"
                         }
@@ -36714,10 +36714,10 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0xe64aad2d
+                            "FlowerBud"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0xe64aad2d
+                            "FlowerBud"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -37192,10 +37192,10 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0xe64aad2d
+                            "FlowerBud"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0xe64aad2d
+                            "FlowerBud"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -37264,20 +37264,20 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -41013,14 +41013,14 @@ entries: map[hash,embed] = {
                         mSubmeshesToDraw: list[hash] = {
                             "BODY"
                             "cloth"
-                            0x69e16ebc
+                            "ShoulderArmor"
                             "Pants"
                             "Hair"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
                             "BODY"
                             "cloth"
-                            0x69e16ebc
+                            "ShoulderArmor"
                             "Pants"
                             "Hair"
                         }
@@ -41092,14 +41092,14 @@ entries: map[hash,embed] = {
                         mSubmeshesToDraw: list[hash] = {
                             "BODY"
                             "cloth"
-                            0x69e16ebc
+                            "ShoulderArmor"
                             "Pants"
                             "Hair"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
                             "BODY"
                             "cloth"
-                            0x69e16ebc
+                            "ShoulderArmor"
                             "Pants"
                             "Hair"
                         }
@@ -41643,12 +41643,12 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x271a709c
-                            0xb346d99e
+                            "ArmR1"
+                            "ArmL1"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x271a709c
-                            0xb346d99e
+                            "ArmR1"
+                            "ArmL1"
                         }
                     }
                 }
@@ -41757,20 +41757,20 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x271a709c
-                            0x2a1a7555
-                            0x291a73c2
-                            0xb346d99e
-                            0xb246d80b
-                            0xb146d678
+                            "ArmR1"
+                            "ArmR2"
+                            "ArmR3"
+                            "ArmL1"
+                            "ArmL2"
+                            "ArmL3"
                         }
                     }
                 }
@@ -41874,12 +41874,12 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x2a1a7555
-                            0xb246d80b
+                            "ArmR2"
+                            "ArmL2"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x2a1a7555
-                            0xb246d80b
+                            "ArmR2"
+                            "ArmL2"
                         }
                     }
                 }
@@ -41929,12 +41929,12 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x291a73c2
-                            0xb146d678
+                            "ArmR3"
+                            "ArmL3"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x291a73c2
-                            0xb146d678
+                            "ArmR3"
+                            "ArmL3"
                         }
                     }
                 }
@@ -42042,12 +42042,12 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x271a709c
-                            0xb346d99e
+                            "ArmR1"
+                            "ArmL1"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x271a709c
-                            0xb346d99e
+                            "ArmR1"
+                            "ArmL1"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -42097,12 +42097,12 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x2a1a7555
-                            0xb246d80b
+                            "ArmR2"
+                            "ArmL2"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x2a1a7555
-                            0xb246d80b
+                            "ArmR2"
+                            "ArmL2"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -42152,12 +42152,12 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x291a73c2
-                            0xb146d678
+                            "ArmR3"
+                            "ArmL3"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            0x291a73c2
-                            0xb146d678
+                            "ArmR3"
+                            "ArmL3"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -49308,6 +49308,10 @@ entries: map[hash,embed] = {
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
+                name: string = "FlowScale"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "ScreenSpace_Speed"
             }
             StaticMaterialShaderParamDef {
@@ -49366,30 +49370,40 @@ entries: map[hash,embed] = {
                 name: string = "Bloom_Intensity"
                 value: vec4 = { 0.5, 0, 0, 0 }
             }
+            StaticMaterialShaderParamDef {
+                name: string = "FlowIntensity"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
         }
         switches: list2[embed] = {
             StaticMaterialSwitchDef {
                 name: string = "SCREENSPACE_ON"
                 on: bool = false
+                Group: string = "ScreenSpace"
             }
             StaticMaterialSwitchDef {
                 name: string = "GRADIENT_ON"
                 on: bool = false
+                Group: string = "Gradient"
             }
             StaticMaterialSwitchDef {
                 name: string = "HOLES_ON"
                 on: bool = false
+                Group: string = "Hole"
             }
             StaticMaterialSwitchDef {
                 name: string = "HOLES_SROULLING"
                 on: bool = false
+                Group: string = "Hole"
             }
             StaticMaterialSwitchDef {
                 name: string = "FRESNEL_ON"
+                Group: string = "Fresnel"
             }
             StaticMaterialSwitchDef {
                 name: string = "ADDITIONAL_BLOOM_MASK"
                 on: bool = false
+                Group: string = "Bloom"
             }
         }
         shaderMacros: map[string,string] = {
@@ -49578,72 +49592,6 @@ entries: map[hash,embed] = {
     }
     "Characters/Irelia/Skins/Skin61/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
-            "Irelia_emote_death_sound" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_emote_death_sound"
-            "Irelia_Q_tar" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_Q_tar"
-            "Irelia_Q_Dash" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_Q_Dash"
-            "Irelia_E_Mis_02" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Mis_02"
-            "Irelia_E_Beam_Warning_Sparks" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Beam_Warning_Sparks"
-            "Irelia_Q_heal" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_Q_heal"
-            "Irelia_E_Blades" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Blades"
-            0x5e32a062 = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Hit"
-            0x1e79e656 = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_buf"
-            0x29f0eed8 = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_Mis_Tar_Break"
-            "Irelia_E_Team_Indicator" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Team_Indicator"
-            "Irelia_E_Beam" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Beam"
-            "Irelia_R_Wall_Hit" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_Wall_Hit"
-            "Irelia_W_Hit" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_W_Hit"
-            "Irelia_R_Mis" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_Mis"
-            "Irelia_W_Swipe" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_W_Swipe"
-            "Irelia_Q_Mark" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_Q_Mark"
-            "Irelia_E_Mis_01" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Mis_01"
-            "Irelia_BA_Far_swipe_01" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_BA_Far_swipe_01"
-            "Irelia_BA_Far_swipe_02" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_BA_Far_swipe_02"
-            "Irelia_BA_Hit" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_BA_Hit"
-            "Irelia_BA_Hit_02" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_BA_Hit_02"
-            "Irelia_BA_Hit_Crit" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_BA_Hit_Crit"
-            0xf5889176 = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Blades_Stacks_1_2_3"
-            0x62ebbfd6 = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Blades_Stacks_4"
-            "Irelia_W_DR" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_W_DR"
-            "Irelia_W_Block" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_W_Block"
-            0x4fbcffc4 = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_Wall_Bladeglow"
-            0xeed84822 = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Hit_4stack_left"
-            "Irelia_P_Hit_02" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Hit_02"
-            0xecd844fc = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Hit_4stack_right"
-            "Irelia_P_Hit_04" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Hit_04"
-            0x19c4bd3c = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Mis_01_Child"
-            "Irelia_E_Blades_Child_Glow" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Blades_Child_Glow"
-            "Irelia_BA_Far_swipe_03" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_BA_Far_swipe_03"
-            "Irelia_BA_Close_01" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_BA_Close_01"
-            "Irelia_BA_Close_02" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_BA_Close_02"
-            "Irelia_BA_Crit_swipe" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_BA_Crit_swipe"
-            "Irelia_E_cas" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_cas"
-            "Irelia_W_FullPower" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_W_FullPower"
-            "Irelia_Q_Mark_SelfOnly" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_Q_Mark_SelfOnly"
-            "Irelia_Q_Proc" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_Q_Proc"
-            0xd17cc36f = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_Wall_Disarm"
-            "Irelia_E_cas_02" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_cas_02"
-            "Irelia_E_Mis_02_Child" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Mis_02_Child"
-            "Irelia_P_Far_swipe_02" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Far_swipe_02"
-            "Irelia_P_Far_swipe_03" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Far_swipe_03"
-            "Irelia_P_Close_01" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Close_01"
-            "Irelia_P_Far_swipe_01" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Far_swipe_01"
-            "Irelia_P_Close_02" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Close_02"
-            "Irelia_P_Hit_Shields" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Hit_Shields"
-            "Irelia_R_cas" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_cas"
-            "Irelia_E_hit_Avatar" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_hit_Avatar"
-            "Irelia_W_Swipe_Empowered" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_W_Swipe_Empowered"
-            "Irelia_R_groundlines" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_groundlines"
-            0xf38f40e1 = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_groundlines_enemy"
-            "Irelia_W_Block_child" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_W_Block_child"
-            "Irelia_R_Mis_child" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_Mis_child"
-            "Irelia_R_Mis_End_child" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_Mis_End_child"
-            "Irelia_R_Hit_Aoe" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_Hit_Aoe"
-            "Irelia_E_Team_Indicator_Enemy" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Team_Indicator_Enemy"
-            "Irelia_E_Beam_Enemy" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Beam_Enemy"
-            "Irelia_E_Beam_Warning_Sparks_Enemy" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Beam_Warning_Sparks_Enemy"
-            "Irelia_E_Hit_minion" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Hit_minion"
-            "Irelia_R_Wall_Bladeglow_Enemy" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_Wall_Bladeglow_Enemy"
-            "Irelia_Q_tar_enemy" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_Q_tar_enemy"
             "Irelia_emote_death_sound" = "Characters/Irelia/Skins/Skin55/Particles/Irelia_Skin55_emote_death_sound"
             "Irelia_Q_tar" = "Characters/Irelia/Skins/Skin55/Particles/Irelia_Skin55_Q_tar"
             "Irelia_Q_Dash" = "Characters/Irelia/Skins/Skin55/Particles/Irelia_Skin55_Q_Dash"

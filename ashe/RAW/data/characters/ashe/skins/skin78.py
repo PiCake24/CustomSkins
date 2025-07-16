@@ -23,7 +23,7 @@ linked: list[string] = {
 }
 entries: map[hash,embed] = {
     "Characters/Ashe/Skins/Skin78" = SkinCharacterDataProperties {
-        skinClassification: u32 = 1
+        skinClassification: u32 = 2
         championSkinName: string = "Ashe"
         metaDataTags: string = "race:human,gender:female,faction:freljord,element:ice"
         loadscreen: embed = CensoredImage {
@@ -171,7 +171,7 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0xe9496d4c
+                            "BaseBow"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -240,7 +240,7 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0xe9496d4c
+                            "BaseBow"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -1908,7 +1908,7 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x8d7565c3
+                            "SecondBow"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -1977,7 +1977,7 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x8d7565c3
+                            "SecondBow"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -2124,7 +2124,7 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0xe9496d4c
+                            "BaseBow"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -6184,7 +6184,7 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x89bd67a2
+                            "ThirdBow"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -6253,7 +6253,7 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x89bd67a2
+                            "ThirdBow"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -8547,7 +8547,7 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0xe9496d4c
+                            "BaseBow"
                         }
                     }
                 }
@@ -11777,7 +11777,7 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0xe9496d4c
+                            "BaseBow"
                         }
                     }
                 }
@@ -11968,7 +11968,7 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0xa7064546
+                            "AA_Arrows"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -12098,7 +12098,7 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0xe9496d4c
+                            "BaseBow"
                         }
                     }
                 }
@@ -22938,7 +22938,7 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x8d7565c3
+                            "SecondBow"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -23116,7 +23116,7 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
-                            0x89bd67a2
+                            "ThirdBow"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -24251,39 +24251,17 @@ entries: map[hash,embed] = {
             }
             mVFXResourceResolver: pointer = ResourceResolver {
                 resourceMap: map[hash,link] = {
-            "Ashe_Q_tar" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_tar"
-            "Ashe_BA_Crit_tar" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_BA_Crit_tar"
-            "Ashe_BA_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_BA_mis"
-            "Ashe_BA_tar" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_BA_tar"
-            "Ashe_Emote_" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Emote_"
-            "Ashe_E_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_E_mis"
-            "Ashe_E_tar_explode" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_E_tar_explode"
-            "Ashe_E_tar_linger" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_E_tar_linger"
-            "Ashe_freeze" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_freeze"
-            "Ashe_Q_Buf" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_buf"
-            "Ashe_Q_Buf_attack" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_Buf_attack"
-            "Ashe_Q_Buf_bow" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_Buf_bow"
-            "Ashe_Q_Hurricane_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_Hurricane_mis"
-            "Ashe_Q_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_mis"
-            "Ashe_Q_ready" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_ready"
-            "Ashe_R_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_R_mis"
-            "Ashe_R_Tar" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_R_tar"
-            "Ashe_W_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_W_mis"
-            "Ashe_W_Tar" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_W_tar"
-            "Ashe_W_FlipedOnX_mis" = 0x00000000
-            "Ashe_W_Mid_Mis" = 0x00000000
-            "Ashe_R_mis_Child_Trail" = 0x00000000
                     "Ashe_R_Tar" = "Characters/Ashe/Skins/Skin76/Particles/Ashe_Skin76_R_tar_Lv11"
                     0x7a7fffa7 = "Characters/Ashe/Skins/Skin78/Particles/Ashe_Skin78_Q_Buf_bow_lv11"
                     "Ashe_Skin76_Z_Recall_HandGlow_Intro" = "Characters/Ashe/Skins/Skin78/Particles/Ashe_Skin78_Z_Recall_HandGlow_Intro_lv11"
                 }
             }
             mCharacterSubmeshesToHide: list[hash] = {
-                0xe9496d4c
-                0x8d7565c3
+                "BaseBow"
+                "SecondBow"
             }
             mCharacterSubmeshesToShow: list[hash] = {
-                0x89bd67a2
+                "ThirdBow"
             }
             EnableOverrideIdleEffects: bool = true
             OverrideIdleEffects: list[embed] = {
@@ -24318,11 +24296,11 @@ entries: map[hash,embed] = {
             }
             mVFXResourceResolver: pointer = ResourceResolver {}
             mCharacterSubmeshesToHide: list[hash] = {
-                0x89bd67a2
-                0x8d7565c3
+                "ThirdBow"
+                "SecondBow"
             }
             mCharacterSubmeshesToShow: list[hash] = {
-                0xe9496d4c
+                "BaseBow"
             }
         }
     }
@@ -24338,38 +24316,16 @@ entries: map[hash,embed] = {
             }
             mVFXResourceResolver: pointer = ResourceResolver {
                 resourceMap: map[hash,link] = {
-            "Ashe_Q_tar" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_tar"
-            "Ashe_BA_Crit_tar" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_BA_Crit_tar"
-            "Ashe_BA_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_BA_mis"
-            "Ashe_BA_tar" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_BA_tar"
-            "Ashe_Emote_" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Emote_"
-            "Ashe_E_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_E_mis"
-            "Ashe_E_tar_explode" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_E_tar_explode"
-            "Ashe_E_tar_linger" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_E_tar_linger"
-            "Ashe_freeze" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_freeze"
-            "Ashe_Q_Buf" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_buf"
-            "Ashe_Q_Buf_attack" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_Buf_attack"
-            "Ashe_Q_Buf_bow" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_Buf_bow"
-            "Ashe_Q_Hurricane_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_Hurricane_mis"
-            "Ashe_Q_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_mis"
-            "Ashe_Q_ready" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_ready"
-            "Ashe_R_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_R_mis"
-            "Ashe_R_Tar" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_R_tar"
-            "Ashe_W_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_W_mis"
-            "Ashe_W_Tar" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_W_tar"
-            "Ashe_W_FlipedOnX_mis" = 0x00000000
-            "Ashe_W_Mid_Mis" = 0x00000000
-            "Ashe_R_mis_Child_Trail" = 0x00000000
                     0x7a7fffa7 = "Characters/Ashe/Skins/Skin78/Particles/Ashe_Skin78_Q_Buf_bow_lv6"
                     "Ashe_Skin76_Z_Recall_HandGlow_Intro" = "Characters/Ashe/Skins/Skin78/Particles/Ashe_Skin78_Z_Recall_HandGlow_Intro_lv6"
                 }
             }
             mCharacterSubmeshesToHide: list[hash] = {
-                0x89bd67a2
-                0xe9496d4c
+                "ThirdBow"
+                "BaseBow"
             }
             mCharacterSubmeshesToShow: list[hash] = {
-                0x8d7565c3
+                "SecondBow"
             }
             EnableOverrideIdleEffects: bool = true
             OverrideIdleEffects: list[embed] = {
@@ -24651,6 +24607,10 @@ entries: map[hash,embed] = {
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
+                name: string = "FlowScale"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "ScreenSpace_Speed"
                 value: vec4 = { 0, -0.25, 0, 0 }
             }
@@ -24714,28 +24674,38 @@ entries: map[hash,embed] = {
                 name: string = "Bloom_Intensity"
                 value: vec4 = { 1, 0, 0, 0 }
             }
+            StaticMaterialShaderParamDef {
+                name: string = "FlowIntensity"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
         }
         switches: list2[embed] = {
             StaticMaterialSwitchDef {
                 name: string = "SCREENSPACE_ON"
+                Group: string = "ScreenSpace"
             }
             StaticMaterialSwitchDef {
                 name: string = "GRADIENT_ON"
+                Group: string = "Gradient"
             }
             StaticMaterialSwitchDef {
                 name: string = "HOLES_ON"
                 on: bool = false
+                Group: string = "Hole"
             }
             StaticMaterialSwitchDef {
                 name: string = "HOLES_SROULLING"
                 on: bool = false
+                Group: string = "Hole"
             }
             StaticMaterialSwitchDef {
                 name: string = "FRESNEL_ON"
+                Group: string = "Fresnel"
             }
             StaticMaterialSwitchDef {
                 name: string = "ADDITIONAL_BLOOM_MASK"
                 on: bool = false
+                Group: string = "Bloom"
             }
         }
         shaderMacros: map[string,string] = {
@@ -24792,28 +24762,6 @@ entries: map[hash,embed] = {
     }
     "Characters/Ashe/Skins/Skin78/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
-            "Ashe_Q_tar" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_tar"
-            "Ashe_BA_Crit_tar" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_BA_Crit_tar"
-            "Ashe_BA_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_BA_mis"
-            "Ashe_BA_tar" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_BA_tar"
-            "Ashe_Emote_" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Emote_"
-            "Ashe_E_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_E_mis"
-            "Ashe_E_tar_explode" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_E_tar_explode"
-            "Ashe_E_tar_linger" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_E_tar_linger"
-            "Ashe_freeze" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_freeze"
-            "Ashe_Q_Buf" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_buf"
-            "Ashe_Q_Buf_attack" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_Buf_attack"
-            "Ashe_Q_Buf_bow" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_Buf_bow"
-            "Ashe_Q_Hurricane_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_Hurricane_mis"
-            "Ashe_Q_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_mis"
-            "Ashe_Q_ready" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_Q_ready"
-            "Ashe_R_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_R_mis"
-            "Ashe_R_Tar" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_R_tar"
-            "Ashe_W_mis" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_W_mis"
-            "Ashe_W_Tar" = "Characters/Ashe/Skins/Skin0/Particles/Ashe_Base_W_tar"
-            "Ashe_W_FlipedOnX_mis" = 0x00000000
-            "Ashe_W_Mid_Mis" = 0x00000000
-            "Ashe_R_mis_Child_Trail" = 0x00000000
             "Ashe_Q_tar" = "Characters/Ashe/Skins/Skin76/Particles/Ashe_Skin76_Q_tar"
             "Ashe_BA_Crit_tar" = "Characters/Ashe/Skins/Skin76/Particles/Ashe_Skin76_BA_Crit_tar"
             "Ashe_BA_mis" = "Characters/Ashe/Skins/Skin78/Particles/Ashe_Skin78_BA_mis"
@@ -24892,6 +24840,9 @@ entries: map[hash,embed] = {
             "Ashe_Skin76_Z_Recall_HandGlow_Intro_lv6" = "Characters/Ashe/Skins/Skin78/Particles/Ashe_Skin78_Z_Recall_HandGlow_Intro_lv6"
             "Ashe_Skin76_Z_Recall_HandGlow_Intro_lv11" = "Characters/Ashe/Skins/Skin78/Particles/Ashe_Skin78_Z_Recall_HandGlow_Intro_lv11"
             "Ashe_Skin76_Idle_Bow_Orb_Flower_Lv11_Bottom" = "Characters/Ashe/Skins/Skin78/Particles/Ashe_Skin78_Idle_Bow_Orb_Flower_Lv11_Bottom"
+            "Ashe_W_FlipedOnX_mis" = 0x00000000
+            "Ashe_W_Mid_Mis" = 0x00000000
+            "Ashe_R_mis_Child_Trail" = 0x00000000
         }
     }
 }

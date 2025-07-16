@@ -3920,7 +3920,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/common_Graves_Skin05_Z_FlatColor.dds"
+                particleColorTexture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/common_Graves_Skin05_Z_FlatColor.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -3986,7 +3986,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/Syndra_Skin02_Z_WaterSpikes.dds"
+                texture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/Syndra_Skin02_Z_WaterSpikes.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -4015,7 +4015,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/common_color-hold.tex"
                 pass: i16 = 100
                 meshRenderFlags: u8 = 0
                 miscRenderFlags: u8 = 1
@@ -15835,7 +15835,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/common_color-hold.tex"
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.494117647, 0.0784313753, 1 }
                 }
@@ -23639,7 +23639,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/common_Graves_Skin05_Z_FlatColor.dds"
+                particleColorTexture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/common_Graves_Skin05_Z_FlatColor.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -23705,7 +23705,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/Syndra_Skin02_Z_WaterSpikes.dds"
+                texture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/Syndra_Skin02_Z_WaterSpikes.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -23734,7 +23734,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/common_color-hold.tex"
                 pass: i16 = 100
                 meshRenderFlags: u8 = 0
                 miscRenderFlags: u8 = 1

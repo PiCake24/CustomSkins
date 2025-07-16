@@ -27,7 +27,7 @@ linked: list[string] = {
 }
 entries: map[hash,embed] = {
     "Characters/Irelia/Skins/Skin27" = SkinCharacterDataProperties {
-        skinClassification: u32 = 1
+        skinClassification: u32 = 2
         championSkinName: string = "Irelia"
         metaDataTags: string = "gender:female,faction:ionia,race:human"
         loadscreen: embed = CensoredImage {
@@ -3160,90 +3160,208 @@ entries: map[hash,embed] = {
         name: string = "Characters/Irelia/Skins/Skin27/Materials/HairGlow_inst"
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
-                textureName: string = "AlphaMask_Fresnel"
-                texturePath: string = "ASSETS/Shared/Materials/white.dds"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
+                textureName: string = "MatCap_Tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "MatCap_Mask"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture"
+                texturePath: string = "ASSETS/Characters/Irelia/Skins/Skin26/Irelia_Skin26_ScrollTex.tex"
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "Main_Texture"
                 texturePath: string = "ASSETS/Characters/Irelia/Skins/Skin27/Irelia_Skin27_TX_CM.tex"
-                addressU: u32 = 1
-                addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Scroll_01"
-                texturePath: string = "ASSETS/Characters/Irelia/Skins/Skin26/Irelia_Skin26_P_HairGlow1.tex"
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Mask"
-                texturePath: string = "ASSETS/Characters/Irelia/Skins/Skin26/Irelia_Skin26_P_HairGlow1.tex"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Scroll_02"
-                texturePath: string = "ASSETS/Characters/Irelia/Skins/Skin26/Irelia_Skin26_P_HairGlow1.tex"
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Scroll_03"
-                texturePath: string = "ASSETS/Characters/Irelia/Skins/Skin26/Irelia_Skin26_P_HairGlow1.tex"
-                addressW: u32 = 1
+                textureName: string = "OutlineMask_Texture"
+                texturePath: string = "ASSETS/Shared/Materials/white.dds"
+                addressU: u32 = 2
+                addressV: u32 = 2
+                addressW: u32 = 2
             }
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
-                name: string = "Fresnel_Size"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Alpha_Bias"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Texture_UV_Scale01"
+                name: string = "Distortion_Diffuse_Tex_B_Control"
                 value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Fresnel_Color"
-                value: vec4 = { 1, 0.839215696, 0.654901981, 0 }
+                name: string = "Distortion_Diffuse_Tex_RG_Control"
+                value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Panning_Noise_Color"
-                value: vec4 = { 1, 0.87843138, 0.725490212, 0 }
+                name: string = "Distortion_Main_Tex_Control"
+                value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "ScrollTexture_Control01"
+                name: string = "MatCap_TintColor"
+                value: vec4 = { 1, 1, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MatCap_Control"
+                value: vec4 = { 0, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineMask_Texture_B_UV"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "ScrollSpeedBase"
                 value: vec4 = { 0, -0.25, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Texture_UV_Scale02"
+                name: string = "ScrollSpeedBlend"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 1, 1, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Base_Tile"
                 value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "ScrollTexture_Control02"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Texture_UV_Scale03"
+                name: string = "Blend_Tile"
                 value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "ScrollTexture_Control03"
+                name: string = "BaseMat_Tint"
+                value: vec4 = { 1, 0.783215106, 0.317555517, 1 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "BloomIntensity"
-                value: vec4 = { 1.42499995, 0, 0, 0 }
+                name: string = "BlendMat_Tint"
+                value: vec4 = { 0, 0, 0, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MaskStrength"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "BloomValue"
+                value: vec4 = { 1.20000005, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineColor"
+                value: vec4 = { 1, 0.850202203, 0.553749919, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MainTex_TintColor"
+                value: vec4 = { 1, 1, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineControl"
+                value: vec4 = { 0.00999999978, 0.699999988, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineMask_Strength"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "WaveController"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "WaveStrength"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "AlphaClipValue"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "AlphaClipNoiseStrength"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Bloom_TintColor"
+                value: vec4 = { 1, 0.821896672, 0.539803147, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "NoiseUV"
+                value: vec4 = { 5, 5, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "ScrollSpeedMainTex"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MainTex_Tile"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Alpha_Control"
             }
         }
         switches: list2[embed] = {
             StaticMaterialSwitchDef {
-                name: string = "INVERT_FRESNEL"
+                name: string = "DISTORTION_DIFFUSE_TEX_RG"
+                on: bool = false
             }
             StaticMaterialSwitchDef {
-                name: string = "USE_DIFFUSE_ALPHA"
+                name: string = "DISTORTION_DIFFUSE_TEX_B"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "DISTORTION_MAIN_TEX"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "MATCAP_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_OUTLINEMASK_B_ALPHA"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "BLENDCOLOR_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "ADDITIVEALPHA_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "MASK_ON"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "MAINTEX_ON"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "OUTLINE_ON"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "OUTLINE_MASK_ON"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "ALPHABLEND_MAIN"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_MAINTEXCOLOR"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "DEFORM_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "TWO_D_DEFORM_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_MAINTEXALPHA"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "ALPHACLIP_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "BLOOM_TINTCOLOR_ON"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "SCROLL_MAIN_TEX"
                 on: bool = false
             }
         }
@@ -3255,7 +3373,7 @@ entries: map[hash,embed] = {
                 name: string = "normal"
                 passes: list[embed] = {
                     StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/MultiMask_Panner_Fresnel"
+                        shader: link = "Shaders/SkinnedMesh/AlphaBlend_Additive_Scroll_Packed"
                         blendEnable: bool = true
                         srcColorBlendFactor: u32 = 6
                         srcAlphaBlendFactor: u32 = 6
@@ -3277,7 +3395,16 @@ entries: map[hash,embed] = {
         dynamicMaterial: pointer = DynamicMaterialDef {
             parameters: list[embed] = {
                 DynamicMaterialParameterDef {
-                    name: string = "Panning_Noise_Color"
+                    name: string = "OutlineMask_Strength"
+                    driver: pointer = RemapFloatMaterialDriver {
+                        mDriver: pointer = BuffCounterDynamicMaterialFloatDriver {
+                            mScriptName: string = "IreliaPassiveStacks"
+                        }
+                        mMaxValue: f32 = 5
+                    }
+                }
+                DynamicMaterialParameterDef {
+                    name: string = "BaseMat_Tint"
                     driver: pointer = ColorGraphMaterialDriver {
                         driver: pointer = RemapFloatMaterialDriver {
                             mDriver: pointer = BuffCounterDynamicMaterialFloatDriver {
@@ -3288,19 +3415,19 @@ entries: map[hash,embed] = {
                         colors: embed = VfxAnimatedColorVariableData {
                             times: list[f32] = {
                                 0
-                                0.482520342
+                                0.343265295
                                 1
                             }
                             values: list[vec4] = {
                                 { 0, 0, 0, 1 }
                                 { 0, 0, 0, 1 }
-                                { 0.947368443, 0.75686276, 0.474509805, 1 }
+                                { 1, 0.75686276, 0.474509805, 1 }
                             }
                         }
                     }
                 }
                 DynamicMaterialParameterDef {
-                    name: string = "Fresnel_Color"
+                    name: string = "Bloom_TintColor"
                     driver: pointer = ColorGraphMaterialDriver {
                         driver: pointer = RemapFloatMaterialDriver {
                             mDriver: pointer = BuffCounterDynamicMaterialFloatDriver {
@@ -3323,17 +3450,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 DynamicMaterialParameterDef {
-                    name: string = "Fresnel_Size"
-                    driver: pointer = RemapFloatMaterialDriver {
-                        mDriver: pointer = BuffCounterDynamicMaterialFloatDriver {
-                            mScriptName: string = "IreliaPassiveStacks"
-                        }
-                        mMaxValue: f32 = 5
-                        mOutputMaxValue: f32 = 0.25
-                    }
-                }
-                DynamicMaterialParameterDef {
-                    name: string = "BloomIntensity"
+                    name: string = "BloomValue"
                     driver: pointer = RemapFloatMaterialDriver {
                         mDriver: pointer = BuffCounterDynamicMaterialFloatDriver {
                             mScriptName: string = "IreliaPassiveStacks"
@@ -3346,72 +3463,6 @@ entries: map[hash,embed] = {
     }
     "Characters/Irelia/Skins/Skin27/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
-            "Irelia_emote_death_sound" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_emote_death_sound"
-            "Irelia_Q_tar" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_Q_tar"
-            "Irelia_Q_Dash" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_Q_Dash"
-            "Irelia_E_Mis_02" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Mis_02"
-            "Irelia_E_Beam_Warning_Sparks" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Beam_Warning_Sparks"
-            "Irelia_Q_heal" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_Q_heal"
-            "Irelia_E_Blades" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Blades"
-            0x5e32a062 = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Hit"
-            0x1e79e656 = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_buf"
-            0x29f0eed8 = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_Mis_Tar_Break"
-            "Irelia_E_Team_Indicator" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Team_Indicator"
-            "Irelia_E_Beam" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Beam"
-            "Irelia_R_Wall_Hit" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_Wall_Hit"
-            "Irelia_W_Hit" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_W_Hit"
-            "Irelia_R_Mis" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_Mis"
-            "Irelia_W_Swipe" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_W_Swipe"
-            "Irelia_Q_Mark" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_Q_Mark"
-            "Irelia_E_Mis_01" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Mis_01"
-            "Irelia_BA_Far_swipe_01" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_BA_Far_swipe_01"
-            "Irelia_BA_Far_swipe_02" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_BA_Far_swipe_02"
-            "Irelia_BA_Hit" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_BA_Hit"
-            "Irelia_BA_Hit_02" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_BA_Hit_02"
-            "Irelia_BA_Hit_Crit" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_BA_Hit_Crit"
-            0xf5889176 = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Blades_Stacks_1_2_3"
-            0x62ebbfd6 = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Blades_Stacks_4"
-            "Irelia_W_DR" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_W_DR"
-            "Irelia_W_Block" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_W_Block"
-            0x4fbcffc4 = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_Wall_Bladeglow"
-            0xeed84822 = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Hit_4stack_left"
-            "Irelia_P_Hit_02" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Hit_02"
-            0xecd844fc = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Hit_4stack_right"
-            "Irelia_P_Hit_04" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Hit_04"
-            0x19c4bd3c = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Mis_01_Child"
-            "Irelia_E_Blades_Child_Glow" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Blades_Child_Glow"
-            "Irelia_BA_Far_swipe_03" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_BA_Far_swipe_03"
-            "Irelia_BA_Close_01" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_BA_Close_01"
-            "Irelia_BA_Close_02" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_BA_Close_02"
-            "Irelia_BA_Crit_swipe" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_BA_Crit_swipe"
-            "Irelia_E_cas" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_cas"
-            "Irelia_W_FullPower" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_W_FullPower"
-            "Irelia_Q_Mark_SelfOnly" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_Q_Mark_SelfOnly"
-            "Irelia_Q_Proc" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_Q_Proc"
-            0xd17cc36f = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_Wall_Disarm"
-            "Irelia_E_cas_02" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_cas_02"
-            "Irelia_E_Mis_02_Child" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Mis_02_Child"
-            "Irelia_P_Far_swipe_02" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Far_swipe_02"
-            "Irelia_P_Far_swipe_03" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Far_swipe_03"
-            "Irelia_P_Close_01" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Close_01"
-            "Irelia_P_Far_swipe_01" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Far_swipe_01"
-            "Irelia_P_Close_02" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Close_02"
-            "Irelia_P_Hit_Shields" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_P_Hit_Shields"
-            "Irelia_R_cas" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_cas"
-            "Irelia_E_hit_Avatar" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_hit_Avatar"
-            "Irelia_W_Swipe_Empowered" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_W_Swipe_Empowered"
-            "Irelia_R_groundlines" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_groundlines"
-            0xf38f40e1 = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_groundlines_enemy"
-            "Irelia_W_Block_child" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_W_Block_child"
-            "Irelia_R_Mis_child" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_Mis_child"
-            "Irelia_R_Mis_End_child" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_Mis_End_child"
-            "Irelia_R_Hit_Aoe" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_Hit_Aoe"
-            "Irelia_E_Team_Indicator_Enemy" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Team_Indicator_Enemy"
-            "Irelia_E_Beam_Enemy" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Beam_Enemy"
-            "Irelia_E_Beam_Warning_Sparks_Enemy" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Beam_Warning_Sparks_Enemy"
-            "Irelia_E_Hit_minion" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Hit_minion"
-            "Irelia_R_Wall_Bladeglow_Enemy" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_R_Wall_Bladeglow_Enemy"
-            "Irelia_Q_tar_enemy" = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_Q_tar_enemy"
             "Irelia_emote_death_sound" = "Characters/Irelia/Skins/Skin26/Particles/Irelia_Skin26_emote_death_sound"
             "Irelia_Q_tar" = "Characters/Irelia/Skins/Skin26/Particles/Irelia_Skin26_Q_tar"
             "Irelia_Q_Dash" = "Characters/Irelia/Skins/Skin26/Particles/Irelia_Skin26_Q_Dash"

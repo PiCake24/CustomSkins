@@ -15,7 +15,7 @@ linked: list[string] = {
 }
 entries: map[hash,embed] = {
     "Characters/Rell/Skins/Skin23" = SkinCharacterDataProperties {
-        skinClassification: u32 = 1
+        skinClassification: u32 = 2
         championSkinName: string = "Rell"
         metaDataTags: string = "faction:noxus,gender:female,race:human"
         skinUpgradeData: embed = skinUpgradeData {
@@ -4582,7 +4582,7 @@ entries: map[hash,embed] = {
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 1, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Swain/Skins/Skin11/Particles/Swain_Skin11_R_WispMultAlpha.dds"
+                    textureMult: string = "ASSETS/Characters/Swain/Skins/Skin11/Particles/Swain_Skin11_R_WispMultAlpha.tex"
                     texDivMult: vec2 = { 100, 100 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, -0.300000012 }
@@ -7703,7 +7703,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0299999993
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/distort-pinch.dds"
+                    normalMapTexture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/distort-pinch.tex"
                 }
                 miscRenderFlags: u8 = 5
                 isUniformScale: flag = true
@@ -7729,7 +7729,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -9524,7 +9524,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Samira/Skins/Base/Particles/Samira_Base_E_Cracks_Mult.dds"
+                    erosionMapName: string = "ASSETS/Characters/Samira/Skins/Base/Particles/Samira_Base_E_Cracks_Mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -9621,7 +9621,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Samira/Skins/Base/Particles/Samira_Base_E_Cracks_Mult.dds"
+                    erosionMapName: string = "ASSETS/Characters/Samira/Skins/Base/Particles/Samira_Base_E_Cracks_Mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -10381,7 +10381,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Senna/Skins/Base/Particles/Senna_Base_AutoAttack_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Senna/Skins/Base/Particles/Senna_Base_AutoAttack_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -15254,7 +15254,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Samira/Skins/Base/Particles/Samira_Base_E_Cracks_Mult.dds"
+                    erosionMapName: string = "ASSETS/Characters/Samira/Skins/Base/Particles/Samira_Base_E_Cracks_Mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -15351,7 +15351,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Samira/Skins/Base/Particles/Samira_Base_E_Cracks_Mult.dds"
+                    erosionMapName: string = "ASSETS/Characters/Samira/Skins/Base/Particles/Samira_Base_E_Cracks_Mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -24005,14 +24005,14 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0299999993
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Sona_Skin17_Q_Distort_Blurred.dds"
+                    normalMapTexture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Sona_Skin17_Q_Distort_Blurred.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 400, 400 }
                 }
-                texture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -30181,7 +30181,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sett/Skins/Base/Particles/Sett_Base_E_Dome_Swipe_Mult.dds"
+                texture: string = "ASSETS/Characters/Sett/Skins/Base/Particles/Sett_Base_E_Dome_Swipe_Mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 0 }
                 }
@@ -30230,7 +30230,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.5, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sett/Skins/Base/Particles/Sett_Base_Mask_Horizontal_A.dds"
+                    textureMult: string = "ASSETS/Characters/Sett/Skins/Base/Particles/Sett_Base_Mask_Horizontal_A.tex"
                     texAddressModeMult: u8 = 2
                     uvScrollClampMult: flag = true
                 }
@@ -30296,7 +30296,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.699999988, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Sett/Skins/Base/Particles/Sett_Base_Center_Mask_A.dds"
+                texture: string = "ASSETS/Characters/Sett/Skins/Base/Particles/Sett_Base_Center_Mask_A.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.5 }
                 }
@@ -30308,7 +30308,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 180
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sett/Skins/Base/Particles/Sett_Base_Vertical_Glow.dds"
+                    textureMult: string = "ASSETS/Characters/Sett/Skins/Base/Particles/Sett_Base_Vertical_Glow.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -37364,7 +37364,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_R_ErosionPack01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_R_ErosionPack01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -37455,7 +37455,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_R_WindSwirl01.dds"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_R_WindSwirl01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -37561,7 +37561,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_Z_Fire_Trail_Up.dds"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_Z_Fire_Trail_Up.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1.5 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -37696,7 +37696,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_Noise_05.dds"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_Noise_05.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 1.5 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -38256,7 +38256,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 10, 0, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Sona_Skin17_R_Distortion_Gradient.dds"
+                particleColorTexture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Sona_Skin17_R_Distortion_Gradient.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0 }
@@ -38281,7 +38281,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0399999991
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Sona_Skin17_R_Distortion.dds"
+                    normalMapTexture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Sona_Skin17_R_Distortion.tex"
                 }
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
@@ -38300,7 +38300,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -39058,7 +39058,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0299999993
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/distort-pinch.dds"
+                    normalMapTexture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/distort-pinch.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -39084,7 +39084,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/Sona/Skins/Skin17/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -42083,102 +42083,6 @@ entries: map[hash,embed] = {
     }
     "Characters/Rell/Skins/Skin23/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
-            "Rell_P_Ring" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_P_Ring"
-            "Rell_P_ArmorShred" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_P_ArmorShred"
-            "Rell_Q_Cast" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Q_Cast"
-            "Rell_Q_Indicator" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Q_Indicator"
-            "Rell_Q_Stab" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Q_Stab"
-            "Rell_Q_VFX_Mis" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Q_VFX_Mis"
-            "Rell_Q_Tar_Child" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Q_Tar_Child"
-            "Rell_Q_Tar" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Q_Tar"
-            "Rell_Q_Tar_ShieldBreak" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Q_Tar_ShieldBreak"
-            "Rell_Q_Heal" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Q_Heal"
-            "Rell_E_Tether_Armed" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_Tether_Armed"
-            "Rell_E_Beam_Snap" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_Beam_Snap"
-            "Rell_E_Cricle_Explosion" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_Cricle_Explosion"
-            "Rell_E_Tether_Hit" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_Tether_Hit"
-            "Rell_E_Pointer" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_Pointer"
-            "Rell_E_Ring_Solo" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_Ring_Solo"
-            "Rell_E_Tether_Persist" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_Tether_Persist"
-            "Rell_E_tether_range_indicator" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_tether_range_indicator"
-            "Rell_W_Mount_Transform" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_W_Mount_Transform"
-            "Rell_W_Dismount_AOE" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_W_Dismount_AOE"
-            "Rell_W_Dismount_Cast" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_W_Dismount_Cast"
-            "Rell_W_Dismount_AOE_Indicator_Enemy" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_W_Dismount_AOE_Indicator_Enemy"
-            "Rell_W_Dismount_Slide_Indicator_Enemy" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_W_Dismount_Slide_Indicator_Enemy"
-            "Rell_W_Dismount_Slide_AOE" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_W_Dismount_Slide_AOE"
-            "Rell_W_Tar" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_W_Tar"
-            "Rell_W_Tar_KnockUp" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_W_Tar_KnockUp"
-            0x799c2c66 = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_W_Mount_Buf_Ground"
-            "Rell_W_Shield" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_W_Shield"
-            "Rell_R_Cas_Body" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_R_Cas_Body"
-            "Rell_R_tar" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_R_tar"
-            "Rell_R_AOE" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_R_AOE"
-            "Rell_R_Cas_AOE" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_R_Cas_AOE"
-            "Rell_R_Suck_tar" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_R_Suck_tar"
-            "Rell_R_Hit_Tick" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_R_Hit_Tick"
-            "Rell_R_Hit_Streak" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_R_Hit_Streak"
-            "Rell_R_Buf" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_R_Buf"
-            "Rell_E_VFX_mis" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_VFX_mis"
-            "Rell_E_Ally_Indicator_Far" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_Ally_Indicator_Far"
-            "Rell_E_Ally_Activate" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_Ally_Activate"
-            "Rell_W_Mount_Buf_Lance" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_W_Mount_Buf_Lance"
-            "Rell_W_Mount_Transform_Child" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_W_Mount_Transform_Child"
-            "Rell_W_Mount_Buf_Steam" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_W_Mount_Buf_Steam"
-            "Rell_W_Mount_Rib_Glow" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_W_Mount_Rib_Glow"
-            "Rell_BA_Swipe_Mounted" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_BA_Swipe_Mounted"
-            "Rell_BA_Tar" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_BA_Tar"
-            "Rell_BA_Swipe_Grounded_01" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_BA_Swipe_Grounded_01"
-            "Rell_BA_Swipe_Grounded_02" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_BA_Swipe_Grounded_02"
-            "Rell_E_Ally_Indicator_Near" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_Ally_Indicator_Near"
-            "Rell_E_Ally_Indicator_Med" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_Ally_Indicator_Med"
-            "Rell_Q_Stab_Child" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Q_Stab_Child"
-            "Rell_Q_Stab_Grounded" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Q_Stab_Grounded"
-            "Rell_Q_Stab_Child_Ground" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Q_Stab_Child_Ground"
-            "Rell_W_Dismount_Hover" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_W_Dismount_Hover"
-            "Rell_W_Dismount_Jump" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_W_Dismount_Jump"
-            "Rell_E_Cast" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_Cast"
-            0x55b021f9 = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_BA_Swipe_Child"
-            "Rell_BA_Swipe_Child_Spear" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_BA_Swipe_Child_Spear"
-            "Rell_BA_Swipe_Child_Kick" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_BA_Swipe_Child_Kick"
-            0xf5562299 = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_BA_Swipe_Grounded_Crit"
-            0x982336b1 = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_BA_Swipe_Mounted_Crit"
-            "Rell_W_Flip_Swipe" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_W_Flip_Swipe"
-            "Rell_Q_Heal_Child" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Q_Heal_Child"
-            "Rell_E_Snap_Mis" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_Snap_Mis"
-            "Rell_E_Snap_Cas" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_Snap_Cas"
-            "Rell_E_Ring" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_Ring"
-            "Rell_W_Dismount_AOE_Indicator_Friendly" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_W_Dismount_AOE_Indicator_Friendly"
-            "Rell_W_Dismount_Slide_Indicator_Friendly" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_W_Dismount_Slide_Indicator_Friendly"
-            "Rell_Emote_Death_Dust_Horse" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Emote_Death_Dust_Horse"
-            "Rell_Emote_Death_Dust_Lance" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Emote_Death_Dust_Lance"
-            "Rell_Emote_Death_Dust_Rell" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Emote_Death_Dust_Rell"
-            "Rell_Emote_Dance_Dust_Hoofprints" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Emote_Dance_Dust_Hoofprints"
-            "Rell_Emote_Dance_Lance_Stab" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Emote_Dance_Lance_Stab"
-            "Rell_Emote_Dance_R_Hoofprints" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Emote_Dance_R_Hoofprints"
-            "Rell_Emote_Recall_Winddown" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Emote_Recall_Winddown"
-            "Rell_Emote_Recall_Winddown_Steam" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Emote_Recall_Winddown_Steam"
-            "Rell_Emote_Recall_Winddown_Dust_Blow" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Emote_Recall_Winddown_Dust_Blow"
-            "Rell_Emote_Recall_Chroma_Lance" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Emote_Recall_Chroma_Lance"
-            "Rell_Emote_Recall_Lance_Stab" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_Emote_Recall_Lance_Stab"
-            "Rell_P_ArmorShred_Minion" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_P_ArmorShred_Minion"
-            "Rell_E_buff" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_buff"
-            "Rell_E_Stage2" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_Stage2"
-            "Rell_E_Stage3" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_Stage3"
-            0xce7eb5a8 = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_SlowField"
-            "Rell_E_Empowered_Lance" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_Empowered_Lance"
-            "Rell_P_ArmorShred2" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_P_ArmorShred2"
-            "Rell_P_ArmorShred3" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_P_ArmorShred3"
-            "Rell_P_ArmorShred4" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_P_ArmorShred4"
-            "Rell_P_ArmorShred5" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_P_ArmorShred5"
-            "Rell_P_ArmorShred_Minion2" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_P_ArmorShred_Minion2"
-            "Rell_P_ArmorShred_Minion3" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_P_ArmorShred_Minion3"
-            "Rell_P_ArmorShred_Minion4" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_P_ArmorShred_Minion4"
-            "Rell_P_ArmorShred_Minion5" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_P_ArmorShred_Minion5"
-            "Rell_W_Ally_Buf_Ground" = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_W_Ally_Buf_Ground"
-            0x65ee4617 = "Shared/Particles/globalhit_physical"
-            0xb23c8936 = "Shared/Particles/globalhit_physical"
-            0xd7e05705 = "Shared/Particles/globalhit_physical"
             "Rell_P_Ring" = "Characters/Rell/Skins/Skin20/Particles/Rell_Skin20_P_Ring"
             "Rell_P_ArmorShred" = "Characters/Rell/Skins/Skin20/Particles/Rell_Skin20_P_ArmorShred"
             "Rell_Q_Cast" = "Characters/Rell/Skins/Skin20/Particles/Rell_Skin20_Q_Cast"

@@ -29,7 +29,7 @@ linked: list[string] = {
 }
 entries: map[hash,embed] = {
     "Characters/Yasuo/Skins/Skin76" = SkinCharacterDataProperties {
-        skinClassification: u32 = 1
+        skinClassification: u32 = 2
         championSkinName: string = "Yasuo"
         metaDataTags: string = "gender:male,faction:ionia,race:human,element:wind"
         loadscreen: embed = CensoredImage {
@@ -47522,89 +47522,212 @@ entries: map[hash,embed] = {
         name: string = "Characters/Yasuo/Skins/Skin76/Materials/Arms_Glow_inst"
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
-                textureName: string = "AlphaMask_Fresnel"
-                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin68/Particles/Yasuo_Skin68_Idle_Mask_02.dds"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
+                textureName: string = "MatCap_Tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "MatCap_Mask"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture"
+                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin68/Yasuo_Skin68_ScrollTex.tex"
+                uncensoredTextures: map[hash,string] = {
+                    0x811c9dc5 = ""
+                }
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "Main_Texture"
                 texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin76/Yasuo_Skin76_TX_CM.dds"
-                addressU: u32 = 1
-                addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Scroll_01"
-                texturePath: string = "ASSETS/Characters/LeeSin/Skins/Skin31/Particles/LeeSin_Skin31_E_Bottom_02.tex"
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Mask"
-                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin68/Particles/Yasuo_Skin68_Idle_Mask_02.dds"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Scroll_02"
-                texturePath: string = "ASSETS/Characters/Varus/Skins/Skin44/Particles/Varus_Skin34_Cape_Nebula.dds"
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Scroll_03"
-                texturePath: string = "ASSETS/Characters/LeeSin/Skins/Skin31/Particles/LeeSin_Skin31_E_Bottom_02.tex"
-                addressW: u32 = 1
+                textureName: string = "OutlineMask_Texture"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                addressU: u32 = 2
+                addressV: u32 = 2
+                addressW: u32 = 2
             }
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
-                name: string = "Fresnel_Size"
-                value: vec4 = { 0.5, 0, 0, 0 }
+                name: string = "Distortion_Diffuse_Tex_B_Control"
+                value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Alpha_Bias"
+                name: string = "Distortion_Diffuse_Tex_RG_Control"
+                value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Texture_UV_Scale01"
+                name: string = "Distortion_Main_Tex_Control"
+                value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Fresnel_Color"
-                value: vec4 = { 0.137254909, 0.611764729, 0.862745106, 1 }
+                name: string = "MatCap_TintColor"
+                value: vec4 = { 1, 1, 1, 1 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Panning_Noise_Color"
-                value: vec4 = { 0.109803922, 0.203921571, 0.305882365, 1 }
+                name: string = "MatCap_Control"
+                value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "ScrollTexture_Control01"
+                name: string = "OutlineMask_Texture_B_UV"
+                value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Texture_UV_Scale02"
-                value: vec4 = { 8, 5, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "ScrollTexture_Control02"
+                name: string = "ScrollSpeedBase"
                 value: vec4 = { 0, 0.5, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Texture_UV_Scale03"
+                name: string = "ScrollSpeedBlend"
             }
             StaticMaterialShaderParamDef {
-                name: string = "ScrollTexture_Control03"
+                name: string = "TintColor"
+                value: vec4 = { 1, 1, 1, 1 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "BloomIntensity"
-                value: vec4 = { 2, 0, 0, 0 }
+                name: string = "Base_Tile"
+                value: vec4 = { 8, 5, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Blend_Tile"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "BaseMat_Tint"
+                value: vec4 = { 0.100000001, 0.550000012, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "BlendMat_Tint"
+                value: vec4 = { 0.100000001, 0.100000001, 0.200000003, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MaskStrength"
+                value: vec4 = { 0.25, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "BloomValue"
+                value: vec4 = { 1.5, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineColor"
+                value: vec4 = { 0.528267324, 0.4686656, 0.667093933, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MainTex_TintColor"
+                value: vec4 = { 1, 1, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineControl"
+                value: vec4 = { 0.00100000005, 0.5, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineMask_Strength"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "WaveController"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "WaveStrength"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "AlphaClipValue"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "AlphaClipNoiseStrength"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Bloom_TintColor"
+                value: vec4 = { 0.100000001, 0.550000012, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "NoiseUV"
+                value: vec4 = { 5, 5, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "ScrollSpeedMainTex"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MainTex_Tile"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Alpha_Control"
             }
         }
         switches: list2[embed] = {
             StaticMaterialSwitchDef {
-                name: string = "INVERT_FRESNEL"
+                name: string = "DISTORTION_DIFFUSE_TEX_RG"
+                on: bool = false
             }
             StaticMaterialSwitchDef {
-                name: string = "USE_DIFFUSE_ALPHA"
+                name: string = "DISTORTION_DIFFUSE_TEX_B"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "DISTORTION_MAIN_TEX"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "MATCAP_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_OUTLINEMASK_B_ALPHA"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "BLENDCOLOR_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "ADDITIVEALPHA_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "MASK_ON"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "MAINTEX_ON"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "OUTLINE_ON"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "OUTLINE_MASK_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "ALPHABLEND_MAIN"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_MAINTEXCOLOR"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "DEFORM_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "TWO_D_DEFORM_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_MAINTEXALPHA"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "ALPHACLIP_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "BLOOM_TINTCOLOR_ON"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "SCROLL_MAIN_TEX"
                 on: bool = false
             }
         }
@@ -47616,7 +47739,7 @@ entries: map[hash,embed] = {
                 name: string = "normal"
                 passes: list[embed] = {
                     StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/MultiMask_Panner_Fresnel"
+                        shader: link = "Shaders/SkinnedMesh/AlphaBlend_Additive_Scroll_Packed"
                         blendEnable: bool = true
                         srcColorBlendFactor: u32 = 6
                         srcAlphaBlendFactor: u32 = 6
@@ -47640,44 +47763,212 @@ entries: map[hash,embed] = {
         name: string = "Characters/Yasuo/Skins/Skin76/Materials/Hair_Bloom_inst"
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
+                textureName: string = "MatCap_Tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "MatCap_Mask"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+            }
+            StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin76/Yasuo_Skin76_TX_CM.dds"
-                addressV: u32 = 1
+                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin68/Yasuo_Skin68_ScrollTex.tex"
+                uncensoredTextures: map[hash,string] = {
+                    0x811c9dc5 = ""
+                }
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Mask_Texture"
-                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin68/Particles/Yasuo_Skin68_Idle_Mask.dds"
+                textureName: string = "Main_Texture"
+                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin76/Yasuo_Skin76_TX_CM.dds"
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "OutlineMask_Texture"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                addressU: u32 = 2
+                addressV: u32 = 2
+                addressW: u32 = 2
             }
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
-                name: string = "Additive_Intensity"
-                value: vec4 = { 1, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Noise_Scale"
+                name: string = "Distortion_Diffuse_Tex_B_Control"
                 value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Scroll_Speed"
+                name: string = "Distortion_Diffuse_Tex_RG_Control"
+                value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Addative_Color"
-                value: vec4 = { 0.109803922, 0.203921571, 0.305882365, 0 }
+                name: string = "Distortion_Main_Tex_Control"
+                value: vec4 = { 1, 1, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Bloom_Intensity"
+                name: string = "MatCap_TintColor"
+                value: vec4 = { 1, 1, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MatCap_Control"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineMask_Texture_B_UV"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "ScrollSpeedBase"
+                value: vec4 = { 0, 0.5, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "ScrollSpeedBlend"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 1, 1, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Base_Tile"
+                value: vec4 = { 8, 5, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Blend_Tile"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "BaseMat_Tint"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "BlendMat_Tint"
+                value: vec4 = { 0.100000001, 0.5, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MaskStrength"
+                value: vec4 = { 0.150000006, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "BloomValue"
+                value: vec4 = { 3, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineColor"
+                value: vec4 = { 0, 0, 0, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MainTex_TintColor"
+                value: vec4 = { 1, 1, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineControl"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineMask_Strength"
                 value: vec4 = { 1, 0, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Bloom_color"
-                value: vec4 = { 0.137254909, 0.611764729, 0.862745106, 1 }
+                name: string = "WaveController"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "WaveStrength"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "AlphaClipValue"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "AlphaClipNoiseStrength"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Bloom_TintColor"
+                value: vec4 = { 0.100000001, 0.600000024, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "NoiseUV"
+                value: vec4 = { 5, 5, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "ScrollSpeedMainTex"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MainTex_Tile"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Alpha_Control"
             }
         }
         switches: list2[embed] = {
             StaticMaterialSwitchDef {
-                name: string = "OVERLAY_ADDATIVE"
+                name: string = "DISTORTION_DIFFUSE_TEX_RG"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "DISTORTION_DIFFUSE_TEX_B"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "DISTORTION_MAIN_TEX"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "MATCAP_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_OUTLINEMASK_B_ALPHA"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "BLENDCOLOR_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "ADDITIVEALPHA_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "MASK_ON"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "MAINTEX_ON"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "OUTLINE_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "OUTLINE_MASK_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "ALPHABLEND_MAIN"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_MAINTEXCOLOR"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "DEFORM_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "TWO_D_DEFORM_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_MAINTEXALPHA"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "ALPHACLIP_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "BLOOM_TINTCOLOR_ON"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "SCROLL_MAIN_TEX"
+                on: bool = false
             }
         }
         shaderMacros: map[string,string] = {
@@ -47688,7 +47979,7 @@ entries: map[hash,embed] = {
                 name: string = "normal"
                 passes: list[embed] = {
                     StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/ScrollingUVs_Simple"
+                        shader: link = "Shaders/SkinnedMesh/AlphaBlend_Additive_Scroll_Packed"
                         blendEnable: bool = true
                         srcColorBlendFactor: u32 = 6
                         srcAlphaBlendFactor: u32 = 6
@@ -47710,92 +48001,6 @@ entries: map[hash,embed] = {
     }
     "Characters/Yasuo/Skins/Skin76/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
-            0xe4c8d91f = 0xe4c8d91f
-            "Yasuo_BA_Crit_hit_01" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_01"
-            "Yasuo_BA_Crit_hit_02" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_02"
-            "Yasuo_BA_Crit_hit_03" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_03"
-            "Yasuo_BA_Crit_hit_04" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_04"
-            "Yasuo_BA_hit_tar_01" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_01"
-            "Yasuo_BA_hit_tar_02" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_02"
-            "Yasuo_BA_hit_tar_03" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_03"
-            "Yasuo_BA_hit_tar_04" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_04"
-            "Yasuo_BA_trail_1" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_1"
-            "Yasuo_BA_trail_2" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_2"
-            "Yasuo_BA_trail_3" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_3"
-            "Yasuo_BA_trail_4" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_4"
-            "Yasuo_Dance_flute_wind" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_Dance_flute_wind"
-            "Yasuo_deathscaress_buf" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_deathscaress_buf"
-            "Yasuo_Emote_dance_in_sound" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Emote_dance_in_sound"
-            "Yasuo_Emote_dance_sound" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Emote_dance_sound"
-            "Yasuo_Emote_death_sound" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Emote_death_sound"
-            "Yasuo_Emote_joke_sound" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Emote_joke_sound"
-            "Yasuo_Emote_laugh_sound" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Emote_laugh_sound"
-            "Yasuo_Emote_taunt2_sound" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Emote_taunt2_sound"
-            "Yasuo_Emote_taunt_generic" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Emote_taunt_generic"
-            "Yasuo_Emote_taunt_interactive_ninja" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Emote_taunt_interactive_ninja"
-            "Yasuo_Emote_taunt_interactive_riven" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Emote_taunt_interactive_riven"
-            "Yasuo_Emote_taunt_interactive_yi" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Emote_taunt_interactive_yi"
-            "Yasuo_Emote_taunt_sound" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Emote_taunt_sound"
-            "Yasuo_EQ3_cas" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_EQ3_cas"
-            "Yasuo_EQ_cas" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_EQ_cas"
-            "Yasuo_EQ_SwordGlow" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_EQ_SwordGlow"
-            "Yasuo_E_Dash" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_E_Dash"
-            "Yasuo_E_dash_hit" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_E_dash_hit"
-            "Yasuo_E_timer1" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_E_timer1"
-            "Yasuo_E_timer2" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_E_timer2"
-            "Yasuo_E_timer3" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_E_timer3"
-            "Yasuo_E_timer4" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_E_timer4"
-            "Yasuo_E_timer5" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_E_timer5"
-            "Yasuo_I_sheath_spark" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_I_sheath_spark"
-            "Yasuo_NightmareBot_E_timer1" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_NightmareBot_E_timer1"
-            "Yasuo_NightmareBot_E_timer2" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_NightmareBot_E_timer2"
-            "Yasuo_NightmareBot_E_timer3" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_NightmareBot_E_timer3"
-            "Yasuo_NightmareBot_E_timer4" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_NightmareBot_E_timer4"
-            "Yasuo_NightmareBot_E_timer5" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_NightmareBot_E_timer5"
-            "Yasuo_Passive_Activate" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_passive_activate"
-            "Yasuo_Passive_Burst" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Passive_Burst"
-            "Yasuo_Q3_Hand" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q3_Hand"
-            "Yasuo_Q3_Indicator_Ring" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q3_Indicator_Ring"
-            "Yasuo_Q3_Indicator_Ring_alt" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q3_Indicator_Ring_alt"
-            "Yasuo_Q_Hand" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_Hand"
-            "Yasuo_Q_hit_tar" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_hit_tar"
-            "Yasuo_Q_sound" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_sound"
-            "Yasuo_Q_WindStrike" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_WindStrike"
-            "Yasuo_Q_WindStrike_02" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_windstrike_02"
-            "Yasuo_Q_wind_hit_tar" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_wind_hit_tar"
-            "Yasuo_Q_wind_mis" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_wind_mis"
-            "Yasuo_Q_wind_ready_buff" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_wind_ready_buff"
-            0xc542e434 = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_Recall"
-            "Yasuo_recall_start_sound" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_recall_start_sound"
-            "Yasuo_R_cantcast_beam" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_R_cantcast_beam"
-            "Yasuo_R_cas_marker_01" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_cas_marker_01"
-            "Yasuo_R_CloneVFX" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_CloneVFX"
-            "Yasuo_R_dash" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_dash"
-            "Yasuo_R_impact_tar" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_impact_tar"
-            "Yasuo_R_indicator_beam" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_R_indicator_beam"
-            "Yasuo_R_land_tar" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_land_tar"
-            "Yasuo_R_slash_cas" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_R_slash_cas"
-            "Yasuo_R_SwordGlow" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_SwordGlow"
-            "Yasuo_R_tar_imp_01" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_tar_imp_01"
-            "Yasuo_R_tar_marker_01" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_tar_marker_01"
-            "Yasuo_R_tar_marker_02" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_tar_marker_02"
-            "Yasuo_Taunt_spit" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_Taunt_spit"
-            "Yasuo_Wall_XinZhao_OLD" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Wall_XinZhao_OLD"
-            "Yasuo_W_windwall1" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall1"
-            "Yasuo_W_windwall2" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall2"
-            "Yasuo_W_windwall3" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall3"
-            "Yasuo_W_windwall4" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall4"
-            "Yasuo_W_windwall5" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall5"
-            "Yasuo_W_windwall_activate" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall_activate"
-            "Yasuo_W_Windwall_big_impact" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall_big_impact"
-            "Yasuo_W_windwall_enemy_01" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_01"
-            "Yasuo_W_windwall_enemy_02" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_02"
-            "Yasuo_W_windwall_enemy_03" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_03"
-            "Yasuo_W_windwall_enemy_04" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_04"
-            "Yasuo_W_windwall_enemy_05" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_05"
-            "Yasuo_Q_Odyssey_Wandering_wind_mis" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_wind_mis"
-            "Yasuo_Q_Odyssey_Growing_wind_mis" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_wind_mis"
-            "Yasuo_Q_Odyssey_Wandering_Growing_wind_mis" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_wind_mis"
             "Yasuo_BA_Crit_hit_01" = "Characters/Yasuo/Skins/Skin68/Particles/Yasuo_Skin68_BA_Crit_hit_01"
             "Yasuo_BA_Crit_hit_02" = "Characters/Yasuo/Skins/Skin68/Particles/Yasuo_Skin68_BA_Crit_hit_02"
             "Yasuo_BA_Crit_hit_03" = "Characters/Yasuo/Skins/Skin68/Particles/Yasuo_Skin68_BA_Crit_hit_03"

@@ -22,7 +22,7 @@ linked: list[string] = {
 }
 entries: map[hash,embed] = {
     "Characters/Qiyana/Skins/Skin45" = SkinCharacterDataProperties {
-        skinClassification: u32 = 1
+        skinClassification: u32 = 2
         championSkinName: string = "Base"
         metaDataTags: string = "gender:female,faction:ixtal,race:human"
         skinUpgradeData: embed = skinUpgradeData {
@@ -3924,7 +3924,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/common_Graves_Skin05_Z_FlatColor.dds"
+                particleColorTexture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/common_Graves_Skin05_Z_FlatColor.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -3990,7 +3990,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/Syndra_Skin02_Z_WaterSpikes.dds"
+                texture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/Syndra_Skin02_Z_WaterSpikes.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -4019,7 +4019,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/common_color-hold.tex"
                 pass: i16 = 100
                 meshRenderFlags: u8 = 0
                 miscRenderFlags: u8 = 1
@@ -15839,7 +15839,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/common_color-hold.tex"
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.494117647, 0.0784313753, 1 }
                 }
@@ -23643,7 +23643,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/common_Graves_Skin05_Z_FlatColor.dds"
+                particleColorTexture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/common_Graves_Skin05_Z_FlatColor.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -23709,7 +23709,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/Syndra_Skin02_Z_WaterSpikes.dds"
+                texture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/Syndra_Skin02_Z_WaterSpikes.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -23738,7 +23738,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Characters/Syndra/Skins/Base/Particles/common_color-hold.tex"
                 pass: i16 = 100
                 meshRenderFlags: u8 = 0
                 miscRenderFlags: u8 = 1
@@ -40667,83 +40667,6 @@ entries: map[hash,embed] = {
     }
     "Characters/Qiyana/Skins/Skin45/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
-            "Qiyana_R_Tar_Wall" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_R_Tar_Wall"
-            "Qiyana_BA_tar" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_BA_tar"
-            "Qiyana_W_Gain_Earth" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_W_Gain_Earth"
-            "Qiyana_W_Gain_Ice" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_W_Gain_Ice"
-            "Qiyana_W_Gain_Grass" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_W_Gain_Grass"
-            "Qiyana_P_FirstHit_Grass" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_P_FirstHit_Grass"
-            "Qiyana_P_FirstHit_Earth" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_P_FirstHit_Earth"
-            "Qiyana_P_FirstHit_NoEle" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_P_FirstHit_NoEle"
-            "Qiyana_P_FirstHit_Ice" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_P_FirstHit_Ice"
-            "Qiyana_P_timer_Earth" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_P_timer_Earth"
-            "Qiyana_P_timer_Grass" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_P_timer_Grass"
-            "Qiyana_P_timer_Ice" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_P_timer_Ice"
-            "Qiyana_P_timer_NoEle" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_P_timer_NoEle"
-            0x479f737a = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_Mis"
-            "Qiyana_Q_Hit_Freeze" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_Hit_Freeze"
-            "Qiyana_R_Rock_Mis_Right" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_R_Rock_Mis_Right"
-            0x74de915d = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_R_Hit_Explosion"
-            "Qiyana_R_Indicator_Ring_Enemy" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_R_Indicator_Ring_Enemy"
-            "Qiyana_R_Indicator_Grass" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_R_Indicator_Grass"
-            "Qiyana_R_Hit_Grass" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_R_Hit_Grass"
-            "Qiyana_R_Hit_Warning" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_R_Hit_Warning"
-            "Qiyana_R_Cas" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_R_Cas"
-            "Qiyana_W_Mis_Earth" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_W_Mis_Earth"
-            "Qiyana_W_Mis_Grass" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_W_Mis_Grass"
-            "Qiyana_W_Mis_Ice" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_W_Mis_Ice"
-            "Qiyana_E_Dash" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_E_Dash"
-            "Qiyana_Q_Cas_Earth" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_Cas_Earth"
-            "Qiyana_Q_Cas_Ice" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_Cas_Ice"
-            "Qiyana_Q_Cas_Grass" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_Cas_Grass"
-            "Qiyana_Q_mis_Earth" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_mis_Earth"
-            "Qiyana_Q_mis_Ice" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_mis_Ice"
-            "Qiyana_Q_mis_Grass" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_mis_Grass"
-            "Qiyana_R_Indicator_Ice" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_R_Indicator_Ice"
-            "Qiyana_R_Hit_Ice" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_R_Hit_Ice"
-            "Qiyana_Q_Grass_StealthZone" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_Grass_StealthZone"
-            "Qiyana_Q_mis_NoEle" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_mis_NoEle"
-            "Qiyana_Q_Indicator_Earth" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_Indicator_Earth"
-            "Qiyana_Q_Indicator_Grass" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_Indicator_Grass"
-            "Qiyana_Q_Indicator_Ice" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_Indicator_Ice"
-            0xdbd13e86 = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_W_Blade_Ice"
-            0x2b09ecef = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_W_Blade_Grass"
-            0x578ddc3f = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_W_Blade_Earth"
-            "Qiyana_E_tar" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_E_tar"
-            "Qiyana_Q_mis_Water_child" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_mis_Water_child"
-            "Qiyana_Q_cas" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_cas_NoEle"
-            "Qiyana_W_Mis_Grass_Child" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_W_Mis_Grass_Child"
-            0x10063c40 = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_mis_Earth_child"
-            0x1287f3ca = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_R_Indicator_Enemy"
-            "Qiyana_R_Hit_Grass_Child" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_R_Hit_Grass_Child"
-            0x148f23e4 = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Blade_Idle_Earth"
-            "Qiyana_Blade_Idle_Grass" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Blade_Idle_Grass"
-            0x761dd920 = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Blade_Idle_Ice"
-            0x0fb83c6c = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_W_Cas_Earth_animevent"
-            0x0c8fdd5a = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_Cas_Ice_mesh"
-            "Qiyana_Q_hit_Earth" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_hit_Earth"
-            "Qiyana_Q_hit_Water" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_hit_Ice"
-            "Qiyana_Q_hit_Grass" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_hit_Grass"
-            "Qiyana_Q_cas_grass_animevent" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_cas_grass_animevent"
-            "Qiyana_Q_hit_Noele" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_hit_Noele"
-            "Qiyana_R_Rock_Mis_Left" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_R_Rock_Mis_Left"
-            "Qiyana_R_Mis" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_R_Mis"
-            "Qiyana_BA_Swipe1" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_BA_Swipe1"
-            "Qiyana_BA_Swipe2" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_BA_Swipe2"
-            "Qiyana_BA_Swipe3" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_BA_Swipe3"
-            "Qiyana_BA_tar2" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_BA_tar2"
-            "Qiyana_R_Tar_Water_Stun" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_R_Tar_Ice_Stun"
-            "Qiyana_R_Tar_Grass_Stun" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_R_Tar_Grass_Stun"
-            0x92f574d7 = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_W_Haste_Ice"
-            "Qiyana_W_Haste_Earth" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_W_Haste_Earth"
-            "Qiyana_W_Haste_Grass" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_W_Haste_Grass"
-            "Qiyana_Q_Grass_StealthZone_Enemy" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_Grass_StealthZone_Enemy"
-            "Qiyana_Recall" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Recall"
-            "Qiyana_R_Indicator_Ally" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_R_Indicator_Ally"
-            "Qiyana_R_Indicator_Ring_Enemy_CounterClockwise" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_R_Indicator_Ring_Enemy_CounterClockwise"
-            "Qiyana_Crit_tar" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Crit_tar"
-            0x68ae2ce1 = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_Q_Mis_Facing"
-            "Qiyana_R_Indicator_Spectator" = "Characters/Qiyana/Skins/Skin0/Particles/Qiyana_Base_R_Indicator_Spectator"
             "Qiyana_R_Tar_Wall" = "Characters/Qiyana/Skins/Skin40/Particles/Qiyana_Skin40_R_Tar_Wall"
             "Qiyana_BA_tar" = "Characters/Qiyana/Skins/Skin40/Particles/Qiyana_Skin40_BA_tar"
             "Qiyana_W_Gain_Earth" = "Characters/Qiyana/Skins/Skin40/Particles/Qiyana_Skin40_W_Gain_Earth"

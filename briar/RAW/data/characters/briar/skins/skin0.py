@@ -179,7 +179,7 @@ entries: map[hash,embed] = {
             }
         }
         skinAnimationProperties: embed = skinAnimationProperties {
-            animationGraphData: link = 0xf5bb1984
+            animationGraphData: link = "Characters/Briar/Animations/Skin0"
         }
         skinMeshProperties: embed = SkinMeshDataProperties {
             skeleton: string = "ASSETS/Characters/Briar/Skins/Base/Briar_Base.skl"
