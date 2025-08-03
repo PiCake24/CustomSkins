@@ -786,7 +786,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zoe/Skins/Base/Particles/Zoe_Base_Q_ImpactGlow.dds"
+                texture: string = "ASSETS/Characters/Zoe/Skins/Base/Particles/Zoe_Base_Q_ImpactGlow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -17691,7 +17691,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
+                texture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
                 numFrames: u16 = 4
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0.200000003 }
@@ -21417,7 +21417,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zoe/Skins/Base/Particles/Zoe_Base_Q_ImpactGlow.dds"
+                texture: string = "ASSETS/Characters/Zoe/Skins/Base/Particles/Zoe_Base_Q_ImpactGlow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -41241,6 +41241,10 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "ALPHA_MAIN_SCROLL_OUTLINE_ADD"
+                on: bool = false
+            }
             StaticMaterialSwitchDef {
                 name: string = "DISTORTION_DIFFUSE_TEX_RG"
                 on: bool = false

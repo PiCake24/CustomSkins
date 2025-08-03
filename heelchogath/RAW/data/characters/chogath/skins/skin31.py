@@ -17531,7 +17531,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.SKINS_Sion_Skin49.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.TFT_Set15.dds"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }

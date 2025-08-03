@@ -138,7 +138,7 @@ entries: map[hash,embed] = {
         skinMeshProperties: embed = SkinMeshDataProperties {
             skeleton: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07.skl"
             simpleSkin: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07.skn"
-            texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_TX_CM.dds"
+            texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_TX_CM.tex"
 	 	 	skinScale: f32 = 2
             selfIllumination: f32 = 0.600000024
             material: link = "Characters/Zyra/Skins/Skin7/Materials/Zyra_Sparkle_Body_MAT_inst"
@@ -146,23 +146,23 @@ entries: map[hash,embed] = {
             initialSubmeshToHide: string = "Bird, RecallVine, RecallChair, Rose, BirdRose"
             materialOverride: list[embed] = {
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_Recall_TX_CM.dds"
+                    texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_Recall_TX_CM.tex"
                     submesh: string = "RecallChair"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_RSkillVines_TX_CM_5.dds"
+                    texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_RSkillVines_TX_CM_5.tex"
                     submesh: string = "RecallVine"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin7_Bird_TX_CM.dds"
+                    texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin7_Bird_TX_CM.tex"
                     submesh: string = "BirdRose"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin7_Bird_TX_CM.dds"
+                    texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin7_Bird_TX_CM.tex"
                     submesh: string = "Bird"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_RecallSeed_TX_CM_4.dds"
+                    texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_RecallSeed_TX_CM_4.tex"
                     submesh: string = "Rose"
                 }
             }
@@ -333,7 +333,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Aura_Self.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Aura_Self.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -393,7 +393,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Idle_Glow.DDS"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Idle_Glow.tex"
             }
         }
         visibilityRadius: f32 = 10000
@@ -533,7 +533,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_AA_FlowerPetalz.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_AA_FlowerPetalz.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -587,7 +587,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.Leblanc_Rework.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.TFT_Set15.dds"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -610,7 +610,7 @@ entries: map[hash,embed] = {
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
                 isLocalOrientation: flag = false
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_TX_CM.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Shared/Particles/FN_Universal_Praxis_Red_001.dds"
                     uvScaleMult: embed = ValueVector2 {
@@ -832,7 +832,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -1025,7 +1025,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -1219,7 +1219,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -1409,7 +1409,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -1602,7 +1602,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -1795,7 +1795,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -1991,7 +1991,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -2181,7 +2181,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -2260,7 +2260,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Q_multmask.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Q_multmask.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 2 }
@@ -2331,7 +2331,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.0199999996, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/disc32.DDS"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/disc32.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -2455,7 +2455,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -80, -120 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/color-hold.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.466666669, 1, 0.850980401, 1 }
@@ -2647,7 +2647,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, -70, -90 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/common_color-hold.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.510002315, 0.570000768, 1, 1 }
@@ -2687,7 +2687,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/XinZhao_Skin07_E_ErosionPack01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/XinZhao_Skin07_E_ErosionPack01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -2910,7 +2910,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Sparkle_1.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Sparkle_1.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.300000012
@@ -3083,7 +3083,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Bokeh_Dots_4x4.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Bokeh_Dots_4x4.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -3147,7 +3147,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 100, 0 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_alphablend_ground.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_alphablend_ground.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Shared/Particles/Orianna_Skin11_AlphaSlice_1.dds"
                     birthUvScrollRateMult: embed = ValueVector2 {
@@ -3227,9 +3227,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 280, 150, 0 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/E_Head_ground.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/E_Head_ground.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -3303,7 +3303,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 280, 100, 0 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_alphablend_ground.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_alphablend_ground.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Shared/Particles/Base_shield_Mult.dds"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
@@ -3455,7 +3455,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_AA_FlowerPetalz.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_AA_FlowerPetalz.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -3530,7 +3530,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.10000002
-                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -3552,7 +3552,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_swipe.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_swipe.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -0.125, 0.699999988 }
                 }
@@ -3561,7 +3561,7 @@ entries: map[hash,embed] = {
                 }
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 4 }
                     }
@@ -3741,7 +3741,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -3926,7 +3926,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -4111,7 +4111,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_QESkill_TX2_CM.tex"
             }
         }
         particleName: string = "Zyra_Skin07_E_Sequence_Impact"
@@ -4173,7 +4173,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.699999988, 0.699999988, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_RSkillVines_TX_CM_5.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_RSkillVines_TX_CM_5.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -4229,7 +4229,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_MagicCircle03.dds"
+                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_MagicCircle03.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -4244,7 +4244,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 500, 600 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Q_MagicCircle01.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Q_MagicCircle01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -4316,7 +4316,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.25
                     erosionFeatherOut: f32 = 0.25
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_Wisps.dds"
+                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_Wisps.tex"
                 }
                 disableBackfaceCull: bool = true
                 birthRotation0: embed = ValueVector3 {
@@ -4361,7 +4361,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_Wisps.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_Wisps.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { -1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -4438,7 +4438,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_MagicCircle03.dds"
+                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_MagicCircle03.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -4453,7 +4453,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 500, 600 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Q_MagicCircle01.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Q_MagicCircle01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -4542,7 +4542,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/wispies.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/wispies.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
                 }
@@ -4768,7 +4768,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Aura_Self.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Aura_Self.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -4828,7 +4828,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Idle_Glow.DDS"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Idle_Glow.tex"
             }
         }
         visibilityRadius: f32 = 10000
@@ -4903,7 +4903,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.800000012, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_RSkillVines_TX_CM_5.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_RSkillVines_TX_CM_5.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -5006,7 +5006,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 80 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/color-hold.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.482352942, 0.850980401, 0.745098054, 1 }
@@ -5090,7 +5090,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_AA_FlowerPetalz.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_AA_FlowerPetalz.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -5174,7 +5174,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_AA_darkFuzz.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_AA_darkFuzz.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
@@ -5244,7 +5244,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.800000012, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_RSkillVines_TX_CM_gradientmap.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_RSkillVines_TX_CM_gradientmap.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -5420,7 +5420,7 @@ entries: map[hash,embed] = {
                 }
                 materialOverrideDefinitions: list[embed] = {
                     VfxMaterialOverrideDefinitionData {
-                        baseTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_RecallSeed_TX_CM_3.dds"
+                        baseTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_RecallSeed_TX_CM_3.tex"
                     }
                 }
             }
@@ -5481,7 +5481,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.699999988, 0.699999988, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_RSkillVines_TX_CM_5.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_RSkillVines_TX_CM_5.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -5537,7 +5537,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_MagicCircle03.dds"
+                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_MagicCircle03.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -5552,7 +5552,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 500, 600 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Q_MagicCircle01.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Q_MagicCircle01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -5604,7 +5604,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_MagicCircle03.dds"
+                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_MagicCircle03.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -5619,7 +5619,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 80, 500, 600 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Q_MagicCircle01.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Q_MagicCircle01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -5830,9 +5830,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/bigglow02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -6020,7 +6020,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/color-hold.tex"
                 blendMode: u8 = 1
                 isUniformScale: flag = true
                 isRandomStartFrame: flag = true
@@ -6101,11 +6101,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_AA_FlowerPetalz.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_AA_FlowerPetalz.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0.5, 0.600000024 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -6296,7 +6296,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/color-hold.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.435294122, 1, 0.811764717, 1 }
@@ -6380,7 +6380,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Sparkle_1.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Sparkle_1.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -6493,7 +6493,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/common_color-hold.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.300007641 }
@@ -6534,7 +6534,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/XinZhao_Skin07_E_ErosionPack01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/XinZhao_Skin07_E_ErosionPack01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -6592,7 +6592,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Shared/Particles/common_KogMaw_Skin05_BA_Tar_Flash.dds"
                 numFrames: u16 = 4
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 0.25 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -6677,7 +6677,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Shared/Particles/3161Glow.Leblanc_Rework.dds"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 0.800000012 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -6905,7 +6905,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Sparkle_1.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Sparkle_1.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.300000012
@@ -7067,7 +7067,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Bokeh_Dots_4x4.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Bokeh_Dots_4x4.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -7231,7 +7231,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Bokeh_Dots_4x4.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Bokeh_Dots_4x4.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -7373,7 +7373,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Sparkle_1.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Sparkle_1.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.5
@@ -7584,7 +7584,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Sparkle_1.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Sparkle_1.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1.85000002
@@ -7857,10 +7857,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_AA_FlowerPetalz.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_AA_FlowerPetalz.tex"
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_FlowerText05.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_FlowerText05.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0.100000001 }
                     }
@@ -7925,9 +7925,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_ultbeams.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_ultbeams.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 0.600000024 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -8005,7 +8005,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_P_Trail_Mult.dds"
+                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_P_Trail_Mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -8040,7 +8040,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_Wisps.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_Wisps.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.5, 0 }
                 }
@@ -8063,7 +8063,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 90
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Aura_Self.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Aura_Self.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 0.300000012 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -8141,7 +8141,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_Sword_Dissolve_1.dds"
+                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_Sword_Dissolve_1.tex"
                 }
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { -90, 0, 0 }
@@ -8163,7 +8163,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_Wisps.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_Wisps.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { -1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -8186,7 +8186,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 90
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Aura_Self.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Aura_Self.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -8252,7 +8252,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_Sword_Dissolve_1.dds"
+                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_Sword_Dissolve_1.tex"
                 }
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { -90, 0, 0 }
@@ -8276,7 +8276,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_Wisps.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_Wisps.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.25, 0 }
                 }
@@ -8301,7 +8301,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 90
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Aura_Self.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Aura_Self.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -8356,7 +8356,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_MagicCircle03.dds"
+                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_MagicCircle03.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0.600000024 }
                     }
@@ -8459,7 +8459,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1.5, 2 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.tex"
                     birthUVOffsetMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.349999994, -0.300000012 }
                     }
@@ -8489,7 +8489,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_R_Crystal_plane.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.dds"
+                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.650003791 }
@@ -8539,7 +8539,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 2, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { -0.400000006, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -8622,7 +8622,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Rose_TXT_512.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Rose_TXT_512.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.349999994
@@ -8666,7 +8666,7 @@ entries: map[hash,embed] = {
                 }
                 pass: i16 = 52
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.SKINS_Nami_Skin58.dds"
+                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set15.dds"
                     reflectionOpacityDirect: f32 = -1.20000005
                     reflectionOpacityGlancing: f32 = 0.200000003
                     reflectionFresnel: f32 = 0.300000012
@@ -8706,9 +8706,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Rose_TXT_512.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Rose_TXT_512.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -8818,7 +8818,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_Distort_RGBA_2.dds"
+                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_Distort_RGBA_2.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -8837,7 +8837,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.150000006
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_distort.dds"
+                    normalMapTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_distort.tex"
                 }
                 depthBiasFactors: vec2 = { -1, -150 }
                 isUniformScale: flag = true
@@ -8861,7 +8861,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_White.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_White.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -8911,7 +8911,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Glow.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1.79999995
@@ -9024,10 +9024,10 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Shared/Particles/ShockWave.DDS"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.dds"
+                    paletteTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.tex"
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Cape_Nova_Mult.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Cape_Nova_Mult.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 2, 0 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -9260,7 +9260,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Glow3.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Glow3.tex"
                 numFrames: u16 = 4
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
@@ -9300,7 +9300,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 0 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -9457,11 +9457,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Q_Rays.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Q_Rays.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -9542,7 +9542,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_AA_darkFuzz.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_AA_darkFuzz.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
@@ -9667,12 +9667,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_AA_darkFuzz.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_AA_darkFuzz.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_RainbowMult.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_RainbowMult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.100000001, 1 }
                     }
@@ -9769,7 +9769,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
                 primitive: pointer = VfxPrimitiveRay {}
-                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/color-rampdown.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.800000012 }
@@ -9879,7 +9879,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_RainbowRay.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_RainbowRay.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.300000012
@@ -9906,7 +9906,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/color-rampdown.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.0699931309 }
                 }
@@ -9932,7 +9932,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/rainbowhalo.DDS"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/rainbowhalo.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.349999994
@@ -10031,13 +10031,13 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 6.5999999, 6.5999999, 6.5999999 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_VinesBase.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_VinesBase.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_Vines.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_Vines.tex"
                     texAddressModeMult: u8 = 2
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 0 }
@@ -10089,7 +10089,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 4.19999981, 0.600000024, 4.80000019 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_cas_Ground.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_cas_Ground.tex"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -10122,9 +10122,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 4.4000001, 2.75, 3.79999995 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_WallEnergy_Mask.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_WallEnergy_Mask.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Wisp_Mult.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Wisp_Mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.25 }
                     }
@@ -10187,7 +10187,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_MagicCircle03.dds"
+                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_MagicCircle03.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -10201,9 +10201,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 500, 500, 600 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_MagicCircle04.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_MagicCircle04.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_multmask.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_multmask.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 2 }
@@ -10262,7 +10262,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_MagicCircle03.dds"
+                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_MagicCircle03.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -10276,7 +10276,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 400, 600 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_MagicCircle04.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_MagicCircle04.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -10403,7 +10403,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Root_Texture.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -10534,7 +10534,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Root_Texture.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -10719,7 +10719,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -10908,7 +10908,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -11098,7 +11098,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -11288,7 +11288,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -11477,7 +11477,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -11666,7 +11666,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -11856,7 +11856,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -12046,7 +12046,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -12192,7 +12192,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.0199999996, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/disc32.DDS"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/disc32.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -12334,7 +12334,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.0199999996, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/disc32.DDS"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/disc32.tex"
             }
         }
         particleName: string = "Zyra_Skin20_Q_cas"
@@ -12488,7 +12488,7 @@ entries: map[hash,embed] = {
                 }
                 materialOverrideDefinitions: list[embed] = {
                     VfxMaterialOverrideDefinitionData {
-                        baseTexture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Active_Seed.dds"
+                        baseTexture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Active_Seed.tex"
                     }
                 }
             }
@@ -12525,7 +12525,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.29999995, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 2
@@ -12553,7 +12553,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.29999995, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Base/Particles/Zyra_Base_Plant_Props_Green_Vines.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Base/Particles/Zyra_Base_Plant_Props_Green_Vines.tex"
             }
         }
         particleName: string = "Zyra_Skin20_Emote_Death_End"
@@ -12611,7 +12611,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.29999995, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -12663,7 +12663,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.29999995, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Root_Texture.tex"
             }
         }
         particleName: string = "Zyra_Skin20_Emote_Death"
@@ -12718,7 +12718,7 @@ entries: map[hash,embed] = {
                 }
                 pass: i16 = 10
                 disableBackfaceCull: bool = true
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Root_Texture.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -12812,7 +12812,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 150, 50 }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.AprilFools2025.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.TFT_Set15.dds"
             }
         }
         particleName: string = "Zyra_Skin20_E_Root_Glow_Child"
@@ -12967,7 +12967,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Z_vines.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Z_vines.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -13141,7 +13141,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Z_vines.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Z_vines.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -13315,7 +13315,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Z_vines.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Z_vines.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -13448,7 +13448,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Z_Ghost_Smoke.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Z_Ghost_Smoke.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -13574,7 +13574,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -80, -120 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/DefaultColorOverlifetime.dds"
+                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 1
                 isUniformScale: flag = true
                 isRandomStartFrame: flag = true
@@ -13655,7 +13655,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Z_Dirt.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Z_Dirt.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -13727,7 +13727,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.699999988, 0.699999988, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -13884,7 +13884,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Z_Ghost_Smoke.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Z_Ghost_Smoke.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -13958,7 +13958,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.25
                     erosionFeatherOut: f32 = 0.25
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_E_Wisps.dds"
+                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_E_Wisps.tex"
                 }
                 disableBackfaceCull: bool = true
                 birthRotation0: embed = ValueVector3 {
@@ -14003,7 +14003,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_E_Wisps.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_E_Wisps.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { -1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -14021,7 +14021,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 1.5 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_E_Trail_Smoke.dds"
+                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_E_Trail_Smoke.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0 }
                     }
@@ -14081,7 +14081,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_MagicCircle03.dds"
+                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_MagicCircle03.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -14096,7 +14096,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 500, 600 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_MagicCircle04.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_MagicCircle04.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14249,7 +14249,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.0199999996, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/disc32.DDS"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/disc32.tex"
             }
         }
         particleName: string = "Zyra_Skin20_E_Sequence_Root"
@@ -14310,7 +14310,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.699999988, 0.699999988, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14366,7 +14366,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_MagicCircle03.dds"
+                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_MagicCircle03.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -14381,7 +14381,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 500, 600 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_MagicCircle04.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_MagicCircle04.tex"
             }
         }
         particleName: string = "Zyra_Skin20_E_Sequence_Unroot"
@@ -14447,7 +14447,7 @@ entries: map[hash,embed] = {
                     deltaIn: f32 = 50
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.SKINS_Nami_Skin58.dds"
+                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set15.dds"
                     reflectionOpacityDirect: f32 = -1.20000005
                     reflectionOpacityGlancing: f32 = 0.200000003
                     reflectionFresnel: f32 = 0.300000012
@@ -14463,7 +14463,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.800000012, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14610,7 +14610,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Z_Ghost_Smoke.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Z_Ghost_Smoke.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -14668,7 +14668,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.25, 1.25, 1.25 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Root_Texture.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14779,7 +14779,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/bigglow02.AprilFools2025.dds"
+                texture: string = "ASSETS/Shared/Particles/bigglow02.TFT_Set15.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1.75
@@ -14883,7 +14883,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 80 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/DefaultColorOverlifetime.dds"
+                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.4627451, 0.360784322, 0.596078455, 1 }
@@ -14967,7 +14967,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_P_Dirt.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_P_Dirt.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -15071,7 +15071,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 90 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/DefaultColorOverlifetime.dds"
+                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.2399939, 0.179995418, 0.340001523, 0.689997733 }
@@ -15106,7 +15106,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_BA_ErosionPack01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_BA_ErosionPack01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -15162,7 +15162,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_WispySmoke01.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_WispySmoke01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -15267,7 +15267,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 80 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/DefaultColorOverlifetime.dds"
+                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.4627451, 0.360784322, 0.596078455, 1 }
@@ -15351,7 +15351,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_P_Dirt.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_P_Dirt.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -15415,7 +15415,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.800000012, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -15547,7 +15547,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -150, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Smoke_Blue.DDS"
+                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Smoke_Blue.tex"
                 blendMode: u8 = 1
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
@@ -15647,7 +15647,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Sand.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Sand.tex"
             }
         }
         visibilityRadius: f32 = 10000
@@ -15828,7 +15828,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -16022,7 +16022,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -16216,7 +16216,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin20/Particles/Zyra_Skin20_Root_Texture.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -16350,7 +16350,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Z_Ghost_Smoke.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Z_Ghost_Smoke.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -16476,7 +16476,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -80, -120 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/DefaultColorOverlifetime.dds"
+                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.4627451, 0.360784322, 0.596078455, 1 }
@@ -16560,7 +16560,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_P_Dirt.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_P_Dirt.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -16618,7 +16618,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.0199999996, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/disc32.DDS"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/disc32.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -16724,7 +16724,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, -70, -90 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/DefaultColorOverlifetime.dds"
+                particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.289997697, 0.269993126, 0.420004576, 1 }
@@ -16762,7 +16762,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_BA_ErosionPack01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_BA_ErosionPack01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -16811,7 +16811,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_WispySmoke01.dds"
+                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_WispySmoke01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }

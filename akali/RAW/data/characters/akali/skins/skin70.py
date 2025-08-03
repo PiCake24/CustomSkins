@@ -7955,7 +7955,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Aura_Self.SRT_2025_S2_MegaLayer.dds"
+                texture: string = "ASSETS/Shared/Particles/Aura_Self.TFT_Set15.dds"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {

@@ -5667,7 +5667,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Warwick/Skins/Skin16/Particles/DefaultColorOverlifetime.dds"
+                particleColorTexture: string = "ASSETS/Characters/Warwick/Skins/Skin16/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 1
                 pass: i16 = 5
                 meshRenderFlags: u8 = 0
@@ -5691,7 +5691,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.0250000004
                     erosionFeatherOut: f32 = 0.0250000004
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Warwick/Skins/Skin16/Particles/Warwick_Skin16_Block_Erosion_Mult_02.dds"
+                    erosionMapName: string = "ASSETS/Characters/Warwick/Skins/Skin16/Particles/Warwick_Skin16_Block_Erosion_Mult_02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -5777,7 +5777,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Warwick/Skins/Skin16/Particles/Warwick_Skin16_Block_Erosion_Mult_02.dds"
+                    erosionMapName: string = "ASSETS/Characters/Warwick/Skins/Skin16/Particles/Warwick_Skin16_Block_Erosion_Mult_02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -5829,7 +5829,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Warwick/Skins/Skin16/Particles/Warwick_Skin16_Block_Erosion_Mult_02.dds"
+                    erosionMapName: string = "ASSETS/Characters/Warwick/Skins/Skin16/Particles/Warwick_Skin16_Block_Erosion_Mult_02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -6143,7 +6143,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Warwick/Skins/Skin16/Particles/DefaultColorOverlifetime.dds"
+                particleColorTexture: string = "ASSETS/Characters/Warwick/Skins/Skin16/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 1
                 pass: i16 = 5
                 meshRenderFlags: u8 = 0
@@ -6167,7 +6167,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.0250000004
                     erosionFeatherOut: f32 = 0.0250000004
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Warwick/Skins/Skin16/Particles/Warwick_Skin16_Block_Erosion_Mult_02.dds"
+                    erosionMapName: string = "ASSETS/Characters/Warwick/Skins/Skin16/Particles/Warwick_Skin16_Block_Erosion_Mult_02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -6248,7 +6248,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Warwick/Skins/Skin16/Particles/Warwick_Skin16_Block_Erosion_Mult_02.dds"
+                    erosionMapName: string = "ASSETS/Characters/Warwick/Skins/Skin16/Particles/Warwick_Skin16_Block_Erosion_Mult_02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -6300,7 +6300,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Warwick/Skins/Skin16/Particles/Warwick_Skin16_Block_Erosion_Mult_02.dds"
+                    erosionMapName: string = "ASSETS/Characters/Warwick/Skins/Skin16/Particles/Warwick_Skin16_Block_Erosion_Mult_02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -6615,7 +6615,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Add1_Pan"
-                texturePath: string = "ASSETS/Characters/Warwick/Skins/Skin16/Particles/Warwick_Skin16_Ball_Lightning.dds"
+                texturePath: string = "ASSETS/Characters/Warwick/Skins/Skin16/Particles/Warwick_Skin16_Ball_Lightning.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {

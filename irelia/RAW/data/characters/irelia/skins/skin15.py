@@ -789,7 +789,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zoe/Skins/Base/Particles/Zoe_Base_Q_ImpactGlow.dds"
+                texture: string = "ASSETS/Characters/Zoe/Skins/Base/Particles/Zoe_Base_Q_ImpactGlow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -10294,7 +10294,7 @@ entries: map[hash,embed] = {
                 pass: i16 = 1
                 meshRenderFlags: u8 = 0
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.SKINS_Nami_Skin58.dds"
+                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set15.dds"
                     reflectionOpacityDirect: f32 = -2
                     reflectionOpacityGlancing: f32 = 2
                     reflectionFresnel: f32 = 0.219999999
@@ -14750,7 +14750,7 @@ entries: map[hash,embed] = {
                 }
                 pass: i16 = 10
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.SKINS_Nami_Skin58.dds"
+                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set15.dds"
                     reflectionOpacityDirect: f32 = -1
                     reflectionOpacityGlancing: f32 = 2
                     reflectionFresnel: f32 = 0.219999999
@@ -16469,7 +16469,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/color-hold.HA_Bilgewater.DDS"
+                texture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
                 numFrames: u16 = 4
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0.200000003 }
@@ -23898,7 +23898,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zoe/Skins/Base/Particles/Zoe_Base_Q_ImpactGlow.dds"
+                texture: string = "ASSETS/Characters/Zoe/Skins/Base/Particles/Zoe_Base_Q_ImpactGlow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {

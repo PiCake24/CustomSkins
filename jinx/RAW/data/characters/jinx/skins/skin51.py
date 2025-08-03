@@ -13020,7 +13020,7 @@ entries: map[hash,embed] = {
                 }
                 0xcb13aff1: f32 = -20
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Jinx/Skins/Skin51/Particles/Jinx_Skin51_Emote_Idle_Final.tex"
+                texture: string = "ASSETS/Characters/Jinx/Skins/Skin51/Jinx_Skin51_Emote_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {

@@ -22862,7 +22862,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.SKINS_Nami_Skin58.dds"
+                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set15.dds"
                     reflectionOpacityDirect: f32 = -1.5
                     reflectionOpacityGlancing: f32 = 0.300000012
                     reflectionFresnel: f32 = 0.5
@@ -28182,7 +28182,7 @@ entries: map[hash,embed] = {
                 colorLookUpOffsets: vec2 = { 0.300000012, 0 }
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0250000004
-                    normalMapTexture: string = "ASSETS/Shared/Particles/distort-pinch.TFT_Set14.dds"
+                    normalMapTexture: string = "ASSETS/Shared/Particles/distort-pinch.TFT_Set15.dds"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true

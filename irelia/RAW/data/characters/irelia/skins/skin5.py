@@ -795,7 +795,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zoe/Skins/Base/Particles/Zoe_Base_Q_ImpactGlow.dds"
+                texture: string = "ASSETS/Characters/Zoe/Skins/Base/Particles/Zoe_Base_Q_ImpactGlow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -2407,7 +2407,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zoe/Skins/Base/Particles/Zoe_Base_z_flash_01.dds"
+                texture: string = "ASSETS/Characters/Zoe/Skins/Base/Particles/Zoe_Base_z_flash_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -2475,7 +2475,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zoe/Skins/Base/Particles/Zoe_Base_Q_ImpactGlow.dds"
+                texture: string = "ASSETS/Characters/Zoe/Skins/Base/Particles/Zoe_Base_Q_ImpactGlow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {

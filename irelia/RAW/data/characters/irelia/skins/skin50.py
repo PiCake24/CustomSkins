@@ -783,7 +783,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zoe/Skins/Base/Particles/Zoe_Base_Q_ImpactGlow.dds"
+                texture: string = "ASSETS/Characters/Zoe/Skins/Base/Particles/Zoe_Base_Q_ImpactGlow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -2441,7 +2441,7 @@ entries: map[hash,embed] = {
                     erosionMapName: string = "ASSETS/Characters/Irelia/Skins/Skin45/Particles/Ezreal_Skin25_E_Flower01.tex"
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.SKINS_Nami_Skin58.dds"
+                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set15.dds"
                     reflectionOpacityDirect: f32 = -0.5
                     reflectionOpacityGlancing: f32 = 0.200000003
                     reflectionFresnel: f32 = 0.300000012
@@ -2676,7 +2676,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.Leblanc_Rework.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.TFT_Set15.dds"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.0156862754, 0.0235294122, 0.0431372561, 1 }
@@ -2763,7 +2763,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.Leblanc_Rework.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.TFT_Set15.dds"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.349019617, 0.749019623, 1, 1 }
@@ -2852,7 +2852,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.Leblanc_Rework.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.TFT_Set15.dds"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -2949,7 +2949,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.Leblanc_Rework.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.TFT_Set15.dds"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.0666666701, 0.0980392173, 0.164705887, 1 }
@@ -3048,7 +3048,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.Leblanc_Rework.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.TFT_Set15.dds"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.0156862754, 0.0235294122, 0.0431372561, 1 }

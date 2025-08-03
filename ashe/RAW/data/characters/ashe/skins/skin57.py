@@ -818,7 +818,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Ashe/Skins/Skin52/Particles/Ashe_Skin32_Assets_1_264.tex"
                 texAddressModeBase: u8 = 3
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Trail_Up.StrawberryRebuild.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Trail_Up.TFT_Set15.dds"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.800000012 }
                     }
@@ -894,7 +894,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Ashe/Skins/Skin57/Particles/Ashe_Skin57_Q_Buf_09.tex"
                 texAddressModeBase: u8 = 3
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Trail_Up.StrawberryRebuild.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Trail_Up.TFT_Set15.dds"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.800000012 }
                     }
@@ -1070,7 +1070,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 90
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Trail_Up.StrawberryRebuild.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Trail_Up.TFT_Set15.dds"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.800000012 }
                     }

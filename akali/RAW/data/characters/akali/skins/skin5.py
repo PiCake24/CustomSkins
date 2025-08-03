@@ -2610,7 +2610,7 @@ entries: map[hash,embed] = {
                 pass: i16 = 8
                 meshRenderFlags: u8 = 0
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.SKINS_Nami_Skin58.dds"
+                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set15.dds"
                     reflectionOpacityDirect: f32 = -2
                     reflectionOpacityGlancing: f32 = 2.5
                     reflectionFresnel: f32 = 0.100000001
@@ -58703,7 +58703,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 2.5
-                    erosionMapName: string = "ASSETS/Characters/Xayah/Skins/Base/Particles/Xayah_Base_P_feather_full_erosion.dds"
+                    erosionMapName: string = "ASSETS/Characters/Xayah/Skins/Base/Particles/Xayah_Base_P_feather_full_erosion.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 miscRenderFlags: u8 = 1
@@ -58757,7 +58757,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Xayah/Skins/Base/Particles/Xayah_Base_BA_hit_tar_muzzle.dds"
+                texture: string = "ASSETS/Characters/Xayah/Skins/Base/Particles/Xayah_Base_BA_hit_tar_muzzle.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/Akali/Skins/Skin05/Particles/Akali_Skin05_Gradients.tex"
@@ -64797,7 +64797,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Perks_SoulReaper_Sparkle.dds"
+                texture: string = "ASSETS/Shared/Particles/Perks_SoulReaper_Sparkle.TFT_Set15.dds"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/Akali/Skins/Skin05/Particles/Akali_Skin05_Gradients.tex"
@@ -64872,7 +64872,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Perks_SoulReaper_Sparkle.dds"
+                texture: string = "ASSETS/Shared/Particles/Perks_SoulReaper_Sparkle.TFT_Set15.dds"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/Akali/Skins/Skin05/Particles/Akali_Skin05_Gradients.tex"
@@ -65231,7 +65231,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Perks_SoulReaper_Sparkle.dds"
+                texture: string = "ASSETS/Shared/Particles/Perks_SoulReaper_Sparkle.TFT_Set15.dds"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/Akali/Skins/Skin05/Particles/Akali_Skin05_Gradients.tex"
@@ -66687,7 +66687,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 2.5
-                    erosionMapName: string = "ASSETS/Characters/Xayah/Skins/Base/Particles/Xayah_Base_P_feather_full_erosion.dds"
+                    erosionMapName: string = "ASSETS/Characters/Xayah/Skins/Base/Particles/Xayah_Base_P_feather_full_erosion.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 miscRenderFlags: u8 = 1
@@ -66741,7 +66741,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Xayah/Skins/Base/Particles/Xayah_Base_BA_hit_tar_muzzle.dds"
+                texture: string = "ASSETS/Characters/Xayah/Skins/Base/Particles/Xayah_Base_BA_hit_tar_muzzle.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/Akali/Skins/Skin05/Particles/Akali_Skin05_Gradients.tex"

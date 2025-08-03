@@ -8567,7 +8567,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.SKINS_Nami_Skin58.dds"
+                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set15.dds"
                     reflectionFresnelColor: vec4 = { 1, 1, 1, 0 }
                     fresnel: f32 = 0.0500000007
                     fresnelColor: vec4 = { 0.749996185, 0.100007631, 0.2399939, 0.439993888 }
@@ -30968,7 +30968,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.SKINS_Nami_Skin58.dds"
+                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set15.dds"
                     reflectionFresnelColor: vec4 = { 1, 1, 1, 0 }
                     fresnel: f32 = 0.25
                     fresnelColor: vec4 = { 0.749996185, 0.100007631, 0.2399939, 1 }

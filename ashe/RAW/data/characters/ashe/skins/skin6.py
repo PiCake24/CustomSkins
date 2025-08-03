@@ -3980,7 +3980,7 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Vi/Skins/Base/Particles/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Characters/Vi/Skins/Base/Particles/common_color-hold.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {

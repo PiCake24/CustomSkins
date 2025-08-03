@@ -2611,7 +2611,7 @@ entries: map[hash,embed] = {
                 pass: i16 = 8
                 meshRenderFlags: u8 = 0
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.SKINS_Nami_Skin58.dds"
+                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set15.dds"
                     reflectionOpacityDirect: f32 = -2
                     reflectionOpacityGlancing: f32 = 2.5
                     reflectionFresnel: f32 = 0.100000001
@@ -62049,7 +62049,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Perks_SoulReaper_Sparkle.dds"
+                texture: string = "ASSETS/Shared/Particles/Perks_SoulReaper_Sparkle.TFT_Set15.dds"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/Akali/Skins/Skin06/Particles/Akali_Skin06_Gradients.tex"
@@ -62121,7 +62121,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Perks_SoulReaper_Sparkle.dds"
+                texture: string = "ASSETS/Shared/Particles/Perks_SoulReaper_Sparkle.TFT_Set15.dds"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/Akali/Skins/Skin06/Particles/Akali_Skin06_Gradients.tex"
@@ -62426,7 +62426,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Perks_SoulReaper_Sparkle.dds"
+                texture: string = "ASSETS/Shared/Particles/Perks_SoulReaper_Sparkle.TFT_Set15.dds"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/Akali/Skins/Skin06/Particles/Akali_Skin06_Gradients.tex"

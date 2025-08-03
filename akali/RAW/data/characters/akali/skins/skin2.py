@@ -2610,7 +2610,7 @@ entries: map[hash,embed] = {
                 pass: i16 = 8
                 meshRenderFlags: u8 = 0
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.SKINS_Nami_Skin58.dds"
+                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set15.dds"
                     reflectionOpacityDirect: f32 = -2
                     reflectionOpacityGlancing: f32 = 2.5
                     reflectionFresnel: f32 = 0.100000001
@@ -48178,7 +48178,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Warwick/Skins/Base/Particles/Warwick_Base_Q_Yasuo_skin01_Q_sword.dds"
+                texture: string = "ASSETS/Characters/Warwick/Skins/Base/Particles/Warwick_Base_Q_Yasuo_skin01_Q_sword.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -48336,7 +48336,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Warwick/Skins/Base/Particles/Warwick_Base_Q_Yasuo_skin01_Q_sword.dds"
+                texture: string = "ASSETS/Characters/Warwick/Skins/Base/Particles/Warwick_Base_Q_Yasuo_skin01_Q_sword.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -80464,7 +80464,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Warwick/Skins/Base/Particles/Warwick_Base_Q_Yasuo_skin01_Q_sword.dds"
+                texture: string = "ASSETS/Characters/Warwick/Skins/Base/Particles/Warwick_Base_Q_Yasuo_skin01_Q_sword.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }

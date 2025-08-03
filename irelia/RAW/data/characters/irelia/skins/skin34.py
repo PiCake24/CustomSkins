@@ -783,7 +783,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zoe/Skins/Base/Particles/Zoe_Base_Q_ImpactGlow.dds"
+                texture: string = "ASSETS/Characters/Zoe/Skins/Base/Particles/Zoe_Base_Q_ImpactGlow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -1175,6 +1175,10 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "ALPHA_MAIN_SCROLL_OUTLINE_ADD"
+                on: bool = false
+            }
             StaticMaterialSwitchDef {
                 name: string = "DISTORTION_DIFFUSE_TEX_RG"
                 on: bool = false

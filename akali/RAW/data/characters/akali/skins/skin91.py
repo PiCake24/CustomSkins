@@ -13603,7 +13603,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Mask_Texture_red"
-                texturePath: string = "ASSETS/Characters/Akali/Skins/Skin68/Particles/Akali_Skin68_colorGrad_05.tex"
+                texturePath: string = "ASSETS/Characters/Akali/Skins/Skin82/Particles/Akali_Skin82_colorGrad_05.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1

@@ -33804,7 +33804,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Samira/Skins/Skin20/Particles/Samira_Skin20_Z_Smoke_Trail.tex"
+                texture: string = "ASSETS/Shared/Particles/TFT/TFT11_Lillia_Base_E_Smoke_Trail.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 6, 0 }
                 }
@@ -34077,7 +34077,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Qiyana/Skins/Skin30/Particles/Qiyana_Skin30_BA_spark.tex"
+                texture: string = "ASSETS/Characters/Qiyana/Skins/Skin30/Particles/Qiyana_Skin30_Q_spark.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -35199,7 +35199,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Qiyana/Skins/Skin30/Particles/Qiyana_Skin30_W_mis_wind.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Qiyana/Skins/Skin30/Particles/Qiyana_Skin30_R_Mis_wind.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -35695,60 +35695,6 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.5
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Shadow"
-                disabled: bool = true
-                importance: u8 = 2
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 0, 20 }
-                }
-                primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                blendMode: u8 = 4
-                color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 0.725490212, 0.34117648, 1 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.800000012
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 0.725490212, 0.34117648, 0 }
-                            { 0.905882359, 0.6572088, 0.309065759, 1 }
-                            { 0.843137264, 0.41537872, 0.191326424, 1 }
-                            { 0.937254906, 0.452364504, 0.212733582, 0 }
-                        }
-                    }
-                }
-                pass: i16 = -12
-                colorLookUpTypeX: u8 = 0
-                colorLookUpScales: vec2 = { 0.25, 0.949999988 }
-                softParticleParams: pointer = VfxSoftParticleDefinitionData {
-                    deltaIn: f32 = 30
-                }
-                isUniformScale: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 150, 200, 300 }
-                }
-                texture: string = "ASSETS/Characters/Qiyana/Skins/Skin30/Particles/Qiyana_Skin30_R_Glow.tex"
-                paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Qiyana/Skins/Skin30/Particles/Qiyana_Skin30_E_greyscale.tex"
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
                     constantValue: f32 = -1
                 }
                 isSingleParticle: flag = true
@@ -35970,7 +35916,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.200000003, 0.200000003 }
                 }
-                texture: string = "ASSETS/Characters/Qiyana/Skins/Skin30/Particles/Qiyana_Skin30_Idle_GradientV.tex"
+                texture: string = "ASSETS/Characters/Qiyana/Skins/Skin30/Particles/Qiyana_Skin30_Q_GradientV.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.100000001 }
                 }
@@ -36861,7 +36807,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.270000011, 0.200000003, 0.200000003 }
                 }
-                texture: string = "ASSETS/Characters/Qiyana/Skins/Skin30/Particles/Qiyana_Skin30_Idle_GradientV.tex"
+                texture: string = "ASSETS/Characters/Qiyana/Skins/Skin30/Particles/Qiyana_Skin30_Q_GradientV.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.100000001 }
                 }

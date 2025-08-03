@@ -40786,7 +40786,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Dissolve_Texture"
-                texturePath: string = "ASSETS/Characters/Zoe/Skins/Skin22/Particles/Zoe_Skin22_E_portal_tex.dds"
+                texturePath: string = "ASSETS/Characters/Qiyana/Skins/Skin40/Particles/Qiyana_Skin40_colorGrad_05.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1

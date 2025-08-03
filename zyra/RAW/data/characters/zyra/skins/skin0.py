@@ -143,7 +143,7 @@ entries: map[hash,embed] = {
         skinMeshProperties: embed = SkinMeshDataProperties {
             skeleton: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07.skl"
             simpleSkin: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07.skn"
-            texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_TX_CM.dds"
+            texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_TX_CM.tex"
 	 	 	skinScale: f32 = 2
             selfIllumination: f32 = 0.600000024
             material: link = "Characters/Zyra/Skins/Skin7/Materials/Zyra_Sparkle_Body_MAT_inst"
@@ -151,23 +151,23 @@ entries: map[hash,embed] = {
             initialSubmeshToHide: string = "Bird, RecallVine, RecallChair, Rose, BirdRose"
             materialOverride: list[embed] = {
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_Recall_TX_CM.dds"
+                    texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_Recall_TX_CM.tex"
                     submesh: string = "RecallChair"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_RSkillVines_TX_CM_5.dds"
+                    texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_RSkillVines_TX_CM_5.tex"
                     submesh: string = "RecallVine"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin7_Bird_TX_CM.dds"
+                    texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin7_Bird_TX_CM.tex"
                     submesh: string = "BirdRose"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin7_Bird_TX_CM.dds"
+                    texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin7_Bird_TX_CM.tex"
                     submesh: string = "Bird"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_RecallSeed_TX_CM_4.dds"
+                    texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_RecallSeed_TX_CM_4.tex"
                     submesh: string = "Rose"
                 }
             }

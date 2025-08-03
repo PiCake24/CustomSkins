@@ -4019,7 +4019,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_W_Glow.tex"
+                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_R_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -4151,7 +4151,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_W_Glow.tex"
+                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_R_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -4594,7 +4594,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 30, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_W_Glow.tex"
+                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_R_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -4994,7 +4994,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_W_Glow.tex"
+                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_R_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -5989,7 +5989,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.800000012, 0.800000012, 0.800000012 }
                 }
-                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_W_Glow.tex"
+                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_R_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.75
@@ -7256,7 +7256,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_W_Glow.tex"
+                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_R_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.125
@@ -8152,7 +8152,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_W_Glow.tex"
+                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_R_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -8249,7 +8249,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_W_Glow.tex"
+                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_R_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -8344,7 +8344,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_W_Glow.tex"
+                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_R_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -8923,7 +8923,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 pass: i16 = 982
-                censorModulateValue: vec4 = { 0, 1, 1, 1 }
                 depthBiasFactors: vec2 = { 0, -80 }
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 90, -60, 0 }
@@ -9401,7 +9400,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_W_Glow.tex"
+                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_R_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.075000003
@@ -10133,7 +10132,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 pass: i16 = 968
-                stencilMode: u8 = 2
                 isUniformScale: flag = true
                 isRandomStartFrame: flag = true
                 birthScale0: embed = ValueVector3 {
@@ -10341,7 +10339,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 pass: i16 = 969
-                stencilMode: u8 = 2
                 isUniformScale: flag = true
                 isRandomStartFrame: flag = true
                 birthScale0: embed = ValueVector3 {
@@ -13608,7 +13605,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_minorGlow.tex"
+                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/3026_Items_Glow_08.SPARX_Ashe_R_Update.tex"
             }
         }
         particleName: string = "Ashe_Skin64_BA_mis"
@@ -14498,7 +14495,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_W_Glow.tex"
+                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_R_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14538,7 +14535,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 30, 80, 0 }
                 }
-                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_W_Glow.tex"
+                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_R_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14713,7 +14710,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 40, 150, 0 }
                 }
-                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_W_Glow.tex"
+                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_R_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14745,7 +14742,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 40, 70, 0 }
                 }
-                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_W_Glow.tex"
+                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_R_Glow.tex"
             }
         }
         particleName: string = "Ashe_Skin64_W_mis"
@@ -14797,7 +14794,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 3, 1 }
                 }
-                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_minorGlow.tex"
+                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/3026_Items_Glow_08.SPARX_Ashe_R_Update.tex"
                 numFrames: u16 = 2
             }
             VfxEmitterDefinitionData {
@@ -15047,7 +15044,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 3, 1 }
                 }
-                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_minorGlow.tex"
+                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/3026_Items_Glow_08.SPARX_Ashe_R_Update.tex"
                 numFrames: u16 = 2
             }
             VfxEmitterDefinitionData {
@@ -17014,7 +17011,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_W_Glow.tex"
+                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_R_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -17132,7 +17129,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_W_Glow.tex"
+                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_R_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -17720,7 +17717,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 300, 1000, 50 }
                 }
-                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_W_Glow.tex"
+                texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_R_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -17774,7 +17771,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_Recall_Ground.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_W_Glow.tex"
+                    textureMult: string = "ASSETS/Characters/Ashe/Skins/Skin63/Particles/Ashe_Skin63_R_Glow.tex"
                     texAddressModeMult: u8 = 3
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.899999976, 1.79999995 }

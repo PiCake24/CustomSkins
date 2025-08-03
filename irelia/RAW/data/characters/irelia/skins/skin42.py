@@ -785,7 +785,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zoe/Skins/Base/Particles/Zoe_Base_Q_ImpactGlow.dds"
+                texture: string = "ASSETS/Characters/Zoe/Skins/Base/Particles/Zoe_Base_Q_ImpactGlow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -12689,7 +12689,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.Leblanc_Rework.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.TFT_Set15.dds"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0, 0, 0, 1 }
@@ -24265,7 +24265,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Irelia/Skins/Skin37/Particles/Irelia_Skin37_R_Mis_glow_1.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Trail_Up.StrawberryRebuild.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Trail_Up.TFT_Set15.dds"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 0.5 }
                     }
@@ -37964,6 +37964,10 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "ALPHA_MAIN_SCROLL_OUTLINE_ADD"
+                on: bool = false
+            }
             StaticMaterialSwitchDef {
                 name: string = "DISTORTION_DIFFUSE_TEX_RG"
                 on: bool = false

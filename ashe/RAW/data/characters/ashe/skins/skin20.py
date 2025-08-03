@@ -1704,6 +1704,10 @@ entries: map[hash,embed] = {
         }
         switches: list2[embed] = {
             StaticMaterialSwitchDef {
+                name: string = "ALPHA_MAIN_SCROLL_OUTLINE_ADD"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
                 name: string = "DISTORTION_DIFFUSE_TEX_RG"
                 on: bool = false
             }
@@ -1945,6 +1949,10 @@ entries: map[hash,embed] = {
         }
         switches: list2[embed] = {
             StaticMaterialSwitchDef {
+                name: string = "ALPHA_MAIN_SCROLL_OUTLINE_ADD"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
                 name: string = "DISTORTION_DIFFUSE_TEX_RG"
                 on: bool = false
             }
@@ -2183,6 +2191,10 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "ALPHA_MAIN_SCROLL_OUTLINE_ADD"
+                on: bool = false
+            }
             StaticMaterialSwitchDef {
                 name: string = "DISTORTION_DIFFUSE_TEX_RG"
                 on: bool = false
@@ -2553,6 +2565,10 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "ALPHA_MAIN_SCROLL_OUTLINE_ADD"
+                on: bool = false
+            }
             StaticMaterialSwitchDef {
                 name: string = "DISTORTION_DIFFUSE_TEX_RG"
                 on: bool = false

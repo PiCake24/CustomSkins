@@ -7431,7 +7431,7 @@ entries: map[hash,embed] = {
                 pass: i16 = 1
                 meshRenderFlags: u8 = 0
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.SKINS_Nami_Skin58.dds"
+                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set15.dds"
                     reflectionOpacityGlancing: f32 = 0.400000006
                     reflectionFresnelColor: vec4 = { 0, 0, 0, 1 }
                     fresnel: f32 = 0.300000012
@@ -7449,7 +7449,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00199997, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yone/Skins/Base/Particles/common_color-hold.dds"
+                texture: string = "ASSETS/Characters/Yone/Skins/Base/Particles/common_color-hold.tex"
                 numFrames: u16 = 4
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0.200000003 }
@@ -16795,7 +16795,7 @@ entries: map[hash,embed] = {
                 pass: i16 = 1
                 meshRenderFlags: u8 = 0
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.SKINS_Nami_Skin58.dds"
+                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set15.dds"
                     reflectionOpacityGlancing: f32 = 0.400000006
                     reflectionFresnelColor: vec4 = { 0, 0, 0, 1 }
                     fresnel: f32 = 0.300000012
@@ -16813,7 +16813,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00199997, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yone/Skins/Base/Particles/common_color-hold.dds"
+                texture: string = "ASSETS/Characters/Yone/Skins/Base/Particles/common_color-hold.tex"
                 numFrames: u16 = 4
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0.200000003 }
@@ -18781,7 +18781,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Vi/Skins/Skin20/Particles/Vi_Skin20_Crater_Dissolve.dds"
+                    erosionMapName: string = "ASSETS/Characters/Vi/Skins/Skin20/Particles/Vi_Skin20_Crater_Dissolve.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 miscRenderFlags: u8 = 1
@@ -27851,7 +27851,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Vi/Skins/Skin11/Particles/Vi_Skin11_P_RingRune.dds"
+                texture: string = "ASSETS/Characters/Vi/Skins/Skin11/Particles/Vi_Skin11_P_RingRune.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -27906,7 +27906,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Vi/Skins/Skin11/Particles/Vi_Skin11_Z_Flare.dds"
+                texture: string = "ASSETS/Characters/Vi/Skins/Skin11/Particles/Vi_Skin11_Z_Flare.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -27947,7 +27947,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Vi/Skins/Skin11/Particles/Vi_Skin11_R_shield_ring_5.dds"
+                texture: string = "ASSETS/Characters/Vi/Skins/Skin11/Particles/Vi_Skin11_R_shield_ring_5.tex"
             }
         }
         particleName: string = "Rell_Base_Q_Tar_ShieldBreak"
@@ -28867,7 +28867,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zilean/Skins/Base/Particles/common_Aura_Self.dds"
+                texture: string = "ASSETS/Characters/Zilean/Skins/Base/Particles/common_Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -31908,7 +31908,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Zilean/Skins/Base/Particles/common_Aura_Self.dds"
+                texture: string = "ASSETS/Characters/Zilean/Skins/Base/Particles/common_Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -38363,7 +38363,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Vi/Skins/Skin11/Particles/Vi_Skin11_P_RingRune.dds"
+                texture: string = "ASSETS/Characters/Vi/Skins/Skin11/Particles/Vi_Skin11_P_RingRune.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -38419,7 +38419,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Vi/Skins/Skin11/Particles/Vi_Skin11_Z_Flare.dds"
+                texture: string = "ASSETS/Characters/Vi/Skins/Skin11/Particles/Vi_Skin11_Z_Flare.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -38465,7 +38465,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Vi/Skins/Skin11/Particles/Vi_Skin11_R_shield_ring_5.dds"
+                texture: string = "ASSETS/Characters/Vi/Skins/Skin11/Particles/Vi_Skin11_R_shield_ring_5.tex"
             }
         }
         particleName: string = "Rell_Base_E_buff"

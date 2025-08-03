@@ -791,7 +791,7 @@ entries: map[hash,embed] = {
                     AlignPitchToCamera: bool = true
                     AlignYawToCamera: bool = true
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.Leblanc_Rework.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set15.dds"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.529411793, 0.113725491, 0.0392156877, 1 }
@@ -915,7 +915,7 @@ entries: map[hash,embed] = {
                     AlignPitchToCamera: bool = true
                     AlignYawToCamera: bool = true
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.Leblanc_Rework.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set15.dds"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.137254909, 0.152941182, 0.239215687, 1 }
@@ -1040,7 +1040,7 @@ entries: map[hash,embed] = {
                     AlignPitchToCamera: bool = true
                     AlignYawToCamera: bool = true
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.Leblanc_Rework.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set15.dds"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.7400015, 0.0800030529, 0.340001523 }
@@ -1164,7 +1164,7 @@ entries: map[hash,embed] = {
                     AlignPitchToCamera: bool = true
                     AlignYawToCamera: bool = true
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.Leblanc_Rework.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set15.dds"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.179995418, 0.0200045779, 0.2399939 }

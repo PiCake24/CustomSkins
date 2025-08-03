@@ -46530,7 +46530,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin18/Particles/Yasuo_Skin25_Q_RingPopErosion02.dds"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin18/Particles/Yasuo_Skin25_Q_RingPopErosion02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -51100,7 +51100,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin18/Particles/Yasuo_Skin25_Q_RingPopErosion02.dds"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin18/Particles/Yasuo_Skin25_Q_RingPopErosion02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -53604,7 +53604,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin18/Particles/Yasuo_Skin25_Q_RingPopErosion02.dds"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin18/Particles/Yasuo_Skin25_Q_RingPopErosion02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -55892,7 +55892,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin18/Particles/Yasuo_Skin25_Q_RingPopErosion02.dds"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin18/Particles/Yasuo_Skin25_Q_RingPopErosion02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -64209,7 +64209,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin18/Particles/Yasuo_Skin25_Q_RingPopErosion02.dds"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin18/Particles/Yasuo_Skin25_Q_RingPopErosion02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -70008,7 +70008,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin18/Particles/Yasuo_Skin25_Q_RingPopErosion02.dds"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin18/Particles/Yasuo_Skin25_Q_RingPopErosion02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -74028,7 +74028,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin18/Particles/Yasuo_Skin25_Q_RingPopErosion02.dds"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin18/Particles/Yasuo_Skin25_Q_RingPopErosion02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -77209,7 +77209,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin18/Particles/Yasuo_Skin25_Q_RingPopErosion02.dds"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin18/Particles/Yasuo_Skin25_Q_RingPopErosion02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -78202,7 +78202,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin18/Particles/Yasuo_Skin25_Q_RingPopErosion02.dds"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin18/Particles/Yasuo_Skin25_Q_RingPopErosion02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }

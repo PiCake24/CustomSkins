@@ -2602,7 +2602,7 @@ entries: map[hash,embed] = {
                 pass: i16 = 8
                 meshRenderFlags: u8 = 0
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.SKINS_Nami_Skin58.dds"
+                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set15.dds"
                     reflectionOpacityDirect: f32 = -2
                     reflectionOpacityGlancing: f32 = 2.5
                     reflectionFresnel: f32 = 0.100000001
@@ -51943,7 +51943,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 30, 30 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Aura_Self.SRT_2025_S2_MegaLayer.dds"
+                texture: string = "ASSETS/Shared/Particles/Aura_Self.TFT_Set15.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0390000008
@@ -52236,7 +52236,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 50, 40 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Aura_Self.SRT_2025_S2_MegaLayer.dds"
+                texture: string = "ASSETS/Shared/Particles/Aura_Self.TFT_Set15.dds"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0390000008
@@ -53768,7 +53768,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Aura_Self.SRT_2025_S2_MegaLayer.dds"
+                texture: string = "ASSETS/Shared/Particles/Aura_Self.TFT_Set15.dds"
             }
         }
         particleName: string = "Akali_Skin45_Q_Mis"
