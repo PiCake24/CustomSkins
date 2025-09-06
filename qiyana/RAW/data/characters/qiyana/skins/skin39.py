@@ -4455,7 +4455,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 90, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/DefaultColorOverlifetime.dds"
+                particleColorTexture: string = "ASSETS/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.533333361 }
@@ -21901,7 +21901,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 90, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/DefaultColorOverlifetime.dds"
+                particleColorTexture: string = "ASSETS/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.533333361 }

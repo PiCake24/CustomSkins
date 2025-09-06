@@ -8122,7 +8122,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 0.400000006, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                 }
@@ -13566,7 +13566,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Aura_Self.TFT_Set15.dds"
+                texture: string = "ASSETS/Shared/Particles/Aura_Self_2.Ruby.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -13803,7 +13803,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Mask"
-                texturePath: string = "ASSETS/Shared/Materials/white.dds"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1

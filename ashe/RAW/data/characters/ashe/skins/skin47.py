@@ -1577,7 +1577,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/15.AprilFools2025.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/15.AprilFools2025.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -2196,7 +2196,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Ashe/Skins/Skin43/Particles/Ashe_Skin43_W_Archery_Mask_02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_smoke_01.StrawberryRebuild.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_smoke_01.StrawberryRebuild.tex"
                     texDivMult: vec2 = { 0.400000006, 0.5 }
                     uvTransformCenterMult: vec2 = { 1, 1 }
                     uvScaleMult: embed = ValueVector2 {
@@ -6766,7 +6766,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 140, 10 }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Glow_Bright.SKINS_Sona_Skin56.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Glow_Bright.SKINS_Sona_Skin56.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -8020,7 +8020,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Bottom_Texture"
-                texturePath: string = "ASSETS/Shared/Particles/Alistar_Skin19_Wisp_Mult.dds"
+                texturePath: string = "ASSETS/Shared/Particles/Alistar_Skin19_Wisp_Mult.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {

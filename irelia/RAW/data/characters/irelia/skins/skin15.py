@@ -851,6 +851,7 @@ entries: map[hash,embed] = {
         particleName: string = "Irelia_Base_E_Blades"
         particlePath: string = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Blades"
         soundOnCreateDefault: string = "Play_sfx_Irelia_IreliaE_missile_stop"
+        flags: u16 = 196
     }
     "Characters/Irelia/Skins/Skin15/Particles/Irelia_Skin15_P_Blades_Stacks_4" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -8981,7 +8982,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.AprilFools2025.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.AprilFools2025.tex"
                 blendMode: u8 = 1
                 pass: i16 = 12
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
@@ -16469,7 +16470,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                texture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 numFrames: u16 = 4
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0.200000003 }
@@ -25578,7 +25579,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/color-hold.dds"
+                texture: string = "ASSETS/Particles/color-hold.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.400000006 }
                 }
@@ -25728,7 +25729,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/color-hold.dds"
+                texture: string = "ASSETS/Particles/color-hold.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                 }
@@ -25814,7 +25815,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/color-hold.dds"
+                texture: string = "ASSETS/Particles/color-hold.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                 }
@@ -30590,7 +30591,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "distort"
                 importance: u8 = 0
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/ability_indicator_p-rgba_02.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/ability_indicator_p-rgba_02.tex"
                 blendMode: u8 = 1
                 pass: i16 = 100
                 meshRenderFlags: u8 = 0

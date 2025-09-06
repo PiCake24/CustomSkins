@@ -3805,7 +3805,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 212.5, 127.5, 0.850000024 }
                 }
-                texture: string = "ASSETS/Particles/ball32_02.dds"
+                texture: string = "ASSETS/Particles/ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.529999971
@@ -3872,7 +3872,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/ball32_02.dds"
+                texture: string = "ASSETS/Particles/ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.579999983
@@ -3937,7 +3937,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/ball32_02.dds"
+                texture: string = "ASSETS/Particles/ball32_02.tex"
             }
         }
         particleName: string = "Xayah_Base_R_Body_Cas"
@@ -4952,7 +4952,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/ball32_02.dds"
+                texture: string = "ASSETS/Particles/ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -11832,7 +11832,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/ball32_02.dds"
+                texture: string = "ASSETS/Particles/ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -13389,7 +13389,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/AssassinMode_Kalista_Skin01_P_Glow.dds"
+                texture: string = "ASSETS/Particles/AssassinMode_Kalista_Skin01_P_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -13449,7 +13449,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 150, 1 }
                 }
-                texture: string = "ASSETS/Particles/ball32_02.dds"
+                texture: string = "ASSETS/Particles/ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1
@@ -16971,7 +16971,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/ball32_02.dds"
+                texture: string = "ASSETS/Particles/ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -18985,7 +18985,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/ball32_02.dds"
+                texture: string = "ASSETS/Particles/ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -19751,7 +19751,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/ball32_02.dds"
+                texture: string = "ASSETS/Particles/ball32_02.tex"
             }
         }
         particleName: string = "Xayah_Base_W_Tar"
@@ -20675,7 +20675,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/ball32_02.dds"
+                texture: string = "ASSETS/Particles/ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -21105,11 +21105,11 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 textureName: string = "MatCap_Tex"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Color_Mask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture"
@@ -21120,14 +21120,14 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "iridescentTex"
-                texturePath: string = "ASSETS/Shared/Materials/Iridescence/Iridescence_Dark_Feather.dds"
+                texturePath: string = "ASSETS/Shared/Materials/Iridescence/Iridescence_Dark_Feather.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "AdditiveScrollTex"
-                texturePath: string = "ASSETS/Shared/Materials/white.dds"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
@@ -21139,7 +21139,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture2"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -22286,7 +22286,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0, 0, 0, 0.500007629 }
@@ -22348,7 +22348,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -22497,7 +22497,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.654901981, 0.654901981, 0.654901981, 1 }
@@ -23577,7 +23577,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -23813,7 +23813,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -24121,7 +24121,7 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -24407,7 +24407,7 @@ entries: map[hash,embed] = {
                         { 0, 1, 0 }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -24545,7 +24545,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Xayah/Skins/Skin17/Particles/Xayah_Skin17_Assets_1_504.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.784313738, 0.435294122, 1 }
@@ -24728,7 +24728,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 20, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -25194,7 +25194,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -25266,7 +25266,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.654901981, 0.235294119, 0.235294119, 1 }
@@ -25339,7 +25339,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.392156869, 0.192156866, 1 }
@@ -25386,7 +25386,7 @@ entries: map[hash,embed] = {
                 isRandomStartFrame: flag = true
                 texture: string = "ASSETS/Characters/Xayah/Skins/Skin17/Particles/Xayah_Skin17_Recall_WingAlpha01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 4, 2 }
                     }
@@ -25616,7 +25616,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Xayah/Skins/Skin17/Particles/Xayah_Skin17_Passive_Wing_Avatar03.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 5, 5 }
                     }
@@ -26190,7 +26190,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_GaseousRibbon.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_GaseousRibbon.tex"
                 texDiv: vec2 = { 3, 1 }
             }
             VfxEmitterDefinitionData {
@@ -26248,7 +26248,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Xayah/Skins/Skin19/Particles/Xayah_Skin19_Q_feather_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/assassin_transform_ground_swirl_mult.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/assassin_transform_ground_swirl_mult.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -26642,7 +26642,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Xayah/Skins/Skin17/Particles/Xayah_Skin17_Q_feather_glow02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/assassin_transform_ground_swirl_mult.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/assassin_transform_ground_swirl_mult.tex"
                 }
             }
         }
@@ -30989,7 +30989,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3161Glow.Leblanc_Rework.dds"
+                texture: string = "ASSETS/Shared/Particles/3161Glow.Ruby.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -31700,7 +31700,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3161Glow.Leblanc_Rework.dds"
+                texture: string = "ASSETS/Shared/Particles/3161Glow.Ruby.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.333999991
@@ -31801,7 +31801,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Xayah/Skins/Skin17/Particles/Xayah_Skin17_Q_feather_Alpha_02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -32454,7 +32454,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Xayah/Skins/Skin17/Particles/Xayah_Skin17_Q_feather_Alpha_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1 }
                     }
@@ -33179,6 +33179,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Xayah_Skin19_Q_Mis"
         particlePath: string = "Characters/Xayah/Skins/Skin19/Particles/Xayah_Skin19_Q_Mis"
+        flags: u16 = 196
     }
     "Characters/Xayah/Skins/Skin19/Particles/Xayah_Skin19_BA_Mis" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -33403,7 +33404,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_GaseousRibbon.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_GaseousRibbon.tex"
                 texDiv: vec2 = { 3, 1 }
             }
             VfxEmitterDefinitionData {
@@ -33570,7 +33571,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Xayah/Skins/Skin19/Particles/Xayah_Skin19_Q_feather_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/assassin_transform_ground_swirl_mult.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/assassin_transform_ground_swirl_mult.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -33881,7 +33882,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Xayah/Skins/Skin17/Particles/Xayah_Skin17_Q_feather_glow02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/assassin_transform_ground_swirl_mult.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/assassin_transform_ground_swirl_mult.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -34409,7 +34410,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Xayah/Skins/Skin19/Particles/Xayah_Skin19_Q_feather_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/assassin_transform_ground_swirl_mult.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/assassin_transform_ground_swirl_mult.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -34470,7 +34471,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Xayah/Skins/Skin17/Particles/Xayah_Skin17_Q_feather_glow02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/assassin_transform_ground_swirl_mult.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/assassin_transform_ground_swirl_mult.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -35415,7 +35416,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Xayah/Skins/Skin17/Particles/Xayah_Skin17_Q_feather_glow03.tex"
                 texDiv: vec2 = { 1, -1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -35593,7 +35594,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Xayah/Skins/Skin19/Particles/Xayah_Skin19_Q_feather_03.tex"
                 texDiv: vec2 = { 1, -1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1 }
                     }
@@ -35646,7 +35647,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -35720,7 +35721,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.654901981, 0.654901981, 0.654901981, 1 }
@@ -36004,7 +36005,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Xayah/Skins/Skin17/Particles/Xayah_Skin17_Q_feather_glow03.tex"
                 texDiv: vec2 = { 1, -1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -36182,7 +36183,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Xayah/Skins/Skin19/Particles/Xayah_Skin19_Q_feather_03.tex"
                 texDiv: vec2 = { 1, -1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1 }
                     }
@@ -36653,7 +36654,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3161Glow.Leblanc_Rework.dds"
+                texture: string = "ASSETS/Shared/Particles/3161Glow.Ruby.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -36917,7 +36918,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3161Glow.Leblanc_Rework.dds"
+                texture: string = "ASSETS/Shared/Particles/3161Glow.Ruby.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.533999979
@@ -37012,7 +37013,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Xayah/Skins/Skin17/Particles/Xayah_Skin17_Q_feather_Alpha_02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -37624,7 +37625,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Xayah/Skins/Skin17/Particles/Xayah_Skin17_Q_feather_Alpha_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1 }
                     }

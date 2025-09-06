@@ -589,7 +589,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -614,7 +614,7 @@ entries: map[hash,embed] = {
                 isLocalOrientation: flag = false
                 texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_TX_CM.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/FN_Universal_Praxis_Red_001.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/FN_Universal_Praxis_Red_001.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                     }
@@ -2541,7 +2541,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Glows_2x2_01.dds"
+                texture: string = "ASSETS/Shared/Particles/Glows_2x2_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -2739,11 +2739,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Senna_Base_Wispy.dds"
+                texture: string = "ASSETS/Shared/Particles/Senna_Base_Wispy.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Aatrox_Skin11_Particles_1_882.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Aatrox_Skin11_Particles_1_882.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -3151,7 +3151,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_alphablend_ground.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Orianna_Skin11_AlphaSlice_1.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Orianna_Skin11_AlphaSlice_1.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.5 }
                     }
@@ -3307,7 +3307,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_alphablend_ground.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Base_shield_Mult.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Base_shield_Mult.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -4381,7 +4381,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 1.5 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Base_Recall_outside_light_up.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Base_Recall_outside_light_up.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0 }
                     }
@@ -4654,7 +4654,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Odyssey_BossKayn1_Base_Passive_DunkTarget_tar_CracksDark.dds"
+                texture: string = "ASSETS/Shared/Particles/Odyssey_BossKayn1_Base_Passive_DunkTarget_tar_CracksDark.tex"
             }
         }
         particleName: string = "Zyra_Skin07_E_Sequence_Root"
@@ -5727,7 +5727,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Odyssey_BossKayn1_Base_Passive_DunkTarget_tar_CracksDark.dds"
+                texture: string = "ASSETS/Shared/Particles/Odyssey_BossKayn1_Base_Passive_DunkTarget_tar_CracksDark.tex"
             }
         }
         particleName: string = "Zyra_Skin07_E_Sequence_Unroot"
@@ -6591,7 +6591,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/common_KogMaw_Skin05_BA_Tar_Flash.dds"
+                texture: string = "ASSETS/Shared/Particles/common_KogMaw_Skin05_BA_Tar_Flash.tex"
                 numFrames: u16 = 4
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.tex"
@@ -6662,7 +6662,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Shared/Particles/Azir_Skin04_SpeedLines_Mult4.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/Azir_Skin04_SpeedLines_Mult4.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0.600000024 }
                     }
@@ -6677,7 +6677,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 750, 500, 600 }
                 }
-                texture: string = "ASSETS/Shared/Particles/3161Glow.Leblanc_Rework.dds"
+                texture: string = "ASSETS/Shared/Particles/3161Glow.Ruby.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
@@ -8373,7 +8373,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 540, 500, 600 }
                 }
-                texture: string = "ASSETS/Shared/Particles/3161Glow.Leblanc_Rework.dds"
+                texture: string = "ASSETS/Shared/Particles/3161Glow.Ruby.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -8456,7 +8456,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.dds"
+                texture: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1.5, 2 }
                 }
@@ -8534,7 +8534,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.dds"
+                texture: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {}
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.150000006, -0.150000006 }
@@ -8785,7 +8785,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_Fire_Trail_Up.HA_CREPE.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_Fire_Trail_Up.HA_CREPE.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0 }
                 }
@@ -9024,7 +9024,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/ShockWave.DDS"
+                texture: string = "ASSETS/Shared/Particles/Shockwave.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_E_rainbow.tex"
                 }

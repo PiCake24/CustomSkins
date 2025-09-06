@@ -168,6 +168,7 @@ entries: map[hash,embed] = {
             selfIllumination: f32 = 0.699999988
             brushAlphaOverride: f32 = 0.400000006
             reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
+            reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
             materialOverride: list[embed] = {
                 SkinMeshDataProperties_MaterialOverride {
                     texture: string = "ASSETS/Characters/jinx/Skins/Base/Body.dds"

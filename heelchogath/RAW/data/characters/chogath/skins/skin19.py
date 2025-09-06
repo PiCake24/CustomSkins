@@ -9996,8 +9996,23 @@ entries: map[hash,embed] = {
                 textureName: string = "Mask"
                 texturePath: string = "ASSETS/Characters/Chogath/skins/Skin14/ChoGath_Skin14_TX_CM_Mask.tex"
             }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "Specular_Mask"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
+            }
         }
         paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "SpecularColor"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MaxSpec"
+                value: vec4 = { 64, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "LQ_Lighting_Intensity"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
             StaticMaterialShaderParamDef {
                 name: string = "Anim_Scale_Intensity"
                 value: vec4 = { 2, 0, 0, 0 }
@@ -10081,6 +10096,14 @@ entries: map[hash,embed] = {
             StaticMaterialSwitchDef {
                 name: string = "APPLY_FLOWMAP_TO_ALPHA"
             }
+            StaticMaterialSwitchDef {
+                name: string = "FLOWDIRECTIONSWITCH"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "SPECULAR"
+                on: bool = false
+            }
         }
         shaderMacros: map[string,string] = {
             "NUM_BLEND_WEIGHTS" = "4"
@@ -10134,7 +10157,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Ink_Color_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -10275,7 +10298,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Swapped_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/white.dds"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -10287,7 +10310,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Ink_Color_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1

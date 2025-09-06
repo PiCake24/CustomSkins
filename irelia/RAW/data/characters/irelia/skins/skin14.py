@@ -853,6 +853,7 @@ entries: map[hash,embed] = {
         particleName: string = "Irelia_Base_E_Blades"
         particlePath: string = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Blades"
         soundOnCreateDefault: string = "Play_sfx_Irelia_IreliaE_missile_stop"
+        flags: u16 = 196
     }
     "Characters/Irelia/Skins/Skin14/Materials/Irelia_inst" = StaticMaterialDef {
         name: string = "Characters/Irelia/Skins/Skin14/Materials/Irelia_inst"
@@ -1050,7 +1051,7 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Outline_Bloom_Mask"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture"
@@ -1058,23 +1059,23 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Scroll_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/white.dds"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "EmissionR_DistortionG_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "RMA_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/white.dds"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "ScreenSpaceTex"
-                texturePath: string = "ASSETS/Shared/Materials/white.dds"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "ScreenSpace_Mask"
-                texturePath: string = "ASSETS/Shared/Materials/white.dds"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
             }
         }
         paramValues: list2[embed] = {

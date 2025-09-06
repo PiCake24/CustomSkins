@@ -9671,7 +9671,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
                 falloffTexture: string = "ASSETS/Characters/Akali/Skins/Skin71/Particles/Akali_Skin71_DefaultFalloff.tex"
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.76000613, 0.910002291, 0.800000012 }
@@ -30094,7 +30094,7 @@ entries: map[hash,embed] = {
                         { 1.00000012, 0, 0 }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -30324,7 +30324,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.699999988, 1, 0.699999988, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -30556,7 +30556,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.25, 1, 0.5, 0.550000012 }
@@ -30673,7 +30673,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.0196078438, 1, 0.0980392173, 1 }
@@ -32574,7 +32574,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 primitive: pointer = VfxPrimitiveRay {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -32746,7 +32746,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Akali/Skins/Skin71/Particles/Akali_Skin71_R_WaterSplash_2.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -33048,7 +33048,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.730006874, 0.730006874, 0.730006874, 0.500007629 }
@@ -33159,7 +33159,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Akali/Skins/Skin71/Particles/Akali_Skin71_SRU_dustRing_geo.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.501960814 }
@@ -33240,7 +33240,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Akali/Skins/Skin71/Particles/Akali_Skin71_SRU_dustRing_geo.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.501960814 }
@@ -33409,7 +33409,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 0, -775 }
                 }
                 primitive: pointer = VfxPrimitiveRay {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -33582,7 +33582,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Akali/Skins/Skin71/Particles/Akali_Skin71_R_WaterSplash_2.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -33885,7 +33885,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.730006874, 0.730006874, 0.730006874, 0.500007629 }
@@ -57073,7 +57073,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.0862745121, 0.0862745121, 0.0862745121, 1 }
@@ -57209,7 +57209,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.305882365, 1, 0.525490224, 1 }
@@ -57296,7 +57296,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.0901960805, 1, 0.0745098069, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -57440,7 +57440,7 @@ entries: map[hash,embed] = {
                     radius: f32 = 100
                     height: f32 = 50
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.423529446, 1, 0.654901981, 1 }
                 }
@@ -59808,7 +59808,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.666666687, 1, 0.498039246, 0.309803933 }
@@ -59874,7 +59874,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                texture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -59913,7 +59913,7 @@ entries: map[hash,embed] = {
                 birthDrag: embed = ValueVector3 {
                     constantValue: vec3 = { 8, 8, 8 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -63383,7 +63383,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.79999995, 0.400000006, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                 }
@@ -70963,7 +70963,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 35, -400 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.400000006, 0.301960796, 0.411764711, 1 }
@@ -71794,7 +71794,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 35, -400 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.729411781, 0.419607848, 0.360784322 }
@@ -72009,7 +72009,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Akali/Skins/Skin71/Particles/Akali_Skin71_R_AirHelix_01.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.709803939, 0.713725507, 1 }
@@ -72612,7 +72612,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 0, -350 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.310002297, 0.200000003, 0.200000003, 1 }
@@ -72701,7 +72701,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 0, -350 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.56078434 }
@@ -72784,7 +72784,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 0, -350 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.670588255, 0.670588255, 0.670588255, 1 }
@@ -72870,7 +72870,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 0, -380 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -72958,7 +72958,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 0, -430 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.796078444, 0.56078434, 1, 0.549019635 }
@@ -73052,7 +73052,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 0, 75 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -73764,7 +73764,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 0, -350 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.337254912, 0.196078435, 0.196078435, 1 }
@@ -73850,7 +73850,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 0, -350 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.968627453, 0.870588243, 1 }
@@ -73943,7 +73943,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 0, -350 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.815686285, 0.450980395, 1 }
@@ -74035,7 +74035,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 0, -350 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.815686285, 0.450980395, 1 }
@@ -74127,7 +74127,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 0, -350 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.7400015, 0.620004594, 0.669993162 }
@@ -74413,7 +74413,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Akali/Skins/Skin71/Particles/Akali_Skin71_R_AirHelix_01.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.811764717, 0.619607866, 1 }
@@ -74991,7 +74991,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Akali/Skins/Skin71/Particles/Akali_Skin71_R_AirHelix_01.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.862745106, 0.627451003, 1 }
@@ -75197,7 +75197,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Akali/Skins/Skin71/Particles/Akali_Skin71_sru_dragon_ba2_conemesh.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.850003839 }
@@ -107862,11 +107862,11 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "OutlineMask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/white.dds"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "iridescentTex"
-                texturePath: string = "ASSETS/Shared/Materials/white.dds"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
             }
         }
         paramValues: list2[embed] = {
@@ -108012,11 +108012,11 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "OutlineMask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/white.dds"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "iridescentTex"
-                texturePath: string = "ASSETS/Shared/Materials/white.dds"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
             }
         }
         paramValues: list2[embed] = {

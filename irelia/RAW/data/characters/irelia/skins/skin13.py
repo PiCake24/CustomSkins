@@ -849,6 +849,7 @@ entries: map[hash,embed] = {
         particleName: string = "Irelia_Base_E_Blades"
         particlePath: string = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Blades"
         soundOnCreateDefault: string = "Play_sfx_Irelia_IreliaE_missile_stop"
+        flags: u16 = 196
     }
     "Characters/Irelia/Skins/Skin13/Particles/Irelia_Skin13_E_Blades" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -6378,7 +6379,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Materials"
-                texturePath: string = "ASSETS/Shared/Materials/Material_01.dds"
+                texturePath: string = "ASSETS/Shared/Materials/Material_01.tex"
             }
         }
         paramValues: list2[embed] = {
@@ -6668,7 +6669,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Mask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/StepsMask.dds"
+                texturePath: string = "ASSETS/Shared/Materials/StepsMask.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1

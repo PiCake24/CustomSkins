@@ -845,6 +845,7 @@ entries: map[hash,embed] = {
         particleName: string = "Irelia_Base_E_Blades"
         particlePath: string = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Blades"
         soundOnCreateDefault: string = "Play_sfx_Irelia_IreliaE_missile_stop"
+        flags: u16 = 196
     }
     "Characters/Irelia/Skins/Skin34/Materials/Irelia_Blades_Passive_inst" = StaticMaterialDef {
         name: string = "Characters/Irelia/Skins/Skin34/Materials/Irelia_Blades_Passive_inst"
@@ -858,7 +859,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Mask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/StepsMask.dds"
+                texturePath: string = "ASSETS/Shared/Materials/StepsMask.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -1043,11 +1044,11 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 textureName: string = "MatCap_Tex"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "MatCap_Mask"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture"
@@ -1061,13 +1062,24 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "OutlineMask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/white.dds"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
                 addressU: u32 = 2
                 addressV: u32 = 2
                 addressW: u32 = 2
             }
         }
         paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "VColor_G_Mask_Discard_Size"
+                value: vec4 = { 100, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VColor_G_Mask_Discard_Value"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VColor_G_Mask_Discard_Location"
+            }
             StaticMaterialShaderParamDef {
                 name: string = "Distortion_Diffuse_Tex_B_Control"
                 value: vec4 = { 1, 1, 0, 0 }
@@ -1175,6 +1187,22 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_DIFFUSE_W_DISCARD"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_OUTLINE_W_DISCARD"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_DIFFUSE"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_OUTLINE"
+                on: bool = false
+            }
             StaticMaterialSwitchDef {
                 name: string = "ALPHA_MAIN_SCROLL_OUTLINE_ADD"
                 on: bool = false

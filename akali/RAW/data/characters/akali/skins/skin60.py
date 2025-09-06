@@ -1441,7 +1441,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00199997, 1.00199997, 1.00199997 }
                 }
-                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -5703,7 +5703,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -6422,7 +6422,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.800000012, 0.800000012, 0.800000012 }
                 }
-                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0299999993
@@ -6471,7 +6471,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.800000012, 0.800000012, 0.800000012 }
                 }
-                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0299999993
@@ -7590,7 +7590,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.360000014, 0.400000006, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                 }
@@ -13709,7 +13709,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
         }
         particleName: string = "Akali_Skin61_Idle_Weapons_Glow"
@@ -14504,7 +14504,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
         }
         particleName: string = "Akali_Skin61_Q_Mis"
@@ -17049,7 +17049,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -18185,7 +18185,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.314999998, 1, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                 }
@@ -18772,7 +18772,7 @@ entries: map[hash,embed] = {
                     flags: u8 = 1
                     Size: vec3 = { 35, 20, 8 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/Base_Flicker_04.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/Base_Flicker_04.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -18856,7 +18856,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
         }
         particleName: string = "Akali_Skin61_E_mis"
@@ -18951,7 +18951,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/alpha_23.StrawberryRebuild.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/alpha_23.TFT_Set15.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -19476,7 +19476,7 @@ entries: map[hash,embed] = {
                 disableBackfaceCull: bool = true
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0.100000001 }
                 }
@@ -21867,7 +21867,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                 }
@@ -23513,9 +23513,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Shared/Particles/Base_colorGrad.TFT_Set12.dds"
+                    paletteTexture: string = "ASSETS/Shared/Particles/Base_colorGrad.TFT_Set12.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 6, 0, 0 }
                     }
@@ -23704,7 +23704,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Flame_Ring.dds"
+                texture: string = "ASSETS/Shared/Particles/Flame_Ring.tex"
             }
         }
         particleName: string = "Akali_Skin61_Emote_Taunt_Umi"
@@ -29308,7 +29308,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.29999995, 1, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                 }
@@ -29363,9 +29363,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.29999995, 1, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Shared/Particles/Base_colorGrad.TFT_Set12.dds"
+                    paletteTexture: string = "ASSETS/Shared/Particles/Base_colorGrad.TFT_Set12.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 6, 0, 0 }
                     }
@@ -33122,7 +33122,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Aura.dds"
+                texture: string = "ASSETS/Shared/Particles/Aura.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 6
@@ -34566,7 +34566,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -10, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/Base_Flicker_04.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/Base_Flicker_04.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -34633,7 +34633,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.400000006
@@ -37412,7 +37412,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Base_BA1_Distort_RGBA.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Base_BA1_Distort_RGBA.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -37541,7 +37541,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Base_BA1_Distort_RGBA.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Base_BA1_Distort_RGBA.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -37725,7 +37725,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Base_BA1_Distort_RGBA.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Base_BA1_Distort_RGBA.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -37854,7 +37854,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Base_BA1_Distort_RGBA.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Base_BA1_Distort_RGBA.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -38506,7 +38506,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00199997, 1.00199997, 1.00199997 }
                 }
-                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -39860,7 +39860,7 @@ entries: map[hash,embed] = {
                     flags: u8 = 1
                     radius: f32 = 50
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/Base_Flicker_04.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/Base_Flicker_04.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -39979,7 +39979,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -40369,7 +40369,7 @@ entries: map[hash,embed] = {
                     flags: u8 = 1
                     radius: f32 = 50
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/Base_Flicker_04.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/Base_Flicker_04.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -41491,7 +41491,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Aura.dds"
+                texture: string = "ASSETS/Shared/Particles/Aura.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -41933,7 +41933,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -42415,7 +42415,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Akali/Skins/Skin61/Particles/Akali_P_Spin_Ring.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Shared/Particles/Base_colorGrad.TFT_Set12.dds"
+                    paletteTexture: string = "ASSETS/Shared/Particles/Base_colorGrad.TFT_Set12.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 6, 0, 0 }
                     }
@@ -42799,7 +42799,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -45142,7 +45142,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -10, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/Base_Flicker_04.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/Base_Flicker_04.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -45209,7 +45209,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -47042,6 +47042,12 @@ entries: map[hash,embed] = {
                 name: string = "Dodge_Bias"
             }
         }
+        switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "USE_LOCAL_SPACE"
+                on: bool = false
+            }
+        }
         shaderMacros: map[string,string] = {
             "NUM_BLEND_WEIGHTS" = "4"
         }
@@ -47075,11 +47081,11 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 textureName: string = "MatCap_Tex"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Color_Mask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture"
@@ -47090,7 +47096,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "iridescentTex"
-                texturePath: string = "ASSETS/Shared/Materials/white.dds"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -47109,7 +47115,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture2"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -47299,11 +47305,11 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 textureName: string = "MatCap_Tex"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Color_Mask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture"
@@ -47333,7 +47339,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture2"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1

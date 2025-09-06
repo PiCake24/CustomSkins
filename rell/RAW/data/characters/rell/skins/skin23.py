@@ -311,7 +311,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.800000012, 0.100007631, 0.62999922 }
@@ -373,7 +373,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.709803939, 0.533333361, 0, 0.568627477 }
@@ -876,7 +876,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -5366,7 +5366,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 350, 80, 80 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_Glow_Default.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_Glow_Default.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -7341,7 +7341,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 300, 500, 0 }
                 }
-                texture: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_Glow01.dds"
+                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_Glow01.XinZhaoOldAssets.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -13883,7 +13883,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.709803939, 1, 0.768627465, 1 }
@@ -14029,7 +14029,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -14201,7 +14201,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 5, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.450003803, 0.2399939, 0.319996953 }
@@ -16669,7 +16669,6 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Rell_Base_R_Buf"
         particlePath: string = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_R_Buf"
-        flags: u16 = 212
     }
     "Characters/Rell/Skins/Skin0/Particles/Rell_Base_BA_Swipe_Grounded_Crit" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -21802,7 +21801,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 80, 200, 0 }
                 }
-                texture: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_Glow01.dds"
+                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_Glow01.XinZhaoOldAssets.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Pantheon/Skins/Base/Particles/Pantheon_Base_Q_Cosmic_Mult.tex"
                     uvScaleMult: embed = ValueVector2 {
@@ -21887,7 +21886,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 500, 0 }
                 }
-                texture: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_Glow01.dds"
+                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_Glow01.XinZhaoOldAssets.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -21964,7 +21963,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_Glow01.dds"
+                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_Glow01.XinZhaoOldAssets.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Pantheon/Skins/Base/Particles/Pantheon_Base_Q_Cosmic_Mult.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
@@ -22079,7 +22078,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 500, 0 }
                 }
-                texture: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_Glow01.dds"
+                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_Glow01.XinZhaoOldAssets.tex"
             }
         }
         particleName: string = "Rell_Base_BA_Swipe_Child_Spear"
@@ -25520,7 +25519,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Spin_Ring.dds"
+                texture: string = "ASSETS/Shared/Particles/Spin_Ring.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.300000012
@@ -25733,7 +25732,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/nidalee_glowspecks.dds"
+                texture: string = "ASSETS/Shared/Particles/nidalee_glowspecks.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -25795,7 +25794,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 350, 80, 80 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_Glow_Default.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_Glow_Default.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -27032,7 +27031,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Rell/Skins/Base/Particles/Rell_Base_R_tar_shockwave.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Particles/DefaultColorOverlifetime.dds"
+                particleColorTexture: string = "ASSETS/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.97647059, 0.717647076, 1 }
@@ -27228,7 +27227,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Particles/DefaultColorOverlifetime.dds"
+                particleColorTexture: string = "ASSETS/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.282352954, 0.258823544, 0.176470593, 1 }
@@ -27430,7 +27429,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Particles/DefaultColorOverlifetime.dds"
+                particleColorTexture: string = "ASSETS/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -27519,7 +27518,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 75, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/DefaultColorOverlifetime.dds"
+                particleColorTexture: string = "ASSETS/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.980392158, 0.737254918, 1 }
@@ -27618,7 +27617,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Particles/DefaultColorOverlifetime.dds"
+                particleColorTexture: string = "ASSETS/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.65882355 }
@@ -29965,7 +29964,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 90, 400, 0 }
                 }
-                texture: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_Glow01.dds"
+                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_Glow01.XinZhaoOldAssets.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Pantheon/Skins/Base/Particles/Pantheon_Base_Q_Cosmic_Mult.tex"
                     uvScaleMult: embed = ValueVector2 {
@@ -30048,7 +30047,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 300, 500, 0 }
                 }
-                texture: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_Glow01.dds"
+                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_Glow01.XinZhaoOldAssets.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -30110,7 +30109,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 500, 0 }
                 }
-                texture: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_Glow01.dds"
+                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_Glow01.XinZhaoOldAssets.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -32734,7 +32733,6 @@ entries: map[hash,embed] = {
         particleName: string = "Rell_Base_E_SlowField"
         particlePath: string = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_SlowField"
         soundOnCreateDefault: string = "Play_sfx_Rell_RellE_empowered_hit"
-        flags: u16 = 212
         transform: mtx44 = {
             1.23999989, 0, 0, 0
             0, 1.23999989, 0, 0
@@ -33228,7 +33226,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 300, 500, 0 }
                 }
-                texture: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_Glow01.dds"
+                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_Glow01.XinZhaoOldAssets.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -33929,7 +33927,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_Glow01.dds"
+                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_Glow01.XinZhaoOldAssets.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Pantheon/Skins/Base/Particles/Pantheon_Base_Q_Cosmic_Mult.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
@@ -34039,7 +34037,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 500, 0 }
                 }
-                texture: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_Glow01.dds"
+                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_Glow01.XinZhaoOldAssets.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -34182,7 +34180,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 90, 400, 0 }
                 }
-                texture: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_Glow01.dds"
+                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_Glow01.XinZhaoOldAssets.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Pantheon/Skins/Base/Particles/Pantheon_Base_Q_Cosmic_Mult.tex"
                     uvScaleMult: embed = ValueVector2 {
@@ -34266,7 +34264,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 500, 0 }
                 }
-                texture: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_Glow01.dds"
+                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_Glow01.XinZhaoOldAssets.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -34824,7 +34822,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_Glow01.dds"
+                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_Glow01.XinZhaoOldAssets.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Pantheon/Skins/Base/Particles/Pantheon_Base_Q_Cosmic_Mult.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
@@ -35161,7 +35159,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 500, 0 }
                 }
-                texture: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_Glow01.dds"
+                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_Glow01.XinZhaoOldAssets.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -35718,7 +35716,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/DarkRider/Skins/Base/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/DarkRider/Skins/Base/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.00999999978
@@ -38468,7 +38466,6 @@ entries: map[hash,embed] = {
         particleName: string = "Rell_Base_E_buff"
         particlePath: string = "Characters/Rell/Skins/Skin0/Particles/Rell_Base_E_buff"
         soundPersistentDefault: string = "Play_sfx_Rell_RellE_RampSpeed_buffactivate"
-        flags: u16 = 212
         transform: mtx44 = {
             0.799999952, 0, 0, 0
             0, 0.799999952, 0, 0
@@ -39532,7 +39529,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 55, 1, 0.699999988 }
                 }
-                texture: string = "ASSETS/Shared/Particles/VS_SmokeClouds.dds"
+                texture: string = "ASSETS/Shared/Particles/VS_SmokeClouds.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -40564,7 +40561,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "iridescentTex"
-                texturePath: string = "ASSETS/Shared/Materials/Default_Gradient.dds"
+                texturePath: string = "ASSETS/Shared/Materials/Default_Gradient.tex"
             }
         }
         paramValues: list2[embed] = {
@@ -41674,7 +41671,7 @@ entries: map[hash,embed] = {
                     AlignPitchToCamera: bool = true
                     AlignYawToCamera: bool = true
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set15.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.437170982, 0.0392156877, 0.529411793, 1 }
@@ -41798,7 +41795,7 @@ entries: map[hash,embed] = {
                     AlignPitchToCamera: bool = true
                     AlignYawToCamera: bool = true
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set15.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.137254909, 0.152941182, 0.239215687, 1 }
@@ -41923,7 +41920,7 @@ entries: map[hash,embed] = {
                     AlignPitchToCamera: bool = true
                     AlignYawToCamera: bool = true
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.7400015, 0.0800030529, 0.340001523 }
@@ -42047,7 +42044,7 @@ entries: map[hash,embed] = {
                     AlignPitchToCamera: bool = true
                     AlignYawToCamera: bool = true
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.179995418, 0.0200045779, 0.2399939 }

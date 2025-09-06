@@ -1989,7 +1989,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_Trail_2.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_Trail_2.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -2720,7 +2720,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_Trail_2.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_Trail_2.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -3046,7 +3046,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Ashe/Skins/Skin06/Particles/Ashe_Skin06_R_Arrow_Mask.SPARX_Ashe_R_Update.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/TFT_alphaslice_mesh.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/TFT_alphaslice_mesh.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -1, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {

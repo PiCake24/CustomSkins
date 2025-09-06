@@ -3498,7 +3498,7 @@ entries: map[hash,embed] = {
                         { 0, 0, 1 }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -3694,7 +3694,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 0, 75 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -6143,7 +6143,7 @@ entries: map[hash,embed] = {
                         { 0, 0, 1 }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.835294127, 0.243137255, 1, 1 }
@@ -19208,7 +19208,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -26277,7 +26277,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -26596,7 +26596,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -27243,7 +27243,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -27361,7 +27361,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -29056,7 +29056,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }

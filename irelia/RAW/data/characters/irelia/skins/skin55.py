@@ -844,6 +844,7 @@ entries: map[hash,embed] = {
         particleName: string = "Irelia_Base_E_Blades"
         particlePath: string = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Blades"
         soundOnCreateDefault: string = "Play_sfx_Irelia_IreliaE_missile_stop"
+        flags: u16 = 196
     }
     "Characters/Irelia/Skins/Skin55/Particles/Irelia_Skin55_Emote_Homeguard_End" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -1696,7 +1697,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.150000006
@@ -3578,7 +3579,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
         }
         particleName: string = "Irelia_Skin55_Idle_Hair"
@@ -4252,7 +4253,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                texture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = -90
                 }
@@ -8752,7 +8753,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                texture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = -90
                 }
@@ -14217,7 +14218,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -18583,7 +18584,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
         }
         particleName: string = "Irelia_Skin55_Idle_Hair02"
@@ -21159,7 +21160,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -21366,7 +21367,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/3161_Base_DeflectionRipples_Big.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3161_Base_DeflectionRipples_Big.TFT_Event_5YR_Set14.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -21436,7 +21437,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Ahri_Skin85_Orb_Reflection.SKINS_Sett_Skin66.dds"
+                texture: string = "ASSETS/Shared/Particles/Ahri_Skin85_Orb_Reflection.SKINS_Sett_Skin66.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {}
             }
             VfxEmitterDefinitionData {
@@ -21522,7 +21523,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/3161_Base_DeflectionRipples_Big.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3161_Base_DeflectionRipples_Big.TFT_Event_5YR_Set14.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -21570,7 +21571,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Ahri_Skin85_Orb_Reflection.SKINS_Sett_Skin66.dds"
+                texture: string = "ASSETS/Shared/Particles/Ahri_Skin85_Orb_Reflection.SKINS_Sett_Skin66.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {}
             }
             VfxEmitterDefinitionData {
@@ -22522,7 +22523,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0299999993
@@ -23296,7 +23297,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -24169,7 +24170,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/3161_Base_DeflectionRipples_Big.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3161_Base_DeflectionRipples_Big.TFT_Event_5YR_Set14.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -24240,7 +24241,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Ahri_Skin85_Orb_Reflection.SKINS_Sett_Skin66.dds"
+                texture: string = "ASSETS/Shared/Particles/Ahri_Skin85_Orb_Reflection.SKINS_Sett_Skin66.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1.5
@@ -24315,7 +24316,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/3161_Base_DeflectionRipples_Big.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3161_Base_DeflectionRipples_Big.TFT_Event_5YR_Set14.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -24386,7 +24387,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Ahri_Skin85_Orb_Reflection.SKINS_Sett_Skin66.dds"
+                texture: string = "ASSETS/Shared/Particles/Ahri_Skin85_Orb_Reflection.SKINS_Sett_Skin66.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1.5
@@ -25111,7 +25112,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.5
@@ -27332,7 +27333,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 2.79999995
@@ -27627,7 +27628,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -28276,7 +28277,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/3161_Base_DeflectionRipples_Big.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3161_Base_DeflectionRipples_Big.TFT_Event_5YR_Set14.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -28347,7 +28348,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Ahri_Skin85_Orb_Reflection.SKINS_Sett_Skin66.dds"
+                texture: string = "ASSETS/Shared/Particles/Ahri_Skin85_Orb_Reflection.SKINS_Sett_Skin66.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -28573,7 +28574,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/3161_Base_DeflectionRipples_Big.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3161_Base_DeflectionRipples_Big.TFT_Event_5YR_Set14.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -28644,7 +28645,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Ahri_Skin85_Orb_Reflection.SKINS_Sett_Skin66.dds"
+                texture: string = "ASSETS/Shared/Particles/Ahri_Skin85_Orb_Reflection.SKINS_Sett_Skin66.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -29021,7 +29022,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -31352,7 +31353,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/3161_Base_DeflectionRipples_Big.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3161_Base_DeflectionRipples_Big.TFT_Event_5YR_Set14.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -31424,7 +31425,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Ahri_Skin85_Orb_Reflection.SKINS_Sett_Skin66.dds"
+                texture: string = "ASSETS/Shared/Particles/Ahri_Skin85_Orb_Reflection.SKINS_Sett_Skin66.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -31660,7 +31661,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/3161_Base_DeflectionRipples_Big.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3161_Base_DeflectionRipples_Big.TFT_Event_5YR_Set14.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -31732,7 +31733,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Ahri_Skin85_Orb_Reflection.SKINS_Sett_Skin66.dds"
+                texture: string = "ASSETS/Shared/Particles/Ahri_Skin85_Orb_Reflection.SKINS_Sett_Skin66.tex"
             }
         }
         particleName: string = "Irelia_Skin55_Emote_Idle_Petal_child"
@@ -32864,7 +32865,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -33769,7 +33770,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1
@@ -38105,7 +38106,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -39255,7 +39256,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.5
@@ -40458,7 +40459,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_StardustMote.StrawberryRebuild.tex"
             }
         }
         particleName: string = "Irelia_Skin55_Emote_Recall_Flower03"
@@ -49284,20 +49285,20 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Noise_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Flowmap"
-                texturePath: string = "ASSETS/Shared/Materials/flowmap.dds"
+                texturePath: string = "ASSETS/Shared/Materials/flowmap.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "HolesMask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/Noise_Clouds_01.dds"
+                texturePath: string = "ASSETS/Shared/Materials/Noise_Clouds_01.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Gradient_Color_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/EDG_Rainbow2.dds"
+                texturePath: string = "ASSETS/Shared/Materials/EDG_Rainbow2.tex"
                 addressW: u32 = 1
             }
         }

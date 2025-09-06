@@ -848,6 +848,7 @@ entries: map[hash,embed] = {
         particleName: string = "Irelia_Base_E_Blades"
         particlePath: string = "Characters/Irelia/Skins/Skin0/Particles/Irelia_Base_E_Blades"
         soundOnCreateDefault: string = "Play_sfx_Irelia_IreliaE_missile_stop"
+        flags: u16 = 196
     }
     "Characters/Irelia/Skins/Skin16/Particles/Irelia_Skin16_P_Hit_02" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -1974,7 +1975,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "distort"
                 importance: u8 = 0
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/ability_indicator_p-rgba_02.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/ability_indicator_p-rgba_02.tex"
                 blendMode: u8 = 1
                 pass: i16 = 100
                 meshRenderFlags: u8 = 0
@@ -3532,7 +3533,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.AprilFools2025.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-bellcurve32.AprilFools2025.tex"
                 blendMode: u8 = 1
                 pass: i16 = 12
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
@@ -17691,7 +17692,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                texture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 numFrames: u16 = 4
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0.200000003 }
@@ -41127,13 +41128,24 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "OutlineMask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
                 addressU: u32 = 2
                 addressV: u32 = 2
                 addressW: u32 = 2
             }
         }
         paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "VColor_G_Mask_Discard_Size"
+                value: vec4 = { 100, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VColor_G_Mask_Discard_Value"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VColor_G_Mask_Discard_Location"
+            }
             StaticMaterialShaderParamDef {
                 name: string = "Distortion_Diffuse_Tex_B_Control"
                 value: vec4 = { 1, 1, 0, 0 }
@@ -41241,6 +41253,22 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_DIFFUSE_W_DISCARD"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_OUTLINE_W_DISCARD"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_DIFFUSE"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_OUTLINE"
+                on: bool = false
+            }
             StaticMaterialSwitchDef {
                 name: string = "ALPHA_MAIN_SCROLL_OUTLINE_ADD"
                 on: bool = false

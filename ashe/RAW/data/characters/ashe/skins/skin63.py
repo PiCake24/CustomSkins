@@ -223,15 +223,15 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Grid_Texture"
-                texturePath: string = "ASSETS/Shared/Particles/21.AprilFools2025.dds"
+                texturePath: string = "ASSETS/Shared/Particles/21.AprilFools2025.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Crystal_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/CrystalPattern.dds"
+                texturePath: string = "ASSETS/Shared/Materials/CrystalPattern.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Alpha_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/Default/Default_Grid.dds"
+                texturePath: string = "ASSETS/Shared/Materials/Default/Default_Grid.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "DiffuseTexture"

@@ -8331,7 +8331,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 2 }
                 }
-                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.DDS"
+                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -8377,7 +8377,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.25, 1.25, 1.25 }
                 }
-                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.DDS"
+                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -8422,7 +8422,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.85000002, 1.85000002, 1.85000002 }
                 }
-                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.DDS"
+                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.150000006
@@ -9514,7 +9514,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.45000005, 1.45000005, 1.45000005 }
                 }
-                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.DDS"
+                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -9544,7 +9544,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.75, 0.75, 0.75 }
                 }
-                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.DDS"
+                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.tex"
             }
         }
         particleName: string = "Chogath_Skin06_E_mis4"
@@ -9580,7 +9580,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.60000002, 1.60000002, 1.60000002 }
                 }
-                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.DDS"
+                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -9610,7 +9610,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.75, 0.75, 0.75 }
                 }
-                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.DDS"
+                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.tex"
             }
         }
         particleName: string = "Chogath_Skin06_E_mis5"
@@ -9646,7 +9646,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.75, 1.75, 1.75 }
                 }
-                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.DDS"
+                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -9676,7 +9676,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.75, 0.75, 0.75 }
                 }
-                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.DDS"
+                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.tex"
             }
         }
         particleName: string = "Chogath_Skin06_E_mis6"
@@ -9712,7 +9712,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.14999998, 1.14999998, 1.14999998 }
                 }
-                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.DDS"
+                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -9742,7 +9742,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.75, 0.75, 0.75 }
                 }
-                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.DDS"
+                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.tex"
             }
         }
         particleName: string = "Chogath_Skin06_E_mis2"
@@ -9778,7 +9778,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.29999995, 1.29999995, 1.29999995 }
                 }
-                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.DDS"
+                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -9808,7 +9808,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.75, 0.75, 0.75 }
                 }
-                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.DDS"
+                texture: string = "ASSETS/Particles/Chogath_Skin06_Q_spike.tex"
             }
         }
         particleName: string = "Chogath_Skin06_E_mis3"

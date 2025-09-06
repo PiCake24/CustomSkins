@@ -11152,13 +11152,13 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Particles/alpha_20.dds"
+                particleColorTexture: string = "ASSETS/Particles/alpha_20.tex"
                 blendMode: u8 = 1
                 meshRenderFlags: u8 = 0
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0900000036
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Shared/Particles/distortion_soundwaves_01.dds"
+                    normalMapTexture: string = "ASSETS/Shared/Particles/distortion_soundwaves_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -11180,7 +11180,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Items/Aura_Self.DDS"
+                texture: string = "ASSETS/Shared/Particles/Items/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -13616,7 +13616,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 2 }
                 }
-                texture: string = "ASSETS/Particles/Gimbal_Test_MESH_Color.dds"
+                texture: string = "ASSETS/Particles/Gimbal_Test_MESH_Color.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -15814,9 +15814,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Library/HitEffect/Caitlyn_Skin06_Radial_01.dds"
+                texture: string = "ASSETS/Shared/Particles/Library/HitEffect/Caitlyn_Skin06_Radial_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/HitEffect_Gradient_64.dds"
+                    paletteTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/HitEffect_Gradient_64.tex"
                     palleteSrcMixColor: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -15979,10 +15979,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Library/HitEffect/bolts_HitEffect_Physical_S_01.dds"
+                texture: string = "ASSETS/Shared/Particles/Library/HitEffect/bolts_HitEffect_Physical_S_01.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/HitEffect_Gradient_64.dds"
+                    paletteTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/HitEffect_Gradient_64.tex"
                     palleteSrcMixColor: embed = ValueColor {
                         constantValue: vec4 = { 0.900007606, 0, 0, 0 }
                     }
@@ -25628,7 +25628,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 2 }
                 }
-                texture: string = "ASSETS/Particles/Gimbal_Test_MESH_Color.dds"
+                texture: string = "ASSETS/Particles/Gimbal_Test_MESH_Color.tex"
             }
         }
         particleName: string = "Chogath_Skin07_Recall_groundImpact"
@@ -25666,7 +25666,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 2 }
                 }
-                texture: string = "ASSETS/Particles/Gimbal_Test_MESH_Color.dds"
+                texture: string = "ASSETS/Particles/Gimbal_Test_MESH_Color.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -38393,7 +38393,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 2 }
                 }
-                texture: string = "ASSETS/Particles/Gimbal_Test_MESH_Color.dds"
+                texture: string = "ASSETS/Particles/Gimbal_Test_MESH_Color.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -38916,7 +38916,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 2 }
                 }
-                texture: string = "ASSETS/Particles/Gimbal_Test_MESH_Color.dds"
+                texture: string = "ASSETS/Particles/Gimbal_Test_MESH_Color.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -39014,7 +39014,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "SS_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/UVAnimate/stars.dds"
+                texturePath: string = "ASSETS/Shared/Materials/UVAnimate/stars.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
@@ -39062,6 +39062,12 @@ entries: map[hash,embed] = {
                 name: string = "Dodge_Bias"
             }
         }
+        switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "USE_LOCAL_SPACE"
+                on: bool = false
+            }
+        }
         shaderMacros: map[string,string] = {
             "NUM_BLEND_WEIGHTS" = "4"
         }
@@ -39102,7 +39108,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "SS_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/UVAnimate/stars.dds"
+                texturePath: string = "ASSETS/Shared/Materials/UVAnimate/stars.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
@@ -39150,6 +39156,12 @@ entries: map[hash,embed] = {
                 name: string = "Dodge_Bias"
             }
         }
+        switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "USE_LOCAL_SPACE"
+                on: bool = false
+            }
+        }
         shaderMacros: map[string,string] = {
             "NUM_BLEND_WEIGHTS" = "4"
         }
@@ -39190,7 +39202,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "SS_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/UVAnimate/stars.dds"
+                texturePath: string = "ASSETS/Shared/Materials/UVAnimate/stars.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
@@ -39236,6 +39248,12 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderParamDef {
                 name: string = "Dodge_Bias"
+            }
+        }
+        switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "USE_LOCAL_SPACE"
+                on: bool = false
             }
         }
         shaderMacros: map[string,string] = {

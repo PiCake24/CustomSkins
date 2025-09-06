@@ -3812,7 +3812,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 212.5, 127.5, 0.850000024 }
                 }
-                texture: string = "ASSETS/Particles/ball32_02.dds"
+                texture: string = "ASSETS/Particles/ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.529999971
@@ -3879,7 +3879,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/ball32_02.dds"
+                texture: string = "ASSETS/Particles/ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.579999983
@@ -3944,7 +3944,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/ball32_02.dds"
+                texture: string = "ASSETS/Particles/ball32_02.tex"
             }
         }
         particleName: string = "Xayah_Base_R_Body_Cas"
@@ -4959,7 +4959,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/ball32_02.dds"
+                texture: string = "ASSETS/Particles/ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -11839,7 +11839,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/ball32_02.dds"
+                texture: string = "ASSETS/Particles/ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -13396,7 +13396,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/AssassinMode_Kalista_Skin01_P_Glow.dds"
+                texture: string = "ASSETS/Particles/AssassinMode_Kalista_Skin01_P_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -13456,7 +13456,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 150, 1 }
                 }
-                texture: string = "ASSETS/Particles/ball32_02.dds"
+                texture: string = "ASSETS/Particles/ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1
@@ -16978,7 +16978,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/ball32_02.dds"
+                texture: string = "ASSETS/Particles/ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -18992,7 +18992,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/ball32_02.dds"
+                texture: string = "ASSETS/Particles/ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -19758,7 +19758,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/ball32_02.dds"
+                texture: string = "ASSETS/Particles/ball32_02.tex"
             }
         }
         particleName: string = "Xayah_Base_W_Tar"
@@ -20682,7 +20682,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/ball32_02.dds"
+                texture: string = "ASSETS/Particles/ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -21112,11 +21112,11 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 textureName: string = "MatCap_Tex"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Color_Mask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture"
@@ -21127,14 +21127,14 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "iridescentTex"
-                texturePath: string = "ASSETS/Shared/Materials/Iridescence/Iridescence_Dark_Feather.dds"
+                texturePath: string = "ASSETS/Shared/Materials/Iridescence/Iridescence_Dark_Feather.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "AdditiveScrollTex"
-                texturePath: string = "ASSETS/Shared/Materials/white.dds"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
@@ -21146,7 +21146,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture2"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -21325,594 +21325,6 @@ entries: map[hash,embed] = {
                 parentName: string = "normal"
                 shaderMacros: map[string,string] = {
                     "TRANSITION" = "1"
-                }
-            }
-        }
-    }
-    "Characters/Xayah/Skins/Skin4/Materials/HomeguardWings_inst" = StaticMaterialDef {
-        name: string = "Characters/Xayah/Skins/Skin4/Materials/HomeguardWings_inst"
-        samplerValues: list2[embed] = {
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Xayah_Skin04_Ult_Wing_TX_CM.tex"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Bottom_Texture"
-                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_Dance_Einstein_01_mult.tex"
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Alpha_Mask"
-                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_Homeguard_Wings_Alpha.tex"
-                addressW: u32 = 1
-            }
-        }
-        paramValues: list2[embed] = {
-            StaticMaterialShaderParamDef {
-                name: string = "Bloom_Intensity"
-                value: vec4 = { 4, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Bottom_Texture_Scale"
-                value: vec4 = { 1, 1, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Bottom_ScrollSpeed"
-                value: vec4 = { 0, 0.300000012, 0, 0 }
-            }
-        }
-        shaderMacros: map[string,string] = {
-            "NUM_BLEND_WEIGHTS" = "4"
-        }
-        techniques: list[embed] = {
-            StaticMaterialTechniqueDef {
-                name: string = "normal"
-                passes: list[embed] = {
-                    StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/ScrollingUVs_Alpha_Bloom"
-                        blendEnable: bool = true
-                        srcColorBlendFactor: u32 = 6
-                        srcAlphaBlendFactor: u32 = 6
-                        dstColorBlendFactor: u32 = 7
-                        dstAlphaBlendFactor: u32 = 7
-                    }
-                }
-            }
-        }
-        childTechniques: list[embed] = {
-            StaticMaterialChildTechniqueDef {
-                name: string = "transition"
-                parentName: string = "normal"
-                shaderMacros: map[string,string] = {
-                    "TRANSITION" = "1"
-                }
-            }
-        }
-    }
-    "Characters/Xayah/Skins/Skin4/Materials/StarGuardian_Main_inst" = StaticMaterialDef {
-        name: string = "Characters/Xayah/Skins/Skin4/Materials/StarGuardian_Main_inst"
-        samplerValues: list2[embed] = {
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Xayah_Skin04_TX_CM.tex"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Diffuse_Texture_2"
-                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Xayah_Skin04_Light_TX_CM.tex"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Transition_Texture"
-                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Xayah_Skin04_Pack_Transition_Main.tex"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "SS_Texture"
-                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_Z_SS_Tex_Wings.tex"
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Mask1"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "FresnelColor"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "FresnelColor_2"
-                texturePath: string = "ASSETS/Shared/Materials/gradient_x4.dds"
-            }
-        }
-        paramValues: list2[embed] = {
-            StaticMaterialShaderParamDef {
-                name: string = "TransitionValue"
-                value: vec4 = { 1.125, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "SS_Scale"
-                value: vec4 = { 1, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "SS_rate"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Dodge_Bias"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Fresnel_Size"
-                value: vec4 = { 1, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "BloomIntensity"
-                value: vec4 = { 0.275000006, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Bloom_Color"
-                value: vec4 = { 0.952941179, 0.662745118, 1, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Blue_Scale"
-                value: vec4 = { 1, 1, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Blue_Rate"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "FresnelTransition"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Shadow_Dissolve"
-            }
-        }
-        shaderMacros: map[string,string] = {
-            "NUM_BLEND_WEIGHTS" = "4"
-        }
-        techniques: list[embed] = {
-            StaticMaterialTechniqueDef {
-                name: string = "normal"
-                passes: list[embed] = {
-                    StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/StarGuardian_Xayah_Texture_Transition"
-                        blendEnable: bool = true
-                        srcColorBlendFactor: u32 = 6
-                        srcAlphaBlendFactor: u32 = 6
-                        dstColorBlendFactor: u32 = 7
-                        dstAlphaBlendFactor: u32 = 7
-                    }
-                }
-            }
-        }
-        childTechniques: list[embed] = {
-            StaticMaterialChildTechniqueDef {
-                name: string = "transition"
-                parentName: string = "normal"
-                shaderMacros: map[string,string] = {
-                    "TRANSITION" = "1"
-                }
-            }
-        }
-        dynamicMaterial: pointer = DynamicMaterialDef {
-            parameters: list[embed] = {
-                DynamicMaterialParameterDef {
-                    name: string = "TransitionValue"
-                    driver: pointer = MaxMaterialDriver {
-                        mDrivers: list[pointer] = {
-                            LerpMaterialDriver {
-                                mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
-                                    mScriptName: string = "XayahFeatherTracker"
-                                }
-                                mOnValue: f32 = 2
-                                mTurnOffTimeSec: f32 = 0.400000006
-                            }
-                            LerpMaterialDriver {
-                                mBoolDriver: pointer = DelayedBoolMaterialDriver {
-                                    mBoolDriver: pointer = IsAnimationPlayingDynamicMaterialBoolDriver {
-                                        mAnimationNames: list[hash] = {
-                                            "Recall"
-                                        }
-                                    }
-                                    mDelayOn: f32 = 6.5
-                                }
-                                mOnValue: f32 = 2
-                                mTurnOffTimeSec: f32 = 0
-                            }
-                            FloatGraphMaterialDriver {
-                                driver: pointer = LerpMaterialDriver {
-                                    mBoolDriver: pointer = IsAnimationPlayingDynamicMaterialBoolDriver {
-                                        mAnimationNames: list[hash] = {
-                                            "Recall_Winddown"
-                                        }
-                                    }
-                                    mOnValue: f32 = 2
-                                    mTurnOnTimeSec: f32 = 6
-                                    mTurnOffTimeSec: f32 = 0
-                                }
-                                graph: embed = VfxAnimatedFloatVariableData {
-                                    times: list[f32] = {
-                                        -0.00220507174
-                                        0.0636087582
-                                        0.183920115
-                                        0.284914404
-                                        0.570209801
-                                        0.675243855
-                                        0.971379876
-                                        0.991578758
-                                    }
-                                    values: list[f32] = {
-                                        0.00955420267
-                                        1
-                                        1
-                                        1
-                                        0.912349939
-                                        0.132264301
-                                        0.00955420267
-                                        0.00955420267
-                                    }
-                                }
-                            }
-                            FloatGraphMaterialDriver {
-                                driver: pointer = LerpMaterialDriver {
-                                    mBoolDriver: pointer = IsAnimationPlayingDynamicMaterialBoolDriver {
-                                        mAnimationNames: list[hash] = {
-                                            0x8a549975
-                                        }
-                                    }
-                                    mOnValue: f32 = 2
-                                    mTurnOnTimeSec: f32 = 8
-                                    mTurnOffTimeSec: f32 = 0
-                                }
-                                graph: embed = VfxAnimatedFloatVariableData {
-                                    times: list[f32] = {
-                                        -0.00220507174
-                                        1.37614429
-                                        1.48925781
-                                        1.5672462
-                                        1.63872933
-                                        2.00758123
-                                        2.00758123
-                                    }
-                                    values: list[f32] = {
-                                        0.00955420267
-                                        0.000789195823
-                                        0.162941828
-                                        0.754579782
-                                        1
-                                        1
-                                        0.0533792377
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-                DynamicMaterialParameterDef {
-                    name: string = "Bloom_Color"
-                    driver: pointer = ColorGraphMaterialDriver {
-                        driver: pointer = HasBuffDynamicMaterialBoolDriver {
-                            mScriptName: string = "XayahW"
-                        }
-                        colors: embed = VfxAnimatedColorVariableData {
-                            times: list[f32] = {
-                                0
-                                1
-                            }
-                            values: list[vec4] = {
-                                { 1, 1, 1, 1 }
-                                { 0.0313725509, 0, 1, 1 }
-                            }
-                        }
-                    }
-                }
-                DynamicMaterialParameterDef {
-                    name: string = "Shadow_Dissolve"
-                    driver: pointer = LerpMaterialDriver {
-                        mBoolDriver: pointer = IsAnimationPlayingDynamicMaterialBoolDriver {
-                            mAnimationNames: list[hash] = {
-                                "death"
-                            }
-                        }
-                        mOffValue: f32 = -1
-                        mTurnOnTimeSec: f32 = 6
-                        mTurnOffTimeSec: f32 = 0.5
-                    }
-                }
-            }
-        }
-    }
-    "Characters/Xayah/Skins/Skin4/Materials/StarGuardian_Wings_inst" = StaticMaterialDef {
-        name: string = "Characters/Xayah/Skins/Skin4/Materials/StarGuardian_Wings_inst"
-        samplerValues: list2[embed] = {
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Xayah_Skin04_Wing_TX_CM.tex"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Diffuse_Texture_2"
-                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Xayah_Skin04_Wing_Light_TX_CM.tex"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Transition_Texture"
-                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Xayah_Skin04_Pack_Transition_Wings.tex"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "SS_Texture"
-                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_Z_SS_Tex_Wings.tex"
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "Mask1"
-                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Xayah_Skin04_Wing_Scrolling_TX_Mask.tex"
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "FresnelColor"
-                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Xayah_Skin04_Wing_Fesnel_TX_Mask.tex"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
-            }
-            StaticMaterialShaderSamplerDef {
-                textureName: string = "FresnelColor_2"
-                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Xayah_Skin04_Wing_Light_Fesnel_TX_Mask.tex"
-                addressU: u32 = 1
-                addressV: u32 = 1
-            }
-        }
-        paramValues: list2[embed] = {
-            StaticMaterialShaderParamDef {
-                name: string = "TransitionValue"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "SS_Scale"
-                value: vec4 = { 5, 3, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "SS_rate"
-                value: vec4 = { 0.00999999978, -0.0500000007, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Dodge_Bias"
-                value: vec4 = { -0.360000014, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Fresnel_Size"
-                value: vec4 = { 3.26250005, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "BloomIntensity"
-                value: vec4 = { 1.21249998, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Bloom_Color"
-                value: vec4 = { 0.956862748, 0.458823532, 1, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Blue_Scale"
-                value: vec4 = { 3, 2, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Blue_Rate"
-                value: vec4 = { 0.00999999978, -0.0500000007, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "FresnelTransition"
-                value: vec4 = { 1, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Shadow_Dissolve"
-            }
-        }
-        shaderMacros: map[string,string] = {
-            "NUM_BLEND_WEIGHTS" = "4"
-        }
-        techniques: list[embed] = {
-            StaticMaterialTechniqueDef {
-                name: string = "normal"
-                passes: list[embed] = {
-                    StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/StarGuardian_Xayah_Texture_Transition"
-                        blendEnable: bool = true
-                        srcColorBlendFactor: u32 = 6
-                        srcAlphaBlendFactor: u32 = 6
-                        dstColorBlendFactor: u32 = 7
-                        dstAlphaBlendFactor: u32 = 7
-                    }
-                }
-            }
-        }
-        childTechniques: list[embed] = {
-            StaticMaterialChildTechniqueDef {
-                name: string = "transition"
-                parentName: string = "normal"
-                shaderMacros: map[string,string] = {
-                    "TRANSITION" = "1"
-                }
-            }
-        }
-        dynamicMaterial: pointer = DynamicMaterialDef {
-            parameters: list[embed] = {
-                DynamicMaterialParameterDef {
-                    name: string = "TransitionValue"
-                    driver: pointer = MaxMaterialDriver {
-                        mDrivers: list[pointer] = {
-                            LerpMaterialDriver {
-                                mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
-                                    mScriptName: string = "XayahFeatherTracker"
-                                }
-                                mTurnOffTimeSec: f32 = 0.400000006
-                            }
-                            FloatGraphMaterialDriver {
-                                driver: pointer = LerpMaterialDriver {
-                                    mBoolDriver: pointer = IsAnimationPlayingDynamicMaterialBoolDriver {
-                                        mAnimationNames: list[hash] = {
-                                            0x8a549975
-                                        }
-                                    }
-                                    mOnValue: f32 = 2
-                                    mTurnOnTimeSec: f32 = 8
-                                    mTurnOffTimeSec: f32 = 0
-                                }
-                                graph: embed = VfxAnimatedFloatVariableData {
-                                    times: list[f32] = {
-                                        -0.00220507174
-                                        1.26447284
-                                        1.49482596
-                                        1.52512431
-                                        1.60641122
-                                        1.97930288
-                                        1.97930288
-                                    }
-                                    values: list[f32] = {
-                                        0.00955420267
-                                        0.00955420267
-                                        0.329476953
-                                        0.789639831
-                                        0.95617497
-                                        0.982469976
-                                        0.00955420267
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-                DynamicMaterialParameterDef {
-                    name: string = "FresnelTransition"
-                    driver: pointer = MaxMaterialDriver {
-                        mDrivers: list[pointer] = {
-                            LerpMaterialDriver {
-                                mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
-                                    mScriptName: string = "XayahFeatherTracker"
-                                }
-                                mTurnOffTimeSec: f32 = 0.400000006
-                            }
-                            LerpMaterialDriver {
-                                mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
-                                    mScriptName: string = "XayahPassiveActive"
-                                }
-                                mTurnOnTimeSec: f32 = 0.100000001
-                            }
-                        }
-                    }
-                }
-                DynamicMaterialParameterDef {
-                    name: string = "Bloom_Color"
-                    driver: pointer = ColorGraphMaterialDriver {
-                        driver: pointer = HasBuffDynamicMaterialBoolDriver {
-                            mScriptName: string = "XayahW"
-                        }
-                        colors: embed = VfxAnimatedColorVariableData {
-                            times: list[f32] = {
-                                0
-                                1
-                            }
-                            values: list[vec4] = {
-                                { 1, 1, 1, 1 }
-                                { 0.0313725509, 0, 1, 1 }
-                            }
-                        }
-                    }
-                }
-                DynamicMaterialParameterDef {
-                    name: string = "Shadow_Dissolve"
-                    driver: pointer = MaxMaterialDriver {
-                        mDrivers: list[pointer] = {
-                            LerpMaterialDriver {
-                                mBoolDriver: pointer = IsAnimationPlayingDynamicMaterialBoolDriver {
-                                    mAnimationNames: list[hash] = {
-                                        "death"
-                                    }
-                                }
-                                mOffValue: f32 = -1
-                                mTurnOnTimeSec: f32 = 6
-                                mTurnOffTimeSec: f32 = 0.5
-                            }
-                            LerpMaterialDriver {
-                                mBoolDriver: pointer = DelayedBoolMaterialDriver {
-                                    mBoolDriver: pointer = IsAnimationPlayingDynamicMaterialBoolDriver {
-                                        mAnimationNames: list[hash] = {
-                                            "Recall"
-                                        }
-                                    }
-                                    mDelayOn: f32 = 3.79999995
-                                }
-                                mOffValue: f32 = -1
-                                mTurnOffTimeSec: f32 = 0
-                            }
-                        }
-                    }
-                }
-                DynamicMaterialParameterDef {
-                    name: string = "BloomIntensity"
-                    driver: pointer = MinMaterialDriver {
-                        mDrivers: list[pointer] = {
-                            LerpMaterialDriver {
-                                mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
-                                    mScriptName: string = "XayahPassiveActive"
-                                }
-                                mOnValue: f32 = 3
-                                mOffValue: f32 = 1.21000004
-                                mTurnOnTimeSec: f32 = 0.100000001
-                                mTurnOffTimeSec: f32 = 0.100000001
-                            }
-                            LerpMaterialDriver {
-                                mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
-                                    mScriptName: string = "XayahW"
-                                }
-                                mOnValue: f32 = 0
-                                mOffValue: f32 = 1.21000004
-                                mTurnOnTimeSec: f32 = 0.100000001
-                                mTurnOffTimeSec: f32 = 0.100000001
-                            }
-                        }
-                    }
-                }
-                DynamicMaterialParameterDef {
-                    name: string = "Dodge_Bias"
-                    driver: pointer = LerpMaterialDriver {
-                        mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
-                            mScriptName: string = "XayahPassiveActive"
-                        }
-                        mOnValue: f32 = 0.25
-                        mOffValue: f32 = -0.360000014
-                        mTurnOnTimeSec: f32 = 0.100000001
-                        mTurnOffTimeSec: f32 = 1.25
-                    }
-                }
-                DynamicMaterialParameterDef {
-                    name: string = "Fresnel_Size"
-                    driver: pointer = LerpMaterialDriver {
-                        mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
-                            mScriptName: string = "XayahPassiveActive"
-                        }
-                        mOnValue: f32 = 5
-                        mOffValue: f32 = 3.26200008
-                        mTurnOnTimeSec: f32 = 0.100000001
-                    }
                 }
             }
         }
@@ -22135,7 +21547,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 25, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -22226,7 +21638,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0, 1, 0.701960802, 0.600000024 }
@@ -22350,7 +21762,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 25, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.700007975 }
@@ -22399,7 +21811,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 25, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.480003059 }
@@ -22467,7 +21879,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 25, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -22760,7 +22172,7 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.650980413, 0.450980395, 1, 1 }
@@ -22842,7 +22254,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "core_flash"
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.31764707, 0.294117659, 1, 1 }
@@ -22930,7 +22342,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_Respawn_Sphere.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.730006874 }
@@ -23426,7 +22838,7 @@ entries: map[hash,embed] = {
                 }
                 emitterName: string = "CastGlow"
                 importance: u8 = 2
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.489997715 }
                 }
@@ -23489,7 +22901,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.469993144 }
                 }
@@ -23594,7 +23006,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.859998465 }
@@ -23705,7 +23117,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 10, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.850980461, 0.850980461, 0.850980461, 1 }
@@ -23822,7 +23234,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.379995435 }
                 }
@@ -23899,7 +23311,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.674509823, 0.109803922, 1, 0.419607848 }
@@ -23974,7 +23386,7 @@ entries: map[hash,embed] = {
                         mAnimationName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_R_Wings.anm"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.300007641 }
@@ -24064,7 +23476,7 @@ entries: map[hash,embed] = {
                         mAnimationName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_R_Wings.anm"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.300007641 }
@@ -24156,7 +23568,7 @@ entries: map[hash,embed] = {
                         mAnimationName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_R_Wings.anm"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.250003815 }
@@ -24248,7 +23660,7 @@ entries: map[hash,embed] = {
                         mAnimationName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_R_Wings.anm"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.200000003 }
@@ -24340,7 +23752,7 @@ entries: map[hash,embed] = {
                         mAnimationName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_R_Wings.anm"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.149996191 }
@@ -24432,7 +23844,7 @@ entries: map[hash,embed] = {
                         mAnimationName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_R_Wings.anm"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.100007631 }
@@ -24524,7 +23936,7 @@ entries: map[hash,embed] = {
                         mAnimationName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_R_Wings.anm"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.0500038154 }
@@ -24616,7 +24028,7 @@ entries: map[hash,embed] = {
                         mAnimationName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_R_Wings.anm"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.0200045779 }
@@ -24708,7 +24120,7 @@ entries: map[hash,embed] = {
                         mAnimationName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_R_Wings.anm"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.86999315, 0.200000003, 1, 0.130006865 }
@@ -24927,7 +24339,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Feathers.sco"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.721568644, 1, 0.941176474, 0.450980395 }
@@ -25207,7 +24619,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Feathers.sco"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.768627465, 1, 0.968627453, 0.368627459 }
@@ -25344,7 +24756,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.113725491, 0.0274509806, 0.239215687, 1 }
@@ -25420,7 +24832,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0, 0, 0, 1 }
@@ -25502,7 +24914,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0, 0, 0, 1 }
@@ -25584,7 +24996,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.330006868, 1, 0.889997721, 0.749996185 }
@@ -25769,7 +25181,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.400000006 }
@@ -25856,7 +25268,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.870588243, 0.203921571, 1, 0.250980407 }
@@ -25943,7 +25355,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.2399939 }
@@ -26023,7 +25435,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.319996953 }
@@ -26097,7 +25509,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.719996929 }
@@ -26624,7 +26036,7 @@ entries: map[hash,embed] = {
                         mSmoothingMode: u8 = 1
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.37000075 }
@@ -26709,7 +26121,7 @@ entries: map[hash,embed] = {
                         mSmoothingMode: u8 = 1
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.579995394 }
@@ -26918,7 +26330,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.635294139, 0.0431372561, 1, 0.258823544 }
@@ -26952,6 +26364,801 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Xayah_Skin04_Idle_Familiar_Trail"
         particlePath: string = "Characters/Xayah/Skins/Skin4/Particles/Xayah_Skin04_Idle_Familiar_Trail"
+    }
+    "Characters/Xayah/Skins/Skin4/Materials/StarGuardian_Main_inst" = StaticMaterialDef {
+        name: string = "Characters/Xayah/Skins/Skin4/Materials/StarGuardian_Main_inst"
+        samplerValues: list2[embed] = {
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "Diffuse_Texture"
+                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Xayah_Skin04_TX_CM.tex"
+                addressU: u32 = 1
+                addressV: u32 = 1
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "Diffuse_Texture_2"
+                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Xayah_Skin04_Light_TX_CM.tex"
+                addressU: u32 = 1
+                addressV: u32 = 1
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "Transition_Texture"
+                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Xayah_Skin04_Pack_Transition_Main.tex"
+                addressU: u32 = 1
+                addressV: u32 = 1
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "SS_Texture"
+                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_Z_SS_Tex_Wings.tex"
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "Mask1"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "FresnelColor"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
+                addressU: u32 = 1
+                addressV: u32 = 1
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "FresnelColor_2"
+                texturePath: string = "ASSETS/Shared/Materials/gradient_x4.tex"
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TransitionValue"
+                value: vec4 = { 1.125, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "SS_Scale"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "SS_rate"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Dodge_Bias"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Fresnel_Size"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "BloomIntensity"
+                value: vec4 = { 0.275000006, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Bloom_Color"
+                value: vec4 = { 0.952941179, 0.662745118, 1, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Blue_Scale"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Blue_Rate"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "FresnelTransition"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Shadow_Dissolve"
+            }
+        }
+        shaderMacros: map[string,string] = {
+            "NUM_BLEND_WEIGHTS" = "4"
+        }
+        techniques: list[embed] = {
+            StaticMaterialTechniqueDef {
+                name: string = "normal"
+                passes: list[embed] = {
+                    StaticMaterialPassDef {
+                        shader: link = "Shaders/SkinnedMesh/StarGuardian_Xayah_Texture_Transition"
+                        blendEnable: bool = true
+                        srcColorBlendFactor: u32 = 6
+                        srcAlphaBlendFactor: u32 = 6
+                        dstColorBlendFactor: u32 = 7
+                        dstAlphaBlendFactor: u32 = 7
+                    }
+                }
+            }
+        }
+        childTechniques: list[embed] = {
+            StaticMaterialChildTechniqueDef {
+                name: string = "transition"
+                parentName: string = "normal"
+                shaderMacros: map[string,string] = {
+                    "TRANSITION" = "1"
+                }
+            }
+        }
+        dynamicMaterial: pointer = DynamicMaterialDef {
+            parameters: list[embed] = {
+                DynamicMaterialParameterDef {
+                    name: string = "TransitionValue"
+                    driver: pointer = MaxMaterialDriver {
+                        mDrivers: list[pointer] = {
+                            LerpMaterialDriver {
+                                mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
+                                    mScriptName: string = "XayahFeatherTracker"
+                                }
+                                mOnValue: f32 = 2
+                                mTurnOffTimeSec: f32 = 0.400000006
+                            }
+                            LerpMaterialDriver {
+                                mBoolDriver: pointer = DelayedBoolMaterialDriver {
+                                    mBoolDriver: pointer = IsAnimationPlayingDynamicMaterialBoolDriver {
+                                        mAnimationNames: list[hash] = {
+                                            "Recall"
+                                        }
+                                    }
+                                    mDelayOn: f32 = 6.5
+                                }
+                                mOnValue: f32 = 2
+                                mTurnOffTimeSec: f32 = 0
+                            }
+                            FloatGraphMaterialDriver {
+                                driver: pointer = LerpMaterialDriver {
+                                    mBoolDriver: pointer = IsAnimationPlayingDynamicMaterialBoolDriver {
+                                        mAnimationNames: list[hash] = {
+                                            "Recall_Winddown"
+                                        }
+                                    }
+                                    mOnValue: f32 = 2
+                                    mTurnOnTimeSec: f32 = 6
+                                    mTurnOffTimeSec: f32 = 0
+                                }
+                                graph: embed = VfxAnimatedFloatVariableData {
+                                    times: list[f32] = {
+                                        -0.00220507174
+                                        0.0636087582
+                                        0.183920115
+                                        0.284914404
+                                        0.570209801
+                                        0.675243855
+                                        0.971379876
+                                        0.991578758
+                                    }
+                                    values: list[f32] = {
+                                        0.00955420267
+                                        1
+                                        1
+                                        1
+                                        0.912349939
+                                        0.132264301
+                                        0.00955420267
+                                        0.00955420267
+                                    }
+                                }
+                            }
+                            FloatGraphMaterialDriver {
+                                driver: pointer = LerpMaterialDriver {
+                                    mBoolDriver: pointer = IsAnimationPlayingDynamicMaterialBoolDriver {
+                                        mAnimationNames: list[hash] = {
+                                            0x8a549975
+                                        }
+                                    }
+                                    mOnValue: f32 = 2
+                                    mTurnOnTimeSec: f32 = 8
+                                    mTurnOffTimeSec: f32 = 0
+                                }
+                                graph: embed = VfxAnimatedFloatVariableData {
+                                    times: list[f32] = {
+                                        -0.00220507174
+                                        1.37614429
+                                        1.48925781
+                                        1.5672462
+                                        1.63872933
+                                        2.00758123
+                                        2.00758123
+                                    }
+                                    values: list[f32] = {
+                                        0.00955420267
+                                        0.000789195823
+                                        0.162941828
+                                        0.754579782
+                                        1
+                                        1
+                                        0.0533792377
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                DynamicMaterialParameterDef {
+                    name: string = "Bloom_Color"
+                    driver: pointer = ColorGraphMaterialDriver {
+                        driver: pointer = HasBuffDynamicMaterialBoolDriver {
+                            mScriptName: string = "XayahW"
+                        }
+                        colors: embed = VfxAnimatedColorVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec4] = {
+                                { 1, 1, 1, 1 }
+                                { 0.0313725509, 0, 1, 1 }
+                            }
+                        }
+                    }
+                }
+                DynamicMaterialParameterDef {
+                    name: string = "Shadow_Dissolve"
+                    driver: pointer = LerpMaterialDriver {
+                        mBoolDriver: pointer = IsAnimationPlayingDynamicMaterialBoolDriver {
+                            mAnimationNames: list[hash] = {
+                                "death"
+                            }
+                        }
+                        mOffValue: f32 = -1
+                        mTurnOnTimeSec: f32 = 6
+                        mTurnOffTimeSec: f32 = 0.5
+                    }
+                }
+            }
+        }
+    }
+    "Characters/Xayah/Skins/Skin4/Materials/AlphaBlend_Additive_Scroll_Packed_inst" = StaticMaterialDef {
+        name: string = "Characters/Xayah/Skins/Skin4/Materials/AlphaBlend_Additive_Scroll_Packed_inst"
+        samplerValues: list2[embed] = {
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "MatCap_Tex"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "MatCap_Mask"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "Diffuse_Texture"
+                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Xayah_Skin04_Mask.tex"
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "Main_Texture"
+                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Xayah_Skin04_Ult_Wing_TX_CM.tex"
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "OutlineMask_Texture"
+                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_Homeguard_Wings_Alpha.tex"
+                addressU: u32 = 2
+                addressV: u32 = 2
+                addressW: u32 = 2
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "VColor_G_Mask_Discard_Size"
+                value: vec4 = { 100, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VColor_G_Mask_Discard_Value"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VColor_G_Mask_Discard_Location"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Distortion_Diffuse_Tex_B_Control"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Distortion_Diffuse_Tex_RG_Control"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Distortion_Main_Tex_Control"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MatCap_TintColor"
+                value: vec4 = { 1, 1, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MatCap_Control"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineMask_Texture_B_UV"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "ScrollSpeedBase"
+                value: vec4 = { 0, 0.300000012, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "ScrollSpeedBlend"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 1, 1, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Base_Tile"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Blend_Tile"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "BaseMat_Tint"
+                value: vec4 = { 1, 0, 0.888334453, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "BlendMat_Tint"
+                value: vec4 = { 0, 1, 0.888670146, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MaskStrength"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "BloomValue"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineColor"
+                value: vec4 = { 0, 0, 0, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MainTex_TintColor"
+                value: vec4 = { 1, 1, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineControl"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineMask_Strength"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "WaveController"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "WaveStrength"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "AlphaClipValue"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "AlphaClipNoiseStrength"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Bloom_TintColor"
+                value: vec4 = { 1, 1, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "NoiseUV"
+                value: vec4 = { 5, 5, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "ScrollSpeedMainTex"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "MainTex_Tile"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Alpha_Control"
+            }
+        }
+        switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_DIFFUSE_W_DISCARD"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_OUTLINE_W_DISCARD"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_DIFFUSE"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_OUTLINE"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "ALPHA_MAIN_SCROLL_OUTLINE_ADD"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "DISTORTION_DIFFUSE_TEX_RG"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "DISTORTION_DIFFUSE_TEX_B"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "DISTORTION_MAIN_TEX"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "MATCAP_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_OUTLINEMASK_B_ALPHA"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "BLENDCOLOR_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "ADDITIVEALPHA_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "MASK_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "MAINTEX_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "OUTLINE_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "OUTLINE_MASK_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "ALPHABLEND_MAIN"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_MAINTEXCOLOR"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "DEFORM_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "TWO_D_DEFORM_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_MAINTEXALPHA"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "ALPHACLIP_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "BLOOM_TINTCOLOR_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "SCROLL_MAIN_TEX"
+                on: bool = false
+            }
+        }
+        shaderMacros: map[string,string] = {
+            "NUM_BLEND_WEIGHTS" = "4"
+        }
+        techniques: list[embed] = {
+            StaticMaterialTechniqueDef {
+                name: string = "normal"
+                passes: list[embed] = {
+                    StaticMaterialPassDef {
+                        shader: link = "Shaders/SkinnedMesh/AlphaBlend_Additive_Scroll_Packed"
+                        blendEnable: bool = true
+                        srcColorBlendFactor: u32 = 6
+                        srcAlphaBlendFactor: u32 = 6
+                        dstColorBlendFactor: u32 = 7
+                        dstAlphaBlendFactor: u32 = 7
+                    }
+                }
+            }
+        }
+        childTechniques: list[embed] = {
+            StaticMaterialChildTechniqueDef {
+                name: string = "transition"
+                parentName: string = "normal"
+                shaderMacros: map[string,string] = {
+                    "TRANSITION" = "1"
+                }
+            }
+        }
+    }
+    "Characters/Xayah/Skins/Skin4/Materials/StarGuardian_Wings_inst" = StaticMaterialDef {
+        name: string = "Characters/Xayah/Skins/Skin4/Materials/StarGuardian_Wings_inst"
+        samplerValues: list2[embed] = {
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "Diffuse_Texture"
+                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Xayah_Skin04_Wing_TX_CM.tex"
+                addressU: u32 = 1
+                addressV: u32 = 1
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "Diffuse_Texture_2"
+                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Xayah_Skin04_Wing_Light_TX_CM.tex"
+                addressU: u32 = 1
+                addressV: u32 = 1
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "Transition_Texture"
+                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Xayah_Skin04_Pack_Transition_Wings.tex"
+                addressU: u32 = 1
+                addressV: u32 = 1
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "SS_Texture"
+                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Particles/Xayah_Skin04_Z_SS_Tex_Wings.tex"
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "Mask1"
+                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Xayah_Skin04_Wing_Scrolling_TX_Mask.tex"
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "FresnelColor"
+                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Xayah_Skin04_Wing_Fesnel_TX_Mask.tex"
+                addressU: u32 = 1
+                addressV: u32 = 1
+                addressW: u32 = 1
+            }
+            StaticMaterialShaderSamplerDef {
+                textureName: string = "FresnelColor_2"
+                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin04/Xayah_Skin04_Wing_Light_Fesnel_TX_Mask.tex"
+                addressU: u32 = 1
+                addressV: u32 = 1
+            }
+        }
+        paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "TransitionValue"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "SS_Scale"
+                value: vec4 = { 5, 3, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "SS_rate"
+                value: vec4 = { 0.00999999978, -0.0500000007, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Dodge_Bias"
+                value: vec4 = { -0.360000014, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Fresnel_Size"
+                value: vec4 = { 3.26250005, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "BloomIntensity"
+                value: vec4 = { 1.21249998, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Bloom_Color"
+                value: vec4 = { 0.956862748, 0.458823532, 1, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Blue_Scale"
+                value: vec4 = { 3, 2, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Blue_Rate"
+                value: vec4 = { 0.00999999978, -0.0500000007, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "FresnelTransition"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Shadow_Dissolve"
+            }
+        }
+        shaderMacros: map[string,string] = {
+            "NUM_BLEND_WEIGHTS" = "4"
+        }
+        techniques: list[embed] = {
+            StaticMaterialTechniqueDef {
+                name: string = "normal"
+                passes: list[embed] = {
+                    StaticMaterialPassDef {
+                        shader: link = "Shaders/SkinnedMesh/StarGuardian_Xayah_Texture_Transition"
+                        blendEnable: bool = true
+                        srcColorBlendFactor: u32 = 6
+                        srcAlphaBlendFactor: u32 = 6
+                        dstColorBlendFactor: u32 = 7
+                        dstAlphaBlendFactor: u32 = 7
+                    }
+                }
+            }
+        }
+        childTechniques: list[embed] = {
+            StaticMaterialChildTechniqueDef {
+                name: string = "transition"
+                parentName: string = "normal"
+                shaderMacros: map[string,string] = {
+                    "TRANSITION" = "1"
+                }
+            }
+        }
+        dynamicMaterial: pointer = DynamicMaterialDef {
+            parameters: list[embed] = {
+                DynamicMaterialParameterDef {
+                    name: string = "TransitionValue"
+                    driver: pointer = MaxMaterialDriver {
+                        mDrivers: list[pointer] = {
+                            LerpMaterialDriver {
+                                mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
+                                    mScriptName: string = "XayahFeatherTracker"
+                                }
+                                mTurnOffTimeSec: f32 = 0.400000006
+                            }
+                            FloatGraphMaterialDriver {
+                                driver: pointer = LerpMaterialDriver {
+                                    mBoolDriver: pointer = IsAnimationPlayingDynamicMaterialBoolDriver {
+                                        mAnimationNames: list[hash] = {
+                                            0x8a549975
+                                        }
+                                    }
+                                    mOnValue: f32 = 2
+                                    mTurnOnTimeSec: f32 = 8
+                                    mTurnOffTimeSec: f32 = 0
+                                }
+                                graph: embed = VfxAnimatedFloatVariableData {
+                                    times: list[f32] = {
+                                        -0.00220507174
+                                        1.26447284
+                                        1.49482596
+                                        1.52512431
+                                        1.60641122
+                                        1.97930288
+                                        1.97930288
+                                    }
+                                    values: list[f32] = {
+                                        0.00955420267
+                                        0.00955420267
+                                        0.329476953
+                                        0.789639831
+                                        0.95617497
+                                        0.982469976
+                                        0.00955420267
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                DynamicMaterialParameterDef {
+                    name: string = "FresnelTransition"
+                    driver: pointer = MaxMaterialDriver {
+                        mDrivers: list[pointer] = {
+                            LerpMaterialDriver {
+                                mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
+                                    mScriptName: string = "XayahFeatherTracker"
+                                }
+                                mTurnOffTimeSec: f32 = 0.400000006
+                            }
+                            LerpMaterialDriver {
+                                mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
+                                    mScriptName: string = "XayahPassiveActive"
+                                }
+                                mTurnOnTimeSec: f32 = 0.100000001
+                            }
+                        }
+                    }
+                }
+                DynamicMaterialParameterDef {
+                    name: string = "Bloom_Color"
+                    driver: pointer = ColorGraphMaterialDriver {
+                        driver: pointer = HasBuffDynamicMaterialBoolDriver {
+                            mScriptName: string = "XayahW"
+                        }
+                        colors: embed = VfxAnimatedColorVariableData {
+                            times: list[f32] = {
+                                0
+                                1
+                            }
+                            values: list[vec4] = {
+                                { 1, 1, 1, 1 }
+                                { 0.0313725509, 0, 1, 1 }
+                            }
+                        }
+                    }
+                }
+                DynamicMaterialParameterDef {
+                    name: string = "Shadow_Dissolve"
+                    driver: pointer = MaxMaterialDriver {
+                        mDrivers: list[pointer] = {
+                            LerpMaterialDriver {
+                                mBoolDriver: pointer = IsAnimationPlayingDynamicMaterialBoolDriver {
+                                    mAnimationNames: list[hash] = {
+                                        "death"
+                                    }
+                                }
+                                mOffValue: f32 = -1
+                                mTurnOnTimeSec: f32 = 6
+                                mTurnOffTimeSec: f32 = 0.5
+                            }
+                            LerpMaterialDriver {
+                                mBoolDriver: pointer = DelayedBoolMaterialDriver {
+                                    mBoolDriver: pointer = IsAnimationPlayingDynamicMaterialBoolDriver {
+                                        mAnimationNames: list[hash] = {
+                                            "Recall"
+                                        }
+                                    }
+                                    mDelayOn: f32 = 3.79999995
+                                }
+                                mOffValue: f32 = -1
+                                mTurnOffTimeSec: f32 = 0
+                            }
+                        }
+                    }
+                }
+                DynamicMaterialParameterDef {
+                    name: string = "BloomIntensity"
+                    driver: pointer = MinMaterialDriver {
+                        mDrivers: list[pointer] = {
+                            LerpMaterialDriver {
+                                mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
+                                    mScriptName: string = "XayahPassiveActive"
+                                }
+                                mOnValue: f32 = 3
+                                mOffValue: f32 = 1.21000004
+                                mTurnOnTimeSec: f32 = 0.100000001
+                                mTurnOffTimeSec: f32 = 0.100000001
+                            }
+                            LerpMaterialDriver {
+                                mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
+                                    mScriptName: string = "XayahW"
+                                }
+                                mOnValue: f32 = 0
+                                mOffValue: f32 = 1.21000004
+                                mTurnOnTimeSec: f32 = 0.100000001
+                                mTurnOffTimeSec: f32 = 0.100000001
+                            }
+                        }
+                    }
+                }
+                DynamicMaterialParameterDef {
+                    name: string = "Dodge_Bias"
+                    driver: pointer = LerpMaterialDriver {
+                        mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
+                            mScriptName: string = "XayahPassiveActive"
+                        }
+                        mOnValue: f32 = 0.25
+                        mOffValue: f32 = -0.360000014
+                        mTurnOnTimeSec: f32 = 0.100000001
+                        mTurnOffTimeSec: f32 = 1.25
+                    }
+                }
+                DynamicMaterialParameterDef {
+                    name: string = "Fresnel_Size"
+                    driver: pointer = LerpMaterialDriver {
+                        mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
+                            mScriptName: string = "XayahPassiveActive"
+                        }
+                        mOnValue: f32 = 5
+                        mOffValue: f32 = 3.26200008
+                        mTurnOnTimeSec: f32 = 0.100000001
+                    }
+                }
+            }
+        }
     }
     "Characters/Xayah/Skins/Skin4/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {

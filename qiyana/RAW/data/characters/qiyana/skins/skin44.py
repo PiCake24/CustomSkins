@@ -4355,7 +4355,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 90, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/DefaultColorOverlifetime.dds"
+                particleColorTexture: string = "ASSETS/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.533333361 }
@@ -21801,7 +21801,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 90, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/DefaultColorOverlifetime.dds"
+                particleColorTexture: string = "ASSETS/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.533333361 }
@@ -34909,7 +34909,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3161color-hold.AprilFools2025.dds"
+                texture: string = "ASSETS/Shared/Particles/3161color-hold.AprilFools2025.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/Qiyana/Skins/Skin40/Particles/Qiyana_Base_z_greyscale.tex"
                     palleteSrcMixColor: embed = ValueColor {
@@ -39311,7 +39311,7 @@ entries: map[hash,embed] = {
                 depthBiasFactors: vec2 = { -1, -3 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/3161color-hold.AprilFools2025.dds"
+                texture: string = "ASSETS/Shared/Particles/3161color-hold.AprilFools2025.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.150000006
@@ -40670,15 +40670,15 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Grid_Texture"
-                texturePath: string = "ASSETS/Shared/Particles/21.AprilFools2025.dds"
+                texturePath: string = "ASSETS/Shared/Particles/21.AprilFools2025.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Crystal_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/CrystalPattern.dds"
+                texturePath: string = "ASSETS/Shared/Materials/CrystalPattern.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Alpha_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/Default/Default_Grid.dds"
+                texturePath: string = "ASSETS/Shared/Materials/Default/Default_Grid.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "DiffuseTexture"

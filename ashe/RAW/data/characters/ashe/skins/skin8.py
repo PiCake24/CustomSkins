@@ -7522,7 +7522,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Ashe/Skins/skin08/Particles/Ashe_Skin08_Z_CubeMap_AvatarAlphaslicecolor.dds"
+                particleColorTexture: string = "ASSETS/Characters/Ashe/Skins/skin08/Particles/Ashe_Skin08_Z_CubeMap_AvatarAlphaslicecolor.tex"
                 colorLookUpTypeY: u8 = 1
                 sliceTechniqueRange: f32 = 0.0299999993
                 particleIsLocalOrientation: flag = true
@@ -33378,7 +33378,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Ashe/Skins/skin08/Particles/Ashe_Skin08_Z_CubeMap_AvatarAlphaslicecolor.dds"
+                particleColorTexture: string = "ASSETS/Characters/Ashe/Skins/skin08/Particles/Ashe_Skin08_Z_CubeMap_AvatarAlphaslicecolor.tex"
                 colorLookUpTypeY: u8 = 1
                 sliceTechniqueRange: f32 = 0.0299999993
                 particleIsLocalOrientation: flag = true

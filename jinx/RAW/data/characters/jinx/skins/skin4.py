@@ -169,6 +169,7 @@ entries: map[hash,embed] = {
             selfIllumination: f32 = 0.699999988
             brushAlphaOverride: f32 = 0.400000006
             reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
+            reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
             materialOverride: list[embed] = {
                 SkinMeshDataProperties_MaterialOverride {
                     texture: string = "ASSETS/Characters/jinx/Skins/Base/Body.dds"
@@ -227,7 +228,6 @@ entries: map[hash,embed] = {
                 }
                 blendMode: u8 = 1
                 pass: i16 = 4
-                doesCastShadow: flag = true
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -660,7 +660,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/Jinx_Muzzle_Flash.dds"
+                texture: string = "ASSETS/Particles/Jinx_Muzzle_Flash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -881,7 +881,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Sparks_BW.dds"
+                texture: string = "ASSETS/Shared/Particles/Sparks_BW.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -1269,7 +1269,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-hold.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.298039228, 0.0196078438, 1 }
@@ -1439,7 +1439,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/Jinx_Muzzle_Flash.dds"
+                texture: string = "ASSETS/Particles/Jinx_Muzzle_Flash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -1622,7 +1622,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/Jinx_Explosion_Smoke.dds"
+                texture: string = "ASSETS/Particles/Jinx_Explosion_Smoke.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -1689,7 +1689,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 10, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-rampdown.tex"
                 pass: i16 = 100
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
@@ -1742,7 +1742,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 40, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-rampdown.tex"
                 pass: i16 = 100
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
@@ -1771,7 +1771,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, -60, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-rampdown.tex"
                 pass: i16 = 100
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
@@ -1823,7 +1823,6 @@ entries: map[hash,embed] = {
                 blendMode: u8 = 3
                 pass: i16 = 40
                 depthBiasFactors: vec2 = { -1, -100 }
-                doesCastShadow: flag = true
                 isRotationEnabled: flag = true
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -120, 0 }
@@ -1893,7 +1892,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-hold.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.300007641, 0.0200045779, 0.379995435 }
@@ -2319,7 +2318,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-hold.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.0200045779, 0.0200045779, 0.0500038154, 1 }
@@ -2765,7 +2764,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-rampdown.tex"
                 pass: i16 = 100
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
@@ -2831,7 +2830,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.01999998, 1.01999998, 1.01999998 }
                 }
-                texture: string = "ASSETS/Particles/whitesquare.dds"
+                texture: string = "ASSETS/Particles/whitesquare.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -2858,7 +2857,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-rampdown.tex"
                 pass: i16 = 100
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
@@ -3238,7 +3237,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-rampdown.tex"
                 pass: i16 = 100
                 isDirectionOriented: flag = true
                 birthScale0: embed = ValueVector3 {
@@ -3491,7 +3490,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, -100, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-rampdown.tex"
                 pass: i16 = 100
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
@@ -5582,7 +5581,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Particles/arrow01.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-rampdown.tex"
                 pass: i16 = 100
                 meshRenderFlags: u8 = 0
                 disableBackfaceCull: bool = true
@@ -5621,7 +5620,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Particles/arrow01.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-rampdown.tex"
                 pass: i16 = 100
                 meshRenderFlags: u8 = 0
                 disableBackfaceCull: bool = true
@@ -5873,7 +5872,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-hold.tex"
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.800000012, 0.5, 1, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -5930,7 +5929,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -6312,10 +6311,10 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.dds"
+                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
             }
         }
         particleName: string = "Jinx_Skin04_Idle_VO_02"
@@ -6336,10 +6335,10 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.dds"
+                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
             }
         }
         particleName: string = "Jinx_Skin04_Idle_VO_01"
@@ -6425,7 +6424,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -6741,7 +6740,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Sparks_BW.dds"
+                texture: string = "ASSETS/Shared/Particles/Sparks_BW.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -7002,7 +7001,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-rampdown.tex"
                 pass: i16 = 100
                 meshRenderFlags: u8 = 0
                 miscRenderFlags: u8 = 1
@@ -7022,7 +7021,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/Jinx_Base_E_Tar_Flash.dds"
+                texture: string = "ASSETS/Particles/Jinx_Base_E_Tar_Flash.tex"
             }
         }
         particleName: string = "Jinx_Skin04_Q_Hurricane_Rocket_Tar_Unit"
@@ -7276,7 +7275,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/color-hold.dds"
+                texture: string = "ASSETS/Particles/color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -7364,7 +7363,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -8343,7 +8342,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/SG_SliceStar.dds"
+                texture: string = "ASSETS/Particles/SG_SliceStar.tex"
             }
         }
         particleName: string = "Jinx_Skin04_WindDown_StarFeet"
@@ -8696,7 +8695,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1.64999998
@@ -9756,7 +9755,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/Jinx_Muzzle_Flash.dds"
+                texture: string = "ASSETS/Particles/Jinx_Muzzle_Flash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -9827,7 +9826,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 200, 200 }
                 }
-                texture: string = "ASSETS/Shared/Particles/glow-soft.ACCESSORIES_14_24.dds"
+                texture: string = "ASSETS/Shared/Particles/glow-soft.ACCESSORIES_14_24.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -9945,7 +9944,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 60, 180, 1 }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -10627,7 +10626,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 10, 15 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-hold.tex"
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.223528996, 0.36470601, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -10684,7 +10683,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
         }
         particleName: string = "Jinx_Skin04_Q_Rocket_Cas"
@@ -10964,7 +10963,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 10, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-rampdown.tex"
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.200000003, 0.5, 1, 1 }
                 }
@@ -10995,7 +10994,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow.DDS"
+                texture: string = "ASSETS/Particles/bigglow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -11054,7 +11053,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 10, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-rampdown.tex"
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.400000006, 0.600000024, 1, 1 }
                 }
@@ -11085,7 +11084,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow.DDS"
+                texture: string = "ASSETS/Particles/bigglow.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.550000012
@@ -11106,13 +11105,13 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 40, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-rampdown.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.200000003, 0.5, 1, 1 }
                 }
                 pass: i16 = 100
-                texture: string = "ASSETS/Particles/bigglow.DDS"
+                texture: string = "ASSETS/Particles/bigglow.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.600000024
@@ -11134,7 +11133,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, -80, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-rampdown.tex"
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.300000012, 0.600000024, 1, 0.5 }
                 }
@@ -11147,7 +11146,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 300, 300, 300 }
                 }
-                texture: string = "ASSETS/Particles/bigglow.DDS"
+                texture: string = "ASSETS/Particles/bigglow.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.25
@@ -11168,7 +11167,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-rampdown.tex"
                 blendMode: u8 = 5
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -11333,7 +11332,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/disc32.DDS"
+                texture: string = "ASSETS/Particles/disc32.tex"
             }
         }
         particleName: string = "Jinx_Skin04_W_Cas"
@@ -11534,7 +11533,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/glow-soft.ACCESSORIES_14_24.dds"
+                texture: string = "ASSETS/Shared/Particles/glow-soft.ACCESSORIES_14_24.tex"
             }
         }
         particleName: string = "Jinx_Skin04_E_Mine_Ready_Red"
@@ -12157,7 +12156,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
         }
         particleName: string = "Jinx_Skin04_Dance_Kick"
@@ -12424,7 +12423,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14259,7 +14258,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 70, 0, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-hold.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.800000012, 0.5, 1 }
@@ -14313,7 +14312,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 70, 0, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-hold.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.800000012, 0.5, 0.150000006 }
@@ -14335,7 +14334,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 75, 75, 100 }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14355,7 +14354,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 70, 0, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-hold.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.5, 0, 1 }
@@ -14377,7 +14376,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 20, 20, 100 }
                 }
-                texture: string = "ASSETS/Particles/bigglow.DDS"
+                texture: string = "ASSETS/Particles/bigglow.tex"
             }
             VfxEmitterDefinitionData {
                 particleLinger: option[f32] = {
@@ -14411,7 +14410,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 45, 45, 1 }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14433,7 +14432,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 75, 50, 1 }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -15758,7 +15757,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Sparks_BW.dds"
+                texture: string = "ASSETS/Shared/Particles/Sparks_BW.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -16019,7 +16018,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-rampdown.tex"
                 pass: i16 = 100
                 meshRenderFlags: u8 = 0
                 miscRenderFlags: u8 = 1
@@ -16044,7 +16043,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/Jinx_Base_E_Tar_Flash.dds"
+                texture: string = "ASSETS/Particles/Jinx_Base_E_Tar_Flash.tex"
             }
         }
         particleName: string = "Jinx_Skin04_Q_Rocket_Tar_Unit"
@@ -16139,7 +16138,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 6.8499999
@@ -18097,7 +18096,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/leona_passive_rays.dds"
+                texture: string = "ASSETS/Particles/leona_passive_rays.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/Jinx/Skins/Skin04/Particles/Jinx_Skin04_Recall_LightrayRGBA.tex"
                 }
@@ -18213,7 +18212,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/SG_SliceStar.dds"
+                texture: string = "ASSETS/Particles/SG_SliceStar.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 6.80000019
@@ -18408,7 +18407,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/SG_SliceStar.dds"
+                texture: string = "ASSETS/Particles/SG_SliceStar.tex"
             }
         }
         particleName: string = "Jinx_Skin04_recall_swirls"
@@ -18468,7 +18467,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/glow-soft.ACCESSORIES_14_24.dds"
+                texture: string = "ASSETS/Shared/Particles/glow-soft.ACCESSORIES_14_24.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -18617,7 +18616,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/glow-soft.ACCESSORIES_14_24.dds"
+                texture: string = "ASSETS/Shared/Particles/glow-soft.ACCESSORIES_14_24.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -19640,7 +19639,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -19970,7 +19969,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/Sona_Base_Q_Target_Hit_Beams_4x1.dds"
+                texture: string = "ASSETS/Particles/Sona_Base_Q_Target_Hit_Beams_4x1.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
             }
@@ -20228,7 +20227,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/Jinx_Explosion_Smoke.dds"
+                texture: string = "ASSETS/Particles/Jinx_Explosion_Smoke.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -20252,7 +20251,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Particles/arrow01.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-rampdown.tex"
                 pass: i16 = 100
                 meshRenderFlags: u8 = 0
                 disableBackfaceCull: bool = true
@@ -20364,7 +20363,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-hold.tex"
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.800000012, 0.5, 1, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -20421,7 +20420,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -21111,7 +21110,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-hold.tex"
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.800000012, 0.5, 1, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -21168,7 +21167,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -22354,7 +22353,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/disc32.DDS"
+                texture: string = "ASSETS/Particles/disc32.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -22572,7 +22571,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/whitesquare.dds"
+                texture: string = "ASSETS/Particles/whitesquare.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -22593,7 +22592,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, -50, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Particles/color-holdhalf.DDS"
+                particleColorTexture: string = "ASSETS/Particles/color-holdhalf.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
                 birthRotation0: embed = ValueVector3 {
@@ -22603,7 +22602,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 225, 225, 225 }
                 }
-                texture: string = "ASSETS/Shared/Particles/disintegrate-light.dds"
+                texture: string = "ASSETS/Shared/Particles/disintegrate-light.tex"
             }
         }
         particleName: string = "Jinx_Skin04_Q_Rocket_Hurricane_mis"
@@ -23148,7 +23147,7 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-hold.tex"
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.800000012, 0.5, 0.800000012, 0.5 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -23206,7 +23205,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -23555,7 +23554,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/Jinx_Muzzle_Flash.dds"
+                texture: string = "ASSETS/Particles/Jinx_Muzzle_Flash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -23593,7 +23592,7 @@ entries: map[hash,embed] = {
                     0.5
                 }
                 emitterName: string = "Flash"
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-hold.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.800000012, 0.5, 1, 0.200000003 }
@@ -23639,7 +23638,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 150, 200 }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -24195,7 +24194,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/disc32.DDS"
+                texture: string = "ASSETS/Particles/disc32.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -24398,7 +24397,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -30, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-hold.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.56078434 }
@@ -24460,7 +24459,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -24499,7 +24498,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -30, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-hold.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0, 0.400000006, 1 }
@@ -24559,7 +24558,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -24819,7 +24818,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, -50, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Particles/color-holdhalf.DDS"
+                particleColorTexture: string = "ASSETS/Particles/color-holdhalf.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
                 birthRotation0: embed = ValueVector3 {
@@ -24829,7 +24828,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 450, 450, 450 }
                 }
-                texture: string = "ASSETS/Shared/Particles/disintegrate-light.dds"
+                texture: string = "ASSETS/Shared/Particles/disintegrate-light.tex"
             }
         }
         particleName: string = "Jinx_Skin04_Q_Rocket_mis"
@@ -25121,7 +25120,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/disc32.DDS"
+                texture: string = "ASSETS/Particles/disc32.tex"
             }
             VfxEmitterDefinitionData {
                 particleLifetime: embed = ValueFloat {
@@ -25145,7 +25144,7 @@ entries: map[hash,embed] = {
                             "Familiar_Light"
                         }
                         baseTexture: string = "ASSETS/Characters/Jinx/Skins/Skin04/Particles/Jinx_Skin04_LightFamilar_MatOverride.tex"
-                        transitionTexture: string = "ASSETS/Particles/global_ss_teleport_Transition_test.dds"
+                        transitionTexture: string = "ASSETS/Particles/global_ss_teleport_Transition_test.tex"
                         transitionSample: f32 = 0.25
                     }
                 }
@@ -25568,7 +25567,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 particleLinger: option[f32] = {
@@ -25645,7 +25644,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/SG_SliceStar.dds"
+                texture: string = "ASSETS/Particles/SG_SliceStar.tex"
             }
         }
         particleName: string = "Jinx_Skin04_WindDown_Body"
@@ -25935,7 +25934,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/disc32.DDS"
+                texture: string = "ASSETS/Particles/disc32.tex"
             }
             VfxEmitterDefinitionData {
                 particleLifetime: embed = ValueFloat {
@@ -25958,7 +25957,7 @@ entries: map[hash,embed] = {
                             "Familiar_Dark"
                         }
                         baseTexture: string = "ASSETS/Characters/Jinx/Skins/Skin04/Particles/Jinx_Skin04_DarkFamilar_MatOverride.tex"
-                        transitionTexture: string = "ASSETS/Particles/global_ss_teleport_Transition_test.dds"
+                        transitionTexture: string = "ASSETS/Particles/global_ss_teleport_Transition_test.tex"
                         transitionSample: f32 = 0.25
                     }
                 }
@@ -26394,7 +26393,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/disc32.DDS"
+                texture: string = "ASSETS/Particles/disc32.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -26666,7 +26665,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 90, 180, 1 }
                 }
-                texture: string = "ASSETS/Particles/ball32_02.dds"
+                texture: string = "ASSETS/Particles/ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -27688,7 +27687,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-hold.tex"
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.560783982, 0.415686011, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -27745,7 +27744,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -28359,7 +28358,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/disc32.DDS"
+                texture: string = "ASSETS/Particles/disc32.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -28597,7 +28596,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/overdrivelines_iblitz.dds"
+                texture: string = "ASSETS/Particles/overdrivelines_iblitz.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -28993,7 +28992,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
         }
         particleName: string = "Jinx_Skin04_Passive_Buff"
@@ -29408,7 +29407,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.449999988
@@ -30170,7 +30169,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/disc32.DDS"
+                texture: string = "ASSETS/Particles/disc32.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -32293,7 +32292,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "SliceStar"
                 importance: u8 = 2
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Particles/rampdown32.DDS"
+                particleColorTexture: string = "ASSETS/Particles/rampdown32.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.752941251 }
@@ -32610,7 +32609,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-rampdown32_03.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-rampdown32_03.tex"
                 blendMode: u8 = 1
                 pass: i16 = 1000
                 meshRenderFlags: u8 = 0
@@ -32618,7 +32617,7 @@ entries: map[hash,embed] = {
                 colorLookUpOffsets: vec2 = { 0.300000012, 0 }
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0250000004
-                    normalMapTexture: string = "ASSETS/Shared/Particles/distort-pinch.TFT_Set15.dds"
+                    normalMapTexture: string = "ASSETS/Shared/Particles/distort-pinch_2.TFT_Set15.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -32637,7 +32636,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/Aura_Self.dds"
+                texture: string = "ASSETS/Particles/Aura_Self.tex"
             }
         }
         particleName: string = "Jinx_Skin04_R_Tar"
@@ -33076,7 +33075,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/disc32.DDS"
+                texture: string = "ASSETS/Particles/disc32.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -33406,7 +33405,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -34495,7 +34494,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -30, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-hold.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.411764741 }
@@ -34557,7 +34556,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -34596,7 +34595,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -30, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-hold.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.921568692 }
@@ -34658,7 +34657,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -34697,7 +34696,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -30, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-hold.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.192157, 0.313724995, 1 }
@@ -34756,7 +34755,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -35017,7 +35016,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, -50, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Particles/color-holdhalf.DDS"
+                particleColorTexture: string = "ASSETS/Particles/color-holdhalf.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
                 birthRotation0: embed = ValueVector3 {
@@ -35027,7 +35026,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 450, 450, 450 }
                 }
-                texture: string = "ASSETS/Shared/Particles/disintegrate-light.dds"
+                texture: string = "ASSETS/Shared/Particles/disintegrate-light.tex"
             }
         }
         particleName: string = "Jinx_Skin04_Q_Rocket_Crit_Mis"
@@ -35179,7 +35178,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/glow-soft.ACCESSORIES_14_24.dds"
+                texture: string = "ASSETS/Shared/Particles/glow-soft.ACCESSORIES_14_24.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -35846,7 +35845,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/alphaslice_mesh.dds"
+                texture: string = "ASSETS/Particles/alphaslice_mesh.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 2 }
                 }
@@ -35923,7 +35922,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/checkers.dds"
+                texture: string = "ASSETS/Particles/checkers.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -35945,7 +35944,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 0, 100 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-hold.tex"
                 meshRenderFlags: u8 = 0
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -35953,7 +35952,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 700, 700, 700 }
                 }
-                texture: string = "ASSETS/Shared/Particles/disintegrate-light.dds"
+                texture: string = "ASSETS/Shared/Particles/disintegrate-light.tex"
             }
         }
         visibilityRadius: f32 = 100000
@@ -36384,7 +36383,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/Jinx_Muzzle_Flash.dds"
+                texture: string = "ASSETS/Particles/Jinx_Muzzle_Flash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -36422,7 +36421,7 @@ entries: map[hash,embed] = {
                     0.5
                 }
                 emitterName: string = "Flash"
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-hold.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.800000012, 0.5, 1, 0.200000003 }
@@ -36468,7 +36467,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 150, 200 }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -36600,7 +36599,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-hold.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-hold.tex"
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.800000012, 0.5, 1, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -36657,7 +36656,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -37055,7 +37054,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-rampdown.tex"
                 pass: i16 = 100
                 texture: string = "ASSETS/Characters/Jinx/Skins/Base/Particles/Jinx_Base_W_Mis_Flash.tex"
             }
@@ -37370,7 +37369,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.01999998, 1.01999998, 1.01999998 }
                 }
-                texture: string = "ASSETS/Particles/whitesquare.dds"
+                texture: string = "ASSETS/Particles/whitesquare.tex"
             }
         }
         particleName: string = "Jinx_Skin04_W_Tar"
@@ -38393,7 +38392,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -39307,7 +39306,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 20, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Particles/color-rampdown.dds"
+                particleColorTexture: string = "ASSETS/Particles/color-rampdown.tex"
                 pass: i16 = 100
                 isDirectionOriented: flag = true
                 birthScale0: embed = ValueVector3 {
@@ -39475,7 +39474,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/bigglow02.dds"
+                texture: string = "ASSETS/Particles/bigglow02.tex"
             }
         }
         particleName: string = "Jinx_Skin04_W_ChargeUpCas"

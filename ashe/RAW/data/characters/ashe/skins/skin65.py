@@ -5014,7 +5014,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_LensFlare01.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_LensFlare01.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -5269,7 +5269,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_LensFlare01.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_LensFlare01.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -5524,7 +5524,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_LensFlare01.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_LensFlare01.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -13984,7 +13984,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_2021_Cracks_03.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_2021_Cracks_03.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Ashe/Skins/Skin65/Particles/Ashe_Skin65_Noise2.tex"
                     uvScaleMult: embed = ValueVector2 {
@@ -14111,7 +14111,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_GroundLightning_01.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_GroundLightning_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14170,7 +14170,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Glow_Bright.SKINS_Sona_Skin56.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Glow_Bright.SKINS_Sona_Skin56.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -14199,7 +14199,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_GroundLightning_01.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_GroundLightning_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Ashe/Skins/Skin65/Particles/Ashe_Skin65_Hit2ball32_02.tex"
                 }
@@ -28859,7 +28859,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_Flare_02twist.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_Flare_02twist.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Ashe/Skins/Skin65/Particles/Ashe_Skin65_distort_bulge.tex"
                     uvScaleMult: embed = ValueVector2 {
@@ -29038,7 +29038,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_Flare_02twist.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_Flare_02twist.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -29162,7 +29162,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_Flare_02twist.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_Flare_02twist.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Ashe/Skins/Skin65/Particles/Ashe_Base_BA_SmokeErode.tex"
                     uvScaleMult: embed = ValueVector2 {
@@ -29308,7 +29308,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_2021_Cracks.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_2021_Cracks.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Ashe/Skins/Skin65/Particles/Ashe_Skin65_Assets_1_945.tex"
                     uvScaleMult: embed = ValueVector2 {
@@ -57689,7 +57689,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "EvolvingPassiveTex"
-                texturePath: string = "ASSETS/Shared/Materials/lava_mask.dds"
+                texturePath: string = "ASSETS/Shared/Materials/lava_mask.tex"
             }
         }
         paramValues: list2[embed] = {

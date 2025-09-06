@@ -810,7 +810,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 100, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.86999315, 0.149996191, 0.480003059, 0.319996953 }
@@ -2525,7 +2525,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -2957,7 +2957,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -3464,7 +3464,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.349999994
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 disableBackfaceCull: bool = true
@@ -3531,7 +3531,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/1Q_explosion_smoke_mult.dds"
+                texture: string = "ASSETS/Shared/Particles/1Q_explosion_smoke_mult.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_E_Proj_color1.tex"
                     palleteSrcMixColor: embed = ValueColor {
@@ -4431,7 +4431,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.623529434, 0.623529434, 0.623529434, 1 }
@@ -5756,7 +5756,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                texture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -7210,7 +7210,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Shared/Particles/URF_Finisher_Spatula_Ground_Erosion.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/URF_Finisher_Spatula_Ground_Erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -7332,7 +7332,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.449999988
-                    erosionMapName: string = "ASSETS/Shared/Particles/URF_Finisher_Spatula_Ground_Erosion.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/URF_Finisher_Spatula_Ground_Erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -9803,7 +9803,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Flash02.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/HitEffect_Gradient_64.dds"
+                    paletteTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/HitEffect_Gradient_64.tex"
                     palleteSrcMixColor: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -9915,7 +9915,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Flash02.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/HitEffect_Gradient_64.dds"
+                    paletteTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/HitEffect_Gradient_64.tex"
                     palleteSrcMixColor: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -10018,7 +10018,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.961547256, 0.961547256, 0.961547256, 1 }
@@ -10655,7 +10655,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.622888505, 0.0526436269, 0.0526436269, 1 }
@@ -11838,7 +11838,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/Veigar_Skin32_GroundLightning_Erosion_01.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/Veigar_Skin32_GroundLightning_Erosion_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -15146,7 +15146,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/Veigar_Skin32_GroundLightning_Erosion_01.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/Veigar_Skin32_GroundLightning_Erosion_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -16455,7 +16455,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/Veigar_Skin32_GroundLightning_Erosion_01.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/Veigar_Skin32_GroundLightning_Erosion_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -24339,7 +24339,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -24410,7 +24410,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -24484,7 +24484,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -24556,7 +24556,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -24984,7 +24984,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -25121,7 +25121,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -26234,7 +26234,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -26933,7 +26933,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Flash02.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/HitEffect_Gradient_64.dds"
+                    paletteTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/HitEffect_Gradient_64.tex"
                     palleteSrcMixColor: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -26963,7 +26963,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleBirthScaleByBoundObjectHeight: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.215686277, 0.0627451017, 0.203662172, 1 }
@@ -27320,7 +27320,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -28521,7 +28521,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -30983,7 +30983,7 @@ entries: map[hash,embed] = {
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
                 isLocalOrientation: flag = false
-                texture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                texture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 uvMode: u8 = 1
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/Briar/Skins/Base/Particles/Senna_Base_colorGrad.tex"
@@ -33460,7 +33460,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -37753,7 +37753,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.620004594, 0.0500038154, 0.0500038154, 0.269993126 }
@@ -38523,7 +38523,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/Veigar_Skin32_GroundLightning_Erosion_01.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/Veigar_Skin32_GroundLightning_Erosion_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -39185,7 +39185,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_Flash02.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/HitEffect_Gradient_64.dds"
+                    paletteTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/HitEffect_Gradient_64.tex"
                     palleteSrcMixColor: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -39977,7 +39977,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.620004594, 0.0500038154, 0.0500038154, 1 }
@@ -45504,7 +45504,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.749996185, 0.110002287, 0.140001521, 0.60999465 }
@@ -46351,7 +46351,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -50, 100 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.779995441, 0.170000762, 0.220004573, 0.450003803 }
@@ -47870,7 +47870,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -48301,7 +48301,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -48800,7 +48800,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.349999994
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 disableBackfaceCull: bool = true
@@ -48867,7 +48867,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/1Q_explosion_smoke_mult.dds"
+                texture: string = "ASSETS/Shared/Particles/1Q_explosion_smoke_mult.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/Briar/Skins/Base/Particles/Briar_Base_E_Proj_color1.tex"
                     palleteSrcMixColor: embed = ValueColor {
@@ -52796,7 +52796,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.385671765, 0, 1 }
@@ -58042,7 +58042,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 0, -25 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.889997721, 0.281986713, 0, 0.858823538 }
@@ -59469,7 +59469,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/Library/HitEffect/common_color-hold.tex"
                 blendMode: u8 = 4
                 meshRenderFlags: u8 = 0
                 miscRenderFlags: u8 = 1
@@ -61862,11 +61862,11 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 textureName: string = "MatCap_Tex"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Color_Mask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture"
@@ -61884,7 +61884,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "AdditiveScrollTex"
-                texturePath: string = "ASSETS/Shared/Materials/white.dds"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
@@ -61896,7 +61896,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture2"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -62083,11 +62083,11 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 textureName: string = "MatCap_Tex"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Color_Mask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture"
@@ -62117,7 +62117,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture2"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1

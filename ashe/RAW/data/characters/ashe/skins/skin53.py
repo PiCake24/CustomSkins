@@ -821,7 +821,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Items_smoke_01.StrawberryRebuild.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Items_smoke_01.StrawberryRebuild.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -852,7 +852,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Ashe/Skins/Skin52/Particles/Ashe_Skin32_Assets_1_264.tex"
                 texAddressModeBase: u8 = 3
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Trail_Up.TFT_Set15.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Trail_Up.TFT_Set15.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.800000012 }
                     }
@@ -928,7 +928,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Ashe/Skins/Skin53/Particles/Ashe_Skin53_Q_Buf_09.tex"
                 texAddressModeBase: u8 = 3
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Trail_Up.TFT_Set15.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Trail_Up.TFT_Set15.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.800000012 }
                     }
@@ -1101,7 +1101,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 90
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Trail_Up.TFT_Set15.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Trail_Up.TFT_Set15.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.800000012 }
                     }
@@ -2485,7 +2485,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Ashe/Skins/Skin52/Particles/Ashe_Skin52_R_Mis_03.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/3026_Itemscolor-hold.StrawberryRebuild.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/3026_Itemscolor-hold.StrawberryRebuild.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.560006082 }
@@ -3421,7 +3421,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Ashe/Skins/Skin52/Particles/Ashe_Skin52_R_Mis_03.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/3026_Itemscolor-hold.StrawberryRebuild.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/3026_Itemscolor-hold.StrawberryRebuild.tex"
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0, 0, 0, 1 }
                 }
@@ -5616,7 +5616,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Guardin_glow02.TFT_Booms_Zed_Galaxyslayer.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Guardin_glow02.TFT_Booms_Zed_Galaxyslayer.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -0.5, 0 }
                 }

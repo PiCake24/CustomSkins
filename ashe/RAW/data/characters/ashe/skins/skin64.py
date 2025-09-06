@@ -2937,7 +2937,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.75, 1.89999998 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Glow_08.StrawberryRebuild.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Glow_08.StrawberryRebuild.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.800000012, 0.699999988 }
                     }
@@ -20340,15 +20340,15 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Grid_Texture"
-                texturePath: string = "ASSETS/Shared/Particles/21.AprilFools2025.dds"
+                texturePath: string = "ASSETS/Shared/Particles/21.AprilFools2025.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Crystal_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/CrystalPattern.dds"
+                texturePath: string = "ASSETS/Shared/Materials/CrystalPattern.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Alpha_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/Default/Default_Grid.dds"
+                texturePath: string = "ASSETS/Shared/Materials/Default/Default_Grid.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "DiffuseTexture"

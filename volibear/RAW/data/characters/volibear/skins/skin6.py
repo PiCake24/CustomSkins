@@ -5,20 +5,20 @@ linked: list[string] = {
     "DATA/Volibear_Skins_Skin0_Skins_Skin1_Skins_Skin2_Skins_Skin3_Skins_Skin4_Skins_Skin5_Skins_Skin6.bin"
     "DATA/Characters/Volibear/Volibear.bin"
     "DATA/Volibear_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin2_Skins_Skin3_Skins_Skin4_Skins_Skin5_Skins_Skin7_Skins_Skin9.bin"
-    "DATA/Volibear_Skins_Root_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin3_Skins_Skin4_Skins_Skin5_Skins_Skin6_Skins_Skin7_Skins_Skin9.bin"
     "DATA/Characters/Volibear/Animations/Skin0.bin"
-    "DATA/Volibear_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin2_Skins_Skin3_Skins_Skin4_Skins_Skin5_Skins_Skin6_Skins_Skin7_Skins_Skin9.bin"
-    "DATA/Volibear_Skins_Root_Skins_Skin0_Skins_Skin19_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28.bin"
+    "DATA/Volibear_Skins_Root_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin29_Skins_Skin3_Skins_Skin30_Skins_Skin31_Skins_Skin32_Skins_Skin33_Skins_Skin34_Skins_Skin35_Skins_Skin36_Skins_Skin37_Skins_Skin4_Skins_Skin5_Skins_Skin6_Skins_Skin7_Skins_Skin9.bin"
+    "DATA/Volibear_Skins_Root_Skins_Skin0_Skins_Skin19_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin29_Skins_Skin30_Skins_Skin31_Skins_Skin32_Skins_Skin33_Skins_Skin34_Skins_Skin35_Skins_Skin36_Skins_Skin37.bin"
     "DATA/Volibear_Skins_Skin0_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin7_Skins_Skin9.bin"
-    "DATA/Volibear_Skins_Skin0_Skins_Skin1_Skins_Skin2_Skins_Skin3_Skins_Skin4_Skins_Skin5.bin"
+    "DATA/Volibear_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin2_Skins_Skin3_Skins_Skin4_Skins_Skin5_Skins_Skin6_Skins_Skin7_Skins_Skin9.bin"
     "DATA/Volibear_Skins_Skin0_Skins_Skin1_Skins_Skin2_Skins_Skin4_Skins_Skin5_Skins_Skin6.bin"
+    "DATA/Volibear_Skins_Skin0_Skins_Skin1_Skins_Skin2_Skins_Skin3_Skins_Skin4_Skins_Skin5.bin"
     "DATA/Volibear_Skins_Skin0_Skins_Skin1_Skins_Skin2_Skins_Skin4_Skins_Skin5.bin"
     "DATA/Volibear_Skins_Skin0_Skins_Skin1_Skins_Skin2_Skins_Skin3_Skins_Skin5.bin"
     "DATA/Volibear_Skins_Skin0_Skins_Skin1_Skins_Skin2_Skins_Skin5.bin"
     "DATA/Volibear_Skins_Skin0_Skins_Skin1_Skins_Skin2_Skins_Skin3_Skins_Skin4_Skins_Skin5_Skins_Skin6.bin"
-    "DATA/Volibear_Skins_Root_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin3_Skins_Skin4_Skins_Skin5_Skins_Skin6_Skins_Skin7_Skins_Skin9.bin"
     "DATA/Characters/Volibear/Volibear.bin"
     "DATA/Characters/Volibear/Animations/Skin6.bin"
+    "DATA/Volibear_Skins_Root_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin29_Skins_Skin3_Skins_Skin30_Skins_Skin31_Skins_Skin32_Skins_Skin33_Skins_Skin34_Skins_Skin35_Skins_Skin36_Skins_Skin37_Skins_Skin4_Skins_Skin5_Skins_Skin6_Skins_Skin7_Skins_Skin9.bin"
     "DATA/Volibear_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin2_Skins_Skin3_Skins_Skin4_Skins_Skin5_Skins_Skin6_Skins_Skin7_Skins_Skin9.bin"
     "DATA/Volibear_Skins_Skin0_Skins_Skin1_Skins_Skin2_Skins_Skin4_Skins_Skin5_Skins_Skin6.bin"
 }
@@ -173,30 +173,30 @@ entries: map[hash,embed] = {
         skinMeshProperties: embed = SkinMeshDataProperties {
             skeleton: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base.skl"
             simpleSkin: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base.skn"
-            texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_TX_CM.dds"
+            texture: string = "ASSETS/Characters/Volibear/Skins/Base/volibear_base_TX_CM.tex"
 	 	 	skinScale: f32 = 2
             selfIllumination: f32 = 0.699999988
             reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
-            initialSubmeshToHide: string = "HeadFrenzy, FrenzyDaggers, ShacklePieces, Crystal, ShackleBlades"
+            initialSubmeshToHide: string = "HeadFrenzy FrenzyDaggers ShacklePieces ShackleBlades Crystal"
             materialOverride: list[embed] = {
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                    texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
                     submesh: string = "ice_back"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                    texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
                     submesh: string = "ice_legs"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                    texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
                     submesh: string = "ice_arms"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                    texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
                     submesh: string = "ice_arms_float"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Poro_TX_CM.dds"
+                    texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Poro_TX_CM.tex"
                     submesh: string = "Poro"
                 }
             }
@@ -337,7 +337,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 180 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -403,7 +403,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1.29999995, 0.899999976 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.tex"
                 numFrames: u16 = 4
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
@@ -534,7 +534,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -551,7 +551,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 180 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
         }
         particleName: string = "Volibear_Base_Passive_maxStacks_R_SpikeB"
@@ -656,7 +656,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 180 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -722,7 +722,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.600000024, 0.699999988, 0.899999976 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.tex"
                 numFrames: u16 = 4
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
@@ -853,7 +853,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
                     reflectionFresnelColor: vec4 = { 0, 0, 0, 0 }
@@ -867,7 +867,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 180 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
         }
         particleName: string = "Volibear_Base_Passive_maxStacks_R_SpikeC"
@@ -972,7 +972,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 180 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -1038,7 +1038,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.5, 1.79999995, 2 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.tex"
                 numFrames: u16 = 4
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
@@ -1169,7 +1169,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -1186,7 +1186,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 180 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -1289,7 +1289,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -1301,9 +1301,9 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 180 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 8, 0, 0 }
                     }
@@ -1357,7 +1357,7 @@ entries: map[hash,embed] = {
                 }
                 pass: i16 = 3
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_Glow_A.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_Glow_A.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -1373,13 +1373,13 @@ entries: map[hash,embed] = {
                 hasPostRotateOrientation: flag = true
                 isRandomStartFrame: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Mist.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Mist.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0.200000003 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -1532,7 +1532,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.899999976, 0.899999976, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.600000024
@@ -1599,7 +1599,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.79999995, 0.899999976, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.tex"
                 numFrames: u16 = 4
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
@@ -1752,7 +1752,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.899999976, 0.899999976, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -1879,7 +1879,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.899999976, 0.899999976, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
             }
         }
         particleName: string = "Volibear_Base_Passive_midStacks_L_SpikeA"
@@ -1987,7 +1987,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.899999976, 0.899999976, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -2073,7 +2073,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { -25, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.tex"
                 numFrames: u16 = 4
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
@@ -2195,7 +2195,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.899999976, 0.899999976, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
         }
         particleName: string = "Volibear_Base_Passive_midStacks_L_SpikeB"
@@ -2303,7 +2303,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.800000012, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -2416,7 +2416,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.800000012, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -2504,7 +2504,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.600000024, 0.5, 0.600000024 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.tex"
                 numFrames: u16 = 4
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
@@ -2624,7 +2624,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -2674,10 +2674,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -2770,7 +2770,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -2820,10 +2820,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -2915,7 +2915,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -2965,10 +2965,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -2976,7 +2976,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0.200000003 }
                     }
@@ -3233,12 +3233,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_tar_flipbook.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_tar_flipbook.tex"
                 frameRate: f32 = 20
                 numFrames: u16 = 9
                 startFrame: u16 = 1
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 3, 3 }
@@ -3324,7 +3324,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -3361,7 +3361,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 100, 100 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_ball32_02.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.5
@@ -3494,7 +3494,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -3532,11 +3532,11 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 80, 100, 100 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.109999999, 0.100000001 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -3759,11 +3759,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_jacobsLadder.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_jacobsLadder.tex"
                 frameRate: f32 = 16
                 numFrames: u16 = 16
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 4, 4 }
@@ -3808,7 +3808,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_Glow_A.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_Glow_A.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -3824,9 +3824,9 @@ entries: map[hash,embed] = {
                 hasPostRotateOrientation: flag = true
                 isRandomStartFrame: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.400000006, 0.400000006 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -3926,7 +3926,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/volibear_base_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -4020,7 +4020,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -4036,7 +4036,7 @@ entries: map[hash,embed] = {
                 hasPostRotateOrientation: flag = true
                 isRandomStartFrame: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
         }
         particleName: string = "Volibear_Base_Passive_maxStacks_Aura_01"
@@ -4144,7 +4144,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.800000012, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -4257,7 +4257,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.800000012, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -4346,7 +4346,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.800000012, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.tex"
                 numFrames: u16 = 4
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
@@ -4480,7 +4480,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.800000012, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -4593,7 +4593,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.800000012, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -4681,7 +4681,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.800000012, 0.800000012, 0.600000024 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.tex"
                 numFrames: u16 = 4
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
@@ -4812,7 +4812,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.899999976, 0.899999976, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -4880,7 +4880,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.tex"
                 numFrames: u16 = 4
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
@@ -5033,7 +5033,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.899999976, 0.899999976, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -5164,7 +5164,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.899999976, 0.899999976, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
             }
         }
         particleName: string = "Volibear_Base_Passive_midStacks_R_SpikeA"
@@ -5264,7 +5264,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -5280,7 +5280,7 @@ entries: map[hash,embed] = {
                 hasPostRotateOrientation: flag = true
                 isRandomStartFrame: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -5337,7 +5337,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_Glow_A.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_Glow_A.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -5353,7 +5353,7 @@ entries: map[hash,embed] = {
                 hasPostRotateOrientation: flag = true
                 isRandomStartFrame: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
             }
         }
         particleName: string = "Volibear_Base_Passive_midStacks_Aura_01"
@@ -5445,7 +5445,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -5459,7 +5459,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.899999976, 0.899999976, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -5560,7 +5560,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -5602,7 +5602,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -5692,7 +5692,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -5734,7 +5734,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
             }
         }
         particleName: string = "Volibear_Base_Passive_zeroStacks_R_SpikeA"
@@ -5831,7 +5831,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.899999976, 0.899999976, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -5932,7 +5932,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -5974,7 +5974,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -6064,7 +6064,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -6106,7 +6106,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
             }
         }
         particleName: string = "Volibear_Base_Passive_zeroStacks_R_SpikeB"
@@ -6204,7 +6204,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.600000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -6305,7 +6305,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -6348,7 +6348,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -6438,7 +6438,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -6481,7 +6481,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
             }
         }
         particleName: string = "Volibear_Base_Passive_zeroStacks_R_SpikeC"
@@ -6578,7 +6578,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.899999976, 0.899999976, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -6679,7 +6679,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -6721,7 +6721,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -6811,7 +6811,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -6853,7 +6853,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
             }
         }
         particleName: string = "Volibear_Base_Passive_zeroStacks_L_SpikeB"
@@ -6918,10 +6918,10 @@ entries: map[hash,embed] = {
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
                 isGroundLayer: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ult_Clouds_A.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ult_Clouds_A.tex"
                 uvMode: u8 = 1
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -7031,7 +7031,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -7039,7 +7039,6 @@ entries: map[hash,embed] = {
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
                 isRandomStartFrame: flag = true
-                doesCastShadow: flag = true
                 isRotationEnabled: flag = true
                 isGroundLayer: flag = true
                 birthRotation0: embed = ValueVector3 {
@@ -7082,10 +7081,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -7192,9 +7191,9 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -7298,7 +7297,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
                     reflectionFresnelColor: vec4 = { 0, 0, 0, 0 }
@@ -7329,9 +7328,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Avatar_Blend_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Avatar_Blend_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -7398,7 +7397,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_iceGrad.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_iceGrad.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -7413,9 +7412,9 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -7488,7 +7487,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_iceGrad.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_iceGrad.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -7503,9 +7502,9 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -7586,7 +7585,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/volibear_base_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1.5
@@ -7688,7 +7687,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -7737,10 +7736,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -7748,7 +7747,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0.200000003 }
                     }
@@ -7970,12 +7969,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_tar_flipbook.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_tar_flipbook.tex"
                 frameRate: f32 = 20
                 numFrames: u16 = 9
                 startFrame: u16 = 1
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 3, 3 }
@@ -8076,7 +8075,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -8113,7 +8112,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 100, 100 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_ball32_02.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 2.5
@@ -8197,7 +8196,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -8234,7 +8233,7 @@ entries: map[hash,embed] = {
                 frameRate: f32 = 4
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUVOffset: embed = ValueVector2 {
@@ -8365,7 +8364,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -8378,7 +8377,7 @@ entries: map[hash,embed] = {
                 hasPostRotateOrientation: flag = true
                 isRandomStartFrame: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_skin5_R_color-hold.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_skin5_R_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1
@@ -8438,13 +8437,13 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_leapAvatar.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_leapAvatar.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Coif_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Coif_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -0.00999999978, 0.5 }
                     }
@@ -8508,7 +8507,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Avatar_Blend_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Avatar_Blend_01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1
@@ -8565,7 +8564,7 @@ entries: map[hash,embed] = {
                     erosionDriveCurve: embed = ValueFloat {
                         constantValue: f32 = -1.10000002
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Avatar_Blend_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Avatar_Blend_01.tex"
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
                     reflectionFresnelColor: vec4 = { 0, 0, 0, 0 }
@@ -8577,7 +8576,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 2.5
@@ -8714,7 +8713,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -8751,11 +8750,11 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 120, 100, 100 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.109999999, 0.100000001 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -8925,7 +8924,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -8975,10 +8974,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -9060,7 +9059,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_leapAvatar.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_leapAvatar.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -9139,7 +9138,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
         }
         particleName: string = "Volibear_Base_R_Buf_Max"
@@ -9237,7 +9236,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.600000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -9338,7 +9337,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -9381,7 +9380,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -9471,7 +9470,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -9514,7 +9513,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
             }
         }
         particleName: string = "Volibear_Base_Passive_zeroStacks_L_SpikeC"
@@ -9635,7 +9634,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 10, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -9701,7 +9700,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.5, 2, 2 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.tex"
                 numFrames: u16 = 4
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
@@ -9845,7 +9844,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -9862,7 +9861,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 10, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -9978,7 +9977,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -9990,9 +9989,9 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 10, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 8, 0, 0 }
                     }
@@ -10102,7 +10101,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -10169,7 +10168,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.899999976, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.tex"
                 numFrames: u16 = 4
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
@@ -10300,7 +10299,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -10317,7 +10316,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
         }
         particleName: string = "Volibear_Base_Passive_maxStacks_L_SpikeB"
@@ -10409,7 +10408,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -10423,7 +10422,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.899999976, 0.899999976, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -10524,7 +10523,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -10566,7 +10565,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -10656,7 +10655,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -10698,7 +10697,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
             }
         }
         particleName: string = "Volibear_Base_Passive_zeroStacks_L_SpikeA"
@@ -10803,7 +10802,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -10869,7 +10868,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.600000024, 0.699999988, 0.899999976 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_runeWars_lightning_graphic.tex"
                 numFrames: u16 = 4
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
@@ -11000,7 +10999,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 1
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Ice_Errodes_01.tex"
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
                     reflectionFresnelColor: vec4 = { 0, 0, 0, 0 }
@@ -11014,7 +11013,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
             }
         }
         particleName: string = "Volibear_Base_Passive_maxStacks_L_SpikeC"
@@ -11065,7 +11064,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Passive_Glow_A.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Passive_Glow_A.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -11081,16 +11080,16 @@ entries: map[hash,embed] = {
                 hasPostRotateOrientation: flag = true
                 isRandomStartFrame: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     PaletteUAnimationCurve: embed = ValueFloat {
                         constantValue: f32 = 2
                     }
                     paletteCount: i32 = 16
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.600000024 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -11320,7 +11319,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 4, 0, 0 }
                     }
@@ -11384,7 +11383,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 disableBackfaceCull: bool = true
@@ -11434,9 +11433,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Skin16_Crater_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Skin16_Crater_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -11502,7 +11501,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -11579,13 +11578,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 2, 2 }
@@ -11668,13 +11667,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Mist.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Mist.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -11757,9 +11756,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -11854,7 +11853,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Star_Flash.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Star_Flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -12104,7 +12103,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Nova.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Nova.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
                         probabilityTables: list[pointer] = {
@@ -12139,7 +12138,7 @@ entries: map[hash,embed] = {
                 }
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Thresh_Skin05_Einstein_01_mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Thresh_Skin05_Einstein_01_mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 6 }
                     }
@@ -12298,7 +12297,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Crit_hit_erode.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Crit_hit_erode.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -12378,7 +12377,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -12462,7 +12461,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
                     reflectionFresnelColor: vec4 = { 1, 1, 1, 0 }
@@ -12475,7 +12474,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Death_Color.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Death_Color.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -12537,7 +12536,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -12584,7 +12583,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Crit_hit_erode.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Crit_hit_erode.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -12863,7 +12862,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_flying_shards.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_flying_shards.tex"
                 numFrames: u16 = 16
                 birthUvScrollRate: embed = ValueVector2 {
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -12995,7 +12994,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                 }
                 depthBiasFactors: vec2 = { -1, -2 }
                 miscRenderFlags: u8 = 1
@@ -13005,9 +13004,9 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Death_Color.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Death_Color.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 4, 0, 0 }
                     }
@@ -13087,7 +13086,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.0500000007
                     erosionFeatherOut: f32 = 0.0500000007
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Death_Errodes.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Death_Errodes.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -13102,9 +13101,9 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Death_Color.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Death_Color.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 4, 0, 0 }
                     }
@@ -13178,7 +13177,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Death_Errodes.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Death_Errodes.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -13188,9 +13187,9 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Death_Color.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Death_Color.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 4, 0, 0 }
                     }
@@ -13265,9 +13264,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -13307,7 +13306,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash1"
-                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_alpha_12.dds"
+                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_alpha_12.tex"
                 blendMode: u8 = 4
                 pass: i16 = 1
                 meshRenderFlags: u8 = 0
@@ -13365,10 +13364,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_sparkMote.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_sparkMote.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 2, 2 }
@@ -13385,7 +13384,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash2"
-                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_alpha_12.dds"
+                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_alpha_12.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.0627451017, 0.529411793, 0.698039234, 1 }
@@ -13413,7 +13412,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -13466,7 +13465,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -13516,10 +13515,10 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_sparkMote.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_sparkMote.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -13584,10 +13583,10 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -13690,10 +13689,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_sparkMote.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_sparkMote.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 2, 2 }
@@ -13737,7 +13736,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -13790,7 +13789,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -13887,10 +13886,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_sparkMote.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_sparkMote.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -14093,7 +14092,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 4, 0, 0 }
                     }
@@ -14157,7 +14156,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 disableBackfaceCull: bool = true
@@ -14207,9 +14206,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Skin16_Crater_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Skin16_Crater_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -14275,7 +14274,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -14352,13 +14351,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 2, 2 }
@@ -14441,13 +14440,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Mist.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Mist.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -14530,9 +14529,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -14665,7 +14664,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_Aura_Self.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14716,7 +14715,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Passive_Glow_A.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Passive_Glow_A.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -14726,13 +14725,13 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Coif_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Coif_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -0.00999999978, 0.5 }
                     }
@@ -14800,7 +14799,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -14886,13 +14885,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 2, 2 }
@@ -15034,7 +15033,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 0.899999976
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -15082,14 +15081,14 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Strike.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Strike.tex"
                 frameRate: f32 = 2
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 2
                 }
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUvScrollRate: embed = ValueVector2 {
@@ -15140,7 +15139,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.DDS"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -15237,7 +15236,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 0.899999976
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -15292,14 +15291,14 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_wiggleSpark_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_wiggleSpark_01.tex"
                 frameRate: f32 = 2
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 2
                 }
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUvScrollRate: embed = ValueVector2 {
@@ -15350,7 +15349,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.DDS"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -15442,7 +15441,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 0.899999976
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -15491,7 +15490,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Strike.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Strike.tex"
                 frameRate: f32 = 2
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 2
@@ -15499,7 +15498,7 @@ entries: map[hash,embed] = {
                 numFrames: u16 = 4
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUvScrollRate: embed = ValueVector2 {
@@ -15528,7 +15527,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 4, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.DDS"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -15619,7 +15618,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 0.899999976
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -15668,11 +15667,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_wiggleSpark_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_wiggleSpark_01.tex"
                 numFrames: u16 = 4
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUvScrollRate: embed = ValueVector2 {
@@ -15738,7 +15737,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.DDS"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -15830,7 +15829,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 0.899999976
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -15879,7 +15878,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Strike.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Strike.tex"
                 frameRate: f32 = 2
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 2
@@ -15887,7 +15886,7 @@ entries: map[hash,embed] = {
                 numFrames: u16 = 4
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUvScrollRate: embed = ValueVector2 {
@@ -15916,7 +15915,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 4, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.DDS"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -15995,7 +15994,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -16043,12 +16042,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_color-bellcurve.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_color-bellcurve.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -1, 0 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.DDS"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.tex"
                 }
             }
         }
@@ -16144,7 +16143,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -16155,10 +16154,10 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 100, 100 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -16228,7 +16227,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.400000006
@@ -16323,10 +16322,10 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.60000002, 1.60000002, 1.60000002 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Marked_X_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Marked_X_01.tex"
                 startFrame: u16 = 1
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Marked_X_Wiggle.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Marked_X_Wiggle.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -16413,19 +16412,19 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.60000002, 1.60000002, 1.60000002 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Marked_X_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Marked_X_01.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 7, 0, 0 }
                     }
                     paletteCount: i32 = 16
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Marked_02.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Marked_02.tex"
                     texAddressModeMult: u8 = 2
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, -4 }
@@ -16484,16 +16483,16 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.60000002, 1.60000002, 1.60000002 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Marked_X_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Marked_X_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 7, 0, 0 }
                     }
                     paletteCount: i32 = 16
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Marked_02.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Marked_02.tex"
                     texAddressModeMult: u8 = 2
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, -4 }
@@ -16601,10 +16600,10 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.60000002, 1.60000002, 1.60000002 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Marked_X_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Marked_X_01.tex"
                 startFrame: u16 = 1
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Marked_X_Wiggle.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Marked_X_Wiggle.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -16715,9 +16714,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 15, 0, 0 }
                     }
@@ -16792,9 +16791,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 15, 0, 0 }
                     }
@@ -16891,15 +16890,15 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
                 }
                 disableBackfaceCull: bool = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -16937,7 +16936,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 2 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, -4 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -17069,15 +17068,15 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
                 }
                 disableBackfaceCull: bool = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -17112,7 +17111,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, -4 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -17385,7 +17384,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -17438,10 +17437,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -17449,7 +17448,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0.200000003 }
                     }
@@ -17597,7 +17596,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -17664,11 +17663,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Static_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Static_01.tex"
                 frameRate: f32 = 4
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUVOffset: embed = ValueVector2 {
@@ -17799,7 +17798,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_AOE_Warning_B_Errode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_AOE_Warning_B_Errode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -17826,9 +17825,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_AOE_Warning_B.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_AOE_Warning_B.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -17891,7 +17890,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_AOE_Warning_B_Errode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_AOE_Warning_B_Errode.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -17916,9 +17915,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_AOE_Warning_A.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_AOE_Warning_A.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -17983,9 +17982,9 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Swipe_A.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Swipe_A.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUVOffset: embed = ValueVector2 {
@@ -18004,7 +18003,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_Tornado_Indicator_Mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_Tornado_Indicator_Mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 3 }
                     }
@@ -18238,7 +18237,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -18291,10 +18290,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -18302,7 +18301,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0.200000003 }
                     }
@@ -18427,9 +18426,9 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Swipe_A.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Swipe_A.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -18451,7 +18450,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 3 }
                     }
@@ -18532,7 +18531,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -18554,9 +18553,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Swipe_A.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Swipe_A.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -18584,7 +18583,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 2 }
                     }
@@ -18650,9 +18649,9 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Swipe_A.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Swipe_A.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUVOffset: embed = ValueVector2 {
@@ -18671,7 +18670,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_Tornado_Indicator_Mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_Tornado_Indicator_Mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 3 }
                     }
@@ -18733,9 +18732,9 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Swipe_A.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Swipe_A.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUVOffset: embed = ValueVector2 {
@@ -18754,7 +18753,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_Tornado_Indicator_Mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_Tornado_Indicator_Mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 3 }
                     }
@@ -18832,9 +18831,9 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Swipe_A.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Swipe_A.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -18914,9 +18913,9 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Swipe_A.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Swipe_A.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -18934,7 +18933,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Wisp_Mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Wisp_Mult.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -19049,9 +19048,9 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Swipe_A.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Swipe_A.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texAddressModeBase: u8 = 2
@@ -19127,7 +19126,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -19138,9 +19137,9 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Slash_B.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Slash_B.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -19173,7 +19172,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.100000001, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Scratch.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Scratch.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -19227,9 +19226,9 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Swipe_A.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Swipe_A.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texAddressModeBase: u8 = 2
@@ -19245,7 +19244,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Wisp_Mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Wisp_Mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 8 }
                     }
@@ -19343,7 +19342,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -19411,9 +19410,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_AOE_Warning.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_AOE_Warning.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 uvRotation: embed = ValueFloat {
@@ -19467,7 +19466,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_AOE_Warning.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_AOE_Warning.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -19574,7 +19573,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Yasuo_Base_R_dash_sub.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Yasuo_Base_R_dash_sub.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -19658,7 +19657,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -19704,9 +19703,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_AOE_Warning.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_AOE_Warning.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 15, 0, 0 }
                     }
@@ -19826,9 +19825,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_AOE_Warning.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_AOE_Warning.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 uvRotation: embed = ValueFloat {
@@ -19878,7 +19877,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_AOE_Warning.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_AOE_Warning.tex"
                 }
             }
         }
@@ -19947,7 +19946,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -20024,13 +20023,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 2, 2 }
@@ -20113,9 +20112,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Mist.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Mist.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -20225,13 +20224,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 2, 2 }
@@ -20425,7 +20424,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 4, 0, 0 }
                     }
@@ -20498,7 +20497,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -20575,13 +20574,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 7, 0, 0 }
                     }
@@ -20647,7 +20646,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.800000012
                     erosionFeatherOut: f32 = 0.800000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 disableBackfaceCull: bool = true
@@ -20698,7 +20697,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Skin16_Crater_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Skin16_Crater_01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -20876,7 +20875,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -20947,10 +20946,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -21134,7 +21133,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -21207,10 +21206,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -21276,7 +21275,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -21297,10 +21296,10 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 6, 0, 0 }
                     }
@@ -21377,7 +21376,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -21454,13 +21453,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 2, 2 }
@@ -21531,7 +21530,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -21608,13 +21607,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 2, 2 }
@@ -21672,7 +21671,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Passive_Glow_A.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Passive_Glow_A.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -21687,9 +21686,9 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -21816,7 +21815,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Yasuo_Base_R_dash_sub.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Yasuo_Base_R_dash_sub.tex"
             }
         }
         particleName: string = "Volibear_Skin06_R_leapGroundShadow"
@@ -21872,10 +21871,10 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -21967,7 +21966,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                 }
                 depthBiasFactors: vec2 = { -1, -2 }
                 miscRenderFlags: u8 = 1
@@ -21975,9 +21974,9 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -22046,7 +22045,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_Hit_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_Hit_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -1 }
                 }
@@ -22118,13 +22117,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_Hit_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_Hit_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -1 }
                 }
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_Hit_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_Hit_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.5 }
                     }
@@ -22196,13 +22195,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_Hit_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_Hit_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.200000003 }
                 }
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_Hit_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_Hit_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.5 }
                     }
@@ -22260,7 +22259,7 @@ entries: map[hash,embed] = {
                 }
                 isRotationEnabled: flag = true
                 isLocalOrientation: flag = false
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_R_landing_blowBack.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_R_landing_blowBack.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.800000012 }
                 }
@@ -22372,7 +22371,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.800000012
                     erosionFeatherOut: f32 = 0.800000012
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -22395,7 +22394,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = -90
                 }
@@ -22477,7 +22476,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 0, 0 }
                     }
@@ -22508,7 +22507,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_ShieldAura.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_ShieldAura.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.300000012
@@ -22588,7 +22587,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_bubbleGrad_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_bubbleGrad_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -22615,7 +22614,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Wisp_Mult.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Wisp_Mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -0.100000001, 0.00999999978 }
                 }
@@ -22623,7 +22622,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.25, 0.25 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Wisp_Mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Wisp_Mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.100000001, -0.100000001 }
                     }
@@ -22720,10 +22719,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_sparkMote.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_sparkMote.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 2, 2 }
@@ -22767,7 +22766,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -22820,7 +22819,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -22879,9 +22878,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Flare-Omnimax.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Flare-Omnimax.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -22945,9 +22944,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_Aura_Self.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_Aura_Self.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -23018,7 +23017,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 400, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -23097,7 +23096,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
                     reflectionFresnelColor: vec4 = { 0, 0, 0, 0 }
@@ -23109,9 +23108,9 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Volibear_Skin06_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Volibear_Skin06_TX_CM.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -23210,7 +23209,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -23255,7 +23254,7 @@ entries: map[hash,embed] = {
                 frameRate: f32 = 4
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUVOffset: embed = ValueVector2 {
@@ -23362,9 +23361,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 600, 1200, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_Glow_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_Glow_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -23780,9 +23779,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_SandFlecks.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_SandFlecks.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -24152,9 +24151,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_SandFlecks.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_SandFlecks.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -24243,9 +24242,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Star_Flash.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Star_Flash.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -24306,7 +24305,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 1.29999995
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_AOE_Warning_B_Errode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_AOE_Warning_B_Errode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -24334,9 +24333,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_AOE_Crater_Add_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_AOE_Crater_Add_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 9, 0, 0 }
                     }
@@ -24765,9 +24764,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flake.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flake.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -24848,7 +24847,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_Erode_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_Erode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -24872,13 +24871,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -1 }
                 }
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.5 }
                     }
@@ -24942,7 +24941,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.600000024
                     erosionFeatherOut: f32 = 0.600000024
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -24966,9 +24965,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 6, 0, 0 }
                     }
@@ -24982,7 +24981,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 2 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -0.200000003 }
                     }
@@ -25073,7 +25072,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_Erode_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_Erode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -25097,9 +25096,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUvScrollRate: embed = ValueVector2 {
@@ -25110,7 +25109,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 2 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -25361,9 +25360,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Nova.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Nova.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUvScrollRate: embed = ValueVector2 {
@@ -25400,7 +25399,7 @@ entries: map[hash,embed] = {
                 }
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0.200000003 }
                     }
@@ -25597,9 +25596,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Crit_hit_erode.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Crit_hit_erode.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -25681,9 +25680,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -25808,7 +25807,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -25881,10 +25880,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 2, 2 }
@@ -25974,7 +25973,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Star_Flash.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Star_Flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -26251,10 +26250,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_flying_shards.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_flying_shards.tex"
                 numFrames: u16 = 16
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUvScrollRate: embed = ValueVector2 {
@@ -26362,7 +26361,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_AOE_Warning_B_Errode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_AOE_Warning_B_Errode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -26389,7 +26388,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_AOE_Crater_Blend_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_AOE_Crater_Blend_01.tex"
             }
         }
         particleName: string = "Volibear_Skin06_E_AOE"
@@ -26502,9 +26501,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Slash_B.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Slash_B.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 15, 0, 0 }
                     }
@@ -26537,7 +26536,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.100000001, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Scratch.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Scratch.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 4, 1 }
                     }
@@ -26631,9 +26630,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Slash_B.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Slash_B.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 15, 0, 0 }
                     }
@@ -26754,9 +26753,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Slash_B.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Slash_B.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 15, 0, 0 }
                     }
@@ -26880,9 +26879,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Slash_B.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Slash_B.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 15, 0, 0 }
                     }
@@ -26915,7 +26914,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.100000001, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Scratch.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Scratch.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 4, 1 }
                     }
@@ -26987,9 +26986,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 15, 0, 0 }
                     }
@@ -27101,10 +27100,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_sparkMote.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_sparkMote.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 15, 0, 0 }
                     }
@@ -27239,7 +27238,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -27311,9 +27310,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_Tornado_Indicator_Mult.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_Tornado_Indicator_Mult.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUVOffset: embed = ValueVector2 {
@@ -27360,7 +27359,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_downGust.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_downGust.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 1 }
@@ -27428,7 +27427,7 @@ entries: map[hash,embed] = {
                 }
                 pass: i16 = 3
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Passive_Glow_A.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Passive_Glow_A.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -27444,13 +27443,13 @@ entries: map[hash,embed] = {
                 hasPostRotateOrientation: flag = true
                 isRandomStartFrame: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.200000003 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -27592,7 +27591,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -27642,10 +27641,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -27709,9 +27708,9 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -27813,7 +27812,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
                     reflectionFresnelColor: vec4 = { 0, 0, 0, 0 }
@@ -27844,9 +27843,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_R_Avatar_Blend_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_R_Avatar_Blend_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -27940,7 +27939,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
                     reflectionFresnelColor: vec4 = { 0, 0, 0, 0 }
@@ -27952,7 +27951,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Volibear_Skin06_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Volibear_Skin06_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1.5
@@ -28054,7 +28053,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -28103,10 +28102,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -28114,7 +28113,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0.200000003 }
                     }
@@ -28282,7 +28281,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -28319,7 +28318,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 100, 100 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_ball32_02.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 2.5
@@ -28400,7 +28399,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -28437,7 +28436,7 @@ entries: map[hash,embed] = {
                 frameRate: f32 = 4
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUVOffset: embed = ValueVector2 {
@@ -28565,7 +28564,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -28578,9 +28577,9 @@ entries: map[hash,embed] = {
                 hasPostRotateOrientation: flag = true
                 isRandomStartFrame: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Volibear_Skin06_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Volibear_Skin06_TX_CM.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -28637,16 +28636,16 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_R_Avatar_Blend_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_R_Avatar_Blend_01.tex"
                 }
                 depthBiasFactors: vec2 = { -1, -7 }
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_R_Avatar_Blend_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_R_Avatar_Blend_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -28703,7 +28702,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_R_Avatar_Blend_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_R_Avatar_Blend_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -28718,9 +28717,9 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 4, 0, 0 }
                     }
@@ -28862,7 +28861,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -28901,11 +28900,11 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 120, 100, 100 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.109999999, 0.100000001 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -29075,7 +29074,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -29125,10 +29124,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -29190,10 +29189,10 @@ entries: map[hash,embed] = {
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
                 isGroundLayer: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin03/Particles/Volibear_Skin03_Ult_Clouds_A.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin03/Particles/Volibear_Skin03_Ult_Clouds_A.tex"
                 uvMode: u8 = 1
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin03/Particles/Volibear_Skin03_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin03/Particles/Volibear_Skin03_colorGrad.tex"
                     PaletteTextureAddressMode: u8 = 0
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 1, 0, 2 }
@@ -29212,7 +29211,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Skin03/Particles/Volibear_Skin03_Ult_Clouds_A.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Skin03/Particles/Volibear_Skin03_Ult_Clouds_A.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.200000003 }
                     }
@@ -29269,7 +29268,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Passive_Glow_A.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Passive_Glow_A.tex"
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
                     reflectionFresnelColor: vec4 = { 0, 0, 0, 0 }
@@ -29281,16 +29280,16 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_R_Avatar_fresnelMask_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_R_Avatar_fresnelMask_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
                     paletteCount: i32 = 16
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Skin03/Particles/Volibear_Skin03_E_Tornado_Indicator_Mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Skin03/Particles/Volibear_Skin03_E_Tornado_Indicator_Mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.200000003 }
                     }
@@ -29394,7 +29393,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
                     reflectionFresnelColor: vec4 = { 0, 0, 0, 0 }
@@ -29425,9 +29424,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_R_Avatar_Blend_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_R_Avatar_Blend_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -29591,7 +29590,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_R_Eyes_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_R_Eyes_01.tex"
                 frameRate: f32 = 20
             }
             VfxEmitterDefinitionData {
@@ -29649,9 +29648,9 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 4, 0, 0 }
                     }
@@ -29745,7 +29744,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 0.899999976
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -29756,10 +29755,10 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 isRandomStartFrame: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Strike.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Strike.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUVOffset: embed = ValueVector2 {
@@ -29874,7 +29873,7 @@ entries: map[hash,embed] = {
                 isRandomStartFrame: flag = true
                 isRotationEnabled: flag = true
                 isGroundLayer: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_color-bellcurve.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_color-bellcurve.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, -1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -29951,9 +29950,9 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Swipe_A.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Swipe_A.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texAddressModeBase: u8 = 2
@@ -29969,7 +29968,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Wisp_Mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Wisp_Mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 2 }
                     }
@@ -30040,7 +30039,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -30051,9 +30050,9 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Slash_B.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Slash_B.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -30086,7 +30085,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.100000001, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Scratch.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Scratch.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -30139,9 +30138,9 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Swipe_A.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Swipe_A.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texAddressModeBase: u8 = 2
@@ -30300,9 +30299,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -30438,9 +30437,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -30591,7 +30590,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_sparkMote.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_sparkMote.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -30743,10 +30742,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_sparkMote.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_sparkMote.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 5, 0, 0 }
                     }
@@ -30822,7 +30821,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -30844,10 +30843,10 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -30910,10 +30909,10 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -30968,10 +30967,10 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -31025,9 +31024,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 240, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_HitEffect.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_HitEffect.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -31093,9 +31092,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -31193,10 +31192,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_sparkMote.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_sparkMote.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 2, 2 }
@@ -31240,7 +31239,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -31293,7 +31292,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -31355,9 +31354,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_Aura_Self.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_Aura_Self.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -31494,7 +31493,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -31567,10 +31566,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -31647,7 +31646,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 0.5 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_downGust.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_downGust.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 1 }
@@ -31794,7 +31793,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -31867,10 +31866,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Wisp_Mult.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Wisp_Mult.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -31947,7 +31946,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.25, 0.5 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_downGust.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_downGust.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 1 }
@@ -32041,7 +32040,7 @@ entries: map[hash,embed] = {
                 hasPostRotateOrientation: flag = true
                 isRandomStartFrame: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_wiggleSpark_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_wiggleSpark_01.tex"
                 numFrames: u16 = 4
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
@@ -32086,7 +32085,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_wiggleGrad_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_wiggleGrad_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -32296,7 +32295,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_wigglRipple_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_wigglRipple_01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -32477,7 +32476,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -32545,7 +32544,7 @@ entries: map[hash,embed] = {
                 hasPostRotateOrientation: flag = true
                 isRandomStartFrame: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_wiggleSpark_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_wiggleSpark_01.tex"
                 numFrames: u16 = 4
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
@@ -32590,7 +32589,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_wiggleGrad_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_wiggleGrad_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -32663,7 +32662,7 @@ entries: map[hash,embed] = {
                 isRandomStartFrame: flag = true
                 isRotationEnabled: flag = true
                 isGroundLayer: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_color-bellcurve.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_color-bellcurve.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, -1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -32799,7 +32798,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -32911,7 +32910,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -33023,7 +33022,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_Aura_Self.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -33135,7 +33134,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_Aura_Self.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -33221,7 +33220,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -33297,7 +33296,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -33444,9 +33443,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -33582,9 +33581,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -33735,7 +33734,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_sparkMote.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_sparkMote.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -33887,10 +33886,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_sparkMote.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_sparkMote.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 5, 0, 0 }
                     }
@@ -34042,7 +34041,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Crit_hit_erode.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Crit_hit_erode.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -34122,7 +34121,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -34192,7 +34191,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -34239,7 +34238,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Crit_hit_erode.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Crit_hit_erode.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -34518,7 +34517,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_flying_shards.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_flying_shards.tex"
                 numFrames: u16 = 16
                 birthUvScrollRate: embed = ValueVector2 {
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -34626,9 +34625,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -34728,10 +34727,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_sparkMote.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_sparkMote.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 2, 2 }
@@ -34775,7 +34774,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -34828,7 +34827,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -34878,10 +34877,10 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -35011,7 +35010,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_color-bellcurve.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_color-bellcurve.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, -1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -35131,7 +35130,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -35166,10 +35165,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Strike.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Strike.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUVOffset: embed = ValueVector2 {
@@ -35315,7 +35314,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -35343,7 +35342,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -35399,7 +35398,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.300000012, 0.200000003 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_color-bellcurve.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_color-bellcurve.tex"
                     uvScrollClampMult: flag = true
                 }
             }
@@ -35499,7 +35498,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_landingCrater_Add_Erode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_landingCrater_Add_Erode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -35530,9 +35529,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_landingCrater_Add.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_landingCrater_Add.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 7, 0, 0 }
                     }
@@ -35645,7 +35644,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_landingCrater_Add_Erode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_landingCrater_Add_Erode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -35676,13 +35675,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_landingCrater_Add.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_landingCrater_Add.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -35800,7 +35799,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_landingCrater_Erode_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_landingCrater_Erode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -35831,9 +35830,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_landingCrater_Blend_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_landingCrater_Blend_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -35950,7 +35949,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -35983,7 +35982,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -36039,7 +36038,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_R_landing_blowBack.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_R_landing_blowBack.tex"
                     texAddressModeMult: u8 = 2
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 4 }
@@ -36198,7 +36197,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -36254,7 +36253,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_R_landing_blowBack.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_R_landing_blowBack.tex"
                     texAddressModeMult: u8 = 2
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 4 }
@@ -36323,7 +36322,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0199999996
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_distortion_soundwaves_01.dds"
+                    normalMapTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_distortion_soundwaves_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -36350,7 +36349,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_Aura_Self.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -36372,7 +36371,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_color-bellcurve32.dds"
+                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_color-bellcurve32.tex"
                 blendMode: u8 = 1
                 meshRenderFlags: u8 = 0
                 colorLookUpScales: vec2 = { 0.699999988, 1 }
@@ -36380,7 +36379,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0149999997
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_distort-ripples.dds"
+                    normalMapTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_distort-ripples.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -36408,7 +36407,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_Aura_Self_02.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_Aura_Self_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.125
@@ -36564,7 +36563,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 0.899999976
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -36640,9 +36639,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Nova.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Nova.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUvScrollRate: embed = ValueVector2 {
@@ -36679,7 +36678,7 @@ entries: map[hash,embed] = {
                 }
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.400000006, 0.200000003 }
                     }
@@ -36873,7 +36872,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 0.899999976
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -36949,7 +36948,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Nova.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Nova.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
                         probabilityTables: list[pointer] = {
@@ -37157,7 +37156,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -37228,7 +37227,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -37405,7 +37404,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -37478,7 +37477,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -37583,7 +37582,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
                     reflectionFresnelColor: vec4 = { 1, 1, 1, 0 }
@@ -37598,9 +37597,9 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -37633,7 +37632,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, -20, -20 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_color-heatbell.dds"
+                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_color-heatbell.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -37659,7 +37658,7 @@ entries: map[hash,embed] = {
                 alphaRef: u8 = 0
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0299999993
-                    normalMapTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Footstep_Dist.dds"
+                    normalMapTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Footstep_Dist.tex"
                 }
                 depthBiasFactors: vec2 = { -1, -4 }
                 miscRenderFlags: u8 = 1
@@ -37689,9 +37688,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Footstep_Dist_A.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Footstep_Dist_A.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Footstep_Dist_A.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Footstep_Dist_A.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -37751,7 +37750,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_downGust.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_downGust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -37850,7 +37849,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1.29999995
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_AOE_Warning_B_Errode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_AOE_Warning_B_Errode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -37924,7 +37923,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Crit_hit_erode.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Crit_hit_erode.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {}
             }
             VfxEmitterDefinitionData {
@@ -38002,7 +38001,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -38056,7 +38055,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_skyBolt_Erode_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_skyBolt_Erode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -38082,10 +38081,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Strike.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Strike.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUvScrollRate: embed = ValueVector2 {
@@ -38120,7 +38119,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 180
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_downGust.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_downGust.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -38234,7 +38233,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_Aura_Self.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -38298,7 +38297,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -38335,13 +38334,13 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 100, 100 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 2, 2 }
@@ -38404,7 +38403,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -38419,10 +38418,10 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 100, 100 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 2, 2 }
@@ -38488,7 +38487,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -38525,13 +38524,13 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 100, 100 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 7, 0, 0 }
                     }
@@ -38596,7 +38595,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -38611,10 +38610,10 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 200, 100 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 7, 0, 0 }
                     }
@@ -38897,7 +38896,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flake.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flake.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
                         probabilityTables: list[pointer] = {
@@ -38984,7 +38983,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_skyBolt_Erode_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_skyBolt_Erode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -39010,10 +39009,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Strike.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Strike.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUvScrollRate: embed = ValueVector2 {
@@ -39048,7 +39047,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 180
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_downGust.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_downGust.tex"
                 }
             }
         }
@@ -39107,7 +39106,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_alpha_12.dds"
+                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_alpha_12.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0, 0.862745106, 0.941176474, 0.600000024 }
@@ -39136,7 +39135,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -39184,16 +39183,16 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Yasuo_Base_R_dash_sub.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Yasuo_Base_R_dash_sub.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 7, 0, 0 }
                     }
                     paletteCount: i32 = 16
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 4 }
                     }
@@ -39248,7 +39247,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_alpha_12.dds"
+                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_alpha_12.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0, 0.209994659, 0.579995394, 0.600000024 }
@@ -39277,7 +39276,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -39325,9 +39324,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Yasuo_Base_R_dash_sub.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Yasuo_Base_R_dash_sub.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Mist.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Mist.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 4 }
                     }
@@ -39405,7 +39404,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_alpha_12.dds"
+                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_alpha_12.tex"
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -39447,7 +39446,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 0.899999976
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -39495,14 +39494,14 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_Static_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_Static_01.tex"
                 frameRate: f32 = 2
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 2
                 }
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 16, 0, 0 }
                     }
@@ -39527,7 +39526,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Yasuo_Base_R_dash_sub.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Yasuo_Base_R_dash_sub.tex"
                 }
             }
         }
@@ -39598,9 +39597,9 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Swipe_A.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Swipe_A.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texAddressModeBase: u8 = 2
@@ -39670,9 +39669,9 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Swipe_A.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Swipe_A.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texAddressModeBase: u8 = 2
@@ -39688,7 +39687,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Wisp_Mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Wisp_Mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 8 }
                     }
@@ -39760,7 +39759,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -39771,9 +39770,9 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Slash_B.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Slash_B.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -39806,7 +39805,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.100000001, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Scratch.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Scratch.tex"
                 }
             }
         }
@@ -39881,7 +39880,7 @@ entries: map[hash,embed] = {
                 isRandomStartFrame: flag = true
                 isRotationEnabled: flag = true
                 isGroundLayer: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_color-bellcurve.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_color-bellcurve.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, -1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -39975,7 +39974,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -40008,9 +40007,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_auraArc_underLight_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_auraArc_underLight_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -40093,7 +40092,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 0.899999976
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -40103,10 +40102,10 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 isRandomStartFrame: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Strike.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Strike.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUVOffset: embed = ValueVector2 {
@@ -40293,7 +40292,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -40373,7 +40372,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -40441,7 +40440,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -40457,9 +40456,9 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Volibear_Skin06_ornHead.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Volibear_Skin06_ornHead.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -40534,7 +40533,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -40561,9 +40560,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -40646,7 +40645,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -40708,13 +40707,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 2, 2 }
@@ -40806,9 +40805,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -40900,7 +40899,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_Aura_Self.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -40962,7 +40961,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -41039,13 +41038,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -41120,9 +41119,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Recall_groundRune_03.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Recall_groundRune_03.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                     }
@@ -41224,9 +41223,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Recall_groundRune_04.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Recall_groundRune_04.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Wisp_Mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Wisp_Mult.tex"
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 10
                     }
@@ -41325,9 +41324,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Recall_groundRune_03.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Recall_groundRune_03.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -0.100000001, -0.100000001 }
                     }
@@ -41429,7 +41428,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.29999995
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_AOE_Warning_B_Errode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_AOE_Warning_B_Errode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -41457,7 +41456,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Recall_groundRune_04.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Recall_groundRune_04.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -41522,7 +41521,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.29999995
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_AOE_Warning_B_Errode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_AOE_Warning_B_Errode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -41550,7 +41549,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Recall_groundRune_04.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Recall_groundRune_04.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.300000012
@@ -41612,7 +41611,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Recall_groundRune_04.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Recall_groundRune_04.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -41692,7 +41691,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -41804,7 +41803,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_sparkMote.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_sparkMote.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -41881,7 +41880,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -41949,11 +41948,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_wiggleSpark_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_wiggleSpark_01.tex"
                 frameRate: f32 = 4
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUVOffset: embed = ValueVector2 {
@@ -42073,7 +42072,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -42141,11 +42140,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_wiggleSpark_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_wiggleSpark_01.tex"
                 frameRate: f32 = 4
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUVOffset: embed = ValueVector2 {
@@ -42246,10 +42245,10 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -42350,10 +42349,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_sparkMote.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_sparkMote.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 2, 2 }
@@ -42397,7 +42396,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -42450,7 +42449,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -42542,10 +42541,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_sparkMote.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_sparkMote.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 2, 2 }
@@ -42943,7 +42942,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_SandFlecks.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_SandFlecks.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -43030,7 +43029,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Star_Flash.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Star_Flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -43096,7 +43095,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 1.29999995
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_AOE_Warning_B_Errode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_AOE_Warning_B_Errode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -43124,7 +43123,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Recall_groundRune_04.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Recall_groundRune_04.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -43190,7 +43189,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.29999995
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_AOE_Warning_B_Errode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_AOE_Warning_B_Errode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -43218,7 +43217,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Recall_groundRune_03.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Recall_groundRune_03.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -43286,7 +43285,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_skyBolt_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_skyBolt_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -1 }
                 }
@@ -43358,13 +43357,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_skyBolt_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_skyBolt_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.200000003 }
                 }
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_skyBolt_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_skyBolt_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -0.5 }
                     }
@@ -43436,13 +43435,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_skyBolt_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_skyBolt_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                 }
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_skyBolt_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_skyBolt_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -0.5 }
                     }
@@ -43505,7 +43504,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.29999995
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_AOE_Warning_B_Errode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_AOE_Warning_B_Errode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -43532,7 +43531,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Recall_groundRune_03.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Recall_groundRune_03.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -43690,7 +43689,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Crit_hit_erode.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Crit_hit_erode.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -43774,7 +43773,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                 }
                 depthBiasFactors: vec2 = { -1, -2 }
                 miscRenderFlags: u8 = 1
@@ -43782,9 +43781,9 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -43873,7 +43872,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -43898,9 +43897,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -43954,7 +43953,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 2 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -44082,7 +44081,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -44107,9 +44106,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -44163,7 +44162,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 2 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -44274,9 +44273,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 180, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_ball32_02.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_ball32_02.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -44352,9 +44351,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -44416,7 +44415,7 @@ entries: map[hash,embed] = {
                 }
                 pass: i16 = 2
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_R_Avatar_Blend_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_R_Avatar_Blend_01.tex"
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
                     reflectionFresnelColor: vec4 = { 0, 0, 0, 0 }
@@ -44429,9 +44428,9 @@ entries: map[hash,embed] = {
                 hasPostRotateOrientation: flag = true
                 isRandomStartFrame: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -44490,7 +44489,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Passive_Glow_A.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Passive_Glow_A.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -44506,9 +44505,9 @@ entries: map[hash,embed] = {
                 hasPostRotateOrientation: flag = true
                 isRandomStartFrame: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -44659,7 +44658,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.449999988
                     erosionFeatherOut: f32 = 0.449999988
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -44687,9 +44686,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -44839,7 +44838,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.449999988
                     erosionFeatherOut: f32 = 0.449999988
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -44869,9 +44868,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_lightningMist_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -44996,7 +44995,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Footprint_Errode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Footprint_Errode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -45028,7 +45027,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Footprint.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Footprint.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -45135,7 +45134,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Footprint_Errode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Footprint_Errode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -45167,16 +45166,16 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Footprint.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Footprint.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 6, 0, 0 }
                     }
                     paletteCount: i32 = 16
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Mist.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Mist.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.5 }
                     }
@@ -45288,7 +45287,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Footprint_Errode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Footprint_Errode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -45320,16 +45319,16 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Footprint.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Footprint.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 6, 0, 0 }
                     }
                     paletteCount: i32 = 16
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Mist.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Mist.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.5 }
                     }
@@ -45441,7 +45440,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Footprint_Errode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Footprint_Errode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -45473,7 +45472,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Footprint.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Q_Footprint.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -45620,7 +45619,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -45693,10 +45692,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 2, 2 }
@@ -45767,7 +45766,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -45844,7 +45843,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -45929,9 +45928,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Mist.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Mist.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -46014,7 +46013,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.tex"
             }
         }
         particleName: string = "Volibear_Skin06_Q_pawSparks"
@@ -46138,7 +46137,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -46271,11 +46270,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -46425,7 +46424,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -46558,11 +46557,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -46737,7 +46736,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Background.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -46863,7 +46862,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_Aura_Self.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -46927,7 +46926,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -47013,7 +47012,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_pawSpark.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -47113,7 +47112,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -47163,10 +47162,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -47259,7 +47258,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -47309,10 +47308,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -47404,7 +47403,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -47454,10 +47453,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -47465,7 +47464,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0.200000003 }
                     }
@@ -47722,12 +47721,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_tar_flipbook.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_tar_flipbook.tex"
                 frameRate: f32 = 20
                 numFrames: u16 = 9
                 startFrame: u16 = 1
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 3, 3 }
@@ -47813,7 +47812,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -47850,7 +47849,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 100, 100 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_ball32_02.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.5
@@ -47983,7 +47982,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -48021,11 +48020,11 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 80, 100, 100 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Ashe_Base_ground_CrackNoise_mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.109999999, 0.100000001 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -48134,7 +48133,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Passive_Glow_A.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Passive_Glow_A.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -48150,16 +48149,16 @@ entries: map[hash,embed] = {
                 hasPostRotateOrientation: flag = true
                 isRandomStartFrame: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 6, 0, 0 }
                     }
                     paletteCount: i32 = 16
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.400000006, -0.400000006 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -48259,7 +48258,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Volibear_Skin06_TX_CM.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Volibear_Skin06_TX_CM.tex"
             }
         }
         particleName: string = "Volibear_Skin06_Passive_maxStacks_Aura_01"
@@ -48380,7 +48379,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 0.899999976
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -48428,14 +48427,14 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Strike.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Strike.tex"
                 frameRate: f32 = 2
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 2
                 }
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 4, 1 }
@@ -48554,7 +48553,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -48601,13 +48600,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_color-bellcurve.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_color-bellcurve.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Mist.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Mist.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 4 }
                     }
@@ -48723,7 +48722,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 0.899999976
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -48771,14 +48770,14 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Strike.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_Strike.tex"
                 frameRate: f32 = 2
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 2
                 }
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 4, 1 }
@@ -48863,7 +48862,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 600, 1200, 1 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_Glow_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_Glow_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -49231,9 +49230,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_glowspecks.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_glowspecks.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -49314,7 +49313,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_Erode_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_Erode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -49338,13 +49337,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -1 }
                 }
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.5 }
                     }
@@ -49408,7 +49407,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.600000024
                     erosionFeatherOut: f32 = 0.600000024
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_impactErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -49432,9 +49431,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 6, 0, 0 }
                     }
@@ -49448,7 +49447,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 2 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -0.200000003 }
                     }
@@ -49539,7 +49538,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_Erode_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_Erode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -49563,9 +49562,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 birthUvScrollRate: embed = ValueVector2 {
@@ -49576,7 +49575,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 2 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_01.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_E_skyBolt_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -49657,9 +49656,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -49785,7 +49784,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -49859,10 +49858,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 texDiv: vec2 = { 2, 2 }
@@ -49968,7 +49967,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Dissolve_Cloudy_01.tex"
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
                     reflectionFresnelColor: vec4 = { 1, 1, 1, 0 }
@@ -49983,9 +49982,9 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -50072,7 +50071,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -50097,9 +50096,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Head_Teeth.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Head_Teeth.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -50169,7 +50168,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -50193,13 +50192,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Head_Mesh.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Head_Mesh.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Wisp_Mult.dds"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Wisp_Mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                     }
@@ -50311,7 +50310,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.dds"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Passive_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -50340,7 +50339,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Head_Mesh.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_W_Head_Mesh.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.25
@@ -50380,7 +50379,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_alpha_02.dds"
+                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_alpha_02.tex"
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -50427,9 +50426,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_Flash_01.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -50471,7 +50470,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_alpha_02.dds"
+                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_alpha_02.tex"
                 blendMode: u8 = 1
                 color: embed = ValueColor {
                     constantValue: vec4 = { 0.152941182, 0.219607845, 0.262745112, 1 }
@@ -50515,9 +50514,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.DDS"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Aura_Self.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -50656,7 +50655,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_color-meatrot32_05.dds"
+                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_color-meatrot32_05.tex"
                 pass: i16 = 10
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
@@ -50733,10 +50732,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_meatrot32_06.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_meatrot32_06.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -50880,7 +50879,7 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_alpha_02.dds"
+                particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/common_alpha_02.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -50973,9 +50972,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_SandFlecks.dds"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_SandFlecks.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.dds"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin06/Particles/Volibear_Skin06_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 1, 0, 0 }
                     }

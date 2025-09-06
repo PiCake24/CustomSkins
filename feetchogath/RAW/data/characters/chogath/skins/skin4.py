@@ -8395,7 +8395,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { -15, 0, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-dust32.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-dust32.tex"
                 blendMode: u8 = 1
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
@@ -8604,7 +8604,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -40, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-dust32.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-dust32.tex"
                 blendMode: u8 = 1
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
@@ -8703,7 +8703,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/ChoDino_Dust.dds"
+                texture: string = "ASSETS/Particles/ChoDino_Dust.tex"
             }
         }
         particleName: string = "Chogath_Skin04_Taunt_Neck_Dust"
@@ -17557,7 +17557,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-dust32.DDS"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-dust32.tex"
                 blendMode: u8 = 1
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
@@ -17656,7 +17656,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Particles/ChoDino_Dust.dds"
+                texture: string = "ASSETS/Particles/ChoDino_Dust.tex"
             }
         }
         particleName: string = "Chogath_Skin04_Taunt_Dust"

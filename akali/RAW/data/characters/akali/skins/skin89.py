@@ -5344,7 +5344,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -6299,7 +6299,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -6444,7 +6444,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -6583,7 +6583,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -6834,7 +6834,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -7135,7 +7135,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -8339,7 +8339,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -9768,7 +9768,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/6676_SmokeErode11.StrawberryRebuild.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }

@@ -20942,7 +20942,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectHeight: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rainbow_02.HA_CREPE.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rainbow_02.HA_CREPE.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -21518,7 +21518,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectHeight: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveRay {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/3026_Items_color.AprilFools2025.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/3026_Items_color.AprilFools2025.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.200000003, 1, 0.800000012, 1 }
@@ -21616,7 +21616,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/BW_Order_Turret_Sparks_4x1.dds"
+                texture: string = "ASSETS/Shared/Particles/BW_Order_Turret_Sparks_4x1.tex"
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 1 }
             }
@@ -23331,7 +23331,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectHeight: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveRay {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/3026_Items_color.AprilFools2025.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/3026_Items_color.AprilFools2025.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.701960802, 0.458823532, 1 }
@@ -23429,7 +23429,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/BW_Order_Turret_Sparks_4x1.dds"
+                texture: string = "ASSETS/Shared/Particles/BW_Order_Turret_Sparks_4x1.tex"
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 1 }
             }
@@ -23455,7 +23455,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectHeight: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rainbow_02.HA_CREPE.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rainbow_02.HA_CREPE.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.700007617, 0.930006862, 1, 0.800000012 }
@@ -23924,7 +23924,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 16, 1, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.dds"
+                texture: string = "ASSETS/Shared/Particles/DefaultColorOverlifetime.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -35075,7 +35075,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "EvolvingPassiveTex"
-                texturePath: string = "ASSETS/Shared/Materials/lava_mask.dds"
+                texturePath: string = "ASSETS/Shared/Materials/lava_mask.tex"
             }
         }
         paramValues: list2[embed] = {

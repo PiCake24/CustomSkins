@@ -3195,6 +3195,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
+                doesCastShadow: flag = true
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 3, 1.75, 3 }
                 }
@@ -3590,7 +3591,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_Stars.dds"
+                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_Stars.XinZhaoOldAssets.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Ashe/Skins/Skin11/Particles/Ashe_Skin11_Z_RainbowMult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
@@ -3854,7 +3855,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_ErosionPack01.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_ErosionPack01.XinZhaoOldAssets.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -4139,7 +4140,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_ErosionPack01.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_ErosionPack01.XinZhaoOldAssets.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -4409,7 +4410,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_Stars.dds"
+                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_Stars.XinZhaoOldAssets.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Ashe/Skins/Skin11/Particles/Ashe_Skin11_Z_RainbowMult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
@@ -5816,11 +5817,11 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 3, 1 }
                 }
-                texture: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_W_SmokeTip.dds"
+                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_W_SmokeTip.XinZhaoOldAssets.tex"
                 numFrames: u16 = 2
                 texDiv: vec2 = { 2, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_RainbowMult02.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_RainbowMult02.XinZhaoOldAssets.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.800000012 }
                     }
@@ -5938,7 +5939,7 @@ entries: map[hash,embed] = {
                 numFrames: u16 = 2
                 texDiv: vec2 = { 2, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_RainbowMult02.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_RainbowMult02.XinZhaoOldAssets.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.800000012 }
                     }
@@ -6183,7 +6184,7 @@ entries: map[hash,embed] = {
                 numFrames: u16 = 2
                 texDiv: vec2 = { 2, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_RainbowMult02.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_RainbowMult02.XinZhaoOldAssets.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.800000012 }
                     }
@@ -7238,7 +7239,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_ErosionPack01.dds"
+                    erosionMapName: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_ErosionPack01.XinZhaoOldAssets.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -7833,7 +7834,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_Z_Stars.dds"
+                texture: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_Stars.XinZhaoOldAssets.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -8457,6 +8458,7 @@ entries: map[hash,embed] = {
                 }
                 blendMode: u8 = 1
                 particleIsLocalOrientation: flag = true
+                doesCastShadow: flag = true
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2.5, 2.5, 3 }
                 }
@@ -8846,7 +8848,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/XinZhao/Skins/Skin20/Particles/XinZhao_Skin20_W_NebulaMesh02.scb"
+                        mSimpleMeshName: string = "ASSETS/Shared/Particles/XinZhao_Skin20_W_NebulaMesh02.XinZhaoOldAssets.scb"
                     }
                 }
                 blendMode: u8 = 4

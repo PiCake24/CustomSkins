@@ -15478,7 +15478,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.549996197 }
@@ -15762,7 +15762,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.549996197 }
@@ -16068,7 +16068,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.549996197 }
@@ -16374,7 +16374,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.549996197 }
@@ -17036,7 +17036,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.549996197 }
@@ -17277,7 +17277,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.549996197 }
@@ -18268,7 +18268,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold.TFT_Set15.dds"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
                 blendMode: u8 = 4
                 color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.360006094 }
@@ -50801,7 +50801,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 90, 110, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1.5 }
                 }
@@ -54065,7 +54065,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_LensFlare01.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_LensFlare01.StrawberryRebuild.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -54190,7 +54190,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.300000012 }
                 }
@@ -54584,7 +54584,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 4, 1, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_White.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_White.StrawberryRebuild.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -1, 0 }
                 }
@@ -54973,7 +54973,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 3, 6, 3 }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_White.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_White.StrawberryRebuild.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.5, 0 }
                 }
@@ -57935,7 +57935,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.649999976, 1, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Azir_Skin05_Glow2.dds"
+                texture: string = "ASSETS/Shared/Particles/Azir_Skin05_Glow2.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -58296,7 +58296,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_Mote.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_Mote.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -58792,7 +58792,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.25 }
                 }
@@ -62118,7 +62118,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Yasuo/Skins/Skin54/Particles/common_Aura_Self.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.5, 1.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -62331,7 +62331,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Yasuo/Skins/Skin54/Particles/common_Aura_Self.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.5, 1.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -66286,7 +66286,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 90, 385, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_light_wall_mult.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_light_wall_mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -0.150000006, 1.25 }
                 }
@@ -68291,7 +68291,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.699999988, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_light_wall_mult.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_light_wall_mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -0.150000006, 1.25 }
                 }
@@ -72957,7 +72957,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 90, 385, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_light_wall_mult.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_light_wall_mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -0.150000006, 1.25 }
                 }
@@ -75299,7 +75299,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 90, 385, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_light_wall_mult.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_light_wall_mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -0.150000006, 1.25 }
                 }
@@ -81857,7 +81857,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 90, 470, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_light_wall_mult.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_light_wall_mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -0.150000006, 1.25 }
                 }
@@ -83500,7 +83500,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 90, 470, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_light_wall_mult.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_light_wall_mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -0.150000006, 1.25 }
                 }
@@ -86624,7 +86624,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 90, 385, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_light_wall_mult.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_light_wall_mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -0.150000006, 1.25 }
                 }
@@ -88738,7 +88738,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 90, 385, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_light_wall_mult.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_light_wall_mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -0.150000006, 1.25 }
                 }
@@ -91229,7 +91229,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 90, 385, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_light_wall_mult.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_light_wall_mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -0.150000006, 1.25 }
                 }
@@ -92302,7 +92302,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Azir_Skin05_Glow2.dds"
+                texture: string = "ASSETS/Shared/Particles/Azir_Skin05_Glow2.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -92820,7 +92820,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_Mote.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_Mote.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -93099,7 +93099,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Yasuo/Skins/Skin54/Particles/common_Aura_Self.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.tex"
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             probabilityTables: list[pointer] = {
@@ -93253,7 +93253,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Yasuo/Skins/Skin54/Particles/common_Aura_Self.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -95420,7 +95420,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.699999988, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_light_wall_mult.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_light_wall_mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -0.150000006, 1.25 }
                 }
@@ -97680,7 +97680,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Yasuo/Skins/Skin54/Particles/common_Aura_Self.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.5, 1.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -97895,7 +97895,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Yasuo/Skins/Skin54/Particles/common_Aura_Self.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.5, 1.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -99116,7 +99116,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Azir_Skin05_Glow2.dds"
+                texture: string = "ASSETS/Shared/Particles/Azir_Skin05_Glow2.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -99291,7 +99291,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Yasuo/Skins/Skin54/Particles/common_Aura_Self.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.tex"
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             probabilityTables: list[pointer] = {
@@ -99445,7 +99445,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Yasuo/Skins/Skin54/Particles/common_Aura_Self.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.dds"
+                    textureMult: string = "ASSETS/Shared/Particles/AlphaSlice_1.SKINS_MissFortune_Skin60.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -99734,7 +99734,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_Mote.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_Mote.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -100621,7 +100621,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.25 }
                 }
@@ -102526,7 +102526,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/Base_Mote.dds"
+                texture: string = "ASSETS/Shared/Particles/Base_Mote.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -102631,7 +102631,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.25 }
                 }
@@ -103196,7 +103196,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.649999976, 1, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Azir_Skin05_Glow2.dds"
+                texture: string = "ASSETS/Shared/Particles/Azir_Skin05_Glow2.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -103306,7 +103306,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.25 }
                 }
@@ -104270,7 +104270,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.5, 1, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Azir_Skin05_Glow2.dds"
+                texture: string = "ASSETS/Shared/Particles/Azir_Skin05_Glow2.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 7.23000002
@@ -104358,7 +104358,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -1, 0 }
                 }
@@ -105274,7 +105274,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/DarkStarMode_Radialring_01.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/DarkStarMode_Radialring_01.StrawberryRebuild.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_EnergyStrands.tex"
                     uvScaleMult: embed = ValueVector2 {
@@ -106939,7 +106939,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Base_Glow02.StrawberryRebuild.dds"
+                texture: string = "ASSETS/Shared/Particles/3026_Base_Glow02.StrawberryRebuild.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -110968,7 +110968,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Mask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
         }
         paramValues: list2[embed] = {
@@ -111073,11 +111073,11 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 textureName: string = "MatCap_Tex"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "MatCap_Mask"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture"
@@ -111098,6 +111098,17 @@ entries: map[hash,embed] = {
             }
         }
         paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "VColor_G_Mask_Discard_Size"
+                value: vec4 = { 100, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VColor_G_Mask_Discard_Value"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VColor_G_Mask_Discard_Location"
+            }
             StaticMaterialShaderParamDef {
                 name: string = "Distortion_Diffuse_Tex_B_Control"
                 value: vec4 = { 1, 1, 0, 0 }
@@ -111206,6 +111217,22 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_DIFFUSE_W_DISCARD"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_OUTLINE_W_DISCARD"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_DIFFUSE"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_OUTLINE"
+                on: bool = false
+            }
             StaticMaterialSwitchDef {
                 name: string = "ALPHA_MAIN_SCROLL_OUTLINE_ADD"
                 on: bool = false
@@ -111331,11 +111358,11 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 textureName: string = "MatCap_Tex"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "MatCap_Mask"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "Diffuse_Texture"
@@ -111349,13 +111376,24 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "OutlineMask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/white.dds"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
                 addressU: u32 = 2
                 addressV: u32 = 2
                 addressW: u32 = 2
             }
         }
         paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "VColor_G_Mask_Discard_Size"
+                value: vec4 = { 100, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VColor_G_Mask_Discard_Value"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VColor_G_Mask_Discard_Location"
+            }
             StaticMaterialShaderParamDef {
                 name: string = "Distortion_Diffuse_Tex_B_Control"
                 value: vec4 = { 1, 1, 0, 0 }
@@ -111462,6 +111500,22 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_DIFFUSE_W_DISCARD"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_OUTLINE_W_DISCARD"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_DIFFUSE"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_OUTLINE"
+                on: bool = false
+            }
             StaticMaterialSwitchDef {
                 name: string = "ALPHA_MAIN_SCROLL_OUTLINE_ADD"
                 on: bool = false
@@ -111592,13 +111646,24 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 textureName: string = "OutlineMask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
                 addressU: u32 = 2
                 addressV: u32 = 2
                 addressW: u32 = 2
             }
         }
         paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "VColor_G_Mask_Discard_Size"
+                value: vec4 = { 100, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VColor_G_Mask_Discard_Value"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VColor_G_Mask_Discard_Location"
+            }
             StaticMaterialShaderParamDef {
                 name: string = "Distortion_Diffuse_Tex_B_Control"
                 value: vec4 = { 1, 1, 0, 0 }
@@ -111705,6 +111770,22 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_DIFFUSE_W_DISCARD"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_OUTLINE_W_DISCARD"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_DIFFUSE"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VCOLOR_G_MASK_OUTLINE"
+                on: bool = false
+            }
             StaticMaterialSwitchDef {
                 name: string = "ALPHA_MAIN_SCROLL_OUTLINE_ADD"
                 on: bool = false
