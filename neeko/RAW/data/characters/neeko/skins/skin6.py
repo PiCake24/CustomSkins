@@ -183,7 +183,7 @@ entries: map[hash,embed] = {
             overrideBoundingBox: option[vec3] = {
                 { 112, 112, 112 }
             }
-            material: link = "Characters/Neeko/Skins/Skin0/Materials/Neeko_inst"
+            Material: link = "Characters/Neeko/Skins/Skin0/Materials/Neeko_inst"
             reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
             initialSubmeshToHide: string = "Neeko_Base_Butterfly_Mat Neeko_Base_Recall_Tree_Mat"
             materialOverride: list[embed] = {
@@ -192,7 +192,7 @@ entries: map[hash,embed] = {
                     submesh: string = "Neeko_Base_Butterfly_Mat"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    material: link = "Characters/Neeko/Skins/Skin0/Materials/Neeko_Headquills"
+                    Material: link = "Characters/Neeko/Skins/Skin0/Materials/Neeko_Headquills"
                     submesh: string = "Headquills"
                 }
                 SkinMeshDataProperties_MaterialOverride {

@@ -174,7 +174,7 @@ entries: map[hash,embed] = {
                     submesh: string = "Horse_Tail"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    material: link = "Characters/Rell/Skins/Skin20/Materials/Rell_LanceMental"
+                    Material: link = "Characters/Rell/Skins/Skin20/Materials/Rell_LanceMental"
                     submesh: string = "LanceMetal"
                 }
                 SkinMeshDataProperties_MaterialOverride {
@@ -210,15 +210,15 @@ entries: map[hash,embed] = {
                     submesh: string = "JokeHorsie_Stand"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    material: link = "Characters/Rell/Skins/Skin20/Materials/Rell_Horse_VFX"
+                    Material: link = "Characters/Rell/Skins/Skin20/Materials/Rell_Horse_VFX"
                     submesh: string = "Horse_Vfxbody"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    material: link = "Characters/Rell/Skins/Skin20/Materials/Rell_Horse_VFX"
+                    Material: link = "Characters/Rell/Skins/Skin20/Materials/Rell_Horse_VFX"
                     submesh: string = "Horse_Vfxtail"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    material: link = "Characters/Rell/Skins/Skin20/Materials/Specular_Fresnel_Masked_inst"
+                    Material: link = "Characters/Rell/Skins/Skin20/Materials/Specular_Fresnel_Masked_inst"
                     submesh: string = "Body"
                 }
                 SkinMeshDataProperties_MaterialOverride {
@@ -226,11 +226,11 @@ entries: map[hash,embed] = {
                     submesh: string = "Horse_Horns"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    material: link = "Characters/Rell/Skins/Skin20/Materials/Rell_Hands"
+                    Material: link = "Characters/Rell/Skins/Skin20/Materials/Rell_Hands"
                     submesh: string = "Hands_MAT"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    material: link = "Characters/Rell/Skins/Skin20/Materials/Rell_VFXNeck_inst"
+                    Material: link = "Characters/Rell/Skins/Skin20/Materials/Rell_VFXNeck_inst"
                     submesh: string = "Horse_Vfxneck"
                 }
             }
@@ -387,7 +387,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.0392156877, 0.0431372561, 0.0666666701, 1 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.659998477 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -461,7 +461,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -791,12 +791,12 @@ entries: map[hash,embed] = {
                     AlignPitchToCamera: bool = true
                     AlignYawToCamera: bool = true
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set15.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Event_PM.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.529411793, 0.113725491, 0.0392156877, 1 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -915,12 +915,12 @@ entries: map[hash,embed] = {
                     AlignPitchToCamera: bool = true
                     AlignYawToCamera: bool = true
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set15.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Event_PM.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.137254909, 0.152941182, 0.239215687, 1 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -1040,12 +1040,12 @@ entries: map[hash,embed] = {
                     AlignPitchToCamera: bool = true
                     AlignYawToCamera: bool = true
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set15.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Event_PM.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.7400015, 0.0800030529, 0.340001523 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -1164,12 +1164,12 @@ entries: map[hash,embed] = {
                     AlignPitchToCamera: bool = true
                     AlignYawToCamera: bool = true
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set15.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Event_PM.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.179995418, 0.0200045779, 0.2399939 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -1243,7 +1243,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.500007629 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -1489,7 +1489,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.717647076, 0.00784313772, 1 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -1724,14 +1724,14 @@ entries: map[hash,embed] = {
         name: string = "Characters/Rell/Skins/Skin20/Materials/Rell_Horse_VFX"
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Diffuse_Texture"
+                TextureName: string = "Diffuse_Texture"
                 texturePath: string = "ASSETS/Characters/Rell/Skins/Skin20/Particles/Darkstar_Lava.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Mask_Texture"
+                TextureName: string = "Mask_Texture"
                 texturePath: string = "ASSETS/Characters/Rell/Skins/Skin20/Particles/Rell_Skin20_Horse_Noise.tex"
             }
         }
@@ -1799,14 +1799,14 @@ entries: map[hash,embed] = {
         name: string = "Characters/Rell/Skins/Skin20/Materials/Rell_LanceMental"
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Diffuse_Texture"
+                TextureName: string = "Diffuse_Texture"
                 texturePath: string = "ASSETS/Characters/Rell/Skins/Skin20/Rell_Skin20_Lance_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Mask_Texture"
+                TextureName: string = "Mask_Texture"
                 texturePath: string = "ASSETS/Characters/Rell/Skins/Skin20/Rell_Lance_TX_Mask.tex"
             }
         }
@@ -1872,7 +1872,7 @@ entries: map[hash,embed] = {
             parameters: list[embed] = {
                 DynamicMaterialParameterDef {
                     name: string = "Addative_Color"
-                    enabled: bool = false
+                    Enabled: bool = false
                     driver: pointer = ColorGraphMaterialDriver {
                         driver: pointer = SineMaterialDriver {
                             mDriver: pointer = TimeMaterialDriver {}
@@ -1900,21 +1900,21 @@ entries: map[hash,embed] = {
         name: string = "Characters/Rell/Skins/Skin20/Materials/Specular_Fresnel_Masked_inst"
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Diffuse_Color"
+                TextureName: string = "Diffuse_Color"
                 texturePath: string = "ASSETS/Characters/Rell/Skins/Skin20/Rell_Skin20_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Mask"
+                TextureName: string = "Mask"
                 texturePath: string = "ASSETS/Characters/Rell/Skins/Skin20/Rell_Skin20_Mask_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "iridescentTex"
+                TextureName: string = "iridescentTex"
                 texturePath: string = "ASSETS/Shared/Materials/Default_Gradient.tex"
             }
         }
@@ -2024,7 +2024,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.0392156877, 0.0431372561, 0.0666666701, 1 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.659998477 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -2098,7 +2098,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -2428,12 +2428,12 @@ entries: map[hash,embed] = {
                     AlignPitchToCamera: bool = true
                     AlignYawToCamera: bool = true
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set15.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Event_PM.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.529411793, 0.0392156877, 0.284397662, 1 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -2552,12 +2552,12 @@ entries: map[hash,embed] = {
                     AlignPitchToCamera: bool = true
                     AlignYawToCamera: bool = true
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set15.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Event_PM.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.137254909, 0.152941182, 0.239215687, 1 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -2677,12 +2677,12 @@ entries: map[hash,embed] = {
                     AlignPitchToCamera: bool = true
                     AlignYawToCamera: bool = true
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set15.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Event_PM.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.7400015, 0.0800030529, 0.340001523 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -2801,12 +2801,12 @@ entries: map[hash,embed] = {
                     AlignPitchToCamera: bool = true
                     AlignYawToCamera: bool = true
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Set15.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/common_color-hold.TFT_Event_PM.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.179995418, 0.0200045779, 0.2399939 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -2880,7 +2880,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.500007629 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -3126,7 +3126,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.00784313772, 0.456290543, 1 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -3484,21 +3484,21 @@ entries: map[hash,embed] = {
         name: string = "Characters/Rell/Skins/Skin25/Materials/Specular_Fresnel_Masked_inst"
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Diffuse_Color"
+                TextureName: string = "Diffuse_Color"
                 texturePath: string = "ASSETS/Characters/Rell/Skins/Skin25/Rell_Skin25_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Mask"
+                TextureName: string = "Mask"
                 texturePath: string = "ASSETS/Characters/Rell/Skins/Skin20/Rell_Skin20_Mask_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "iridescentTex"
+                TextureName: string = "iridescentTex"
                 texturePath: string = "ASSETS/Shared/Materials/Default_Gradient.tex"
             }
         }
@@ -3573,14 +3573,14 @@ entries: map[hash,embed] = {
         name: string = "Characters/Rell/Skins/Skin25/Materials/Rell_LanceMental"
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Diffuse_Texture"
+                TextureName: string = "Diffuse_Texture"
                 texturePath: string = "ASSETS/Characters/Rell/Skins/Skin25/Rell_Skin25_Rell_Lance_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Mask_Texture"
+                TextureName: string = "Mask_Texture"
                 texturePath: string = "ASSETS/Characters/Rell/Skins/Skin20/Rell_Lance_TX_Mask.tex"
             }
         }
@@ -3646,7 +3646,7 @@ entries: map[hash,embed] = {
             parameters: list[embed] = {
                 DynamicMaterialParameterDef {
                     name: string = "Addative_Color"
-                    enabled: bool = false
+                    Enabled: bool = false
                     driver: pointer = ColorGraphMaterialDriver {
                         driver: pointer = SineMaterialDriver {
                             mDriver: pointer = TimeMaterialDriver {}
@@ -3674,14 +3674,14 @@ entries: map[hash,embed] = {
         name: string = "Characters/Rell/Skins/Skin25/Materials/Rell_Horse_VFX"
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Diffuse_Texture"
+                TextureName: string = "Diffuse_Texture"
                 texturePath: string = "ASSETS/Characters/Rell/Skins/Skin25/Particles/Rell_Skin25_Darkstar_Lava.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Mask_Texture"
+                TextureName: string = "Mask_Texture"
                 texturePath: string = "ASSETS/Characters/Rell/Skins/Skin20/Particles/Rell_Skin20_Horse_Noise.tex"
             }
         }

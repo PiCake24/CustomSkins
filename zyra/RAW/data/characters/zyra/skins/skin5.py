@@ -141,7 +141,7 @@ entries: map[hash,embed] = {
             texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_TX_CM.tex"
 	 	 	skinScale: f32 = 2
             selfIllumination: f32 = 0.600000024
-            material: link = "Characters/Zyra/Skins/Skin7/Materials/Zyra_Sparkle_Body_MAT_inst"
+            Material: link = "Characters/Zyra/Skins/Skin7/Materials/Zyra_Sparkle_Body_MAT_inst"
             reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
             initialSubmeshToHide: string = "Bird, RecallVine, RecallChair, Rose, BirdRose"
             materialOverride: list[embed] = {
@@ -232,117 +232,6 @@ entries: map[hash,embed] = {
                 rate: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.300000012
-                }
-                lifetime: option[f32] = {
-                    0.5
-                }
-                emitterLinger: option[f32] = {}
-                emitterName: string = "CenterLight_Beam"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                SpawnShape: pointer = VfxShapeLegacy {
-                    emitOffset: embed = ValueVector3 {
-                        dynamics: pointer = VfxAnimatedVector3fVariableData {
-                            probabilityTables: list[pointer] = {
-                                VfxProbabilityTableData {}
-                                VfxProbabilityTableData {}
-                                VfxProbabilityTableData {}
-                            }
-                            times: list[f32] = {
-                                0
-                            }
-                            values: list[vec3] = {
-                                { 0, 0, 0 }
-                            }
-                        }
-                    }
-                    emitRotationAngles: list[embed] = {
-                        ValueFloat {}
-                        ValueFloat {}
-                    }
-                    emitRotationAxes: list[vec3] = {
-                        { 0, 0, 0 }
-                        { 0, 0, 0 }
-                    }
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                blendMode: u8 = 4
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.409994662 }
-                }
-                color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.340001523 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.361963183
-                            0.582822084
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.549996197, 0.450003803, 1, 0 }
-                            { 0.619607866, 0.490196079, 1, 0.340001523 }
-                            { 0.235294119, 1, 1, 0.340001523 }
-                            { 0.289997697, 1, 0.850003839, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 51
-                alphaRef: u8 = 0
-                miscRenderFlags: u8 = 1
-                isUniformScale: flag = true
-                isGroundLayer: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 90, 0, 0 }
-                }
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 25, 156, 115 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.0871559605
-                            0.357798159
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                            { 0.5, 0.494755268, 0.486596733 }
-                            { 0.909090936, 0.909090936, 0.909090936 }
-                            { 1, 1, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Aura_Self.tex"
-                birthFrameRate: embed = ValueFloat {
-                    constantValue: f32 = 0
-                }
-                uvMode: u8 = 2
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
                 emitterName: string = "Star_Glow_add"
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
@@ -351,7 +240,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.300007641 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0.100000001
@@ -459,7 +348,7 @@ entries: map[hash,embed] = {
                     radius: f32 = 15
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.313725501, 1, 0.796078444, 0.509803951 }
                 }
                 meshRenderFlags: u8 = 0
@@ -545,83 +434,6 @@ entries: map[hash,embed] = {
         flags: u16 = 199
     }
     "Characters/Zyra/Skins/Skin7/Particles/Zyra_Skin07_Emote_Crack_Taunt_Explo" = VfxSystemDefinitionData {
-        complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 5
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.800000012
-                }
-                lifetime: option[f32] = {
-                    10
-                }
-                emitterName: string = "Temp_Avatar"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                primitive: pointer = VfxPrimitiveAttachedMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSubmeshesToDraw: list[hash] = {
-                            "Thorn"
-                        }
-                        mSubmeshesToDrawAlways: list[hash] = {
-                            "Thorn"
-                        }
-                        mLockMeshToAttachment: bool = true
-                    }
-                }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rampdown_2.TFT_Set15.tex"
-                blendMode: u8 = 4
-                color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.5
-                            0.699999988
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.540001512, 0.930006862, 0.97999543, 1 }
-                            { 0.725490212, 0.690196097, 0.984313726, 1 }
-                            { 0.730006874, 0.689997733, 0.97999543, 0.500007629 }
-                            { 1, 1, 1, 0 }
-                        }
-                    }
-                }
-                meshRenderFlags: u8 = 0
-                disableBackfaceCull: bool = true
-                particleIsLocalOrientation: flag = true
-                isUniformScale: flag = true
-                isLocalOrientation: flag = false
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_TX_CM.tex"
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/FN_Universal_Praxis_Red_001.tex"
-                    uvScaleMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 0, 1 }
-                    }
-                    birthUvScrollRateMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 0, 0.200000003 }
-                    }
-                }
-            }
-        }
         visibilityRadius: f32 = 10000
         particleName: string = "Zyra_Skin07_Emote_Crack_Taunt_Explo"
         particlePath: string = "Characters/Zyra/Skins/Skin7/Particles/Zyra_Skin07_Emote_Crack_Taunt_Explo"
@@ -671,7 +483,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -880,7 +692,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -1074,7 +886,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -1264,7 +1076,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -1457,7 +1269,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -1650,7 +1462,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -1846,7 +1658,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -2036,7 +1848,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -2207,7 +2019,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.579995394 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.689997733, 0.689997733, 0.689997733, 0.859998465 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -2457,7 +2269,7 @@ entries: map[hash,embed] = {
                 }
                 particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/color-hold.tex"
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.466666669, 1, 0.850980401, 1 }
                 }
                 isUniformScale: flag = true
@@ -2649,7 +2461,7 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/common_color-hold.tex"
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.510002315, 0.570000768, 1, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -2848,7 +2660,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -50, 0 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.0745098069, 1, 0.847058833, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -3023,7 +2835,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.839215696, 0.674509823, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -3122,7 +2934,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.439993888 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.400000006, 1, 0.749996185, 0.549996197 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -3203,7 +3015,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.62999922 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.590005338, 0.590005338, 0.590005338, 0.800000012 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -3279,7 +3091,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.486274511, 0.411764711, 0.90196079, 0.741176486 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -3402,7 +3214,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 0, -250 }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.596078455, 1, 0.745098054, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -3493,7 +3305,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.379995435 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.500007629 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -3662,7 +3474,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.807843149, 0.807843149, 0.807843149, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -3825,7 +3637,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.807843149, 0.807843149, 0.807843149, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -4010,7 +3822,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.807843149, 0.807843149, 0.807843149, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -4145,7 +3957,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.827450991, 0.827450991, 0.827450991, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -4195,7 +4007,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.466666669, 0.403921574, 0.678431392, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -4278,7 +4090,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.435294122, 1, 0.596078455, 0.721568644 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -4405,7 +4217,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.466666669, 0.403921574, 0.678431392, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -4510,7 +4322,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -4547,113 +4359,6 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 1 }
                 }
             }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2.4000001
-                }
-                lifetime: option[f32] = {
-                    2
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Basic"
-                disabled: bool = true
-                SpawnShape: pointer = VfxShapeLegacy {
-                    emitRotationAngles: list[embed] = {
-                        ValueFloat {
-                            constantValue: f32 = 1
-                            dynamics: pointer = VfxAnimatedFloatVariableData {
-                                probabilityTables: list[pointer] = {
-                                    VfxProbabilityTableData {
-                                        keyTimes: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        keyValues: list[f32] = {
-                                            0
-                                            360
-                                        }
-                                    }
-                                }
-                                times: list[f32] = {
-                                    0
-                                }
-                                values: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
-                        ValueFloat {
-                            constantValue: f32 = 1
-                            dynamics: pointer = VfxAnimatedFloatVariableData {
-                                probabilityTables: list[pointer] = {
-                                    VfxProbabilityTableData {
-                                        keyTimes: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        keyValues: list[f32] = {
-                                            0
-                                            360
-                                        }
-                                    }
-                                }
-                                times: list[f32] = {
-                                    0
-                                }
-                                values: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
-                    }
-                    emitRotationAxes: list[vec3] = {
-                        { 1.00000012, 0, 0 }
-                        { 0, 1.00000012, 0 }
-                    }
-                }
-                primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                blendMode: u8 = 1
-                color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.200000003
-                            0.5
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                        }
-                    }
-                }
-                pass: i16 = -30
-                isUniformScale: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 90, 0, 0 }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 90, 10, 0 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                            { 1, 1, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Shared/Particles/Odyssey_BossKayn1_Base_Passive_DunkTarget_tar_CracksDark.tex"
-            }
         }
         particleName: string = "Zyra_Skin07_E_Sequence_Root"
         particlePath: string = "Characters/Zyra/Skins/Skin7/Particles/Zyra_Skin07_E_Sequence_Root"
@@ -4667,117 +4372,6 @@ entries: map[hash,embed] = {
                 rate: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.300000012
-                }
-                lifetime: option[f32] = {
-                    0.5
-                }
-                emitterLinger: option[f32] = {}
-                emitterName: string = "CenterLight_Beam"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                SpawnShape: pointer = VfxShapeLegacy {
-                    emitOffset: embed = ValueVector3 {
-                        dynamics: pointer = VfxAnimatedVector3fVariableData {
-                            probabilityTables: list[pointer] = {
-                                VfxProbabilityTableData {}
-                                VfxProbabilityTableData {}
-                                VfxProbabilityTableData {}
-                            }
-                            times: list[f32] = {
-                                0
-                            }
-                            values: list[vec3] = {
-                                { 0, 0, 0 }
-                            }
-                        }
-                    }
-                    emitRotationAngles: list[embed] = {
-                        ValueFloat {}
-                        ValueFloat {}
-                    }
-                    emitRotationAxes: list[vec3] = {
-                        { 0, 0, 0 }
-                        { 0, 0, 0 }
-                    }
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                blendMode: u8 = 4
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.409994662 }
-                }
-                color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.340001523 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.361963183
-                            0.582822084
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.549996197, 0.450003803, 1, 0 }
-                            { 0.619607866, 0.490196079, 1, 0.340001523 }
-                            { 0.235294119, 1, 1, 0.340001523 }
-                            { 0.289997697, 1, 0.850003839, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 51
-                alphaRef: u8 = 0
-                miscRenderFlags: u8 = 1
-                isUniformScale: flag = true
-                isGroundLayer: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 90, 0, 0 }
-                }
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 25, 156, 115 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.0871559605
-                            0.357798159
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                            { 0.5, 0.494755268, 0.486596733 }
-                            { 0.909090936, 0.909090936, 0.909090936 }
-                            { 1, 1, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Aura_Self.tex"
-                birthFrameRate: embed = ValueFloat {
-                    constantValue: f32 = 0
-                }
-                uvMode: u8 = 2
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
                 emitterName: string = "Star_Glow_add"
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
@@ -4786,7 +4380,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.300007641 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0.100000001
@@ -4868,7 +4462,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.870588243, 0.870588243, 0.870588243, 1 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.870588243, 0.870588243, 0.870588243, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -5008,7 +4602,7 @@ entries: map[hash,embed] = {
                 }
                 particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/color-hold.tex"
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.482352942, 0.850980401, 0.745098054, 1 }
                 }
                 isUniformScale: flag = true
@@ -5136,7 +4730,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.474509805, 0.474509805, 1, 1 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -5209,7 +4803,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.269993126, 0.86999315, 0.570000768, 0.37000075 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.870588243, 0.870588243, 0.870588243, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -5246,27 +4840,6 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_RSkillVines_TX_CM_gradientmap.tex"
             }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLinger: option[f32] = {
-                    1
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
-                    childrenIdentifiers: list[embed] = {
-                        VfxChildIdentifier {
-                            effectKey: hash = "Zyra_Child_Rose"
-                        }
-                    }
-                }
-                emitterName: string = "Flower_group"
-                disabled: bool = true
-                pass: i16 = -500
-            }
         }
         visibilityRadius: f32 = 10000
         particleName: string = "Zyra_Skin07_R_Outer"
@@ -5275,156 +4848,6 @@ entries: map[hash,embed] = {
         flags: u16 = 199
     }
     "Characters/Zyra/Skins/Skin7/Particles/Zyra_Skin07_W_Texture" = VfxSystemDefinitionData {
-        complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = -1
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                emitterName: string = "Seed_Override"
-                disabled: bool = true
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, -300, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.800000012
-                                    1.20000005
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, -300, 0 }
-                        }
-                    }
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[f32] = {
-                            0.300000012
-                            -3.0333333
-                        }
-                    }
-                }
-                SpawnShape: pointer = VfxShapeLegacy {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 1, 1, 0 }
-                        dynamics: pointer = VfxAnimatedVector3fVariableData {
-                            probabilityTables: list[pointer] = {
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        0
-                                        60
-                                    }
-                                }
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        -80
-                                        90
-                                    }
-                                }
-                                VfxProbabilityTableData {}
-                            }
-                            times: list[f32] = {
-                                0
-                            }
-                            values: list[vec3] = {
-                                { 1, 1, 0 }
-                            }
-                        }
-                    }
-                    emitRotationAngles: list[embed] = {
-                        ValueFloat {
-                            constantValue: f32 = 1
-                            dynamics: pointer = VfxAnimatedFloatVariableData {
-                                probabilityTables: list[pointer] = {
-                                    VfxProbabilityTableData {
-                                        keyTimes: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        keyValues: list[f32] = {
-                                            0
-                                            360
-                                        }
-                                    }
-                                }
-                                times: list[f32] = {
-                                    0
-                                }
-                                values: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
-                    }
-                    emitRotationAxes: list[vec3] = {
-                        { 0, 1.00000012, 0 }
-                    }
-                }
-                meshRenderFlags: u8 = 0
-                isUniformScale: flag = true
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 10, 10, 10 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.300000012
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 10, 10, 10 }
-                        }
-                    }
-                }
-                materialOverrideDefinitions: list[embed] = {
-                    VfxMaterialOverrideDefinitionData {
-                        baseTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Zyra_Skin07_RecallSeed_TX_CM_3.tex"
-                    }
-                }
-            }
-        }
         particleName: string = "Zyra_Skin07_W_Texture"
         particlePath: string = "Characters/Zyra/Skins/Skin7/Particles/Zyra_Skin07_W_Texture"
         overrideScaleCap: option[f32] = {
@@ -5456,7 +4879,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.827450991, 0.827450991, 0.827450991, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -5503,7 +4926,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.219607845, 0.141176477, 0.309803933, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -5571,7 +4994,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.674509823, 0.509803951, 1, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -5621,112 +5044,6 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_Q_MagicCircle01.tex"
             }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                emitterName: string = "Basic"
-                disabled: bool = true
-                SpawnShape: pointer = VfxShapeLegacy {
-                    emitRotationAngles: list[embed] = {
-                        ValueFloat {
-                            constantValue: f32 = 1
-                            dynamics: pointer = VfxAnimatedFloatVariableData {
-                                probabilityTables: list[pointer] = {
-                                    VfxProbabilityTableData {
-                                        keyTimes: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        keyValues: list[f32] = {
-                                            0
-                                            360
-                                        }
-                                    }
-                                }
-                                times: list[f32] = {
-                                    0
-                                }
-                                values: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
-                        ValueFloat {
-                            constantValue: f32 = 1
-                            dynamics: pointer = VfxAnimatedFloatVariableData {
-                                probabilityTables: list[pointer] = {
-                                    VfxProbabilityTableData {
-                                        keyTimes: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        keyValues: list[f32] = {
-                                            0
-                                            360
-                                        }
-                                    }
-                                }
-                                times: list[f32] = {
-                                    0
-                                }
-                                values: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
-                    }
-                    emitRotationAxes: list[vec3] = {
-                        { 1.00000012, 0, 0 }
-                        { 0, 1.00000012, 0 }
-                    }
-                }
-                primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                blendMode: u8 = 1
-                color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.5
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 3
-                isUniformScale: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 90, 0, 0 }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 90, 10, 0 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.5
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Shared/Particles/Odyssey_BossKayn1_Base_Passive_DunkTarget_tar_CracksDark.tex"
-            }
         }
         particleName: string = "Zyra_Skin07_E_Sequence_Unroot"
         particlePath: string = "Characters/Zyra/Skins/Skin7/Particles/Zyra_Skin07_E_Sequence_Unroot"
@@ -5760,7 +5077,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.850003839 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.639993906, 1, 0.800000012, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -6298,7 +5615,7 @@ entries: map[hash,embed] = {
                 }
                 particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/color-hold.tex"
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.435294122, 1, 0.811764717, 1 }
                 }
                 isUniformScale: flag = true
@@ -6498,7 +5815,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.300007641 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.530006886, 0.86999315, 0.700007617, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -6626,7 +5943,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.420004576 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.919996977, 0.919996977, 0.919996977, 0.800000012 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -6771,7 +6088,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.784313738, 0.68235296, 1 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0.349999994
@@ -7010,7 +6327,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0.349999994
@@ -7174,7 +6491,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0.349999994
@@ -7315,7 +6632,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.521568656, 1, 0.858823538, 1 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0.349999994
@@ -7523,7 +6840,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.360784322, 1, 0.874509811, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -7724,7 +7041,7 @@ entries: map[hash,embed] = {
                     radius: f32 = 250
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -7889,7 +7206,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveRay {}
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -7967,7 +7284,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.540001512, 0.480003059, 1, 0.519996941 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.809994638 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -8103,7 +7420,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.450003803, 1, 0.889997721, 0.60999465 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.349996179 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -8215,7 +7532,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.435294122, 1, 0.905882359, 0.137254909 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -8321,7 +7638,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "cracks1"
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.266666681, 0.266666681, 0.266666681, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -8415,7 +7732,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -8494,7 +7811,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.650003791 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.579995394, 0.639993906, 1, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -8661,7 +7978,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.689997733 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.549996197 }
                 }
                 pass: i16 = 52
@@ -8820,7 +8137,7 @@ entries: map[hash,embed] = {
                 }
                 particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Zyra_Skin07_R_Distort_RGBA_2.tex"
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -8886,7 +8203,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.0500038154, 0, 0.059998475, 0.500007629 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.500007629 }
                 }
                 miscRenderFlags: u8 = 1
@@ -8974,7 +8291,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -9364,7 +8681,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.360006094 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.776470602 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -9501,7 +8818,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.333333343, 1, 0.835294127, 1 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -9574,7 +8891,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.429999232 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -9774,7 +9091,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.800000012 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -9933,54 +9250,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 texture: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/rainbowhalo.tex"
-            }
-            VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 0.349999994
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1.60000002
-                }
-                particleLinger: option[f32] = {
-                    1
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Seed_Alpha4"
-                disabled: bool = true
-                importance: u8 = 2
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, -30, 0 }
-                }
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleEmitOffsetByBoundObjectHeight: f32 = 0.00800000038
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Crystals_Rose.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Crystals_Rose.skl"
-                        mAnimationName: string = "ASSETS/Characters/Zyra/Skins/Skin07/Particles/Crystals_Rose.anm"
-                    }
-                }
-                blendMode: u8 = 1
-                pass: i16 = 52
-                disableBackfaceCull: bool = true
-                isUniformScale: flag = true
-                isRotationEnabled: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 50, 0 }
-                }
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 5, 2.5, 2.5 }
-                }
-                texture: string = "ASSETS/Characters/Swain/Skins/Skin12/Swain_Skin12_Orbs_TX_CM.tex"
             }
         }
         visibilityRadius: f32 = 10000
@@ -10169,59 +9438,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.0500000007
-                            0.159999996
-                            0.800000012
-                            0.899999976
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 0.5 }
-                            { 1, 1, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = -1000
-                softParticleParams: pointer = VfxSoftParticleDefinitionData {
-                    deltaIn: f32 = 50
-                }
-                disableBackfaceCull: bool = true
-                isUniformScale: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1.29999995, 1, 1 }
-                }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Root_Texture.tex"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 6
-                }
-                lifetime: option[f32] = {
-                    6
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Temp_MeshAnim1"
-                disabled: bool = true
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin5_UltVines.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin5_UltVines.skl"
-                        mAnimationName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_skin5_vinedeath.anm"
-                    }
-                }
-                blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -10289,7 +9506,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0, 0, 0, 0.820004582 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -10334,211 +9551,6 @@ entries: map[hash,embed] = {
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
-                    constantValue: f32 = 23
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.600000024
-                }
-                particleLinger: option[f32] = {
-                    1
-                }
-                lifetime: option[f32] = {
-                    0.600000024
-                }
-                emitterName: string = "Skin02Smoke"
-                disabled: bool = true
-                birthVelocity: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                SpawnShape: pointer = VfxShapeLegacy {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 1, 0, 1 }
-                        dynamics: pointer = VfxAnimatedVector3fVariableData {
-                            times: list[f32] = {
-                                0
-                                1
-                            }
-                            values: list[vec3] = {
-                                { 1, 0, 1 }
-                                { 400, 0, 1 }
-                            }
-                        }
-                    }
-                    emitRotationAngles: list[embed] = {
-                        ValueFloat {
-                            constantValue: f32 = 1
-                            dynamics: pointer = VfxAnimatedFloatVariableData {
-                                probabilityTables: list[pointer] = {
-                                    VfxProbabilityTableData {
-                                        keyTimes: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        keyValues: list[f32] = {
-                                            0
-                                            360
-                                        }
-                                    }
-                                }
-                                times: list[f32] = {
-                                    0
-                                }
-                                values: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
-                    }
-                    emitRotationAxes: list[vec3] = {
-                        { 0, 1.00000012, 0 }
-                    }
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 0, 120 }
-                }
-                primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                blendMode: u8 = 4
-                color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.699999988 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.300000012
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 0.699999988 }
-                            { 0.800000012, 0.899999976, 1, 0.699999988 }
-                            { 0, 0.600000024, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = -100
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 90, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0
-                                    360
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 90, 1, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 120, 120, 80 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0.5, 0.5, 0.5 }
-                            { 2, 2, 2 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Z_Ghost_Smoke.tex"
-                numFrames: u16 = 4
-                texDiv: vec2 = { 2, 2 }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2.5
-                }
-                particleLinger: option[f32] = {
-                    12.5
-                }
-                lifetime: option[f32] = {
-                    0.100000001
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Skin3"
-                disabled: bool = true
-                importance: u8 = 2
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 0, 100 }
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin5_UltVines.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin5_UltVines.skl"
-                        mAnimationName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin5_UltVines.anm"
-                    }
-                }
-                blendMode: u8 = 1
-                color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.0500000007
-                            0.159999996
-                            0.800000012
-                            0.899999976
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 0.5 }
-                            { 1, 1, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = -1000
-                disableBackfaceCull: bool = true
-                particleIsLocalOrientation: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1.25, 1.25, 1.25 }
-                }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Root_Texture.tex"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
                 particleLifetime: embed = ValueFloat {
@@ -10575,7 +9587,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 2
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.509803951, 1, 0.474509805, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -10752,7 +9764,7 @@ entries: map[hash,embed] = {
                 }
                 particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.4627451, 0.360784322, 0.596078455, 1 }
                 }
                 isUniformScale: flag = true
@@ -10940,7 +9952,7 @@ entries: map[hash,embed] = {
                 }
                 particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.2399939, 0.179995418, 0.340001523, 0.689997733 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -11136,7 +10148,7 @@ entries: map[hash,embed] = {
                 }
                 particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.4627451, 0.360784322, 0.596078455, 1 }
                 }
                 isUniformScale: flag = true
@@ -11249,7 +10261,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -11542,34 +10554,6 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Root_Texture.tex"
             }
-            VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 2
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 500
-                }
-                lifetime: option[f32] = {
-                    502
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Temp_MeshAnim1"
-                disabled: bool = true
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Zyra/Skins/Base/Particles/Zyra_Base_E_Vines.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Zyra/Skins/Base/Particles/Zyra_Base_E_Vines.skl"
-                        mAnimationName: string = "ASSETS/Characters/Zyra/Skins/Base/Particles/Zyra_AN_death_vines_endpose02.anm"
-                    }
-                }
-                blendMode: u8 = 3
-                isUniformScale: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1.29999995, 1, 1 }
-                }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Base/Particles/Zyra_Base_Plant_Props_Green_Vines.tex"
-            }
         }
         particleName: string = "Zyra_Skin05_Emote_Death_End"
         particlePath: string = "Characters/Zyra/Skins/Skin5/Particles/Zyra_Skin05_Emote_Death_End"
@@ -11603,7 +10587,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -11631,165 +10615,6 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0.699999988, 0.699999988, 0.699999988 }
                 }
                 texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Root_Texture.tex"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 200
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.600000024
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[f32] = {
-                            0.180000007
-                            0.600000024
-                        }
-                    }
-                }
-                particleLinger: option[f32] = {
-                    1
-                }
-                lifetime: option[f32] = {
-                    0.400000006
-                }
-                emitterName: string = "Skin02Smoke"
-                disabled: bool = true
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 500, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 500, 0 }
-                        }
-                    }
-                }
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 3, 3, 3 }
-                }
-                SpawnShape: pointer = VfxShapeLegacy {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 80, 0, 0 }
-                        dynamics: pointer = VfxAnimatedVector3fVariableData {
-                            times: list[f32] = {
-                                0
-                                1
-                            }
-                            values: list[vec3] = {
-                                { 0, 0, 0 }
-                                { 80, 0, 0 }
-                            }
-                        }
-                    }
-                    emitRotationAngles: list[embed] = {
-                        ValueFloat {
-                            constantValue: f32 = 1
-                            dynamics: pointer = VfxAnimatedFloatVariableData {
-                                probabilityTables: list[pointer] = {
-                                    VfxProbabilityTableData {
-                                        keyTimes: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        keyValues: list[f32] = {
-                                            0
-                                            360
-                                        }
-                                    }
-                                }
-                                times: list[f32] = {
-                                    0
-                                }
-                                values: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
-                    }
-                    emitRotationAxes: list[vec3] = {
-                        { 0, 1.00000012, 0 }
-                    }
-                }
-                primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                blendMode: u8 = 4
-                color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.699999988 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.300000012
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 0.699999988 }
-                            { 0.800000012, 0.899999976, 1, 0.699999988 }
-                            { 0, 0.600000024, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = -100
-                birthRotation0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0
-                                    360
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 20, 120, 80 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0.5, 0.5, 0.5 }
-                            { 2, 2, 2 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Z_Ghost_Smoke.tex"
-                numFrames: u16 = 4
-                texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -11823,7 +10648,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.719996929 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -11950,7 +10775,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.772549033, 0.674509823, 0.866666675, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -12162,150 +10987,6 @@ entries: map[hash,embed] = {
         }
     }
     "Characters/Zyra/Skins/Skin5/Particles/Zyra_Skin05_E_Root_Glow_Child" = VfxSystemDefinitionData {
-        complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 0.100000001
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.449999988
-                }
-                particleLinger: option[f32] = {
-                    10.4499998
-                }
-                lifetime: option[f32] = {
-                    0.150000006
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Skin02Vines01"
-                disabled: bool = true
-                importance: u8 = 2
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Vines_Loop.scb"
-                    }
-                }
-                blendMode: u8 = 3
-                color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.0500000007
-                            0.159999996
-                            0.800000012
-                            0.899999976
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 0.5 }
-                            { 1, 1, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 10
-                disableBackfaceCull: bool = true
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Root_Texture.tex"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
-                }
-                particleLinger: option[f32] = {
-                    0.100000001
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Temp_GroundGlow"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                SpawnShape: pointer = 0xee39916f {
-                    emitOffset: vec3 = { 0, 120, -120 }
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                blendMode: u8 = 4
-                color: embed = ValueColor {
-                    constantValue: vec4 = { 0.270588249, 0.764705896, 0.819607854, 0.380392164 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.899999976
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.270588249, 0.764705896, 0.819607854, 0 }
-                            { 0.270588249, 0.764705896, 0.819607854, 0.380392164 }
-                            { 0.270588249, 0.764705896, 0.819607854, 0.380392164 }
-                            { 0.270588249, 0.764705896, 0.819607854, 0 }
-                        }
-                    }
-                }
-                particleIsLocalOrientation: flag = true
-                isUniformScale: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                }
-                                keyValues: list[f32] = {
-                                    90
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    360
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 50, 150, 50 }
-                }
-                texture: string = "ASSETS/Shared/Particles/bigglow02_2.TFT_Set15.tex"
-            }
-        }
         particleName: string = "Zyra_Skin05_E_Root_Glow_Child"
         particlePath: string = "Characters/Zyra/Skins/Skin5/Particles/Zyra_Skin05_E_Root_Glow_Child"
     }
@@ -12403,7 +11084,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -12575,7 +11256,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -12769,7 +11450,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -12870,142 +11551,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Root_Texture.tex"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 13
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.600000024
-                }
-                particleLinger: option[f32] = {
-                    1
-                }
-                lifetime: option[f32] = {
-                    0.400000006
-                }
-                emitterName: string = "Skin02Smoke"
-                disabled: bool = true
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 0, 100 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 100 }
-                        }
-                    }
-                }
-                SpawnShape: pointer = VfxShapeLegacy {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 30, 0, 1 }
-                        dynamics: pointer = VfxAnimatedVector3fVariableData {
-                            probabilityTables: list[pointer] = {
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        -1
-                                        1
-                                    }
-                                }
-                                VfxProbabilityTableData {}
-                                VfxProbabilityTableData {}
-                            }
-                            times: list[f32] = {
-                                0
-                                1
-                            }
-                            values: list[vec3] = {
-                                { 30, 0, 0 }
-                                { 30, 0, 250 }
-                            }
-                        }
-                    }
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, -70, -90 }
-                }
-                primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                blendMode: u8 = 4
-                color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.699999988 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.300000012
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 0.699999988 }
-                            { 0.800000012, 0.899999976, 1, 0.699999988 }
-                            { 0, 0.600000024, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = -100
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 90, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0
-                                    360
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 90, 1, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 120, 120, 80 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0.5, 0.5, 0.5 }
-                            { 2, 2, 2 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Z_Ghost_Smoke.tex"
-                numFrames: u16 = 4
-                texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -13131,7 +11676,7 @@ entries: map[hash,embed] = {
                 }
                 particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.4627451, 0.360784322, 0.596078455, 1 }
                 }
                 isUniformScale: flag = true
@@ -13379,7 +11924,7 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 particleColorTexture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/DefaultColorOverlifetime.tex"
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.289997697, 0.269993126, 0.420004576, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -13566,7 +12111,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -13715,7 +12260,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -13889,7 +12434,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -14054,7 +12599,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.699999988 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -14361,7 +12906,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -14410,7 +12955,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.772549033, 0.674509823, 0.866666675, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -14475,152 +13020,6 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "vinesMesh"
-                disabled: bool = true
-                SpawnShape: pointer = 0xee39916f {
-                    emitOffset: vec3 = { 20, 0, 0 }
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_Vines.scb"
-                    }
-                }
-                blendMode: u8 = 3
-                color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.5
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 20
-                disableBackfaceCull: bool = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 6.5999999, 6.5999999, 6.5999999 }
-                }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_VinesBase.tex"
-                birthFrameRate: embed = ValueFloat {
-                    constantValue: f32 = 0
-                }
-                texAddressModeBase: u8 = 2
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_Vines.tex"
-                    texAddressModeMult: u8 = 2
-                    birthUvScrollRateMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 3, 0 }
-                    }
-                    birthUVOffsetMult: embed = ValueVector2 {
-                        constantValue: vec2 = { -1, 0 }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 0.0500000007
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
-                }
-                particleLinger: option[f32] = {
-                    0.5
-                }
-                lifetime: option[f32] = {
-                    1.04999995
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "groundCracks1"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_GroundCracks.scb"
-                    }
-                }
-                blendMode: u8 = 1
-                color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.200000003
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 1 }
-                        }
-                    }
-                }
-                pass: i16 = 1
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 4.19999981, 0.600000024, 4.80000019 }
-                }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_cas_Ground.tex"
-                texAddressModeBase: u8 = 2
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 6
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "mesh_glow"
-                disabled: bool = true
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_Lightwall.scb"
-                    }
-                }
-                blendMode: u8 = 4
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 0.427450985, 0.352941185, 1, 1 }
-                }
-                pass: i16 = 101
-                disableBackfaceCull: bool = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 90, 0 }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 4.4000001, 2.75, 3.79999995 }
-                }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_WallEnergy_Mask.tex"
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Wisp_Mult.tex"
-                    uvScaleMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 1, 0.25 }
-                    }
-                    birthUvScrollRateMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 0, 0.0500000007 }
-                    }
-                    birthUVOffsetMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 0, 0.100000001 }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 2
                 }
                 particleLinger: option[f32] = {
@@ -14633,7 +13032,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "cracks"
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.772549033, 0.674509823, 0.866666675, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -14695,332 +13094,6 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 5
-                }
-                particleLinger: option[f32] = {
-                    10
-                }
-                lifetime: option[f32] = {
-                    2
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "cracks1"
-                disabled: bool = true
-                primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                blendMode: u8 = 1
-                color: embed = ValueColor {
-                    constantValue: vec4 = { 0, 0.0352941193, 0.541176498, 1 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.5
-                            0.699999988
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0, 0.0352941193, 0.541176498, 1 }
-                            { 0, 0.0352941193, 0.541176498, 1 }
-                            { 0, 0.0352941193, 0.541176498, 1 }
-                            { 0, 0.0261177011, 0.541176498, 0 }
-                        }
-                    }
-                }
-                pass: i16 = -85
-                meshRenderFlags: u8 = 0
-                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
-                    erosionDriveCurve: embed = ValueFloat {
-                        dynamics: pointer = VfxAnimatedFloatVariableData {
-                            times: list[f32] = {
-                                0
-                                0.100000001
-                            }
-                            values: list[f32] = {
-                                1
-                                0
-                            }
-                        }
-                    }
-                    erosionFeatherIn: f32 = 0.200000003
-                    erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_MagicCircle03.tex"
-                    erosionMapChannelMixer: embed = ValueColor {
-                        constantValue: vec4 = { 1, 0, 0, 0 }
-                    }
-                }
-                miscRenderFlags: u8 = 1
-                isGroundLayer: flag = true
-                useNavmeshMask: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { -90, -90, 0 }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 150, 400, 600 }
-                }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Q_MagicCircle04.tex"
-            }
-            VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 0.100000001
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 15
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.5
-                }
-                particleLinger: option[f32] = {
-                    10.4499998
-                }
-                lifetime: option[f32] = {
-                    0.349999994
-                }
-                emitterName: string = "Skin"
-                disabled: bool = true
-                importance: u8 = 2
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 10, 10, 1 }
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                SpawnShape: pointer = VfxShapeBox {
-                    flags: u8 = 1
-                    Size: vec3 = { 225, 0, 40 }
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, -120, 0 }
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Vines_Loop.scb"
-                    }
-                }
-                blendMode: u8 = 3
-                color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.0500000007
-                            0.159999996
-                            0.800000012
-                            0.899999976
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 0.5 }
-                            { 1, 1, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 10
-                disableBackfaceCull: bool = true
-                particleIsLocalOrientation: flag = true
-                isUniformScale: flag = true
-                isRotationEnabled: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { -180, 90, 25 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.899999976
-                                    1.10000002
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { -180, 90, 25 }
-                        }
-                    }
-                }
-                rotation0: embed = IntegratedValueVector3 {
-                    constantValue: vec3 = { -25, 0, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.5
-                        }
-                        values: list[vec3] = {
-                            { -25, 0, 0 }
-                            { -0, 0, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0.75, 1, 1 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.800000012
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1, 1, 1 }
-                            { 0.5, 0.5, 0.5 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Root_Texture.tex"
-            }
-            VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 0.100000001
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 15
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.5
-                }
-                particleLinger: option[f32] = {
-                    10.4499998
-                }
-                lifetime: option[f32] = {
-                    0.349999994
-                }
-                emitterName: string = "Skin1"
-                disabled: bool = true
-                importance: u8 = 2
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 10, 10, 1 }
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                SpawnShape: pointer = VfxShapeBox {
-                    flags: u8 = 1
-                    Size: vec3 = { 225, 0, 40 }
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, -120, 0 }
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Vines_Loop.scb"
-                    }
-                }
-                blendMode: u8 = 3
-                color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.0500000007
-                            0.159999996
-                            0.800000012
-                            0.899999976
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 0.5 }
-                            { 1, 1, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 10
-                disableBackfaceCull: bool = true
-                particleIsLocalOrientation: flag = true
-                isUniformScale: flag = true
-                isRotationEnabled: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { -180, -90, 25 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    0.5
-                                    0.50999999
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    1
-                                    -1
-                                    -1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { -180, -90, 25 }
-                        }
-                    }
-                }
-                rotation0: embed = IntegratedValueVector3 {
-                    constantValue: vec3 = { -25, 0, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.5
-                        }
-                        values: list[vec3] = {
-                            { -25, 0, 0 }
-                            { -0, 0, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0.75, 1, 1 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.800000012
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1, 1, 1 }
-                            { 0.5, 0.5, 0.5 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Zyra/Skins/Skin05/Particles/Zyra_Skin05_Root_Texture.tex"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
                 lifetime: option[f32] = {
@@ -15054,7 +13127,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -15243,7 +13316,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -15433,7 +13506,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -15623,7 +13696,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -15812,7 +13885,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -16001,7 +14074,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -16191,7 +14264,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -16381,7 +14454,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 3
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0

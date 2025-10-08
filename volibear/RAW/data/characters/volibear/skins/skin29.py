@@ -286,7 +286,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.282352954, 0.431372553, 0.521568656, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -356,7 +356,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -492,7 +492,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.121568628, 0.211764708, 0.34117648, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -605,7 +605,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.282352954, 0.431372553, 0.521568656, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -675,7 +675,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -811,7 +811,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.121568628, 0.211764708, 0.34117648, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -921,7 +921,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.282352954, 0.431372553, 0.521568656, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -991,7 +991,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -1127,7 +1127,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.0823529437, 0.145098045, 0.23137255, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -1248,7 +1248,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Passive_R_SpikeA.scb"
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -1331,7 +1331,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.600000024 }
                 }
                 pass: i16 = 3
@@ -1480,7 +1480,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.274509817, 0.329411775, 0.360784322, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -1552,7 +1552,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -1685,7 +1685,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0, 0.490196079, 0.545098066, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -1812,7 +1812,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.549019635, 0.654901981, 0.713725507, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -1933,7 +1933,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0, 0.490196079, 0.545098066, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -2028,7 +2028,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -2156,7 +2156,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0, 0.490196079, 0.545098066, 1 }
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
@@ -2249,7 +2249,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0, 0.490196079, 0.545098066, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -2363,7 +2363,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0, 0.490196079, 0.545098066, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -2457,7 +2457,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -2561,7 +2561,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.37000075, 0.420004576, 0.459998488, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -2708,7 +2708,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.37000075, 0.420004576, 0.459998488, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -2855,7 +2855,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -3116,7 +3116,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 0, 50 }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.450980395, 0.745098054, 1, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -3265,7 +3265,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.0899977088, 0.100007631, 0.110002287, 0.700007617 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -3429,7 +3429,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.0235294122, 0.839215696, 1, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -3656,7 +3656,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 0, 50 }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.737254918, 0.866666675, 1, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -3895,7 +3895,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.00999465957, 0.2399939, 0.319996953, 0.100007631 }
                 }
                 pass: i16 = 1
@@ -3966,7 +3966,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.00784313772, 0.164705887, 0.305882365, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -4090,7 +4090,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0, 0.490196079, 0.545098066, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -4204,7 +4204,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.549019635, 0.654901981, 0.713725507, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -4298,7 +4298,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -4426,7 +4426,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.282352954, 0.431372553, 0.521568656, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -4540,7 +4540,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.549019635, 0.654901981, 0.713725507, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -4634,7 +4634,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -4774,7 +4774,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.549019635, 0.654901981, 0.713725507, 1 }
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
@@ -4832,7 +4832,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -4966,7 +4966,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.549019635, 0.654901981, 0.713725507, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -5093,7 +5093,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0, 0.490196079, 0.545098066, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -5210,7 +5210,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.00784313772, 0.164705887, 0.305882365, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -5297,7 +5297,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.600000024 }
                 }
                 pass: i16 = 20
@@ -5519,7 +5519,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -5650,7 +5650,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.282352954, 0.431372553, 0.521568656, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -5891,7 +5891,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -6022,7 +6022,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.282352954, 0.431372553, 0.521568656, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -6264,7 +6264,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -6396,7 +6396,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.282352954, 0.431372553, 0.521568656, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -6638,7 +6638,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -6769,7 +6769,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.282352954, 0.431372553, 0.521568656, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -6868,7 +6868,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.0431372561, 0.247058824, 0.372549027, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -6968,7 +6968,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.368627459, 0.419607848, 0.458823532, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -7145,7 +7145,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -7233,7 +7233,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveAttachedMesh {}
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -7349,7 +7349,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -7436,7 +7436,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -7539,7 +7539,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.525490224, 0.784313738, 0.807843149, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -7624,7 +7624,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -7850,7 +7850,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.450980395, 0.745098054, 1, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -8016,7 +8016,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.0899977088, 0.100007631, 0.110002287, 0.700007617 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -8135,7 +8135,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -8316,7 +8316,7 @@ entries: map[hash,embed] = {
                         mLockMeshToAttachment: bool = true
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0, 0, 0, 1 }
                 }
                 pass: i16 = -1
@@ -8389,7 +8389,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -8459,7 +8459,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -8516,7 +8516,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0, 0, 0, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -8648,7 +8648,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.0235294122, 0.839215696, 1, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -8860,7 +8860,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.43921569, 0.501960814, 0.549019635, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -9016,7 +9016,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0.0206718352
@@ -9092,7 +9092,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.411764711, 0.592156887, 0.647058845, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -9296,7 +9296,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -9428,7 +9428,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.282352954, 0.431372553, 0.521568656, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -9583,7 +9583,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.282352954, 0.431372553, 0.521568656, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -9653,7 +9653,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -9802,7 +9802,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.0823529437, 0.145098045, 0.23137255, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -9936,7 +9936,7 @@ entries: map[hash,embed] = {
                         mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Passive_L_SpikeA.scb"
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -10050,7 +10050,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.282352954, 0.431372553, 0.521568656, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -10120,7 +10120,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -10257,7 +10257,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.121568628, 0.211764708, 0.34117648, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -10482,7 +10482,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -10613,7 +10613,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.282352954, 0.431372553, 0.521568656, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -10751,7 +10751,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.282352954, 0.431372553, 0.521568656, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -10821,7 +10821,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -10957,7 +10957,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.121568628, 0.211764708, 0.34117648, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -11118,7 +11118,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.549996197, 0.790005326, 0.620004594, 0.710002303 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -11253,7 +11253,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.600000024 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -11365,7 +11365,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.510002315 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.545098066, 0.788235307, 0.623529434, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -11449,7 +11449,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.545098066, 0.788235307, 0.623529434, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -11525,7 +11525,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 10, 0 }
                 }
                 blendMode: u8 = 4
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.466666669, 1, 0.866666675, 0.219607845 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -11613,7 +11613,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 10, 0 }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.400000006, 0.600000024, 0.501960814, 0.501960814 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -11788,7 +11788,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.690196097, 1, 0.933333337, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -12069,7 +12069,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.760784328, 0.960784316, 0.835294127, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -12215,7 +12215,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.549996197 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.760784328, 0.960784316, 0.835294127, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -12431,7 +12431,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.117647059, 0.164705887, 0.164705887, 0.450980395 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -12619,7 +12619,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.313725501, 1, 0.713725507, 1 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -12762,7 +12762,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -12824,7 +12824,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.400000006 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0, 0, 0, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -12917,7 +12917,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 CustomMaterial: pointer = VfxMaterialDefinitionData {
-                    material: link = "Characters/Volibear/Skins/Skin29/Materials/Onsen_Shoulder"
+                    Material: link = "Characters/Volibear/Skins/Skin29/Materials/Onsen_Shoulder"
                 }
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -12957,7 +12957,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 CustomMaterial: pointer = VfxMaterialDefinitionData {
-                    material: link = "Characters/Volibear/Skins/Skin29/Materials/Onsen_inst"
+                    Material: link = "Characters/Volibear/Skins/Skin29/Materials/Onsen_inst"
                 }
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -13055,7 +13055,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.059998475, 1, 0.800000012, 0.439993888 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -13146,7 +13146,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.310002297, 1, 0.710002303, 0.689997733 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -13349,7 +13349,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.690196097, 1, 0.933333337, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -13635,7 +13635,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.690196097, 1, 0.933333337, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -13831,7 +13831,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -13955,7 +13955,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -14281,7 +14281,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.360784322, 0.53725493, 0.600000024, 1 }
                 }
                 pass: i16 = 99
@@ -14352,7 +14352,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.635294139, 0.941176474, 0.866666675, 0.239215687 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.990005314 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -14441,7 +14441,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.360006094 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -14696,7 +14696,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -14765,7 +14765,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.76000613 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -15086,7 +15086,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.776470602, 1, 0.952941179, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -15384,7 +15384,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     constantValue: vec4 = { 0.850980401, 1, 0.968627453, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -15653,7 +15653,7 @@ entries: map[hash,embed] = {
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.431372553, 0.788235307, 0.745098054, 0.549019635 }
                 }
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -15983,7 +15983,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
-                color: embed = ValueColor {
+                Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -16157,60 +16157,101 @@ entries: map[hash,embed] = {
         name: string = "Characters/Volibear/Skins/Skin29/Materials/Onsen_inst"
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Diffuse_Texture"
+                TextureName: string = "Diffuse_Texture"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_TX_CM.SKINS_Volibear_Skin29.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "NoiseDisturb"
+                TextureName: string = "NoiseDisturb"
                 texturePath: string = "ASSETS/Shared/Materials/OnsenTexture/Noise04.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Mask"
+                TextureName: string = "Mask"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_Mask_TX_CM.SKINS_Volibear_Skin29.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "WaterShape"
+                TextureName: string = "WaterShape"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_WaterShapeMask_TX_CM.SKINS_Volibear_Skin29.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "FlowmapTex"
+                TextureName: string = "FlowmapTex"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_FlowMap_TX_CM.SKINS_Volibear_Skin29.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "AdditiveScroll_Mask"
+                TextureName: string = "AdditiveScroll_Mask"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_AdditiveScrollMask_TX_CM.SKINS_Volibear_Skin29.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "AdditiveScrollTex"
+                TextureName: string = "AdditiveScrollTex"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_AdditiveScroll_TX_CM.SKINS_Volibear_Skin29.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "DeformMask"
+                TextureName: string = "DeformMask"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_VertexDeformMask_TX_CM.SKINS_Volibear_Skin29.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "DeformNoise"
+                TextureName: string = "DeformNoise"
                 texturePath: string = "ASSETS/Shared/Materials/OnsenTexture/CaseTexture03.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "BloomColor"
+                TextureName: string = "BloomColor"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_BloomMask_TX_CM.SKINS_Volibear_Skin29.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Mask_Swirls"
+                TextureName: string = "Mask_Swirls"
                 texturePath: string = "ASSETS/Shared/Materials/OnsenTexture/black.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "HighLightShape"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
+                TextureName: string = "HighLightShape"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+            }
+            StaticMaterialShaderSamplerDef {
+                TextureName: string = "Dissolve_Tex"
+                texturePath: string = "ASSETS/Shared/Materials/Generic_Noise.tex"
             }
         }
         paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "Pulse_Offset"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Pulse_Max"
+                value: vec4 = { 0.600000024, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Pulse_Rate"
+                value: vec4 = { 0.300000012, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Dissolve_Color"
+                value: vec4 = { 0.996078432, 0.968627453, 0.270588249, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Dissolve_Alpha"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Alpha_Sharpness"
+                value: vec4 = { 4, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Dissolve_LerpOverride"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Gradient_Sharpness"
+                value: vec4 = { 4, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Dissolve_SmoothStep"
+                value: vec4 = { 0, 0.400000006, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Dissolve_Bias"
+            }
             StaticMaterialShaderParamDef {
                 name: string = "AllFeatureOpener"
                 value: vec4 = { 0.25, 0, 0, 0 }
@@ -16431,6 +16472,11 @@ entries: map[hash,embed] = {
         }
         switches: list2[embed] = {
             StaticMaterialSwitchDef {
+                name: string = "DISSOLVE"
+                on: bool = false
+                Group: string = "Dissolve"
+            }
+            StaticMaterialSwitchDef {
                 name: string = "STYLIZEDHIGHLIGHT"
                 on: bool = false
                 Group: string = "Stylized Highlight"
@@ -16498,60 +16544,101 @@ entries: map[hash,embed] = {
         name: string = "Characters/Volibear/Skins/Skin29/Materials/Onsen_Leg"
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Diffuse_Texture"
+                TextureName: string = "Diffuse_Texture"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_TX_CM.SKINS_Volibear_Skin29.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "NoiseDisturb"
+                TextureName: string = "NoiseDisturb"
                 texturePath: string = "ASSETS/Shared/Materials/OnsenTexture/Noise04.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Mask"
+                TextureName: string = "Mask"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_Mask_TX_CM.SKINS_Volibear_Skin29.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "WaterShape"
+                TextureName: string = "WaterShape"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_WaterShapeMask_TX_CM.SKINS_Volibear_Skin29.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "FlowmapTex"
+                TextureName: string = "FlowmapTex"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_FlowMap_TX_CM.SKINS_Volibear_Skin29.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "AdditiveScroll_Mask"
+                TextureName: string = "AdditiveScroll_Mask"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_AdditiveScrollMask_TX_CM.SKINS_Volibear_Skin29.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "AdditiveScrollTex"
+                TextureName: string = "AdditiveScrollTex"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_AdditiveScroll_TX_CM.SKINS_Volibear_Skin29.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "DeformMask"
+                TextureName: string = "DeformMask"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_VertexDeformMask_TX_CM.SKINS_Volibear_Skin29.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "DeformNoise"
+                TextureName: string = "DeformNoise"
                 texturePath: string = "ASSETS/Shared/Materials/OnsenTexture/CaseTexture03.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "BloomColor"
+                TextureName: string = "BloomColor"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_BloomMask_TX_CM.SKINS_Volibear_Skin29.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Mask_Swirls"
+                TextureName: string = "Mask_Swirls"
                 texturePath: string = "ASSETS/Shared/Materials/OnsenTexture/black.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "HighLightShape"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
+                TextureName: string = "HighLightShape"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+            }
+            StaticMaterialShaderSamplerDef {
+                TextureName: string = "Dissolve_Tex"
+                texturePath: string = "ASSETS/Shared/Materials/Generic_Noise.tex"
             }
         }
         paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "Pulse_Offset"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Pulse_Max"
+                value: vec4 = { 0.600000024, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Pulse_Rate"
+                value: vec4 = { 0.300000012, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Dissolve_Color"
+                value: vec4 = { 0.996078432, 0.968627453, 0.270588249, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Dissolve_Alpha"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Alpha_Sharpness"
+                value: vec4 = { 4, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Dissolve_LerpOverride"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Gradient_Sharpness"
+                value: vec4 = { 4, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Dissolve_SmoothStep"
+                value: vec4 = { 0, 0.400000006, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Dissolve_Bias"
+            }
             StaticMaterialShaderParamDef {
                 name: string = "AllFeatureOpener"
                 value: vec4 = { 0.200000003, 0, 0, 0 }
@@ -16772,6 +16859,11 @@ entries: map[hash,embed] = {
         }
         switches: list2[embed] = {
             StaticMaterialSwitchDef {
+                name: string = "DISSOLVE"
+                on: bool = false
+                Group: string = "Dissolve"
+            }
+            StaticMaterialSwitchDef {
                 name: string = "STYLIZEDHIGHLIGHT"
                 on: bool = false
                 Group: string = "Stylized Highlight"
@@ -16839,60 +16931,101 @@ entries: map[hash,embed] = {
         name: string = "Characters/Volibear/Skins/Skin29/Materials/Onsen_Shoulder"
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Diffuse_Texture"
+                TextureName: string = "Diffuse_Texture"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_TX_CM.SKINS_Volibear_Skin29.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "NoiseDisturb"
+                TextureName: string = "NoiseDisturb"
                 texturePath: string = "ASSETS/Shared/Materials/OnsenTexture/Noise04.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Mask"
+                TextureName: string = "Mask"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_Mask_TX_CM.SKINS_Volibear_Skin29.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "WaterShape"
+                TextureName: string = "WaterShape"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_WaterShapeMask_TX_CM.SKINS_Volibear_Skin29.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "FlowmapTex"
+                TextureName: string = "FlowmapTex"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_FlowMap_TX_CM.SKINS_Volibear_Skin29.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "AdditiveScroll_Mask"
+                TextureName: string = "AdditiveScroll_Mask"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_AdditiveScrollMask_TX_CM.SKINS_Volibear_Skin29.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "AdditiveScrollTex"
+                TextureName: string = "AdditiveScrollTex"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_AdditiveScroll_TX_CM.SKINS_Volibear_Skin29.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "DeformMask"
+                TextureName: string = "DeformMask"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_VertexDeformMask_TX_CM.SKINS_Volibear_Skin29.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "DeformNoise"
+                TextureName: string = "DeformNoise"
                 texturePath: string = "ASSETS/Shared/Materials/OnsenTexture/CaseTexture03.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "BloomColor"
+                TextureName: string = "BloomColor"
                 texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_BloomMask_TX_CM.SKINS_Volibear_Skin29.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "Mask_Swirls"
+                TextureName: string = "Mask_Swirls"
                 texturePath: string = "ASSETS/Shared/Materials/OnsenTexture/black.tex"
             }
             StaticMaterialShaderSamplerDef {
-                textureName: string = "HighLightShape"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
+                TextureName: string = "HighLightShape"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+            }
+            StaticMaterialShaderSamplerDef {
+                TextureName: string = "Dissolve_Tex"
+                texturePath: string = "ASSETS/Shared/Materials/Generic_Noise.tex"
             }
         }
         paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "Pulse_Offset"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Pulse_Max"
+                value: vec4 = { 0.600000024, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Pulse_Rate"
+                value: vec4 = { 0.300000012, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Dissolve_Color"
+                value: vec4 = { 0.996078432, 0.968627453, 0.270588249, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Dissolve_Alpha"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Alpha_Sharpness"
+                value: vec4 = { 4, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Dissolve_LerpOverride"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Gradient_Sharpness"
+                value: vec4 = { 4, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Dissolve_SmoothStep"
+                value: vec4 = { 0, 0.400000006, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Dissolve_Bias"
+            }
             StaticMaterialShaderParamDef {
                 name: string = "AllFeatureOpener"
                 value: vec4 = { 0.275000006, 0, 0, 0 }
@@ -17113,6 +17246,11 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "DISSOLVE"
+                on: bool = false
+                Group: string = "Dissolve"
+            }
             StaticMaterialSwitchDef {
                 name: string = "STYLIZEDHIGHLIGHT"
                 on: bool = false
