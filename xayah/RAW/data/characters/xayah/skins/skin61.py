@@ -21335,171 +21335,257 @@ entries: map[hash,embed] = {
         name: string = "Characters/Xayah/Skins/Skin61/Materials/Wings_metallic"
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
-                TextureName: string = "Grid_Texture"
-                texturePath: string = "ASSETS/Shared/Particles/21.AprilFools2025.tex"
+                TextureName: string = "Outline_Bloom_Mask"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
             }
             StaticMaterialShaderSamplerDef {
-                TextureName: string = "Crystal_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/CrystalPattern.tex"
-            }
-            StaticMaterialShaderSamplerDef {
-                TextureName: string = "Alpha_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/Default/Default_Grid.tex"
-            }
-            StaticMaterialShaderSamplerDef {
-                TextureName: string = "DiffuseTexture"
+                TextureName: string = "Diffuse_Texture"
                 texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin61/Xayah_Skin61_Wing_TX_CM.Chroma_Xayah_BattleAcademia.tex"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
-                TextureName: string = "Dissolve_Texture"
-                texturePath: string = "ASSETS/Characters/Swain/Skins/Skin33/Swain_Skin33_DemonFormMask_TX_CM.Prestige2_Matcha_Swain.tex"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
+                TextureName: string = "Scroll_Texture"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
             }
             StaticMaterialShaderSamplerDef {
-                TextureName: string = "Materials"
-                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin57/Xayah_Skin57_Wing_TX_CM_Mask.SKINS_Xayah_Skin57.tex"
-                addressU: u32 = 1
-                addressV: u32 = 1
-                addressW: u32 = 1
+                TextureName: string = "EmissionR_DistortionG_Texture"
+                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin57/Xayah_Skin57_Wing_RMA.SKINS_Xayah_Skin57.tex"
+            }
+            StaticMaterialShaderSamplerDef {
+                TextureName: string = "RMA_Texture"
+                texturePath: string = "ASSETS/Characters/Xayah/Skins/Skin57/Xayah_Skin57_Wing_RMA.SKINS_Xayah_Skin57.tex"
+            }
+            StaticMaterialShaderSamplerDef {
+                TextureName: string = "ScreenSpaceTex"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
+            }
+            StaticMaterialShaderSamplerDef {
+                TextureName: string = "ScreenSpace_Mask"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
             }
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
-                name: string = "MoveIntensity"
-                value: vec4 = { 0.200000003, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "DissolveEndPoint"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "DissolveStartPoint"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Panning_Params"
-                value: vec4 = { 0, 1, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Crystal_Params"
-                value: vec4 = { 2, 2, 0.200000003, 0.200000003 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Alpha_Intensity"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Mat_Control"
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Fresnel_Size"
-                value: vec4 = { 2, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Color_A"
-                value: vec4 = { 0.170000762, 1, 0, 1 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Grid_Contrast"
-                value: vec4 = { 0, 1, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Noise_Tiling"
-                value: vec4 = { 2, 3, 0, 0.100000001 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "ColorFresnelSize"
-                value: vec4 = { 0.5, 0, 0, 0 }
-            }
-            StaticMaterialShaderParamDef {
-                name: string = "Shadow_Bias"
+                name: string = "Exclude_Mask_from_TintColor_Value"
                 value: vec4 = { 1, 0, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "DissolveWidth"
-                value: vec4 = { 1, 0, 0, 0 }
+                name: string = "VFX_ScreenSpaceTex_UV_Scroll_Speed"
             }
             StaticMaterialShaderParamDef {
-                name: string = "DissolveBias"
+                name: string = "RMA_Value"
+                value: vec4 = { 0.800000012, 0.5, 0.200000003, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Color_Fresnel_color"
+                name: string = "Outline_Color"
                 value: vec4 = { 0, 0, 0, 1 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Alpha_Mutliplier"
+                name: string = "Outline_Control"
+                value: vec4 = { 0.449999988, 0.00999999978, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "OutlineBlendValue"
+                value: vec4 = { 0.5, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VFX_ScrollTex_R_UV_Tile"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VFX_ScrollTex_R_UV_Scroll_Speed"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VFX_ScrollTex_G_UV_Tile"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VFX_ScrollTex_G_UV_Scroll_Speed"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VFX_ScrollTex_B_UV_Tile"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VFX_ScrollTex_B_UV_Scroll_Speed"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "TintColor"
+                value: vec4 = { 1, 1, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "DissolveValue"
                 value: vec4 = { 1, 0, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "RimLightOffset"
-                value: vec4 = { 0, 2, 3, 0 }
+                name: string = "DissolveEdgePowObjSize"
+                value: vec4 = { 10, 500, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "MinSpec"
-                value: vec4 = { 25.3099995, 0, 0, 0 }
+                name: string = "DissolveEdgeColor"
+                value: vec4 = { 0, 0, 0, 1 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "MaxSpec"
-                value: vec4 = { 121.385002, 0, 0, 0 }
+                name: string = "DissolveWaveStrengthLength"
+                value: vec4 = { 0.100000001, 5, 1, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Spec_Intensity"
+                name: string = "DeformWaveController"
+                value: vec4 = { 0.5, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "DeformWaveStrength"
+                value: vec4 = { 0, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VFX_ScrollTex_R_Tint"
+                value: vec4 = { 1, 1, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VFX_ScrollTex_G_Tint"
+                value: vec4 = { 1, 1, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VFX_MaskStrength"
                 value: vec4 = { 1, 0, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "MaxSpec_Intensity"
-                value: vec4 = { 1, 0, 0, 0 }
+                name: string = "BloomPow_RGB"
+                value: vec4 = { 0, 0.00392156886, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "SpecularColor"
-                value: vec4 = { 0.384313732, 0.388235301, 0.384313732, 1 }
+                name: string = "EdgeBloomColor_RGB"
             }
             StaticMaterialShaderParamDef {
-                name: string = "MinSpec_Intensity"
-                value: vec4 = { 1.10000002, 0, 0, 0 }
+                name: string = "DissolveLocationOffset"
             }
             StaticMaterialShaderParamDef {
-                name: string = "LQ_Lighting_Intensity"
-                value: vec4 = { 1, 0, 0, 0 }
+                name: string = "EmissionColor"
+                value: vec4 = { 0, 0, 0, 1 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "EnvMap_Intensity"
+                name: string = "DistortionStrength"
+                value: vec4 = { 0.100000001, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "DissolveWaveDirNoiseA"
+                value: vec4 = { 1, 1, 1, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "DissolveWaveDirNoiseB"
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "All_Additive_Strength"
+                value: vec4 = { 0.100000001, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VFX_ScreenSpace_Mask_Strength"
                 value: vec4 = { 2, 0, 0, 0 }
             }
             StaticMaterialShaderParamDef {
-                name: string = "Bloom_Intensity"
+                name: string = "VFX_ScreenSpaceTex_UV_Tile"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "VFX_ScrollTex_Simple_Strength"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "FresnelOutlineOnly_Color"
+                value: vec4 = { 1, 1, 1, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "FresnelOutlineOnly_BaseColor"
+                value: vec4 = { 0, 0, 0, 1 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "FresnelOutlineOnly_Control"
+                value: vec4 = { 0.100000001, 1, 0, 0 }
             }
         }
         switches: list2[embed] = {
             StaticMaterialSwitchDef {
-                name: string = "USE_DIRECTIONALDISSOLUTION"
+                name: string = "BLOOM_MASK_ON"
                 on: bool = false
             }
             StaticMaterialSwitchDef {
-                name: string = "DESATURATE_REFLECTION"
+                name: string = "OUTLINE_MASK_ON"
+                on: bool = false
             }
             StaticMaterialSwitchDef {
-                name: string = "INVERT_COLOR_FRESNEL"
+                name: string = "EXCLUDE_MASK_FROM_TINTCOLOR"
+                on: bool = false
             }
             StaticMaterialSwitchDef {
-                name: string = "MULTIPLY_DIFFUSE"
+                name: string = "VFX_SCREENSPACETEX_SCROLL"
+                on: bool = false
             }
             StaticMaterialSwitchDef {
-                name: string = "USE_LQ_LIGHTING"
+                name: string = "VFX_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VFX_ALPHA_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VFX_SCROLLTEX_G_ADDITIVE_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VFX_SCROLLTEX_R_ADDITIVE_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "DEFORM_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "TWO_D_DEFORM_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "OUTLINE_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "BLOOM_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "DISTORTION_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "ALL_ADDITIVE_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VFX_SCROLLTEX_SIMPLE_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VFX_SCREENSPACE_TEX_ON"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "FRESNEL_OUTLINE_ONLY"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VFX_SCROLLTEX_SIMPLE_MASK_ON"
                 on: bool = false
             }
         }
         shaderMacros: map[string,string] = {
             "NUM_BLEND_WEIGHTS" = "4"
+            "DISABLE_SHADOWS" = "1"
         }
         techniques: list[embed] = {
             StaticMaterialTechniqueDef {
                 name: string = "normal"
                 passes: list[embed] = {
                     StaticMaterialPassDef {
-                        shader: link = "Shaders/SkinnedMesh/LLM_Dissolve_Fresnel_Blend"
+                        shader: link = "Shaders/SkinnedMesh/PBR_VFX"
                         blendEnable: bool = true
                         srcColorBlendFactor: u32 = 6
                         srcAlphaBlendFactor: u32 = 6
@@ -21519,40 +21605,10 @@ entries: map[hash,embed] = {
             }
         }
         dynamicMaterial: pointer = DynamicMaterialDef {
-            parameters: list[embed] = {
-                DynamicMaterialParameterDef {
-                    name: string = "Bloom_Intensity"
-                    driver: pointer = LerpMaterialDriver {
-                        mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
-                            Spell: hash = "Characters/Xayah/Spells/XayahPassiveActive"
-                        }
-                        mOnValue: f32 = 0.300000012
-                        mTurnOnTimeSec: f32 = 0.100000001
-                        mTurnOffTimeSec: f32 = 0.100000001
-                    }
-                }
-                DynamicMaterialParameterDef {
-                    name: string = "Spec_Intensity"
-                    driver: pointer = LerpVec4LogicDriver {
-                        BoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
-                            Spell: hash = "Characters/Xayah/Spells/XayahPassiveActive"
-                        }
-                        OnValue: vec4 = { 1.79999995, 0, 0, 0 }
-                        OffValue: vec4 = { 1.20000005, 0, 0, 0 }
-                        TurnOnTimeSec: f32 = 0.100000001
-                        TurnOffTimeSec: f32 = 0.100000001
-                    }
-                }
-                DynamicMaterialParameterDef {
-                    name: string = "ColorFresnelSize"
-                    driver: pointer = LerpMaterialDriver {
-                        mBoolDriver: pointer = HasBuffDynamicMaterialBoolDriver {
-                            Spell: hash = "Characters/Xayah/Spells/XayahPassiveActive"
-                        }
-                        mOnValue: f32 = 0.400000006
-                        mTurnOnTimeSec: f32 = 0.100000001
-                        mTurnOffTimeSec: f32 = 0.100000001
-                    }
+            staticSwitch: pointer = DynamicMaterialStaticSwitch {
+                name: string = "BLOOM_ON"
+                driver: pointer = HasBuffDynamicMaterialBoolDriver {
+                    Spell: hash = "Characters/Xayah/Spells/XayahPassiveActive"
                 }
             }
         }
