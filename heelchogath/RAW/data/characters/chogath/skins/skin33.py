@@ -8336,7 +8336,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "StarTrail"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 350, 150 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -8555,7 +8555,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "StarTrail1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 120, 250, 120 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -8753,7 +8753,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "StarTrail2"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 250, 150 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -8949,7 +8949,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "StarTrail3"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 130, 105, 103 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -10431,7 +10431,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "StarTrail"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 150, 200 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -11462,7 +11462,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "StarTrail"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 600, 500, 600 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -11707,7 +11707,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "StarTrail1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 500, 500, 500 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -12206,7 +12206,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "decal_DarkRing"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -12268,7 +12268,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "decal_DarkRing1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -12330,7 +12330,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "decal_DarkRing2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -12457,7 +12457,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "HARD_EDGE"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -12520,7 +12520,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "decal_DarkRing4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -12584,7 +12584,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "decal_DarkRing5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -13104,7 +13104,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "StarBurst"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 450, 450, 450 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -13971,7 +13971,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "StarTrail"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 600, 1300, 600 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -14814,7 +14814,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "HARD_EDGE1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -17026,7 +17026,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.100000001, 40 }
                 }
                 emitterName: string = "Soft_Trail"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveCameraTrail {
                     mTrail: embed = VfxTrailDefinitionData {
                         mMode: u8 = 1
@@ -17136,7 +17136,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.100000001, 40 }
                 }
                 emitterName: string = "Soft_Trail1"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveCameraTrail {
                     mTrail: embed = VfxTrailDefinitionData {
                         mMode: u8 = 1
@@ -19997,7 +19997,7 @@ entries: map[hash,embed] = {
                     0.200000003
                 }
                 emitterName: string = "CenterSpark1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 350, 0, -900 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -20424,7 +20424,7 @@ entries: map[hash,embed] = {
                     0.25
                 }
                 emitterName: string = "ground_decal_add5"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 5, 0, 1.5 }
                 }
@@ -20533,7 +20533,7 @@ entries: map[hash,embed] = {
                     0.25
                 }
                 emitterName: string = "ground_decal_add6"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 5, 0, -1.5 }
                 }
@@ -20639,7 +20639,7 @@ entries: map[hash,embed] = {
                     0.25
                 }
                 emitterName: string = "ground_decal_add7"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 5, 0, 1.5 }
                 }
@@ -20748,7 +20748,7 @@ entries: map[hash,embed] = {
                     0.25
                 }
                 emitterName: string = "ground_decal_add8"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 5, 0, -1.5 }
                 }
@@ -24703,7 +24703,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.100000001, 40 }
                 }
                 emitterName: string = "Soft_Trail"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveCameraTrail {
                     mTrail: embed = VfxTrailDefinitionData {
                         mMode: u8 = 1
@@ -24813,7 +24813,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.100000001, 40 }
                 }
                 emitterName: string = "Soft_Trail1"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveCameraTrail {
                     mTrail: embed = VfxTrailDefinitionData {
                         mMode: u8 = 1
@@ -25632,7 +25632,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.100000001, 40 }
                 }
                 emitterName: string = "Soft_Trail"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveCameraTrail {
                     mTrail: embed = VfxTrailDefinitionData {
                         mMode: u8 = 1
@@ -25742,7 +25742,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.100000001, 40 }
                 }
                 emitterName: string = "Soft_Trail1"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveCameraTrail {
                     mTrail: embed = VfxTrailDefinitionData {
                         mMode: u8 = 1
@@ -28257,7 +28257,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "StarTrail"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 600, 1000, 600 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -31194,7 +31194,7 @@ entries: map[hash,embed] = {
                 }
                 particleLinger: option[f32] = {}
                 emitterName: string = "team_indicator_orange"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -31298,7 +31298,7 @@ entries: map[hash,embed] = {
                 }
                 particleLinger: option[f32] = {}
                 emitterName: string = "decal_DarkRing"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -31361,7 +31361,7 @@ entries: map[hash,embed] = {
                 }
                 particleLinger: option[f32] = {}
                 emitterName: string = "decal_DarkRing1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -31423,7 +31423,7 @@ entries: map[hash,embed] = {
                 }
                 particleLinger: option[f32] = {}
                 emitterName: string = "BG_Dark"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -31515,7 +31515,7 @@ entries: map[hash,embed] = {
                 }
                 particleLinger: option[f32] = {}
                 emitterName: string = "decal_DarkRing2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -31552,7 +31552,7 @@ entries: map[hash,embed] = {
                 }
                 particleLinger: option[f32] = {}
                 emitterName: string = "decal_DarkRing3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -31605,7 +31605,7 @@ entries: map[hash,embed] = {
                 }
                 particleLinger: option[f32] = {}
                 emitterName: string = "decal_DarkRing4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -31660,7 +31660,7 @@ entries: map[hash,embed] = {
                 }
                 particleLinger: option[f32] = {}
                 emitterName: string = "decal_DarkRing5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -31715,7 +31715,7 @@ entries: map[hash,embed] = {
                 }
                 particleLinger: option[f32] = {}
                 emitterName: string = "decal_DarkRing6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -31770,7 +31770,7 @@ entries: map[hash,embed] = {
                 }
                 particleLinger: option[f32] = {}
                 emitterName: string = "decal_DarkRing7"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -31825,7 +31825,7 @@ entries: map[hash,embed] = {
                 }
                 particleLinger: option[f32] = {}
                 emitterName: string = "decal_DarkRing8"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -32499,7 +32499,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "vecalign"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 700, 700, 700 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -32659,7 +32659,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "StarTrail"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 400, 700, 400 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -33790,7 +33790,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "StarTrail1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 600, 700, 600 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -34040,7 +34040,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "StarTrail2"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 400, 700, 400 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -34350,7 +34350,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "StarTrail3"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 400, 700, 400 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -34894,7 +34894,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "StarTrail4"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 400, 700, 400 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {

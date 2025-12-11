@@ -19019,7 +19019,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 translationOverride: vec3 = { 0, -100, 0 }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1

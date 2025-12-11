@@ -8297,7 +8297,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "decal_DarkRing"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -8470,7 +8470,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "geo_MistLayer"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -8681,7 +8681,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "geo_Edge"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -8793,7 +8793,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "geo_Edge1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -9149,7 +9149,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Purple Ring"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -9237,7 +9237,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "geo_MistLayer1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -9434,7 +9434,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "geo_MistLayer2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -9605,7 +9605,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "geo_MistLayer3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -9783,7 +9783,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "geo_MistLayer4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -10583,7 +10583,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Purple Ring1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -10765,7 +10765,7 @@ entries: map[hash,embed] = {
                 }
                 particleLinger: option[f32] = {}
                 emitterName: string = "geo_MistLayer1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -11055,7 +11055,7 @@ entries: map[hash,embed] = {
                 }
                 particleLinger: option[f32] = {}
                 emitterName: string = "decal_DarkRing"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -11112,7 +11112,7 @@ entries: map[hash,embed] = {
                 }
                 particleLinger: option[f32] = {}
                 emitterName: string = "CIRCLE"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -11407,7 +11407,7 @@ entries: map[hash,embed] = {
                 }
                 particleLinger: option[f32] = {}
                 emitterName: string = "decal_DarkRing1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -11465,7 +11465,7 @@ entries: map[hash,embed] = {
                 }
                 particleLinger: option[f32] = {}
                 emitterName: string = "decal_DarkRing2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -11523,7 +11523,7 @@ entries: map[hash,embed] = {
                 }
                 particleLinger: option[f32] = {}
                 emitterName: string = "decal_DarkRing3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -12323,7 +12323,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.0199999996, 0 }
                 }
                 emitterName: string = "SparkBurst_Small"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 5, 0 }
                 }
@@ -13301,7 +13301,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.0199999996, 0 }
                 }
                 emitterName: string = "SparkBurst_Small"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 5, 0 }
                 }
@@ -14237,7 +14237,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "DarkShockwave"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = VfxShapeBox {
                     flags: u8 = 1
                 }
@@ -17894,7 +17894,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "geo_MistLayer"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -18072,7 +18072,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "geo_MistLayer1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -18274,7 +18274,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "geo_MistLayer2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -18471,7 +18471,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "geo_MistLayer3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -18642,7 +18642,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "geo_MistLayer4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -18940,7 +18940,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "decal_DarkRing"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -19010,7 +19010,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "geo_Edge"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -19122,7 +19122,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "geo_Edge1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -19332,7 +19332,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Purple Ring1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -19420,7 +19420,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Purple Ring2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -20205,7 +20205,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.0199999996, 0 }
                 }
                 emitterName: string = "Lightning_AOE_Ring"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 200, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -23492,7 +23492,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "StrokeDissolve_Right"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 600, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -23810,7 +23810,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "StrokeDissolve_Right1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 600, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -24201,7 +24201,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "geo_Edge"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -24314,7 +24314,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "geo_Edge1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -24421,7 +24421,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CIRCLE"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -24538,7 +24538,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Purple Ring3"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 600, 0 }
                 }
@@ -24631,7 +24631,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Purple Ring4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -24716,7 +24716,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "decal_DarkRing"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -24797,7 +24797,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "geo_MistLayer1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -24970,7 +24970,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "geo_MistLayer2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -25161,7 +25161,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Purple Ring5"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 600, 0 }
                 }
@@ -26681,7 +26681,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Purple Ring6"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 600, 0 }
                 }
@@ -26845,7 +26845,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Purple Ring7"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 600, 0 }
                 }
@@ -27015,7 +27015,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Purple Ring9"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 600, 0 }
                 }
@@ -27192,7 +27192,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Purple Ring10"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 300, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -27455,7 +27455,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Purple Ring11"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 300, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -27687,7 +27687,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Purple Ring12"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 600, 0 }
                 }
@@ -27789,7 +27789,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Purple Ring13"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 600, 0 }
                 }
@@ -27982,7 +27982,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Purple Ring14"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 600, 0 }
                 }

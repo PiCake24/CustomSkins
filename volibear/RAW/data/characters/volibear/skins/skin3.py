@@ -12279,7 +12279,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "DownWooshAdd"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -12445,7 +12445,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "DownWooshBlend"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -14216,7 +14216,7 @@ entries: map[hash,embed] = {
                 }
                 emitterName: string = "DownWooshAdd1"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -14394,7 +14394,7 @@ entries: map[hash,embed] = {
                 }
                 emitterName: string = "DownWooshBlend1"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -15255,7 +15255,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Endflash1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -15462,7 +15462,7 @@ entries: map[hash,embed] = {
                     8
                 }
                 emitterName: string = "X_Heartbeat_A1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -15603,7 +15603,7 @@ entries: map[hash,embed] = {
                     8
                 }
                 emitterName: string = "X_Heartbeat_Bq1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -15713,7 +15713,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "X_Slash_A1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -15788,7 +15788,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "X_Slash_BB1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -15924,7 +15924,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "startflash1"
-                importance: u8 = 2
+                importance: u8 = 3
                 Linger: pointer = VfxLingerDefinitionData {
                     LingerScale: embed = ValueVector3 {
                         constantValue: vec3 = { 1.5, 1.5, 1.5 }
@@ -17894,7 +17894,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Embers"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     keywordsExcluded: list[string] = {
                         "AnnieFrostFire"
@@ -18300,7 +18300,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Embers1"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     keywordsExcluded: list[string] = {
                         "AnnieFrostFire"
@@ -18849,7 +18849,7 @@ entries: map[hash,embed] = {
                     0.300000012
                 }
                 emitterName: string = "GlowWipeOut"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     keywordsExcluded: list[string] = {
                         "AnnieFrostFire"
@@ -19248,7 +19248,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_Downward"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -19361,7 +19361,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_erode_"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -19465,7 +19465,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_erode_1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -20948,7 +20948,7 @@ entries: map[hash,embed] = {
                     8.5
                 }
                 emitterName: string = "Embers"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -22857,7 +22857,7 @@ entries: map[hash,embed] = {
                     8.5
                 }
                 emitterName: string = "Embers"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -23639,7 +23639,7 @@ entries: map[hash,embed] = {
                     8.5
                 }
                 emitterName: string = "Embers"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -25952,7 +25952,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 80, -250 }
                 }
@@ -26049,7 +26049,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash1"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 80, -250 }
                 }
@@ -27394,7 +27394,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 translationOverride: vec3 = { 0, -100, 0 }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1

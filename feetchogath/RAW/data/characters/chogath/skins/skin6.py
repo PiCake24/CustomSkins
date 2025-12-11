@@ -8302,7 +8302,7 @@ entries: map[hash,embed] = {
                     0.5
                 }
                 emitterName: string = "Dino_spike_01"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1800, 0 }
                 }
@@ -8348,7 +8348,7 @@ entries: map[hash,embed] = {
                     0.5
                 }
                 emitterName: string = "Dino_spike_02"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1650, 0 }
                 }
@@ -8393,7 +8393,7 @@ entries: map[hash,embed] = {
                     0.5
                 }
                 emitterName: string = "Dino_spike_03"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1750, 0 }
                 }
@@ -8472,7 +8472,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "dust_02"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 60, 20, 60 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -8704,7 +8704,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "dust_01"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 300, 200 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -8868,7 +8868,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "dust_03"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 300, 200 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -9012,7 +9012,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "DirtBits_02"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1250, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -9202,7 +9202,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "Dirtbits"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1300, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {

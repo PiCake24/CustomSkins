@@ -8298,7 +8298,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "base"
-                importance: u8 = 2
+                importance: u8 = 3
                 particleColorTexture: string = "ASSETS/Characters/Chogath/skins/skin05/Particles/Chogath_Skin05_R_color-hold.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true

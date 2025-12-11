@@ -19489,7 +19489,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "flash"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 300 }
                 }
@@ -19580,7 +19580,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 300 }
                 }
@@ -19799,7 +19799,7 @@ entries: map[hash,embed] = {
                 }
                 emitterName: string = "motes1"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, -500 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {

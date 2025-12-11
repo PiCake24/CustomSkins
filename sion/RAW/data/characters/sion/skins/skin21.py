@@ -300,7 +300,7 @@ entries: map[hash,embed] = {
                     0.100000001
                 }
                 emitterName: string = "Temp_GroundGlow3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -367,7 +367,7 @@ entries: map[hash,embed] = {
                     0.100000001
                 }
                 emitterName: string = "Temp_GroundGlow4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -402,7 +402,7 @@ entries: map[hash,embed] = {
                     0.100000001
                 }
                 emitterName: string = "Temp_GroundGlow5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -440,7 +440,7 @@ entries: map[hash,embed] = {
                     0.100000001
                 }
                 emitterName: string = "Temp_GroundGlow6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -507,7 +507,7 @@ entries: map[hash,embed] = {
                     0.100000001
                 }
                 emitterName: string = "Temp_GroundGlow7"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -542,7 +542,7 @@ entries: map[hash,embed] = {
                     0.100000001
                 }
                 emitterName: string = "Temp_GroundGlow8"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -588,7 +588,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "ShieldLeftAnim"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }

@@ -13340,7 +13340,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "bloodstrands"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 550, 0, -550 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -13629,7 +13629,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Embers"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     keywordsExcluded: list[string] = {
                         "AnnieFrostFire"
@@ -14261,7 +14261,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash3"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 300 }
                 }
@@ -14348,7 +14348,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash_dark"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 300 }
                 }
@@ -16210,11 +16210,34 @@ entries: map[hash,embed] = {
                 texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
             }
             StaticMaterialShaderSamplerDef {
+                TextureName: string = "Transition_State2"
+                texturePath: string = "ASSETS/Shared/Materials/rock_texture.tex"
+            }
+            StaticMaterialShaderSamplerDef {
+                TextureName: string = "Transition_PatternTexture"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
+            }
+            StaticMaterialShaderSamplerDef {
                 TextureName: string = "Dissolve_Tex"
                 texturePath: string = "ASSETS/Shared/Materials/Generic_Noise.tex"
             }
         }
         paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "Transition_Pattern_Tilling"
+                value: vec4 = { 0.0199999996, 0.5, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Transition_Width"
+                value: vec4 = { 0.200000003, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Transition_Pattern_Intensity"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Transition_Value"
+            }
             StaticMaterialShaderParamDef {
                 name: string = "Pulse_Offset"
             }
@@ -16472,6 +16495,11 @@ entries: map[hash,embed] = {
         }
         switches: list2[embed] = {
             StaticMaterialSwitchDef {
+                name: string = "TRANSITIONEFFECT"
+                on: bool = false
+                Group: string = "Transition Effect"
+            }
+            StaticMaterialSwitchDef {
                 name: string = "DISSOLVE"
                 on: bool = false
                 Group: string = "Dissolve"
@@ -16597,11 +16625,34 @@ entries: map[hash,embed] = {
                 texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
             }
             StaticMaterialShaderSamplerDef {
+                TextureName: string = "Transition_State2"
+                texturePath: string = "ASSETS/Shared/Materials/rock_texture.tex"
+            }
+            StaticMaterialShaderSamplerDef {
+                TextureName: string = "Transition_PatternTexture"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
+            }
+            StaticMaterialShaderSamplerDef {
                 TextureName: string = "Dissolve_Tex"
                 texturePath: string = "ASSETS/Shared/Materials/Generic_Noise.tex"
             }
         }
         paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "Transition_Pattern_Tilling"
+                value: vec4 = { 0.0199999996, 0.5, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Transition_Width"
+                value: vec4 = { 0.200000003, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Transition_Pattern_Intensity"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Transition_Value"
+            }
             StaticMaterialShaderParamDef {
                 name: string = "Pulse_Offset"
             }
@@ -16859,6 +16910,11 @@ entries: map[hash,embed] = {
         }
         switches: list2[embed] = {
             StaticMaterialSwitchDef {
+                name: string = "TRANSITIONEFFECT"
+                on: bool = false
+                Group: string = "Transition Effect"
+            }
+            StaticMaterialSwitchDef {
                 name: string = "DISSOLVE"
                 on: bool = false
                 Group: string = "Dissolve"
@@ -16984,11 +17040,34 @@ entries: map[hash,embed] = {
                 texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
             }
             StaticMaterialShaderSamplerDef {
+                TextureName: string = "Transition_State2"
+                texturePath: string = "ASSETS/Shared/Materials/rock_texture.tex"
+            }
+            StaticMaterialShaderSamplerDef {
+                TextureName: string = "Transition_PatternTexture"
+                texturePath: string = "ASSETS/Shared/Materials/white.tex"
+            }
+            StaticMaterialShaderSamplerDef {
                 TextureName: string = "Dissolve_Tex"
                 texturePath: string = "ASSETS/Shared/Materials/Generic_Noise.tex"
             }
         }
         paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "Transition_Pattern_Tilling"
+                value: vec4 = { 0.0199999996, 0.5, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Transition_Width"
+                value: vec4 = { 0.200000003, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Transition_Pattern_Intensity"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Transition_Value"
+            }
             StaticMaterialShaderParamDef {
                 name: string = "Pulse_Offset"
             }
@@ -17246,6 +17325,11 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "TRANSITIONEFFECT"
+                on: bool = false
+                Group: string = "Transition Effect"
+            }
             StaticMaterialSwitchDef {
                 name: string = "DISSOLVE"
                 on: bool = false

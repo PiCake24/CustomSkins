@@ -15116,7 +15116,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.925490201, 0.701960802, 1 }
@@ -16682,7 +16682,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "VerticalBeam"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
@@ -16836,7 +16836,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "GlowRay"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveRay {}
                 particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/color-hold.tex"
                 birthColor: embed = ValueColor {
@@ -16983,7 +16983,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "DarkBG_Ray"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveRay {}
                 particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/color-hold.tex"
                 blendMode: u8 = 1
@@ -17203,7 +17203,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "GlowRay1"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveRay {}
                 particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/color-hold.tex"
                 birthColor: embed = ValueColor {
@@ -17739,7 +17739,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "DragonBlend01"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 150, 0 }
                 }
@@ -17834,7 +17834,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "RibbonMesh01"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 150, 0 }
                 }
@@ -19042,7 +19042,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "DragonAdd01"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 150, 0 }
                 }
@@ -19137,7 +19137,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "DragonAdd02"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 150, 0 }
                 }
@@ -19249,7 +19249,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "RibbonMesh02"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 150, 0 }
                 }
@@ -19359,7 +19359,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "DragonBlend2"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 150, 0 }
                 }
@@ -19472,7 +19472,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "DragonAdd4"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 150, 0 }
                 }
@@ -19584,7 +19584,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "RibbonMesh3"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 150, 0 }
                 }
@@ -19692,7 +19692,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "RibbonMesh4"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 150, 0 }
                 }
@@ -19892,7 +19892,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "prestige_DragonBlend3"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 150, 0 }
                 }
@@ -22363,7 +22363,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "GlowRay1"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveRay {}
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
@@ -22497,7 +22497,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "GlowRay2"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveRay {}
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.749996185, 0.510002315, 1 }
@@ -22628,7 +22628,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -22758,7 +22758,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_erode_"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -22865,7 +22865,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_erode_1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -30275,7 +30275,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "GlowRay2"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveRay {}
                 particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/color-hold.tex"
                 blendMode: u8 = 1
@@ -30413,7 +30413,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "GlowRay3"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveRay {}
                 particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/color-hold.tex"
                 blendMode: u8 = 4
@@ -30553,7 +30553,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "prestige_Downward1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -30667,7 +30667,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "prestige_Downward2"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -32367,7 +32367,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -35921,7 +35921,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -36137,7 +36137,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "GlowRay1"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveRay {}
                 particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/color-hold.tex"
                 blendMode: u8 = 1
@@ -36273,7 +36273,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "GlowRay2"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveRay {}
                 particleColorTexture: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/color-hold.tex"
                 blendMode: u8 = 4
@@ -36408,7 +36408,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -36545,7 +36545,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_Downward"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -36658,7 +36658,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_erode_"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -36755,7 +36755,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_erode_1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -36986,7 +36986,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "readuswipe"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -37456,7 +37456,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "prestige_flash6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -41784,7 +41784,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "readuswipe"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -42063,7 +42063,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Embers1"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     keywordsExcluded: list[string] = {
                         "AnnieFrostFire"
@@ -42410,7 +42410,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_erode_"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -42510,7 +42510,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_erode_1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -45132,7 +45132,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "Line_Ribbon"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -49296,7 +49296,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Spikes1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -51903,7 +51903,7 @@ entries: map[hash,embed] = {
                     7.5
                 }
                 emitterName: string = "XY_Icon"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0, -1 }
                 }
@@ -51999,7 +51999,7 @@ entries: map[hash,embed] = {
                     7.5
                 }
                 emitterName: string = "XY_Ringlight1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 2, -1 }
                 }
@@ -52066,7 +52066,7 @@ entries: map[hash,embed] = {
                     7.5
                 }
                 emitterName: string = "Basic"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -52144,7 +52144,7 @@ entries: map[hash,embed] = {
                     7.5
                 }
                 emitterName: string = "SmolFlames"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 45, -10 }
                 }
@@ -52298,7 +52298,7 @@ entries: map[hash,embed] = {
                     7.5
                 }
                 emitterName: string = "XY_Icon1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0, -1 }
                 }
@@ -52364,7 +52364,7 @@ entries: map[hash,embed] = {
                     8
                 }
                 emitterName: string = "prestige_Ringlight3"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 2, -1 }
                 }
@@ -52443,7 +52443,7 @@ entries: map[hash,embed] = {
                     8
                 }
                 emitterName: string = "XY_Ringlight4"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 2, -1 }
                 }
@@ -52528,7 +52528,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "prestige_Ringlight5"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 2, -1 }
                 }
@@ -54504,7 +54504,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -54884,7 +54884,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 300 }
                 }
@@ -56020,7 +56020,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Spikes"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -59385,7 +59385,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Spikes"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -59545,7 +59545,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Spikes1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -60711,7 +60711,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "prestige_Spikes2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -60841,7 +60841,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "prestige_Spikes4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -64217,7 +64217,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "Line_Ribbon"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -64713,7 +64713,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.78039217, 0.745098054, 0.53725493, 1 }
@@ -64755,7 +64755,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash1"
-                importance: u8 = 2
+                importance: u8 = 3
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -64806,7 +64806,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash2"
-                importance: u8 = 2
+                importance: u8 = 3
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.819607854, 0.388235301, 1 }
@@ -65467,7 +65467,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 385, 115 }
                 }
@@ -65524,7 +65524,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash1"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 385, 115 }
                 }
@@ -65569,7 +65569,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash2"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 385, 115 }
                 }
@@ -72630,7 +72630,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "Line_Ribbon1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -73130,7 +73130,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -74762,7 +74762,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.100000001, 0 }
                 }
                 emitterName: string = "Trail_FG_Horizontal"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveArbitraryTrail {
                     mTrail: embed = VfxTrailDefinitionData {
                         mMode: u8 = 1
@@ -74841,7 +74841,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.100000001, 0 }
                 }
                 emitterName: string = "Trail_FG_Vertical"
-                importance: u8 = 0
+                importance: u8 = 1
                 primitive: pointer = VfxPrimitiveArbitraryTrail {
                     mTrail: embed = VfxTrailDefinitionData {
                         mMode: u8 = 1
@@ -76939,7 +76939,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.100000001, 0 }
                 }
                 emitterName: string = "Trail_FG_Horizontal"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveArbitraryTrail {
                     mTrail: embed = VfxTrailDefinitionData {
                         mMode: u8 = 1
@@ -77018,7 +77018,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.100000001, 0 }
                 }
                 emitterName: string = "Trail_FG_Vertical"
-                importance: u8 = 0
+                importance: u8 = 1
                 primitive: pointer = VfxPrimitiveArbitraryTrail {
                     mTrail: embed = VfxTrailDefinitionData {
                         mMode: u8 = 1

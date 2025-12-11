@@ -8765,7 +8765,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "bloodball"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 250, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -17967,7 +17967,7 @@ entries: map[hash,embed] = {
                 }
                 emitterName: string = "Tornado"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 400, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -18209,7 +18209,7 @@ entries: map[hash,embed] = {
                     0.25
                 }
                 emitterName: string = "wind"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 300, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -18419,7 +18419,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_Flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -33597,7 +33597,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "side_wind"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 1 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -37562,7 +37562,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -40098,7 +40098,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -42642,7 +42642,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -45177,7 +45177,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -47097,7 +47097,7 @@ entries: map[hash,embed] = {
                     9
                 }
                 emitterName: string = "orb"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -1, 0 }
                 }
@@ -47278,7 +47278,7 @@ entries: map[hash,embed] = {
                     0.5
                 }
                 emitterName: string = "smoke"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 3, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {

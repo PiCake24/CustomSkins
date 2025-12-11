@@ -220,7 +220,7 @@ entries: map[hash,embed] = {
                     13
                 }
                 emitterName: string = "Mattoverride"
-                importance: u8 = 2
+                importance: u8 = 3
                 particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin30/Particles/common_alpha_16.tex"
                 blendMode: u8 = 4
                 pass: i16 = 2
@@ -331,7 +331,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "Constant_Coverup"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -468,7 +468,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "DustringBackwards"
-                importance: u8 = 2
+                importance: u8 = 3
                 worldAcceleration: embed = IntegratedValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -1372,7 +1372,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "ShieldLeftAnim1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }

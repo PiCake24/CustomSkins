@@ -8806,7 +8806,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "smoke_ring"
-                importance: u8 = 0
+                importance: u8 = 1
                 Filtering: pointer = VfxEmitterFiltering {
                     keywordsRequired: list[string] = {
                         "DinosaurChogath"
@@ -9044,7 +9044,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "smoke_ring2"
-                importance: u8 = 0
+                importance: u8 = 1
                 Filtering: pointer = VfxEmitterFiltering {
                     keywordsRequired: list[string] = {
                         "DinosaurChogath"

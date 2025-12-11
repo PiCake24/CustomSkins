@@ -16269,7 +16269,7 @@ entries: map[hash,embed] = {
                     8
                 }
                 emitterName: string = "X_Heartbeat_A"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -16376,7 +16376,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "X_Slash_A"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -16448,7 +16448,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "X_Slash_BB"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -16547,7 +16547,7 @@ entries: map[hash,embed] = {
                     8
                 }
                 emitterName: string = "X_Heartbeat_Bq"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -16661,7 +16661,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Endflash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -16738,7 +16738,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "startflash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -16825,7 +16825,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "DownWooshAdd"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -17003,7 +17003,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "DownWooshBlend"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -21998,7 +21998,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -22070,7 +22070,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -22148,7 +22148,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_2"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -23411,7 +23411,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Embers"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     keywordsExcluded: list[string] = {
                         "AnnieFrostFire"
@@ -23821,7 +23821,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Embers1"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     keywordsExcluded: list[string] = {
                         "AnnieFrostFire"
@@ -24385,7 +24385,7 @@ entries: map[hash,embed] = {
                     0.300000012
                 }
                 emitterName: string = "GlowWipeOut"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     keywordsExcluded: list[string] = {
                         "AnnieFrostFire"
@@ -24788,7 +24788,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_Downward"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -24901,7 +24901,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_erode_"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -25005,7 +25005,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_erode_1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -26936,7 +26936,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 80, -250 }
                 }
@@ -27032,7 +27032,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash1"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 80, -250 }
                 }
@@ -36312,7 +36312,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "distort"
-                importance: u8 = 0
+                importance: u8 = 1
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -36366,7 +36366,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "distort_"
-                importance: u8 = 0
+                importance: u8 = 1
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -37704,7 +37704,7 @@ entries: map[hash,embed] = {
                     1.5
                 }
                 emitterName: string = "Lightning_Downward"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -38014,7 +38014,7 @@ entries: map[hash,embed] = {
                     1.5
                 }
                 emitterName: string = "UpboltBlue"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -38941,7 +38941,7 @@ entries: map[hash,embed] = {
                     1.5
                 }
                 emitterName: string = "UpboltBlue1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -42594,7 +42594,7 @@ entries: map[hash,embed] = {
                     1.5
                 }
                 emitterName: string = "Embers"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     keywordsExcluded: list[string] = {
                         "AnnieFrostFire"
@@ -43238,7 +43238,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -43310,7 +43310,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -43388,7 +43388,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_Fizzle"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 25, 0 }
                 }
@@ -43805,7 +43805,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "uPWooshAdd"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 800, 0 }
                 }
@@ -44013,7 +44013,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "uPWooshbLEND"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 800, 0 }
                 }
@@ -44294,7 +44294,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 translationOverride: vec3 = { 0, -100, 0 }
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
@@ -48900,7 +48900,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Embers1"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     keywordsExcluded: list[string] = {
                         "AnnieFrostFire"
@@ -49254,7 +49254,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_Downward"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -49367,7 +49367,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_erode_"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -49471,7 +49471,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_erode_1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -25, 0 }
                 }
@@ -50357,7 +50357,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 300 }
                 }
@@ -50448,7 +50448,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 300 }
                 }
@@ -50786,7 +50786,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "motes"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, -500 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {

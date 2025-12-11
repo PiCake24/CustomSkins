@@ -562,7 +562,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "MoteBurst1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 800, 4500, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -1524,7 +1524,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "distort3"
-                importance: u8 = 0
+                importance: u8 = 1
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -2977,7 +2977,7 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "Dustring2"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {

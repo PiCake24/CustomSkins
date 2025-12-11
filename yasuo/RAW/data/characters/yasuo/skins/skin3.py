@@ -8759,7 +8759,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "bloodball"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 250, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -17961,7 +17961,7 @@ entries: map[hash,embed] = {
                 }
                 emitterName: string = "Tornado"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 400, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -18203,7 +18203,7 @@ entries: map[hash,embed] = {
                     0.25
                 }
                 emitterName: string = "wind"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 300, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -18413,7 +18413,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_Flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -33591,7 +33591,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "side_wind"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 1 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -37556,7 +37556,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -40092,7 +40092,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -42636,7 +42636,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -45171,7 +45171,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -47091,7 +47091,7 @@ entries: map[hash,embed] = {
                     9
                 }
                 emitterName: string = "orb"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -1, 0 }
                 }
@@ -47272,7 +47272,7 @@ entries: map[hash,embed] = {
                     0.5
                 }
                 emitterName: string = "smoke"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 3, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -48865,7 +48865,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "bloodball"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     censorPolicy: u8 = 1
                 }
@@ -49114,7 +49114,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "TeamCircle-Green"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -53651,7 +53651,7 @@ entries: map[hash,embed] = {
                     9
                 }
                 emitterName: string = "orb"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -1, 0 }
                 }
@@ -53826,7 +53826,7 @@ entries: map[hash,embed] = {
                     9
                 }
                 emitterName: string = "orb_darkBand"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -1, 0 }
                 }
@@ -53976,7 +53976,7 @@ entries: map[hash,embed] = {
                     9
                 }
                 emitterName: string = "orb_dark"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -1, 0 }
                 }
@@ -54145,7 +54145,7 @@ entries: map[hash,embed] = {
                     0.5
                 }
                 emitterName: string = "smoke"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 3, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -54365,7 +54365,7 @@ entries: map[hash,embed] = {
                     6
                 }
                 emitterName: string = "TeamCircle-Green"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -54898,7 +54898,7 @@ entries: map[hash,embed] = {
                     0.550000012
                 }
                 emitterName: string = "smoke_fill"
-                importance: u8 = 2
+                importance: u8 = 3
                 particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin03/Particles/Color_Yasuo_Skin03_R_dash_smoke.tex"
                 blendMode: u8 = 1
                 Color: embed = ValueColor {
@@ -55640,7 +55640,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "spire_center1"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                 }
@@ -55695,7 +55695,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "spire_center2"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                 }
@@ -55881,7 +55881,7 @@ entries: map[hash,embed] = {
                     7.0999999
                 }
                 emitterName: string = "yasuo_portal"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 10, 0 }
                 }
@@ -55987,7 +55987,7 @@ entries: map[hash,embed] = {
                     7.0999999
                 }
                 emitterName: string = "LinkIcon"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 11, 0 }
                 }
@@ -56908,7 +56908,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "blast_ground"
-                importance: u8 = 0
+                importance: u8 = 1
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
@@ -57381,7 +57381,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "steam_wall"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -58391,7 +58391,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -58932,7 +58932,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "wind_wall_dark"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -59897,7 +59897,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -60437,7 +60437,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "wind_wall_dark"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -61405,7 +61405,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -61944,7 +61944,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "wind_wall_dark"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -62911,7 +62911,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -63446,7 +63446,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "wind_wall_dark"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -64733,7 +64733,7 @@ entries: map[hash,embed] = {
                     0.25
                 }
                 emitterName: string = "Tornado"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 400, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -64988,7 +64988,7 @@ entries: map[hash,embed] = {
                     0.25
                 }
                 emitterName: string = "wind"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 300, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -65170,7 +65170,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_Flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -66062,7 +66062,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "wind_wall_dark"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -67030,7 +67030,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -67569,7 +67569,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "wind_wall_dark"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -68536,7 +68536,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -69071,7 +69071,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "wind_wall_dark"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -70661,7 +70661,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "steam_wall"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -71671,7 +71671,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -72212,7 +72212,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "wind_wall_dark"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -73177,7 +73177,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -86269,7 +86269,7 @@ entries: map[hash,embed] = {
                     0.400000006
                 }
                 emitterName: string = "yasuo_portal"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -86374,7 +86374,7 @@ entries: map[hash,embed] = {
                     0.400000006
                 }
                 emitterName: string = "LinkIcon"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -86712,7 +86712,7 @@ entries: map[hash,embed] = {
                     0.600000024
                 }
                 emitterName: string = "tornado"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 800, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -87222,7 +87222,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "smoke1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 3, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -87452,7 +87452,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "smoke2"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 3, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {

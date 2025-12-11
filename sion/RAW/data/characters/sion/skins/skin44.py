@@ -227,7 +227,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Center_ALpha"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -274,7 +274,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Center_ALpha1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -324,7 +324,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Center_ALpha2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -374,7 +374,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Center_ALpha3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -424,7 +424,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "TopOrb_Mult1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -467,7 +467,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "TopOrb_Mult2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -517,7 +517,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "ShieldLeftAnim"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -1553,7 +1553,7 @@ entries: map[hash,embed] = {
                     0.25
                 }
                 emitterName: string = "Soft_Trail_short"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { -300, 300, 0 }
                 }
@@ -1775,7 +1775,7 @@ entries: map[hash,embed] = {
                     0.25
                 }
                 emitterName: string = "Soft_Trail_Blend"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { -300, 300, 0 }
                 }
@@ -1866,7 +1866,7 @@ entries: map[hash,embed] = {
                     0.25
                 }
                 emitterName: string = "Soft_Trail_Blend1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { -300, 300, 0 }
                 }
@@ -1957,7 +1957,7 @@ entries: map[hash,embed] = {
                     0.25
                 }
                 emitterName: string = "Soft_Trail_short1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { -300, 300, 0 }
                 }
@@ -2036,7 +2036,7 @@ entries: map[hash,embed] = {
                     0.25
                 }
                 emitterName: string = "Soft_Trail_short2"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { -300, 300, 0 }
                 }
@@ -2114,7 +2114,7 @@ entries: map[hash,embed] = {
                     0.25
                 }
                 emitterName: string = "Soft_Trail_short3"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { -300, 300, 0 }
                 }
@@ -2194,7 +2194,7 @@ entries: map[hash,embed] = {
                     0.400000006
                 }
                 emitterName: string = "Soft_Trail_short4"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { -300, 300, 0 }
                 }
@@ -2274,7 +2274,7 @@ entries: map[hash,embed] = {
                     13
                 }
                 emitterName: string = "Mattoverride"
-                importance: u8 = 2
+                importance: u8 = 3
                 particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin40/Particles/common_alpha_16.tex"
                 blendMode: u8 = 4
                 pass: i16 = 2

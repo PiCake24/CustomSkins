@@ -1519,7 +1519,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Burnup"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 20, 0 }
                 }
@@ -1554,7 +1554,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Red_reveal"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 20, 0 }
                 }
@@ -1608,7 +1608,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Black_mark"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 20, 0 }
                 }
@@ -3038,7 +3038,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterLinger: option[f32] = {}
                 emitterName: string = "distortion"
-                importance: u8 = 0
+                importance: u8 = 1
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -3114,7 +3114,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "ShieldLeftAnim"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -3372,7 +3372,7 @@ entries: map[hash,embed] = {
                     0.200000003
                 }
                 emitterName: string = "Red_groundmark"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 20, 0 }
                 }

@@ -8403,7 +8403,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "ringsBright1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -11806,7 +11806,7 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "team_indicator_orange"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -11905,7 +11905,7 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "team_indicator_green1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -12624,7 +12624,7 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "team_indicator_green2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -15861,7 +15861,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "vecalign"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 650, 400, 650 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -16594,7 +16594,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "team_indicator_green2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -17148,7 +17148,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "team_indicator_green3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -22746,7 +22746,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "team_indicator_green"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -22825,7 +22825,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "team_indicator_green1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -26172,7 +26172,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "ringsBright1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -26779,7 +26779,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "ringsBright3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }

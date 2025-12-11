@@ -8768,7 +8768,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "bloodball"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 250, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -17970,7 +17970,7 @@ entries: map[hash,embed] = {
                 }
                 emitterName: string = "Tornado"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 400, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -18212,7 +18212,7 @@ entries: map[hash,embed] = {
                     0.25
                 }
                 emitterName: string = "wind"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 300, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -18422,7 +18422,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_Flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -33600,7 +33600,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "side_wind"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 1 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -37565,7 +37565,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -40101,7 +40101,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -42645,7 +42645,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -45180,7 +45180,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -47100,7 +47100,7 @@ entries: map[hash,embed] = {
                     9
                 }
                 emitterName: string = "orb"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -1, 0 }
                 }
@@ -47281,7 +47281,7 @@ entries: map[hash,embed] = {
                     0.5
                 }
                 emitterName: string = "smoke"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 3, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -49563,7 +49563,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "SpikeShapes1"
-                importance: u8 = 2
+                importance: u8 = 3
                 worldAcceleration: embed = IntegratedValueVector3 {
                     constantValue: vec3 = { 0, -10, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -53406,7 +53406,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "SpikeShapes"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 1300, 400, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -54537,7 +54537,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "SwirlingSmoke"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -54921,7 +54921,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "SwirlingSmoke3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -62556,7 +62556,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "SpikeShapes"
-                importance: u8 = 2
+                importance: u8 = 3
                 worldAcceleration: embed = IntegratedValueVector3 {
                     constantValue: vec3 = { 0, -10, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -76296,7 +76296,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_Flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -93361,7 +93361,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "SpikeShapes"
-                importance: u8 = 2
+                importance: u8 = 3
                 worldAcceleration: embed = IntegratedValueVector3 {
                     constantValue: vec3 = { 0, -10, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -98122,7 +98122,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "SpikeShapes"
-                importance: u8 = 2
+                importance: u8 = 3
                 worldAcceleration: embed = IntegratedValueVector3 {
                     constantValue: vec3 = { 0, -10, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -99771,7 +99771,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "SpikeShapes"
-                importance: u8 = 2
+                importance: u8 = 3
                 worldAcceleration: embed = IntegratedValueVector3 {
                     constantValue: vec3 = { 0, -10, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -100732,7 +100732,7 @@ entries: map[hash,embed] = {
                     11
                 }
                 emitterName: string = "wind"
-                importance: u8 = 2
+                importance: u8 = 3
                 worldAcceleration: embed = IntegratedValueVector3 {
                     constantValue: vec3 = { 0, 100, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -100897,7 +100897,7 @@ entries: map[hash,embed] = {
                     11
                 }
                 emitterName: string = "wind1"
-                importance: u8 = 2
+                importance: u8 = 3
                 worldAcceleration: embed = IntegratedValueVector3 {
                     constantValue: vec3 = { 0, 100, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -107283,7 +107283,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "UP1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 600, 1000, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -107494,7 +107494,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Vert_Blam"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1500, 0 }
                 }
@@ -111099,6 +111099,9 @@ entries: map[hash,embed] = {
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
+                name: string = "Maintex_Alpha_Strength"
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "VColor_G_Mask_Discard_Size"
                 value: vec4 = { 100, 0, 0, 0 }
             }
@@ -111384,6 +111387,9 @@ entries: map[hash,embed] = {
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
+                name: string = "Maintex_Alpha_Strength"
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "VColor_G_Mask_Discard_Size"
                 value: vec4 = { 100, 0, 0, 0 }
             }
@@ -111653,6 +111659,9 @@ entries: map[hash,embed] = {
             }
         }
         paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "Maintex_Alpha_Strength"
+            }
             StaticMaterialShaderParamDef {
                 name: string = "VColor_G_Mask_Discard_Size"
                 value: vec4 = { 100, 0, 0, 0 }

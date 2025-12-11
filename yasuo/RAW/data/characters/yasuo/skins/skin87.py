@@ -8754,7 +8754,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "bloodball"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 250, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -17956,7 +17956,7 @@ entries: map[hash,embed] = {
                 }
                 emitterName: string = "Tornado"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 400, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -18198,7 +18198,7 @@ entries: map[hash,embed] = {
                     0.25
                 }
                 emitterName: string = "wind"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 300, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -18408,7 +18408,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_Flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -33586,7 +33586,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "side_wind"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 1 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -37551,7 +37551,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -40087,7 +40087,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -42631,7 +42631,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -45166,7 +45166,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "wind_smoke"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -47086,7 +47086,7 @@ entries: map[hash,embed] = {
                     9
                 }
                 emitterName: string = "orb"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -1, 0 }
                 }
@@ -47267,7 +47267,7 @@ entries: map[hash,embed] = {
                     0.5
                 }
                 emitterName: string = "smoke"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 3, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -52902,7 +52902,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "GeoAlpha_Smoke"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -53042,7 +53042,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "GeoAlpha_Smoke1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -53182,7 +53182,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "GeoAlpha_Smoke2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -53331,7 +53331,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "GeoAlpha_Smoke3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -53477,7 +53477,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "BlackLayer"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -53659,7 +53659,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "CrackBase_Fill"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -53820,7 +53820,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -53885,7 +53885,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -54015,7 +54015,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -54145,7 +54145,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -54272,7 +54272,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -54411,7 +54411,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -54499,7 +54499,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -54560,7 +54560,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -54621,7 +54621,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -54681,7 +54681,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAlpha"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -55610,7 +55610,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "GeoAlpha_Smoke"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -55750,7 +55750,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "GeoAlpha_Smoke1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -55890,7 +55890,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "GeoAlpha_Smoke2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -56039,7 +56039,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "GeoAlpha_Smoke3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -56185,7 +56185,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "BlackLayer"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -56367,7 +56367,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "CrackBase_Fill"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -56528,7 +56528,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -56593,7 +56593,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -56723,7 +56723,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -56853,7 +56853,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -56980,7 +56980,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -57119,7 +57119,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -57207,7 +57207,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -57268,7 +57268,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -57329,7 +57329,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -57389,7 +57389,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAlpha"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -58318,7 +58318,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "GeoAlpha_Smoke"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -58461,7 +58461,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "GeoAlpha_Smoke1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -58604,7 +58604,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "GeoAlpha_Smoke2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -58756,7 +58756,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "GeoAlpha_Smoke3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -58905,7 +58905,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "BlackLayer"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -59090,7 +59090,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "CrackBase_Fill"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -59254,7 +59254,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -59327,7 +59327,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -59465,7 +59465,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -59603,7 +59603,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -59738,7 +59738,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -59885,7 +59885,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -59981,7 +59981,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -60045,7 +60045,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -60109,7 +60109,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -60172,7 +60172,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAlpha"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -61107,7 +61107,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "GeoAlpha_Smoke"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -61250,7 +61250,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "GeoAlpha_Smoke1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -61393,7 +61393,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "GeoAlpha_Smoke2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -61545,7 +61545,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "GeoAlpha_Smoke3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -61694,7 +61694,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "BlackLayer"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -61879,7 +61879,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "CrackBase_Fill"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -62043,7 +62043,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -62116,7 +62116,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -62254,7 +62254,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -62392,7 +62392,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -62527,7 +62527,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -62674,7 +62674,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -62770,7 +62770,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -62834,7 +62834,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -62898,7 +62898,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -62961,7 +62961,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAlpha"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -63894,7 +63894,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -63967,7 +63967,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -64105,7 +64105,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -64243,7 +64243,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -64378,7 +64378,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -64525,7 +64525,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -64621,7 +64621,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -64685,7 +64685,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -64749,7 +64749,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -64812,7 +64812,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAlpha"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -65739,7 +65739,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "GeoAlpha_Smoke4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -65882,7 +65882,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "GeoAlpha_Smoke5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -66025,7 +66025,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "GeoAlpha_Smoke6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -66177,7 +66177,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "GeoAlpha_Smoke7"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -66326,7 +66326,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "BlackLayer1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -66514,7 +66514,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "CrackBase_Fill7"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -66814,7 +66814,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flat"
-                importance: u8 = 2
+                importance: u8 = 3
                 particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-rampdown.SKINS_Yasuo_Skin87.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
@@ -66901,7 +66901,7 @@ entries: map[hash,embed] = {
                     0.25
                 }
                 emitterName: string = "sparkle_02"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 150 }
                 }
@@ -68410,7 +68410,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "FlashAlpha"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -69978,7 +69978,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "FlashAlpha"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -71880,7 +71880,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "FlashAlpha"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -72121,7 +72121,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "StrokeDissolve"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 150, 80 }
                 }
@@ -75120,7 +75120,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "FlashAlpha"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -77060,7 +77060,7 @@ entries: map[hash,embed] = {
                     0.200000003
                 }
                 emitterName: string = "cone_add1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -77279,7 +77279,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "GeoAlpha_Smoke3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -77422,7 +77422,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "GeoAlpha_Smoke4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -77565,7 +77565,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "GeoAlpha_Smoke5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -77717,7 +77717,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "GeoAlpha_Smoke6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -77866,7 +77866,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "BlackLayer1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -78051,7 +78051,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "CrackBase_Fill3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -78215,7 +78215,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -78288,7 +78288,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -78426,7 +78426,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -78564,7 +78564,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill7"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -78699,7 +78699,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill8"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -78846,7 +78846,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill9"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -78942,7 +78942,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -79006,7 +79006,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -79070,7 +79070,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -79133,7 +79133,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAlpha1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -80074,7 +80074,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "GeoAlpha_Smoke3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -80217,7 +80217,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "GeoAlpha_Smoke4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -80360,7 +80360,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "GeoAlpha_Smoke5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -80512,7 +80512,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "GeoAlpha_Smoke6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -80661,7 +80661,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "BlackLayer1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -80846,7 +80846,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "CrackBase_Fill3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -81010,7 +81010,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -81083,7 +81083,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -81221,7 +81221,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -81359,7 +81359,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill7"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -81494,7 +81494,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill8"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -81641,7 +81641,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill9"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -81737,7 +81737,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -81801,7 +81801,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -81865,7 +81865,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -81928,7 +81928,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAlpha"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -82867,7 +82867,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "GeoAlpha_Smoke3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -83010,7 +83010,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "GeoAlpha_Smoke4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -83153,7 +83153,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "GeoAlpha_Smoke5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -83305,7 +83305,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "GeoAlpha_Smoke6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -83454,7 +83454,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "BlackLayer1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -83642,7 +83642,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "CrackBase_Fill3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -83806,7 +83806,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -83879,7 +83879,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -84017,7 +84017,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -84155,7 +84155,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill7"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -84290,7 +84290,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill8"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -84437,7 +84437,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill9"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -84533,7 +84533,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -84597,7 +84597,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -84661,7 +84661,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -84724,7 +84724,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAlpha"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -86053,7 +86053,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Ash_Burst"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -87821,7 +87821,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "GeoAlpha_Smoke2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -87961,7 +87961,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "GeoAlpha_Smoke1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -88966,7 +88966,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "BlackLayer1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -89148,7 +89148,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "CrackBase_Fill3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -89309,7 +89309,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -89370,7 +89370,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAlpha1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -89421,7 +89421,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -89484,7 +89484,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "GeoAlpha_Smoke4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -89631,7 +89631,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -89696,7 +89696,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -89826,7 +89826,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill7"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -89965,7 +89965,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill8"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -90095,7 +90095,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill9"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -90222,7 +90222,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill10"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -90312,7 +90312,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "GeoAlpha_Smoke6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -90459,7 +90459,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -90529,7 +90529,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "GeoAlpha_Smoke3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -90669,7 +90669,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "GeoAlpha_Smoke4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -90809,7 +90809,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "GeoAlpha_Smoke5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -90958,7 +90958,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "GeoAlpha_Smoke6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -91104,7 +91104,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "BlackLayer1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -91286,7 +91286,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "CrackBase_Fill3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -91447,7 +91447,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -91512,7 +91512,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -91642,7 +91642,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -91772,7 +91772,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill7"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -91899,7 +91899,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill8"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -92038,7 +92038,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrackBase_Fill9"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -92126,7 +92126,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -92187,7 +92187,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -92248,7 +92248,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAdd3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -92308,7 +92308,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "WallCrackAlpha1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -94734,7 +94734,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Glow3"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-rampdown32.SKINS_Yasuo_Skin87.tex"
                 blendMode: u8 = 1
@@ -96364,7 +96364,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CoreFlash1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -96729,7 +96729,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Background"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -97138,7 +97138,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CoreFlash2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -97394,7 +97394,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "BlastColumn"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
@@ -97651,7 +97651,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "FlashAlpha"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {}
                 blendMode: u8 = 1
                 Color: embed = ValueColor {
@@ -98372,7 +98372,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CoreFlash"
-                importance: u8 = 2
+                importance: u8 = 3
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.450980395, 0.670588255, 1 }
@@ -99957,7 +99957,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "shineRing"
-                importance: u8 = 2
+                importance: u8 = 3
                 IsEmitterSpace: flag = true
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
@@ -100115,7 +100115,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 IsEmitterSpace: flag = true
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
@@ -100319,7 +100319,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash_darkglow"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -100375,7 +100375,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash_darkglow1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -100899,7 +100899,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash2"
-                importance: u8 = 2
+                importance: u8 = 3
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.733333349, 0.737254918, 1 }
@@ -104848,7 +104848,7 @@ entries: map[hash,embed] = {
                     0.600000024
                 }
                 emitterName: string = "FireTrail"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 5, 0 }
                 }
@@ -105178,7 +105178,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "TeamCircle-Green1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -105295,7 +105295,7 @@ entries: map[hash,embed] = {
                     6
                 }
                 emitterName: string = "TeamCircle-Green2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -107102,7 +107102,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "trail1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, -0.300000012 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -107239,7 +107239,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "trail3"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, -0.300000012 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -107959,7 +107959,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "GroundGlow"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -108302,7 +108302,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "GroundGlow1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -108404,7 +108404,7 @@ entries: map[hash,embed] = {
                     0.400000006
                 }
                 emitterName: string = "Fill1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { -20, 400, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -108630,7 +108630,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "GroundGlow2"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -108795,7 +108795,7 @@ entries: map[hash,embed] = {
                     0.5
                 }
                 emitterName: string = "RingSmoke1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -109184,7 +109184,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "StrokeDissolve"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 150, 80 }
                 }
@@ -111144,7 +111144,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "trail2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 0.200000003
                 }
@@ -111254,7 +111254,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "trail3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 0.200000003
                 }
@@ -112771,7 +112771,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "FlashAlpha"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -114289,7 +114289,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "FlashAlpha"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -115987,7 +115987,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "FlashAlpha"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -116184,7 +116184,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "StrokeDissolve1"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 60, 0 }
                 }
@@ -118497,7 +118497,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "FlashAlpha"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -119104,7 +119104,7 @@ entries: map[hash,embed] = {
                     5
                 }
                 emitterName: string = "God"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
@@ -119237,7 +119237,7 @@ entries: map[hash,embed] = {
                     5
                 }
                 emitterName: string = "God1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
@@ -119370,7 +119370,7 @@ entries: map[hash,embed] = {
                     5
                 }
                 emitterName: string = "God2"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
@@ -119522,7 +119522,7 @@ entries: map[hash,embed] = {
                     0.100000001
                 }
                 emitterName: string = "God3"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
@@ -120180,7 +120180,7 @@ entries: map[hash,embed] = {
                     5
                 }
                 emitterName: string = "God4"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -650, 0 }
                 }
@@ -120391,7 +120391,7 @@ entries: map[hash,embed] = {
                     3.20000005
                 }
                 emitterName: string = "FirstSmoke1"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 20, 0, 0 }
                 }
@@ -120493,7 +120493,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "FillerSmoke"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
@@ -121301,7 +121301,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 150, 0 }
                 }
@@ -122017,7 +122017,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "trail"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, -0.300000012 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -122154,7 +122154,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "trail1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, -0.300000012 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -123056,7 +123056,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = " a.Spirit3"
-                importance: u8 = 2
+                importance: u8 = 3
                 Linger: pointer = VfxLingerDefinitionData {
                     SeparateLingerColor: embed = ValueColor {
                         constantValue: vec4 = { 0.796078444, 0.796078444, 0.796078444, 1 }
@@ -123390,7 +123390,7 @@ entries: map[hash,embed] = {
                     0.300000012
                 }
                 emitterName: string = "Wisps"
-                importance: u8 = 0
+                importance: u8 = 1
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -123648,7 +123648,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "BG1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -123783,7 +123783,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Streak"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -123843,7 +123843,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Streak1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -124550,7 +124550,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Paoe_outerring"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0.5, 0 }
                 }
@@ -126849,7 +126849,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "shineRing"
-                importance: u8 = 2
+                importance: u8 = 3
                 IsEmitterSpace: flag = true
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
@@ -127008,7 +127008,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 IsEmitterSpace: flag = true
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
@@ -127448,7 +127448,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash_darkglow"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -127504,7 +127504,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash_darkglow1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -129053,7 +129053,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "trail"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, -0.300000012 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -129190,7 +129190,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "trail1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, -0.300000012 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -129326,7 +129326,7 @@ entries: map[hash,embed] = {
                     6
                 }
                 emitterName: string = "TeamCircle-Green"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -129444,7 +129444,7 @@ entries: map[hash,embed] = {
                     6
                 }
                 emitterName: string = "TeamCircle-Green1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -132810,7 +132810,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "UP"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 550, 1200, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -135958,7 +135958,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = " a.Spirit"
-                importance: u8 = 2
+                importance: u8 = 3
                 Linger: pointer = VfxLingerDefinitionData {
                     SeparateLingerColor: embed = ValueColor {
                         constantValue: vec4 = { 0.796078444, 0.796078444, 0.796078444, 1 }
@@ -136453,7 +136453,7 @@ entries: map[hash,embed] = {
                     2.5
                 }
                 emitterName: string = "Swirls_Projectile_"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 30, 0 }
                 }
@@ -136607,7 +136607,7 @@ entries: map[hash,embed] = {
                     2.5
                 }
                 emitterName: string = "MisHEAD_Bloom"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 30, 0 }
                 }
@@ -136744,7 +136744,7 @@ entries: map[hash,embed] = {
                     0.300000012
                 }
                 emitterName: string = "FireUpMesh_Aoe"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0.5, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -137023,7 +137023,7 @@ entries: map[hash,embed] = {
                     0.300000012
                 }
                 emitterName: string = "FireUpMesh_Aoe1"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0.5, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -137536,7 +137536,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = " a.Spirit5"
-                importance: u8 = 2
+                importance: u8 = 3
                 Linger: pointer = VfxLingerDefinitionData {
                     SeparateLingerColor: embed = ValueColor {
                         constantValue: vec4 = { 0.796078444, 0.796078444, 0.796078444, 1 }
@@ -137598,7 +137598,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = " a.Spirit6"
-                importance: u8 = 2
+                importance: u8 = 3
                 Linger: pointer = VfxLingerDefinitionData {
                     SeparateLingerColor: embed = ValueColor {
                         constantValue: vec4 = { 0.796078444, 0.796078444, 0.796078444, 1 }
@@ -139968,7 +139968,7 @@ entries: map[hash,embed] = {
                     4
                 }
                 emitterName: string = "Mist"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -140118,7 +140118,7 @@ entries: map[hash,embed] = {
                     3.5
                 }
                 emitterName: string = "SpawnTrail_"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
@@ -140258,7 +140258,7 @@ entries: map[hash,embed] = {
                     3.5
                 }
                 emitterName: string = "SpawnTrail_1"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
@@ -140431,7 +140431,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Lightning_Flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -142017,7 +142017,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "trail2"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { -15, 6, 0 }
                 }
@@ -142136,7 +142136,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "trail3"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { -15, 6, 0 }
                 }
@@ -143255,7 +143255,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CoreFlash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }

@@ -12035,7 +12035,7 @@ entries: map[hash,embed] = {
                     12
                 }
                 emitterName: string = "EdgeGlow"
-                importance: u8 = 2
+                importance: u8 = 3
                 worldAcceleration: embed = IntegratedValueVector3 {
                     constantValue: vec3 = { 0, 1, -1 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -13942,7 +13942,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "Ground_Flames"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 150, 150 }
                 }
@@ -14126,7 +14126,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "Ground_Flames1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 200, 100 }
                 }
@@ -16583,7 +16583,7 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "sparks"
-                importance: u8 = 2
+                importance: u8 = 3
                 worldAcceleration: embed = IntegratedValueVector3 {
                     constantValue: vec3 = { 0, -400, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -17014,7 +17014,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 300 }
                 }
@@ -17097,7 +17097,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash_dark"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 300 }
                 }
@@ -17898,7 +17898,7 @@ entries: map[hash,embed] = {
                     3.5
                 }
                 emitterName: string = "sparks"
-                importance: u8 = 2
+                importance: u8 = 3
                 worldAcceleration: embed = IntegratedValueVector3 {
                     constantValue: vec3 = { 0, -400, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -18612,6 +18612,9 @@ entries: map[hash,embed] = {
             }
         }
         paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "Maintex_Alpha_Strength"
+            }
             StaticMaterialShaderParamDef {
                 name: string = "VColor_G_Mask_Discard_Size"
                 value: vec4 = { 100, 0, 0, 0 }

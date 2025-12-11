@@ -231,7 +231,7 @@ entries: map[hash,embed] = {
                     0.699999988
                 }
                 emitterName: string = "Dark_paws"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -303,7 +303,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -399,7 +399,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root_top"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -501,7 +501,7 @@ entries: map[hash,embed] = {
                     2.5
                 }
                 emitterName: string = "Pink_glow"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -766,7 +766,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash_fast"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -888,7 +888,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Spikes"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 0, 0 }
                 }
@@ -1484,7 +1484,7 @@ entries: map[hash,embed] = {
                     5
                 }
                 emitterName: string = "RaysSharp"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
@@ -1624,7 +1624,7 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "Skin"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -17000, 0 }
                 }
@@ -2641,7 +2641,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "RimLighting"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -2868,7 +2868,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Bright_beam"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveBeam {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Characters/Zoe/Skins/Base/Particles/Zoe_Base_P_beam.scb"
@@ -2957,7 +2957,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Dark_beam"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveBeam {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_W_beam.scb"
@@ -4661,7 +4661,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "sticky_beam"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = VfxShapeLegacy {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 0, 100, 0 }
@@ -5724,7 +5724,7 @@ entries: map[hash,embed] = {
                     0.699999988
                 }
                 emitterName: string = "center_bright"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -5810,7 +5810,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash_darkglow"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -5954,7 +5954,7 @@ entries: map[hash,embed] = {
                     0.300000012
                 }
                 emitterName: string = "trail"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveCameraTrail {
                     mTrail: embed = VfxTrailDefinitionData {
                         mMode: u8 = 1
@@ -6069,7 +6069,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash_fast"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -6189,7 +6189,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Spikes"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 0, 0 }
                 }
@@ -6335,7 +6335,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Spikes"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 0, -500 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -6512,7 +6512,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "bright_flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                 }
@@ -6586,7 +6586,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -7023,7 +7023,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "circletimer"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -7441,7 +7441,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "fireflies_poof"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { -1000, 1000, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -7546,7 +7546,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "tattoo_splash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -7930,7 +7930,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "fireflies_poof1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 1000, 1000, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -8061,7 +8061,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_green"
-                importance: u8 = 0
+                importance: u8 = 1
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -8120,7 +8120,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_tattoo_linger"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -9649,7 +9649,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "Parent"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -20, 0 }
                 }
@@ -9837,7 +9837,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Spin_glow"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthDrag: embed = ValueVector3 {
                     constantValue: vec3 = { 5, 5, 5 }
                 }
@@ -10100,7 +10100,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_subtract_swirl"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00400000019
@@ -10381,7 +10381,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "purple_swirl"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00400000019
@@ -10556,7 +10556,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "prism_flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -10718,7 +10718,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "glow_sparks"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -10902,7 +10902,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Subtract_flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -11187,7 +11187,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "glow_sparks"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 1000, 0, 0 }
                 }
@@ -11765,7 +11765,7 @@ entries: map[hash,embed] = {
                     0.200000003
                 }
                 emitterName: string = "mesh_flowers"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -11870,7 +11870,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "pink_Bright_flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -11927,7 +11927,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "paw_flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 70, 0 }
                 }
@@ -12394,7 +12394,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "spikes"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 1000, 0, 0 }
                 }
@@ -12545,7 +12545,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "fire_flies"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 6000, 500, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -12825,7 +12825,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Sparkles"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 200, 0 }
                 }
@@ -12965,7 +12965,7 @@ entries: map[hash,embed] = {
                     0.200000003
                 }
                 emitterName: string = "Darkness"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -13242,7 +13242,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_flower"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -13906,7 +13906,7 @@ entries: map[hash,embed] = {
                     0.5
                 }
                 emitterName: string = "Spartkles"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 5, 0 }
                 }
@@ -14295,7 +14295,7 @@ entries: map[hash,embed] = {
                     0.5
                 }
                 emitterName: string = "trail_missile"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthAcceleration: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 300, 500 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -14631,7 +14631,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Inner_Light"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                 }
@@ -14701,7 +14701,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "Base"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                 }
@@ -14854,7 +14854,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Maps/Particles/SR/SRX_Infernal_Fire_Mult.SKINS_Neeko_Skin40.tex"
+                    textureMult: string = "ASSETS/Maps/Particles/SR/SRX_Infernal_Fire_Mult.TFT_Set16.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -15455,7 +15455,7 @@ entries: map[hash,embed] = {
                 }
                 emitterName: string = "fireflies_poof"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { -1000, 1000, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -15561,7 +15561,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "tattoo_splash"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -15745,7 +15745,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_green"
                 disabled: bool = true
-                importance: u8 = 0
+                importance: u8 = 1
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -15808,7 +15808,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_tattoo_linger"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -16073,7 +16073,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "fireflies_poof1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { -1000, 1000, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -16181,7 +16181,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_green1"
-                importance: u8 = 0
+                importance: u8 = 1
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -16243,7 +16243,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_tattoo_linger1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -16308,7 +16308,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_green2"
-                importance: u8 = 0
+                importance: u8 = 1
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -16905,7 +16905,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Dustring"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 1000, 500, 1000 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -17483,7 +17483,7 @@ entries: map[hash,embed] = {
                     0.300000012
                 }
                 emitterName: string = "distortion"
-                importance: u8 = 0
+                importance: u8 = 1
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 50, 0 }
                 }
@@ -17953,7 +17953,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "AoE_sparkles"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -18403,7 +18403,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Leading_edge_glow"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -18469,7 +18469,7 @@ entries: map[hash,embed] = {
                     0.300000012
                 }
                 emitterName: string = "trail_whisps"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveCameraTrail {
                     mTrail: embed = VfxTrailDefinitionData {
                         mMode: u8 = 1
@@ -18707,7 +18707,7 @@ entries: map[hash,embed] = {
                     0.300000012
                 }
                 emitterName: string = "Tattoo_trail"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveArbitraryTrail {
                     mTrail: embed = VfxTrailDefinitionData {
                         mBirthTilingSize: embed = ValueVector3 {
@@ -18814,7 +18814,7 @@ entries: map[hash,embed] = {
                     0.300000012
                 }
                 emitterName: string = "Leadingedge"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -18885,7 +18885,7 @@ entries: map[hash,embed] = {
                     0.300000012
                 }
                 emitterName: string = "Trail_camfacing"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveCameraTrail {
                     mTrail: embed = VfxTrailDefinitionData {
                         mBirthTilingSize: embed = ValueVector3 {
@@ -18995,7 +18995,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 2
                 }
                 emitterName: string = "dark_background"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -19060,7 +19060,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "soft_glow"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -19251,7 +19251,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Black_flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { -100, 0, 0 }
                 }
@@ -19356,7 +19356,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash_glow"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { -150, 150, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -19796,7 +19796,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -20319,7 +20319,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "RimLighting"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -20804,7 +20804,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "Sparkles"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -20913,7 +20913,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_flower_tattoo"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -21071,7 +21071,7 @@ entries: map[hash,embed] = {
                     10.5
                 }
                 emitterName: string = "Spin_glow2"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 0 }
                 }
@@ -21172,7 +21172,7 @@ entries: map[hash,embed] = {
                     10.5
                 }
                 emitterName: string = "Spin_glow3"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 0 }
                 }
@@ -21442,7 +21442,7 @@ entries: map[hash,embed] = {
                     0.699999988
                 }
                 emitterName: string = "Dark_paw"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -21535,7 +21535,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_Root"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -21644,7 +21644,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_Root_top"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -21753,7 +21753,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Dark_ring_glow"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -21837,7 +21837,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Bright_glow"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -21927,7 +21927,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Bright_flasj"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -22049,7 +22049,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "spikes"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 0, 0 }
                 }
@@ -22192,7 +22192,7 @@ entries: map[hash,embed] = {
                     0.400000006
                 }
                 emitterName: string = "Body_sparkles"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0.300000012, 0 }
                 }
@@ -22524,7 +22524,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 2
                 }
                 emitterName: string = "dark_glow"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -22584,7 +22584,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_fresnel"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -22696,7 +22696,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "fireflies_poof"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { -1000, 1000, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -22801,7 +22801,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "tattoo_splash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -22984,7 +22984,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_green"
-                importance: u8 = 0
+                importance: u8 = 1
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -23046,7 +23046,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_tattoo_linger"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -23324,7 +23324,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "AoE_indicator"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_ring.scb"
@@ -23665,7 +23665,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_flower"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_flower.scb"
@@ -23839,7 +23839,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "AoE_sparkles"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -23927,7 +23927,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "streaks"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -24079,7 +24079,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "wispy energy"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -24217,7 +24217,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Target glow"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -24377,7 +24377,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "outer energy"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -24529,7 +24529,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "Connection Flare"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -24717,7 +24717,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "target energy pan"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -24864,7 +24864,7 @@ entries: map[hash,embed] = {
                     12
                 }
                 emitterName: string = "pulses"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -24937,7 +24937,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "pulses1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -25081,7 +25081,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_flower"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_flower.scb"
@@ -25239,7 +25239,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "AoE_sparks"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -25564,7 +25564,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "AoE_indicator"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_ring.scb"
@@ -25668,7 +25668,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Bright_flashglow"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -25749,7 +25749,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "spikes"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 0, 0 }
                 }
@@ -25871,7 +25871,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "AoE_indicator"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_ring.scb"
@@ -26008,7 +26008,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "AoE_sparkles"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -26255,7 +26255,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "soft_glow"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -26363,7 +26363,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_flower_AoE"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_flower.scb"
@@ -26525,7 +26525,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash_fast"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -26645,7 +26645,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Spikes"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 0, 0 }
                 }
@@ -27470,7 +27470,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Bright_flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -27526,7 +27526,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Bright_flash1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -27582,7 +27582,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "Flash_darkglow"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -27841,7 +27841,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash_darkglow1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -27897,7 +27897,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Bright_flash2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -27957,7 +27957,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Beam_string"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = VfxShapeLegacy {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 0, 100, 0 }
@@ -28302,7 +28302,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Bright_flasj"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -28473,7 +28473,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "fireflies_poof"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 1000, 1000, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -28601,7 +28601,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "tattoo_splash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -28784,7 +28784,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_green"
-                importance: u8 = 0
+                importance: u8 = 1
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -28843,7 +28843,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_tattoo_linger"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -29228,7 +29228,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "fireflies_poof1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 300, 250, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -29508,7 +29508,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "fireflies_poof2"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 300, 250, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -29829,7 +29829,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash_darkglow"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 200, 0 }
                 }
@@ -29893,7 +29893,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "bright_flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 50, 0 }
                 }
@@ -29981,7 +29981,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Break_pieces"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 600, 600, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -30325,7 +30325,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -30859,7 +30859,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Bright_flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -30917,7 +30917,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash_darkglow"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -31361,7 +31361,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Bright_flash1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -31502,7 +31502,7 @@ entries: map[hash,embed] = {
                     10.5
                 }
                 emitterName: string = "Spin_glow"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 0 }
                 }
@@ -31603,7 +31603,7 @@ entries: map[hash,embed] = {
                     10.5
                 }
                 emitterName: string = "Spin_glow1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 0 }
                 }
@@ -32071,7 +32071,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -32336,7 +32336,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_subtract_swirl"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00400000019
@@ -32634,7 +32634,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "purple_swirl"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00400000019
@@ -32810,7 +32810,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "prism_flash"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -32934,7 +32934,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Maps/Particles/SR/SRX_Infernal_Fire_Mult.SKINS_Neeko_Skin40.tex"
+                    textureMult: string = "ASSETS/Maps/Particles/SR/SRX_Infernal_Fire_Mult.TFT_Set16.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -33154,7 +33154,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Inner_Light"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                 }
@@ -34756,7 +34756,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "Ring_Ground_"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1900, 0 }
                 }
@@ -34886,7 +34886,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Ring_Ground_1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1400, 0 }
                 }
@@ -35290,7 +35290,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Ring_Ground_2"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1400, 0 }
                 }
@@ -35774,7 +35774,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "outer_graphic"
                 disabled: bool = true
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 900, 0 }
                 }
@@ -37021,7 +37021,7 @@ entries: map[hash,embed] = {
                     5
                 }
                 emitterName: string = "RaysSharp"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
@@ -37161,7 +37161,7 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "Skin"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -17000, 0 }
                 }
@@ -38304,7 +38304,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "RimLighting"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -38487,7 +38487,7 @@ entries: map[hash,embed] = {
                     10.5
                 }
                 emitterName: string = "Spin_glow"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 0 }
                 }
@@ -38588,7 +38588,7 @@ entries: map[hash,embed] = {
                     10.5
                 }
                 emitterName: string = "Spin_glow1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 0 }
                 }
@@ -38877,7 +38877,7 @@ entries: map[hash,embed] = {
                     0.800000012
                 }
                 emitterName: string = "missile_tex"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -20, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -39056,7 +39056,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "HoneyTrail"
-                importance: u8 = 0
+                importance: u8 = 1
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 20, 0 }
                 }
@@ -39182,7 +39182,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "HoneyTrail1"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {}
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 20, 0 }
@@ -40012,7 +40012,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "beam"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -40105,7 +40105,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "beam1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -40182,7 +40182,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "GroundShadow"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -40230,7 +40230,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Target glow1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -40386,7 +40386,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "pulses2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -40457,7 +40457,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "target energy pan2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -40630,7 +40630,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 2
                 }
                 emitterName: string = "dark_background2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -40698,7 +40698,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "soft_glow2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -40900,7 +40900,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Black_flash2"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { -100, 0, 0 }
                 }
@@ -41008,7 +41008,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash_glow2"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { -150, 150, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -42049,7 +42049,7 @@ entries: map[hash,embed] = {
                     0.5
                 }
                 emitterName: string = "Darkness"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -43632,7 +43632,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Bright_beam1"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveBeam {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_beam.SKINS_Neeko_Skin49.scb"
@@ -43724,7 +43724,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Dark_beam1"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveBeam {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_beam.SKINS_Neeko_Skin49.scb"
@@ -43940,7 +43940,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Sparkles"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 4.69999981, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -44196,7 +44196,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "outer_graphic"
-                importance: u8 = 2
+                importance: u8 = 3
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.7400015 }
@@ -44275,7 +44275,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "DropletsRotate"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 2, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -44519,7 +44519,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "GlassShards"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0.5, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -45077,7 +45077,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "Parent"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -20, 0 }
                 }
@@ -45237,7 +45237,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Spin_glow"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthDrag: embed = ValueVector3 {
                     constantValue: vec3 = { 5, 5, 5 }
                 }
@@ -45317,7 +45317,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Spin_glow1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthDrag: embed = ValueVector3 {
                     constantValue: vec3 = { 5, 5, 5 }
                 }
@@ -45406,7 +45406,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -45620,7 +45620,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -45714,7 +45714,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -45921,7 +45921,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "Sparkles"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -46044,7 +46044,7 @@ entries: map[hash,embed] = {
                     2
                 }
                 emitterName: string = "Petals_Trail"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0.300000012, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -46350,7 +46350,7 @@ entries: map[hash,embed] = {
                     2.79999995
                 }
                 emitterName: string = "Mesh_root4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -46510,7 +46510,7 @@ entries: map[hash,embed] = {
                     3
                 }
                 emitterName: string = "Mesh_root5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -47197,7 +47197,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "BlackHole"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthAcceleration: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 0 }
                 }
@@ -47360,7 +47360,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -47438,7 +47438,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root7"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -47517,7 +47517,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "bright_flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 50, 0 }
                 }
@@ -47606,7 +47606,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "halo"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -8.5, 0 }
                 }
@@ -47673,7 +47673,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "halo1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -8.5, 0 }
                 }
@@ -47895,7 +47895,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root8"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -47983,7 +47983,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root9"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -48080,7 +48080,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "halo"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -48522,7 +48522,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "bright_flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 50, 0 }
                 }
@@ -49158,7 +49158,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "BlackHole"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthAcceleration: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 0 }
                 }
@@ -49462,7 +49462,7 @@ entries: map[hash,embed] = {
                     2.5999999
                 }
                 emitterName: string = "Petals_Trail"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0.300000012, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -49766,7 +49766,7 @@ entries: map[hash,embed] = {
                     2.70000005
                 }
                 emitterName: string = "Mesh_root5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -49942,7 +49942,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root7"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -50075,7 +50075,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "Sparkles1"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -50273,7 +50273,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root8"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -50351,7 +50351,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root9"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -50429,7 +50429,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root10"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -50503,7 +50503,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root11"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -50717,7 +50717,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "bright_flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 50, 0 }
                 }
@@ -51353,7 +51353,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "BlackHole"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthAcceleration: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 0 }
                 }
@@ -51876,7 +51876,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "halo"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -8.5, 0 }
                 }
@@ -51943,7 +51943,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "halo1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -8.5, 0 }
                 }
@@ -52010,7 +52010,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root12"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -52095,7 +52095,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root13"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -52296,7 +52296,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "Glob"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -1.64999998, 0 }
                 }
@@ -52427,7 +52427,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "Glob1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1.64999998, 0 }
                 }
@@ -52558,7 +52558,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrystalTrails"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -52842,7 +52842,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Ring"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.300007641 }
@@ -52908,7 +52908,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CenterRange"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_landingZone_green.SKINS_Neeko_Skin49.scb"
@@ -52982,7 +52982,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "mesh4"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -53074,7 +53074,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "mesh5"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -53166,7 +53166,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "mesh6"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -53561,7 +53561,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Ring"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.300007641 }
@@ -53627,7 +53627,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CenterRange"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_landingZone_green.SKINS_Neeko_Skin49.scb"
@@ -53701,7 +53701,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "mesh3"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -53815,7 +53815,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "mesh4"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -53929,7 +53929,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "mesh5"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
@@ -54231,7 +54231,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Fiora_Flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -54346,7 +54346,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -54427,7 +54427,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Glow"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -54530,7 +54530,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flat"
-                importance: u8 = 2
+                importance: u8 = 3
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -54648,7 +54648,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Sparkles"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 4.69999981, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -54907,7 +54907,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "outer_graphic"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -54969,7 +54969,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_green1"
-                importance: u8 = 0
+                importance: u8 = 1
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -55024,7 +55024,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_green4"
-                importance: u8 = 0
+                importance: u8 = 1
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -55075,7 +55075,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_green5"
-                importance: u8 = 0
+                importance: u8 = 1
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -55126,7 +55126,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "outer_graphic1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -56131,7 +56131,7 @@ entries: map[hash,embed] = {
                     5
                 }
                 emitterName: string = "RaysSharp"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
@@ -56271,7 +56271,7 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "Skin"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -17000, 0 }
                 }
@@ -58355,7 +58355,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -58541,7 +58541,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash_darkglow"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -59616,7 +59616,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Petals_Burst"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 2, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -60255,7 +60255,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "soft_glow"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -60575,7 +60575,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "AoE_sparkles"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -61093,7 +61093,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Bright_flash2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -61152,7 +61152,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Bright_flash3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -61235,7 +61235,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Petals_Trail"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0.300000012, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -61658,7 +61658,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -61740,7 +61740,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -61860,7 +61860,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "Sparkles1"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -62015,7 +62015,7 @@ entries: map[hash,embed] = {
                     0.449999988
                 }
                 emitterName: string = "Mesh_root3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -62197,7 +62197,7 @@ entries: map[hash,embed] = {
                     0.800000012
                 }
                 emitterName: string = "groundfroth"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = VfxShapeBox {
                     flags: u8 = 1
                     Size: vec3 = { 20, 0, 20 }
@@ -62368,7 +62368,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -62457,7 +62457,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Trail_short"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveCameraTrail {
                     mTrail: embed = VfxTrailDefinitionData {
                         mMode: u8 = 1
@@ -62533,7 +62533,7 @@ entries: map[hash,embed] = {
                     0.449999988
                 }
                 emitterName: string = "Mesh_root7"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -62703,7 +62703,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root8"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -62788,7 +62788,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root9"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -63549,7 +63549,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "halo"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -8.5, 0 }
                 }
@@ -63616,7 +63616,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "halo1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -8.5, 0 }
                 }
@@ -63682,7 +63682,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "honeycomb_ground1"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 40 }
                 }
@@ -63864,7 +63864,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root10"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -63949,7 +63949,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root11"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -64839,7 +64839,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_tattoo_linger1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -65427,7 +65427,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrystalTrails"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -65478,7 +65478,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CrystalTrails1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -65533,7 +65533,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "tattoo_splash5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -65681,7 +65681,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "tattoo_splash6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -65822,7 +65822,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "tattoo_splash7"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -65969,7 +65969,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "tattoo_splash8"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -66116,7 +66116,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "tattoo_splash9"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -66337,7 +66337,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_green2"
-                importance: u8 = 0
+                importance: u8 = 1
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -66418,7 +66418,7 @@ entries: map[hash,embed] = {
                     10.5
                 }
                 emitterName: string = "Spin_glow2"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 0 }
                 }
@@ -66519,7 +66519,7 @@ entries: map[hash,embed] = {
                     10.5
                 }
                 emitterName: string = "Spin_glow3"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 0 }
                 }
@@ -67039,7 +67039,7 @@ entries: map[hash,embed] = {
                     0.300000012
                 }
                 emitterName: string = "distortion"
-                importance: u8 = 0
+                importance: u8 = 1
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 50, 0 }
                 }
@@ -67246,7 +67246,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "AoE_sparkles"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -68036,7 +68036,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Petals_Burst"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0.5, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -68318,7 +68318,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Trigger1"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Crater_01.SKINS_Neeko_Skin49.scb"
@@ -69461,7 +69461,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "sticky_beam"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = VfxShapeLegacy {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 0, 100, 0 }
@@ -70150,7 +70150,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "prism_flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -70313,7 +70313,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "glow_sparks"
-                importance: u8 = 0
+                importance: u8 = 1
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -72064,7 +72064,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_green1"
-                importance: u8 = 0
+                importance: u8 = 1
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -72126,7 +72126,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_tattoo_linger1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -72703,7 +72703,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "tattoo_splash5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -72851,7 +72851,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "tattoo_splash6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -72992,7 +72992,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "tattoo_splash7"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -73139,7 +73139,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "tattoo_splash8"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -73286,7 +73286,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "tattoo_splash9"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -73603,7 +73603,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_tattoo_linger1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -74278,7 +74278,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_green3"
-                importance: u8 = 0
+                importance: u8 = 1
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -74346,7 +74346,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "HoneyTrail"
-                importance: u8 = 0
+                importance: u8 = 1
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 20, 0 }
                 }
@@ -74465,7 +74465,7 @@ entries: map[hash,embed] = {
                 }
                 emitterLinger: option[f32] = {}
                 emitterName: string = "HoneyTrail1"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 20, 0 }
                 }
@@ -76076,7 +76076,7 @@ entries: map[hash,embed] = {
                     5
                 }
                 emitterName: string = "RaysSharp"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
@@ -76216,7 +76216,7 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "Skin"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -17000, 0 }
                 }
@@ -78325,7 +78325,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -78404,7 +78404,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -78521,7 +78521,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "Sparkles"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -78699,7 +78699,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Petals_Trail"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0.300000012, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -78997,7 +78997,7 @@ entries: map[hash,embed] = {
                     0.449999988
                 }
                 emitterName: string = "Mesh_root3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -79179,7 +79179,7 @@ entries: map[hash,embed] = {
                     0.800000012
                 }
                 emitterName: string = "groundfroth"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = VfxShapeBox {
                     flags: u8 = 1
                     Size: vec3 = { 20, 0, 20 }
@@ -79353,7 +79353,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -79571,7 +79571,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root6"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -79653,7 +79653,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root7"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -80350,7 +80350,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "honeycomb_ground"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 40 }
                 }
@@ -80493,7 +80493,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "halo"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -8.5, 0 }
                 }
@@ -80560,7 +80560,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "halo1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -8.5, 0 }
                 }
@@ -80626,7 +80626,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "HoneyTrail4"
-                importance: u8 = 0
+                importance: u8 = 1
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 25 }
                 }
@@ -80742,7 +80742,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "HoneyTrail5"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 25 }
                 }
@@ -80961,7 +80961,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root8"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -81046,7 +81046,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Mesh_root9"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -81274,7 +81274,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "pink_Bright_flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -81627,7 +81627,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "fire_flies"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 6000, 500, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -81858,7 +81858,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Petals_Burst"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0.5, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -83972,7 +83972,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Ring8"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.100007631 }
@@ -84063,7 +84063,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CenterRange"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_landingZone_green.SKINS_Neeko_Skin49.scb"
@@ -84728,7 +84728,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Bright_flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -84973,7 +84973,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash_darkglow"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -86864,7 +86864,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Inner_Light"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 0 }
                 }
@@ -88303,7 +88303,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Beams"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -88393,7 +88393,7 @@ entries: map[hash,embed] = {
                     8
                 }
                 emitterName: string = "Sparkles"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -200, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -88568,7 +88568,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "CAS_GoldenAsh"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -88758,7 +88758,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -90658,7 +90658,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "BlackHole1"
-                importance: u8 = 0
+                importance: u8 = 1
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
@@ -91059,7 +91059,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "soft_glow"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -91428,7 +91428,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "RimLighting"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Recall_avatar.SKINS_Neeko_Skin49.skn"
@@ -91468,7 +91468,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "RimLighting1"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Recall_avatar.SKINS_Neeko_Skin49.skn"
@@ -91518,7 +91518,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "RimLighting2"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Recall_avatar.SKINS_Neeko_Skin49.skn"
@@ -92466,7 +92466,7 @@ entries: map[hash,embed] = {
                     0.200000003
                 }
                 emitterName: string = "Darkness1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -92869,7 +92869,7 @@ entries: map[hash,embed] = {
                     0.400000006
                 }
                 emitterName: string = "Body_sparkles"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0.300000012, 0 }
                 }
@@ -93194,7 +93194,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 2
                 }
                 emitterName: string = "dark_glow"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -93279,7 +93279,7 @@ entries: map[hash,embed] = {
                     1.5
                 }
                 emitterName: string = "thrusters"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -93487,7 +93487,7 @@ entries: map[hash,embed] = {
                     1.5
                 }
                 emitterName: string = "thrusters1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -93654,7 +93654,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "Sparkles"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, -350 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -93875,7 +93875,7 @@ entries: map[hash,embed] = {
                     5
                 }
                 emitterName: string = "PollenGlows"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 2 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -94227,7 +94227,7 @@ entries: map[hash,embed] = {
                     5
                 }
                 emitterName: string = "Petals_Burst"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0.300000012, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -95064,7 +95064,7 @@ entries: map[hash,embed] = {
                 }
                 particleLinger: option[f32] = {}
                 emitterName: string = "FireTrail"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
@@ -95237,7 +95237,7 @@ entries: map[hash,embed] = {
                 }
                 particleLinger: option[f32] = {}
                 emitterName: string = "FireTrail1"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
@@ -96920,7 +96920,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Bright_flash4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -97383,7 +97383,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "bright_flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                 }
@@ -97791,7 +97791,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "BlackHole"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 200, 0 }
                 }
@@ -98853,7 +98853,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Bright_flash3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -99348,7 +99348,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "tattoo_splash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -99498,7 +99498,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Avatar_green"
-                importance: u8 = 0
+                importance: u8 = 1
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -100500,7 +100500,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "tattoo_splash2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -101666,7 +101666,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "tattoo_splash4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -101811,7 +101811,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "tattoo_splash5"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -101961,7 +101961,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "tattoo_splash7"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -102108,7 +102108,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "tattoo_splash8"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -103339,7 +103339,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "tattoo_splash"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 60, 50 }
                 }
@@ -103521,7 +103521,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Blend_glow"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -103584,7 +103584,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "ADD_glow"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -103644,7 +103644,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "RimLighting7"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -103681,7 +103681,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "RimLighting9"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -103719,7 +103719,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "RimLighting10"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -103753,7 +103753,7 @@ entries: map[hash,embed] = {
         complexEmitterDefinitionData: list[pointer] = {
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
-                    constantValue: f32 = 4
+                    constantValue: f32 = 8
                 }
                 particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 1
@@ -103782,13 +103782,13 @@ entries: map[hash,embed] = {
                 lifetime: option[f32] = {
                     8
                 }
-                emitterName: string = "glow"
+                emitterName: string = "glow1"
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
-                    constantValue: vec4 = { 0.910002291, 0.409994662, 0.0899977088, 0.330006868 }
+                    constantValue: vec4 = { 0.432898462, 0.0899977088, 0.910002291, 0.329411775 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
                             0
@@ -103796,9 +103796,9 @@ entries: map[hash,embed] = {
                             1
                         }
                         values: list[vec4] = {
-                            { 0.877884567, 0.356936544, 0.0899977088, 0 }
-                            { 0.877884567, 0.409994662, 0.0698805749, 0.330006868 }
-                            { 0.588825047, 0.371406943, 0.0899977088, 0 }
+                            { 0.417619675, 0.0783509463, 0.910002291, 0 }
+                            { 0.417619675, 0.0899977088, 0.706589997, 0.329411775 }
+                            { 0.280110776, 0.0815273374, 0.910002291, 0 }
                         }
                     }
                 }
@@ -103879,7 +103879,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                emitterName: string = "dust2"
+                emitterName: string = "dust4"
                 birthVelocity: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
@@ -103949,6 +103949,9 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, -5, 0 }
                 }
                 blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.526024282, 0.424780637, 1, 1 }
+                }
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -104109,7 +104112,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                emitterName: string = "dust3"
+                emitterName: string = "dust5"
                 birthVelocity: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
@@ -104164,6 +104167,9 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, -5, 0 }
                 }
                 blendMode: u8 = 4
+                birthColor: embed = ValueColor {
+                    constantValue: vec4 = { 0.755840361, 0.395910591, 1, 1 }
+                }
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -104173,8 +104179,8 @@ entries: map[hash,embed] = {
                         }
                         values: list[vec4] = {
                             { 0.517647088, 0.925490201, 0.0196078438, 0 }
-                            { 0.913725495, 0.650980413, 0.0862745121, 1 }
-                            { 0.898039222, 0.149019614, 0.588235319, 0 }
+                            { 0.951567888, 0.823727787, 0.979812324, 1 }
+                            { 0.474097818, 0.149019614, 0.898039222, 0 }
                         }
                     }
                 }
@@ -104232,7 +104238,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 8, 12, 12 }
+                    constantValue: vec3 = { 12, 12, 12 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
                             VfxProbabilityTableData {
@@ -104242,7 +104248,7 @@ entries: map[hash,embed] = {
                                 }
                                 keyValues: list[f32] = {
                                     1
-                                    0.200000003
+                                    0.600000024
                                 }
                             }
                             VfxProbabilityTableData {}
@@ -104252,7 +104258,7 @@ entries: map[hash,embed] = {
                             0
                         }
                         values: list[vec3] = {
-                            { 8, 12, 12 }
+                            { 12, 12, 12 }
                         }
                     }
                 }
@@ -104277,6 +104283,86 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_star_04.SKINS_Neeko_Skin49.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
+            }
+            VfxEmitterDefinitionData {
+                rate: embed = ValueFloat {
+                    constantValue: f32 = 4
+                }
+                particleLifetime: embed = ValueFloat {
+                    constantValue: f32 = 1
+                    dynamics: pointer = VfxAnimatedFloatVariableData {
+                        probabilityTables: list[pointer] = {
+                            VfxProbabilityTableData {
+                                keyTimes: list[f32] = {
+                                    0
+                                    1
+                                }
+                                keyValues: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                        }
+                        times: list[f32] = {
+                            0
+                        }
+                        values: list[f32] = {
+                            1
+                        }
+                    }
+                }
+                particleLinger: option[f32] = {}
+                lifetime: option[f32] = {
+                    8
+                }
+                emitterName: string = "glow2"
+                bindWeight: embed = ValueFloat {
+                    constantValue: f32 = 1
+                }
+                blendMode: u8 = 4
+                Color: embed = ValueColor {
+                    constantValue: vec4 = { 0.910002291, 0.460914016, 0.0899977088, 0.329411775 }
+                    dynamics: pointer = VfxAnimatedColorVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec4] = {
+                            { 0.877884567, 0.401266336, 0.0899977088, 0 }
+                            { 0.877884567, 0.460914016, 0.0698805749, 0.329411775 }
+                            { 0.588825047, 0.417533875, 0.0899977088, 0 }
+                        }
+                    }
+                }
+                pass: i16 = 60
+                softParticleParams: pointer = VfxSoftParticleDefinitionData {
+                    beginIn: f32 = 10
+                    deltaIn: f32 = 10
+                }
+                depthBiasFactors: vec2 = { -1, -6 }
+                miscRenderFlags: u8 = 1
+                particleIsLocalOrientation: flag = true
+                isUniformScale: flag = true
+                isGroundLayer: flag = true
+                birthScale0: embed = ValueVector3 {
+                    constantValue: vec3 = { 30, 1, 1 }
+                }
+                scale0: embed = ValueVector3 {
+                    dynamics: pointer = VfxAnimatedVector3fVariableData {
+                        times: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        values: list[vec3] = {
+                            { 0.699999988, 0, 0 }
+                            { 0.699999988, 1, 1 }
+                            { 0.699999988, 0, 0 }
+                        }
+                    }
+                }
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ImpactGlow.SKINS_Neeko_Skin49.tex"
             }
         }
         particleName: string = "Neeko_Skin49_RunButterflyGlow"
@@ -104316,7 +104402,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "GlassShards"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 666, 777, 666 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -104572,7 +104658,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "ash"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 400, 500, 400 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -104893,7 +104979,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Sphere_core"
-                importance: u8 = 2
+                importance: u8 = 3
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.500007629 }
@@ -104948,7 +105034,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Sphere_core1"
-                importance: u8 = 2
+                importance: u8 = 3
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.62999922 }
@@ -105390,7 +105476,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "Embers"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 300, 800, 300 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -105561,7 +105647,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Bright_flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -106880,7 +106966,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Bright_flash1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -107094,7 +107180,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Bright_flash"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -107153,7 +107239,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Bright_flash1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -107210,7 +107296,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Flash_darkglow"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -108734,7 +108820,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Petals_Burst"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 2, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -109084,7 +109170,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "soft_glow"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -109619,7 +109705,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "AoE_sparkles"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -109725,7 +109811,7 @@ entries: map[hash,embed] = {
                     1.5
                 }
                 emitterName: string = "thrusters"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -109933,7 +110019,7 @@ entries: map[hash,embed] = {
                     1.5
                 }
                 emitterName: string = "thrusters1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -110074,7 +110160,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "AoE_indicator"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_ring.SKINS_Neeko_Skin49.scb"
@@ -110212,7 +110298,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "AoE_sparkles"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -110467,7 +110553,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Ring_Ground_"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
@@ -110580,7 +110666,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Ground_Ring_Red_Glow"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
@@ -111042,7 +111128,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "groundfroth"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = VfxShapeBox {
                     flags: u8 = 1
                     Size: vec3 = { 150, 0, 150 }
@@ -111236,7 +111322,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Petals_Burst"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0.5, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -112571,7 +112657,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Ring2"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.100007631 }
@@ -112662,7 +112748,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CenterRange"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_landingZone_green.SKINS_Neeko_Skin49.scb"
@@ -112771,7 +112857,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "honeyCombAdd1"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -113042,7 +113128,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "soft_glow2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -113097,7 +113183,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "soft_glow3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -113188,7 +113274,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "AoE_sparkles1"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -113396,7 +113482,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "AoE_indicator"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_ring.SKINS_Neeko_Skin49.scb"
@@ -113549,7 +113635,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "AoE_sparkles"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -113805,7 +113891,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Ring_Ground_"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
@@ -114436,7 +114522,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "groundfroth"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = VfxShapeBox {
                     flags: u8 = 1
                     Size: vec3 = { 150, 0, 150 }
@@ -114630,7 +114716,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Petals_Burst"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0.5, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -116006,7 +116092,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Ground_Ring_Red_Glow1"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
@@ -116076,7 +116162,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Ring3"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.100007631 }
@@ -116167,7 +116253,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CenterRange1"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_landingZone_green.SKINS_Neeko_Skin49.scb"
@@ -116281,7 +116367,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "soft_glow3"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -116328,7 +116414,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "honeyCombAdd1"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -116443,7 +116529,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "soft_glow4"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -116598,7 +116684,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "AoE_indicator"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_ring.SKINS_Neeko_Skin49.scb"
@@ -116751,7 +116837,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emitterName: string = "AoE_sparkles"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -117007,7 +117093,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Ring_Ground_"
-                importance: u8 = 2
+                importance: u8 = 3
                 EmitterPosition: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         probabilityTables: list[pointer] = {
@@ -117638,7 +117724,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "groundfroth"
-                importance: u8 = 2
+                importance: u8 = 3
                 SpawnShape: pointer = VfxShapeBox {
                     flags: u8 = 1
                     Size: vec3 = { 150, 0, 150 }
@@ -117832,7 +117918,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Petals_Burst"
-                importance: u8 = 2
+                importance: u8 = 3
                 birthOrbitalVelocity: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0.5, 0 }
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
@@ -119049,7 +119135,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Ring2"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.100007631 }
@@ -119140,7 +119226,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "CenterRange"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_landingZone_green.SKINS_Neeko_Skin49.scb"
@@ -119448,7 +119534,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "soft_glow1"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -119495,7 +119581,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "honeyCombAdd1"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -119611,7 +119697,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "Ground_Ring_Red_Glow1"
-                importance: u8 = 2
+                importance: u8 = 3
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
@@ -119683,7 +119769,7 @@ entries: map[hash,embed] = {
                 }
                 isSingleParticle: flag = true
                 emitterName: string = "soft_glow2"
-                importance: u8 = 2
+                importance: u8 = 3
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }

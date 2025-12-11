@@ -2553,7 +2553,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "Distort"
-                importance: u8 = 0
+                importance: u8 = 1
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
@@ -5934,7 +5934,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "teamcircle-red"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
@@ -6445,7 +6445,7 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "teamcircle-green"
-                importance: u8 = 2
+                importance: u8 = 3
                 Filtering: pointer = VfxEmitterFiltering {
                     spectatorPolicy: u8 = 1
                 }
