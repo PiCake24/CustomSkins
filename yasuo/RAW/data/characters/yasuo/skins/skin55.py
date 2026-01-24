@@ -112404,6 +112404,13 @@ entries: map[hash,embed] = {
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
+                name: string = "Pulse_Strength"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Pulse_Speed_Min"
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "Maintex_Alpha_Strength"
             }
             StaticMaterialShaderParamDef {
@@ -112524,6 +112531,14 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "ALPHABLEND_BLENDMAT"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "PULSE_BLEND_ON"
+                on: bool = false
+            }
             StaticMaterialSwitchDef {
                 name: string = "VCOLOR_G_MASK_DIFFUSE_W_DISCARD"
                 on: bool = false
@@ -112786,6 +112801,13 @@ entries: map[hash,embed] = {
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
+                name: string = "Pulse_Strength"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "Pulse_Speed_Min"
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "Maintex_Alpha_Strength"
             }
             StaticMaterialShaderParamDef {
@@ -112905,6 +112927,14 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "ALPHABLEND_BLENDMAT"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "PULSE_BLEND_ON"
+                on: bool = false
+            }
             StaticMaterialSwitchDef {
                 name: string = "VCOLOR_G_MASK_DIFFUSE_W_DISCARD"
                 on: bool = false

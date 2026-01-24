@@ -16353,6 +16353,10 @@ entries: map[hash,embed] = {
                 name: string = "UX_temp2"
             }
             StaticMaterialShaderParamDef {
+                name: string = "SprayAreaIntensity"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "TailTipColor"
                 value: vec4 = { 0.930006862, 0.669993162, 0.800000012, 1 }
             }
@@ -16494,6 +16498,15 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "SURFACE_SCROLLING_VFXMESH"
+                on: bool = false
+                Group: string = "Surface Scrolling Feature"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "SPARYAREACOLOR"
+                Group: string = "Base Settings"
+            }
             StaticMaterialSwitchDef {
                 name: string = "TRANSITIONEFFECT"
                 on: bool = false
@@ -16768,6 +16781,10 @@ entries: map[hash,embed] = {
                 name: string = "UX_temp2"
             }
             StaticMaterialShaderParamDef {
+                name: string = "SprayAreaIntensity"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "TailTipColor"
                 value: vec4 = { 0.930006862, 0.669993162, 0.800000012, 1 }
             }
@@ -16909,6 +16926,15 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "SURFACE_SCROLLING_VFXMESH"
+                on: bool = false
+                Group: string = "Surface Scrolling Feature"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "SPARYAREACOLOR"
+                Group: string = "Base Settings"
+            }
             StaticMaterialSwitchDef {
                 name: string = "TRANSITIONEFFECT"
                 on: bool = false
@@ -17184,6 +17210,10 @@ entries: map[hash,embed] = {
                 name: string = "UX_temp2"
             }
             StaticMaterialShaderParamDef {
+                name: string = "SprayAreaIntensity"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "TailTipColor"
                 value: vec4 = { 0.930006862, 0.669993162, 0.800000012, 1 }
             }
@@ -17325,6 +17355,15 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "SURFACE_SCROLLING_VFXMESH"
+                on: bool = false
+                Group: string = "Surface Scrolling Feature"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "SPARYAREACOLOR"
+                Group: string = "Base Settings"
+            }
             StaticMaterialSwitchDef {
                 name: string = "TRANSITIONEFFECT"
                 on: bool = false
