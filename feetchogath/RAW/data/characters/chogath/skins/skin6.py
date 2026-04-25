@@ -8322,7 +8322,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin06/Particles/tooth_spike_01.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin06/Particles/tooth_spike_01.scb"
                     }
                 }
                 blendMode: u8 = 3
@@ -8368,7 +8368,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin06/Particles/tooth_spike_01.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin06/Particles/tooth_spike_01.scb"
                     }
                 }
                 blendMode: u8 = 3
@@ -8413,7 +8413,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin06/Particles/tooth_spike_02.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin06/Particles/tooth_spike_02.scb"
                     }
                 }
                 blendMode: u8 = 3
@@ -9395,7 +9395,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin06/Particles/tooth_spike_03.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin06/Particles/tooth_spike_03.scb"
                     }
                 }
                 blendMode: u8 = 3
@@ -9422,7 +9422,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin06/Particles/tooth_spike_03.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin06/Particles/tooth_spike_03.scb"
                     }
                 }
                 blendMode: u8 = 3
@@ -9507,7 +9507,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Particles/tooth_spike_03.sco"
+                        mSimpleMeshName: string = "ASSETS/Particles/tooth_spike_03.scb"
                     }
                 }
                 blendMode: u8 = 3
@@ -9537,7 +9537,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Particles/tooth_spike_03.sco"
+                        mSimpleMeshName: string = "ASSETS/Particles/tooth_spike_03.scb"
                     }
                 }
                 blendMode: u8 = 3
@@ -9573,7 +9573,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Particles/tooth_spike_03.sco"
+                        mSimpleMeshName: string = "ASSETS/Particles/tooth_spike_03.scb"
                     }
                 }
                 blendMode: u8 = 3
@@ -9603,7 +9603,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Particles/tooth_spike_03.sco"
+                        mSimpleMeshName: string = "ASSETS/Particles/tooth_spike_03.scb"
                     }
                 }
                 blendMode: u8 = 3
@@ -9639,7 +9639,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Particles/tooth_spike_03.sco"
+                        mSimpleMeshName: string = "ASSETS/Particles/tooth_spike_03.scb"
                     }
                 }
                 blendMode: u8 = 3
@@ -9669,7 +9669,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Particles/tooth_spike_03.sco"
+                        mSimpleMeshName: string = "ASSETS/Particles/tooth_spike_03.scb"
                     }
                 }
                 blendMode: u8 = 3
@@ -9705,7 +9705,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Particles/tooth_spike_03.sco"
+                        mSimpleMeshName: string = "ASSETS/Particles/tooth_spike_03.scb"
                     }
                 }
                 blendMode: u8 = 3
@@ -9735,7 +9735,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Particles/tooth_spike_03.sco"
+                        mSimpleMeshName: string = "ASSETS/Particles/tooth_spike_03.scb"
                     }
                 }
                 blendMode: u8 = 3
@@ -9771,7 +9771,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Particles/tooth_spike_03.sco"
+                        mSimpleMeshName: string = "ASSETS/Particles/tooth_spike_03.scb"
                     }
                 }
                 blendMode: u8 = 3
@@ -9801,7 +9801,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Particles/tooth_spike_03.sco"
+                        mSimpleMeshName: string = "ASSETS/Particles/tooth_spike_03.scb"
                     }
                 }
                 blendMode: u8 = 3

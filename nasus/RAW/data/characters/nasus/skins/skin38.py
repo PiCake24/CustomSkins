@@ -1057,7 +1057,7 @@ entries: map[hash,embed] = {
                 }
                 pass: i16 = 1
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set15.dds"
+                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set17.dds"
                     reflectionOpacityDirect: f32 = -0.600000024
                     reflectionFresnel: f32 = 0.00499999989
                     reflectionFresnelColor: vec4 = { 1, 0, 0, 1 }
@@ -1580,6 +1580,10 @@ entries: map[hash,embed] = {
             }
             StaticMaterialSwitchDef {
                 name: string = "VERTEX_WOBBLE_PANNING_LINE"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "VERTEX_COLOR_MASK"
                 on: bool = false
             }
         }

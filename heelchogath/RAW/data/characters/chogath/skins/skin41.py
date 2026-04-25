@@ -10243,7 +10243,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Lighting_Cyl.SKINS_Chogath_Skin41.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Lighting_Cyl.SKINS_Chogath_Skin41.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -57081,7 +57081,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Lighting_Cyl.SKINS_Chogath_Skin41.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Lighting_Cyl.SKINS_Chogath_Skin41.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -58181,7 +58181,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Lighting_Cyl.SKINS_Chogath_Skin41.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Lighting_Cyl.SKINS_Chogath_Skin41.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -66317,7 +66317,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Lighting_Cyl.SKINS_Chogath_Skin41.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Lighting_Cyl.SKINS_Chogath_Skin41.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -86223,6 +86223,14 @@ entries: map[hash,embed] = {
         name: string = "Characters/Chogath/Skins/Skin41/Materials/ChoGath_Skin41_Body_inst"
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
+                TextureName: string = "Pattern_Mask"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+            }
+            StaticMaterialShaderSamplerDef {
+                TextureName: string = "ScreenSpace_Texture"
+                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+            }
+            StaticMaterialShaderSamplerDef {
                 TextureName: string = "MatCap_Tex"
                 texturePath: string = "ASSETS/Characters/Pyke/Skins/Skin75/Pyke_Skin75_Matcap_TX_CM.SKINS_Pyke_Skin75.tex"
             }
@@ -86265,6 +86273,14 @@ entries: map[hash,embed] = {
             }
         }
         paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "ScreenSpace_Tiling"
+                value: vec4 = { 1, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "ScreenSpace_Texture_Tint"
+                value: vec4 = { 1, 1, 1, 0 }
+            }
             StaticMaterialShaderParamDef {
                 name: string = "Diffuse_Alpha_Override"
             }
@@ -86354,6 +86370,18 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "POST_LIGHTING_ON_SCROLLTEX"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "BLOOM_SCREENSPACE_TEX_ONLY"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_SCREEN_SPACE_TEXTURE"
+                on: bool = false
+            }
             StaticMaterialSwitchDef {
                 name: string = "OVERRIDE_DIFFUSE_ALPHA"
                 on: bool = false

@@ -221,7 +221,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_BA2_Trail1_Geo.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_BA2_Trail1_Geo.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -289,7 +289,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_BA2_Trail2_Geo.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_BA2_Trail2_Geo.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -922,7 +922,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_E_Tar_Geo_RingSmoke.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_E_Tar_Geo_RingSmoke.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -1603,7 +1603,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_BA2_Trail1_Geo.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_BA2_Trail1_Geo.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -1671,7 +1671,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_BA2_Trail2_Geo.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_BA2_Trail2_Geo.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -2444,7 +2444,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_Q_Tar_Geo_Trail.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_Q_Tar_Geo_Trail.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -2805,7 +2805,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_Crit_Trail1_geo.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_Crit_Trail1_geo.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -2877,7 +2877,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_Crit_Trail2_Geo.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_Crit_Trail2_Geo.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -3741,7 +3741,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_Q_Hit_Geo_glow.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_Q_Hit_Geo_glow.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -4545,7 +4545,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/nasus_skin05_w_buf_geo_coneburst.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/nasus_skin05_w_buf_geo_coneburst.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -4953,7 +4953,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_Q_Buf_Geo_AxeGlow.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_Q_Buf_Geo_AxeGlow.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -5787,7 +5787,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_Crit_Trail1_geo.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_Crit_Trail1_geo.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -5859,7 +5859,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_Crit_Trail2_Geo.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_Crit_Trail2_Geo.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -6808,7 +6808,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_E_Tar_Geo_GroundFlare.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_E_Tar_Geo_GroundFlare.scb"
                     }
                 }
                 blendMode: u8 = 2
@@ -6941,7 +6941,7 @@ entries: map[hash,embed] = {
                 disabled: bool = true
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_E_Tar_Geo_Sphere.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_E_Tar_Geo_Sphere.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -7588,7 +7588,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Base/Particles/Nasus_Base_R_Hand_Sphere.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Base/Particles/Nasus_Base_R_Hand_Sphere.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -8402,7 +8402,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_E_Tar_Geo_GroundDust.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_E_Tar_Geo_GroundDust.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -8540,7 +8540,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_E_Tar_Geo_ConeBurst.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_E_Tar_Geo_ConeBurst.scb"
                     }
                 }
                 blendMode: u8 = 2
@@ -8994,7 +8994,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_E_Tar_Geo_RingFire.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_E_Tar_Geo_RingFire.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -9542,7 +9542,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_BA1_Trail1_Geo.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_BA1_Trail1_Geo.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -9614,7 +9614,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_BA1_Trail2_Geo.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_BA1_Trail2_Geo.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -9694,7 +9694,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Base/Particles/Nasus_Skin05_BA1_Trail1_Geo.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Base/Particles/Nasus_Skin05_BA1_Trail1_Geo.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -9766,7 +9766,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_BA1_Trail2_Geo.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Nasus/Skins/Skin05/Particles/Nasus_Skin05_BA1_Trail2_Geo.scb"
                     }
                 }
                 blendMode: u8 = 4

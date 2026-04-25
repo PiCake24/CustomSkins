@@ -7130,7 +7130,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/JarvanIV/Skins/Base/Particles/common_circletimer.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/JarvanIV/Skins/Base/Particles/common_circletimer.scb"
                     }
                 }
                 particleColorTexture: string = "ASSETS/Characters/JarvanIV/Skins/Base/Particles/common_color-hold.tex"

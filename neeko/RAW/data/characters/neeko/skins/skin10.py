@@ -7037,7 +7037,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/JarvanIV/Skins/Base/Particles/common_circletimer.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/JarvanIV/Skins/Base/Particles/common_circletimer.scb"
                     }
                 }
                 particleColorTexture: string = "ASSETS/Characters/JarvanIV/Skins/Base/Particles/common_color-hold.tex"
@@ -95742,7 +95742,7 @@ entries: map[hash,embed] = {
                 pass: i16 = 8
                 meshRenderFlags: u8 = 0
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set15.dds"
+                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set17.dds"
                     reflectionOpacityDirect: f32 = -2.5
                     reflectionOpacityGlancing: f32 = 3
                     reflectionFresnel: f32 = 0.100000001
@@ -98942,7 +98942,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/JarvanIV/Skins/Base/Particles/common_circletimer.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/JarvanIV/Skins/Base/Particles/common_circletimer.scb"
                     }
                 }
                 particleColorTexture: string = "ASSETS/Characters/JarvanIV/Skins/Base/Particles/common_color-hold.tex"
@@ -100530,7 +100530,7 @@ entries: map[hash,embed] = {
                 pass: i16 = 8
                 meshRenderFlags: u8 = 0
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set15.dds"
+                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set17.dds"
                     reflectionOpacityDirect: f32 = -2.5
                     reflectionOpacityGlancing: f32 = 3
                     reflectionFresnel: f32 = 0.100000001

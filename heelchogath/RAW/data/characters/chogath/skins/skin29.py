@@ -20265,7 +20265,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Lighting_Cyl.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Lighting_Cyl.scb"
                     }
                 }
                 blendMode: u8 = 1

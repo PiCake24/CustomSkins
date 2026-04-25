@@ -1965,7 +1965,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_E_AirHelix.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_E_AirHelix.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -2218,7 +2218,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_BA_ice_shards.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_BA_ice_shards.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -3674,7 +3674,7 @@ entries: map[hash,embed] = {
                 pass: i16 = 850
                 alphaRef: u8 = 0
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set15.dds"
+                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set17.dds"
                     reflectionOpacityDirect: f32 = -1
                     reflectionOpacityGlancing: f32 = 0.200000003
                     reflectionFresnel: f32 = 0.200000003
@@ -4856,7 +4856,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_BA_ice_shards.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_BA_ice_shards.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -5090,7 +5090,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_BA_ice_shards.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin22/Particles/Sion_Skin22_BA_ice_shards.scb"
                     }
                 }
                 blendMode: u8 = 1

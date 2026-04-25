@@ -7032,7 +7032,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/JarvanIV/Skins/Base/Particles/common_circletimer.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/JarvanIV/Skins/Base/Particles/common_circletimer.scb"
                     }
                 }
                 particleColorTexture: string = "ASSETS/Characters/JarvanIV/Skins/Base/Particles/common_color-hold.tex"
@@ -46157,7 +46157,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -49571,7 +49571,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -57374,7 +57374,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -59722,7 +59722,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -61341,7 +61341,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -68146,7 +68146,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
                     }
                 }
                 blendMode: u8 = 7
@@ -76880,7 +76880,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -78805,7 +78805,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -81968,7 +81968,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -94332,7 +94332,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -108926,7 +108926,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -111432,7 +111432,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -114826,7 +114826,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -118028,7 +118028,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
                     }
                 }
                 blendMode: u8 = 4

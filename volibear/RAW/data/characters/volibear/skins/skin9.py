@@ -14293,7 +14293,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/Kassadin_Skin14_common_Vlad_BloodKing_Torus.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/Kassadin_Skin14_common_Vlad_BloodKing_Torus.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -33463,7 +33463,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/Volibear_Skin09_common_Vlad_BloodKing_Torus.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/Volibear_Skin09_common_Vlad_BloodKing_Torus.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -33676,7 +33676,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/Volibear_Skin09_common_Vlad_BloodKing_Torus.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/Volibear_Skin09_common_Vlad_BloodKing_Torus.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -56678,7 +56678,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/Volibear_Skin09_common_Vlad_BloodKing_Torus.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/Volibear_Skin09_common_Vlad_BloodKing_Torus.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -63603,7 +63603,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/Kassadin_Skin14_common_Vlad_BloodKing_Torus.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/Kassadin_Skin14_common_Vlad_BloodKing_Torus.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -68257,7 +68257,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/Volibear_Skin09_common_Vlad_BloodKing_Torus.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/Volibear_Skin09_common_Vlad_BloodKing_Torus.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -69161,7 +69161,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/Volibear_Skin09_common_Vlad_BloodKing_Torus.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/Volibear_Skin09_common_Vlad_BloodKing_Torus.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -73964,7 +73964,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/Kassadin_Skin14_common_Vlad_BloodKing_Torus.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin09/Particles/Kassadin_Skin14_common_Vlad_BloodKing_Torus.scb"
                     }
                 }
                 blendMode: u8 = 4

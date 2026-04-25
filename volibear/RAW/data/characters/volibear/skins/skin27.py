@@ -12476,7 +12476,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin19/Particles/common_Vlad_BloodKing_Torus.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin19/Particles/common_Vlad_BloodKing_Torus.scb"
                     }
                 }
                 blendMode: u8 = 1

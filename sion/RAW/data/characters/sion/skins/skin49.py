@@ -3439,7 +3439,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.SKINS_Sion_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.SKINS_Sion_Skin49.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -3485,7 +3485,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.SKINS_Sion_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.SKINS_Sion_Skin49.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -3532,7 +3532,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.SKINS_Sion_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.SKINS_Sion_Skin49.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -4749,7 +4749,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.SKINS_Sion_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.SKINS_Sion_Skin49.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -5684,7 +5684,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.SKINS_Sion_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.SKINS_Sion_Skin49.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -6149,7 +6149,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.SKINS_Sion_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.SKINS_Sion_Skin49.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -14978,7 +14978,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Haga_sphere_geo.SKINS_Sion_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Haga_sphere_geo.SKINS_Sion_Skin49.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -17038,7 +17038,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Explo_outerring.SKINS_Sion_Skin49.sco"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Explo_outerring.SKINS_Sion_Skin49.scb"
                     }
                 }
                 Color: embed = ValueColor {
