@@ -13011,7 +13011,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Leblanc_Base_W_Clone_Glow.Leblanc_Rework_RemoveRefs.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Leblanc_Base_W_Clone_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {

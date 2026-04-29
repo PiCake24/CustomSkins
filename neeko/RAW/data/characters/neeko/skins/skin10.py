@@ -13015,7 +13015,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Leblanc_Base_W_Clone_Glow.Leblanc_Rework_RemoveRefs.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Leblanc_Base_W_Clone_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -44276,7 +44276,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin10/Particles/Leblanc_Base_W_Clone_Glow.Leblanc_Rework_RemoveRefs.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin10/Particles/Leblanc_Base_W_Clone_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -77007,7 +77007,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin10/Particles/Leblanc_Base_W_Clone_Glow.Leblanc_Rework_RemoveRefs.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin10/Particles/Leblanc_Base_W_Clone_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.550000012
@@ -102347,7 +102347,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin10/Particles/Leblanc_Base_W_Clone_Glow.Leblanc_Rework_RemoveRefs.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin10/Particles/Leblanc_Base_W_Clone_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {

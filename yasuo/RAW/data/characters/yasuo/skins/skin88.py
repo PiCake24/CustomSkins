@@ -52023,7 +52023,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Specular_Mask"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
         }
         paramValues: list2[embed] = {
@@ -52167,12 +52167,12 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Mask"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Pattern_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Bloom_Texture"
@@ -52180,7 +52180,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Transform_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
         }
         paramValues: list2[embed] = {

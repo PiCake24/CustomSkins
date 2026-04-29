@@ -4179,7 +4179,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Scroll_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
         }
         paramValues: list2[embed] = {

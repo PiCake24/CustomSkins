@@ -13011,7 +13011,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Leblanc_Base_W_Clone_Glow.Leblanc_Rework_RemoveRefs.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Leblanc_Base_W_Clone_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -38460,14 +38460,14 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Color"
-                texturePath: string = "ASSETS/Characters/Neeko/Skins/Skin48/Neeko_Skin48_TX_CM.Chroma_Neeko_Play24.tex"
+                texturePath: string = "ASSETS/Characters/Neeko/Skins/Skin48/Neeko_Skin48_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Mask"
-                texturePath: string = "ASSETS/Characters/Neeko/Skins/Skin40/Particles/Neeko_Skin40_P_Mask.SKINS_Neeko_Skin40.tex"
+                texturePath: string = "ASSETS/Characters/Neeko/Skins/Skin40/Particles/Neeko_Skin40_P_Mask.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -38696,7 +38696,7 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Color"
-                texturePath: string = "ASSETS/Characters/Neeko/Skins/Skin48/Neeko_Skin48_TX_CM.Chroma_Neeko_Play24.tex"
+                texturePath: string = "ASSETS/Characters/Neeko/Skins/Skin48/Neeko_Skin48_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1

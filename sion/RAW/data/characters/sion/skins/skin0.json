@@ -33,7 +33,7 @@
                       "value": "ASSETS/Characters/Sion/Skins/Base/SionLoadScreen.tex"
                     }
                   ],
-                  "name": "CensoredImage"
+                  "name": 3496109055
                 }
               },
               {
@@ -144,7 +144,7 @@
                                 }
                               }
                             ],
-                            "name": "BankUnit"
+                            "name": 2755749141
                           },
                           {
                             "items": [
@@ -228,7 +228,7 @@
                                 "value": true
                               }
                             ],
-                            "name": "BankUnit"
+                            "name": 2755749141
                           }
                         ],
                         "valueType": "embed"
@@ -303,7 +303,7 @@
                       "value": "blades"
                     }
                   ],
-                  "name": "SkinMeshDataProperties"
+                  "name": 1628559524
                 }
               },
               {
@@ -347,7 +347,7 @@
                       "value": 12
                     }
                   ],
-                  "name": "CharacterHealthBarDataRecord"
+                  "name": 297212766
                 }
               },
               {
@@ -356,7 +356,7 @@
                 "value": "Characters/Sion/Skins/Skin0/Resources"
               }
             ],
-            "name": "SkinCharacterDataProperties"
+            "name": 2607278582
           }
         },
         {
@@ -369,247 +369,247 @@
                 "value": {
                   "items": [
                     {
-                      "key": "Sion_BA_Tar1",
+                      "key": 1572902591,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_BA_Tar1"
                     },
                     {
-                      "key": "Sion_BA_Tar2",
+                      "key": 1589680210,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_BA_Tar2"
                     },
                     {
-                      "key": "Sion_BA_Tar3",
+                      "key": 1606457829,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_BA_Tar3"
                     },
                     {
-                      "key": "Sion_BA_Tar_Crit",
+                      "key": 1412638097,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_BA_Tar_Crit"
                     },
                     {
-                      "key": "Sion_BA_Tower1",
+                      "key": 891632321,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_BA_Tower1"
                     },
                     {
-                      "key": "Sion_BA_trail1",
+                      "key": 1626615838,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_BA_trail1"
                     },
                     {
-                      "key": "Sion_BA_trail2",
+                      "key": 1609838219,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_BA_trail2"
                     },
                     {
-                      "key": "Sion_BA_trail3",
+                      "key": 1593060600,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_BA_trail3"
                     },
                     {
-                      "key": "Sion_BA_trail4",
+                      "key": 1710503933,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_BA_trail4"
                     },
                     {
-                      "key": "Sion_emote_dance_in_sound",
+                      "key": 3685951023,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_emote_dance_in_sound"
                     },
                     {
-                      "key": "Sion_emote_death_sound",
+                      "key": 98083222,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_emote_death_sound"
                     },
                     {
-                      "key": "Sion_emote_joke_sound",
+                      "key": 1801366927,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_emote_joke_sound"
                     },
                     {
-                      "key": "Sion_Emote_Laugh",
+                      "key": 4071767745,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Emote_Laugh"
                     },
                     {
-                      "key": "Sion_emote_laugh_sound",
+                      "key": 1264588209,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_emote_laugh_sound"
                     },
                     {
-                      "key": "Sion_emote_taunt_sound",
+                      "key": 3042270880,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_emote_taunt_sound"
                     },
                     {
-                      "key": "Sion_E_Buf",
+                      "key": 535945014,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_E_Buf"
                     },
                     {
-                      "key": "Sion_E_Buf_champ",
+                      "key": 4003184558,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_E_Buf_champ"
                     },
                     {
-                      "key": "Sion_E_Cas",
+                      "key": 2826770002,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_E_Cas"
                     },
                     {
-                      "key": "Sion_E_Minion",
+                      "key": 1559300287,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_E_Minion"
                     },
                     {
-                      "key": "Sion_E_Mis",
+                      "key": 3898059676,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_E_Mis"
                     },
                     {
-                      "key": "Sion_E_Sound",
+                      "key": 2963091528,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_E_Sound"
                     },
                     {
-                      "key": "Sion_E_Tar",
+                      "key": 666960376,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_E_Tar"
                     },
                     {
-                      "key": "Sion_Passive_Ax",
+                      "key": 1776974582,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Passive_Ax"
                     },
                     {
-                      "key": "Sion_Passive_Cas",
+                      "key": 1969533636,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Passive_Cas"
                     },
                     {
-                      "key": "Sion_Passive_Hand",
+                      "key": 2706972774,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Passive_Hand"
                     },
                     {
-                      "key": "Sion_Passive_Skin",
+                      "key": 130859142,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Passive_Skin"
                     },
                     {
-                      "key": "Sion_Passive_Smoke",
+                      "key": 3263492976,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Passive_Smoke"
                     },
                     {
-                      "key": "Sion_Passive_Speed",
+                      "key": 617563498,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Passive_Speed"
                     },
                     {
-                      "key": "Sion_Passive_Tar",
+                      "key": 3217075478,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Passive_Tar"
                     },
                     {
-                      "key": "Sion_Q1_tar",
+                      "key": 2268906123,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Q1_tar"
                     },
                     {
-                      "key": "Sion_Q2_tar",
+                      "key": 1051861818,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Q2_tar"
                     },
                     {
-                      "key": "Sion_Q3_tar",
+                      "key": 578835881,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Q3_tar"
                     },
                     {
-                      "key": "Sion_Q_Cas",
+                      "key": 2362694638,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Q_Cas"
                     },
                     {
-                      "key": "Sion_Q_Cas1_weapon",
+                      "key": 2188830982,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Q_Cas1_weapon"
                     },
                     {
-                      "key": "Sion_Q_Cas2_weapon",
+                      "key": 2673306957,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Q_Cas2_weapon"
                     },
                     {
-                      "key": "Sion_Q_Cas3",
+                      "key": 2390957287,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Q_Cas3"
                     },
                     {
-                      "key": "Sion_Q_Cas3_weapon",
+                      "key": 3672421052,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Q_Cas3_weapon"
                     },
                     {
-                      "key": "Sion_Q_Hit1",
+                      "key": 773245089,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Q_Hit1"
                     },
                     {
-                      "key": "Sion_Q_Hit2",
+                      "key": 722912232,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Q_Hit2"
                     },
                     {
-                      "key": "Sion_Q_Hit3",
+                      "key": 739689851,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Q_Hit3"
                     },
                     {
-                      "key": "Sion_Q_Indicator",
+                      "key": 310035710,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Q_Indicator"
                     },
                     {
-                      "key": "Sion_Q_Indicator2",
+                      "key": 3812871460,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Q_Indicator2"
                     },
                     {
-                      "key": "Sion_Q_Indicator3",
+                      "key": 3829649079,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Q_Indicator3"
                     },
                     {
-                      "key": "Sion_Q_Indicator_Red",
+                      "key": 544211154,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Q_Indicator_Red"
                     },
                     {
-                      "key": "Sion_Q_Indicator_Red2",
+                      "key": 4031864992,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Q_Indicator_Red2"
                     },
                     {
-                      "key": "Sion_Q_mis_01",
+                      "key": 1244806962,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_Q_mis_01"
                     },
                     {
-                      "key": "Sion_recall_start_sound",
+                      "key": 2934912659,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_recall_start_sound"
                     },
                     {
-                      "key": "Sion_R_Cas",
+                      "key": 3772550327,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_R_Cas"
                     },
                     {
-                      "key": "Sion_R_Explosion",
+                      "key": 3578671453,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_R_Explosion"
                     },
                     {
-                      "key": "Sion_R_GlobalSound",
+                      "key": 1203820452,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_R_GlobalSound"
                     },
                     {
-                      "key": "Sion_R_Pulverize_cas_01",
+                      "key": 350291294,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_R_Pulverize_cas_01"
                     },
                     {
-                      "key": "Sion_R_Skin",
+                      "key": 3801803215,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_R_Skin"
                     },
                     {
-                      "key": "Sion_R_Tar",
+                      "key": 3100562057,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_R_Tar"
                     },
                     {
-                      "key": "Sion_VO_transition",
+                      "key": 3296055172,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_VO_transition"
                     },
                     {
-                      "key": "Sion_VO_transitionultra",
+                      "key": 2943113646,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_VO_transitionultra"
                     },
                     {
-                      "key": "Sion_W_Cas",
+                      "key": 435932996,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_W_Cas"
                     },
                     {
-                      "key": "Sion_W_Nova",
+                      "key": 626861061,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_W_Nova"
                     },
                     {
-                      "key": "Sion_W_Nova_Tar",
+                      "key": 1318182909,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_W_Nova_Tar"
                     },
                     {
-                      "key": "Sion_W_Precas",
+                      "key": 3431111689,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_W_Precas"
                     },
                     {
-                      "key": "Sion_W_Shield",
+                      "key": 40702958,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_W_Shield"
                     },
                     {
-                      "key": "Sion_W_Sound",
+                      "key": 2087072758,
                       "value": "Characters/Sion/Skins/Skin0/Particles/Sion_Base_W_Sound"
                     }
                   ],

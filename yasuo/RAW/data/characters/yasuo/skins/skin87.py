@@ -47468,9 +47468,9 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
                 meshRenderFlags: u8 = 0
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
                 LegacySimple: pointer = VfxEmitterLegacySimple {
                     birthScale: embed = ValueFloat {
                         constantValue: f32 = 0
@@ -47535,7 +47535,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 25, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Indicator_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Indicator_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 5, 0 }
                 }
@@ -47593,7 +47593,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 35, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Indicator_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Indicator_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 5, 0 }
                 }
@@ -47658,7 +47658,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1.10000002, 1.10000002 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                 }
@@ -47855,7 +47855,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -48044,7 +48044,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -48116,7 +48116,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1.10000002, 1.10000002 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -48279,7 +48279,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_02.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -48334,7 +48334,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -48545,7 +48545,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -48668,7 +48668,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 isUniformScale: flag = true
@@ -48736,7 +48736,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -48801,7 +48801,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -48815,7 +48815,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 105, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_E__TimerMain001.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_E__TimerMain001.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -48985,7 +48985,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 isUniformScale: flag = true
@@ -49057,7 +49057,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Death_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Death_Flecks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -49111,7 +49111,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -49125,9 +49125,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 105, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerMain_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerMain_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_03.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_03.tex"
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -49189,7 +49189,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -49203,7 +49203,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 105, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerMain_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerMain_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -49259,7 +49259,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -49273,7 +49273,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 105, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_E__TimerMain002.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_E__TimerMain002.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_E_timer1"
@@ -49338,7 +49338,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -49352,7 +49352,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 105, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_E__TimerMain001.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_E__TimerMain001.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -49522,7 +49522,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 isUniformScale: flag = true
@@ -49594,7 +49594,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Death_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Death_Flecks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -49648,7 +49648,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -49662,9 +49662,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 105, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerMain_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerMain_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_03.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_03.tex"
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -49726,7 +49726,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -49740,7 +49740,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 105, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerMain_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerMain_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -49796,7 +49796,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -49810,7 +49810,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 105, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_E__TimerMain002.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_E__TimerMain002.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_E_timer2"
@@ -49875,7 +49875,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -49889,7 +49889,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 105, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_E__TimerMain001.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_E__TimerMain001.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -50059,7 +50059,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 isUniformScale: flag = true
@@ -50131,7 +50131,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Death_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Death_Flecks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -50185,7 +50185,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -50199,9 +50199,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 105, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerMain_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerMain_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_03.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_03.tex"
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -50263,7 +50263,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -50277,7 +50277,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 105, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerMain_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerMain_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -50333,7 +50333,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -50347,7 +50347,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 105, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_E__TimerMain002.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_E__TimerMain002.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_E_timer3"
@@ -50448,7 +50448,7 @@ entries: map[hash,embed] = {
                     flags: u8 = 1
                     Size: vec3 = { 10, 50, 10 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Death_Flicker_04.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Death_Flicker_04.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.505882382, 0.721568644, 1 }
@@ -50482,7 +50482,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 0.800000012
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -50560,7 +50560,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Death_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Death_Flecks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -50625,7 +50625,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -50639,7 +50639,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 105, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_E__TimerMain001.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_E__TimerMain001.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -50809,7 +50809,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 isUniformScale: flag = true
@@ -50881,7 +50881,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Death_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Death_Flecks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -50935,7 +50935,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -50949,9 +50949,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 105, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerMain_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerMain_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_03.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_03.tex"
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -51013,7 +51013,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -51027,7 +51027,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 105, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerMain_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerMain_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -51083,7 +51083,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -51097,7 +51097,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 105, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_E__TimerMain002.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_E__TimerMain002.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_E_timer4"
@@ -51163,7 +51163,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -51177,9 +51177,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 105, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerMain_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerMain_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_03.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_03.tex"
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -51241,7 +51241,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -51255,7 +51255,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 105, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerMain_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerMain_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -51311,7 +51311,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -51325,7 +51325,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 105, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_E__TimerMain001.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_E__TimerMain001.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -51495,7 +51495,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 isUniformScale: flag = true
@@ -51567,7 +51567,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Death_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Death_Flecks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -51625,7 +51625,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_E_TimerErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -51639,7 +51639,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 105, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_E__TimerMain002.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_E__TimerMain002.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_E_timer5"
@@ -51673,7 +51673,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_Slashes_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_Slashes_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -51773,7 +51773,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_Slashes_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_Slashes_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                 }
@@ -51863,7 +51863,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Slash_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Slash_01.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -51947,7 +51947,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Slash_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Slash_01.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -52040,7 +52040,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin56_AAAA_Flare_omnimax.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin56_AAAA_Flare_omnimax.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.150000006
@@ -52088,7 +52088,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Eye2.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Eye2.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.150000006
@@ -52152,7 +52152,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.150000006
@@ -52198,7 +52198,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_R_impact_tar"
@@ -52344,7 +52344,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_sheath_ring.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_sheath_ring.tex"
                 blendMode: u8 = 1
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -52406,7 +52406,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_base_taunt_spit.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_base_taunt_spit.tex"
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 4 }
             }
@@ -52557,7 +52557,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_sheath_ring.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_sheath_ring.tex"
                 blendMode: u8 = 1
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -52596,7 +52596,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_E_dash_smoke.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_E_dash_smoke.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 1
                 texDiv: vec2 = { 2, 2 }
@@ -52618,10 +52618,10 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_Q_sound"
@@ -52690,7 +52690,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1.10000002, 1.10000002 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -52753,7 +52753,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1.10000002, 1.10000002 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -52816,7 +52816,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1.10000002, 1.10000002 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -52879,7 +52879,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1.10000002, 1.10000002 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_Z_Dance_Glow_FireBro_S"
@@ -52911,7 +52911,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallCap_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallCap_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -52951,7 +52951,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -52965,7 +52965,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 4.80000019, 3.5, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -53051,7 +53051,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -53091,7 +53091,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -53105,7 +53105,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 4.80000019, 3, 3 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -53191,7 +53191,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -53235,7 +53235,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -53248,7 +53248,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 4.69999981, 3, 3 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -53311,7 +53311,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.600000024, 0.800000012 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.800000012 }
                     }
@@ -53340,7 +53340,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -53380,7 +53380,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -53394,7 +53394,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 4.5, 3, 3 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -53457,7 +53457,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 0.800000012 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.699999988 }
                     }
@@ -53486,7 +53486,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -53526,7 +53526,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -53540,7 +53540,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 3.29999995, 3, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0.600000024 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -53608,7 +53608,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.tex"
                     texDivMult: vec2 = { 0.5, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.25, 0.600000024 }
@@ -53668,7 +53668,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -53701,7 +53701,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 3.29999995, 4, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -53772,7 +53772,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 2, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -53832,7 +53832,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -53868,7 +53868,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.79999995, 1.79999995, 1.79999995 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
@@ -53897,7 +53897,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -53959,12 +53959,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.29999995, 1 }
                     }
@@ -54027,7 +54027,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -54089,12 +54089,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.29999995, 1 }
                     }
@@ -54157,7 +54157,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -54219,12 +54219,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye3.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye3.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.699999988 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -54284,7 +54284,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -54346,12 +54346,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye2.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye2.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -54423,7 +54423,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -54485,7 +54485,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -54534,9 +54534,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 340, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall03.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
                     }
@@ -54595,9 +54595,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 340, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -54655,9 +54655,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 340, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall04.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall04.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -54718,7 +54718,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 340, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -54925,7 +54925,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -55148,7 +55148,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -55360,7 +55360,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -55408,7 +55408,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 emissionMeshScale: f32 = -1
-                emissionMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_CrackEmitter_01.SKINS_Yasuo_Skin87.scb"
+                emissionMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_CrackEmitter_01.scb"
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -5, 18 }
                 }
@@ -55485,7 +55485,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -55535,7 +55535,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack_alpha.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack_alpha.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -55556,7 +55556,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 100, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.772549033, 0.749019623, 0.843137264, 1 }
@@ -55586,7 +55586,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_W_windwall_enemy_05"
@@ -55619,7 +55619,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallCap_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallCap_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -55659,7 +55659,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -55673,7 +55673,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 4, 3, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -55759,7 +55759,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -55799,7 +55799,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -55813,7 +55813,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 4, 3, 3 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -55899,7 +55899,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -55943,7 +55943,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -55956,7 +55956,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 3.9000001, 3, 3 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -56019,7 +56019,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.600000024, 0.800000012 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.800000012 }
                     }
@@ -56048,7 +56048,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -56088,7 +56088,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -56102,7 +56102,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 3.9000001, 3, 3 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -56165,7 +56165,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 0.800000012 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.699999988 }
                     }
@@ -56194,7 +56194,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -56234,7 +56234,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -56248,7 +56248,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2.70000005, 3, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0.600000024 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -56316,7 +56316,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.tex"
                     texDivMult: vec2 = { 0.5, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.25, 0.600000024 }
@@ -56376,7 +56376,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -56409,7 +56409,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2.70000005, 3.5, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -56480,7 +56480,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1.70000005, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -56540,7 +56540,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -56576,7 +56576,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.79999995, 1.79999995, 1.79999995 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
@@ -56605,7 +56605,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -56667,12 +56667,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.29999995, 1 }
                     }
@@ -56735,7 +56735,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -56797,12 +56797,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.29999995, 1 }
                     }
@@ -56865,7 +56865,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -56927,12 +56927,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye3.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye3.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.699999988 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -56992,7 +56992,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -57054,12 +57054,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye2.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye2.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -57131,7 +57131,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -57193,7 +57193,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -57242,9 +57242,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 290, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall03.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
                     }
@@ -57303,9 +57303,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 290, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -57363,9 +57363,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 290, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall04.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall04.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -57426,7 +57426,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 290, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -57633,7 +57633,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -57856,7 +57856,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -58068,7 +58068,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -58116,7 +58116,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 emissionMeshScale: f32 = -1
-                emissionMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_CrackEmitter_01.SKINS_Yasuo_Skin87.scb"
+                emissionMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_CrackEmitter_01.scb"
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -5, 18 }
                 }
@@ -58193,7 +58193,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -58243,7 +58243,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack_alpha.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack_alpha.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -58264,7 +58264,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 100, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.772549033, 0.749019623, 0.843137264, 1 }
@@ -58294,7 +58294,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_W_windwall_enemy_04"
@@ -58327,7 +58327,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallCap_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallCap_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -58367,7 +58367,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -58384,7 +58384,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -58470,7 +58470,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -58510,7 +58510,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -58527,7 +58527,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -58613,7 +58613,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -58657,7 +58657,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -58673,7 +58673,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -58736,7 +58736,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.5, 0.800000012 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.800000012 }
                     }
@@ -58765,7 +58765,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -58805,7 +58805,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -58822,7 +58822,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -58885,7 +58885,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.800000012, 0.800000012 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.699999988 }
                     }
@@ -58914,7 +58914,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -58954,7 +58954,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -58971,7 +58971,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0.600000024 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -59039,7 +59039,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.tex"
                     texDivMult: vec2 = { 0.5, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.25, 0.600000024 }
@@ -59099,7 +59099,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -59135,7 +59135,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -59206,7 +59206,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1.70000005, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -59266,7 +59266,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -59310,7 +59310,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.79999995, 1.79999995, 1.79999995 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
@@ -59339,7 +59339,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -59409,12 +59409,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.29999995, 1 }
                     }
@@ -59477,7 +59477,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -59547,12 +59547,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.29999995, 1 }
                     }
@@ -59615,7 +59615,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -59685,12 +59685,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye3.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye3.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.699999988 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -59750,7 +59750,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -59820,12 +59820,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye2.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye2.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -59897,7 +59897,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -59967,7 +59967,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -60019,9 +60019,9 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.850000024, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall03.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
                     }
@@ -60083,9 +60083,9 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.850000024, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -60146,9 +60146,9 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.850000024, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall04.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall04.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -60212,7 +60212,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.850000024, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -60420,7 +60420,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -60644,7 +60644,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -60857,7 +60857,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -60905,7 +60905,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 emissionMeshScale: f32 = -0.800000012
-                emissionMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_CrackEmitter_01.SKINS_Yasuo_Skin87.scb"
+                emissionMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_CrackEmitter_01.scb"
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -5, 18 }
                 }
@@ -60982,7 +60982,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -61032,7 +61032,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack_alpha.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack_alpha.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -61053,7 +61053,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 100, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.772549033, 0.749019623, 0.843137264, 1 }
@@ -61083,7 +61083,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_W_windwall_enemy_03"
@@ -61116,7 +61116,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallCap_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallCap_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -61156,7 +61156,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -61173,7 +61173,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -61259,7 +61259,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -61299,7 +61299,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -61316,7 +61316,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -61402,7 +61402,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -61446,7 +61446,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -61462,7 +61462,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -61525,7 +61525,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.5, 0.800000012 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.800000012 }
                     }
@@ -61554,7 +61554,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -61594,7 +61594,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -61611,7 +61611,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -61674,7 +61674,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.800000012, 0.800000012 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.699999988 }
                     }
@@ -61703,7 +61703,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -61743,7 +61743,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -61760,7 +61760,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0.600000024 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -61828,7 +61828,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.tex"
                     texDivMult: vec2 = { 0.5, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.25, 0.600000024 }
@@ -61888,7 +61888,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -61924,7 +61924,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -61995,7 +61995,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1.5, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -62055,7 +62055,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -62099,7 +62099,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.79999995, 1.79999995, 1.79999995 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
@@ -62128,7 +62128,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -62198,12 +62198,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.29999995, 1 }
                     }
@@ -62266,7 +62266,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -62336,12 +62336,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.29999995, 1 }
                     }
@@ -62404,7 +62404,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -62474,12 +62474,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye3.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye3.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.699999988 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -62539,7 +62539,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -62609,12 +62609,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye2.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye2.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -62686,7 +62686,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -62756,7 +62756,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -62808,9 +62808,9 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.850000024, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall03.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
                     }
@@ -62872,9 +62872,9 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.850000024, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -62935,9 +62935,9 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.850000024, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall04.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall04.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -63001,7 +63001,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.850000024, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -63209,7 +63209,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -63433,7 +63433,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -63646,7 +63646,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -63694,7 +63694,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 emissionMeshScale: f32 = -0.800000012
-                emissionMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_CrackEmitter_01.SKINS_Yasuo_Skin87.scb"
+                emissionMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_CrackEmitter_01.scb"
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -5, 18 }
                 }
@@ -63771,7 +63771,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -63821,7 +63821,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack_alpha.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack_alpha.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -63842,7 +63842,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 100, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.772549033, 0.749019623, 0.843137264, 1 }
@@ -63872,7 +63872,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_W_windwall_enemy_02"
@@ -63906,7 +63906,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -63950,7 +63950,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.79999995, 1.79999995, 1.79999995 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
@@ -63979,7 +63979,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -64049,12 +64049,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.29999995, 1 }
                     }
@@ -64117,7 +64117,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -64187,12 +64187,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.29999995, 1 }
                     }
@@ -64255,7 +64255,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -64325,12 +64325,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye3.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye3.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.699999988 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -64390,7 +64390,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -64460,12 +64460,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye2.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye2.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -64537,7 +64537,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -64607,7 +64607,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -64659,9 +64659,9 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.699999988, 0.649999976, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall03.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
                     }
@@ -64723,9 +64723,9 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.699999988, 0.649999976, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -64786,9 +64786,9 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.699999988, 0.649999976, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall04.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall04.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -64852,7 +64852,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.699999988, 0.649999976, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -65060,7 +65060,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -65284,7 +65284,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -65497,7 +65497,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -65545,7 +65545,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 emissionMeshScale: f32 = -0.649999976
-                emissionMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_CrackEmitter_01.SKINS_Yasuo_Skin87.scb"
+                emissionMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_CrackEmitter_01.scb"
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -5, 18 }
                 }
@@ -65622,7 +65622,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -65672,7 +65672,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack_alpha.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack_alpha.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -65693,7 +65693,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 100, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.772549033, 0.749019623, 0.843137264, 1 }
@@ -65723,7 +65723,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -65748,7 +65748,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallCap_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallCap_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -65788,7 +65788,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -65805,7 +65805,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.670000017, 1, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -65891,7 +65891,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -65931,7 +65931,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -65948,7 +65948,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.670000017, 1, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -66034,7 +66034,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -66078,7 +66078,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -66094,7 +66094,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.670000017, 1, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -66157,7 +66157,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.400000006, 0.800000012 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.800000012 }
                     }
@@ -66186,7 +66186,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -66226,7 +66226,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -66243,7 +66243,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.670000017, 1, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -66306,7 +66306,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.600000024, 0.800000012 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.699999988 }
                     }
@@ -66335,7 +66335,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -66375,7 +66375,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -66392,7 +66392,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.670000017, 1, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0.600000024 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -66463,7 +66463,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.800000012, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.tex"
                     texDivMult: vec2 = { 0.5, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.25, 0.600000024 }
@@ -66523,7 +66523,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -66559,7 +66559,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.670000017, 1, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -66630,7 +66630,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1.20000005, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -66730,7 +66730,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_02.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_Z_Joke_Firebro_Idle"
@@ -66747,10 +66747,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_Emote_dance_sound"
@@ -66794,7 +66794,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.04999995, 0.970000029, 1.10000002 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Ekko_Skin57_E_Hit2ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Ekko_Skin57_E_Hit2ball32_02.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_Q2_Sword"
@@ -66815,7 +66815,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "flat"
                 importance: u8 = 3
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-rampdown.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-rampdown.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
                 birthRotation0: embed = ValueVector3 {
@@ -66888,7 +66888,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Flare-Sun_17.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Flare-Sun_17.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -66935,7 +66935,7 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_alpha_03.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_alpha_03.tex"
                 meshRenderFlags: u8 = 0
                 colorLookUpScales: vec2 = { 1, 0.400000006 }
                 isUniformScale: flag = true
@@ -67008,7 +67008,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Flare-Rainbow_purp_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Flare-Rainbow_purp_01.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_R_cas_marker_01"
@@ -67066,7 +67066,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 miscRenderFlags: u8 = 1
@@ -67136,7 +67136,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -67191,7 +67191,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_basic_attack_impact_slash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_basic_attack_impact_slash.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
@@ -67301,7 +67301,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01_dissolve.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01_dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -67361,7 +67361,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -67557,7 +67557,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -67642,7 +67642,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_AA_Blast_energy.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_AA_Blast_energy.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isRandomStartFrame: flag = true
@@ -67734,7 +67734,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_Particles_1_18.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_Particles_1_18.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -67941,7 +67941,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -68186,7 +68186,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -68392,7 +68392,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -68506,7 +68506,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -68646,7 +68646,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -68707,7 +68707,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
                 texAddressModeBase: u8 = 2
             }
         }
@@ -68817,7 +68817,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01_dissolve.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01_dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -68876,7 +68876,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -69072,7 +69072,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -69154,7 +69154,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_AA_Blast_energy.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_AA_Blast_energy.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isRandomStartFrame: flag = true
@@ -69246,7 +69246,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_Particles_1_18.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_Particles_1_18.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -69453,7 +69453,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -69698,7 +69698,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -69753,7 +69753,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_basic_attack_impact_slash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_basic_attack_impact_slash.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
@@ -69960,7 +69960,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -70074,7 +70074,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -70210,7 +70210,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -70263,7 +70263,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 miscRenderFlags: u8 = 1
@@ -70333,7 +70333,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -70395,7 +70395,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
                 texAddressModeBase: u8 = 2
             }
         }
@@ -70512,7 +70512,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01_dissolve.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01_dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -70572,7 +70572,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -70768,7 +70768,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -70854,7 +70854,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_AA_Blast_energy.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_AA_Blast_energy.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isRandomStartFrame: flag = true
@@ -70946,7 +70946,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_Particles_1_18.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_Particles_1_18.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -71091,7 +71091,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -71294,7 +71294,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -71539,7 +71539,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -71594,7 +71594,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_basic_attack_impact_slash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_basic_attack_impact_slash.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
@@ -71657,7 +71657,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -71862,7 +71862,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -71976,7 +71976,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -72028,7 +72028,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 miscRenderFlags: u8 = 1
@@ -72098,7 +72098,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -72161,7 +72161,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ring_02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ring_02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -72229,7 +72229,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ring_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ring_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.270000011
@@ -72254,7 +72254,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_passive_shield.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_passive_shield.tex"
                 blendMode: u8 = 2
                 Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.5 }
@@ -72303,7 +72303,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Q_sword_shadow.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Q_sword_shadow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -72368,7 +72368,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Q_indicator.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Q_indicator.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.230000004
@@ -72400,7 +72400,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Swirl_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Swirl_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -72444,12 +72444,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_RibbinHead_09.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_RibbinHead_09.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -3, 0 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03.tex"
                     texDivMult: vec2 = { 0.25, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -4, 0 }
@@ -72486,7 +72486,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Swirl_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Swirl_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -72530,7 +72530,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_RibbinHead_08.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_RibbinHead_08.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -3, 0 }
                 }
@@ -72565,7 +72565,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Swirl_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Swirl_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -72610,12 +72610,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_RibbinHead_09.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_RibbinHead_09.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -3, 0 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03.tex"
                     texDivMult: vec2 = { 0.25, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -4, 0 }
@@ -72652,7 +72652,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Swirl_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Swirl_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -72696,7 +72696,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_RibbinHead_08.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_RibbinHead_08.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -3, 0 }
                 }
@@ -72731,7 +72731,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Geo_02.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Geo_02.scb"
                     }
                 }
                 blendMode: u8 = 5
@@ -72769,7 +72769,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Dissolve_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Dissolve_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -72820,7 +72820,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Noise01_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Noise01_03.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.5, 0 }
                 }
@@ -72913,7 +72913,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -73134,7 +73134,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -73194,7 +73194,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -73252,7 +73252,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -73307,7 +73307,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_SlashErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_SlashErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -73357,7 +73357,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Slash_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Slash_01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.270000011
@@ -73401,7 +73401,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_SlashErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_SlashErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -73451,7 +73451,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Slash_alpha.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Slash_alpha.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_Q_WindStrike_02"
@@ -73549,7 +73549,7 @@ entries: map[hash,embed] = {
                     flags: u8 = 1
                     Size: vec3 = { 10, 50, 10 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Death_Flicker_04.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Death_Flicker_04.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.647058845, 0.729411781, 1 }
@@ -73584,7 +73584,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 0.800000012
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -73662,7 +73662,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Death_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Death_Flecks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -73773,7 +73773,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Spark01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Spark01.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_Z_Joke_PopOut"
@@ -73809,7 +73809,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_basic_attack_mesh_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_basic_attack_mesh_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -73836,7 +73836,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Basic_attack_trail.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Basic_attack_trail.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -3.0999999, 0 }
@@ -73956,7 +73956,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01_dissolve.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01_dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -74015,7 +74015,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -74211,7 +74211,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -74296,7 +74296,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_AA_Blast_energy.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_AA_Blast_energy.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isRandomStartFrame: flag = true
@@ -74388,7 +74388,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_Particles_1_18.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_Particles_1_18.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -74595,7 +74595,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -74840,7 +74840,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -74895,7 +74895,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_basic_attack_impact_slash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_basic_attack_impact_slash.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
@@ -75102,7 +75102,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -75216,7 +75216,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -75268,7 +75268,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 miscRenderFlags: u8 = 1
@@ -75338,7 +75338,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -75480,7 +75480,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -75541,7 +75541,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
                 texAddressModeBase: u8 = 2
             }
         }
@@ -75638,7 +75638,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -75729,7 +75729,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -75785,7 +75785,7 @@ entries: map[hash,embed] = {
                 disableBackfaceCull: bool = true
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_White_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_White_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -75978,7 +75978,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -76070,7 +76070,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -76263,7 +76263,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -76454,7 +76454,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -76579,7 +76579,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 isUniformScale: flag = true
@@ -76689,7 +76689,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -76865,7 +76865,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -76951,7 +76951,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.79999995, 0 }
                 }
@@ -77043,7 +77043,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.79999995, 0 }
                 }
@@ -77069,7 +77069,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Mesh.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Mesh.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -77181,7 +77181,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_BlastRing.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_BlastRing.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -2 }
                 }
@@ -77189,7 +77189,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0, 0.5 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Windblast.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Windblast.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -77255,7 +77255,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1.10000002, 1.10000002 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_White_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_White_01.tex"
             }
         }
         visibilityRadius: f32 = 99999
@@ -77288,7 +77288,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallCap_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallCap_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -77328,7 +77328,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -77345,7 +77345,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -77431,7 +77431,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -77471,7 +77471,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -77488,7 +77488,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -77574,7 +77574,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -77618,7 +77618,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -77634,7 +77634,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -77697,7 +77697,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.5, 0.800000012 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.800000012 }
                     }
@@ -77726,7 +77726,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -77766,7 +77766,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -77783,7 +77783,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -77846,7 +77846,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.800000012, 0.800000012 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.699999988 }
                     }
@@ -77875,7 +77875,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -77915,7 +77915,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -77932,7 +77932,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0.600000024 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -78000,7 +78000,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.tex"
                     texDivMult: vec2 = { 0.5, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.25, 0.600000024 }
@@ -78060,7 +78060,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -78096,7 +78096,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -78167,7 +78167,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1.70000005, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -78227,7 +78227,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -78271,7 +78271,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.79999995, 1.79999995, 1.79999995 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
@@ -78300,7 +78300,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -78370,12 +78370,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.29999995, 1 }
                     }
@@ -78438,7 +78438,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -78508,12 +78508,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.29999995, 1 }
                     }
@@ -78576,7 +78576,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -78646,12 +78646,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye3.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye3.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.699999988 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -78711,7 +78711,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -78781,12 +78781,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye2.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye2.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -78858,7 +78858,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -78928,7 +78928,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -78980,9 +78980,9 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.850000024, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall03.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
                     }
@@ -79044,9 +79044,9 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.850000024, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -79107,9 +79107,9 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.850000024, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall04.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall04.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -79173,7 +79173,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.850000024, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -79381,7 +79381,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -79605,7 +79605,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -79818,7 +79818,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -79866,7 +79866,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 emissionMeshScale: f32 = -0.800000012
-                emissionMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_CrackEmitter_01.SKINS_Yasuo_Skin87.scb"
+                emissionMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_CrackEmitter_01.scb"
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -5, 18 }
                 }
@@ -79943,7 +79943,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -79993,7 +79993,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack_alpha.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack_alpha.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -80014,7 +80014,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 100, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.772549033, 0.749019623, 0.843137264, 1 }
@@ -80044,7 +80044,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_W_windwall3"
@@ -80083,7 +80083,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallCap_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallCap_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -80123,7 +80123,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -80140,7 +80140,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -80226,7 +80226,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -80266,7 +80266,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -80283,7 +80283,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -80369,7 +80369,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -80413,7 +80413,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -80429,7 +80429,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -80492,7 +80492,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.5, 0.800000012 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.800000012 }
                     }
@@ -80521,7 +80521,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -80561,7 +80561,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -80578,7 +80578,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -80641,7 +80641,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.800000012, 0.800000012 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.699999988 }
                     }
@@ -80670,7 +80670,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -80710,7 +80710,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -80727,7 +80727,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0.600000024 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -80795,7 +80795,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.tex"
                     texDivMult: vec2 = { 0.5, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.25, 0.600000024 }
@@ -80855,7 +80855,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -80891,7 +80891,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.850000024, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -80962,7 +80962,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1.5, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -81022,7 +81022,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -81066,7 +81066,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.79999995, 1.79999995, 1.79999995 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
@@ -81095,7 +81095,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -81165,12 +81165,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.29999995, 1 }
                     }
@@ -81233,7 +81233,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -81303,12 +81303,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.29999995, 1 }
                     }
@@ -81371,7 +81371,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -81441,12 +81441,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye3.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye3.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.699999988 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -81506,7 +81506,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -81576,12 +81576,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye2.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye2.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -81653,7 +81653,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -81723,7 +81723,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -81775,9 +81775,9 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.850000024, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall03.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
                     }
@@ -81839,9 +81839,9 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.850000024, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -81902,9 +81902,9 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.850000024, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall04.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall04.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -81968,7 +81968,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.850000024, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -82176,7 +82176,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -82400,7 +82400,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -82613,7 +82613,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -82661,7 +82661,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 emissionMeshScale: f32 = -0.800000012
-                emissionMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_CrackEmitter_01.SKINS_Yasuo_Skin87.scb"
+                emissionMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_CrackEmitter_01.scb"
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -5, 18 }
                 }
@@ -82738,7 +82738,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -82788,7 +82788,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack_alpha.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack_alpha.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -82809,7 +82809,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 100, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.772549033, 0.749019623, 0.843137264, 1 }
@@ -82839,7 +82839,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_W_windwall2"
@@ -82876,7 +82876,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallCap_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallCap_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -82916,7 +82916,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -82933,7 +82933,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.670000017, 1, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -83019,7 +83019,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -83059,7 +83059,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -83076,7 +83076,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.670000017, 1, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -83162,7 +83162,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -83206,7 +83206,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -83222,7 +83222,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.670000017, 1, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -83285,7 +83285,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.400000006, 0.800000012 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.800000012 }
                     }
@@ -83314,7 +83314,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -83354,7 +83354,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -83371,7 +83371,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.670000017, 1, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -83434,7 +83434,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.600000024, 0.800000012 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.699999988 }
                     }
@@ -83463,7 +83463,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -83503,7 +83503,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -83520,7 +83520,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.670000017, 1, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0.600000024 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -83591,7 +83591,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.800000012, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.tex"
                     texDivMult: vec2 = { 0.5, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.25, 0.600000024 }
@@ -83651,7 +83651,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -83687,7 +83687,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.670000017, 1, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -83758,7 +83758,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1.20000005, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -83818,7 +83818,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -83862,7 +83862,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.79999995, 1.79999995, 1.79999995 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
@@ -83891,7 +83891,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -83961,12 +83961,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.29999995, 1 }
                     }
@@ -84029,7 +84029,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -84099,12 +84099,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.29999995, 1 }
                     }
@@ -84167,7 +84167,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -84237,12 +84237,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye3.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye3.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.699999988 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -84302,7 +84302,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -84372,12 +84372,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye2.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye2.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -84449,7 +84449,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -84519,7 +84519,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -84571,9 +84571,9 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.699999988, 0.649999976, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall03.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
                     }
@@ -84635,9 +84635,9 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.699999988, 0.649999976, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -84698,9 +84698,9 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.699999988, 0.649999976, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall04.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall04.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -84764,7 +84764,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.699999988, 0.649999976, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -84972,7 +84972,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -85196,7 +85196,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -85409,7 +85409,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -85457,7 +85457,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 emissionMeshScale: f32 = -0.649999976
-                emissionMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_CrackEmitter_01.SKINS_Yasuo_Skin87.scb"
+                emissionMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_CrackEmitter_01.scb"
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -5, 18 }
                 }
@@ -85534,7 +85534,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -85584,7 +85584,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack_alpha.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack_alpha.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -85605,7 +85605,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 100, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.772549033, 0.749019623, 0.843137264, 1 }
@@ -85635,7 +85635,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_W_windwall1"
@@ -85653,10 +85653,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_Emote_death_sound"
@@ -85725,7 +85725,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_bigglow02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_bigglow02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -85794,7 +85794,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.150000006
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_R_WaterAdd.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_R_WaterAdd.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0.403921574, 0.631372571, 0.160784319 }
                     }
@@ -85823,7 +85823,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.005, 1.005, 1.005 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.tex"
                 emitterUvScrollRate: vec2 = { 0, -1 }
             }
             VfxEmitterDefinitionData {
@@ -85939,7 +85939,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_1Q_SmokeErode.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_1Q_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -86013,7 +86013,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_BA_sand_smoke.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_BA_sand_smoke.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -86281,7 +86281,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -86390,7 +86390,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_E_GalaxyTwirl.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_E_GalaxyTwirl.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -86488,7 +86488,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_E_GalaxyTwirl.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_E_GalaxyTwirl.tex"
                 numFrames: u16 = 4
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
@@ -86666,7 +86666,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.300000012
@@ -86848,7 +86848,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -86915,11 +86915,11 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 190, 190, 190 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_CrackGlow_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_CrackGlow_01.tex"
                 startFrame: u16 = 1
                 texDiv: vec2 = { -1, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Pantheon_Skin06_R_WingsMult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Pantheon_Skin06_R_WingsMult.tex"
                     texDivMult: vec2 = { 0.5, 0.5 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -0.100000001, 0.100000001 }
@@ -86991,7 +86991,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 190, 190, 190 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Crack_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Crack_01.tex"
                 startFrame: u16 = 1
                 texDiv: vec2 = { -1, 1 }
             }
@@ -87233,7 +87233,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -87293,7 +87293,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -87543,7 +87543,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_03.tex"
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 4 }
             }
@@ -87796,7 +87796,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_03.tex"
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 4 }
             }
@@ -87830,7 +87830,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallCap_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallCap_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -87870,7 +87870,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -87884,7 +87884,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 4.80000019, 3.5, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -87970,7 +87970,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -88010,7 +88010,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -88024,7 +88024,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 4.80000019, 3, 3 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -88292,7 +88292,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -88515,7 +88515,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -88727,7 +88727,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -88775,7 +88775,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 emissionMeshScale: f32 = -1
-                emissionMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_CrackEmitter_01.SKINS_Yasuo_Skin87.scb"
+                emissionMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_CrackEmitter_01.scb"
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -5, 18 }
                 }
@@ -88852,7 +88852,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -88902,7 +88902,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack_alpha.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack_alpha.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -88923,7 +88923,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 100, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.772549033, 0.749019623, 0.843137264, 1 }
@@ -88953,7 +88953,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -88975,7 +88975,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -89015,7 +89015,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -89029,7 +89029,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 3.29999995, 3, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0.600000024 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -89097,7 +89097,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.tex"
                     texDivMult: vec2 = { 0.5, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.25, 0.600000024 }
@@ -89157,7 +89157,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -89190,7 +89190,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 3.29999995, 4, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -89261,7 +89261,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 2, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -89344,9 +89344,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 340, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall03.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
                     }
@@ -89407,7 +89407,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 340, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -89456,9 +89456,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 340, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -89493,7 +89493,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -89537,7 +89537,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -89550,7 +89550,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 4.69999981, 3, 3 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -89613,7 +89613,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.600000024, 0.800000012 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.800000012 }
                     }
@@ -89643,7 +89643,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -89679,7 +89679,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.79999995, 1.79999995, 1.79999995 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
@@ -89708,7 +89708,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -89770,12 +89770,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.29999995, 1 }
                     }
@@ -89838,7 +89838,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -89900,12 +89900,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye2.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye2.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -89977,7 +89977,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -90039,12 +90039,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.29999995, 1 }
                     }
@@ -90107,7 +90107,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -90169,12 +90169,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye3.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye3.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.699999988 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -90234,7 +90234,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -90296,7 +90296,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -90321,7 +90321,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -90361,7 +90361,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -90375,7 +90375,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 4.5, 3, 3 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -90438,7 +90438,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 0.800000012 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.699999988 }
                     }
@@ -90493,9 +90493,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 340, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall04.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall04.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -90538,7 +90538,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallCap_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallCap_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -90578,7 +90578,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -90592,7 +90592,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 4, 3, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -90678,7 +90678,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -90718,7 +90718,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -90732,7 +90732,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 4, 3, 3 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -90818,7 +90818,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -90862,7 +90862,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -90875,7 +90875,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 3.9000001, 3, 3 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -90938,7 +90938,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.600000024, 0.800000012 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.800000012 }
                     }
@@ -90967,7 +90967,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_WallSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -91007,7 +91007,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.0500000007
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -91021,7 +91021,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 3.9000001, 3, 3 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -91084,7 +91084,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 0.800000012 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.699999988 }
                     }
@@ -91113,7 +91113,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -91153,7 +91153,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -91167,7 +91167,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2.70000005, 3, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0.600000024 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -91235,7 +91235,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.tex"
                     texDivMult: vec2 = { 0.5, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.25, 0.600000024 }
@@ -91295,7 +91295,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMid_03.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -91328,7 +91328,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2.70000005, 3.5, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_WallMult_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -91399,7 +91399,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1.70000005, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -91459,7 +91459,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -91495,7 +91495,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.79999995, 1.79999995, 1.79999995 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
@@ -91524,7 +91524,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -91586,12 +91586,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.29999995, 1 }
                     }
@@ -91654,7 +91654,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -91716,12 +91716,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.29999995, 1 }
                     }
@@ -91784,7 +91784,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -91846,12 +91846,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye3.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye3.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_Fire_Trail_Up.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.699999988 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -91911,7 +91911,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -91973,12 +91973,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye2.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye2.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -92050,7 +92050,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -92112,7 +92112,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -92161,9 +92161,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 290, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall03.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
                     }
@@ -92222,9 +92222,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 290, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -92282,9 +92282,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 290, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall04.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall04.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin19_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -92345,7 +92345,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 290, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Wall01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -92552,7 +92552,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -92775,7 +92775,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -92987,7 +92987,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -93035,7 +93035,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 emissionMeshScale: f32 = -1
-                emissionMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_CrackEmitter_01.SKINS_Yasuo_Skin87.scb"
+                emissionMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_CrackEmitter_01.scb"
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -5, 18 }
                 }
@@ -93112,7 +93112,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -93162,7 +93162,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack_alpha.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack_alpha.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -93183,7 +93183,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 100, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.772549033, 0.749019623, 0.843137264, 1 }
@@ -93213,7 +93213,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_W_windwall_groud_crack.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_W_windwall4"
@@ -93240,7 +93240,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "Edge"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_EQ_Swipe_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_EQ_Swipe_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -93276,7 +93276,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_EQ_Swipe_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_EQ_Swipe_01.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 1, -1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -93310,7 +93310,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_TwirlBit_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_TwirlBit_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -93436,12 +93436,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_RibbinHead_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_RibbinHead_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 3, 0 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Ribbon_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Ribbon_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0 }
                     }
@@ -93492,7 +93492,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/yasuo_base_e_big_tonado_shape.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/yasuo_base_e_big_tonado_shape.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -93584,7 +93584,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Smoke_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Smoke_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -93606,7 +93606,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingSmoke_02.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingSmoke_02.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -93641,7 +93641,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -93698,7 +93698,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1.5, 0 }
                 }
@@ -93824,7 +93824,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -93934,9 +93934,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Ribbon_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Ribbon_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -94051,7 +94051,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -94161,7 +94161,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -94183,7 +94183,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_Core.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_Core.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -94209,7 +94209,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Noise01_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Noise01_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 2 }
                 }
@@ -94234,7 +94234,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_Core.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_Core.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -94265,7 +94265,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Noise01_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Noise01_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 2 }
                 }
@@ -94289,7 +94289,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_TwirlBit_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_TwirlBit_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -94402,12 +94402,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_RibbinHead_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_RibbinHead_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -3, 0 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Ribbon_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Ribbon_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -1, 0 }
                     }
@@ -94432,7 +94432,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingSmoke_02.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingSmoke_02.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -94468,7 +94468,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -94525,7 +94525,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -1.5, 0 }
                 }
@@ -94558,7 +94558,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingSmoke_02.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingSmoke_02.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -94594,7 +94594,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -94651,7 +94651,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -1.5, 0 }
                 }
@@ -94679,10 +94679,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_Emote_taunt_interactive_riven"
@@ -94702,9 +94702,9 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
                 meshRenderFlags: u8 = 0
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
                 LegacySimple: pointer = VfxEmitterLegacySimple {
                     birthScale: embed = ValueFloat {
                         constantValue: f32 = 0
@@ -94736,7 +94736,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "Glow3"
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-rampdown32.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-rampdown32.tex"
                 blendMode: u8 = 1
                 Color: embed = ValueColor {
                     constantValue: vec4 = { 0.360006094, 0.330006868, 0.330006868, 0.86999315 }
@@ -94779,7 +94779,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_18.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_18.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -94890,7 +94890,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 miscRenderFlags: u8 = 1
@@ -95003,7 +95003,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -95202,7 +95202,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_E_GalaxyTwirl.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_E_GalaxyTwirl.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -95333,7 +95333,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -95426,7 +95426,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_AA_Blast_energy.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_AA_Blast_energy.tex"
                 }
                 isRandomStartFrame: flag = true
                 birthRotation0: embed = ValueVector3 {
@@ -95517,7 +95517,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_Particles_1_18.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_Particles_1_18.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -95725,7 +95725,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -95971,7 +95971,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -96112,7 +96112,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -96252,7 +96252,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -96274,7 +96274,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.tex"
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -96343,7 +96343,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_egominorGlow.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_egominorGlow.tex"
                 startFrame: u16 = 3
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteSelector: embed = ValueVector3 {
@@ -96567,7 +96567,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ring_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ring_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -96610,7 +96610,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q__RuneRing01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q__RuneRing01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.5, 0 }
                 }
@@ -96665,7 +96665,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ring_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ring_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -96708,7 +96708,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q__RuneRing01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q__RuneRing01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.5, 0 }
                 }
@@ -96829,7 +96829,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -97023,7 +97023,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -97124,7 +97124,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_basic_attack_impact_slash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_basic_attack_impact_slash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -97370,7 +97370,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -97500,7 +97500,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Joke_Flashl.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Joke_Flashl.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 3
                 texDiv: vec2 = { 2, 2 }
@@ -97562,7 +97562,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 miscRenderFlags: u8 = 1
@@ -97632,7 +97632,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -97738,7 +97738,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -97932,7 +97932,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -98128,7 +98128,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -98246,7 +98246,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 isUniformScale: flag = true
@@ -98356,7 +98356,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -98579,7 +98579,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01_dissolve.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01_dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -98639,7 +98639,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -98701,7 +98701,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Passive_Wind.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Passive_Wind.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -98783,7 +98783,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_03.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -98867,7 +98867,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Passive_Wind.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Passive_Wind.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -98948,7 +98948,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_03.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -99177,7 +99177,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -99198,7 +99198,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_TwirlBit_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_TwirlBit_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -99311,12 +99311,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_RibbinHead_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_RibbinHead_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -1, 0 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Ribbon_03.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Ribbon_03.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -1, 0 }
                     }
@@ -99389,7 +99389,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Passive_Wind.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Passive_Wind.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -99473,7 +99473,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0.25 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -99718,7 +99718,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Recall_Smash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Recall_Smash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -99923,7 +99923,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Recall_Smash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Recall_Smash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -100075,9 +100075,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_Assets_1_369_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_Assets_1_369_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_rainbow_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_rainbow_01.tex"
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 200
                     }
@@ -100275,9 +100275,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_Q_07_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_Q_07_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_colorGrad_04.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_colorGrad_04.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -100360,7 +100360,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Cirlcle_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Cirlcle_01.tex"
                 startFrame: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -100417,10 +100417,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Cirlcle_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Cirlcle_01.tex"
                 startFrame: u16 = 4
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_colorGrad_04.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_colorGrad_04.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.25, 0.25 }
                     }
@@ -100608,7 +100608,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_02.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -100682,7 +100682,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -100805,7 +100805,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 isUniformScale: flag = true
@@ -100873,7 +100873,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -100946,7 +100946,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Spark01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Spark01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -101110,7 +101110,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -101232,7 +101232,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 isUniformScale: flag = true
@@ -101342,7 +101342,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Death_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Death_Flecks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -101464,7 +101464,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_03.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_03.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -101545,7 +101545,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_03twirl.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_03twirl.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -101612,7 +101612,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -101647,7 +101647,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 disableBackfaceCull: bool = true
@@ -101720,7 +101720,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1.5, 0 }
@@ -101750,7 +101750,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingMult_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingMult_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 0 }
                     }
@@ -101835,7 +101835,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.tex"
                 blendMode: u8 = 1
                 Color: embed = ValueColor {
                     constantValue: vec4 = { 0, 0, 0.0500000007, 0.200000003 }
@@ -101883,7 +101883,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_base_EQ_fill_circle_cas.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_base_EQ_fill_circle_cas.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1.5
@@ -101983,10 +101983,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/yasuo_base_e_q_slash_black.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/yasuo_base_e_q_slash_black.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_W_windwall_dust.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.701960802, 0.611764729, 1, 1 }
@@ -102096,7 +102096,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_base_E_dash_black.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_base_E_dash_black.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -1, 0 }
@@ -102224,7 +102224,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/yasuo_e_slash_inner_circle.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/yasuo_e_slash_inner_circle.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -102336,7 +102336,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_wind_blow_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_wind_blow_01.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -1, 0 }
@@ -102380,10 +102380,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_Emote_taunt_sound"
@@ -102438,7 +102438,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/yasuo_base_e_big_tonado_shape.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/yasuo_base_e_big_tonado_shape.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -102530,7 +102530,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Smoke_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Smoke_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -102682,7 +102682,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Smoke_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Smoke_01.tex"
                 numFrames: u16 = 4
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0 }
@@ -102709,7 +102709,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_Core.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_Core.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -102738,7 +102738,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Leona_Skin53_R_Trail_Mult.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Leona_Skin53_R_Trail_Mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 2 }
                 }
@@ -102861,7 +102861,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -102971,9 +102971,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Ribbon_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Ribbon_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -103088,7 +103088,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -103198,7 +103198,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -103219,7 +103219,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_TwirlBit_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_TwirlBit_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -103332,12 +103332,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_RibbinHead_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_RibbinHead_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -3, 0 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Ribbon_03.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Ribbon_03.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -1, 0 }
                     }
@@ -103371,7 +103371,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingSmoke_02.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingSmoke_02.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -103409,7 +103409,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -103466,7 +103466,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -1.5, 0 }
                 }
@@ -103490,7 +103490,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingSmoke_02.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingSmoke_02.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -103526,7 +103526,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -103583,7 +103583,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -1.5, 0 }
                 }
@@ -103767,7 +103767,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -103893,7 +103893,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -104036,7 +104036,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_windwall01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_windwall01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -104179,7 +104179,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_windwall01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_windwall01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -104201,7 +104201,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_Core.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_Core.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -104225,7 +104225,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 2 }
                 }
@@ -104410,7 +104410,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin77_E_GlowRing.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin77_E_GlowRing.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -104562,7 +104562,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_Flare_Omnimax.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_Flare_Omnimax.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -104609,7 +104609,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin56_testzoeE_energyring.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin56_testzoeE_energyring.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -104647,7 +104647,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin56_Nebula-erode.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin56_Nebula-erode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -104697,7 +104697,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin56_Q_Trail02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin56_Q_Trail02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.100000001 }
                 }
@@ -104835,7 +104835,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -104936,7 +104936,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin68_E_Trail_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin68_E_Trail_01.tex"
                 texDiv: vec2 = { 3, 1 }
                 emitterUvScrollRate: vec2 = { -5, 0 }
             }
@@ -104964,7 +104964,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "SwipeGeo_3"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -104981,7 +104981,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_02.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, -1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -104996,7 +104996,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_02_Mask.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_02_Mask.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, -3 }
                     }
@@ -105019,7 +105019,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "SwipeGeo_5"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -105035,7 +105035,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_02.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, -1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -105050,7 +105050,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_02_Mask2.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_02_Mask2.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -2, -2 }
                     }
@@ -105073,7 +105073,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "SwipeGeo_6"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -105093,7 +105093,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.10000002, 1.10000002, 1.10000002 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_03_2.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_03_2.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, -1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -105125,7 +105125,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "SwipeGeo_7"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -105145,7 +105145,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.10000002, 1.10000002, 1.10000002 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_05.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Swipe_05.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, -1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -105184,7 +105184,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q3_indicator_ring.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q3_indicator_ring.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -105213,9 +105213,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 38, 38, 38 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q3_indicator_ring.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q3_indicator_ring.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Base_Q3_indicator_ring_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Base_Q3_indicator_ring_mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.0500000007, 0.0500000007 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -105301,7 +105301,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q3_indicator_ring.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q3_indicator_ring.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -105328,12 +105328,12 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 38, 38, 38 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin56_Q_Trail02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin56_Q_Trail02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/causticMist.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/causticMist.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.0500000007, 0.0500000007 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -105623,7 +105623,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.tex"
                 numFrames: u16 = 8
                 startFrame: u16 = 1
                 texDiv: vec2 = { 4, 2 }
@@ -105820,7 +105820,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_base_taunt_spit.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_base_taunt_spit.tex"
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 4 }
             }
@@ -106005,7 +106005,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 particleIsLocalOrientation: flag = true
@@ -106073,7 +106073,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -106334,7 +106334,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.tex"
                 numFrames: u16 = 8
                 startFrame: u16 = 1
                 texDiv: vec2 = { 4, 2 }
@@ -106597,7 +106597,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.tex"
                 numFrames: u16 = 8
                 startFrame: u16 = 1
                 texDiv: vec2 = { 4, 2 }
@@ -106783,7 +106783,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_base_taunt_spit.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_base_taunt_spit.tex"
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 4 }
             }
@@ -107003,7 +107003,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 particleIsLocalOrientation: flag = true
@@ -107071,7 +107071,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -107185,7 +107185,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -107212,7 +107212,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 0.100000001, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.tex"
                     texDivMult: vec2 = { 0.200000003, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0 }
@@ -107324,7 +107324,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -107351,7 +107351,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 0.100000001, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.tex"
                     texDivMult: vec2 = { 0.200000003, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0 }
@@ -107460,7 +107460,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -107564,7 +107564,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -107683,7 +107683,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -107711,7 +107711,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "Trail4"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_BA_Swipe_04.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_BA_Swipe_04.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -107752,7 +107752,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_BA__Swipe01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_BA__Swipe01.tex"
                 texDiv: vec2 = { -1, 1 }
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, 1 }
@@ -107768,7 +107768,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -2 }
                     }
@@ -107792,7 +107792,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "Trail5"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_BA_Swipe_04.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_BA_Swipe_04.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -107834,7 +107834,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_BA__Swipe02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_BA__Swipe02.tex"
                 texDiv: vec2 = { -1, 1 }
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, 1 }
@@ -107850,7 +107850,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Noise01_04.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Noise01_04.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -2 }
                     }
@@ -107909,7 +107909,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_AvatarErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_AvatarErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -107922,7 +107922,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.tex"
                 numFrames: u16 = 4
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0.200000003 }
@@ -108109,7 +108109,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -108286,7 +108286,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -108368,7 +108368,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Eye4.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
@@ -108486,7 +108486,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -108594,9 +108594,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Ribbon_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Ribbon_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -108782,7 +108782,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -108826,7 +108826,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -108863,7 +108863,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 disableBackfaceCull: bool = true
@@ -108913,7 +108913,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Diana_Skin37_Trail_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Diana_Skin37_Trail_01.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1.5, 0 }
@@ -109167,7 +109167,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -109224,7 +109224,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ring_02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ring_02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -109292,7 +109292,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ring_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ring_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.270000011
@@ -109324,7 +109324,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Geo_02.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Geo_02.scb"
                     }
                 }
                 blendMode: u8 = 5
@@ -109362,7 +109362,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Dissolve_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Dissolve_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -109413,7 +109413,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Noise01_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Noise01_03.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.5, 0 }
                 }
@@ -109470,7 +109470,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_SlashErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_SlashErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -109520,7 +109520,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Slash_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Slash_01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.270000011
@@ -109564,7 +109564,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_SlashErode_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_SlashErode_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -109614,7 +109614,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Slash_alpha.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Slash_alpha.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.270000011
@@ -109639,7 +109639,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_passive_shield.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Color_Yasuo_passive_shield.tex"
                 blendMode: u8 = 2
                 Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.5 }
@@ -109688,7 +109688,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Q_sword_shadow.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Q_sword_shadow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -109753,7 +109753,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Q_indicator.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Q_indicator.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.25
@@ -109811,7 +109811,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -109869,7 +109869,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -109960,7 +109960,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -109991,7 +109991,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_BA_Swipe_02.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_BA_Swipe_02.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -110035,7 +110035,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_BA__Swipe01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_BA__Swipe01.tex"
                 texDiv: vec2 = { -1, 1 }
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, 1 }
@@ -110051,7 +110051,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -2 }
                     }
@@ -110078,7 +110078,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_BA_Swipe_02.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_BA_Swipe_02.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -110123,7 +110123,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_BA__Swipe02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_BA__Swipe02.tex"
                 texDiv: vec2 = { -1, 1 }
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, 1 }
@@ -110139,7 +110139,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Noise01_04.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Noise01_04.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -2 }
                     }
@@ -110258,7 +110258,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Death_Flash_1.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Death_Flash_1.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -110350,7 +110350,7 @@ entries: map[hash,embed] = {
                     flags: u8 = 1
                     Size: vec3 = { 10, 50, 10 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Death_Flicker_04.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Death_Flicker_04.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.776470602, 0.800000012, 1 }
@@ -110384,7 +110384,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 0.800000012
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_Erosion_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -110462,7 +110462,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Death_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Death_Flecks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -110494,7 +110494,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_BA_Swipe_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_BA_Swipe_03.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -110532,7 +110532,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_BA__Swipe01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_BA__Swipe01.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -110547,7 +110547,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -2 }
                     }
@@ -110574,7 +110574,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_BA_Swipe_03.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_BA_Swipe_03.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -110613,7 +110613,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_BA__Swipe02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_BA__Swipe02.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -110628,7 +110628,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Noise01_04.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Noise01_04.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -2 }
                     }
@@ -110661,7 +110661,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_BA_Swipe_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_BA_Swipe_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -110701,7 +110701,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_BA__Swipe01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_BA__Swipe01.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -110716,7 +110716,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -2 }
                     }
@@ -110743,7 +110743,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_BA_Swipe_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_BA_Swipe_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -110784,7 +110784,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_BA__Swipe02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_BA__Swipe02.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -110799,7 +110799,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Noise01_04.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Noise01_04.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -2 }
                     }
@@ -111007,7 +111007,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -111117,7 +111117,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_02.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -111197,7 +111197,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Ribbon_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Ribbon_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -111224,7 +111224,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 0.100000001, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.tex"
                     texDivMult: vec2 = { 0.200000003, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0 }
@@ -111323,7 +111323,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -111464,7 +111464,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01_dissolve.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01_dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -111524,7 +111524,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -111720,7 +111720,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -111806,7 +111806,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_AA_Blast_energy.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_AA_Blast_energy.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isRandomStartFrame: flag = true
@@ -111898,7 +111898,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_Particles_1_18.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_Particles_1_18.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -112043,7 +112043,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -112246,7 +112246,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -112491,7 +112491,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -112546,7 +112546,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_basic_attack_impact_slash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_basic_attack_impact_slash.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
@@ -112609,7 +112609,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -112753,7 +112753,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -112867,7 +112867,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -113044,7 +113044,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01_dissolve.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01_dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -113104,7 +113104,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -113300,7 +113300,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -113385,7 +113385,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_AA_Blast_energy.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_AA_Blast_energy.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isRandomStartFrame: flag = true
@@ -113477,7 +113477,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_Particles_1_18.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_Particles_1_18.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -113622,7 +113622,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -113825,7 +113825,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -114070,7 +114070,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -114132,7 +114132,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -114269,7 +114269,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_basic_attack_impact_slash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_basic_attack_impact_slash.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
@@ -114385,7 +114385,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -114445,7 +114445,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -114619,7 +114619,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01_dissolve.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01_dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -114679,7 +114679,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -114875,7 +114875,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -114961,7 +114961,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_AA_Blast_energy.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_AA_Blast_energy.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isRandomStartFrame: flag = true
@@ -115053,7 +115053,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_Particles_1_18.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_Particles_1_18.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -115198,7 +115198,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -115401,7 +115401,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -115646,7 +115646,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -115701,7 +115701,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_basic_attack_impact_slash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_basic_attack_impact_slash.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
@@ -115764,7 +115764,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -115969,7 +115969,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -116083,7 +116083,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_BA_hit_tar_01"
@@ -116159,13 +116159,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Ribbon_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Ribbon_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 0 }
                 }
                 texDiv: vec2 = { 500, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.tex"
                     texDivMult: vec2 = { 500, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 0 }
@@ -116220,7 +116220,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_03.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_03.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -116290,7 +116290,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_03.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -116411,7 +116411,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 isUniformScale: flag = true
@@ -116521,7 +116521,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -116700,7 +116700,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -116890,7 +116890,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -116984,7 +116984,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_GlowFixed.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_GlowFixed.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -117073,7 +117073,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_BA_Glow01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_BA_Glow01.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_E_Dash"
@@ -117191,7 +117191,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01_dissolve.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01_dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -117251,7 +117251,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Directional_01.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -117447,7 +117447,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -117532,7 +117532,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_AA_Blast_energy.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_AA_Blast_energy.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isRandomStartFrame: flag = true
@@ -117624,7 +117624,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_Particles_1_18.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_Particles_1_18.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -117769,7 +117769,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -117972,7 +117972,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -118217,7 +118217,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -118272,7 +118272,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_basic_attack_impact_slash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_basic_attack_impact_slash.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
@@ -118335,7 +118335,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -118479,7 +118479,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Jhin_Skin36_ball32_02.tex"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -118593,7 +118593,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -118715,7 +118715,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_skin09_Z_Death_GroundCrack.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_skin09_Z_Death_GroundCrack.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_Z_Death_Crack"
@@ -118844,7 +118844,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 isUniformScale: flag = true
@@ -118954,7 +118954,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Death_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Z_Death_Flecks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -119080,7 +119080,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00100005, 1.00100005, 1.00100005 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_Z_Laugh_AvatarGlow"
@@ -119220,7 +119220,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Lux_Skin29_Light.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Lux_Skin29_Light.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -119353,7 +119353,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Lux_Skin29_Light.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Lux_Skin29_Light.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -119486,7 +119486,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Lux_Skin29_Light.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Lux_Skin29_Light.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -119774,7 +119774,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Lux_Skin29_Light.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Lux_Skin29_Light.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.300000012
@@ -119996,7 +119996,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_Ash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_Ash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -120166,7 +120166,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Rammus_Skin26_Spark_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Rammus_Skin26_Spark_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -120255,7 +120255,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Lux_Skin29_alphaslice_mesh_02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Lux_Skin29_alphaslice_mesh_02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -120323,7 +120323,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Lux_Skin29_Light_Hard_Edge.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Lux_Skin29_Light_Hard_Edge.tex"
             }
         }
         visibilityRadius: f32 = 99999
@@ -120345,7 +120345,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "FirstSmoke"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Recall_CreepingSmoke.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Recall_CreepingSmoke.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -120374,7 +120374,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 10, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Skin19_Smoke2.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Skin19_Smoke2.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.200000003 }
                 }
@@ -120478,7 +120478,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Diana_Skin18_Shockwave.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Diana_Skin18_Shockwave.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.600000024
@@ -120562,7 +120562,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aura_Self.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.800000012
@@ -120700,7 +120700,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Base_Z_SmokeErode.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Base_Z_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -120799,7 +120799,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -120939,7 +120939,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Base_Z_SmokeErode.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Base_Z_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -121038,7 +121038,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -121178,7 +121178,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Base_Z_SmokeErode.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Base_Z_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -121277,7 +121277,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -121309,9 +121309,9 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00899999961
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_alpha_07.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_alpha_07.tex"
                 meshRenderFlags: u8 = 0
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Flare-Sun_17.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Flare-Sun_17.tex"
                 LegacySimple: pointer = VfxEmitterLegacySimple {
                     birthScale: embed = ValueFloat {
                         constantValue: f32 = 250
@@ -121462,13 +121462,13 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00899999961
                 }
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-rampdown256_32.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-rampdown256_32.tex"
                 blendMode: u8 = 1
                 meshRenderFlags: u8 = 0
                 colorLookUpTypeY: u8 = 3
                 isRandomStartFrame: flag = true
                 isLocalOrientation: flag = false
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Poof.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Poof.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 LegacySimple: pointer = VfxEmitterLegacySimple {
@@ -121512,9 +121512,9 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00350000011
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00899999961
                 }
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-smoke32_07.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-smoke32_07.tex"
                 meshRenderFlags: u8 = 0
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Flare-Rainbow_purp_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Flare-Rainbow_purp_01.tex"
                 LegacySimple: pointer = VfxEmitterLegacySimple {
                     birthScale: embed = ValueFloat {
                         constantValue: f32 = 145
@@ -121666,7 +121666,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -121770,7 +121770,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -121874,7 +121874,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -121993,7 +121993,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -122100,7 +122100,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -122127,7 +122127,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 0.100000001, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.tex"
                     texDivMult: vec2 = { 0.200000003, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0 }
@@ -122239,7 +122239,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -122266,7 +122266,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 0.100000001, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.tex"
                     texDivMult: vec2 = { 0.200000003, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0 }
@@ -122360,7 +122360,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_NE_Core_Mask.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_NE_Core_Mask.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -122433,7 +122433,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Q_Wave018.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Q_Wave018.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -122474,7 +122474,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_BA_Wall_Erosion.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_BA_Wall_Erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -122504,13 +122504,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_TX_Weapon_011.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_TX_Weapon_011.tex"
                 numFrames: u16 = 4
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.100000001, 0 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Emote_Smoke_Trail.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Emote_Smoke_Trail.tex"
                     ParticleIntegratedUvRotateMult: embed = IntegratedValueFloat {
                         dynamics: pointer = VfxAnimatedFloatVariableData {
                             times: list[f32] = {
@@ -122540,7 +122540,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Q_Wave018.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Q_Wave018.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -122581,7 +122581,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_BA_Wall_Erosion.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_BA_Wall_Erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -122610,13 +122610,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_TX_Weapon_011.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_TX_Weapon_011.tex"
                 numFrames: u16 = 4
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.100000001, 0 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Emote_Smoke_Trail.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Emote_Smoke_Trail.tex"
                     ParticleIntegratedUvRotateMult: embed = IntegratedValueFloat {
                         dynamics: pointer = VfxAnimatedFloatVariableData {
                             times: list[f32] = {
@@ -122646,7 +122646,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Q_Wave018.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Q_Wave018.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -122686,7 +122686,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_BA_Wall_Erosion.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_BA_Wall_Erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -122716,13 +122716,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_TX_Weapon_011.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_TX_Weapon_011.tex"
                 numFrames: u16 = 4
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.100000001, 0 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Emote_Smoke_Trail.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Emote_Smoke_Trail.tex"
                     ParticleIntegratedUvRotateMult: embed = IntegratedValueFloat {
                         dynamics: pointer = VfxAnimatedFloatVariableData {
                             times: list[f32] = {
@@ -122752,7 +122752,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Q_Wave018.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Q_Wave018.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -122793,7 +122793,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_BA_Wall_Erosion.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_BA_Wall_Erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -122822,13 +122822,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_TX_Weapon_011.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_TX_Weapon_011.tex"
                 numFrames: u16 = 4
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.100000001, 0 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Emote_Smoke_Trail.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Emote_Smoke_Trail.tex"
                     ParticleIntegratedUvRotateMult: embed = IntegratedValueFloat {
                         dynamics: pointer = VfxAnimatedFloatVariableData {
                             times: list[f32] = {
@@ -122946,7 +122946,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Q_Noise02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Q_Noise02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -122992,12 +122992,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_NE_Core_Mask.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_NE_Core_Mask.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_R_color01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_R_color01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 2 }
                     }
@@ -123101,7 +123101,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 300, 60, 60 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_NE_Core_Mask.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_NE_Core_Mask.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -123228,7 +123228,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Base_Z_SmokeErode.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Base_Z_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -123349,7 +123349,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_Ash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_Ash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -123454,7 +123454,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_Z_Wisps.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_Z_Wisps.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -123496,7 +123496,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_E_ErosionPack01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_E_ErosionPack01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -123581,7 +123581,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Wisps_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Wisps_01.tex"
                 numFrames: u16 = 4
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
@@ -123705,7 +123705,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aura_Self.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -123724,7 +123724,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 10, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Lux_Skin07_Z_Distort_RGBA_2.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Lux_Skin07_Z_Distort_RGBA_2.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.97999543 }
@@ -123744,7 +123744,7 @@ entries: map[hash,embed] = {
                 alphaRef: u8 = 0
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0149999997
-                    normalMapTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Skin19_Z_Circle_normal.SKINS_Yasuo_Skin87.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Skin19_Z_Circle_normal.tex"
                 }
                 isUniformScale: flag = true
                 birthRotation0: embed = ValueVector3 {
@@ -123769,7 +123769,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -123829,7 +123829,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Skin04_Q_Streak.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Skin04_Q_Streak.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -123890,7 +123890,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Skin04_Q_Streak.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Skin04_Q_Streak.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -124056,7 +124056,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Skin19_ErosionMap.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Skin19_ErosionMap.tex"
                 }
                 isDirectionOriented: flag = true
                 birthRotation0: embed = ValueVector3 {
@@ -124118,7 +124118,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Smoke_Vert_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Smoke_Vert_01.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {}
                 birthUvScrollRate: embed = ValueVector2 {
@@ -124253,7 +124253,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aura_Self.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aura_Self.tex"
             }
         }
         visibilityRadius: f32 = 99999
@@ -124330,7 +124330,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aura_Self.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -124399,7 +124399,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aura_Self.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -124430,7 +124430,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_Q_weaponswipe6.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_Q_weaponswipe6.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -124468,7 +124468,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.25
                     erosionFeatherOut: f32 = 0.25
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_Q_Wisps.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_Q_Wisps.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -124517,7 +124517,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_Q_WispTrail_Add.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_Q_WispTrail_Add.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -124532,7 +124532,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_Q_Mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_Q_Mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                     }
@@ -124559,7 +124559,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_Q_outerring_aoe_mesh.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_Q_outerring_aoe_mesh.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -124621,7 +124621,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_AoE.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_AoE.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -1 }
@@ -124653,7 +124653,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_common_Vlad_BloodKing_Torus.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_common_Vlad_BloodKing_Torus.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -124787,12 +124787,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_Q_WispTrail_Add.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_Q_WispTrail_Add.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.5, 0 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_3026_Items_Noise_02.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_3026_Items_Noise_02.tex"
                 }
             }
         }
@@ -124913,7 +124913,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1.25
@@ -125039,7 +125039,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -125181,7 +125181,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -125239,7 +125239,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1
@@ -125432,7 +125432,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Death_Rays.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Death_Rays.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
             }
@@ -125491,7 +125491,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingSmoke_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingSmoke_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -125528,7 +125528,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 depthBiasFactors: vec2 = { -1, -1 }
@@ -125622,7 +125622,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1.5, 0 }
@@ -125652,7 +125652,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingMult_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingMult_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 0 }
                     }
@@ -125802,7 +125802,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 isUniformScale: flag = true
@@ -125912,7 +125912,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -126127,7 +126127,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -126241,7 +126241,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 isUniformScale: flag = true
@@ -126351,7 +126351,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -126570,7 +126570,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -126631,7 +126631,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 25, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Indicator_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Indicator_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 5, 0 }
                 }
@@ -126689,7 +126689,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 35, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Indicator_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Indicator_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 5, 0 }
                 }
@@ -126748,7 +126748,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 40, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_Indicator_02mult.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_Indicator_02mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -1, 0 }
                 }
@@ -126805,7 +126805,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 40, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_indicator_glow.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_indicator_glow.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 8, 0 }
                 }
@@ -126967,9 +126967,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_Assets_1_369_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_Assets_1_369_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_rainbow_01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_rainbow_01.tex"
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 200
                     }
@@ -127168,9 +127168,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_Q_07_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_Q_07_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_colorGrad_04.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_colorGrad_04.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -127437,7 +127437,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -127489,7 +127489,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Cirlcle_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Cirlcle_01.tex"
                 startFrame: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -127546,10 +127546,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Cirlcle_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Cirlcle_01.tex"
                 startFrame: u16 = 4
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_colorGrad_04.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_colorGrad_04.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.25, 0.25 }
                     }
@@ -127783,10 +127783,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_Q_GlowGrid_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_Q_GlowGrid_02.tex"
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_colorGrad_04.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Seraphine_Skin24_colorGrad_04.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                     }
@@ -127933,7 +127933,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Leblanc_Skin55_Wall_Erosion.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Leblanc_Skin55_Wall_Erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -128029,7 +128029,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Leblanc_Skin55_FireShapes_00.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Leblanc_Skin55_FireShapes_00.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteSelector: embed = ValueVector3 {
@@ -128064,7 +128064,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Leblanc_Skin55_I_Shield.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Leblanc_Skin55_I_Shield.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -128158,7 +128158,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Leblanc_Skin55_I_ShieldTxt.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Leblanc_Skin55_I_ShieldTxt.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -128276,7 +128276,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Leblanc_Skin55_Wall_Erosion.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Leblanc_Skin55_Wall_Erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -128372,7 +128372,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -128492,7 +128492,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Leblanc_Skin55_Wall_Erosion.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Leblanc_Skin55_Wall_Erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -128588,7 +128588,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -128702,7 +128702,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -128806,7 +128806,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -128910,7 +128910,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -129029,7 +129029,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -129136,7 +129136,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -129163,7 +129163,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 0.100000001, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.tex"
                     texDivMult: vec2 = { 0.200000003, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0 }
@@ -129275,7 +129275,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -129302,7 +129302,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 0.100000001, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.tex"
                     texDivMult: vec2 = { 0.200000003, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0 }
@@ -129332,7 +129332,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q3_indicator_ring.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q3_indicator_ring.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -129362,9 +129362,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 38, 38, 38 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q3_indicator_ring.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q3_indicator_ring.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Base_Q3_indicator_ring_mult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Base_Q3_indicator_ring_mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.0500000007, 0.0500000007 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -129450,7 +129450,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q3_indicator_ring.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q3_indicator_ring.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -129477,12 +129477,12 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 38, 38, 38 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin56_Q_Trail02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin56_Q_Trail02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/causticMist.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/causticMist.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.0500000007, 0.0500000007 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -129565,10 +129565,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_Emote_laugh_sound"
@@ -129697,7 +129697,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 isUniformScale: flag = true
@@ -129807,7 +129807,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -129992,7 +129992,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -130025,10 +130025,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_spiritwheel1.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_spiritwheel1.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-bellcurve.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-bellcurve.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.137254909, 0.552941203, 1 }
                 }
@@ -130078,7 +130078,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 9.5, 9.5, 9.5 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_DeathsCaress05.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_DeathsCaress05.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.300000012 }
                 }
@@ -130104,7 +130104,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 80, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_deathscaress_buf_bloom_prgba.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_deathscaress_buf_bloom_prgba.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.913725495, 0.850980401, 1, 1 }
                 }
@@ -130184,7 +130184,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_DeathsCaress06.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_DeathsCaress06.tex"
                 numFrames: u16 = 5
                 startFrame: u16 = 3
                 texDiv: vec2 = { 5, 1 }
@@ -130207,7 +130207,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 80, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-clockface-red.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-clockface-red.tex"
                 meshRenderFlags: u8 = 0
                 colorLookUpOffsets: vec2 = { 0, 0.400000006 }
                 isUniformScale: flag = true
@@ -130302,7 +130302,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_DeathsCaress06.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_DeathsCaress06.tex"
                 numFrames: u16 = 5
                 texDiv: vec2 = { 5, 1 }
             }
@@ -130334,7 +130334,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 80, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_deathscaress_buf_bloom_prgba.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_deathscaress_buf_bloom_prgba.tex"
                 meshRenderFlags: u8 = 0
                 colorLookUpOffsets: vec2 = { 0, 0.400000006 }
                 isUniformScale: flag = true
@@ -130412,7 +130412,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_DeathsCaress06.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_DeathsCaress06.tex"
                 numFrames: u16 = 5
                 startFrame: u16 = 1
                 texDiv: vec2 = { 5, 1 }
@@ -130435,10 +130435,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_Emote_taunt_interactive_yi"
@@ -130508,7 +130508,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1.10000002, 1.10000002 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -130674,7 +130674,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_02.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -130799,7 +130799,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 isUniformScale: flag = true
@@ -130867,7 +130867,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -130966,7 +130966,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -130989,7 +130989,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -131070,7 +131070,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.300000012 }
                 }
@@ -131100,7 +131100,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_BigRing_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -131181,7 +131181,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_W_BigRing_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.300000012 }
                 }
@@ -131213,7 +131213,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Swirl_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Swirl_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -131257,12 +131257,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_RibbinHead_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_RibbinHead_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -3, 0 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Slash02.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Slash02.tex"
                     texDivMult: vec2 = { 0.25, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -4, 0 }
@@ -131289,7 +131289,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_Core.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_Core.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -131336,7 +131336,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, -3 }
                 }
@@ -131362,7 +131362,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_Core.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_Tornado_Core.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -131405,7 +131405,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Noise_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.5, -1.5 }
                 }
@@ -131591,7 +131591,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -131842,7 +131842,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_03.tex"
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 4 }
             }
@@ -132153,7 +132153,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flecks_02.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -132221,11 +132221,11 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 190, 190, 190 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_CrackGlow_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_CrackGlow_01.tex"
                 startFrame: u16 = 1
                 texDiv: vec2 = { -1, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Pantheon_Skin06_R_WingsMult.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Pantheon_Skin06_R_WingsMult.tex"
                     texDivMult: vec2 = { 0.5, 0.5 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -0.100000001, 0.100000001 }
@@ -132295,7 +132295,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 190, 190, 190 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Crack_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Crack_01.tex"
                 startFrame: u16 = 1
                 texDiv: vec2 = { -1, 1 }
             }
@@ -132367,7 +132367,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_Q_weaponswipe6.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_Q_weaponswipe6.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -132401,7 +132401,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_RingSwipe_01erode.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_RingSwipe_01erode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -132451,7 +132451,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_RingSwipe_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_RingSwipe_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0.5 }
                 }
@@ -132474,7 +132474,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "GroundSwipe_4"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_Q_weaponswipe6.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_Q_weaponswipe6.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -132508,7 +132508,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_RingSwipe_01erode.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_RingSwipe_01erode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -132557,7 +132557,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_RingSwipe_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_RingSwipe_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
                 }
@@ -132710,7 +132710,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_windwall_block_impact.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_windwall_block_impact.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -132772,7 +132772,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin56_AAAA_Flare_omnimax.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin56_AAAA_Flare_omnimax.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -132984,7 +132984,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin77_ErosionShapes01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin77_ErosionShapes01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -133041,7 +133041,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin77_R_AnimeShapes02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin77_R_AnimeShapes02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -133150,7 +133150,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 miscRenderFlags: u8 = 1
@@ -133262,7 +133262,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -133288,7 +133288,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = VfxShapeCylinder {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Mesh01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Mesh01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -133322,7 +133322,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.70000005, 4, 1.70000005 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Slash01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Slash01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -1 }
                 }
@@ -133641,7 +133641,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -133950,7 +133950,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -133971,7 +133971,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "GroundSwipe_5"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_Q_weaponswipe6.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Sivir_Skin34_Q_weaponswipe6.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -134006,7 +134006,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_RingSwipe_01erode.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_RingSwipe_01erode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -134055,7 +134055,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_RingSwipe_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_RingSwipe_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
                 }
@@ -134146,7 +134146,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_03.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -134392,7 +134392,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flames_03.tex"
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 4 }
             }
@@ -134456,7 +134456,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Flares_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -134480,10 +134480,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_Emote_taunt2_sound"
@@ -134602,7 +134602,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 isUniformScale: flag = true
@@ -134712,7 +134712,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -134897,7 +134897,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -135123,7 +135123,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -135362,7 +135362,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SPark_012.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -135453,7 +135453,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_I_sheath_spark"
@@ -135644,7 +135644,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -135832,7 +135832,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -135937,7 +135937,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_wind_hit01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_wind_hit01.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 1 }
@@ -136005,7 +136005,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 120, 80, 60 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_NE_Core_Mask.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_NE_Core_Mask.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -136111,7 +136111,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Q_Noise02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Q_Noise02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -136157,12 +136157,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_NE_Core_Mask.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_NE_Core_Mask.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_R_color01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_R_color01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 2 }
                     }
@@ -136299,7 +136299,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Leblanc_Skin55_Wall_Erosion.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Leblanc_Skin55_Wall_Erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -136418,7 +136418,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -136462,7 +136462,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_egoE_Mis_Child_Trail_02.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_egoE_Mis_Child_Trail_02.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -136552,9 +136552,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_egoE_Mis_Child_decal.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_egoE_Mis_Child_decal.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_egoE_Trail_Fire_erosion_02.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_egoE_Trail_Fire_erosion_02.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, -1 }
                     }
@@ -136616,7 +136616,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_egoE_Mis_Child_Trail_02.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_egoE_Mis_Child_Trail_02.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -136697,7 +136697,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 0.300000012, 0.300000012 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_egoE_Trail_Fire_erosion_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_egoE_Trail_Fire_erosion_02.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -136713,7 +136713,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.5, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Aura_Self.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Aura_Self.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, -1 }
                     }
@@ -136785,7 +136785,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_Z_FireUp.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_Z_FireUp.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -136830,7 +136830,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_E_ErosionPack01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_E_ErosionPack01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -136923,7 +136923,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Amumu_Skin17_I_RadGradSolid.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Amumu_Skin17_I_RadGradSolid.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.0500000007, 0.75 }
@@ -136959,7 +136959,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_Q_Fire_Mult1.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_Q_Fire_Mult1.tex"
                     texDivMult: vec2 = { 2, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.0500000007, 2 }
@@ -137064,7 +137064,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_Z_FireUp.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_Z_FireUp.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -137109,7 +137109,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_E_ErosionPack01.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_E_ErosionPack01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -137204,7 +137204,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Amumu_Skin17_I_RadGradSolid.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Amumu_Skin17_I_RadGradSolid.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.0500000007, 0.75 }
@@ -137240,7 +137240,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_Q_Fire_Mult1.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_Q_Fire_Mult1.tex"
                     texDivMult: vec2 = { 2, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.0500000007, 2 }
@@ -137402,7 +137402,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Base_Z_SmokeErode.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Base_Z_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -137523,7 +137523,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_Ash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Brand_Skin08_Ash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -137585,7 +137585,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 60, 60 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_NE_Core_Mask.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_NE_Core_Mask.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -137702,7 +137702,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Diana_Skin18_Shockwave.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Diana_Skin18_Shockwave.tex"
             }
         }
         visibilityRadius: f32 = 99999
@@ -137825,7 +137825,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00100005, 1.00100005, 1.00100005 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_White_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_White_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -137940,7 +137940,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00100005, 1.00100005, 1.00100005 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_White_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_White_01.tex"
             }
         }
         visibilityRadius: f32 = 99999
@@ -138063,7 +138063,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00100005, 1.00100005, 1.00100005 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_White_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_White_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -138178,7 +138178,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00100005, 1.00100005, 1.00100005 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_White_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_White_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -138293,7 +138293,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00100005, 1.00100005, 1.00100005 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_White_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_White_01.tex"
             }
         }
         visibilityRadius: f32 = 99999
@@ -138311,10 +138311,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_Emote_taunt_generic"
@@ -138427,7 +138427,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Q_Noise02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_Skin53_Q_Noise02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -138473,12 +138473,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_NE_Core_Mask.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Pyke_NE_Core_Mask.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 90
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Base_Z_SmokeErode.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Base_Z_SmokeErode.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 2 }
                     }
@@ -138538,7 +138538,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "up_glow"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_W_expo_cylinder.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_W_expo_cylinder.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -138565,7 +138565,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.35000002, 3, 1.35000002 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_W_up_cylinder.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_W_up_cylinder.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.100000001 }
                 }
@@ -138606,7 +138606,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 5, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Smoke01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 0.5 }
                     }
@@ -138819,7 +138819,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Rammus_Skin26_Spark_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Rammus_Skin26_Spark_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -138855,12 +138855,12 @@ entries: map[hash,embed] = {
                 disableBackfaceCull: bool = true
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0.200000003 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_21.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_21.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0 }
                     }
@@ -138968,7 +138968,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aura_Self.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -139120,7 +139120,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Rammus_Skin26_Spark_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Rammus_Skin26_Spark_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -139271,7 +139271,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Q_Q_Dots.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Q_Q_Dots.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -139306,7 +139306,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Z_Cylinder_04.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin89_Z_Cylinder_04.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -139435,7 +139435,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin29_Emote_swirlingSmokeBeam.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Zeri_Skin29_Emote_swirlingSmokeBeam.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -0.100000001, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -139669,7 +139669,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Base_Z_SmokeErode.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Karma_Base_Z_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -139767,7 +139767,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yone_Skin55_Ash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -139935,7 +139935,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin_06_Spark_Vertical.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin_06_Spark_Vertical.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -139977,7 +139977,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin42_W_Decal_RadiusEnergies.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin42_W_Decal_RadiusEnergies.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -140096,12 +140096,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin42_Q_BoltLine.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin42_Q_BoltLine.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin42_WispTrail_Add.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin42_WispTrail_Add.tex"
                     birthUVOffsetMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.5 }
                     }
@@ -140136,7 +140136,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin42_W_Trail2.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin42_W_Trail2.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -140209,7 +140209,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.5, 0.200000003, 0.5 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_spawnTrails01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_spawnTrails01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.800000012 }
                 }
@@ -140276,7 +140276,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin42_W_Trail2.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/MasterYi_Skin42_W_Trail2.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -140349,7 +140349,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.5, 0.200000003, 0.5 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_spawnTrails01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_spawnTrails01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.949999988 }
                 }
@@ -140403,10 +140403,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_Emote_joke_sound"
@@ -140470,7 +140470,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_wind_hit01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_wind_hit01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -140517,7 +140517,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ring_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ring_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -140585,7 +140585,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingAnim_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_RingAnim_01.tex"
                 frameRate: f32 = 30
                 numFrames: u16 = 16
                 startFrame: u16 = 1
@@ -140623,7 +140623,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_Slashes_01.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_Slashes_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -140723,7 +140723,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_Slashes_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_R_Slashes_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                 }
@@ -140809,7 +140809,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Slash_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Slash_01.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -140890,7 +140890,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Slash_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Slash_01.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -140942,7 +140942,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_ShadowPose2.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_ShadowPose2.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -140976,7 +140976,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_AvatarErode_01invert.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_AvatarErode_01invert.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -141002,7 +141002,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Body.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Body.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.5
@@ -141073,7 +141073,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_ShadowPose2.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_ShadowPose2.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -141107,7 +141107,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_AvatarErode_01invert.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_AvatarErode_01invert.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -141121,7 +141121,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.800000012, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Body.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Body.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.449999988
@@ -141192,7 +141192,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_ShadowPose2.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_ShadowPose2.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -141226,7 +141226,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_AvatarErode_01invert.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_AvatarErode_01invert.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -141240,7 +141240,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.800000012, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Body.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Body.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.600000024
@@ -141311,7 +141311,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_ShadowPose2.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_ShadowPose2.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -141345,7 +141345,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_AvatarErode_01invert.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_AvatarErode_01invert.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -141359,7 +141359,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.800000012, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Body.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Body.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.550000012
@@ -141420,7 +141420,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_ShadowPose2.SKINS_Yasuo_Skin87.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_ShadowPose2.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -141454,7 +141454,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_AvatarErode_01invert.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Q_AvatarErode_01invert.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -141468,7 +141468,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.800000012, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Body.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Body.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_R_Ghosts_01"
@@ -141563,7 +141563,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_Z_Idle_Eye01"
@@ -141652,7 +141652,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Glow_01.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_Z_Idle_Eye02"
@@ -141694,7 +141694,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.04999995, 0.970000029, 1.10000002 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Ekko_Skin57_E_Hit2ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Ekko_Skin57_E_Hit2ball32_02.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_R_Sword"
@@ -141757,7 +141757,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Death_Flash_1.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Death_Flash_1.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_Passive_Burst"
@@ -141782,9 +141782,9 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
                 meshRenderFlags: u8 = 0
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
                 LegacySimple: pointer = VfxEmitterLegacySimple {
                     birthScale: embed = ValueFloat {
                         constantValue: f32 = 0
@@ -141996,7 +141996,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_R_Flames_03.tex"
                 numFrames: u16 = 8
                 texDiv: vec2 = { 4, 2 }
             }
@@ -142085,7 +142085,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Ribbon_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_Q_Ribbon_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -142112,7 +142112,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 0.100000001, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.SKINS_Yasuo_Skin87.tex"
+                    textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03softerode.tex"
                     texDivMult: vec2 = { 0.200000003, 1 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0 }
@@ -142204,7 +142204,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Ribbon_03soft.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -142360,7 +142360,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 isUniformScale: flag = true
@@ -142427,7 +142427,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -142631,7 +142631,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin09_Z_Sparks_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -142717,7 +142717,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_AA_Blast_energy.SKINS_Yasuo_Skin87.tex"
+                    erosionMapName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_AA_Blast_energy.tex"
                 }
                 isRandomStartFrame: flag = true
                 birthRotation0: embed = ValueVector3 {
@@ -142809,7 +142809,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_Particles_1_18.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aatrox_Skin11_Particles_1_18.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -142910,7 +142910,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_GlowFixed.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_GlowFixed.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -143003,7 +143003,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_BA_Glow01.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_BA_Glow01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -143143,7 +143143,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_Primary_BA_tar_01_exit_smoke.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -143165,7 +143165,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_color-hold.tex"
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -143234,7 +143234,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_egominorGlow.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Shaco_Skin43_egominorGlow.tex"
                 startFrame: u16 = 3
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteSelector: embed = ValueVector3 {
@@ -143490,7 +143490,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_basic_attack_impact_slash.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin87_basic_attack_impact_slash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -143574,7 +143574,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aura_Self.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Aura_Self.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_E_dash_hit"
@@ -143622,7 +143622,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.04999995, 0.970000029, 1.10000002 }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Ekko_Skin57_E_Hit2ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Ekko_Skin57_E_Hit2ball32_02.tex"
             }
         }
         particleName: string = "Yasuo_Skin87_Idle_Sword"
@@ -143727,7 +143727,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_ball32_02.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -143837,7 +143837,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin56_AAAA_Flare_omnimax.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/Yasuo_Skin56_AAAA_Flare_omnimax.tex"
                 startFrame: u16 = 1
             }
         }
@@ -143858,9 +143858,9 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                particleColorTexture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
                 meshRenderFlags: u8 = 0
-                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.SKINS_Yasuo_Skin87.tex"
+                texture: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Particles/common_Black.tex"
                 LegacySimple: pointer = VfxEmitterLegacySimple {
                     birthScale: embed = ValueFloat {
                         constantValue: f32 = 0
@@ -144018,26 +144018,26 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_TX_CM.SKINS_Yasuo_Skin87.tex"
+                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Swapped_Texture"
-                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_TX_CM.SKINS_Yasuo_Skin87.tex"
+                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Ink_Texture"
-                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_FresnelMask_Normal_TX_CM.SKINS_Yasuo_Skin87.tex"
+                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_FresnelMask_Normal_TX_CM.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Ink_Color_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -144210,7 +144210,7 @@ entries: map[hash,embed] = {
                             driver: pointer = HasBuffDynamicMaterialBoolDriver {
                                 mScriptName: string = "YasuoQ2"
                             }
-                            TextureName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_Q2_TX_CM.SKINS_Yasuo_Skin87.tex"
+                            TextureName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_Q2_TX_CM.tex"
                         }
                     }
                 }
@@ -144221,7 +144221,7 @@ entries: map[hash,embed] = {
                             driver: pointer = HasBuffDynamicMaterialBoolDriver {
                                 mScriptName: string = "YasuoQ2"
                             }
-                            TextureName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_FresnelMask_Q2_TX_CM2.SKINS_Yasuo_Skin87.tex"
+                            TextureName: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_FresnelMask_Q2_TX_CM2.tex"
                         }
                     }
                 }
@@ -144233,7 +144233,7 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_R_TX_CM.SKINS_Yasuo_Skin87.tex"
+                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_R_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -144247,12 +144247,12 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Ink_Texture"
-                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_FresnelMask_R_Test_TX_CM2.SKINS_Yasuo_Skin87.tex"
+                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_FresnelMask_R_Test_TX_CM2.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Ink_Color_Texture"
-                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_Fresneldiffuse_R_TX_CM.SKINS_Yasuo_Skin87.tex"
+                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_Fresneldiffuse_R_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -144349,7 +144349,7 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_R_TX_CM.SKINS_Yasuo_Skin87.tex"
+                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_R_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -144363,12 +144363,12 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Ink_Texture"
-                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_FresnelMask_R_Test_TX_CM.SKINS_Yasuo_Skin87.tex"
+                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_FresnelMask_R_Test_TX_CM.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Ink_Color_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -144465,21 +144465,21 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "FlowMap"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_R_TX_CM.SKINS_Yasuo_Skin87.tex"
+                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin87/Yasuo_Skin87_R_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Mask"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Specular_Mask"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
         }
         paramValues: list2[embed] = {

@@ -9937,7 +9937,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Specular_Mask"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
         }
         paramValues: list2[embed] = {
@@ -10096,7 +10096,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Ink_Color_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -10249,7 +10249,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Ink_Color_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1

@@ -47471,19 +47471,19 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Pattern_Mask"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "ScreenSpace_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "MatCap_Tex"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Color_Mask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture"
@@ -47494,7 +47494,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "iridescentTex"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -47513,7 +47513,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture2"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1

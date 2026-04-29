@@ -158,35 +158,35 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Nasus/Skins/Skin54/Particles/Nasus_Skin45_Q_Sparks.SKINS_Nasus_Skin54.tex"
+                texture: string = "ASSETS/Characters/Nasus/Skins/Skin54/Particles/Nasus_Skin45_Q_Sparks.tex"
                 materialOverrideDefinitions: list[embed] = {
                     VfxMaterialOverrideDefinitionData {
                         priority: i32 = 1
                         subMeshName: option[string] = {
                             "armor_gem"
                         }
-                        baseTexture: string = "ASSETS/Characters/Nasus/Skins/Skin62/Particles/Nasus_Skin62_R_texture_03.Chroma_Nasus_Fatemaker.tex"
+                        baseTexture: string = "ASSETS/Characters/Nasus/Skins/Skin62/Particles/Nasus_Skin62_R_texture_03.tex"
                     }
                     VfxMaterialOverrideDefinitionData {
                         priority: i32 = 2
                         subMeshName: option[string] = {
                             "blade_gem"
                         }
-                        baseTexture: string = "ASSETS/Characters/Nasus/Skins/Skin62/Particles/Nasus_Skin62_R_texture_03.Chroma_Nasus_Fatemaker.tex"
+                        baseTexture: string = "ASSETS/Characters/Nasus/Skins/Skin62/Particles/Nasus_Skin62_R_texture_03.tex"
                     }
                     VfxMaterialOverrideDefinitionData {
                         priority: i32 = 3
                         subMeshName: option[string] = {
                             "lamp"
                         }
-                        baseTexture: string = "ASSETS/Characters/Nasus/Skins/Skin62/Particles/Nasus_Skin62_R_texture_03.Chroma_Nasus_Fatemaker.tex"
+                        baseTexture: string = "ASSETS/Characters/Nasus/Skins/Skin62/Particles/Nasus_Skin62_R_texture_03.tex"
                     }
                     VfxMaterialOverrideDefinitionData {
                         priority: i32 = 4
                         subMeshName: option[string] = {
                             "body"
                         }
-                        baseTexture: string = "ASSETS/Characters/Nasus/Skins/Skin62/Particles/Nasus_Skin62_R_texture_03.Chroma_Nasus_Fatemaker.tex"
+                        baseTexture: string = "ASSETS/Characters/Nasus/Skins/Skin62/Particles/Nasus_Skin62_R_texture_03.tex"
                     }
                 }
                 particleUVScrollRate: embed = IntegratedValueVector2 {
@@ -285,9 +285,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Nasus/Skins/Skin54/Particles/Flare-Omnimax.SKINS_Nasus_Skin54.tex"
+                texture: string = "ASSETS/Characters/Nasus/Skins/Skin54/Particles/Flare-Omnimax.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Nasus/Skins/Skin54/Particles/Qiyana_Skin50_Wispy_07.SKINS_Nasus_Skin54.tex"
+                    textureMult: string = "ASSETS/Characters/Nasus/Skins/Skin54/Particles/Qiyana_Skin50_Wispy_07.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0 }
                     }
@@ -360,14 +360,14 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Nasus/Skins/Skin62/Nasus_Skin62_TX_CM.Chroma_Nasus_Fatemaker.tex"
+                texturePath: string = "ASSETS/Characters/Nasus/Skins/Skin62/Nasus_Skin62_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "MatCap_Tex"
-                texturePath: string = "ASSETS/Characters/Malzahar/Skins/Skin49/Malzahar_Skin49_Matcap_TX_CM.SKINS_Malzahar_Skin49.tex"
+                texturePath: string = "ASSETS/Characters/Malzahar/Skins/Skin49/Malzahar_Skin49_Matcap_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1

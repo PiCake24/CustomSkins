@@ -7345,7 +7345,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Mask_Texture"
-                texturePath: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                texturePath: string = "ASSETS/Shared/Particles/black.tex"
             }
         }
         paramValues: list2[embed] = {
@@ -7434,7 +7434,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Mask_Texture"
-                texturePath: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                texturePath: string = "ASSETS/Shared/Particles/black.tex"
             }
         }
         paramValues: list2[embed] = {

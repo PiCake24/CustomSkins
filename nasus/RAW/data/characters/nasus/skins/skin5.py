@@ -354,10 +354,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                texture: string = "ASSETS/Shared/Particles/black.tex"
             }
         }
         particleName: string = "nasus_skin05_emote_dance_sound"
@@ -1736,10 +1736,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                texture: string = "ASSETS/Shared/Particles/black.tex"
             }
         }
         particleName: string = "nasus_skin05_interactive_50stack"
@@ -2503,10 +2503,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                texture: string = "ASSETS/Shared/Particles/black.tex"
             }
         }
         particleName: string = "nasus_skin05_recall_start_leadout_sound"
@@ -2523,10 +2523,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                texture: string = "ASSETS/Shared/Particles/black.tex"
             }
         }
         particleName: string = "nasus_skin05_ultform_run_sound"
@@ -3810,10 +3810,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                texture: string = "ASSETS/Shared/Particles/black.tex"
             }
         }
         particleName: string = "nasus_skin05_emote_taunt_sound"
@@ -3830,10 +3830,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                texture: string = "ASSETS/Shared/Particles/black.tex"
             }
         }
         particleName: string = "nasus_skin05_recall_winddown_sound"
@@ -5099,10 +5099,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                texture: string = "ASSETS/Shared/Particles/black.tex"
             }
         }
         particleName: string = "nasus_skin05_respawn_sound"
@@ -5672,10 +5672,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                texture: string = "ASSETS/Shared/Particles/black.tex"
             }
         }
         particleName: string = "nasus_skin05_interactive_100stack"
@@ -5692,10 +5692,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                texture: string = "ASSETS/Shared/Particles/black.tex"
             }
         }
         particleName: string = "nasus_skin05_ultform_runin_sound"
@@ -5712,10 +5712,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                texture: string = "ASSETS/Shared/Particles/black.tex"
             }
         }
         particleName: string = "nasus_skin05_emote_ultdance_sound"
@@ -5732,10 +5732,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                texture: string = "ASSETS/Shared/Particles/black.tex"
             }
         }
         particleName: string = "nasus_skin05_ultform_idle1_sound"
@@ -5752,10 +5752,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                texture: string = "ASSETS/Shared/Particles/black.tex"
             }
         }
         particleName: string = "nasus_skin05_recall_start_sound"
@@ -5975,10 +5975,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                texture: string = "ASSETS/Shared/Particles/black.tex"
             }
         }
         particleName: string = "nasus_skin05_emote_joke_sound"
@@ -6489,10 +6489,10 @@ entries: map[hash,embed] = {
                     1
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                texture: string = "ASSETS/Shared/Particles/black.tex"
             }
         }
         particleName: string = "nasus_skin05_emote_death_sound"
@@ -8013,10 +8013,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                texture: string = "ASSETS/Shared/Particles/black.tex"
             }
         }
         particleName: string = "nasus_skin05_emote_VO_laugh_ultdogs_sound"
@@ -9507,10 +9507,10 @@ entries: map[hash,embed] = {
                     10
                 }
                 emitterName: string = "empty"
-                particleColorTexture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/black.tex"
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/black.SKINS_Kindred_Skin34.tex"
+                texture: string = "ASSETS/Shared/Particles/black.tex"
             }
         }
         particleName: string = "nasus_skin05_interactive_150stack"

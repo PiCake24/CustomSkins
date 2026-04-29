@@ -6867,6 +6867,7 @@ entries: map[hash,embed] = {
                         mSubmeshesToDraw: list[hash] = {
                             "BODY"
                             "Mane"
+                            "HeadBase"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -7144,6 +7145,7 @@ entries: map[hash,embed] = {
                         mSubmeshesToDraw: list[hash] = {
                             "BODY"
                             "Mane"
+                            "HeadBase"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -8316,6 +8318,7 @@ entries: map[hash,embed] = {
                         mSubmeshesToDraw: list[hash] = {
                             "Mane"
                             "BODY"
+                            "HeadBase"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -8360,7 +8363,7 @@ entries: map[hash,embed] = {
                 hasPostRotateOrientation: flag = true
                 isRandomStartFrame: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_skin5_R_color-hold.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/volibear_base_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1
@@ -8385,9 +8388,12 @@ entries: map[hash,embed] = {
                         mSubmeshesToDraw: list[hash] = {
                             "BODY"
                             "Mane"
+                            "HeadBase"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
                             "Mane"
+                            "BODY"
+                            "HeadBase"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -8420,7 +8426,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_leapAvatar.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/volibear_base_TX_CM.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteCount: i32 = 16
@@ -8455,9 +8461,12 @@ entries: map[hash,embed] = {
                         mSubmeshesToDraw: list[hash] = {
                             "BODY"
                             "Mane"
+                            "HeadBase"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
                             "Mane"
+                            "BODY"
+                            "HeadBase"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -8490,7 +8499,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Avatar_Blend_01.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/volibear_base_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1

@@ -32849,7 +32849,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectHeight: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveRay {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/3026_Items_color.AprilFools2025.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/3026_Items_color.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.200000003, 1, 0.800000012, 1 }
@@ -34662,7 +34662,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectHeight: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveRay {}
-                particleColorTexture: string = "ASSETS/Shared/Particles/3026_Items_color.AprilFools2025.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/3026_Items_color.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.701960802, 0.458823532, 1 }

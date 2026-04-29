@@ -33,7 +33,7 @@
                       "value": "ASSETS/Characters/Nasus/Skins/Base/NasusLoadScreen.tex"
                     }
                   ],
-                  "name": "CensoredImage"
+                  "name": 3496109055
                 }
               },
               {
@@ -117,7 +117,7 @@
                                 }
                               }
                             ],
-                            "name": "BankUnit"
+                            "name": 2755749141
                           },
                           {
                             "items": [
@@ -167,7 +167,7 @@
                                 "value": true
                               }
                             ],
-                            "name": "BankUnit"
+                            "name": 2755749141
                           }
                         ],
                         "valueType": "embed"
@@ -242,7 +242,7 @@
                       "value": "Leona_Mat, Hair"
                     }
                   ],
-                  "name": "SkinMeshDataProperties"
+                  "name": 1628559524
                 }
               },
               {
@@ -286,7 +286,7 @@
                       "value": 12
                     }
                   ],
-                  "name": "CharacterHealthBarDataRecord"
+                  "name": 297212766
                 }
               },
               {
@@ -295,7 +295,7 @@
                 "value": "Characters/Nasus/Skins/Skin0/Resources"
               }
             ],
-            "name": "SkinCharacterDataProperties"
+            "name": 2607278582
           }
         },
         {
@@ -308,27 +308,27 @@
                 "value": {
                   "items": [
                     {
-                      "key": "Nasus_AA_Cast_Slash_1",
+                      "key": 1168726316,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_AA_Cast_Slash_1"
                     },
                     {
-                      "key": "Nasus_AA_Tar",
+                      "key": 4260187912,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_AA_Tar"
                     },
                     {
-                      "key": "Nasus_BA1_Trail1",
+                      "key": 2567311924,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_BA1_Trail1"
                     },
                     {
-                      "key": "Nasus_BA2_Trail1",
+                      "key": 114652271,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_BA2_Trail1"
                     },
                     {
-                      "key": "Nasus_BA2_Trail2",
+                      "key": 131429890,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_BA2_Trail2"
                     },
                     {
-                      "key": "Nasus_Crit_Tar",
+                      "key": 3917422446,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_Crit_Tar"
                     },
                     {
@@ -360,99 +360,99 @@
                       "value": "Characters/Nasus/Skins/Skin0/Particles/nasus_base_emote_VO_taunt"
                     },
                     {
-                      "key": "Nasus_E_Green_Ring",
+                      "key": 1403686684,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_E_Green_Ring"
                     },
                     {
-                      "key": "Nasus_E_Red_Ring",
+                      "key": 3631436392,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_E_Red_Ring"
                     },
                     {
-                      "key": "Nasus_E_SpiritFire",
+                      "key": 1961076255,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_E_SpiritFire"
                     },
                     {
-                      "key": "Nasus_E_Staff_Swirl",
+                      "key": 420258556,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_E_Staff_Swirl"
                     },
                     {
-                      "key": "Nasus_E_Warning",
+                      "key": 2802871910,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_E_Warning"
                     },
                     {
-                      "key": "Nasus_P_Lifesteal",
+                      "key": 4206557600,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_P_Lifesteal"
                     },
                     {
-                      "key": "Nasus_Q_Buf",
+                      "key": 3619440583,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_Q_Buf"
                     },
                     {
-                      "key": "Nasus_Q_Tar",
+                      "key": 2956661125,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_Q_Tar"
                     },
                     {
-                      "key": "Nasus_Q_Wpn_trail",
+                      "key": 1187108474,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_Q_Wpn_trail"
                     },
                     {
-                      "key": "Nasus_R_Aura",
+                      "key": 3073693522,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_R_Aura"
                     },
                     {
-                      "key": "Nasus_R_Avatar",
+                      "key": 2965312496,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_R_Avatar"
                     },
                     {
-                      "key": "Nasus_R_HandGlow",
+                      "key": 3030218989,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_R_HandGlow"
                     },
                     {
-                      "key": "Nasus_R_Transform",
+                      "key": 261852903,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_R_Transform"
                     },
                     {
-                      "key": "Nasus_W_Glowy_Hands",
+                      "key": 4045339685,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_W_Glowy_Hands"
                     },
                     {
-                      "key": "Nasus_W_Hand_Glow",
+                      "key": 1982448771,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_W_Hand_Glow"
                     },
                     {
-                      "key": "Nasus_W_Runes",
+                      "key": 3747545061,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_W_Runes"
                     },
                     {
-                      "key": "Nasus_W_tar",
+                      "key": 511971499,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_W_tar"
                     },
                     {
-                      "key": "Nasus_Z_Taunt",
+                      "key": 3932965759,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_Z_Taunt"
                     },
                     {
-                      "key": "Nasus_VO_Taunt_Renekton_BV2",
+                      "key": 1603709816,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_VO_Taunt_Renekton"
                     },
                     {
-                      "key": "Nasus_E_ArmorShred",
+                      "key": 3407290537,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_E_ArmorShred"
                     },
                     {
-                      "key": "Nasus_E_ArmorShred_Minion",
+                      "key": 2338136216,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_E_ArmorShred_Minion"
                     },
                     {
-                      "key": "Nasus_R_Transform_End",
+                      "key": 3770714989,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_R_Transform"
                     },
                     {
-                      "key": "Nasus_E_Cas_Tar",
+                      "key": 2731711655,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_E_Cas_Tar"
                     },
                     {
-                      "key": "Nasus_E_Tick_Tar",
+                      "key": 3457063215,
                       "value": "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_E_Tick_Tar"
                     }
                   ],

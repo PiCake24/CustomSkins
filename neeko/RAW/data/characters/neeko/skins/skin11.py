@@ -13016,7 +13016,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Leblanc_Base_W_Clone_Glow.Leblanc_Rework_RemoveRefs.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Leblanc_Base_W_Clone_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -38945,7 +38945,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Scroll_Layer_Top"
-                texturePath: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_HairMult01.XinZhaoOldAssets.tex"
+                texturePath: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_HairMult01.tex"
                 addressU: u32 = 3
                 addressW: u32 = 1
             }
@@ -38958,7 +38958,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Scroll_Layer_Add"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
         }
         paramValues: list2[embed] = {
@@ -39066,7 +39066,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Scroll_Layer_Top"
-                texturePath: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_HairMult01.XinZhaoOldAssets.tex"
+                texturePath: string = "ASSETS/Shared/Particles/XinZhao_Skin20_Z_HairMult01.tex"
                 addressU: u32 = 3
                 addressW: u32 = 1
             }
@@ -39079,7 +39079,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Scroll_Layer_Add"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
         }
         paramValues: list2[embed] = {

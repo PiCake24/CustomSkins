@@ -13010,7 +13010,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Leblanc_Base_W_Clone_Glow.Leblanc_Rework_RemoveRefs.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Leblanc_Base_W_Clone_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -38554,7 +38554,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_swirls.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_swirls.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -38659,7 +38659,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Joke_Tail.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Joke_Tail.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -38849,7 +38849,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -38941,7 +38941,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_head_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_head_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -38986,7 +38986,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 100, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_ball32.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_ball32.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -39030,7 +39030,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 20, 40, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_ball32.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_ball32.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
                         times: list[f32] = {
@@ -39121,7 +39121,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -39151,7 +39151,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0 }
                 }
@@ -39246,7 +39246,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -39276,7 +39276,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_Trail_03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_Trail_03.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0 }
                 }
@@ -39367,7 +39367,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BAN_HoneyTrail_erosion.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BAN_HoneyTrail_erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -39387,7 +39387,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BAN_HoneyTrail.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BAN_HoneyTrail.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -1, 0 }
                 }
@@ -39577,7 +39577,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bubble.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bubble.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -39703,7 +39703,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_LinearSplashes_02N_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_LinearSplashes_02N_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -39787,11 +39787,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_LinearSplashes_02N_GS.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_LinearSplashes_02N_GS.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Skin49_TFT_Dmg_Skin15N_Minion_Mis_Cap_Mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Skin49_TFT_Dmg_Skin15N_Minion_Mis_Cap_Mult.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -39990,7 +39990,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -40018,7 +40018,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveBeam {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_ChannelLine.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_ChannelLine.scb"
                     }
                     mBeam: embed = VfxBeamDefinitionData {
                         mBirthTilingSize: embed = ValueVector3 {
@@ -40061,7 +40061,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Mask_04.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Mask_04.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.5 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -40087,7 +40087,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Gradient_1.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Gradient_1.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.5 }
                     }
@@ -40111,7 +40111,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveBeam {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_ChannelLine_Core.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_ChannelLine_Core.scb"
                     }
                     mBeam: embed = VfxBeamDefinitionData {
                         mBirthTilingSize: embed = ValueVector3 {
@@ -40144,7 +40144,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 40, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BeamCore.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BeamCore.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.400000006 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -40188,7 +40188,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveBeam {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_ChannelLine_Glow.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_ChannelLine_Glow.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -40204,7 +40204,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 10, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Dark_Glow_ChannelLine.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Dark_Glow_ChannelLine.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.5 }
                 }
@@ -40212,7 +40212,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 0.5 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Gradient_1.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Gradient_1.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.5 }
                     }
@@ -40342,7 +40342,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Fiddle_Sticks_Shadowy_hand_Beam.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Fiddle_Sticks_Shadowy_hand_Beam.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 2, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -40369,7 +40369,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Beam_Edge_Mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Beam_Edge_Mult.tex"
                     texAddressModeMult: u8 = 2
                     uvScrollClampMult: flag = true
                     birthUVOffsetMult: embed = ValueVector2 {
@@ -40426,7 +40426,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 80, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BeamCore.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BeamCore.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -40439,7 +40439,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Gradient_1.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Gradient_1.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.5 }
                     }
@@ -40563,12 +40563,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_NoiseBubble.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_NoiseBubble.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BeamMask_01.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BeamMask_01.tex"
                     texAddressModeMult: u8 = 2
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 90
@@ -40668,7 +40668,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 100, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Flare-Omnimax.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Flare-Omnimax.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -40775,7 +40775,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Flare-Omnimax.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Flare-Omnimax.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -40883,7 +40883,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Warwick_Skin49_BightSpark.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Warwick_Skin49_BightSpark.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -40974,7 +40974,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/EzVGU_Tristana_Skin12_Idle_glow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/EzVGU_Tristana_Skin12_Idle_glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -41160,7 +41160,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/EzVGU_Tristana_Skin12_Idle_glow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/EzVGU_Tristana_Skin12_Idle_glow.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -41209,7 +41209,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 40, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Cirlcle_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Cirlcle_01.tex"
             }
         }
         particleName: string = "Neeko_Skin49_W_P_Ready"
@@ -41259,7 +41259,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveBeam {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_beam.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_beam.scb"
                     }
                     mBeam: embed = VfxBeamDefinitionData {
                         mIsColorBindedWithDistance: bool = true
@@ -41295,7 +41295,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Idle_trail.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Idle_trail.tex"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -41359,7 +41359,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_cas_beam_10N.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_cas_beam_10N.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.25999999, 0 }
                 }
@@ -41420,7 +41420,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveBeam {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_beam.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_beam.scb"
                     }
                     mBeam: embed = VfxBeamDefinitionData {
                         mIsColorBindedWithDistance: bool = true
@@ -41459,7 +41459,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Idle_trail.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Idle_trail.tex"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -41523,7 +41523,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_cas_beam_10N.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_cas_beam_10N.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.25999999, 0 }
                 }
@@ -41581,9 +41581,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Honey_Mesh.SKINS_Neeko_Skin49.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Honey_Mesh.SKINS_Neeko_Skin49.skl"
-                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Honey_Mesh.SKINS_Neeko_Skin49.anm"
+                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Honey_Mesh.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Honey_Mesh.skl"
+                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Honey_Mesh.anm"
                     }
                 }
                 blendMode: u8 = 1
@@ -41624,7 +41624,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.10000002
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Alpha_Mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Alpha_Mult.tex"
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
                     fresnel: f32 = 0.100000001
@@ -41652,7 +41652,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Honey_Mesh.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Honey_Mesh.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -41686,9 +41686,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Honey_Mesh.SKINS_Neeko_Skin49.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Honey_Mesh.SKINS_Neeko_Skin49.skl"
-                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Honey_Mesh.SKINS_Neeko_Skin49.anm"
+                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Honey_Mesh.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Honey_Mesh.skl"
+                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Honey_Mesh.anm"
                     }
                 }
                 blendMode: u8 = 4
@@ -41727,7 +41727,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 0.100000001
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Alpha_Mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Alpha_Mult.tex"
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
                     fresnel: f32 = 0.100000001
@@ -41755,7 +41755,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Honey_Mesh.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Honey_Mesh.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -41789,9 +41789,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Honey_Mesh.SKINS_Neeko_Skin49.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Honey_Mesh.SKINS_Neeko_Skin49.skl"
-                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Honey_Mesh.SKINS_Neeko_Skin49.anm"
+                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Honey_Mesh.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Honey_Mesh.skl"
+                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Honey_Mesh.anm"
                     }
                 }
                 blendMode: u8 = 4
@@ -41833,7 +41833,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 0.100000001
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Alpha_Mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Alpha_Mult.tex"
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
                     fresnel: f32 = 0.100000001
@@ -41861,7 +41861,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Honey_Mesh.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Honey_Mesh.tex"
             }
         }
         particleName: string = "Neeko_Skin49_W_HoneyMeshChild"
@@ -41895,7 +41895,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 10, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.501960814 }
@@ -41919,7 +41919,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.00400000019
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_cas_DistortionRipples.SKINS_Neeko_Skin49.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_cas_DistortionRipples.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -41969,7 +41969,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -42027,7 +42027,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 270, -20 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_NoiseBubble.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_NoiseBubble.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0 }
                 }
@@ -42056,7 +42056,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 70, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.00999465957, 0.0200045779, 0.110002287, 1 }
@@ -42097,7 +42097,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -42337,7 +42337,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -42442,7 +42442,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -42504,9 +42504,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/3161Glow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/3161Glow.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_tattoo.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_tattoo.tex"
                     texDivMult: vec2 = { 4, 4 }
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 1 }
@@ -42573,9 +42573,9 @@ entries: map[hash,embed] = {
                 emitterName: string = "Honey"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.SKINS_Neeko_Skin49.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.SKINS_Neeko_Skin49.skl"
-                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.SKINS_Neeko_Skin49.anm"
+                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.skl"
+                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.anm"
                     }
                 }
                 blendMode: u8 = 1
@@ -42618,7 +42618,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -42637,9 +42637,9 @@ entries: map[hash,embed] = {
                 emitterName: string = "HoneyFresnel"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.SKINS_Neeko_Skin49.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.SKINS_Neeko_Skin49.skl"
-                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.SKINS_Neeko_Skin49.anm"
+                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.skl"
+                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.anm"
                     }
                 }
                 blendMode: u8 = 4
@@ -42680,7 +42680,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -42711,7 +42711,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/black.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/black.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -42812,7 +42812,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Splatters_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Splatters_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -42900,7 +42900,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_R_beam_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_R_beam_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -43004,7 +43004,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Splatters_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Splatters_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -43092,7 +43092,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_R_beam_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_R_beam_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -43314,7 +43314,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Hit_01_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Hit_01_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 1 }
                     }
@@ -43423,7 +43423,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -43610,7 +43610,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/SGPig_QuestionMark_V01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/SGPig_QuestionMark_V01.tex"
             }
         }
         particleName: string = "Neeko_Skin49_Z_Recall_BeeMark"
@@ -43635,7 +43635,7 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveBeam {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_beam.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_beam.scb"
                     }
                     mBeam: embed = VfxBeamDefinitionData {
                         mSegments: i32 = 500
@@ -43684,13 +43684,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Heart_Beam_Core.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Heart_Beam_Core.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, -0.25 }
                 }
                 texDiv: vec2 = { 1, 0.5 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Heart_Beam_Core.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Heart_Beam_Core.tex"
                     texDivMult: vec2 = { 1, 2 }
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, -4 }
@@ -43727,7 +43727,7 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveBeam {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_beam.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_beam.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -43767,7 +43767,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_trail_02.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_trail_02.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 birthScale0: embed = ValueVector3 {
@@ -43799,7 +43799,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_alphatrail_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_alphatrail_02.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -43826,7 +43826,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Beam_002.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Beam_002.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, -1 }
                     }
@@ -43845,7 +43845,7 @@ entries: map[hash,embed] = {
                 isSingleParticle: flag = true
                 emitterName: string = "lensbeam1"
                 primitive: pointer = VfxPrimitiveBeam {}
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_rampdown_rgb.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_rampdown_rgb.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.790005326 }
@@ -43883,7 +43883,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BeamCore.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BeamCore.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -3.20000005, 0 }
                 }
@@ -43895,7 +43895,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, -1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_P_Mis_beam_glow1.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_P_Mis_beam_glow1.tex"
                 }
             }
         }
@@ -44180,7 +44180,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -44241,7 +44241,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Glow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -44367,7 +44367,7 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.SKINS_Neeko_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -44397,7 +44397,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_DiscoScroll.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_DiscoScroll.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -44457,10 +44457,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Tar_Swirl_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Tar_Swirl_02.tex"
                 numFrames: u16 = 4
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Gradient02.SKINS_Neeko_Skin49.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Gradient02.tex"
                     palleteSrcMixColor: embed = ValueColor {
                         constantValue: vec4 = { 0.130006865, 0, 0, 0 }
                     }
@@ -44591,7 +44591,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_SmokeErode.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -44712,7 +44712,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenGlows_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenGlows_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -44746,10 +44746,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_root.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_root.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.382192731, 0.113832302, 0.200000003 }
@@ -44784,7 +44784,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -44807,7 +44807,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_R_Snowpile_05.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_R_Snowpile_05.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.200000003 }
                 }
@@ -44860,10 +44860,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_root.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_root.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.76000613, 0.409994662, 0.800000012 }
@@ -44898,7 +44898,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -44921,7 +44921,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_R_Snowpile_05.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_R_Snowpile_05.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.200000003 }
                 }
@@ -44974,10 +44974,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_root.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_root.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.149996191 }
@@ -45000,7 +45000,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -45023,7 +45023,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_R_Snowpile_06.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_R_Snowpile_06.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.200000003 }
                 }
@@ -45216,7 +45216,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_loop.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_loop.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 32
                 }
@@ -45299,7 +45299,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_swirls.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_swirls.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -45379,7 +45379,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_swirls.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_swirls.tex"
                 texDiv: vec2 = { 2, 2 }
             }
         }
@@ -45415,7 +45415,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings08.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings08.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -45452,7 +45452,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Noise_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Noise_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.479999989 }
                 }
@@ -45469,7 +45469,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Noise_Rotate.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Noise_Rotate.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 2 }
                     }
@@ -45527,9 +45527,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Fuse_Trail_Bee.SKINS_Neeko_Skin49.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.SKINS_Neeko_Skin49.skl"
-                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.SKINS_Neeko_Skin49.anm"
+                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Fuse_Trail_Bee.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.skl"
+                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.anm"
                     }
                 }
                 blendMode: u8 = 3
@@ -45545,7 +45545,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2.20000005, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bee_Texture.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bee_Texture.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -45588,9 +45588,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Fuse_Trail_Bee.SKINS_Neeko_Skin49.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.SKINS_Neeko_Skin49.skl"
-                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.SKINS_Neeko_Skin49.anm"
+                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Fuse_Trail_Bee.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.skl"
+                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.anm"
                     }
                 }
                 blendMode: u8 = 3
@@ -45606,7 +45606,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2.20000005, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bee_Texture.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bee_Texture.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -45632,7 +45632,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -45669,7 +45669,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -45682,7 +45682,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
@@ -45726,7 +45726,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -45763,7 +45763,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -45776,7 +45776,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
@@ -45856,7 +45856,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
                 uvMode: u8 = 2
                 particleUVRotateRate: embed = IntegratedValueFloat {
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -46005,7 +46005,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -46157,7 +46157,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -46310,7 +46310,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/P_Explotion_Flower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/P_Explotion_Flower.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -46359,7 +46359,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings09.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings09.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -46433,7 +46433,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/eeko_Skin49_Particles_Line01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/eeko_Skin49_Particles_Line01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 2, -0.200000003 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -46494,7 +46494,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
                     texAddressModeMult: u8 = 2
                 }
             }
@@ -46519,7 +46519,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings09.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings09.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -46596,7 +46596,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 2, -0.200000003 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -46657,7 +46657,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
                     texAddressModeMult: u8 = 2
                 }
             }
@@ -46709,7 +46709,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 180, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_ball32N_002.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_ball32N_002.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -46886,7 +46886,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion02.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -46974,7 +46974,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 4
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -47084,7 +47084,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_LinearSplashes_02N_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_LinearSplashes_02N_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -47178,11 +47178,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_LinearSplashes_02N_GS.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_LinearSplashes_02N_GS.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Skin49_TFT_Dmg_Skin15N_Minion_Mis_Cap_Mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Skin49_TFT_Dmg_Skin15N_Minion_Mis_Cap_Mult.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -47238,7 +47238,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -47344,7 +47344,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_HoneyGloops.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_HoneyGloops.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -47372,7 +47372,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -47409,7 +47409,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_005.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_005.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -47422,7 +47422,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     texAddressModeMult: u8 = 2
                 }
             }
@@ -47450,7 +47450,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -47487,7 +47487,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_005.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_005.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -47500,7 +47500,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     texAddressModeMult: u8 = 2
                 }
             }
@@ -47521,7 +47521,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 50, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.590005338 }
                 }
@@ -47585,9 +47585,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_flareblue.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_flareblue.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.SKINS_Neeko_Skin49.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -47659,7 +47659,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -47726,7 +47726,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -47800,10 +47800,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ezreal_Skin49_E_ringglow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ezreal_Skin49_E_ringglow.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.SKINS_Neeko_Skin49.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -47881,7 +47881,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_spin.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_spin.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -47907,7 +47907,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -47944,7 +47944,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -47957,7 +47957,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     texAddressModeMult: u8 = 2
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -47995,7 +47995,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -48032,7 +48032,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -48045,7 +48045,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     texAddressModeMult: u8 = 2
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -48143,7 +48143,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 30, 80, 80 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -48216,7 +48216,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BAN_HoneyTrail_erosion.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BAN_HoneyTrail_erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -48236,7 +48236,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Honey_Trail.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Honey_Trail.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0 }
                 }
@@ -48498,7 +48498,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -48526,7 +48526,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 50, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.590005338 }
                 }
@@ -48590,9 +48590,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_flareblue.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_flareblue.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.SKINS_Neeko_Skin49.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -48659,7 +48659,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
                 uvMode: u8 = 2
                 particleUVRotateRate: embed = IntegratedValueFloat {
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -48847,7 +48847,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion02.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -48935,7 +48935,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 4
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -49045,7 +49045,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_LinearSplashes_02N_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_LinearSplashes_02N_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -49139,11 +49139,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_LinearSplashes_02N_GS.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_LinearSplashes_02N_GS.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Skin49_TFT_Dmg_Skin15N_Minion_Mis_Cap_Mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Skin49_TFT_Dmg_Skin15N_Minion_Mis_Cap_Mult.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -49199,7 +49199,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -49305,7 +49305,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_HoneyGloops.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_HoneyGloops.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -49400,7 +49400,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_trail.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_trail.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 birthScale0: embed = ValueVector3 {
@@ -49420,7 +49420,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_alphatrail_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_alphatrail_02.tex"
             }
         }
         particleName: string = "Neeko_Skin49_Q_Bounce01Child"
@@ -49571,7 +49571,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -49724,7 +49724,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/P_Explotion_Flower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/P_Explotion_Flower.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -49775,7 +49775,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings09.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings09.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -49861,7 +49861,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 2, -0.200000003 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -49922,7 +49922,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
                     texAddressModeMult: u8 = 2
                 }
             }
@@ -49951,7 +49951,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings08.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings08.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -49988,7 +49988,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Noise_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Noise_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.479999989 }
                 }
@@ -50005,7 +50005,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Noise_Rotate.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Noise_Rotate.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 2 }
                     }
@@ -50159,7 +50159,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -50189,9 +50189,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Fuse_Trail_Bee.SKINS_Neeko_Skin49.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.SKINS_Neeko_Skin49.skl"
-                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.SKINS_Neeko_Skin49.anm"
+                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Fuse_Trail_Bee.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.skl"
+                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.anm"
                     }
                 }
                 blendMode: u8 = 3
@@ -50210,7 +50210,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.79999995, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bee_Texture.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bee_Texture.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -50238,9 +50238,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Fuse_Trail_Bee.SKINS_Neeko_Skin49.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.SKINS_Neeko_Skin49.skl"
-                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.SKINS_Neeko_Skin49.anm"
+                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Fuse_Trail_Bee.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.skl"
+                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.anm"
                     }
                 }
                 blendMode: u8 = 3
@@ -50259,7 +50259,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.79999995, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bee_Texture.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bee_Texture.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -50282,7 +50282,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -50316,7 +50316,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -50329,7 +50329,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
@@ -50360,7 +50360,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -50394,7 +50394,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -50407,7 +50407,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
@@ -50438,7 +50438,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -50472,9 +50472,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     texAddressModeMult: u8 = 2
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -50512,7 +50512,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -50546,9 +50546,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     texAddressModeMult: u8 = 2
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -50613,7 +50613,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 180, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_ball32N_002.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_ball32N_002.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -50687,10 +50687,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ezreal_Skin49_E_ringglow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ezreal_Skin49_E_ringglow.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.SKINS_Neeko_Skin49.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -50721,7 +50721,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 50, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.590005338 }
                 }
@@ -50785,9 +50785,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_flareblue.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_flareblue.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.SKINS_Neeko_Skin49.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -50854,7 +50854,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
                 uvMode: u8 = 2
                 particleUVRotateRate: embed = IntegratedValueFloat {
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -51042,7 +51042,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion02.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -51130,7 +51130,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 4
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -51240,7 +51240,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_LinearSplashes_02N_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_LinearSplashes_02N_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -51334,11 +51334,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_LinearSplashes_02N_GS.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_LinearSplashes_02N_GS.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Skin49_TFT_Dmg_Skin15N_Minion_Mis_Cap_Mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Skin49_TFT_Dmg_Skin15N_Minion_Mis_Cap_Mult.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -51394,7 +51394,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -51500,7 +51500,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_HoneyGloops.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_HoneyGloops.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -51800,7 +51800,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_sparkle.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_sparkle.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -51862,7 +51862,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_spin.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_spin.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -51929,7 +51929,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -51996,7 +51996,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -52019,7 +52019,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -52053,7 +52053,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_006.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_006.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -52066,7 +52066,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     texAddressModeMult: u8 = 2
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -52104,7 +52104,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -52138,7 +52138,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_006.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_006.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -52151,7 +52151,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     texAddressModeMult: u8 = 2
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -52206,10 +52206,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_campTimer.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_campTimer.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.340001523, 0.190005347, 0.0500038154, 0.360006094 }
@@ -52222,7 +52222,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_BubbleDecal_ColoredAlpha_Extra_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_BubbleDecal_ColoredAlpha_Extra_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.5, 0 }
                 }
@@ -52251,10 +52251,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_campTimer.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_campTimer.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.62999922, 0.360006094, 0.110002287, 0.200000003 }
@@ -52268,7 +52268,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0 }
                 }
@@ -52357,7 +52357,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 220, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Timer_beehive.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Timer_beehive.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.119999997
@@ -52394,9 +52394,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 220, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Timer_beehive_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Timer_beehive_02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_campTimer_mult_01.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_campTimer_mult_01.tex"
                     texAddressModeMult: u8 = 2
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = -90
@@ -52489,7 +52489,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 40, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Timer_beeicon.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Timer_beeicon.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1.79999995
@@ -52543,7 +52543,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 40, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Timer_beeicon.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Timer_beeicon.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.119999997
@@ -52571,7 +52571,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/flower002.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/flower002.scb"
                     }
                 }
                 blendMode: u8 = 3
@@ -52581,7 +52581,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Timer_flower002.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Timer_flower002.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.119999997
@@ -52604,10 +52604,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_campTimer.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_campTimer.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.990005314, 0.719996929, 0.220004573, 0.11999695 }
@@ -52621,7 +52621,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -52637,7 +52637,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { -2, 2 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_campTimer_mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_campTimer_mult.tex"
                     texAddressModeMult: u8 = 2
                     uvScrollClampMult: flag = true
                     birthUvScrollRateMult: embed = ValueVector2 {
@@ -52666,10 +52666,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_campTimer.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_campTimer.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.62999922, 0.360006094, 0.110002287, 0.11999695 }
@@ -52695,7 +52695,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.5, 0 }
                 }
@@ -52703,7 +52703,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { -2, 2 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Trail_01.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Trail_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -1, 0 }
                     }
@@ -52730,7 +52730,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "Mesh_burst_splas"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_flower_torus.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_flower_torus.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -52775,7 +52775,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_circle_tex_root.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_circle_tex_root.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -52894,7 +52894,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 210, 210 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_ImpactRing.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_ImpactRing.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -52911,7 +52911,7 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_landingZone_green.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_landingZone_green.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -52949,9 +52949,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 7.4000001, 20, 20 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Ring_Indicator_V2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Ring_Indicator_V2.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -52986,7 +52986,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -53020,7 +53020,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.89999998
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash_erosion.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash_erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0.900007606, 0, 0, 0 }
                     }
@@ -53036,7 +53036,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 14, 1, 0.5 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.699999988 }
                 }
@@ -53078,7 +53078,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -53112,7 +53112,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.89999998
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash_erosion.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash_erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0.900007606, 0, 0, 0 }
                     }
@@ -53128,7 +53128,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 14, 1, 0.5 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.699999988 }
                 }
@@ -53170,7 +53170,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -53204,7 +53204,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.89999998
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash_erosion.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash_erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0.900007606, 0, 0, 0 }
                     }
@@ -53220,7 +53220,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 14, 1, 0.5 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.699999988 }
                 }
@@ -53309,7 +53309,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 240, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_04.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_04.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -53317,7 +53317,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_06.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_06.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.10000002, 1.10000002 }
@@ -53403,7 +53403,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 240, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -53411,7 +53411,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_06.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_06.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.10000002, 1.10000002 }
@@ -53449,7 +53449,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "Mesh_burst_splas"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_flower_torus.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_flower_torus.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -53494,7 +53494,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_circle_tex_root.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_circle_tex_root.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -53613,7 +53613,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 210, 210 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_ImpactRing.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_ImpactRing.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -53630,7 +53630,7 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_landingZone_green.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_landingZone_green.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -53668,9 +53668,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 7.4000001, 20, 20 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Ring_Indicator_V2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Ring_Indicator_V2.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -53705,7 +53705,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -53739,7 +53739,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.89999998
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash_erosion.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash_erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0.900007606, 0, 0, 0 }
                     }
@@ -53777,7 +53777,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 14, 1, 0.5 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.699999988 }
                 }
@@ -53819,7 +53819,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -53853,7 +53853,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.89999998
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash_erosion.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash_erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0.900007606, 0, 0, 0 }
                     }
@@ -53891,7 +53891,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 14, 1, 0.5 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.699999988 }
                 }
@@ -53933,7 +53933,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -53967,7 +53967,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.89999998
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash_erosion.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash_erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0.900007606, 0, 0, 0 }
                     }
@@ -54005,7 +54005,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 14, 1, 0.5 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/bounce01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.699999988 }
                 }
@@ -54094,7 +54094,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 240, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_04.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_04.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -54102,7 +54102,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_06.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_06.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.10000002, 1.10000002 }
@@ -54188,7 +54188,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 240, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -54196,7 +54196,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_06.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_06.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.10000002, 1.10000002 }
@@ -54332,7 +54332,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Hit_Spark_blue.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Hit_Spark_blue.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -54413,7 +54413,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/hiteffect.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/hiteffect.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -54515,7 +54515,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Radial_Recall_spark.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Radial_Recall_spark.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -54568,7 +54568,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/AlphaSlice_bubbles_02.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/AlphaSlice_bubbles_02.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 disableBackfaceCull: bool = true
@@ -54614,7 +54614,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/EnergyNebula_Recall_spark.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/EnergyNebula_Recall_spark.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -54891,7 +54891,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -54958,7 +54958,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Glow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -55002,7 +55002,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Generic_White_Cubemap.SKINS_Neeko_Skin49.dds"
+                    reflectionMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Generic_White_Cubemap.dds"
                     reflectionOpacityDirect: f32 = -1
                     reflectionFresnel: f32 = 0.100000001
                     reflectionFresnelColor: vec4 = { 1, 0.470588237, 0, 1 }
@@ -55012,7 +55012,7 @@ entries: map[hash,embed] = {
                 0xcb13aff1: f32 = -1
                 isUniformScale: flag = true
                 isRandomStartFrame: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -55064,7 +55064,7 @@ entries: map[hash,embed] = {
                 0xcb13aff1: f32 = -1
                 isUniformScale: flag = true
                 isRandomStartFrame: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/GlowTrail.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/GlowTrail.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -55115,7 +55115,7 @@ entries: map[hash,embed] = {
                 0xcb13aff1: f32 = -2
                 isUniformScale: flag = true
                 isRandomStartFrame: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/GlowTrail.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/GlowTrail.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -55174,7 +55174,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Glow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Glow.tex"
             }
         }
         particleName: string = "Neeko_Skin49_Z_Recall_spark"
@@ -55229,7 +55229,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_cas_tendrils.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_cas_tendrils.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -55271,7 +55271,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_11_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_11_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -55296,7 +55296,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.5, 0 }
                 }
@@ -55317,7 +55317,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 4, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.tex"
                     texAddressModeMult: u8 = 2
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 180
@@ -55403,7 +55403,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_cas_tendrils.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_cas_tendrils.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -55445,7 +55445,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_11_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_11_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -55470,7 +55470,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.5, 0 }
                 }
@@ -55491,7 +55491,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 4, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.tex"
                     texAddressModeMult: u8 = 2
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 180
@@ -55574,7 +55574,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_cas_tendrils.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_cas_tendrils.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -55613,7 +55613,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_11_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_11_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -55638,7 +55638,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.5, 0 }
                 }
@@ -55659,7 +55659,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 4, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.tex"
                     texAddressModeMult: u8 = 2
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 180
@@ -55758,7 +55758,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ItemZhonya_speed_flash.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ItemZhonya_speed_flash.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -55873,7 +55873,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -55920,7 +55920,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_root.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_root.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -56010,7 +56010,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Attack_Swipe_V01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Attack_Swipe_V01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.400000006 }
                 }
@@ -56050,7 +56050,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin01_R_AoE_cone_02.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin01_R_AoE_cone_02.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -56094,7 +56094,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_circle_tex.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_circle_tex.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.100000001 }
                 }
@@ -56250,7 +56250,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_spotlight.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_spotlight.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.550000012
@@ -56352,7 +56352,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Glow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -56374,7 +56374,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin01_R_AoE_cone_02.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin01_R_AoE_cone_02.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -56416,7 +56416,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin01_Ass_trans_ground_mesh.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin01_Ass_trans_ground_mesh.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.5 }
                 }
@@ -56474,7 +56474,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1.00999999, 1.00999999 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_R.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_R.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -56670,7 +56670,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -56853,7 +56853,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -57054,7 +57054,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -57242,7 +57242,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -57374,7 +57374,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -57529,7 +57529,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -57669,7 +57669,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -57704,7 +57704,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -57751,7 +57751,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -57783,7 +57783,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -57830,7 +57830,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -57866,7 +57866,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -57913,7 +57913,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -57944,7 +57944,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -58013,7 +58013,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 650, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_04.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_04.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -58021,7 +58021,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.04999995, 1.04999995 }
@@ -58093,7 +58093,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 640, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -58101,7 +58101,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ezreal_Skin49_E_ringglow.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ezreal_Skin49_E_ringglow.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.04999995, 1.04999995 }
@@ -58179,7 +58179,7 @@ entries: map[hash,embed] = {
                     erosionDriveCurve: embed = ValueFloat {
                         constantValue: f32 = 0.100000001
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Crack_Erosion.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Crack_Erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -58195,7 +58195,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 650, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -58203,7 +58203,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.tex"
                     texAddressModeMult: u8 = 2
                 }
             }
@@ -58342,7 +58342,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Warwick_Skin49_BightSpark.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Warwick_Skin49_BightSpark.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -58359,8 +58359,8 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.SKINS_Neeko_Skin49.tex"
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.956862748, 0.105882354, 1, 0.541176498 }
                 }
@@ -58428,7 +58428,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/EzVGU_Tristana_Skin12_Idle_glow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/EzVGU_Tristana_Skin12_Idle_glow.tex"
             }
         }
         particleName: string = "Neeko_Skin49_W_P_CasHandglow"
@@ -58458,7 +58458,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_indicator.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_indicator.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -58502,14 +58502,14 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_indicator.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_indicator.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.300000012 }
                 }
                 texDiv: vec2 = { 0.200000003, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_tattoo_brighter.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_tattoo_brighter.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -58586,7 +58586,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/glow-soft.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/glow-soft.tex"
                 startFrame: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -58607,7 +58607,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_ring.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_ring.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -58675,7 +58675,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/honey01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/honey01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.600000024 }
                 }
@@ -58716,7 +58716,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -58730,7 +58730,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 17, 15, 17 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Bee01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Bee01.tex"
                 texAddressModeBase: u8 = 2
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, 8 }
@@ -58767,7 +58767,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -58795,7 +58795,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 17, 15, 17 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis1_mesh_Ring_mask_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis1_mesh_Ring_mask_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.5, 0 }
                 }
@@ -58818,7 +58818,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 180
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_Trail_03.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_Trail_03.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.5, 1.5 }
                     }
@@ -58852,7 +58852,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -58880,7 +58880,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 17, 15, 17 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.5, 0 }
                 }
@@ -58903,7 +58903,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 180
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.5, 1.5 }
                     }
@@ -58990,7 +58990,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 650, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -58998,7 +58998,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -59042,7 +59042,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -59080,7 +59080,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_11_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_11_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -59093,7 +59093,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 17, 15, 17 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.5, 0 }
                 }
@@ -59114,7 +59114,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 4, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.tex"
                     texAddressModeMult: u8 = 2
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0.899999976, 0 }
@@ -59158,7 +59158,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -59196,7 +59196,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_11_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_11_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -59209,7 +59209,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 17, 15, 17 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.5, 0 }
                 }
@@ -59230,7 +59230,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 4, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.tex"
                     texAddressModeMult: u8 = 2
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 180
@@ -59289,7 +59289,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -59330,7 +59330,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_11_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_11_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -59343,7 +59343,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 17, 15, 17 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.5, 0 }
                 }
@@ -59364,7 +59364,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 4, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.tex"
                     texAddressModeMult: u8 = 2
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 180
@@ -59469,7 +59469,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 650, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -59477,7 +59477,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask02.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask02.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -59567,7 +59567,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 645, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -59575,7 +59575,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Glow.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Glow.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.899999976, 0.899999976 }
                     }
@@ -59722,7 +59722,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -59878,7 +59878,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -59949,7 +59949,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 255, 260, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_08.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_08.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -60034,7 +60034,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -60054,7 +60054,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_ring.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_ring.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -60123,7 +60123,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/honey01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/honey01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.5 }
                 }
@@ -60212,7 +60212,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 650, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -60220,7 +60220,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -60260,7 +60260,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.SKINS_Neeko_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.719996929 }
@@ -60304,7 +60304,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1.20000005
@@ -60355,7 +60355,7 @@ entries: map[hash,embed] = {
                 miscRenderFlags: u8 = 1
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -60403,9 +60403,9 @@ entries: map[hash,embed] = {
                 miscRenderFlags: u8 = 1
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_MeshMask.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_MeshMask.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -60458,9 +60458,9 @@ entries: map[hash,embed] = {
                 disableBackfaceCull: bool = true
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_MeshMask02.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_MeshMask02.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -60522,7 +60522,7 @@ entries: map[hash,embed] = {
                 miscRenderFlags: u8 = 1
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -60641,7 +60641,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -60694,9 +60694,9 @@ entries: map[hash,embed] = {
                 disableBackfaceCull: bool = true
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_MeshMask02.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_MeshMask02.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -60745,9 +60745,9 @@ entries: map[hash,embed] = {
                 miscRenderFlags: u8 = 1
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_MeshMask.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_MeshMask.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -60803,7 +60803,7 @@ entries: map[hash,embed] = {
                 disableBackfaceCull: bool = true
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -60857,7 +60857,7 @@ entries: map[hash,embed] = {
                 disableBackfaceCull: bool = true
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -60929,7 +60929,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 645, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -60937,7 +60937,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Glow.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Glow.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -60972,7 +60972,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_indicator.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_indicator.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -61004,7 +61004,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.22000003, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Gradient02_Pan.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Gradient02_Pan.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.150000006 }
                 }
@@ -61030,7 +61030,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -61059,7 +61059,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 17, 15, 17 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Bee01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Bee01.tex"
                 texAddressModeBase: u8 = 2
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, 8 }
@@ -61136,7 +61136,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -61193,7 +61193,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.tex"
             }
         }
         particleName: string = "Neeko_Skin49_R_CasAllyOnly"
@@ -61341,7 +61341,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -61496,7 +61496,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/P_Explotion_Flower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/P_Explotion_Flower.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -61565,9 +61565,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Fuse_Trail_Bee.SKINS_Neeko_Skin49.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.SKINS_Neeko_Skin49.skl"
-                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.SKINS_Neeko_Skin49.anm"
+                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Fuse_Trail_Bee.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.skl"
+                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.anm"
                     }
                 }
                 blendMode: u8 = 3
@@ -61583,7 +61583,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.79999995, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bee_Texture.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bee_Texture.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -61626,9 +61626,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Fuse_Trail_Bee.SKINS_Neeko_Skin49.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.SKINS_Neeko_Skin49.skl"
-                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.SKINS_Neeko_Skin49.anm"
+                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Fuse_Trail_Bee.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.skl"
+                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.anm"
                     }
                 }
                 blendMode: u8 = 3
@@ -61644,7 +61644,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.79999995, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bee_Texture.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bee_Texture.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -61667,7 +61667,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -61705,7 +61705,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_03.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -61718,7 +61718,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
@@ -61749,7 +61749,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -61787,7 +61787,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_03.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -61800,7 +61800,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
@@ -62000,7 +62000,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -62021,7 +62021,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings09.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings09.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -62108,7 +62108,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 2, -0.200000003 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -62169,7 +62169,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
                     texAddressModeMult: u8 = 2
                 }
             }
@@ -62266,7 +62266,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Splatters_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Splatters_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -62352,7 +62352,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Q_beam_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Q_beam_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -62374,7 +62374,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings08.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings08.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -62412,7 +62412,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Noise_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Noise_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.479999989 }
                 }
@@ -62429,7 +62429,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Noise_Rotate.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Noise_Rotate.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 2 }
                     }
@@ -62520,7 +62520,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_mis_child_beemesh_mult.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_mis_child_beemesh_mult.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -62539,7 +62539,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings09.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings09.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -62626,7 +62626,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_CloudsTrail_002.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_CloudsTrail_002.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 2, -0.200000003 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -62687,7 +62687,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
                     texAddressModeMult: u8 = 2
                 }
             }
@@ -62712,7 +62712,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -62750,7 +62750,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -62763,7 +62763,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -62797,7 +62797,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -62835,7 +62835,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -62848,7 +62848,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -62907,7 +62907,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 250 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ball_E_Decal_Flower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ball_E_Decal_Flower.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -62952,9 +62952,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 250 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ball_E_Decal_Flower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ball_E_Decal_Flower.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                     }
@@ -63018,7 +63018,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
                 uvMode: u8 = 2
                 particleUVRotateRate: embed = IntegratedValueFloat {
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -63091,7 +63091,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
                 uvMode: u8 = 2
                 particleUVRotateRate: embed = IntegratedValueFloat {
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -63160,7 +63160,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
                 uvMode: u8 = 2
                 particleUVRotateRate: embed = IntegratedValueFloat {
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -63472,7 +63472,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_sparkle.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_sparkle.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -63535,7 +63535,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_spin.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_spin.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -63602,7 +63602,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -63669,7 +63669,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -63745,9 +63745,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_mis_child_beemesh_mult.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_mis_child_beemesh_mult.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Tar_11.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Tar_11.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -63824,7 +63824,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Noise.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Noise.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -63846,10 +63846,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings_trail03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings_trail03.tex"
                 emitterUvScrollRate: vec2 = { 0.5, 0 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_luoxuan_039.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_luoxuan_039.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -63873,7 +63873,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -63911,7 +63911,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_005.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_005.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -63924,7 +63924,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -63958,7 +63958,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -63996,7 +63996,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_005.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_005.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -64009,7 +64009,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -64050,7 +64050,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 10, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.501960814 }
@@ -64070,7 +64070,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0199999996
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_cas_DistortionRipples.SKINS_Neeko_Skin49.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_cas_DistortionRipples.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -64120,7 +64120,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -64142,10 +64142,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_campTimer.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_campTimer.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.340001523, 0.190005347, 0.0500038154, 0.360006094 }
@@ -64172,7 +64172,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_BubbleDecal_ColoredAlpha_Extra_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_BubbleDecal_ColoredAlpha_Extra_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.5, 0 }
                 }
@@ -64200,10 +64200,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_campTimer.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_campTimer.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.62999922, 0.360006094, 0.110002287, 0.200000003 }
@@ -64231,7 +64231,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -64247,7 +64247,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { -2, 2 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Trail_01.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Trail_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -1, 0 }
                     }
@@ -64273,10 +64273,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_campTimer.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_campTimer.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.990005314, 0.719996929, 0.220004573, 0.190005347 }
@@ -64304,7 +64304,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.600000024, 0 }
                 }
@@ -64368,7 +64368,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 220, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Timer_beehive_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Timer_beehive_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -64419,7 +64419,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 40, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Timer_beeicon.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Timer_beeicon.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -64473,7 +64473,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 40, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Timer_beeicon.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Timer_beeicon.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -64750,7 +64750,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bubble.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bubble.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -64821,7 +64821,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Cirlcle_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Cirlcle_01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.600000024
@@ -64867,14 +64867,14 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 numFrames: u16 = 4
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0.200000003 }
                 }
                 texDiv: vec2 = { 0.5, 0.5 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_tattoo.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_tattoo.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -65028,7 +65028,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -65149,7 +65149,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -65411,7 +65411,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/P_Explotion_Flower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/P_Explotion_Flower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -65440,7 +65440,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/flower002.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/flower002.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -65464,7 +65464,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Timer_flower002.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Timer_flower002.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -65491,7 +65491,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/flower002.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/flower002.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -65518,7 +65518,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Timer_flower002.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Timer_flower002.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -65557,7 +65557,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -65599,7 +65599,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0.0800030529 }
                     }
@@ -65644,7 +65644,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_003.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_003.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.920000017 }
                 }
@@ -65665,7 +65665,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Senna_Base_RingMult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Senna_Base_RingMult.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -65705,7 +65705,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -65747,7 +65747,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0.0800030529 }
                     }
@@ -65791,7 +65791,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_003.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_003.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.920000017 }
                 }
@@ -65846,7 +65846,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -65888,7 +65888,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0.0800030529 }
                     }
@@ -65932,7 +65932,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.899999976 }
                 }
@@ -65953,7 +65953,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/TeemoMushroom_Skin49_P_Mask02N.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/TeemoMushroom_Skin49_P_Mask02N.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.5, 1.5 }
                     }
@@ -65993,7 +65993,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -66035,7 +66035,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0.0800030529 }
                     }
@@ -66079,7 +66079,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.899999976 }
                 }
@@ -66100,7 +66100,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_bounce_01_12.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_bounce_01_12.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.5, 1.5 }
                     }
@@ -66140,7 +66140,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -66182,7 +66182,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0.0800030529 }
                     }
@@ -66226,7 +66226,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.899999976 }
                 }
@@ -66247,7 +66247,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_bounce_01_16.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_bounce_01_16.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.5, 1.5 }
                     }
@@ -66322,7 +66322,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -66378,7 +66378,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 numFrames: u16 = 4
             }
         }
@@ -66485,7 +66485,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_swirls.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_swirls.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -66590,7 +66590,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Joke_Tail.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Joke_Tail.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -66780,7 +66780,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -66868,7 +66868,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Shockwave_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Shockwave_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -66889,7 +66889,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_alpha_12.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_alpha_12.tex"
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     constantValue: vec4 = { 0.745433748, 0.0832074434, 1, 1 }
@@ -66929,7 +66929,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Flare-Omnimax.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Flare-Omnimax.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -67022,7 +67022,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Dash_Head.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Dash_Head.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.00300000003
@@ -67043,14 +67043,14 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, 50, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-bellcurve32.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-bellcurve32.tex"
                 blendMode: u8 = 1
                 meshRenderFlags: u8 = 0
                 colorLookUpScales: vec2 = { 0.699999988, 1 }
                 colorLookUpOffsets: vec2 = { 0.300000012, 0 }
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0500000007
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_distort-soft-shockwave.SKINS_Neeko_Skin49.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_distort-soft-shockwave.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -67070,7 +67070,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -67093,7 +67093,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Sphere_01.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Sphere_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -67136,7 +67136,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_Mask01.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_Mask01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -67190,7 +67190,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
@@ -67347,7 +67347,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -67421,7 +67421,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Pearl_EyeBG.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Pearl_EyeBG.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -67446,7 +67446,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Praxis.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Praxis.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -67527,7 +67527,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_2_0.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_2_0.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 2 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -67708,7 +67708,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Honey_Splash.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Honey_Splash.tex"
                 frameRate: f32 = 30
                 numFrames: u16 = 16
                 startFrame: u16 = 1
@@ -67815,7 +67815,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Splatters_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Splatters_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -67903,7 +67903,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_R_beam_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_R_beam_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -67937,7 +67937,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Heimerdinger_Skin24_E_pool_HoneySplash.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Heimerdinger_Skin24_E_pool_HoneySplash.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -68146,7 +68146,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.scb"
                     }
                 }
                 blendMode: u8 = 7
@@ -68301,7 +68301,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -68321,7 +68321,7 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Crater_01.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Crater_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -68362,7 +68362,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Wave_Foam_Stylized_BK_White.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Wave_Foam_Stylized_BK_White.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0.990005314, 0, 0, 0 }
                     }
@@ -68440,7 +68440,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Honeysplatters_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Honeysplatters_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -68472,7 +68472,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Heimerdinger_Skin24_E_pool_HoneySplash.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Heimerdinger_Skin24_E_pool_HoneySplash.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -68565,8 +68565,8 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.SKINS_Neeko_Skin49.tex"
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -68627,7 +68627,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -68708,7 +68708,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_Flower_01.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_Flower_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -68735,9 +68735,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/TeemoMushroom_Skin49_Q_Mask01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/TeemoMushroom_Skin49_Q_Mask01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DarkStarMode_EndOfRound_Orianna_Skin07_Q_SphereScroll_01.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DarkStarMode_EndOfRound_Orianna_Skin07_Q_SphereScroll_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.5, 1 }
                     }
@@ -68842,7 +68842,7 @@ entries: map[hash,embed] = {
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_Flower_01.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_Flower_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 1, 0 }
                     }
@@ -68869,7 +68869,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/TeemoMushroom_Skin49_Q_Mask01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/TeemoMushroom_Skin49_Q_Mask01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.300000012
@@ -69126,7 +69126,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -69439,7 +69439,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -69491,7 +69491,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveBeam {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_beam.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_beam.scb"
                     }
                     mBeam: embed = VfxBeamDefinitionData {
                         mIsColorBindedWithDistance: bool = true
@@ -69562,7 +69562,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Idle_trail.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Idle_trail.tex"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -69632,9 +69632,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Idle_beams.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Idle_beams.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Flicker_04.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Flicker_04.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 1, 0 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -69676,8 +69676,8 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.SKINS_Neeko_Skin49.tex"
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -69738,7 +69738,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -69759,8 +69759,8 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.SKINS_Neeko_Skin49.tex"
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -69825,7 +69825,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/EzVGU_Tristana_Skin12_Idle_glow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/EzVGU_Tristana_Skin12_Idle_glow.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 3.9000001
@@ -69983,7 +69983,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_spark.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_spark.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -70129,7 +70129,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.tex"
             }
         }
         particleName: string = "Neeko_Skin49_Idle_beam"
@@ -70198,7 +70198,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_prismflash.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_prismflash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -70275,9 +70275,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ItemZhonya_speed_flash.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ItemZhonya_speed_flash.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.SKINS_Neeko_Skin49.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.tex"
                     paletteCount: i32 = 8
                 }
             }
@@ -70469,7 +70469,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.tex"
                 startFrame: u16 = 1
             }
         }
@@ -70644,7 +70644,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bubble.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bubble.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -70787,7 +70787,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Wisps_ColorMap_02.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Wisps_ColorMap_02.tex"
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -70819,7 +70819,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.tex"
                 }
                 particleIsLocalOrientation: flag = true
                 birthRotation0: embed = ValueVector3 {
@@ -70887,7 +70887,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_12.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_12.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -70961,7 +70961,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveBeam {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_beam.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_beam.scb"
                     }
                     mBeam: embed = VfxBeamDefinitionData {
                         mIsColorBindedWithDistance: bool = true
@@ -70997,7 +70997,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Idle_trail.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Idle_trail.tex"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -71061,7 +71061,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_cas_beam_10N.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_cas_beam_10N.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.25999999, 0 }
                 }
@@ -71122,7 +71122,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveBeam {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_beam.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_beam.scb"
                     }
                     mBeam: embed = VfxBeamDefinitionData {
                         mIsColorBindedWithDistance: bool = true
@@ -71161,7 +71161,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Idle_trail.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Idle_trail.tex"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -71225,7 +71225,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_cas_beam_10N.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_cas_beam_10N.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.25999999, 0 }
                 }
@@ -71273,7 +71273,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 10, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.501960814 }
@@ -71293,7 +71293,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0199999996
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_cas_DistortionRipples.SKINS_Neeko_Skin49.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_cas_DistortionRipples.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -71343,7 +71343,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -71522,7 +71522,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bubble.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bubble.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -71677,7 +71677,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -71798,7 +71798,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -72047,7 +72047,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/P_Explotion_Flower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/P_Explotion_Flower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -72107,7 +72107,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -72154,14 +72154,14 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 numFrames: u16 = 4
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0.200000003 }
                 }
                 texDiv: vec2 = { 0.5, 0.5 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_tattoo.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_tattoo.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -72231,7 +72231,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Cirlcle_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Cirlcle_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -72408,7 +72408,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion02.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -72496,7 +72496,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 4
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -72593,7 +72593,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Splatters_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Splatters_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -72686,7 +72686,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_R_beam_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_R_beam_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -72727,7 +72727,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -72769,7 +72769,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0.0800030529 }
                     }
@@ -72814,7 +72814,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_003.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_003.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.920000017 }
                 }
@@ -72835,7 +72835,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Senna_Base_RingMult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Senna_Base_RingMult.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -72875,7 +72875,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -72917,7 +72917,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0.0800030529 }
                     }
@@ -72961,7 +72961,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_003.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_003.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.920000017 }
                 }
@@ -73016,7 +73016,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -73058,7 +73058,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0.0800030529 }
                     }
@@ -73102,7 +73102,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.899999976 }
                 }
@@ -73123,7 +73123,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/TeemoMushroom_Skin49_P_Mask02N.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/TeemoMushroom_Skin49_P_Mask02N.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.5, 1.5 }
                     }
@@ -73163,7 +73163,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -73205,7 +73205,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0.0800030529 }
                     }
@@ -73249,7 +73249,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.899999976 }
                 }
@@ -73270,7 +73270,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_bounce_01_12.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_bounce_01_12.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.5, 1.5 }
                     }
@@ -73310,7 +73310,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -73352,7 +73352,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0.0800030529 }
                     }
@@ -73396,7 +73396,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.899999976 }
                 }
@@ -73417,7 +73417,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_bounce_01_16.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_bounce_01_16.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.5, 1.5 }
                     }
@@ -73489,7 +73489,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
             }
         }
         particleName: string = "Neeko_Skin49_P_TransformNonchamp"
@@ -73516,7 +73516,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.501960814 }
@@ -73536,7 +73536,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0199999996
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_cas_DistortionRipples.SKINS_Neeko_Skin49.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_cas_DistortionRipples.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -73586,7 +73586,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -73639,14 +73639,14 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 numFrames: u16 = 4
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0.200000003 }
                 }
                 texDiv: vec2 = { 0.5, 0.5 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_tattoo.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_tattoo.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.400000006, 0.400000006 }
                     }
@@ -73806,7 +73806,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -73927,7 +73927,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -74192,7 +74192,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/P_Explotion_Flower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/P_Explotion_Flower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -74263,7 +74263,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Cirlcle_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Cirlcle_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -74319,7 +74319,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 numFrames: u16 = 4
             }
         }
@@ -74416,7 +74416,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -74446,7 +74446,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0 }
                 }
@@ -74535,7 +74535,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -74565,7 +74565,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_Trail_03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_Trail_03.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0 }
                 }
@@ -74600,7 +74600,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 55, 80, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_ball32.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_ball32.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -74632,7 +74632,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 70, 70 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_ball32.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_ball32.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -74717,7 +74717,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/GlowTrail.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/GlowTrail.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0 }
                 }
@@ -74804,7 +74804,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BAN_HoneyTrail_erosion.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BAN_HoneyTrail_erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -74824,7 +74824,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BAN_HoneyTrail.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BAN_HoneyTrail.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -1, 0 }
                 }
@@ -74970,7 +74970,7 @@ entries: map[hash,embed] = {
                 }
                 pass: i16 = 25
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.tex"
                 }
                 isDirectionOriented: flag = true
                 isUniformScale: flag = true
@@ -75067,7 +75067,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -75091,7 +75091,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Qmis.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Qmis.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -75135,7 +75135,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = -90
                 }
@@ -75354,7 +75354,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -75439,7 +75439,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BAN_HoneyTrail_erosion.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BAN_HoneyTrail_erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -75459,7 +75459,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BAN_HoneyTrail_erosion.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BAN_HoneyTrail_erosion.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -1, 0 }
                 }
@@ -75491,10 +75491,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Qmis.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Qmis.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.879530013, 0.32884717, 1, 1 }
@@ -75532,7 +75532,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_mis.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_mis.tex"
                 uvTransformCenter: vec2 = { 0, 0 }
             }
             VfxEmitterDefinitionData {
@@ -75558,17 +75558,17 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Qmis.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Qmis.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.749996185, 0.179995418, 0.700007617 }
                 }
                 pass: i16 = 502
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_mis.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_mis.tex"
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
                     fresnel: f32 = 0.100000001
@@ -75606,7 +75606,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_mismask.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_mismask.tex"
                 uvTransformCenter: vec2 = { 0, 0 }
             }
             VfxEmitterDefinitionData {
@@ -75687,7 +75687,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BAN_HoneyTrail_erosion.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BAN_HoneyTrail_erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -75721,7 +75721,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Honey_Trail.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Honey_Trail.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -75746,10 +75746,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Qmis.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Qmis.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0, 0, 0, 0.889997721 }
@@ -75790,7 +75790,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_mis.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_mis.tex"
                 uvTransformCenter: vec2 = { 0, 0 }
             }
         }
@@ -75858,7 +75858,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ItemZhonya_speed_flash.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ItemZhonya_speed_flash.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -75973,7 +75973,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -75995,7 +75995,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin01_R_AoE_cone_02.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin01_R_AoE_cone_02.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -76039,7 +76039,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_circle_tex.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_circle_tex.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.100000001 }
                 }
@@ -76195,7 +76195,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_spotlight.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_spotlight.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.550000012
@@ -76297,7 +76297,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Glow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -76344,7 +76344,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_root.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_root.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -76434,7 +76434,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Attack_Swipe_V01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Attack_Swipe_V01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.400000006 }
                 }
@@ -76494,7 +76494,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1.00999999, 1.00999999 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_R.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_R.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -76632,7 +76632,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -76667,7 +76667,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -76714,7 +76714,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -76750,7 +76750,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -76880,7 +76880,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -77035,7 +77035,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -77059,7 +77059,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin01_R_AoE_cone_02.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin01_R_AoE_cone_02.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -77101,7 +77101,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin01_Ass_trans_ground_mesh.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin01_Ass_trans_ground_mesh.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.5 }
                 }
@@ -77186,7 +77186,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 650, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_04.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_04.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -77194,7 +77194,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.04999995, 1.04999995 }
@@ -77266,7 +77266,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 640, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -77274,7 +77274,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ezreal_Skin49_E_ringglow.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ezreal_Skin49_E_ringglow.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.04999995, 1.04999995 }
@@ -77352,7 +77352,7 @@ entries: map[hash,embed] = {
                     erosionDriveCurve: embed = ValueFloat {
                         constantValue: f32 = 0.100000001
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Crack_Erosion.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Crack_Erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -77368,7 +77368,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 650, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -77376,7 +77376,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.tex"
                     texAddressModeMult: u8 = 2
                 }
             }
@@ -77574,7 +77574,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -77759,7 +77759,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -77960,7 +77960,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -78012,7 +78012,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -78043,7 +78043,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -78090,7 +78090,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -78122,7 +78122,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Indicator_Ally_hive.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -78303,7 +78303,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -78334,7 +78334,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -78369,7 +78369,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -78382,7 +78382,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.5, 1 }
@@ -78413,7 +78413,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -78448,7 +78448,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -78461,7 +78461,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.5, 1 }
@@ -78661,7 +78661,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -78805,7 +78805,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -78958,7 +78958,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/P_Explotion_Flower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/P_Explotion_Flower.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -79003,7 +79003,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings09.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings09.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -79090,7 +79090,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 2, -0.200000003 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -79151,7 +79151,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
                     texAddressModeMult: u8 = 2
                 }
             }
@@ -79248,7 +79248,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Splatters_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Splatters_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -79337,7 +79337,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Q_beam_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Q_beam_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -79359,7 +79359,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings08.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings08.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -79397,7 +79397,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Noise_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Noise_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.479999989 }
                 }
@@ -79414,7 +79414,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Noise_Rotate.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Noise_Rotate.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 2 }
                     }
@@ -79472,9 +79472,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Fuse_Trail_Bee.SKINS_Neeko_Skin49.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.SKINS_Neeko_Skin49.skl"
-                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.SKINS_Neeko_Skin49.anm"
+                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Fuse_Trail_Bee.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.skl"
+                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.anm"
                     }
                 }
                 blendMode: u8 = 3
@@ -79493,7 +79493,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2.20000005, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bee_Texture.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bee_Texture.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -79536,9 +79536,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Fuse_Trail_Bee.SKINS_Neeko_Skin49.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.SKINS_Neeko_Skin49.skl"
-                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.SKINS_Neeko_Skin49.anm"
+                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Fuse_Trail_Bee.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.skl"
+                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.anm"
                     }
                 }
                 blendMode: u8 = 3
@@ -79557,7 +79557,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bee_Texture.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bee_Texture.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -79580,7 +79580,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -79615,7 +79615,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -79628,7 +79628,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -79662,7 +79662,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -79697,7 +79697,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_004.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -79710,7 +79710,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -80022,7 +80022,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_sparkle.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_sparkle.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -80070,7 +80070,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 250 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ball_E_Decal_Flower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ball_E_Decal_Flower.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -80119,7 +80119,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
                 uvMode: u8 = 2
                 particleUVRotateRate: embed = IntegratedValueFloat {
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -80192,7 +80192,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
                 uvMode: u8 = 2
                 particleUVRotateRate: embed = IntegratedValueFloat {
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -80264,7 +80264,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
                 uvMode: u8 = 2
                 particleUVRotateRate: embed = IntegratedValueFloat {
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -80320,9 +80320,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 250, 250 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ball_E_Decal_Flower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ball_E_Decal_Flower.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                     }
@@ -80413,9 +80413,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_mis_child_beemesh_mult.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_mis_child_beemesh_mult.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Tar_11.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Tar_11.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -80479,7 +80479,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_spin.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_spin.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -80546,7 +80546,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -80613,7 +80613,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -80697,7 +80697,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -80725,7 +80725,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0 }
                 }
@@ -80813,7 +80813,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -80841,7 +80841,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_Trail_03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_Trail_03.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0 }
                 }
@@ -80921,7 +80921,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Noise.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Noise.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -80943,10 +80943,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings_trail03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings_trail03.tex"
                 emitterUvScrollRate: vec2 = { 0.5, 0 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_luoxuan_039.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_luoxuan_039.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -80970,7 +80970,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -81008,7 +81008,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_005.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_005.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -81021,7 +81021,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -81055,7 +81055,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_rings06.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -81093,7 +81093,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_005.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_005.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -2.5, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -81106,7 +81106,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_021.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -81206,7 +81206,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ItemZhonya_speed_flash.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ItemZhonya_speed_flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -81259,7 +81259,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/3161Glow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/3161Glow.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -81315,7 +81315,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.tex"
                 startFrame: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -81570,7 +81570,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_spark.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_spark.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -81737,7 +81737,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_spark.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_spark.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -81757,7 +81757,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_AoE_groundmesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_AoE_groundmesh.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -81801,9 +81801,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_AoE_waves.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_AoE_waves.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.SKINS_Neeko_Skin49.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 6, 0, 0 }
                     }
@@ -81968,7 +81968,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -82123,7 +82123,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -82236,7 +82236,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_11.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_11.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -82348,7 +82348,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_13.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_13.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -82464,7 +82464,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_HoneySplash_2x2_erosion.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_HoneySplash_2x2_erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -82572,7 +82572,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_HoneySplash_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_HoneySplash_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -82775,7 +82775,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Hit_01_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Hit_01_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 1 }
                     }
@@ -82884,7 +82884,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -82991,7 +82991,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Splatters_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Splatters_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -83079,7 +83079,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_R_beam_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_R_beam_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -83100,9 +83100,9 @@ entries: map[hash,embed] = {
                 emitterName: string = "Honey"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.SKINS_Neeko_Skin49.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.SKINS_Neeko_Skin49.skl"
-                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.SKINS_Neeko_Skin49.anm"
+                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.skl"
+                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.anm"
                     }
                 }
                 blendMode: u8 = 1
@@ -83143,7 +83143,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -83162,9 +83162,9 @@ entries: map[hash,embed] = {
                 emitterName: string = "HoneyFresnel"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.SKINS_Neeko_Skin49.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.SKINS_Neeko_Skin49.skl"
-                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.SKINS_Neeko_Skin49.anm"
+                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.skl"
+                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_pool_HoneyPuddle.anm"
                     }
                 }
                 blendMode: u8 = 4
@@ -83205,7 +83205,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -83234,7 +83234,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/black.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/black.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -83303,7 +83303,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 645, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.064000003, -0.0130000003 }
                 }
@@ -83311,7 +83311,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.860000014, 0.860000014 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask02.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask02.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -83396,7 +83396,7 @@ entries: map[hash,embed] = {
                     erosionDriveCurve: embed = ValueFloat {
                         constantValue: f32 = 0.100000001
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Crack_Erosion.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Crack_Erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -83412,7 +83412,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 645, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -83420,7 +83420,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -83566,7 +83566,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_HoneyComb_3.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_HoneyComb_3.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -83699,7 +83699,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/texture_Honey_Pot.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/texture_Honey_Pot.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -83932,7 +83932,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Bee_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Bee_2x2.tex"
                 frameRate: f32 = 60
                 birthFrameRate: embed = ValueFloat {
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -84049,7 +84049,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 670, 210, 210 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_ImpactRing.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_ImpactRing.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -84066,7 +84066,7 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_landingZone_green.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_landingZone_green.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -84106,7 +84106,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -84121,9 +84121,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 21, 20, 20 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Ring_Indicator_V2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Ring_Indicator_V2.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -84198,7 +84198,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_waveBACK.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_waveBACK.scb"
                         mLockMeshToAttachment: bool = true
                     }
                 }
@@ -84249,7 +84249,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_smoke_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_smoke_mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -84386,7 +84386,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Base_TFT_Dmg_Skin15_Minion_Mis_Cap.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Base_TFT_Dmg_Skin15_Minion_Mis_Cap.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.0500000007 }
                 }
@@ -84481,7 +84481,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_waveBACK.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_waveBACK.scb"
                         mLockMeshToAttachment: bool = true
                     }
                 }
@@ -84538,7 +84538,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -84674,7 +84674,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.5 }
                 }
@@ -84772,7 +84772,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -84795,7 +84795,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_AoE_pullin.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_AoE_pullin.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -84835,7 +84835,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_honey01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_honey01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.800000012 }
                 }
@@ -84887,7 +84887,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_AoE_pullin.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_AoE_pullin.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -84928,7 +84928,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_honeylight01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_honeylight01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.800000012 }
                 }
@@ -85017,7 +85017,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Base_Glow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Base_Glow.tex"
                 startFrame: u16 = 4
             }
         }
@@ -85217,7 +85217,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_star_04.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_star_04.tex"
                 numFrames: u16 = 16
                 texDiv: vec2 = { 2, 2 }
             }
@@ -85345,7 +85345,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -85419,7 +85419,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_clound_light.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_clound_light.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -85546,7 +85546,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -85620,7 +85620,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_clound_light.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_clound_light.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -85860,7 +85860,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -86216,7 +86216,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.tex"
                 numFrames: u16 = 9
                 texDiv: vec2 = { 2, 2 }
             }
@@ -86315,7 +86315,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 130, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_1_27.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_1_27.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.469993144, 0, 1 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -86401,7 +86401,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenSparkles_2x2.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -86472,7 +86472,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_minorGlow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -86528,7 +86528,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_MagicCircle03.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_MagicCircle03.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -86543,7 +86543,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 60, 500, 600 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_MagicCircle04.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_MagicCircle04.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -86599,7 +86599,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_MagicCircle03.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_MagicCircle03.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -86636,7 +86636,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Jarvan_Skin49_Z_Cracks.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Jarvan_Skin49_Z_Cracks.tex"
             }
         }
         particleName: string = "Neeko_Skin49_Z_Recall_FlowerSpawn"
@@ -86849,7 +86849,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -86939,7 +86939,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_common_fuzzyshadow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_common_fuzzyshadow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -86974,7 +86974,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                 }
@@ -87095,7 +87095,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -87121,7 +87121,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_flower_torus.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_flower_torus.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -87164,7 +87164,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_circle_tex_root.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_circle_tex_root.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.400000006 }
                 }
@@ -87388,7 +87388,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -87486,7 +87486,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Glow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -87563,7 +87563,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -87661,7 +87661,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Glow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -87793,7 +87793,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Tar_Mesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Tar_Mesh.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -87831,7 +87831,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.tex"
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
                     fresnel: f32 = 0.0500000007
@@ -87855,7 +87855,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0 }
                 }
@@ -87887,7 +87887,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Tar_Mesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Tar_Mesh.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -87922,7 +87922,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.tex"
                 }
                 disableBackfaceCull: bool = true
                 isLocalOrientation: flag = false
@@ -87943,7 +87943,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.100000001 }
                 }
@@ -87971,7 +87971,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Tar_Mesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Tar_Mesh.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -88006,7 +88006,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.tex"
                 }
                 disableBackfaceCull: bool = true
                 isLocalOrientation: flag = false
@@ -88027,7 +88027,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.100000001 }
                 }
@@ -88055,7 +88055,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Tar_Mesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Tar_Mesh.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -88093,7 +88093,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.tex"
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
                     fresnel: f32 = 0.100000001
@@ -88117,7 +88117,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0 }
                 }
@@ -88149,7 +88149,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Tar_Mesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Tar_Mesh.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -88186,7 +88186,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.tex"
                 }
                 isLocalOrientation: flag = false
                 birthScale0: embed = ValueVector3 {
@@ -88206,7 +88206,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -88225,7 +88225,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 90
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Tar_Mult_03.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Tar_Mult_03.tex"
                     uvScrollAlphaMult: flag = false
                     birthUVOffsetMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.810000002 }
@@ -88279,7 +88279,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                 }
@@ -88358,7 +88358,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Beam.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Beam.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -88512,7 +88512,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -88735,7 +88735,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenGlows_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenGlows_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -88762,8 +88762,8 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.SKINS_Neeko_Skin49.tex"
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         times: list[f32] = {
@@ -88820,7 +88820,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -89003,7 +89003,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bubble.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bubble.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -89152,7 +89152,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -89232,7 +89232,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -89465,7 +89465,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/P_Explotion_Flower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/P_Explotion_Flower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -89834,7 +89834,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -90010,7 +90010,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_E_Splats_01_Erosion.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_E_Splats_01_Erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -90114,7 +90114,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Q_beam_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Q_beam_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -90290,7 +90290,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_HoneySplash_2x2_erosion.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_HoneySplash_2x2_erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -90394,7 +90394,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_HoneySplash_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_HoneySplash_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -90462,7 +90462,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Cirlcle_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Cirlcle_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -90545,7 +90545,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_LinearSplashes_02N_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_LinearSplashes_02N_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -90639,11 +90639,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_LinearSplashes_02N_GS.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_LinearSplashes_02N_GS.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Skin49_TFT_Dmg_Skin15N_Minion_Mis_Cap_Mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Skin49_TFT_Dmg_Skin15N_Minion_Mis_Cap_Mult.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -90691,7 +90691,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -90742,7 +90742,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Drop02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Drop02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -91046,7 +91046,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -91134,7 +91134,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_LensFlare.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_LensFlare.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -91345,7 +91345,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_head_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_head_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -91411,7 +91411,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_1_243.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_1_243.tex"
             }
         }
         particleName: string = "Neeko_Skin49_Q_Hit"
@@ -91431,9 +91431,9 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Recall_avatar.SKINS_Neeko_Skin49.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Recall_avatar.SKINS_Neeko_Skin49.skl"
-                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Recall_avatar.SKINS_Neeko_Skin49.anm"
+                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Recall_avatar.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Recall_avatar.skl"
+                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Recall_avatar.anm"
                     }
                 }
                 blendMode: u8 = 1
@@ -91457,7 +91457,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -91471,9 +91471,9 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Recall_avatar.SKINS_Neeko_Skin49.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Recall_avatar.SKINS_Neeko_Skin49.skl"
-                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Recall_avatar.SKINS_Neeko_Skin49.anm"
+                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Recall_avatar.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Recall_avatar.skl"
+                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Recall_avatar.anm"
                     }
                 }
                 blendMode: u8 = 4
@@ -91482,7 +91482,7 @@ entries: map[hash,embed] = {
                 }
                 pass: i16 = 1
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Generic_White_Cubemap.SKINS_Neeko_Skin49.dds"
+                    reflectionMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Generic_White_Cubemap.dds"
                     reflectionOpacityDirect: f32 = -10
                     reflectionFresnel: f32 = 0.5
                     reflectionFresnelColor: vec4 = { 0.964705884, 0.352941185, 0.486274511, 1 }
@@ -91507,7 +91507,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Gradient_1.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_Gradient_1.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -91521,9 +91521,9 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Recall_avatar.SKINS_Neeko_Skin49.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Recall_avatar.SKINS_Neeko_Skin49.skl"
-                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Recall_avatar.SKINS_Neeko_Skin49.anm"
+                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Recall_avatar.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Recall_avatar.skl"
+                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Recall_avatar.anm"
                     }
                 }
                 blendMode: u8 = 4
@@ -91561,7 +91561,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
             }
         }
         particleName: string = "Neeko_Skin49_Z_Recall_avatar"
@@ -91786,7 +91786,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bubble.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bubble.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -92036,7 +92036,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -92139,7 +92139,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Splatters_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Splatters_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -92232,7 +92232,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_R_beam_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_R_beam_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -92360,7 +92360,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_LinearSplashes_02N_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_LinearSplashes_02N_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -92444,11 +92444,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_LinearSplashes_02N_GS.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_LinearSplashes_02N_GS.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Skin49_TFT_Dmg_Skin15N_Minion_Mis_Cap_Mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Skin49_TFT_Dmg_Skin15N_Minion_Mis_Cap_Mult.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -92473,7 +92473,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 70, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.472022593, 0.0523231849, 0.494117647, 1 }
@@ -92512,7 +92512,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Clone_Glow_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Clone_Glow_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -92617,7 +92617,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -92682,9 +92682,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/EzVGU_Tristana_Skin12_Idle_glow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/EzVGU_Tristana_Skin12_Idle_glow.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_tattoo.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_tattoo.tex"
                     texDivMult: vec2 = { 4, 4 }
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 1 }
@@ -92756,7 +92756,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 10, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.501960814 }
@@ -92776,7 +92776,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.00400000019
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_cas_DistortionRipples.SKINS_Neeko_Skin49.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_cas_DistortionRipples.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -92826,7 +92826,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self_02.tex"
             }
         }
         particleName: string = "Neeko_Skin49_W_Clone_Death_Clone"
@@ -93002,9 +93002,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 45, 45, 20 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ImpactGlow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ImpactGlow.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Flicker_04.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Flicker_04.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0 }
                     }
@@ -93177,9 +93177,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 45, 25, 20 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_trail_mult.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_trail_mult.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_trail_mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_trail_mult.tex"
                     texDivMult: vec2 = { 2, 2 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0 }
@@ -93239,7 +93239,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/glow-soft.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/glow-soft.tex"
                 startFrame: u16 = 4
             }
         }
@@ -93374,7 +93374,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Upgrade_Aura.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Upgrade_Aura.tex"
                 }
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
@@ -93454,7 +93454,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Pearl_EyeBG.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Pearl_EyeBG.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -93605,7 +93605,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/glow-soft.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/glow-soft.tex"
             }
         }
         particleName: string = "Neeko_Skin49_Joke_TailspinGround"
@@ -93835,7 +93835,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -94192,7 +94192,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenGlows_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenGlows_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -94332,7 +94332,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -94487,7 +94487,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -94699,12 +94699,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Flare07.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Flare07.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = -90
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Color01.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Color01.tex"
                     birthUVOffsetMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.699999988 }
                     }
@@ -94764,7 +94764,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1.00999999, 1.00999999 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin31_Global_SpeedBuffColor.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin31_Global_SpeedBuffColor.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -94839,7 +94839,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.01999998, 1.01999998, 1.01999998 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin31_Global_SpeedBuffColor.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin31_Global_SpeedBuffColor.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.00999999978, 0.050999999 }
                 }
@@ -94963,7 +94963,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Splatters_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Splatters_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -95051,7 +95051,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_R_beam_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_R_beam_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -95179,7 +95179,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -95213,7 +95213,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Annie_Skin12_FireTrail_Styled_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Annie_Skin12_FireTrail_Styled_02.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -95346,7 +95346,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Diana_Skin54_Q_Trail01_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Diana_Skin54_Q_Trail01_01.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -95456,7 +95456,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_trail.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_trail.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 birthScale0: embed = ValueVector3 {
@@ -95476,7 +95476,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_alphatrail_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_alphatrail_02.tex"
             }
         }
         particleName: string = "Neeko_Skin49_Q_Bounce02Child"
@@ -95561,7 +95561,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_LinearSplashes_02N_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_LinearSplashes_02N_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -95655,11 +95655,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_LinearSplashes_02N_GS.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_LinearSplashes_02N_GS.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Skin49_TFT_Dmg_Skin15N_Minion_Mis_Cap_Mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Skin49_TFT_Dmg_Skin15N_Minion_Mis_Cap_Mult.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -95795,7 +95795,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_LensFlare.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_LensFlare.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -95863,7 +95863,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_ball32N_002.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_ball32N_002.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -96170,7 +96170,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -96260,9 +96260,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_1_243.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_1_243.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.SKINS_Neeko_Skin49.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.tex"
                     paletteCount: i32 = 8
                 }
             }
@@ -96398,7 +96398,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Hit_01_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Hit_01_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 1 }
                     }
@@ -96506,7 +96506,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -96749,7 +96749,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -96816,7 +96816,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_ball32N_002.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_ball32N_002.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -96901,9 +96901,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Dash_Head.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Dash_Head.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.SKINS_Neeko_Skin49.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.tex"
                     paletteCount: i32 = 8
                 }
             }
@@ -96964,7 +96964,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.tex"
                 startFrame: u16 = 4
             }
         }
@@ -97028,7 +97028,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                emissionMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_W_cas.SKINS_Neeko_Skin49.scb"
+                emissionMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_W_cas.scb"
                 SpawnShape: pointer = VfxShapeBox {
                     flags: u8 = 1
                     Size: vec3 = { 0, 20, 20 }
@@ -97151,7 +97151,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bubble.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bubble.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -97178,10 +97178,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_root.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_root.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.400000006, 0.179995418, 0.100007631 }
@@ -97216,7 +97216,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -97239,7 +97239,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_head_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_head_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.200000003 }
                 }
@@ -97286,10 +97286,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_root.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_root.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.639993906, 0.330006868, 0.300007641 }
@@ -97312,7 +97312,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Thresh_Skin05_Einstein_01_mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -97335,7 +97335,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_head_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_head_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.200000003 }
                 }
@@ -97387,7 +97387,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.659998477 }
                 }
@@ -97438,9 +97438,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_flareblue.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_flareblue.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.SKINS_Neeko_Skin49.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -97706,7 +97706,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -97777,7 +97777,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_ball32N_002.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_ball32N_002.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -97856,7 +97856,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_HoneySplash_2x2_erosion.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_HoneySplash_2x2_erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -97947,7 +97947,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_HoneySplash_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_HoneySplash_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -98256,7 +98256,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -98339,7 +98339,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_LinearSplashes_02N_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_LinearSplashes_02N_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -98433,11 +98433,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_LinearSplashes_hit.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_LinearSplashes_hit.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Skin49_TFT_Dmg_Skin15N_Minion_Mis_Cap_Mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Skin49_TFT_Dmg_Skin15N_Minion_Mis_Cap_Mult.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -98746,7 +98746,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -98833,9 +98833,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Dash_Head.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Dash_Head.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.SKINS_Neeko_Skin49.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.tex"
                     paletteCount: i32 = 8
                 }
             }
@@ -98900,7 +98900,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.tex"
                 startFrame: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -98988,9 +98988,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_ImpactRing.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_ImpactRing.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.SKINS_Neeko_Skin49.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.tex"
                     paletteCount: i32 = 8
                 }
             }
@@ -99187,7 +99187,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -99283,7 +99283,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_star_04.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_star_04.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -99322,7 +99322,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_NoiseBubble.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_NoiseBubble.tex"
                 numFrames: u16 = 4
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0.200000003 }
@@ -99372,7 +99372,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -99414,7 +99414,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0.0800030529 }
                     }
@@ -99458,7 +99458,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.899999976 }
                 }
@@ -99479,7 +99479,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/TeemoMushroom_Skin49_P_Mask02N.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/TeemoMushroom_Skin49_P_Mask02N.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.5, 1.5 }
                     }
@@ -99541,7 +99541,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -99566,7 +99566,7 @@ entries: map[hash,embed] = {
                     emitOffset: vec3 = { 0, 10, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.501960814 }
@@ -99586,7 +99586,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0199999996
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_cas_DistortionRipples.SKINS_Neeko_Skin49.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_cas_DistortionRipples.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -99636,7 +99636,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -99705,7 +99705,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Cirlcle_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Cirlcle_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -99769,7 +99769,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Cirlcle_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Cirlcle_01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -100029,7 +100029,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/P_Explotion_Flower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/P_Explotion_Flower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -100210,7 +100210,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bubble.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bubble.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -100365,7 +100365,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -100486,7 +100486,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -100524,7 +100524,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -100566,7 +100566,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0.0800030529 }
                     }
@@ -100610,7 +100610,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.899999976 }
                 }
@@ -100631,7 +100631,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_bounce_01_12.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_bounce_01_12.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.5, 1.5 }
                     }
@@ -100835,7 +100835,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 3
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_HoneyStrands_2x2_Erosion.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_HoneyStrands_2x2_Erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -100939,7 +100939,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_HoneyStrands_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_HoneyStrands_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -101106,7 +101106,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Alpha_Mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Alpha_Mult.tex"
                 }
                 isUniformScale: flag = true
                 isRandomStartFrame: flag = true
@@ -101179,7 +101179,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_debuff_mist_mult_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_debuff_mist_mult_2x2.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -101371,7 +101371,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion02.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -101459,7 +101459,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 4
                     dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -101556,7 +101556,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Splatters_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Splatters_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -101649,7 +101649,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_R_beam_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_R_beam_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -101690,7 +101690,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -101732,7 +101732,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0.0800030529 }
                     }
@@ -101777,7 +101777,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_003.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_003.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.920000017 }
                 }
@@ -101798,7 +101798,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Senna_Base_RingMult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Senna_Base_RingMult.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -101835,7 +101835,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -101877,7 +101877,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0.0800030529 }
                     }
@@ -101921,7 +101921,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.899999976 }
                 }
@@ -101942,7 +101942,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_bounce_01_16.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_bounce_01_16.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.5, 1.5 }
                     }
@@ -101985,7 +101985,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -102027,7 +102027,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0.0800030529 }
                     }
@@ -102071,7 +102071,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_003.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_003.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.920000017 }
                 }
@@ -102092,7 +102092,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Senna_Base_RingMult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Senna_Base_RingMult.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -102132,7 +102132,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -102174,7 +102174,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0.0800030529 }
                     }
@@ -102218,7 +102218,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_003.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_003.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.920000017 }
                 }
@@ -102308,7 +102308,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
             }
         }
         particleName: string = "Neeko_Skin49_P_cas"
@@ -102343,7 +102343,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_tendrils.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_tendrils.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -102395,7 +102395,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_root_tex.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_root_tex.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.400000006, 0 }
                 }
@@ -102416,7 +102416,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Texture_Border.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Texture_Border.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.5 }
                     }
@@ -102446,7 +102446,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_tendrils.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_tendrils.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -102501,7 +102501,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_root_tex.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_root_tex.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.400000006, 0 }
                 }
@@ -102522,7 +102522,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Texture_Border.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Texture_Border.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.5 }
                     }
@@ -102555,7 +102555,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_tendrils.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_tendrils.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -102605,7 +102605,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_cas_tex.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_cas_tex.tex"
                 texAddressModeBase: u8 = 2
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 1, 0 }
@@ -102623,7 +102623,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_trail_mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_trail_mult.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -102647,7 +102647,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_tendrils.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_tendrils.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -102700,7 +102700,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_cas_tex.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_cas_tex.tex"
                 texAddressModeBase: u8 = 2
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 1, 0 }
@@ -102718,7 +102718,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_trail_mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_trail_mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -0.600000024, 1 }
                     }
@@ -102821,7 +102821,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_VoidBall_Side_2.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_VoidBall_Side_2.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -102862,7 +102862,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DarkstarMode_HookHitsStarThresh_Skin05N_Q_Einstein_01_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DarkstarMode_HookHitsStarThresh_Skin05N_Q_Einstein_01_mult.tex"
                 }
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 90, 0, 0 }
@@ -102884,7 +102884,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_HoneyTrail.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_HoneyTrail.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.100000001 }
                 }
@@ -102937,7 +102937,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Gradient_1.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Gradient_1.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -0.25 }
                     }
@@ -103124,7 +103124,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -103176,7 +103176,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Base_Glow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Base_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -103197,7 +103197,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Wave_Honey_Mesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Wave_Honey_Mesh.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -103247,7 +103247,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Texture_Border.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Texture_Border.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -103274,7 +103274,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Wave_Honey_Mesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Wave_Honey_Mesh.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -103321,7 +103321,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Texture_Border.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/W_Texture_Border.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -103349,7 +103349,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_transform.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -103391,7 +103391,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Clouds.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0.0800030529 }
                     }
@@ -103417,7 +103417,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_wave_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.5 }
                 }
@@ -103507,7 +103507,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -103568,7 +103568,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -103629,7 +103629,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -103661,12 +103661,12 @@ entries: map[hash,embed] = {
                 0xcb13aff1: f32 = -1
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.0209999997, 0.050999999 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Mask02.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_Mask02.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -103702,7 +103702,7 @@ entries: map[hash,embed] = {
                 0xcb13aff1: f32 = -2
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.0209999997, 0.050999999 }
                 }
@@ -103740,7 +103740,7 @@ entries: map[hash,embed] = {
                 0xcb13aff1: f32 = -3
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.0209999997, 0.050999999 }
                 }
@@ -103829,7 +103829,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ImpactGlow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ImpactGlow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -104062,7 +104062,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -104280,7 +104280,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_star_04.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_star_04.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -104362,7 +104362,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ImpactGlow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ImpactGlow.tex"
             }
         }
         particleName: string = "Neeko_Skin49_RunButterflyGlow"
@@ -104500,7 +104500,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_SmokeErode.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -104622,7 +104622,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -104963,7 +104963,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -105019,7 +105019,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Glow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -105073,7 +105073,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_ball32N_002.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_ball32N_002.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -105205,7 +105205,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -105277,7 +105277,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_clound_light.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_clound_light.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -105424,7 +105424,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -105631,7 +105631,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bubble.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Bubble.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -105693,7 +105693,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_solar_tag.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_solar_tag.tex"
                 startFrame: u16 = 4
             }
         }
@@ -105788,9 +105788,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Dash_Head.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Dash_Head.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.SKINS_Neeko_Skin49.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_colors.tex"
                     paletteCount: i32 = 8
                 }
             }
@@ -106030,7 +106030,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -106100,7 +106100,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_ball32N_002.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_ball32N_002.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -106407,7 +106407,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -106524,7 +106524,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -106660,7 +106660,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Hit_01_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Hit_01_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 1 }
                     }
@@ -106768,7 +106768,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_star_02.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -106852,7 +106852,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_LinearSplashes_02N_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_LinearSplashes_02N_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -106946,11 +106946,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_LinearSplashes_02N_GS.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_LinearSplashes_02N_GS.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Skin49_TFT_Dmg_Skin15N_Minion_Mis_Cap_Mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Skin49_TFT_Dmg_Skin15N_Minion_Mis_Cap_Mult.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -107010,7 +107010,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.tex"
                 startFrame: u16 = 4
             }
         }
@@ -107040,7 +107040,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_indicator.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_indicator.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -107085,14 +107085,14 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_indicator.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_indicator.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.300000012 }
                 }
                 texDiv: vec2 = { 0.200000003, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_tattoo_brighter.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_tattoo_brighter.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -107127,7 +107127,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_indicator.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_indicator.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -107157,7 +107157,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.22000003, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Gradient02_Pan.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Gradient02_Pan.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.150000006 }
                 }
@@ -107223,7 +107223,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -107280,7 +107280,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Circle_01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.400000006
@@ -107341,7 +107341,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/glow-soft.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/glow-soft.tex"
                 startFrame: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -107362,7 +107362,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_ring.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_ring.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -107430,7 +107430,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/honey01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/honey01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.600000024 }
                 }
@@ -107472,7 +107472,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_ring.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_ring.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -107541,7 +107541,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/honey01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/honey01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.5 }
                 }
@@ -107578,7 +107578,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -107592,7 +107592,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 17, 15, 17 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Bee01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Bee01.tex"
                 texAddressModeBase: u8 = 2
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, 8 }
@@ -107629,7 +107629,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -107658,7 +107658,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 17, 15, 17 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Bee01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Bee01.tex"
                 texAddressModeBase: u8 = 2
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, 8 }
@@ -107695,7 +107695,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -107723,7 +107723,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 17, 15, 17 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis1_mesh_Ring_mask_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis1_mesh_Ring_mask_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.5, 0 }
                 }
@@ -107746,7 +107746,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 180
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_Trail_03.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_BA_Trail_03.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.5, 1.5 }
                     }
@@ -107780,7 +107780,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -107808,7 +107808,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 17, 15, 17 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_mis_mesh_Ring_mask_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.5, 0 }
                 }
@@ -107831,7 +107831,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 180
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Erosion03N.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.5, 1.5 }
                     }
@@ -107872,7 +107872,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -107910,7 +107910,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_11_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_11_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -107923,7 +107923,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 17, 15, 17 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.5, 0 }
                 }
@@ -107944,7 +107944,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 4, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.tex"
                     texAddressModeMult: u8 = 2
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0.899999976, 0 }
@@ -107988,7 +107988,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -108026,7 +108026,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_11_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_11_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -108039,7 +108039,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 17, 15, 17 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.5, 0 }
                 }
@@ -108060,7 +108060,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 4, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.tex"
                     texAddressModeMult: u8 = 2
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 180
@@ -108119,7 +108119,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Trail12.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -108160,7 +108160,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_11_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_11_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -108173,7 +108173,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 17, 15, 17 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_11_Dissolve_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.5, 0 }
                 }
@@ -108194,7 +108194,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 4, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/alpha_20.tex"
                     texAddressModeMult: u8 = 2
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 180
@@ -108299,7 +108299,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 650, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -108307,7 +108307,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -108410,7 +108410,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -108482,7 +108482,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 650, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -108490,7 +108490,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask02.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask02.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -108580,7 +108580,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 645, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -108588,7 +108588,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Glow.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Glow.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.899999976, 0.899999976 }
                     }
@@ -108664,7 +108664,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 645, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -108672,7 +108672,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Glow.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_Glow.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -108757,7 +108757,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 650, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -108765,7 +108765,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_RingMask.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -108926,7 +108926,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -109082,7 +109082,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -109153,7 +109153,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 255, 260, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_08.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_08.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -109175,7 +109175,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.SKINS_Neeko_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.719996929 }
@@ -109219,7 +109219,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.5
@@ -109274,7 +109274,7 @@ entries: map[hash,embed] = {
                 disableBackfaceCull: bool = true
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -109328,7 +109328,7 @@ entries: map[hash,embed] = {
                 disableBackfaceCull: bool = true
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.5
@@ -109389,7 +109389,7 @@ entries: map[hash,embed] = {
                 miscRenderFlags: u8 = 1
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -109437,9 +109437,9 @@ entries: map[hash,embed] = {
                 miscRenderFlags: u8 = 1
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_MeshMask.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_MeshMask.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -109488,9 +109488,9 @@ entries: map[hash,embed] = {
                 miscRenderFlags: u8 = 1
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_MeshMask.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_MeshMask.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -109543,9 +109543,9 @@ entries: map[hash,embed] = {
                 disableBackfaceCull: bool = true
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_MeshMask02.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_MeshMask02.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -109598,9 +109598,9 @@ entries: map[hash,embed] = {
                 disableBackfaceCull: bool = true
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_MeshMask02.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/R_MeshMask02.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -109652,7 +109652,7 @@ entries: map[hash,embed] = {
                 miscRenderFlags: u8 = 1
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -109771,7 +109771,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.tex"
                 numFrames: u16 = 4
             }
         }
@@ -109906,7 +109906,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 1.29999995
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Upgrade_Aura.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Upgrade_Aura.tex"
                 }
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
@@ -109986,7 +109986,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Pearl_EyeBG.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Pearl_EyeBG.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -110137,7 +110137,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/glow-soft.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/glow-soft.tex"
             }
         }
         particleName: string = "Neeko_Skin49_Joke_TailspinGroundStart"
@@ -110163,7 +110163,7 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_ring.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_ring.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -110228,7 +110228,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_circle_tex_root.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_circle_tex_root.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.25 }
                 }
@@ -110363,7 +110363,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -110387,7 +110387,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.SKINS_Neeko_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -110426,7 +110426,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_flash_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_flash_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -110447,7 +110447,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.SKINS_Neeko_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.500007629 }
@@ -110497,7 +110497,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_Flower_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_Flower_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -110510,13 +110510,13 @@ entries: map[hash,embed] = {
                     0.400000006
                 }
                 emitterName: string = "distort"
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/color-rampdown32_03.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/color-rampdown32_03.tex"
                 blendMode: u8 = 1
                 pass: i16 = 100
                 meshRenderFlags: u8 = 0
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.100000001
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/distort-shockwave.SKINS_Neeko_Skin49.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/distort-shockwave.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -110539,7 +110539,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -110571,7 +110571,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Cylinder02.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Cylinder02.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -110645,7 +110645,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_wave_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_wave_01.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 3, 1 }
                 }
@@ -110704,7 +110704,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_hit_flash_123.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_hit_flash_123.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -110720,7 +110720,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 220, 350, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_06.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_06.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -110754,7 +110754,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.scb"
                         mLockMeshToAttachment: bool = true
                     }
                 }
@@ -110791,7 +110791,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Karthus_Skin17_Q_Wall_Scroll_02.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Karthus_Skin17_Q_Wall_Scroll_02.tex"
                 }
                 depthBiasFactors: vec2 = { -1, -3 }
                 disableBackfaceCull: bool = true
@@ -110815,12 +110815,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Mis_Color01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Mis_Color01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.100000001 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_1_813_01.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_1_813_01.tex"
                     uvTransformCenterMult: vec2 = { 0.5, 0.600000024 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
@@ -110877,7 +110877,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.scb"
                         mLockMeshToAttachment: bool = true
                     }
                 }
@@ -110940,12 +110940,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Mis_Color01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Mis_Color01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.100000001 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/eeko_Skin49_Particles_Line01.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/eeko_Skin49_Particles_Line01.tex"
                     uvTransformCenterMult: vec2 = { 0.5, 0.600000024 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
@@ -111002,7 +111002,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.scb"
                         mLockMeshToAttachment: bool = true
                     }
                 }
@@ -111065,9 +111065,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_Line03.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_Line03.tex"
                     uvTransformCenterMult: vec2 = { 0.5, 0.649999976 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
@@ -111194,7 +111194,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Splatters_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Splatters_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -111283,7 +111283,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Q_beam_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Q_beam_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -111432,7 +111432,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -111587,7 +111587,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_NFlower.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -111621,10 +111621,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/flower.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/flower.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 blendMode: u8 = 3
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -111676,7 +111676,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/FlowerMesh01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/FlowerMesh01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -111710,7 +111710,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.scb"
                         mLockMeshToAttachment: bool = true
                     }
                 }
@@ -111773,9 +111773,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold2.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold2.tex"
                     uvTransformCenterMult: vec2 = { 0.5, 0.649999976 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
@@ -112106,7 +112106,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -112428,7 +112428,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_head_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_head_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -112535,7 +112535,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_11.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_11.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -112642,7 +112642,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_13.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_13.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -112734,7 +112734,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 210, 210 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ShieldEdge.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ShieldEdge.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -112751,7 +112751,7 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_landingZone_green.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_landingZone_green.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -112791,7 +112791,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -112828,9 +112828,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 7.4000001, 20, 20 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Ring_Indicator_V2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Ring_Indicator_V2.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -112905,7 +112905,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_common_fuzzyshadow.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_common_fuzzyshadow.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -112922,7 +112922,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 320, 320 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Texture_Polygon_03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Texture_Polygon_03.tex"
                 startFrame: u16 = 1
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
@@ -112931,7 +112931,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1.5, 1.5 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_common_fuzzyshadow.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_common_fuzzyshadow.tex"
                     uvTransformCenterMult: vec2 = { 0, 0 }
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -112979,7 +112979,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -113024,7 +113024,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_1_813_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_1_813_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 3 }
                 }
@@ -113057,7 +113057,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -113102,7 +113102,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/eeko_Skin49_Particles_Line01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/eeko_Skin49_Particles_Line01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 3 }
                 }
@@ -113133,7 +113133,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.SKINS_Neeko_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.800000012 }
@@ -113166,7 +113166,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 350, 350 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -113188,7 +113188,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.SKINS_Neeko_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.749996185 }
@@ -113221,7 +113221,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 350, 350 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -113363,7 +113363,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -113436,7 +113436,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 240, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -113444,7 +113444,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_06.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_06.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.10000002, 1.10000002 }
@@ -113485,7 +113485,7 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_ring.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_ring.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -113518,7 +113518,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -113565,7 +113565,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_circle_tex_root.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_circle_tex_root.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.25 }
                 }
@@ -113701,7 +113701,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -113725,7 +113725,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.SKINS_Neeko_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -113764,7 +113764,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_flash_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_flash_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -113785,7 +113785,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.SKINS_Neeko_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.500007629 }
@@ -113835,7 +113835,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_Flower_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_Flower_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -113848,13 +113848,13 @@ entries: map[hash,embed] = {
                     0.400000006
                 }
                 emitterName: string = "distort"
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/color-rampdown32_03.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/color-rampdown32_03.tex"
                 blendMode: u8 = 1
                 pass: i16 = 100
                 meshRenderFlags: u8 = 0
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.100000001
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/distort-shockwave.SKINS_Neeko_Skin49.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/distort-shockwave.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -113877,7 +113877,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -113909,7 +113909,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Cylinder02.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Cylinder02.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -113983,7 +113983,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_wave_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_wave_01.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 3, 1 }
                 }
@@ -114020,7 +114020,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.scb"
                         mLockMeshToAttachment: bool = true
                     }
                 }
@@ -114054,7 +114054,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Karthus_Skin17_Q_Wall_Scroll_02.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Karthus_Skin17_Q_Wall_Scroll_02.tex"
                 }
                 depthBiasFactors: vec2 = { -1, -3 }
                 disableBackfaceCull: bool = true
@@ -114081,12 +114081,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Mis_Color02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Mis_Color02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.100000001 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_1_813_01.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_1_813_01.tex"
                     uvTransformCenterMult: vec2 = { 0.5, 0.600000024 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
@@ -114143,7 +114143,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.scb"
                         mLockMeshToAttachment: bool = true
                     }
                 }
@@ -114206,12 +114206,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Mis_Color02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Mis_Color02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.200000003 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/eeko_Skin49_Particles_Line01.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/eeko_Skin49_Particles_Line01.tex"
                     uvTransformCenterMult: vec2 = { 0.5, 0.600000024 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
@@ -114268,7 +114268,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.scb"
                         mLockMeshToAttachment: bool = true
                     }
                 }
@@ -114334,9 +114334,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_Line03.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_Line03.tex"
                     uvTransformCenterMult: vec2 = { 0.5, 0.649999976 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
@@ -114393,7 +114393,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.scb"
                         mLockMeshToAttachment: bool = true
                     }
                 }
@@ -114459,9 +114459,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold2.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold2.tex"
                     uvTransformCenterMult: vec2 = { 0.5, 0.649999976 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
@@ -114588,7 +114588,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Splatters_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Splatters_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -114677,7 +114677,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Q_beam_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Q_beam_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -114826,7 +114826,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -114981,7 +114981,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_Flower02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_Flower02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -115015,10 +115015,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/flower.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/flower.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 blendMode: u8 = 3
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -115070,7 +115070,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/FlowerMesh02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/FlowerMesh02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -115378,7 +115378,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -115701,7 +115701,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_head_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_head_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -115811,7 +115811,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_12.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_12.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -115918,7 +115918,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_13.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_13.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -115942,7 +115942,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -115987,7 +115987,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_1_813_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_1_813_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 3 }
                 }
@@ -116020,7 +116020,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -116065,7 +116065,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/eeko_Skin49_Particles_Line01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/eeko_Skin49_Particles_Line01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 3 }
                 }
@@ -116131,7 +116131,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_hit_flash_123.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_hit_flash_123.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -116147,7 +116147,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 220, 350, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_06.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_06.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -116239,7 +116239,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 210, 210 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ShieldEdge.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ShieldEdge.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -116256,7 +116256,7 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_landingZone_green.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_landingZone_green.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -116296,7 +116296,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -116333,9 +116333,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 7.4000001, 20, 20 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Ring_Indicator_V2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Ring_Indicator_V2.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -116372,7 +116372,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.SKINS_Neeko_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.396093696, 0.0824444965, 1 }
@@ -116402,7 +116402,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 350, 350 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.300000012
@@ -116462,7 +116462,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_common_fuzzyshadow.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_common_fuzzyshadow.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -116479,7 +116479,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 320, 320 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Texture_Polygon_03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Texture_Polygon_03.tex"
                 startFrame: u16 = 1
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
@@ -116488,7 +116488,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1.5, 1.5 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_common_fuzzyshadow.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_common_fuzzyshadow.tex"
                     uvTransformCenterMult: vec2 = { 0, 0 }
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -116534,7 +116534,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.SKINS_Neeko_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.800000012 }
@@ -116567,7 +116567,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 350, 350 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -116638,7 +116638,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 240, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -116646,7 +116646,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_06.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_06.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.10000002, 1.10000002 }
@@ -116687,7 +116687,7 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_ring.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_ring.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -116720,7 +116720,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -116767,7 +116767,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_circle_tex_root.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_circle_tex_root.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.25 }
                 }
@@ -116903,7 +116903,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_glowspecks.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -116927,7 +116927,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.SKINS_Neeko_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -116966,7 +116966,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_flash_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_flash_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -116987,7 +116987,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.SKINS_Neeko_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.500007629 }
@@ -117037,7 +117037,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_Flower_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_Flower_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -117050,13 +117050,13 @@ entries: map[hash,embed] = {
                     0.400000006
                 }
                 emitterName: string = "distort"
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/color-rampdown32_03.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/color-rampdown32_03.tex"
                 blendMode: u8 = 1
                 pass: i16 = 100
                 meshRenderFlags: u8 = 0
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.100000001
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/distort-shockwave.SKINS_Neeko_Skin49.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/distort-shockwave.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -117079,7 +117079,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -117111,7 +117111,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Cylinder02.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Cylinder02.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -117185,7 +117185,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_wave_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_wave_01.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 3, 1 }
                 }
@@ -117222,7 +117222,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.scb"
                         mLockMeshToAttachment: bool = true
                     }
                 }
@@ -117256,7 +117256,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Karthus_Skin17_Q_Wall_Scroll_02.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Karthus_Skin17_Q_Wall_Scroll_02.tex"
                 }
                 depthBiasFactors: vec2 = { -1, -3 }
                 disableBackfaceCull: bool = true
@@ -117283,12 +117283,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Mis_Color03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Mis_Color03.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.100000001 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_1_813_01.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_1_813_01.tex"
                     uvTransformCenterMult: vec2 = { 0.5, 0.600000024 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
@@ -117345,7 +117345,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.scb"
                         mLockMeshToAttachment: bool = true
                     }
                 }
@@ -117408,12 +117408,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Mis_Color03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Mis_Color03.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.200000003 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/eeko_Skin49_Particles_Line01.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/eeko_Skin49_Particles_Line01.tex"
                     uvTransformCenterMult: vec2 = { 0.5, 0.600000024 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
@@ -117470,7 +117470,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.scb"
                         mLockMeshToAttachment: bool = true
                     }
                 }
@@ -117536,9 +117536,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_Line03.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_Line03.tex"
                     uvTransformCenterMult: vec2 = { 0.5, 0.649999976 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
@@ -117595,7 +117595,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {}
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Lissandra_Skin34_Particles_1_915_01.scb"
                         mLockMeshToAttachment: bool = true
                     }
                 }
@@ -117661,9 +117661,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold2.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/common_color-hold2.tex"
                     uvTransformCenterMult: vec2 = { 0.5, 0.649999976 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1.5 }
@@ -117790,7 +117790,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Splatters_Dissolve.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Splatters_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -117879,7 +117879,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Q_beam_02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Q_beam_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -118028,7 +118028,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Petals_NMesh.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -118183,7 +118183,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_Flower03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Explotion_Flower03.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -118217,10 +118217,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/flower.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/flower.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.SKINS_Neeko_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_DefaultColorOverlifetime.tex"
                 blendMode: u8 = 3
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -118272,7 +118272,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/FlowerMesh03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/FlowerMesh03.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -118580,7 +118580,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -118903,7 +118903,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_head_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_head_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -119013,7 +119013,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_14.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_14.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -119120,7 +119120,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_13.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Decal_13.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -119212,7 +119212,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 210, 210 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ShieldEdge.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ShieldEdge.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -119229,7 +119229,7 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_landingZone_green.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_landingZone_green.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -119269,7 +119269,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -119284,9 +119284,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 7.4000001, 20, 20 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Ring_Indicator_V2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Ring_Indicator_V2.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_Einstein_03_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -119361,7 +119361,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ItemZhonya_speed_flash.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_ItemZhonya_speed_flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -119385,7 +119385,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -119430,7 +119430,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_1_813_01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Particles_1_813_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 3 }
                 }
@@ -119463,7 +119463,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash.SKINS_Neeko_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Ziggs_Skin24N_Q_explosion_BigHoneySplash.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -119508,7 +119508,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/eeko_Skin49_Particles_Line01.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/eeko_Skin49_Particles_Line01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 3 }
                 }
@@ -119539,7 +119539,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.SKINS_Neeko_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.57097733, 0.046967268, 1 }
@@ -119569,7 +119569,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 350, 350 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.300000012
@@ -119629,7 +119629,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_common_fuzzyshadow.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_common_fuzzyshadow.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -119646,7 +119646,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 320, 320 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Texture_Polygon_03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Texture_Polygon_03.tex"
                 startFrame: u16 = 1
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
@@ -119655,7 +119655,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1.5, 1.5 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_common_fuzzyshadow.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_common_fuzzyshadow.tex"
                     uvTransformCenterMult: vec2 = { 0, 0 }
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -119736,7 +119736,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_hit_flash_123.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Q_hit_flash_123.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -119752,7 +119752,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 220, 350, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_06.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_06.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -119774,7 +119774,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.SKINS_Neeko_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/DefaultFalloff.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.800000012 }
@@ -119807,7 +119807,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 350, 350 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Aura_Self02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -119878,7 +119878,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 240, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_03.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.063000001, -0.0130000003 }
                 }
@@ -119886,7 +119886,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.850000024, 0.850000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_06.SKINS_Neeko_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_R_beemult_06.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.10000002, 1.10000002 }
@@ -120010,7 +120010,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Shadow.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Q_Shadow.tex"
             }
         }
         particleName: string = "Neeko_Skin49_Q_AoE03"
@@ -120040,9 +120040,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Fuse_Trail_Bee.SKINS_Neeko_Skin49.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.SKINS_Neeko_Skin49.skl"
-                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.SKINS_Neeko_Skin49.anm"
+                        mMeshName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_Fuse_Trail_Bee.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.skl"
+                        mAnimationName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.anm"
                     }
                 }
                 blendMode: u8 = 1
@@ -120061,7 +120061,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 3, 2.70000005, 2.70000005 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_mis_Bee.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -120155,7 +120155,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Flare-Omnimax.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Flare-Omnimax.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -120234,7 +120234,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_HoneyTrail_erosion.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_HoneyTrail_erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -120254,7 +120254,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_HoneyTrail.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_HoneyTrail.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0 }
                 }
@@ -120337,7 +120337,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_HoneyTrail_erosion.SKINS_Neeko_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_P_HoneyTrail_erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -120357,7 +120357,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_HoneyTrail.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_W_HoneyTrail.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0 }
                 }
@@ -120494,7 +120494,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_E_PollenSparkles_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -120700,7 +120700,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenGlows_2x2.SKINS_Neeko_Skin49.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Skin49/Particles/Neeko_Skin49_Z_PollenGlows_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -120713,11 +120713,11 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "DiffuseTexture"
-                texturePath: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.SKINS_Neeko_Skin49.tex"
+                texturePath: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Materials"
-                texturePath: string = "ASSETS/Characters/Neeko/Skins/Skin49/common_color-hold.SKINS_Neeko_Skin49.tex"
+                texturePath: string = "ASSETS/Characters/Neeko/Skins/Skin49/common_color-hold.tex"
             }
         }
         paramValues: list2[embed] = {
@@ -120811,11 +120811,11 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "DiffuseTexture"
-                texturePath: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.SKINS_Neeko_Skin49.tex"
+                texturePath: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Materials"
-                texturePath: string = "ASSETS/Characters/Neeko/Skins/Skin49/Honey_Weapon_mask.SKINS_Neeko_Skin49.tex"
+                texturePath: string = "ASSETS/Characters/Neeko/Skins/Skin49/Honey_Weapon_mask.tex"
             }
         }
         paramValues: list2[embed] = {
@@ -120909,14 +120909,14 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Color"
-                texturePath: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.SKINS_Neeko_Skin49.tex"
+                texturePath: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Mask"
-                texturePath: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_Mask_TX_CM.SKINS_Neeko_Skin49.tex"
+                texturePath: string = "ASSETS/Characters/Neeko/Skins/Skin49/Neeko_Skin49_Mask_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1

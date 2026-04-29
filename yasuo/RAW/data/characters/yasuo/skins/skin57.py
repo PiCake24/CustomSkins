@@ -171534,7 +171534,7 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Vertex_Deform_Tex"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "BloomMask_Texture"
@@ -171707,7 +171707,7 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Vertex_Deform_Tex"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "BloomMask_Texture"

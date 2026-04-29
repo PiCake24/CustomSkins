@@ -71095,7 +71095,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3161Glow.Ruby.tex"
+                texture: string = "ASSETS/Shared/Particles/3161Glow.Arena_2026_S2.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 1 }

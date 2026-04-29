@@ -8302,7 +8302,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoR_Edge.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoR_Edge.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -8343,7 +8343,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoDemon_Trail_Rotate.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoDemon_Trail_Rotate.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 disableBackfaceCull: bool = true
@@ -8371,12 +8371,12 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2.5999999, 2.5, 2.5 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ego_Q_Mis_Dirt_Sides_V03.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ego_Q_Mis_Dirt_Sides_V03.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoCowl_Galaxy_03.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoCowl_Galaxy_03.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -8427,7 +8427,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 400, 510, 510 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -8576,7 +8576,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 25, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.501960814 }
@@ -8716,7 +8716,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -8805,11 +8805,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Transformation_AnimeBokeh.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Transformation_AnimeBokeh.tex"
                 numFrames: u16 = 2
                 texDiv: vec2 = { 1, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.tex"
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 100
                     }
@@ -8834,7 +8834,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Edges.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Edges.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -8887,7 +8887,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mis_Energy.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mis_Energy.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -0.0599999987, 0.300000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -8958,7 +8958,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 0.25 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_3026_Items_Noise_02.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_3026_Items_Noise_02.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 0.5 }
                     }
@@ -8985,7 +8985,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_range_indicator_ring.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_range_indicator_ring.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -9017,9 +9017,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 8.5, 23, 23 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Range.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Range.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dissolve_Cloudy_02.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dissolve_Cloudy_02.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -0.400000006, 0.550000012 }
                     }
@@ -9043,7 +9043,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_range_indicator_ring.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_range_indicator_ring.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -9075,7 +9075,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 8.5, 23, 23 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Range.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Range.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -9359,7 +9359,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -9380,7 +9380,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -9424,7 +9424,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 19.5, 50, 52 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Color_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Color_01.tex"
                 uvMode: u8 = 2
                 texDiv: vec2 = { 1, -1 }
                 uvScale: embed = ValueVector2 {
@@ -9467,7 +9467,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveRay {}
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_RainbowRay01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_RainbowRay01.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.889997721, 0.710002303, 0.200000003 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -9606,9 +9606,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_RainbowRay.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_RainbowRay.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -9661,7 +9661,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 300, 330, 330 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Ring_Glow_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Ring_Glow_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -9852,7 +9852,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 15, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.600000024 }
@@ -9946,7 +9946,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -10147,7 +10147,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -10243,7 +10243,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Lighting_Cyl.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Lighting_Cyl.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -10310,7 +10310,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flames_Floor.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flames_Floor.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -10423,7 +10423,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Wisp.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Wisp.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 4 }
                 }
@@ -10627,7 +10627,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -10650,7 +10650,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_StormMesh01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_StormMesh01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -10687,7 +10687,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -10732,7 +10732,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Cloud_Tex_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Cloud_Tex_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.400000006 }
                 }
@@ -10761,7 +10761,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = -20
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_yan_10.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_yan_10.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.600000024 }
@@ -10834,7 +10834,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Alpha01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Alpha01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -10890,7 +10890,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Ring01_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Ring01_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -10932,7 +10932,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Ramp01_01.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Ramp01_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -10985,7 +10985,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Sky_10.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Sky_10.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -11006,7 +11006,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Noise4.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Noise4.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 2 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -11077,7 +11077,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Ring01_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Ring01_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -11102,7 +11102,7 @@ entries: map[hash,embed] = {
                         constantValue: f32 = 0.400000006
                     }
                     erosionFeatherOut: f32 = 0.150000006
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Ramp01_01.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Ramp01_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -11143,7 +11143,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.60000002, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dance_Einstein_01_mult.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dance_Einstein_01_mult.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -11164,7 +11164,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoCowl_Galaxy_03.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoCowl_Galaxy_03.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 2 }
                     }
@@ -11239,9 +11239,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 450, 400, 750 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Sky_03.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Sky_03.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -0.0299999993, -0.0299999993 }
                     }
@@ -11298,9 +11298,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 450, 400, 750 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Sky_04.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Sky_04.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.0149999997, 0.0149999997 }
                     }
@@ -11354,7 +11354,7 @@ entries: map[hash,embed] = {
                     erosionDriveCurve: embed = ValueFloat {
                         constantValue: f32 = 0.899999976
                     }
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Sky_50.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Sky_50.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -11371,7 +11371,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 185, 400, 750 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Alpha_Mult.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Alpha_Mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.0500000007, 0.0500000007 }
                 }
@@ -11379,7 +11379,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 15
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_smoke_mult_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_smoke_mult_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 2 }
                     }
@@ -11436,7 +11436,7 @@ entries: map[hash,embed] = {
                     erosionDriveCurve: embed = ValueFloat {
                         constantValue: f32 = 0.899999976
                     }
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Sky_50.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Sky_50.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -11451,7 +11451,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 185, 400, 750 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Alpha_Mult.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Alpha_Mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.0500000007, 0.0500000007 }
                 }
@@ -11459,7 +11459,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 15
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_smoke_mult_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_smoke_mult_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 2 }
                     }
@@ -11523,7 +11523,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Flare_Flash.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Flare_Flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -11744,7 +11744,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Sparkle_Cas.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Sparkle_Cas.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -11903,7 +11903,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -11962,7 +11962,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_common_lens_rainbow_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_common_lens_rainbow_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -12101,7 +12101,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -12238,7 +12238,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Emotes_Spotlight.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Emotes_Spotlight.tex"
             }
         }
         particleName: string = "Chogath_Skin41_Q_Ally_team"
@@ -12322,7 +12322,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Shockwave_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Shockwave_01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.25
@@ -12456,7 +12456,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_3026_Items_Noise_02.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_3026_Items_Noise_02.tex"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -12549,11 +12549,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -12756,7 +12756,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Gold.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Gold.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -12946,7 +12946,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -13068,7 +13068,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_glowflare.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_glowflare.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -13140,7 +13140,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_common_lens_rainbow_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_common_lens_rainbow_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -13249,12 +13249,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 180
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 100
                     }
@@ -13311,7 +13311,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 130, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 180
                 }
@@ -13367,7 +13367,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 130, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 180
                 }
@@ -13573,7 +13573,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -13763,7 +13763,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -13875,7 +13875,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_LensFlare.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_LensFlare.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14046,11 +14046,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Target_Hit_Beams_4x1.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Target_Hit_Beams_4x1.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                     birthUVOffsetMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -14356,7 +14356,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -14463,7 +14463,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Ground_Rune_027.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Ground_Rune_027.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14743,7 +14743,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Gold.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Gold.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -14856,7 +14856,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 180
                 }
@@ -14970,7 +14970,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 180
                 }
@@ -15033,7 +15033,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 40, 0, 0 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Trail_04.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Trail_04.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                 }
@@ -15096,7 +15096,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 40, 0, 0 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Trail_04.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Trail_04.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                 }
@@ -15171,7 +15171,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 50, 0, 0 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Trail06.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Trail06.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                 }
@@ -15299,7 +15299,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_FireTrail.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_FireTrail.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -15420,7 +15420,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_3026_Items_Trail_06.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_3026_Items_Trail_06.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -15492,12 +15492,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_WispTrail_BW.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_WispTrail_BW.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ColorE07.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ColorE07.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 1 }
                     }
@@ -15615,7 +15615,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 180
                 }
@@ -15801,7 +15801,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -15974,7 +15974,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
         }
         particleName: string = "Chogath_Skin41_E_Cas"
@@ -16095,7 +16095,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_glowflare.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_glowflare.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -16230,9 +16230,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_tar_gather.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_tar_gather.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -16371,7 +16371,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Shockwave_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Shockwave_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -16496,7 +16496,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Shockwave_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Shockwave_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -16658,7 +16658,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -16675,7 +16675,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color_bellcurve32.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color_bellcurve32.tex"
                 blendMode: u8 = 1
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -16701,7 +16701,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.00200000009
                     distortionMode: u8 = 3
-                    normalMapTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_distort_bulge.SKINS_Chogath_Skin41.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_distort_bulge.tex"
                 }
                 0xcb13aff1: f32 = -80
                 isUniformScale: flag = true
@@ -16721,7 +16721,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -16981,7 +16981,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -17241,7 +17241,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
         }
         particleName: string = "Chogath_Skin41_Z_Roar_01"
@@ -17347,9 +17347,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Shockwave_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Shockwave_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -17462,7 +17462,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_OrbEdge.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_OrbEdge.tex"
                 birthUvRotateRate: embed = ValueFloat {
                     constantValue: f32 = -10
                 }
@@ -17483,7 +17483,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.689997733, 0.489997715, 0.400000006 }
@@ -17526,7 +17526,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Ring_00_Erosion.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Ring_00_Erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -17600,9 +17600,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Shockwave_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Shockwave_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -17733,7 +17733,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_LensFlare.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_LensFlare.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -17800,7 +17800,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -18100,7 +18100,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Gold.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Gold.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -18402,7 +18402,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -18578,7 +18578,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Wind2.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Wind2.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -18757,7 +18757,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -18937,7 +18937,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -19018,7 +19018,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 SpawnShape: pointer = VfxShapeSphere {}
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -19118,7 +19118,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -19272,7 +19272,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = VfxShapeCylinder {
                     flags: u8 = 1
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -19345,7 +19345,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Wind2.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Wind2.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -19519,7 +19519,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Wind2.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Wind2.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -19693,7 +19693,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Wind2.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Wind2.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -19809,7 +19809,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Flare_Flash.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Flare_Flash.tex"
             }
         }
         particleName: string = "Chogath_Skin41_Z_Roar_03"
@@ -19877,7 +19877,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Global_Summoner_Recall_PulseRing.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Global_Summoner_Recall_PulseRing.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0799999982
@@ -19936,7 +19936,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Ring_00_Erosion.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Ring_00_Erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -20010,9 +20010,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Wglow10_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Wglow10_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             times: list[f32] = {
@@ -20044,7 +20044,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.910002291, 0.730006874, 0.500007629 }
@@ -20127,7 +20127,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Wglow10_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Wglow10_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -20225,7 +20225,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Wglow10_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Wglow10_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -20292,7 +20292,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Ringgg.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Ringgg.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -20387,7 +20387,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Wglow10_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Wglow10_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -20426,7 +20426,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     constantValue: vec4 = { 0.725490212, 0.725490212, 0.725490212, 0.701960802 }
@@ -20556,7 +20556,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Wglow06.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Wglow06.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -20601,7 +20601,7 @@ entries: map[hash,embed] = {
                 bindWeight: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     constantValue: vec4 = { 0.823529422, 0.823529422, 0.823529422, 0.749019623 }
@@ -20731,7 +20731,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Wglow06.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Wglow06.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -20808,7 +20808,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -20986,7 +20986,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -21165,7 +21165,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -21246,7 +21246,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 SpawnShape: pointer = VfxShapeSphere {}
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -21345,7 +21345,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
                 numFrames: u16 = 4
             }
         }
@@ -21627,7 +21627,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Emotes_Spotlight.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Emotes_Spotlight.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -21686,7 +21686,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 340, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
         }
         particleName: string = "Chogath_Skin41_Z_Env"
@@ -21803,7 +21803,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Sparkle_2x2_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Sparkle_2x2_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -21926,7 +21926,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -21973,7 +21973,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectHeight: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_3026_Items_Einstein_02_mult.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_3026_Items_Einstein_02_mult.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.996078432, 1, 0.737254918, 1 }
@@ -22047,7 +22047,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_glowflare.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_glowflare.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -22100,7 +22100,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 175, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 180
                 }
@@ -22148,7 +22148,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 70, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -22265,7 +22265,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Flash02_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Flash02_01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -22311,7 +22311,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectHeight: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveRay {}
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.701960802, 0.458823532, 1 }
@@ -22414,7 +22414,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_BW_Order_Turret_Sparks_4x1.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_BW_Order_Turret_Sparks_4x1.tex"
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 1 }
             }
@@ -22525,7 +22525,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Sparkle_Cas.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Sparkle_Cas.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -22636,9 +22636,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_327.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_327.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_common_flare-Fire.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_common_flare-Fire.tex"
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 100
                         dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -22797,9 +22797,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_P_Erosion_01_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_P_Erosion_01_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -22968,7 +22968,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -23095,7 +23095,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -23223,7 +23223,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_P_Smoke09_01_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_P_Smoke09_01_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.899999976 }
                 }
@@ -23246,7 +23246,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 1.5 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.800000012, 1 }
@@ -23405,7 +23405,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Smoke05_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Smoke05_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.899999976 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -23468,7 +23468,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Swirl_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Swirl_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -23626,7 +23626,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_P_Smoke28_01_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_P_Smoke28_01_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.899999976 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -23700,7 +23700,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                     TextureMultFilpV: flag = true
                 }
             }
@@ -23830,7 +23830,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_P_Smoke09_01_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_P_Smoke09_01_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.899999976 }
                 }
@@ -23853,7 +23853,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 1.5 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.800000012, 1 }
@@ -24027,7 +24027,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -24125,7 +24125,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 20, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -24196,7 +24196,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
                 numFrames: u16 = 4
             }
         }
@@ -24353,7 +24353,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -24452,11 +24452,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Smoke_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Smoke_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_smoke_mult_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_smoke_mult_01.tex"
                     texDivMult: vec2 = { 2, 2 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 1 }
@@ -24633,7 +24633,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mesh_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mesh_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -24765,7 +24765,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mini05.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mini05.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -24965,11 +24965,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Target_Hit_Beams_4x1.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Target_Hit_Beams_4x1.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                     birthUVOffsetMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -25194,7 +25194,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Target_Hit_Beams_4x1.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Target_Hit_Beams_4x1.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
             }
@@ -25438,11 +25438,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Crater_35.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Crater_35.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ColorE07.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ColorE07.tex"
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 90
                     }
@@ -25710,7 +25710,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Rocks.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Rocks.tex"
                 numFrames: u16 = 3
                 texDiv: vec2 = { 3, 1 }
             }
@@ -25778,9 +25778,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_OrbGlow.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_OrbGlow.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -25844,7 +25844,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flash_sharp_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flash_sharp_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -25902,7 +25902,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_324.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_324.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -25964,9 +25964,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -26016,7 +26016,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_17.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_17.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -26045,7 +26045,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_OmniFlare_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_OmniFlare_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -26059,7 +26059,7 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_204.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_204.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -26098,7 +26098,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_RingMult.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_RingMult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -26125,7 +26125,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.5 }
@@ -26152,7 +26152,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 4, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_210.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_210.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -26244,7 +26244,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -26307,7 +26307,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_LensFlare.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_LensFlare.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -26547,7 +26547,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -26644,11 +26644,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                     }
@@ -26754,7 +26754,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_327.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_327.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -26805,7 +26805,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 0.25
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_GroundLightning_Erosion_01.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_GroundLightning_Erosion_01.tex"
                 }
                 0xcb13aff1: f32 = -80
                 isUniformScale: flag = true
@@ -26876,7 +26876,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_GroundLightning_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_GroundLightning_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -27144,7 +27144,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_957.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_957.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.200000003 }
@@ -27184,7 +27184,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 2, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_960.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_960.tex"
                     texDivMult: vec2 = { 1, 2 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.800000012, 1 }
@@ -27465,7 +27465,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -27562,11 +27562,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                     }
@@ -27834,7 +27834,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -28098,7 +28098,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -28206,7 +28206,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 40, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         probabilityTables: list[pointer] = {
@@ -28324,7 +28324,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0299999993
@@ -28396,7 +28396,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.349996179 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -28484,7 +28484,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -28609,7 +28609,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mesh_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mesh_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -28742,7 +28742,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mini05.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mini05.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -28982,11 +28982,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Crater_35.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Crater_35.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ColorE07.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ColorE07.tex"
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 90
                     }
@@ -29252,7 +29252,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Rocks.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Rocks.tex"
                 numFrames: u16 = 3
                 texDiv: vec2 = { 3, 1 }
             }
@@ -29345,7 +29345,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_hiteffect.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_hiteffect.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -29404,7 +29404,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -29456,7 +29456,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 280, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 180
                 }
@@ -29507,9 +29507,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 300, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -29577,7 +29577,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 180
                 }
@@ -29677,7 +29677,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -29818,7 +29818,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_hiteffect.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_hiteffect.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -29905,7 +29905,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dash.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
             }
@@ -30066,7 +30066,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_bolts_HitEffect_Physical_S_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_bolts_HitEffect_Physical_S_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
             }
@@ -30111,7 +30111,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectHeight: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveRay {}
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.701960802, 0.458823532, 1 }
@@ -30212,7 +30212,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_BW_Order_Turret_Sparks_4x1.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_BW_Order_Turret_Sparks_4x1.tex"
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 1 }
             }
@@ -30303,7 +30303,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dash.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
             }
@@ -30348,7 +30348,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectHeight: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveRay {}
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.701960802, 0.458823532, 1 }
@@ -30447,7 +30447,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_BW_Order_Turret_Sparks_4x1.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_BW_Order_Turret_Sparks_4x1.tex"
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 1 }
             }
@@ -30608,7 +30608,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_bolts_HitEffect_Physical_S_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_bolts_HitEffect_Physical_S_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
             }
@@ -30800,7 +30800,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -30862,7 +30862,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_201.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_201.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -30893,7 +30893,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Shockwave_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Shockwave_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -30935,7 +30935,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Rampdown_Brown_RGB.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Rampdown_Brown_RGB.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.600000024 }
@@ -31026,7 +31026,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -31071,7 +31071,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectHeight: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.500007629 }
@@ -31144,7 +31144,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_glowflare.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_glowflare.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -31229,7 +31229,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_OmniFlare_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_OmniFlare_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -31326,7 +31326,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_327.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_327.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -31513,7 +31513,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -31718,7 +31718,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -31827,7 +31827,7 @@ entries: map[hash,embed] = {
                     flags: u8 = 1
                     radius: f32 = 50
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         probabilityTables: list[pointer] = {
@@ -31947,7 +31947,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -32156,7 +32156,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Gold.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Gold.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -32368,7 +32368,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Gold.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Gold.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -32430,7 +32430,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Star_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Star_02.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -32576,7 +32576,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -32649,11 +32649,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                     }
@@ -32802,7 +32802,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -32875,11 +32875,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                     }
@@ -33045,7 +33045,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Flash_Backdrop.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Flash_Backdrop.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0199999996
@@ -33208,7 +33208,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Flash_Backdrop.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Flash_Backdrop.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -33267,7 +33267,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_AlphaSlice_bubbles_50.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_AlphaSlice_bubbles_50.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 disableBackfaceCull: bool = true
@@ -33312,7 +33312,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_EnergyNebula_Tar_20.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_EnergyNebula_Tar_20.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -33360,7 +33360,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 310, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 180
                 }
@@ -33490,7 +33490,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mesh_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mesh_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -33623,7 +33623,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mini05.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mini05.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -33866,11 +33866,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Crater_35.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Crater_35.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ColorE07.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ColorE07.tex"
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 90
                     }
@@ -33959,7 +33959,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.949996173, 0.880003035, 0.500007629 }
@@ -34026,7 +34026,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -34145,7 +34145,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -34214,7 +34214,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.250003815 }
@@ -34281,7 +34281,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -34400,7 +34400,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -34525,7 +34525,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -130, 40 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.949996173, 0.579995394, 0.300007641 }
@@ -34595,7 +34595,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -34675,7 +34675,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -34800,7 +34800,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -130, 40 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.330006868, 0.669993162, 1, 0.300007641 }
@@ -34870,7 +34870,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -34950,7 +34950,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -35007,7 +35007,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 230, 0 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Glow06_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Glow06_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -35059,7 +35059,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 450, 250, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -35946,7 +35946,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.949996173, 0.880003035, 0.500007629 }
@@ -36013,7 +36013,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -36132,7 +36132,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -36201,7 +36201,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.250003815 }
@@ -36268,7 +36268,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -36387,7 +36387,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -36512,7 +36512,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -130, 40 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.949996173, 0.579995394, 0.300007641 }
@@ -36582,7 +36582,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -36662,7 +36662,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -36787,7 +36787,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -130, 40 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.330006868, 0.669993162, 1, 0.300007641 }
@@ -36857,7 +36857,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -36937,7 +36937,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -36997,7 +36997,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 230, 0 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Glow06_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Glow06_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -37046,7 +37046,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 450, 250, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -38070,7 +38070,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.949996173, 0.880003035, 0.500007629 }
@@ -38137,7 +38137,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -38256,7 +38256,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -38325,7 +38325,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.250003815 }
@@ -38392,7 +38392,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -38511,7 +38511,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -38636,7 +38636,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -130, 40 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.949996173, 0.579995394, 0.300007641 }
@@ -38706,7 +38706,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -38786,7 +38786,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -38911,7 +38911,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -130, 40 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.330006868, 0.669993162, 1, 0.300007641 }
@@ -38981,7 +38981,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -39061,7 +39061,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -39121,7 +39121,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 230, 0 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Glow06_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Glow06_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -39170,7 +39170,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 450, 250, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -40788,7 +40788,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.949996173, 0.880003035, 0.500007629 }
@@ -40855,7 +40855,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -40974,7 +40974,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -41043,7 +41043,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.250003815 }
@@ -41110,7 +41110,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -41229,7 +41229,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -41354,7 +41354,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -130, 40 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.949996173, 0.579995394, 0.300007641 }
@@ -41424,7 +41424,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -41504,7 +41504,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -41629,7 +41629,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -130, 40 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.330006868, 0.669993162, 1, 0.300007641 }
@@ -41699,7 +41699,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -41779,7 +41779,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -41836,7 +41836,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 230, 0 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Glow06_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Glow06_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -41888,7 +41888,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 450, 250, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -42502,7 +42502,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.949996173, 0.880003035, 0.500007629 }
@@ -42569,7 +42569,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -42688,7 +42688,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -42757,7 +42757,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.250003815 }
@@ -42824,7 +42824,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -42943,7 +42943,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -43068,7 +43068,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -130, 40 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.949996173, 0.579995394, 0.300007641 }
@@ -43138,7 +43138,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -43218,7 +43218,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -43343,7 +43343,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -130, 40 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.330006868, 0.669993162, 1, 0.300007641 }
@@ -43413,7 +43413,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -43493,7 +43493,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -43550,7 +43550,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 230, 0 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Glow06_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Glow06_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -43602,7 +43602,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 450, 250, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -44405,7 +44405,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Radial_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Radial_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -44646,7 +44646,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -44889,7 +44889,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -45143,7 +45143,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -45254,7 +45254,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 10, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         probabilityTables: list[pointer] = {
@@ -45374,7 +45374,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0299999993
@@ -45449,7 +45449,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 5, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.349996179 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -45537,7 +45537,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -45634,9 +45634,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_327.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_327.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_common_flare-Fire.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_common_flare-Fire.tex"
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 100
                         dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -45784,7 +45784,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mesh_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mesh_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -45917,7 +45917,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mini05.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mini05.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -46038,7 +46038,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Hit_Spark_blue.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Hit_Spark_blue.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -46125,7 +46125,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flash_sharp_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flash_sharp_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -46207,9 +46207,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Radial_tar.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Radial_tar.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -46427,7 +46427,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_bolts_HitEffect_Physical_S_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_bolts_HitEffect_Physical_S_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
             }
@@ -46538,7 +46538,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_BA_Tar_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_BA_Tar_01.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -46586,7 +46586,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 180, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0299999993
@@ -46770,7 +46770,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_bolts_HitEffect_Physical_S_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_bolts_HitEffect_Physical_S_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
             }
@@ -46835,7 +46835,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectHeight: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveRay {}
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.701960802, 0.458823532, 1 }
@@ -46932,7 +46932,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_BW_Order_Turret_Sparks_4x1.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_BW_Order_Turret_Sparks_4x1.tex"
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 1 }
             }
@@ -47022,7 +47022,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -47080,7 +47080,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 180
                 }
@@ -47142,7 +47142,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 180
                 }
@@ -47390,11 +47390,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Crater_35.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Crater_35.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ColorE07.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ColorE07.tex"
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 90
                     }
@@ -47570,7 +47570,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Flash_Backdrop.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Flash_Backdrop.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0199999996
@@ -47732,7 +47732,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Flash_Backdrop.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Flash_Backdrop.tex"
             }
         }
         particleName: string = "Chogath_Skin41_BA_Crit_tar"
@@ -47992,7 +47992,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -48152,7 +48152,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -48237,7 +48237,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -48392,7 +48392,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -48477,7 +48477,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Smoke_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Smoke_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -48639,7 +48639,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -48724,7 +48724,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -48979,7 +48979,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -49234,7 +49234,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -49490,7 +49490,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -49629,7 +49629,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { -30, 15, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -49747,7 +49747,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
         }
         particleName: string = "Chogath_Skin41_W_Cas_Child_A"
@@ -49819,7 +49819,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00199997, 1.20000005, 1.20000005 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -50037,7 +50037,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 20, 0 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -50107,7 +50107,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -50281,7 +50281,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -50352,7 +50352,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -50564,7 +50564,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -50658,7 +50658,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -50771,9 +50771,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_327.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_327.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -50997,7 +50997,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -51236,7 +51236,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_960.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_960.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -51294,7 +51294,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_957.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_957.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.200000003 }
@@ -51334,7 +51334,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 2, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_960.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_960.tex"
                     texDivMult: vec2 = { 1, 2 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 1 }
@@ -51437,7 +51437,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 150, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Rampdown_Brown_RGB.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Rampdown_Brown_RGB.tex"
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -51527,7 +51527,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -51737,7 +51737,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -51831,7 +51831,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -52071,7 +52071,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_960.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_960.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -52128,7 +52128,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_957.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_957.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.200000003 }
@@ -52168,7 +52168,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 2, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_960.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_960.tex"
                     texDivMult: vec2 = { 1, 2 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 1 }
@@ -52468,7 +52468,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_960.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_960.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -52526,7 +52526,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_957.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_957.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.200000003 }
@@ -52566,7 +52566,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 2, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_960.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_960.tex"
                     texDivMult: vec2 = { 1, 2 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 1 }
@@ -52854,7 +52854,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -52989,7 +52989,7 @@ entries: map[hash,embed] = {
                     radius: f32 = 200
                     height: f32 = 20
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -53080,7 +53080,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -53108,14 +53108,14 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_cas_Distort_alpha_20.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_cas_Distort_alpha_20.tex"
                 blendMode: u8 = 1
                 pass: i16 = 200
                 meshRenderFlags: u8 = 0
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0130000003
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_distortion_soundwaves_01.SKINS_Chogath_Skin41.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_distortion_soundwaves_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -53137,7 +53137,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0666000023
@@ -53197,7 +53197,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 400, 152, 152 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -53368,9 +53368,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Raven.SKINS_Chogath_Skin41.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Raven.SKINS_Chogath_Skin41.skl"
-                        mAnimationName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_RavenFly.SKINS_Chogath_Skin41.anm"
+                        mMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Raven.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Raven.skl"
+                        mAnimationName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_RavenFly.anm"
                     }
                 }
                 blendMode: u8 = 4
@@ -53419,7 +53419,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.tex"
                 uvMode: u8 = 1
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, -0.200000003 }
@@ -53449,7 +53449,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Shine01_01_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Shine01_01_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -53521,7 +53521,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Cylinder_05.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Cylinder_05.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 0.5, 1 }
                 }
@@ -53746,7 +53746,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -53784,7 +53784,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ego_Skin19_Q_Energy.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ego_Skin19_Q_Energy.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -53824,7 +53824,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Ramp01_01.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Ramp01_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -53885,9 +53885,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.5, 1, 2 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoBasicGradient.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoBasicGradient.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoCowl_Galaxy_03.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoCowl_Galaxy_03.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -53940,7 +53940,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoR_Edge.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoR_Edge.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -53981,7 +53981,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoDemon_Trail_Rotate.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoDemon_Trail_Rotate.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 disableBackfaceCull: bool = true
@@ -54019,7 +54019,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ego_Q_Mis_Dirt_Sides_V03.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ego_Q_Mis_Dirt_Sides_V03.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.100000001 }
                 }
@@ -54027,7 +54027,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 2, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dance_Einstein_01_mult.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dance_Einstein_01_mult.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -54054,7 +54054,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_expo_cylinder_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_expo_cylinder_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -54151,7 +54151,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_juan_jian_22.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_juan_jian_22.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.800000012 }
                 }
@@ -54175,7 +54175,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.699999988, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dance_Einstein_01_mult.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dance_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -54202,7 +54202,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoR_Edge.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoR_Edge.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -54245,7 +54245,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoDemon_Trail_Rotate.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoDemon_Trail_Rotate.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 disableBackfaceCull: bool = true
@@ -54285,12 +54285,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ego_Q_Mis_Dirt_Sides_V03.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ego_Q_Mis_Dirt_Sides_V03.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoCowl_Galaxy_03.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoCowl_Galaxy_03.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -54513,7 +54513,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -54543,7 +54543,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_918.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_918.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -54618,7 +54618,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_921.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_921.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 8, 1 }
                 }
@@ -54799,7 +54799,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -54873,7 +54873,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Smoke_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Smoke_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -55109,7 +55109,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -55206,7 +55206,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -55321,9 +55321,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_327.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_327.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -55595,7 +55595,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -55618,7 +55618,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_00.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_00.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -55662,7 +55662,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_alphaslice_mesh.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_alphaslice_mesh.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -55688,9 +55688,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_19.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_19.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_21.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_21.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 4, 0.400000006 }
                     }
@@ -55988,7 +55988,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -56260,7 +56260,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -56387,7 +56387,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mesh_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mesh_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -56494,7 +56494,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mini05.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mini05.tex"
                 numFrames: u16 = 3
                 texDiv: vec2 = { 3, 1 }
             }
@@ -56730,7 +56730,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -56827,7 +56827,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -56887,7 +56887,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Rampdown_Brown_RGB.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Rampdown_Brown_RGB.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.749996185 }
@@ -56980,7 +56980,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -57081,7 +57081,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Lighting_Cyl.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Lighting_Cyl.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -57155,7 +57155,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flames_Floor.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flames_Floor.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -57267,12 +57267,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Wisp.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Wisp.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 4 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                     }
@@ -57314,7 +57314,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ego_Skin19_Q_Energy.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ego_Skin19_Q_Energy.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -57352,7 +57352,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Ramp01_01.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Ramp01_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -57413,9 +57413,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.5, 1, 2 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Color_50.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Color_50.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoCowl_Galaxy_03.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoCowl_Galaxy_03.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -57491,7 +57491,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_50_Outer.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_50_Outer.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -57532,7 +57532,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Cas_Spikes_03.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Cas_Spikes_03.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0.0200045779, 0 }
                     }
@@ -57560,7 +57560,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_Texture_10.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_Texture_10.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -57629,9 +57629,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 450, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -57668,7 +57668,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_flower_torus.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_flower_torus.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -57717,7 +57717,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Einstein_04_mult.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Einstein_04_mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0.0200045779, 0 }
                     }
@@ -57755,7 +57755,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2.70000005, 4, 2.70000005 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flower01_base.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flower01_base.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -0.0500000007, 0 }
                 }
@@ -57792,7 +57792,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_GradientV.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.899999976 }
                     }
@@ -57871,7 +57871,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_waveBACK.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_waveBACK.scb"
                         mLockMeshToAttachment: bool = true
                     }
                 }
@@ -57916,7 +57916,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_RingMult.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_RingMult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -57948,7 +57948,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dance_Einstein_01_mult.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dance_Einstein_01_mult.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 3 }
                 }
@@ -58000,7 +58000,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_waveBACK.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_waveBACK.scb"
                         mLockMeshToAttachment: bool = true
                     }
                 }
@@ -58045,7 +58045,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_RingMult.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_RingMult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -58077,7 +58077,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dance_Einstein_01_mult.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dance_Einstein_01_mult.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 3 }
                 }
@@ -58181,7 +58181,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Lighting_Cyl.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Lighting_Cyl.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -58255,7 +58255,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flames_Floor.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flames_Floor.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -58367,12 +58367,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Wisp.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Wisp.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 4 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                     }
@@ -58414,7 +58414,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ego_Skin19_Q_Energy.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ego_Skin19_Q_Energy.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -58454,7 +58454,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Ramp01_01.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Ramp01_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -58515,9 +58515,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.5, 1, 2 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoBasicGradient.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoBasicGradient.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoCowl_Galaxy_03.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoCowl_Galaxy_03.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -58607,7 +58607,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flash_sharp_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flash_sharp_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -58664,7 +58664,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_LensFlare.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_LensFlare.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -58684,7 +58684,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_range_indicator_ring.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_range_indicator_ring.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -58725,7 +58725,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoDemon_Trail_Rotate.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoDemon_Trail_Rotate.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 disableBackfaceCull: bool = true
@@ -58735,7 +58735,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 8.5, 23, 23 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Range.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Range.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -58758,7 +58758,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_indicator_ring.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_indicator_ring.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -58816,7 +58816,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, -0.300000012 }
@@ -58825,7 +58825,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 4, 0.600000024 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_EnergyStrands.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_EnergyStrands.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.300000012, -0.600000024 }
                     }
@@ -58852,7 +58852,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_50_Inner.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_50_Inner.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -58893,7 +58893,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Cas_Spikes_03.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Cas_Spikes_03.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0.0200045779, 0 }
                     }
@@ -58922,7 +58922,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_Texture_10.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_Texture_10.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -58942,7 +58942,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_range_indicator_ring.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_range_indicator_ring.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -58983,7 +58983,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoDemon_Trail_Rotate.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoDemon_Trail_Rotate.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 disableBackfaceCull: bool = true
@@ -58996,7 +58996,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 8.5, 23, 23 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Range.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Range.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -59019,7 +59019,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_50_Inner.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_50_Inner.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -59058,7 +59058,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Cas_Spikes_03.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Cas_Spikes_03.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0.0200045779, 0 }
                     }
@@ -59087,7 +59087,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_Texture_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_Texture_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -59341,11 +59341,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Crater_35.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Crater_35.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ColorE07.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ColorE07.tex"
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 90
                     }
@@ -59403,7 +59403,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_50_Outer.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_50_Outer.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -59450,7 +59450,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Cas_Spikes_03.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Cas_Spikes_03.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0.0200045779, 0 }
                     }
@@ -59478,7 +59478,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_Texture_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_Texture_02.tex"
             }
         }
         particleName: string = "Chogath_Skin41_Q_cas"
@@ -59620,7 +59620,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -59719,11 +59719,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Smoke_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Smoke_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_smoke_mult_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_smoke_mult_01.tex"
                     texDivMult: vec2 = { 2, 2 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 1 }
@@ -59817,7 +59817,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_trail02_01_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_trail02_01_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -59853,7 +59853,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.5, 0, 2.5 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Glow09_01_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Glow09_01_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -59894,7 +59894,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_trail02_01_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_trail02_01_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -59930,7 +59930,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.25, 0, 2 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Glow09_01_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Glow09_01_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -59956,7 +59956,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_trail02_01_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_trail02_01_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -59992,7 +59992,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2.5999999, 5, 4 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Glow09_01_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Glow09_01_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -60077,7 +60077,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Flare_Flash.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Flare_Flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -60168,7 +60168,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = VfxShapeCylinder {
                     radius: f32 = 10
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -60276,7 +60276,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -60302,7 +60302,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Mesh_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Mesh_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -60344,13 +60344,13 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Noise01_01.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Noise01_01.tex"
                 }
                 isUniformScale: flag = true
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1.79999995, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_Texture_10.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_Texture_10.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -60567,7 +60567,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -60656,7 +60656,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Trail_Fire_erosion.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Trail_Fire_erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 1 }
                     }
@@ -60718,7 +60718,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Trail_03.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Trail_03.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -60880,7 +60880,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Mis_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Mis_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -60902,7 +60902,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Sharp_Mesh.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Sharp_Mesh.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -60948,7 +60948,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_alphaslice_mesh.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_alphaslice_mesh.tex"
                 }
                 disableBackfaceCull: bool = true
                 birthRotation0: embed = ValueVector3 {
@@ -61019,7 +61019,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_dash_burst.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_dash_burst.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, -2 }
                 }
@@ -61027,7 +61027,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0, 0.5 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Mult_Windblast.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Mult_Windblast.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -61078,9 +61078,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 30, 85, 100 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_feather_glow_rainbow.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_feather_glow_rainbow.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Charging_Ref_Flames_04.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Charging_Ref_Flames_04.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.5 }
                     }
@@ -61164,7 +61164,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_head_CrystalBase_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_head_CrystalBase_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -61284,7 +61284,7 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.0299992375 }
                 }
@@ -61335,7 +61335,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.tex"
                 startFrame: u16 = 2
                 texDiv: vec2 = { 2, 2 }
             }
@@ -61554,7 +61554,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -61688,7 +61688,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Assets_1_174_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Assets_1_174_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -61777,7 +61777,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Trail_Fire_erosion.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Trail_Fire_erosion.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 1 }
                     }
@@ -61839,7 +61839,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_GradientV.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_GradientV.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -61895,7 +61895,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Mesh_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Mesh_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -61934,13 +61934,13 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Noise01_01.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Noise01_01.tex"
                 }
                 isUniformScale: flag = true
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1.79999995, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Chogath_Skin41_VFX_TX_CM.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Chogath_Skin41_VFX_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -62006,7 +62006,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Head_Cone_03.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Head_Cone_03.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -62069,7 +62069,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
         }
         particleName: string = "Chogath_Skin41_E_mis_child"
@@ -62181,7 +62181,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Noise02_01.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Noise02_01.tex"
                 }
                 uvScrollClamp: flag = true
                 birthScale0: embed = ValueVector3 {
@@ -62217,7 +62217,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Smoke05_01_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Smoke05_01_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0 }
                 }
@@ -62238,7 +62238,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 5, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_ChromaticGlaze_A.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_ChromaticGlaze_A.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -62353,7 +62353,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Assets_1_174_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Assets_1_174_01.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
                         times: list[f32] = {
@@ -62365,7 +62365,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 1 }
                     }
@@ -62485,7 +62485,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_3026_Items_Trail_06.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_3026_Items_Trail_06.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
                         times: list[f32] = {
@@ -62680,7 +62680,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -62869,7 +62869,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -62918,7 +62918,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 18, 150, 50 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -62966,7 +62966,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 60, 150, 50 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 180
                 }
@@ -63152,7 +63152,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Gold.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Gold.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -63341,7 +63341,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -63461,7 +63461,7 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.0299992375 }
                 }
@@ -63506,7 +63506,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.tex"
                 startFrame: u16 = 2
                 texDiv: vec2 = { 2, 2 }
             }
@@ -63614,7 +63614,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Noise02_01.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Noise02_01.tex"
                 }
                 uvScrollClamp: flag = true
                 birthScale0: embed = ValueVector3 {
@@ -63650,7 +63650,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ChainTrail_A_Erode.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ChainTrail_A_Erode.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0 }
                 }
@@ -63775,7 +63775,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Noise02_01.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Noise02_01.tex"
                 }
                 uvScrollClamp: flag = true
                 birthScale0: embed = ValueVector3 {
@@ -63811,7 +63811,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Smoke04_01_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Smoke04_01_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0 }
                 }
@@ -64005,11 +64005,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Target_Hit_Beams_4x1.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Target_Hit_Beams_4x1.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                     birthUVOffsetMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -64076,9 +64076,9 @@ entries: map[hash,embed] = {
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
                 isRandomStartFrame: flag = true
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Mask_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Mask_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dissolve_Cloudy_02.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dissolve_Cloudy_02.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 2 }
                     }
@@ -64181,11 +64181,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Transformation_AnimeBokeh.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Transformation_AnimeBokeh.tex"
                 numFrames: u16 = 2
                 texDiv: vec2 = { 1, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.tex"
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 100
                     }
@@ -64390,7 +64390,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -64591,7 +64591,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -64812,7 +64812,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Sparkle_Cas.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Sparkle_Cas.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -64971,7 +64971,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -65030,7 +65030,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_common_lens_rainbow_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_common_lens_rainbow_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -65169,7 +65169,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -65306,7 +65306,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Emotes_Spotlight.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Emotes_Spotlight.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -65363,7 +65363,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Flare_Flash.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Flare_Flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -65647,7 +65647,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -65838,7 +65838,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 15, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.600000024 }
@@ -65932,7 +65932,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -66081,7 +66081,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 25, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.501960814 }
@@ -66221,7 +66221,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -66317,7 +66317,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Lighting_Cyl.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Lighting_Cyl.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -66384,7 +66384,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flames_Floor.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flames_Floor.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -66497,7 +66497,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Wisp.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Wisp.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 4 }
                 }
@@ -66520,7 +66520,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_range_indicator_ring.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_range_indicator_ring.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -66552,9 +66552,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 8.5, 23, 23 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Range.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Range.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dissolve_Cloudy_02.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dissolve_Cloudy_02.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -0.400000006, 0.550000012 }
                     }
@@ -66578,7 +66578,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_range_indicator_ring.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_range_indicator_ring.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -66610,7 +66610,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 8.5, 23, 23 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Range.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Range.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -66630,7 +66630,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoR_Edge.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoR_Edge.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -66671,7 +66671,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoDemon_Trail_Rotate.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoDemon_Trail_Rotate.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 disableBackfaceCull: bool = true
@@ -66699,12 +66699,12 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2.5999999, 2.5, 2.5 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ego_Q_Mis_Dirt_Sides_V03.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ego_Q_Mis_Dirt_Sides_V03.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoCowl_Galaxy_03.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoCowl_Galaxy_03.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -66726,7 +66726,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Edges.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Edges.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -66779,7 +66779,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mis_Energy.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mis_Energy.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -0.0599999987, 0.300000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -66850,7 +66850,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 0.25 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_3026_Items_Noise_02.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_3026_Items_Noise_02.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 0.5 }
                     }
@@ -66909,7 +66909,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 300, 330, 330 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Ring_Glow_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Ring_Glow_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -66947,7 +66947,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 primitive: pointer = VfxPrimitiveRay {}
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_RainbowRay01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_RainbowRay01.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.889997721, 0.710002303, 0.200000003 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -67086,9 +67086,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_RainbowRay.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_RainbowRay.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -67112,7 +67112,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_StormMesh01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_StormMesh01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -67149,7 +67149,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -67194,7 +67194,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Cloud_Tex_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Cloud_Tex_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.400000006 }
                 }
@@ -67223,7 +67223,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = -20
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_yan_10.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_yan_10.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.600000024 }
@@ -67269,7 +67269,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Ring01_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Ring01_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -67311,7 +67311,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Ramp01_01.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Ramp01_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -67364,7 +67364,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Sky_10.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Sky_10.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -67385,7 +67385,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Noise4.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Noise4.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 2 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -67456,7 +67456,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Ring01_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Ring01_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -67481,7 +67481,7 @@ entries: map[hash,embed] = {
                         constantValue: f32 = 0.400000006
                     }
                     erosionFeatherOut: f32 = 0.150000006
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Ramp01_01.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Ramp01_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -67522,7 +67522,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.60000002, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dance_Einstein_01_mult.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dance_Einstein_01_mult.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -67543,7 +67543,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoCowl_Galaxy_03.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_egoCowl_Galaxy_03.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 2 }
                     }
@@ -67631,7 +67631,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Alpha01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Alpha01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -67670,7 +67670,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -67714,7 +67714,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 19.5, 50, 52 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Color_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Color_01.tex"
                 uvMode: u8 = 2
                 texDiv: vec2 = { 1, -1 }
                 uvScale: embed = ValueVector2 {
@@ -67769,7 +67769,7 @@ entries: map[hash,embed] = {
                     erosionDriveCurve: embed = ValueFloat {
                         constantValue: f32 = 0.899999976
                     }
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Sky_50.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Sky_50.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -67784,7 +67784,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 185, 400, 750 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Alpha_Mult.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Alpha_Mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.0500000007, 0.0500000007 }
                 }
@@ -67792,7 +67792,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 15
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_smoke_mult_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_smoke_mult_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 2 }
                     }
@@ -67849,7 +67849,7 @@ entries: map[hash,embed] = {
                     erosionDriveCurve: embed = ValueFloat {
                         constantValue: f32 = 0.899999976
                     }
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Sky_50.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Sky_50.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -67866,7 +67866,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 185, 400, 750 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Alpha_Mult.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Alpha_Mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.0500000007, 0.0500000007 }
                 }
@@ -67874,7 +67874,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 15
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_smoke_mult_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_smoke_mult_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 2 }
                     }
@@ -67933,9 +67933,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 450, 400, 750 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Sky_04.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Sky_04.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.0149999997, 0.0149999997 }
                     }
@@ -67991,9 +67991,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 450, 400, 750 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Sky_03.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Sky_03.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -0.0299999993, -0.0299999993 }
                     }
@@ -68048,7 +68048,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 400, 510, 510 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
         }
         particleName: string = "Chogath_Skin41_Q_Enemy_team"
@@ -68108,7 +68108,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 450, 250, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -68580,7 +68580,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.949996173, 0.880003035, 0.500007629 }
@@ -68647,7 +68647,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -68766,7 +68766,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -68823,7 +68823,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 230, 0 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Glow06_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_Glow06_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -68890,7 +68890,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -100, 50 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.250003815 }
@@ -68957,7 +68957,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -69076,7 +69076,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -69201,7 +69201,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -130, 40 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.949996173, 0.579995394, 0.300007641 }
@@ -69271,7 +69271,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -69351,7 +69351,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -69476,7 +69476,7 @@ entries: map[hash,embed] = {
                 SpawnShape: pointer = 0xee39916f {
                     emitOffset: vec3 = { 0, -130, 40 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color-rampdown32_03.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.330006868, 0.669993162, 1, 0.300007641 }
@@ -69546,7 +69546,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -69626,7 +69626,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Base_SmokeClouds_02.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -69692,7 +69692,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 0.25
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_GroundLightning_Erosion_01.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_GroundLightning_Erosion_01.tex"
                 }
                 0xcb13aff1: f32 = -80
                 isUniformScale: flag = true
@@ -69763,7 +69763,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_GroundLightning_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_GroundLightning_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -69812,7 +69812,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_17.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_17.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -69841,7 +69841,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_OmniFlare_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_OmniFlare_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -69903,9 +69903,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -70174,7 +70174,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_957.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_957.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.200000003 }
@@ -70214,7 +70214,7 @@ entries: map[hash,embed] = {
                 }
                 texDiv: vec2 = { 2, 1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_960.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_960.tex"
                     texDivMult: vec2 = { 1, 2 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.800000012, 1 }
@@ -70495,7 +70495,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -70592,11 +70592,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                     }
@@ -70840,7 +70840,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.349999994
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -70937,11 +70937,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0.5 }
                     }
@@ -71209,7 +71209,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -71473,7 +71473,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -71581,7 +71581,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 40, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         probabilityTables: list[pointer] = {
@@ -71699,7 +71699,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0299999993
@@ -71771,7 +71771,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.349996179 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -71859,7 +71859,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -71984,7 +71984,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mesh_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mesh_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -72117,7 +72117,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mini05.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mini05.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -72131,7 +72131,7 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_204.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_204.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -72170,7 +72170,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_RingMult.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_RingMult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -72197,7 +72197,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_08.tex"
                 numFrames: u16 = 4
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.5 }
@@ -72224,7 +72224,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 4, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_210.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_210.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -72311,9 +72311,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_OrbGlow.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_OrbGlow.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -72377,7 +72377,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flash_sharp_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flash_sharp_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -72437,7 +72437,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_LensFlare.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_LensFlare.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -72536,7 +72536,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_327.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_327.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -72594,7 +72594,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_324.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_324.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -72658,7 +72658,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -72898,11 +72898,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Crater_35.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Crater_35.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ColorE07.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ColorE07.tex"
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 90
                     }
@@ -73165,7 +73165,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Rocks.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Rocks.tex"
                 numFrames: u16 = 3
                 texDiv: vec2 = { 3, 1 }
             }
@@ -73253,9 +73253,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 105, 55 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Cas_SoundRingWhite.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Cas_SoundRingWhite.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0.200000003 }
                     }
@@ -73280,7 +73280,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_indicator.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_indicator.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -73363,12 +73363,12 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.899999976, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Assets_1_174_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Assets_1_174_01.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.25, 0 }
                     }
@@ -73435,7 +73435,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ego_Skin19_Q_decal.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ego_Skin19_Q_decal.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -73457,7 +73457,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_270.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_270.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -73523,7 +73523,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_alphaslice_mesh.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_alphaslice_mesh.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -73592,7 +73592,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Mis_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Mis_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -0.200000003, 0 }
                 }
@@ -73600,7 +73600,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 3, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Mis_02.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Mis_02.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.5, 0 }
                     }
@@ -73636,7 +73636,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Wave10_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Wave10_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -73672,7 +73672,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Ramp01_01.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Ramp01_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -73714,7 +73714,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.25, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Noise01_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Noise01_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0 }
                 }
@@ -73722,7 +73722,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 2, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_ShieldMask28.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 2 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -73779,7 +73779,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Mesh_10.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Mesh_10.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -73796,7 +73796,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.75, 0.899999976, 0.75 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_Texture_10.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_Texture_10.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -73828,7 +73828,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Mesh_10.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Mesh_10.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -73842,7 +73842,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.75, 0.899999976, 0.75 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_Texture_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Mesh_Texture_02.tex"
             }
         }
         visibilityRadius: f32 = 350
@@ -74011,7 +74011,7 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Death_color-dust32.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Death_color-dust32.tex"
                 blendMode: u8 = 1
                 pass: i16 = 50
                 meshRenderFlags: u8 = 0
@@ -74088,7 +74088,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Death_smoke08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Death_smoke08.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -74249,7 +74249,7 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Death_color-buildingsmoke.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Death_color-buildingsmoke.tex"
                 blendMode: u8 = 1
                 pass: i16 = 20
                 meshRenderFlags: u8 = 0
@@ -74326,7 +74326,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Death_smoke08.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Death_smoke08.tex"
             }
         }
         particleName: string = "Chogath_Skin41_Death_SoundDust"
@@ -74356,7 +74356,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_2_75.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_2_75.scb"
                         mLockMeshToAttachment: bool = true
                     }
                 }
@@ -74407,7 +74407,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2.5, 0.5, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Noise_05.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Noise_05.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0.699999988 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -74622,9 +74622,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 300, 330, 0 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Cas_ConeAOE.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Cas_ConeAOE.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_ChromaticGlaze_A.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_ChromaticGlaze_A.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.125, 2 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -74769,7 +74769,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Somke02_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Somke02_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -74797,7 +74797,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_fire_coremesh.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_fire_coremesh.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -74831,7 +74831,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 5.5, 0, 3 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Ramp_11.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Ramp_11.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -74856,7 +74856,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_fire_coremesh.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_fire_coremesh.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -74893,7 +74893,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -74907,12 +74907,12 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 4.5, 2.5, 3 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_ChromaticGlaze_A.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_ChromaticGlaze_A.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -74971,10 +74971,10 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.39999998, 1.39999998, 1.39999998 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Ramp_04.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Ramp_04.tex"
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Ground_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Ground_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -75003,7 +75003,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_skin14_W_fire_1WIP.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_skin14_W_fire_1WIP.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -75044,7 +75044,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_04.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_04.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -75056,7 +75056,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.70000005, 1, 1.25 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_FlameNoise02_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_FlameNoise02_01.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -75084,7 +75084,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 90
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.25, 2 }
@@ -75130,7 +75130,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_skin14_W_fire_1WIP.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_skin14_W_fire_1WIP.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -75171,7 +75171,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_04.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_04.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -75183,7 +75183,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.70000005, 1, 1.25 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_FlameNoise02_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_FlameNoise02_01.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -75211,7 +75211,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 90
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.25, 2 }
@@ -75258,7 +75258,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_skin14_W_fire_1WIP.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_skin14_W_fire_1WIP.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -75301,7 +75301,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_04.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_04.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -75327,7 +75327,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Smoke05_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Smoke05_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0 }
                 }
@@ -75343,7 +75343,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.25, 2 }
@@ -75390,7 +75390,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_skin14_W_fire_1WIP.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_skin14_W_fire_1WIP.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -75433,7 +75433,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_04.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_04.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -75459,7 +75459,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Smoke05_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Smoke05_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0 }
                 }
@@ -75475,7 +75475,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.25, 2 }
@@ -75532,7 +75532,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Somke01_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Somke01_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -75587,7 +75587,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_SmokeShape05.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_SmokeShape05.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.25 }
                 }
@@ -75609,7 +75609,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 0.349999994 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -75662,7 +75662,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Somke01_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Somke01_01.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -75717,7 +75717,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_FlameNoise06_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_FlameNoise06_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.25 }
                 }
@@ -75739,7 +75739,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 0.800000012 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -75782,7 +75782,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_skin14_W_fire_1WIP.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_skin14_W_fire_1WIP.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -75827,7 +75827,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_04.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_04.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -75851,7 +75851,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_WispTrail_BW.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_WispTrail_BW.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.400000006 }
                 }
@@ -75883,7 +75883,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 2 }
@@ -75931,7 +75931,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_skin14_W_fire_1WIP.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_skin14_W_fire_1WIP.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -75976,7 +75976,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_04.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_04.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -76000,7 +76000,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_WispTrail_BW.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_WispTrail_BW.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, -0.400000006 }
                 }
@@ -76032,7 +76032,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 2 }
@@ -76080,7 +76080,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_skin14_W_fire_1WIP.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_skin14_W_fire_1WIP.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -76144,7 +76144,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_04.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_04.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -76168,7 +76168,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_WispTrail_BW.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_WispTrail_BW.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.200000003, -0.400000006 }
                 }
@@ -76200,7 +76200,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 2 }
@@ -76248,7 +76248,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_skin14_W_fire_1WIP.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_skin14_W_fire_1WIP.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -76312,7 +76312,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_04.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_04.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -76336,7 +76336,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_FlameNoise05_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_FlameNoise05_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.200000003, -0.400000006 }
                 }
@@ -76366,7 +76366,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 2 }
@@ -76451,7 +76451,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -76468,7 +76468,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.39999998, 1.39999998, 1.39999998 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Decal_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Decal_02.tex"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -76536,7 +76536,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -76553,7 +76553,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.39999998, 1.39999998, 1.39999998 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Decal_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Decal_01.tex"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -76621,7 +76621,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_28.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -76638,7 +76638,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.39999998, 1.39999998, 1.39999998 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.tex"
                 texAddressModeBase: u8 = 2
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, 1 }
@@ -76657,7 +76657,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1.5, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Decal_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Decal_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -76721,7 +76721,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Erosion01_01.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Erosion01_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isGroundLayer: flag = true
@@ -76735,7 +76735,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.39999998, 1.39999998, 1.39999998 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_3026_Items_Noise_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_3026_Items_Noise_02.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -76771,7 +76771,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1.5, 2 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Decal_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Decal_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -76873,9 +76873,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_juan_yun149.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_juan_yun149.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Cas_AOE_Streaks_MULT.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Cas_AOE_Streaks_MULT.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 5, 2.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -76982,7 +76982,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_fire_coremesh.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_fire_coremesh.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -77019,7 +77019,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_117.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -77032,12 +77032,12 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 4.5, 2.5, 3 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_FlameNoise03_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_FlameNoise03_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -77080,7 +77080,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 0, 100 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Rampdown_Brown_RGB.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Rampdown_Brown_RGB.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.669993162 }
@@ -77156,7 +77156,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -77317,7 +77317,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -77470,7 +77470,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -77587,7 +77587,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_327.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_327.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -77675,7 +77675,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emissionMeshScale: f32 = 0.5
-                emissionMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Cone_05.SKINS_Chogath_Skin41.scb"
+                emissionMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Cone_05.scb"
                 SpawnShape: pointer = VfxShapeBox {
                     flags: u8 = 1
                 }
@@ -77748,7 +77748,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -77909,7 +77909,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -77999,7 +77999,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emissionMeshScale: f32 = 0.5
-                emissionMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Cone_05.SKINS_Chogath_Skin41.scb"
+                emissionMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Cone_05.scb"
                 SpawnShape: pointer = VfxShapeBox {
                     flags: u8 = 1
                 }
@@ -78072,7 +78072,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -78100,7 +78100,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_fire_coremesh.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_fire_coremesh.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -78134,7 +78134,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 5.5, 0, 3.20000005 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Ramp_11.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Ramp_11.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -78251,7 +78251,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_glowflare.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_glowflare.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -78352,7 +78352,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_3026_Items_Einstein_02_mult.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_3026_Items_Einstein_02_mult.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.059998475 }
                 }
@@ -78403,7 +78403,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -78498,9 +78498,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 300, 100, 0 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -78521,7 +78521,7 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Cone_1_03.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Cone_1_03.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -78560,7 +78560,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Noise4.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Noise4.tex"
                 }
                 miscRenderFlags: u8 = 1
                 uvScrollClamp: flag = true
@@ -78572,7 +78572,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 13, 13, 12 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_FirePillar_6.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_FirePillar_6.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 3 }
                 }
@@ -78584,7 +78584,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.5, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Mask.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Mask.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -78605,7 +78605,7 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Cone_1_03.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Cone_1_03.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -78645,7 +78645,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Noise4.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Noise4.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isGroundLayer: flag = true
@@ -78656,7 +78656,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 13, 13, 12 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_FirePillar_6.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_FirePillar_6.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 4 }
                 }
@@ -78665,7 +78665,7 @@ entries: map[hash,embed] = {
                 }
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Mask.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Mask.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -78775,9 +78775,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Raven.SKINS_Chogath_Skin41.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Raven.SKINS_Chogath_Skin41.skl"
-                        mAnimationName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_RavenFly.SKINS_Chogath_Skin41.anm"
+                        mMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Raven.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Raven.skl"
+                        mAnimationName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_RavenFly.anm"
                     }
                 }
                 blendMode: u8 = 4
@@ -78865,7 +78865,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Noise07.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Noise07.tex"
                 uvMode: u8 = 1
             }
             VfxEmitterDefinitionData {
@@ -79004,9 +79004,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_tar_gather.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_tar_gather.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -79158,7 +79158,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Shockwave_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Shockwave_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -79286,7 +79286,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Shockwave_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Shockwave_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -79451,9 +79451,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -79474,7 +79474,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 75, 100 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color_bellcurve32.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_color_bellcurve32.tex"
                 blendMode: u8 = 1
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -79497,7 +79497,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.00200000009
                     distortionMode: u8 = 3
-                    normalMapTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_distort_bulge.SKINS_Chogath_Skin41.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_distort_bulge.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -79517,7 +79517,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -79608,7 +79608,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -79680,7 +79680,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_375.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -79702,7 +79702,7 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Cone_1_03.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Cone_1_03.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -79737,7 +79737,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 13, 13, 12 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_FirePillar_6.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_FirePillar_6.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 5 }
                 }
@@ -79746,7 +79746,7 @@ entries: map[hash,embed] = {
                 }
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_50.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_50.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -79776,7 +79776,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_skin14_W_fire_1WIP.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_skin14_W_fire_1WIP.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -79817,7 +79817,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_04.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_04.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -79841,7 +79841,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_FlameNoise02_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_FlameNoise02_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.400000006 }
                 }
@@ -79873,7 +79873,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_dayun_mask_1.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 2 }
@@ -79949,7 +79949,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.39999998, 1.39999998, 1.39999998 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_ChromaticGlaze_A.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_ChromaticGlaze_A.tex"
                 texAddressModeBase: u8 = 2
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, 1 }
@@ -79963,7 +79963,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Ground_01.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Ground_01.tex"
                 }
             }
         }
@@ -80029,7 +80029,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 190, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 180
                 }
@@ -80120,7 +80120,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0299999993
@@ -80195,7 +80195,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 5, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.349996179 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -80283,7 +80283,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -80396,7 +80396,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 10, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         probabilityTables: list[pointer] = {
@@ -80516,7 +80516,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -80575,7 +80575,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 190, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 180
                 }
@@ -80832,7 +80832,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -81073,7 +81073,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -81316,7 +81316,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -81411,9 +81411,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_327.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Particles_1_327.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_common_flare-Fire.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_common_flare-Fire.tex"
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 100
                         dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -81621,7 +81621,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_bolts_HitEffect_Physical_S_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_bolts_HitEffect_Physical_S_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
             }
@@ -81666,7 +81666,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectHeight: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveRay {}
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.701960802, 0.458823532, 1 }
@@ -81763,7 +81763,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_BW_Order_Turret_Sparks_4x1.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_BW_Order_Turret_Sparks_4x1.tex"
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 1 }
             }
@@ -81889,7 +81889,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mesh_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mesh_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -82025,7 +82025,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mini05.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mini05.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -82146,7 +82146,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Hit_Spark_blue.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Hit_Spark_blue.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -82233,7 +82233,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flash_sharp_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flash_sharp_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -82450,7 +82450,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_bolts_HitEffect_Physical_S_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_bolts_HitEffect_Physical_S_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
             }
@@ -82700,11 +82700,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Crater_35.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Crater_35.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ColorE07.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ColorE07.tex"
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 90
                     }
@@ -82880,7 +82880,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Flash_Backdrop.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Flash_Backdrop.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0199999996
@@ -83042,7 +83042,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Flash_Backdrop.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_R_Flash_Backdrop.tex"
             }
         }
         particleName: string = "Chogath_Skin41_BA_tar"
@@ -83136,7 +83136,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Star_Flash.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Star_Flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -83179,7 +83179,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 150, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -83222,7 +83222,7 @@ entries: map[hash,embed] = {
                     scaleEmitOffsetByBoundObjectHeight: f32 = 0.00499999989
                 }
                 primitive: pointer = VfxPrimitiveRay {}
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Color_70.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.690196097, 0.470588237, 1 }
@@ -83322,7 +83322,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_BW_Order_Turret_Sparks_4x1.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_BW_Order_Turret_Sparks_4x1.tex"
                 numFrames: u16 = 16
                 texDiv: vec2 = { 4, 1 }
             }
@@ -83391,7 +83391,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 120, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flash_sharp_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Flash_sharp_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -83476,7 +83476,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dash.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
             }
@@ -83530,7 +83530,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 180
                 }
@@ -83585,7 +83585,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_GenericQ_SoftAlpha.tex"
                 uvRotation: embed = ValueFloat {
                     constantValue: f32 = 180
                 }
@@ -83829,7 +83829,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -84072,7 +84072,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -84326,7 +84326,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -84437,7 +84437,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 10, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 birthColor: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
                         probabilityTables: list[pointer] = {
@@ -84557,7 +84557,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_W_Stardust.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -84763,7 +84763,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Gold.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Gold.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -84972,7 +84972,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Gold.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Q_Gold.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -85049,7 +85049,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 5, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_rainbow_01.tex"
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.349996179 }
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -85137,7 +85137,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dots_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -85166,10 +85166,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_root_02.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_root_02.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 0.760784328, 0.588235319, 1 }
@@ -85207,7 +85207,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dance_Einstein_01_mult.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dance_Einstein_01_mult.tex"
                 }
                 disableBackfaceCull: bool = true
                 birthRotation0: embed = ValueVector3 {
@@ -85260,7 +85260,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_BA_Shadow_Ring_555.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_BA_Shadow_Ring_555.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, -0.100000001 }
                 }
@@ -85407,7 +85407,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_glowflare.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_E_glowflare.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -85434,10 +85434,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_root_02.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_root_02.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_White.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.388235301, 0.764705896, 1, 1 }
@@ -85475,7 +85475,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dance_Einstein_01_mult.SKINS_Chogath_Skin41.tex"
+                    erosionMapName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Dance_Einstein_01_mult.tex"
                 }
                 disableBackfaceCull: bool = true
                 birthRotation0: embed = ValueVector3 {
@@ -85528,7 +85528,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_BA_Shadow_Ring_555.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_BA_Shadow_Ring_555.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, -0.100000001 }
                 }
@@ -85614,7 +85614,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Rampdown_Brown_RGB.SKINS_Chogath_Skin41.tex"
+                particleColorTexture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_Rampdown_Brown_RGB.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.500007629 }
@@ -85691,7 +85691,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_02.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Z_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -85815,7 +85815,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mesh_01.SKINS_Chogath_Skin41.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mesh_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -85948,7 +85948,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mini05.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Rock_Mini05.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -86193,11 +86193,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Crater_35.SKINS_Chogath_Skin41.tex"
+                texture: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_Crater_35.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ColorE07.SKINS_Chogath_Skin41.tex"
+                    textureMult: string = "ASSETS/Characters/Chogath/skins/Skin41/Particles/Chogath_Skin41_ColorE07.tex"
                     birthUvRotateRateMult: embed = ValueFloat {
                         constantValue: f32 = 90
                     }
@@ -86224,49 +86224,49 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Pattern_Mask"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "ScreenSpace_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "MatCap_Tex"
-                texturePath: string = "ASSETS/Characters/Pyke/Skins/Skin75/Pyke_Skin75_Matcap_TX_CM.SKINS_Pyke_Skin75.tex"
+                texturePath: string = "ASSETS/Characters/Pyke/Skins/Skin75/Pyke_Skin75_Matcap_TX_CM.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Color_Mask_Texture"
-                texturePath: string = "ASSETS/Characters/Chogath/skins/Skin41/Chogath_Skin41_ColorMask_TX_CM.SKINS_Chogath_Skin41.tex"
+                texturePath: string = "ASSETS/Characters/Chogath/skins/Skin41/Chogath_Skin41_ColorMask_TX_CM.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Chogath/skins/Skin41/Chogath_Skin41_TX_CM.SKINS_Chogath_Skin41.tex"
+                texturePath: string = "ASSETS/Characters/Chogath/skins/Skin41/Chogath_Skin41_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "iridescentTex"
-                texturePath: string = "ASSETS/Characters/Pyke/Skins/Skin75/Pyke_Skin75_Material_Iridescence_Mat_TX_CM.SKINS_Pyke_Skin75.tex"
+                texturePath: string = "ASSETS/Characters/Pyke/Skins/Skin75/Pyke_Skin75_Material_Iridescence_Mat_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "AdditiveScrollTex"
-                texturePath: string = "ASSETS/Characters/Pyke/Skins/Skin75/Pyke_Skin75_AdditiveScroll_TX_CM.SKINS_Pyke_Skin75.tex"
+                texturePath: string = "ASSETS/Characters/Pyke/Skins/Skin75/Pyke_Skin75_AdditiveScroll_TX_CM.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "AdditiveScroll_Mask"
-                texturePath: string = "ASSETS/Characters/Chogath/skins/Skin41/Chogath_Skin41_AdditiveScrollMask_TX_CM.SKINS_Chogath_Skin41.tex"
+                texturePath: string = "ASSETS/Characters/Chogath/skins/Skin41/Chogath_Skin41_AdditiveScrollMask_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture2"
-                texturePath: string = "ASSETS/Characters/Pyke/Skins/Skin75/Particles/black.SKINS_Pyke_Skin75.tex"
+                texturePath: string = "ASSETS/Characters/Pyke/Skins/Skin75/Particles/black.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1

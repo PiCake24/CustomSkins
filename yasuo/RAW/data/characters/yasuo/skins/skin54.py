@@ -50801,7 +50801,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 90, 110, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.tex"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1.5 }
                 }
@@ -54065,7 +54065,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_LensFlare01.StrawberryRebuild.tex"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_LensFlare01.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -54190,7 +54190,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.tex"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.300000012 }
                 }
@@ -54584,7 +54584,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 4, 1, 1 }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_White.StrawberryRebuild.tex"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_White.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -1, 0 }
                 }
@@ -54973,7 +54973,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 3, 6, 3 }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_White.StrawberryRebuild.tex"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_White.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.5, 0 }
                 }
@@ -58792,7 +58792,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.tex"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.25 }
                 }
@@ -100621,7 +100621,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.tex"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.25 }
                 }
@@ -102631,7 +102631,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.tex"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.25 }
                 }
@@ -103306,7 +103306,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.tex"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.25 }
                 }
@@ -104358,7 +104358,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.tex"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -1, 0 }
                 }
@@ -105274,7 +105274,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/DarkStarMode_Radialring_01.StrawberryRebuild.tex"
+                texture: string = "ASSETS/Shared/Particles/DarkStarMode_Radialring_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_EnergyStrands.tex"
                     uvScaleMult: embed = ValueVector2 {
@@ -106939,7 +106939,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Base_Glow02.StrawberryRebuild.tex"
+                texture: string = "ASSETS/Shared/Particles/3026_Base_Glow02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -110968,7 +110968,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Mask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
         }
         paramValues: list2[embed] = {
@@ -111073,11 +111073,11 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "MatCap_Tex"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "MatCap_Mask"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture"
@@ -111376,11 +111376,11 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "MatCap_Tex"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "MatCap_Mask"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture"
@@ -111682,7 +111682,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "OutlineMask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
                 addressU: u32 = 2
                 addressV: u32 = 2
                 addressW: u32 = 2

@@ -9167,7 +9167,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.tex"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0.349999994, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -10474,7 +10474,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Shine01_01.tex"
                 texDiv: vec2 = { 1, -1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3.5, 0.300000012 }
                     }
@@ -13120,7 +13120,7 @@ entries: map[hash,embed] = {
                 colorLookUpTypeY: u8 = 1
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
-                texture: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
+                texture: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                 }
@@ -13169,7 +13169,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 10, 6 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 6, 6 }
                     }
@@ -20411,7 +20411,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.Leblanc_Rework.tex"
+                texture: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0.349999994, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -20638,7 +20638,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Chogath/skins/Skin23/Particles/Chogath_Skin23_Q_Shine01_01.tex"
                 texDiv: vec2 = { 1, -1 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3.5, 0.300000012 }
                     }
@@ -23827,7 +23827,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 2 }
                     }
@@ -24041,7 +24041,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 3, -1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 0.300000012 }
                     }
@@ -24346,7 +24346,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -24507,7 +24507,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.400000006
-                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -25389,7 +25389,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 3 }
                     }
@@ -25559,7 +25559,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 5 }
                     }
@@ -25716,7 +25716,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 5 }
                     }
@@ -25979,7 +25979,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1, 2 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 3 }
                     }
@@ -26231,7 +26231,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 3 }
                     }
@@ -26346,7 +26346,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Chogath/skins/Skin26/Particles/Chogath_Skin26_Q_Temple02_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 6, 2 }
                     }
@@ -26526,7 +26526,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 3 }
                     }
@@ -28229,7 +28229,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Specular_Mask"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
         }
         paramValues: list2[embed] = {

@@ -6863,6 +6863,7 @@ entries: map[hash,embed] = {
                         mSubmeshesToDraw: list[hash] = {
                             "BODY"
                             "Mane"
+                            "HeadBase"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -7140,6 +7141,7 @@ entries: map[hash,embed] = {
                         mSubmeshesToDraw: list[hash] = {
                             "BODY"
                             "Mane"
+                            "HeadBase"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -8312,6 +8314,7 @@ entries: map[hash,embed] = {
                         mSubmeshesToDraw: list[hash] = {
                             "Mane"
                             "BODY"
+                            "HeadBase"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -8356,7 +8359,7 @@ entries: map[hash,embed] = {
                 hasPostRotateOrientation: flag = true
                 isRandomStartFrame: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_skin5_R_color-hold.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/volibear_base_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1
@@ -8381,9 +8384,12 @@ entries: map[hash,embed] = {
                         mSubmeshesToDraw: list[hash] = {
                             "BODY"
                             "Mane"
+                            "HeadBase"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
                             "Mane"
+                            "BODY"
+                            "HeadBase"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -8416,7 +8422,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_leapAvatar.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/volibear_base_TX_CM.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
                     paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_colorGrad.tex"
                     paletteCount: i32 = 16
@@ -8451,9 +8457,12 @@ entries: map[hash,embed] = {
                         mSubmeshesToDraw: list[hash] = {
                             "BODY"
                             "Mane"
+                            "HeadBase"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
                             "Mane"
+                            "BODY"
+                            "HeadBase"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -8486,7 +8495,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Base/Particles/Volibear_Base_R_Avatar_Blend_01.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Base/volibear_base_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1
@@ -11033,7 +11042,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_Poro_TX_CM.Chroma_Volibear_Onsen.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_Poro_TX_CM.tex"
             }
         }
         particleName: string = "Volibear_Skin31_Emote_PoroJokeLoop"
@@ -11191,7 +11200,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.25
                     erosionFeatherOut: f32 = 0.25
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Base_SmokeErode.SKINS_Volibear_Skin29.tex"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Base_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -11324,7 +11333,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_R_Cas_Dust_01.SKINS_Volibear_Skin29.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_R_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -11477,7 +11486,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.25
                     erosionFeatherOut: f32 = 0.25
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Base_SmokeErode.SKINS_Volibear_Skin29.tex"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Base_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -11610,7 +11619,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_R_Cas_Dust_01.SKINS_Volibear_Skin29.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_R_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -11645,9 +11654,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Spell2.SKINS_Volibear_Skin29.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Spell2.SKINS_Volibear_Skin29.skl"
-                        mAnimationName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Spell2.SKINS_Volibear_Skin29.anm"
+                        mMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Spell2.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Spell2.skl"
+                        mAnimationName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Spell2.anm"
                     }
                 }
                 blendMode: u8 = 4
@@ -11689,7 +11698,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Base_SmokeErode.SKINS_Volibear_Skin29.tex"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Base_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -11713,13 +11722,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_Head_TX_CM.Chroma_Volibear_Onsen.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_Head_TX_CM.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_colorGrad.SKINS_Volibear_Skin29.tex"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/PetChibiKaisa_Skin2__TFT5_Dmg_Skin36_RingMult.SKINS_Volibear_Skin29.tex"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/PetChibiKaisa_Skin2__TFT5_Dmg_Skin36_RingMult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                     }
@@ -11783,9 +11792,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Spell2.SKINS_Volibear_Skin29.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Spell2.SKINS_Volibear_Skin29.skl"
-                        mAnimationName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Spell2.SKINS_Volibear_Skin29.anm"
+                        mMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Spell2.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Spell2.skl"
+                        mAnimationName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Spell2.anm"
                     }
                 }
                 blendMode: u8 = 1
@@ -11831,7 +11840,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Base_SmokeErode.SKINS_Volibear_Skin29.tex"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Base_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -11860,7 +11869,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_Head_TX_CM.Chroma_Volibear_Onsen.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_Head_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.25
@@ -11944,7 +11953,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Aura_self.SKINS_Volibear_Skin29.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Aura_self.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.25
@@ -12028,7 +12037,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Aura_self.SKINS_Volibear_Skin29.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Aura_self.tex"
             }
         }
         particleName: string = "Volibear_Skin31_W_Chomp"
@@ -12070,7 +12079,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_Poro_TX_CM.Chroma_Volibear_Onsen.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_Poro_TX_CM.tex"
             }
         }
         particleName: string = "Volibear_Skin31_Emote_PoroJoke"
@@ -12093,9 +12102,9 @@ entries: map[hash,embed] = {
                 emitterName: string = "Statue"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Taunt_02.SKINS_Volibear_Skin29.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Taunt_02.SKINS_Volibear_Skin29.skl"
-                        mAnimationName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Taunt_02.SKINS_Volibear_Skin29.anm"
+                        mMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Taunt_02.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Taunt_02.skl"
+                        mAnimationName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Taunt_02.anm"
                     }
                 }
                 blendMode: u8 = 1
@@ -12130,7 +12139,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Fizz_Skin35_Wave_Foam_Stylized_01.SKINS_Volibear_Skin29.tex"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Fizz_Skin35_Wave_Foam_Stylized_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -12146,7 +12155,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, -180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_Taunt_TX_CM.Chroma_Volibear_Onsen.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_Taunt_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -12257,7 +12266,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.200000003
                     erosionSliceWidth: f32 = 1.79999995
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_alphaslice_mesh.SKINS_Volibear_Skin29.tex"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_alphaslice_mesh.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -12373,11 +12382,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_R_Cas_Dust_01.SKINS_Volibear_Skin29.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_R_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/DefaultColorOverlifetime.SKINS_Volibear_Skin29.tex"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/DefaultColorOverlifetime.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.5 }
                     }
@@ -12557,7 +12566,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.25
                     erosionFeatherOut: f32 = 0.25
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Base_SmokeErode.SKINS_Volibear_Skin29.tex"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Base_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -12606,7 +12615,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_R_Cas_Dust_01.SKINS_Volibear_Skin29.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_R_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -12703,7 +12712,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.25
                     erosionFeatherOut: f32 = 0.25
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Base_SmokeErode.SKINS_Volibear_Skin29.tex"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Base_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -12752,11 +12761,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_R_Cas_Dust_01.SKINS_Volibear_Skin29.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_R_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/PetShark_Base_Emote_3026_Items_Einstein_01_mult.SKINS_Volibear_Skin29.tex"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/PetShark_Base_Emote_3026_Items_Einstein_01_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0.200000003 }
                     }
@@ -12924,7 +12933,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.400000006
                     erosionFeatherOut: f32 = 0.400000006
                     erosionSliceWidth: f32 = 1.70000005
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Base_SmokeErode.SKINS_Volibear_Skin29.tex"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Base_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -12961,7 +12970,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 250, 100, 100 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/ball32_02.SKINS_Volibear_Skin29.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -13183,7 +13192,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Jayce_Skin34_EnergyMote.SKINS_Volibear_Skin29.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Jayce_Skin34_EnergyMote.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.800000012
@@ -13244,7 +13253,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_Ice_TX_CM.Chroma_Volibear_Onsen.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1
@@ -13312,7 +13321,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_Ice_TX_CM.Chroma_Volibear_Onsen.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_Ice_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -13348,7 +13357,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_Ice_TX_CM.Chroma_Volibear_Onsen.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_Ice_TX_CM.tex"
                 materialOverrideDefinitions: list[embed] = {
                     VfxMaterialOverrideDefinitionData {}
                 }
@@ -13535,9 +13544,9 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/common_color-hold.SKINS_Volibear_Skin29.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/common_color-hold.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_colorGrad.SKINS_Volibear_Skin29.tex"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_colorGrad.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 2, 0, 0 }
                     }
@@ -13642,7 +13651,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Jayce_Skin34_1Q_explosion_smoke_mult_01.SKINS_Volibear_Skin29.tex"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Jayce_Skin34_1Q_explosion_smoke_mult_01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -13676,9 +13685,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_Ice_TX_CM.Chroma_Volibear_Onsen.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_Ice_TX_CM.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_colorGrad.SKINS_Volibear_Skin29.tex"
+                    paletteTexture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_colorGrad.tex"
                     paletteCount: i32 = 16
                 }
             }
@@ -13774,7 +13783,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/ball32_02.SKINS_Volibear_Skin29.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -13869,7 +13878,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/ball32_02.SKINS_Volibear_Skin29.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/ball32_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14008,7 +14017,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.25
                     erosionFeatherOut: f32 = 0.25
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Base_SmokeErode.SKINS_Volibear_Skin29.tex"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Base_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -14144,7 +14153,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_R_Cas_Dust_01.SKINS_Volibear_Skin29.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_R_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -14224,7 +14233,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.0500000007
                     erosionFeatherOut: f32 = 0.0500000007
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Sett_Skin67_Fire_Erode.SKINS_Volibear_Skin29.tex"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Sett_Skin67_Fire_Erode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -14239,7 +14248,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_TX_CM.Chroma_Volibear_Onsen.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14308,7 +14317,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Sett_Skin67_Fire_Erode.SKINS_Volibear_Skin29.tex"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Sett_Skin67_Fire_Erode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 1, 0, 0 }
                     }
@@ -14322,7 +14331,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_TX_CM.Chroma_Volibear_Onsen.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1
@@ -14380,7 +14389,7 @@ entries: map[hash,embed] = {
                 isUniformScale: flag = true
                 hasPostRotateOrientation: flag = true
                 isRotationEnabled: flag = true
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Fizz_Skin35_Wave_Foam_Stylized_01.SKINS_Volibear_Skin29.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Fizz_Skin35_Wave_Foam_Stylized_01.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, 0.100000001 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -14527,7 +14536,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Jayce_Skin34_BA_flare_Fire.SKINS_Volibear_Skin29.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Jayce_Skin34_BA_flare_Fire.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14619,7 +14628,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Dissolve_Cloudy_01.SKINS_Volibear_Skin29.tex"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Dissolve_Cloudy_01.tex"
                 }
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
                     reflectionFresnelColor: vec4 = { 1, 1, 1, 0 }
@@ -14633,7 +14642,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_TX_CM.Chroma_Volibear_Onsen.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14731,7 +14740,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Dissolve_Cloudy_01.SKINS_Volibear_Skin29.tex"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_Dissolve_Cloudy_01.tex"
                 }
                 particleIsLocalOrientation: flag = true
                 hasPostRotateOrientation: flag = true
@@ -14739,7 +14748,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_TX_CM.Chroma_Volibear_Onsen.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_TX_CM.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -14758,7 +14767,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Sett_Skin38_R_flower_torus3.SKINS_Volibear_Skin29.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Sett_Skin38_R_flower_torus3.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -14802,7 +14811,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Sett_Skin38_Einstein_04_mult.SKINS_Volibear_Skin29.tex"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Sett_Skin38_Einstein_04_mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0.0200045779, 0 }
                     }
@@ -14829,7 +14838,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Sett_Skin38_R_Flower02.SKINS_Volibear_Skin29.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Sett_Skin38_R_Flower02.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.0500000007, 0 }
                 }
@@ -14894,7 +14903,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Sett_Skin38_VGU_Awaken_Line_Hori.SKINS_Volibear_Skin29.tex"
+                    textureMult: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Sett_Skin38_VGU_Awaken_Line_Hori.tex"
                     birthUVOffsetMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.200000003 }
                     }
@@ -15119,7 +15128,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.25
                     erosionFeatherOut: f32 = 0.25
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Base_SmokeErode.SKINS_Volibear_Skin29.tex"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Base_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -15194,7 +15203,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_R_Cas_Dust_01.SKINS_Volibear_Skin29.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_R_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -15417,7 +15426,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.25
                     erosionFeatherOut: f32 = 0.25
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Base_SmokeErode.SKINS_Volibear_Skin29.tex"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Base_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -15492,7 +15501,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_R_Cas_Dust_01.SKINS_Volibear_Skin29.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_R_Cas_Dust_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -15687,7 +15696,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/KogMaw_Skin46_P_LinearSplashes_02_Dissolve.SKINS_Volibear_Skin29.tex"
+                    erosionMapName: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/KogMaw_Skin46_P_LinearSplashes_02_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -15772,7 +15781,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Ashe_Skin43_Q_LinearSplashes_02_GS.SKINS_Volibear_Skin29.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Ashe_Skin43_Q_LinearSplashes_02_GS.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -16145,7 +16154,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_petals.SKINS_Volibear_Skin29.tex"
+                texture: string = "ASSETS/Characters/Volibear/Skins/Skin29/Particles/Volibear_Skin29_petals.tex"
                 texDiv: vec2 = { 2, 2 }
             }
         }
@@ -16158,32 +16167,32 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_TX_CM.Chroma_Volibear_Onsen.tex"
+                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "NoiseDisturb"
-                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_TurbulDeform_TX_CM.SKINS_Volibear_Skin29.tex"
+                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_TurbulDeform_TX_CM.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Mask"
-                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_Mask_TX_CM.SKINS_Volibear_Skin29.tex"
+                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_Mask_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "WaterShape"
-                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_WaterShapeMask_TX_CM.SKINS_Volibear_Skin29.tex"
+                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_WaterShapeMask_TX_CM.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "FlowmapTex"
-                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_FlowMap_TX_CM.SKINS_Volibear_Skin29.tex"
+                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_FlowMap_TX_CM.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "AdditiveScrollTex"
-                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_AdditiveScrollCombo_TX_CM.SKINS_Volibear_Skin29.tex"
+                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_AdditiveScrollCombo_TX_CM.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "DeformNoise"
@@ -16191,7 +16200,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "HighLightShape"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Transition_State2"
@@ -16603,32 +16612,32 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_TX_CM.Chroma_Volibear_Onsen.tex"
+                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "NoiseDisturb"
-                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_TurbulDeform_TX_CM.SKINS_Volibear_Skin29.tex"
+                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_TurbulDeform_TX_CM.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Mask"
-                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_Mask_TX_CM.SKINS_Volibear_Skin29.tex"
+                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_Mask_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "WaterShape"
-                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_WaterShapeMask_TX_CM.SKINS_Volibear_Skin29.tex"
+                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_WaterShapeMask_TX_CM.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "FlowmapTex"
-                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_FlowMap_TX_CM.SKINS_Volibear_Skin29.tex"
+                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_FlowMap_TX_CM.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "AdditiveScrollTex"
-                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_AdditiveScrollCombo_TX_CM.SKINS_Volibear_Skin29.tex"
+                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_AdditiveScrollCombo_TX_CM.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "DeformNoise"
@@ -16636,7 +16645,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "HighLightShape"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Transition_State2"
@@ -17047,32 +17056,32 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_TX_CM.Chroma_Volibear_Onsen.tex"
+                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin31/Volibear_Skin31_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "NoiseDisturb"
-                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_TurbulDeform_TX_CM.SKINS_Volibear_Skin29.tex"
+                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_TurbulDeform_TX_CM.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Mask"
-                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_Mask_TX_CM.SKINS_Volibear_Skin29.tex"
+                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_Mask_TX_CM.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "WaterShape"
-                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_WaterShapeMask_TX_CM.SKINS_Volibear_Skin29.tex"
+                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_WaterShapeMask_TX_CM.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "FlowmapTex"
-                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_FlowMap_TX_CM.SKINS_Volibear_Skin29.tex"
+                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_FlowMap_TX_CM.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "AdditiveScrollTex"
-                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_AdditiveScrollCombo_TX_CM.SKINS_Volibear_Skin29.tex"
+                texturePath: string = "ASSETS/Characters/Volibear/Skins/Skin29/Volibear_Skin29_AdditiveScrollCombo_TX_CM.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "DeformNoise"
@@ -17080,7 +17089,7 @@ entries: map[hash,embed] = {
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "HighLightShape"
-                texturePath: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                texturePath: string = "ASSETS/Shared/Materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Transition_State2"

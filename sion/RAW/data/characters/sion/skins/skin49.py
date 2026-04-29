@@ -327,7 +327,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0.600000024, 0.600000024, 0.600000024 }
                 }
                 emissionMeshScale: f32 = 2
-                emissionMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                emissionMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                 SpawnShape: pointer = VfxShapeLegacy {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 1, 1, 1 }
@@ -442,7 +442,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponshards.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponshards.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -502,13 +502,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit1_ground.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit1_ground.tex"
                 uvMode: u8 = 2
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.400000006 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit2_groundsmoke.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit2_groundsmoke.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.0199999996, 0.200000003 }
                     }
@@ -562,7 +562,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 300, 340, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Ground.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Ground.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.TFT_Set15.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
@@ -682,7 +682,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0.600000024, 0.600000024, 0.600000024 }
                 }
                 emissionMeshScale: f32 = 2
-                emissionMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                emissionMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                 SpawnShape: pointer = VfxShapeLegacy {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 1, 1, 1 }
@@ -797,7 +797,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_Flare-Sun.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_Flare-Sun.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -851,7 +851,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_blurNoise.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_blurNoise.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -876,13 +876,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit1_ground.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit1_ground.tex"
                 uvMode: u8 = 2
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.400000006 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1 }
                     }
@@ -969,7 +969,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -1079,11 +1079,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.tex"
                     uvScaleMult: embed = ValueVector2 {
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
                             probabilityTables: list[pointer] = {
@@ -1199,7 +1199,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_mesh_wake.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_mesh_wake.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -1225,7 +1225,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.00999999978, 0.0199999996, 0.00999999978 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_wake_texture.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_wake_texture.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -1, 1 }
@@ -1282,7 +1282,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.5, 0.5, 1 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_MinHit_groundslide.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_MinHit_groundslide.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -1440,7 +1440,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_speedlines.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_speedlines.tex"
                 uvMode: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -1524,7 +1524,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_shadow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_shadow.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0 }
@@ -1573,7 +1573,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 200, 100, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Swipe_Mult.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Swipe_Mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 2 }
                 }
@@ -1584,7 +1584,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 2, 0.5 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_MisGlow.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_MisGlow.tex"
                 }
             }
         }
@@ -1649,7 +1649,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 60, 220, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Front_Cone_v03.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Front_Cone_v03.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -1671,7 +1671,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Wave_Mesh.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Wave_Mesh.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -1709,7 +1709,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Shield_Erode_Out.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Shield_Erode_Out.tex"
                 }
                 disableBackfaceCull: bool = true
                 particleIsLocalOrientation: flag = true
@@ -1720,7 +1720,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.39999998, 0, 2.29999995 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Wave_Texture_BlackHole.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Wave_Texture_BlackHole.tex"
                 texAddressModeBase: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -1741,7 +1741,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Q_Swipe.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Q_Swipe.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -1774,7 +1774,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { -90, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_cas_Soft_Glow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_cas_Soft_Glow.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -4, 0 }
                 }
@@ -1803,7 +1803,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Wave_Mesh.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Wave_Mesh.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -1836,10 +1836,10 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.5, 0, 2.29999995 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Wave_Texture_BlackHole.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Wave_Texture_BlackHole.tex"
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Einstein_03_mult.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Einstein_03_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -1866,7 +1866,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Q_Swipe.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Q_Swipe.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -1903,7 +1903,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.899999976, 0.850000024 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_White_Tip_rage.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_White_Tip_rage.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -4, 0 }
                 }
@@ -1930,7 +1930,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Q_Swipe.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Q_Swipe.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -1966,7 +1966,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.800000012, 0.850000024 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_Shadow_Core.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_Shadow_Core.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, -0.0399999991 }
                 }
@@ -2002,7 +2002,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Q_Swipe.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Q_Swipe.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -2036,7 +2036,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.800000012, 0.850000024 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_cas_Shadow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_cas_Shadow.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0 }
                 }
@@ -2072,7 +2072,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Q_Swipe.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Q_Swipe.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -2110,7 +2110,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_sonicwaves.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_sonicwaves.tex"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -2134,7 +2134,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_smoke_trail_mult.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_smoke_trail_mult.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0 }
                 }
@@ -2156,7 +2156,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_mistTrail.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_mistTrail.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -2221,7 +2221,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Q_Swipe.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Q_Swipe.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -2258,7 +2258,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.899999976, 0.850000024 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_White_Tip_rage.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_White_Tip_rage.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -4, 0 }
                 }
@@ -2290,7 +2290,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Wave_Mesh.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Wave_Mesh.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -2322,10 +2322,10 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.39999998, 0, 2.5 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.tex"
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Einstein_03_mult.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Einstein_03_mult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -2546,7 +2546,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -2671,10 +2671,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.tex"
                 numFrames: u16 = 4
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.200000003 }
                     }
@@ -2731,7 +2731,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 230, 230, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.tex"
                 uvMode: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -2785,7 +2785,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 180, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.tex"
                 uvMode: u8 = 2
             }
         }
@@ -2930,7 +2930,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Shield_glow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Shield_glow.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 4, 1 }
             }
@@ -3016,7 +3016,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 emissionMeshScale: f32 = 1.79999995
-                emissionMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                emissionMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                 SpawnShape: pointer = VfxShapeLegacy {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 1, 1, 1 }
@@ -3158,7 +3158,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponshards.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponshards.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -3212,7 +3212,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 450, 450, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Ground.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Ground.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.TFT_Set15.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
@@ -3270,7 +3270,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 450, 450, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Ground.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Ground.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -3293,7 +3293,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -3329,7 +3329,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Thresh_Skin05_Q_Einstein_01_mult.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Thresh_Skin05_Q_Einstein_01_mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0.247058824, 0.247058824, 0.247058824, 0.56078434 }
                     }
@@ -3340,7 +3340,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground_Ground.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground_Ground.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
             }
@@ -3365,7 +3365,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -3401,7 +3401,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Thresh_Skin05_Q_Einstein_01_mult.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Thresh_Skin05_Q_Einstein_01_mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0.247058824, 0.247058824, 0.247058824, 0.56078434 }
                     }
@@ -3415,7 +3415,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground_Ground.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground_Ground.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
             }
@@ -3439,7 +3439,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -3457,7 +3457,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2.0999999, 0.699999988, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit2_weapontrail1.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit2_weapontrail1.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                 }
@@ -3485,7 +3485,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -3504,7 +3504,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2.0999999, 0.699999988, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit2_weapontrail2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit2_weapontrail2.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                 }
@@ -3532,7 +3532,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -3551,7 +3551,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2.0999999, 0.699999988, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit2_weapontrail2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit2_weapontrail2.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                 }
@@ -3584,7 +3584,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Cas_circle_mesh.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Cas_circle_mesh.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -3608,7 +3608,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1.20000005, 1.20000005 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Cas_ready_shieldon.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Cas_ready_shieldon.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.5 }
                 }
@@ -3634,7 +3634,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Cas_circle_mesh.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Cas_circle_mesh.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -3659,7 +3659,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1.20000005, 1.20000005 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Cas_ready_shieldon.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Cas_ready_shieldon.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.5 }
                 }
@@ -3692,7 +3692,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "shadow"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -3720,7 +3720,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 2 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit_shadow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit_shadow.tex"
                 uvMode: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -3793,7 +3793,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0.600000024, 0.600000024, 0.600000024 }
                 }
                 emissionMeshScale: f32 = 2
-                emissionMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                emissionMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                 SpawnShape: pointer = VfxShapeLegacy {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 1, 1, 1 }
@@ -3940,7 +3940,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit3_spikes.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit3_spikes.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -3978,7 +3978,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, 0, 300 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_alpha_20.SKINS_Sion_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_alpha_20.tex"
                 blendMode: u8 = 1
                 pass: i16 = 5
                 meshRenderFlags: u8 = 0
@@ -3987,7 +3987,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.349999994
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_distortion_soundwaves_01.SKINS_Sion_Skin49.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_distortion_soundwaves_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 particleIsLocalOrientation: flag = true
@@ -4015,7 +4015,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_Aura_Self_02.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_Aura_Self_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -4193,7 +4193,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -4276,7 +4276,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Tornado_Indicator_Mult.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Tornado_Indicator_Mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -4369,11 +4369,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_AnimeShapes_Blur.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_AnimeShapes_Blur.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Screen_Flames_Soft.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Screen_Flames_Soft.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -4399,7 +4399,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/UpSpike.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/UpSpike.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -4447,7 +4447,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BlastRing.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BlastRing.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.5 }
                 }
@@ -4455,7 +4455,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0.5, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Mult_Windblast_2.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Mult_Windblast_2.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.649999976, 1 }
                     }
@@ -4725,7 +4725,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponshards.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponshards.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -4749,7 +4749,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -4766,7 +4766,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2.0999999, 0.699999988, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit2_weapontrail1.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit2_weapontrail1.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                 }
@@ -5036,7 +5036,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Taliyah_Skin49_Q_rock_debris.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Taliyah_Skin49_Q_rock_debris.tex"
                 numFrames: u16 = 3
                 texDiv: vec2 = { 3, 1 }
             }
@@ -5277,7 +5277,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Taliyah_Skin49_Q_rock_debris.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Taliyah_Skin49_Q_rock_debris.tex"
                 numFrames: u16 = 3
                 texDiv: vec2 = { 3, 1 }
             }
@@ -5517,7 +5517,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Base_Q_Embers.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Base_Q_Embers.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -5540,7 +5540,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -5575,7 +5575,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Thresh_Skin05_Q_Einstein_01_mult.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Thresh_Skin05_Q_Einstein_01_mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0.247058824, 0.247058824, 0.247058824, 0.56078434 }
                     }
@@ -5586,7 +5586,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground_Ground.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground_Ground.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
             }
@@ -5611,7 +5611,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -5646,7 +5646,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Thresh_Skin05_Q_Einstein_01_mult.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Thresh_Skin05_Q_Einstein_01_mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0.247058824, 0.247058824, 0.247058824, 0.56078434 }
                     }
@@ -5660,7 +5660,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground_Ground.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground_Ground.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
             }
@@ -5684,7 +5684,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -5702,7 +5702,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2.0999999, 0.699999988, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit2_weapontrail2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit2_weapontrail2.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                 }
@@ -5946,7 +5946,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/6676_Smoke_0122.StrawberryRebuild.tex"
+                texture: string = "ASSETS/Shared/Particles/6676_Smoke_0122.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -6029,7 +6029,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Tornado_Indicator_Mult.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Tornado_Indicator_Mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -6122,11 +6122,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_AnimeShapes_Blur.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_AnimeShapes_Blur.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Screen_Flames_Soft.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Screen_Flames_Soft.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -6149,7 +6149,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_hit_weapontrail.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -6167,7 +6167,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2.0999999, 0.699999988, 1.5 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit2_weapontrail2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit2_weapontrail2.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                 }
@@ -6314,7 +6314,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Spark_Star.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Spark_Star.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -6449,7 +6449,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -6560,7 +6560,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -6687,7 +6687,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_Particles_2_27.SKINS_Sion_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_Particles_2_27.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.34117648, 0.0745098069, 0.180392161, 1 }
@@ -6722,7 +6722,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isDirectionOriented: flag = true
@@ -6809,7 +6809,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -6908,7 +6908,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 10, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -7012,7 +7012,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -7061,11 +7061,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.699999988, 0.699999988 }
                     }
@@ -7195,7 +7195,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -7244,7 +7244,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -7308,7 +7308,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.tex"
             }
         }
         particleName: string = "Sion_Skin49_BA_Tower1"
@@ -7430,7 +7430,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                emissionMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_weapon_blade_mesh.SKINS_Sion_Skin49.scb"
+                emissionMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_weapon_blade_mesh.scb"
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
                 blendMode: u8 = 1
                 Color: embed = ValueColor {
@@ -7558,7 +7558,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponshards.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponshards.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -7584,7 +7584,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Blade1.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Blade1.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -7619,10 +7619,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponglow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponglow.tex"
                 uvMode: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas_Mult.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas_Mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0 }
                     }
@@ -7650,7 +7650,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Blade2.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Blade2.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -7685,10 +7685,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponglow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponglow.tex"
                 uvMode: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas_Mult.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas_Mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0 }
                     }
@@ -7716,7 +7716,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Blade2.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Blade2.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -7754,10 +7754,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponglow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponglow.tex"
                 uvMode: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.tex"
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 90
                     }
@@ -7865,7 +7865,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -7970,7 +7970,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -8085,7 +8085,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0 }
@@ -8249,7 +8249,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/6676_Smoke_0122.StrawberryRebuild.tex"
+                texture: string = "ASSETS/Shared/Particles/6676_Smoke_0122.tex"
                 texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
@@ -8413,7 +8413,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_dustray_take.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_dustray_take.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -8576,7 +8576,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_dustray_take.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_dustray_take.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -8604,7 +8604,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Mis_mesh.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Mis_mesh.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -8681,7 +8681,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_tex.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_tex.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -8717,7 +8717,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_mesh_wake.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_mesh_wake.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -8748,7 +8748,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.800000012, 0.800000012, 0.800000012 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_wake_texture.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_wake_texture.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -1, 1 }
@@ -8925,7 +8925,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_speedlines.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_speedlines.tex"
                 uvMode: u8 = 2
             }
             VfxEmitterDefinitionData {
@@ -8964,7 +8964,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 0, -100, -50 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                falloffTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.SKINS_Sion_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.420004576, 0.130006865, 0.11999695, 0.480003059 }
@@ -9010,7 +9010,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.tex"
                 frameRate: f32 = 10
             }
             VfxEmitterDefinitionData {
@@ -9150,7 +9150,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -9224,7 +9224,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -9393,7 +9393,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -9589,7 +9589,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Glow5.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Glow5.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -9647,7 +9647,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 40, 65, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -9670,7 +9670,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_mis_energyflame.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_mis_energyflame.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -9715,7 +9715,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_blurNoise.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_blurNoise.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -3 }
                 }
@@ -9726,7 +9726,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 2, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_blurNoise.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_blurNoise.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1.5, 1 }
                     }
@@ -9765,7 +9765,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_mis_energyflame.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_mis_energyflame.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -9796,7 +9796,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Swipe_Mult.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Swipe_Mult.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -3 }
                 }
@@ -9804,7 +9804,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 3, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Mask_01.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Mask_01.tex"
                     birthUVOffsetMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.0299999993 }
                     }
@@ -9831,7 +9831,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/SRX_Infernal_Brazier_LavaFlow.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/SRX_Infernal_Brazier_LavaFlow.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -9873,7 +9873,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_blurNoise.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_blurNoise.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -3 }
                 }
@@ -9914,7 +9914,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 2, 2 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Morg_Skin49_E_MeshMult.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Morg_Skin49_E_MeshMult.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 2 }
@@ -9945,7 +9945,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/SRX_Infernal_Brazier_LavaFlow.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/SRX_Infernal_Brazier_LavaFlow.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -9984,7 +9984,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/SRX_Infernal_Brazier_LavaFlow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/SRX_Infernal_Brazier_LavaFlow.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.300000012 }
                 }
@@ -10022,7 +10022,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Morg_Skin49_E_MeshMult.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Morg_Skin49_E_MeshMult.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
@@ -10053,7 +10053,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/SRX_Infernal_Brazier_LavaFlow.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/SRX_Infernal_Brazier_LavaFlow.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -10113,7 +10113,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_blurNoise.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_blurNoise.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -1 }
                 }
@@ -10151,7 +10151,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/HotSpring_Spring_GradientV.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/HotSpring_Spring_GradientV.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -10175,7 +10175,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/SRX_Infernal_Brazier_LavaFlow.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/SRX_Infernal_Brazier_LavaFlow.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -10235,7 +10235,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_blurNoise.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_blurNoise.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -1 }
                 }
@@ -10273,7 +10273,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/HotSpring_Spring_GradientV.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/HotSpring_Spring_GradientV.tex"
                     birthUVOffsetMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.200000003 }
                     }
@@ -10315,7 +10315,7 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { -3, -100, -35 }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                falloffTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.SKINS_Sion_Skin49.tex"
+                falloffTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.627451003, 0.105882354, 0.0862745121, 0.349019617 }
@@ -10360,7 +10360,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.tex"
                 frameRate: f32 = 10
             }
             VfxEmitterDefinitionData {
@@ -10517,7 +10517,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -10729,7 +10729,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Ash.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Ash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 LegacySimple: pointer = VfxEmitterLegacySimple {
@@ -10932,7 +10932,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -11006,7 +11006,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -11175,7 +11175,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -11359,7 +11359,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_hit_radial.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_hit_radial.tex"
                 numFrames: u16 = 2
             }
             VfxEmitterDefinitionData {
@@ -11461,7 +11461,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_shadow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_shadow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -11492,7 +11492,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_buf_mesh.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_buf_mesh.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -11541,7 +11541,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.00999999978, 0.0149999997, 0.00999999978 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_hit_radial_2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_hit_radial_2.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -2 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -11670,7 +11670,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_Aura_Self_02.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_Aura_Self_02.tex"
             }
         }
         particleName: string = "Sion_Skin49_E_Buf_champ"
@@ -11694,7 +11694,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_cas_circle_mesh_start.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_cas_circle_mesh_start.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -11720,7 +11720,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.10000002, 1.10000002, 1.10000002 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Cas_ready_shieldpop.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Cas_ready_shieldpop.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.144999996 }
                 }
@@ -11779,7 +11779,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 320, 320, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Shield_outerring_Skin49.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Shield_outerring_Skin49.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -11797,7 +11797,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/AurelionSol_Base_R_Cata_GradientMask.StrawberryRebuild.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/AurelionSol_Base_R_Cata_GradientMask.tex"
                     birthUVOffsetMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.100000001 }
                     }
@@ -11819,7 +11819,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Cas_circle_mesh.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Cas_circle_mesh.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -11859,7 +11859,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.10000002, 1.10000002, 1.10000002 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Cas_shield_whipe.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Cas_shield_whipe.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.5 }
                 }
@@ -11924,7 +11924,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 350, 350, 0 }
                 }
-                texture: string = "ASSETS/Shared/Particles/AurelionSol_Base_R_Storm_R_Dome.StrawberryRebuild.tex"
+                texture: string = "ASSETS/Shared/Particles/AurelionSol_Base_R_Storm_R_Dome.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -11942,7 +11942,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.300000012 }
                     }
@@ -12075,7 +12075,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 320, 320, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Shield_highblue_Skin49.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Shield_highblue_Skin49.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -12150,7 +12150,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Shared/Particles/Akshan_Skin10_shield_01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Chromatic_Abberation_Noise.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Chromatic_Abberation_Noise.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.200000003 }
                     }
@@ -12380,7 +12380,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Screen_Flames_Soft.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Screen_Flames_Soft.tex"
                 }
                 depthBiasFactors: vec2 = { 0, -50 }
                 disableBackfaceCull: bool = true
@@ -12444,7 +12444,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/hit_bits.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/hit_bits.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -12663,7 +12663,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -12729,7 +12729,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Rocks.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Rocks.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -12945,7 +12945,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -13011,7 +13011,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Spark_tar.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Spark_tar.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 1 }
             }
@@ -13265,7 +13265,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Spark_tar.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Spark_tar.tex"
                 texDiv: vec2 = { 2, 1 }
             }
             VfxEmitterDefinitionData {
@@ -13400,7 +13400,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.200000003
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -13481,7 +13481,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -13506,7 +13506,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/W_Shield.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/W_Shield.scb"
                     }
                     AlignPitchToCamera: bool = true
                     AlignYawToCamera: bool = true
@@ -13644,7 +13644,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Base_BlastRing.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Base_BlastRing.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.150000006, 0.800000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -13920,7 +13920,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -13987,7 +13987,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -14032,12 +14032,12 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.15999997, 1.15999997, 1.15999997 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.150000006, 0.25 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/AurelionSol_Base_R_Storm_R_Dome.StrawberryRebuild.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/AurelionSol_Base_R_Storm_R_Dome.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -14116,7 +14116,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/AurelionSol_Base_R_Cata_GradientMask.StrawberryRebuild.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/AurelionSol_Base_R_Cata_GradientMask.tex"
                     birthUVOffsetMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.100000001 }
                     }
@@ -14271,7 +14271,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BlastShapes.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BlastShapes.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -14320,9 +14320,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 180, 150, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_weaponshadow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_weaponshadow.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit2_groundsmoke.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit2_groundsmoke.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -14449,7 +14449,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -14595,7 +14595,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Spark_tar.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Spark_tar.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 1 }
             }
@@ -14620,7 +14620,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Death_Ax.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Death_Ax.scb"
                     }
                 }
                 blendMode: u8 = 3
@@ -14657,7 +14657,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Swirl_InOut_shape1.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Swirl_InOut_shape1.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -14666,7 +14666,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 177, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Sion_Skin49_Weapon_TX_CM_2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Sion_Skin49_Weapon_TX_CM_2.tex"
             }
         }
         particleName: string = "Sion_Skin49_Passive_Ax"
@@ -14864,7 +14864,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -14978,7 +14978,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Haga_sphere_geo.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Haga_sphere_geo.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -15069,7 +15069,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_hagasphere.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_hagasphere.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -0.600000024 }
                 }
@@ -15204,7 +15204,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -15330,7 +15330,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Tar_Flash.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Tar_Flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -15363,7 +15363,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_color-hold.SKINS_Sion_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_color-hold.tex"
                 blendMode: u8 = 1
                 pass: i16 = 5
                 meshRenderFlags: u8 = 0
@@ -15372,7 +15372,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.349999994
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_heat_distort.SKINS_Sion_Skin49.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_heat_distort.tex"
                 }
                 miscRenderFlags: u8 = 1
                 particleIsLocalOrientation: flag = true
@@ -15400,7 +15400,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_color-hold.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -15565,7 +15565,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Dots_01.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Dots_01.tex"
                 numFrames: u16 = 2
             }
             VfxEmitterDefinitionData {
@@ -15807,7 +15807,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Rocks.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Rocks.tex"
                 numFrames: u16 = 3
                 texDiv: vec2 = { 3, 1 }
             }
@@ -16045,7 +16045,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -16070,7 +16070,7 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Parry_Release_SpinDisc.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Parry_Release_SpinDisc.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -16118,7 +16118,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_ErosionPack01.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_ErosionPack01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -16170,7 +16170,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Swirl_InOut_shape1.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Swirl_InOut_shape1.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, -0.100000001 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -16221,7 +16221,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Morg_Skin49_E_MeshMult.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Morg_Skin49_E_MeshMult.tex"
                     texAddressModeMult: u8 = 2
                 }
             }
@@ -16402,7 +16402,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -16483,11 +16483,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.699999988, 0.699999988 }
                     }
@@ -16736,7 +16736,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                 }
                 0xcb13aff1: f32 = -80
                 isRandomStartFrame: flag = true
@@ -16813,7 +16813,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -16878,7 +16878,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Spark_Star.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Spark_Star.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -17014,7 +17014,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -17038,7 +17038,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Explo_outerring.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Explo_outerring.scb"
                     }
                 }
                 Color: embed = ValueColor {
@@ -17095,7 +17095,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Hit_circle_swipe.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Hit_circle_swipe.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -1 }
@@ -17190,7 +17190,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Hit_groundshadow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Hit_groundshadow.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -17359,7 +17359,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Spark_tar.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Spark_tar.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 1 }
             }
@@ -17581,7 +17581,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -17646,7 +17646,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/6676_Smoke_0122.StrawberryRebuild.tex"
+                texture: string = "ASSETS/Shared/Particles/6676_Smoke_0122.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -17707,7 +17707,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_hit_radial.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_hit_radial.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -17764,7 +17764,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Spark_Star.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Spark_Star.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -17826,7 +17826,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Azir_Skin04_SpeedLines_Mult4.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Azir_Skin04_SpeedLines_Mult4.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.00499999989
@@ -17858,7 +17858,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_01.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -17896,7 +17896,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/RingMult.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/RingMult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -17919,7 +17919,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_15.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_15.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.400000006 }
                 }
@@ -17942,7 +17942,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 4, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Morg_Skin49_E_MeshMult.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Morg_Skin49_E_MeshMult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -17990,7 +17990,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sylas_Skin24_R_Praxis.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sylas_Skin24_R_Praxis.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -18062,7 +18062,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sylas_Skin24_R_Praxis.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sylas_Skin24_R_Praxis.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 2 }
                 }
@@ -18091,7 +18091,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sylas_Skin24_R_Praxis.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sylas_Skin24_R_Praxis.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -18164,7 +18164,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sylas_Skin24_R_Praxis.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sylas_Skin24_R_Praxis.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 2 }
                 }
@@ -18387,7 +18387,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -18451,7 +18451,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -18703,7 +18703,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Spark_tar.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Spark_tar.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 1 }
             }
@@ -18997,7 +18997,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Ash.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Ash.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -19112,7 +19112,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aura_Self.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -19224,7 +19224,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aura_Self.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -19244,7 +19244,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin40_W_Disc_2.SKINS_Sion_CARE_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin40_W_Disc_2.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -19314,7 +19314,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin40_Flames2.SKINS_Sion_CARE_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin40_Flames2.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 1 }
                 }
@@ -19336,7 +19336,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_hit_circle.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_hit_circle.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -19379,7 +19379,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Hit_explosion_2.SKINS_Sion_CARE_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Hit_explosion_2.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.200000003 }
@@ -19560,7 +19560,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -19649,7 +19649,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin30_FireShapes_00.SKINS_Sion_CARE_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin30_FireShapes_00.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -19671,12 +19671,12 @@ entries: map[hash,embed] = {
                 materialOverrideDefinitions: list[embed] = {
                     VfxMaterialOverrideDefinitionData {
                         priority: i32 = 1
-                        baseTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Sion_Skin49_TX_CM.SKINS_Sion_CARE_Skin49.tex"
-                        transitionTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_TX_CM.SKINS_Sion_Skin49.tex"
+                        baseTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Sion_Skin49_TX_CM.tex"
+                        transitionTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_TX_CM.tex"
                     }
                     VfxMaterialOverrideDefinitionData {
                         priority: i32 = 1
-                        baseTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_TX_CM.SKINS_Sion_Skin49.tex"
+                        baseTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_TX_CM.tex"
                     }
                 }
             }
@@ -19838,7 +19838,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -19972,7 +19972,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -20080,7 +20080,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -20204,7 +20204,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_Particles_2_27.SKINS_Sion_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_Particles_2_27.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.34117648, 0.0745098069, 0.180392161, 1 }
@@ -20239,7 +20239,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isDirectionOriented: flag = true
@@ -20326,7 +20326,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -20437,7 +20437,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 10, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -20538,7 +20538,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -20587,11 +20587,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.699999988, 0.699999988 }
                     }
@@ -20718,7 +20718,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -20767,7 +20767,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -20828,7 +20828,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.tex"
             }
         }
         particleName: string = "Sion_Skin49_Q1_tar"
@@ -20853,10 +20853,10 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/arrow01.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/arrow01.scb"
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Cas_Imagetrail_alpha.SKINS_Sion_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Cas_Imagetrail_alpha.tex"
                 blendMode: u8 = 4
                 meshRenderFlags: u8 = 0
                 disableBackfaceCull: bool = true
@@ -20865,7 +20865,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 180, 90 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Body_TX.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Body_TX.tex"
             }
         }
         particleName: string = "Sion_Skin49_E_Cas"
@@ -21003,7 +21003,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -21111,7 +21111,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -21235,7 +21235,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_Particles_2_27.SKINS_Sion_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_Particles_2_27.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.34117648, 0.0745098069, 0.180392161, 1 }
@@ -21270,7 +21270,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isDirectionOriented: flag = true
@@ -21357,7 +21357,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -21468,7 +21468,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 10, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -21569,7 +21569,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -21618,11 +21618,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.699999988, 0.699999988 }
                     }
@@ -21749,7 +21749,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -21798,7 +21798,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -21859,7 +21859,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.tex"
             }
         }
         particleName: string = "Sion_Skin49_Passive_Tar"
@@ -21962,7 +21962,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.tex"
                 }
                 isUniformScale: flag = true
                 birthRotation0: embed = ValueVector3 {
@@ -22214,7 +22214,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/6676_Smoke_0122.StrawberryRebuild.tex"
+                texture: string = "ASSETS/Shared/Particles/6676_Smoke_0122.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -22311,7 +22311,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -22394,7 +22394,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Shield_glow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Shield_glow.tex"
                 texDiv: vec2 = { 4, 1 }
             }
             VfxEmitterDefinitionData {
@@ -22538,9 +22538,9 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_hit_rock.SKINS_Sion_Skin49.skn"
-                        mMeshSkeletonName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_hit_rock.SKINS_Sion_Skin49.skl"
-                        mAnimationName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_hit_rock.SKINS_Sion_Skin49.anm"
+                        mMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_hit_rock.skn"
+                        mMeshSkeletonName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_hit_rock.skl"
+                        mAnimationName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_hit_rock.anm"
                     }
                 }
                 blendMode: u8 = 3
@@ -22642,7 +22642,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Hit_Rock_BlackHole.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Hit_Rock_BlackHole.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0299999993
@@ -22892,7 +22892,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Rocks.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Rocks.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -23151,7 +23151,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Glow5.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Glow5.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -23249,7 +23249,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.Leblanc_Rework.tex"
+                    erosionMapName: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.tex"
                 }
                 isUniformScale: flag = true
                 birthRotation0: embed = ValueVector3 {
@@ -23258,7 +23258,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 500, 400, 0 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Augment_CourageoftheColossus_02desat.StrawberryRebuild.tex"
+                texture: string = "ASSETS/Shared/Particles/Augment_CourageoftheColossus_02desat.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -23311,7 +23311,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Spark_Star.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Spark_Star.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -23423,7 +23423,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 12, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -23569,7 +23569,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Fire02.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Fire02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -23630,7 +23630,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BlastShapes.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BlastShapes.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
@@ -23849,7 +23849,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Rocks_2x2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Rocks_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -24040,7 +24040,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Rocks.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Rocks.tex"
                 numFrames: u16 = 3
                 texDiv: vec2 = { 3, 1 }
             }
@@ -24222,7 +24222,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Dots_01.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Dots_01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -24407,7 +24407,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Dots_01.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Dots_01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -24573,7 +24573,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -24817,7 +24817,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Rocks.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Rocks.tex"
                 numFrames: u16 = 3
                 texDiv: vec2 = { 3, 1 }
             }
@@ -24842,7 +24842,7 @@ entries: map[hash,embed] = {
                 importance: u8 = 3
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Parry_Release_SpinDisc.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Parry_Release_SpinDisc.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -24889,7 +24889,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_ErosionPack01.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_ErosionPack01.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -24942,7 +24942,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Swirl_InOut_shape1.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Swirl_InOut_shape1.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 1, -0.100000001 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -24993,7 +24993,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Morg_Skin49_E_MeshMult.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Morg_Skin49_E_MeshMult.tex"
                     texAddressModeMult: u8 = 2
                 }
             }
@@ -25054,7 +25054,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -25200,7 +25200,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_LinearSplashes_02_Dissolve.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_LinearSplashes_02_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -25263,7 +25263,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BlastShapes.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BlastShapes.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
@@ -25431,7 +25431,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_LinearSplashes_02_Dissolve.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_LinearSplashes_02_Dissolve.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -25493,7 +25493,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BlastShapes.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BlastShapes.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
@@ -25758,7 +25758,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Shared/Particles/6676_Smoke_0122.StrawberryRebuild.tex"
+                texture: string = "ASSETS/Shared/Particles/6676_Smoke_0122.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -25997,7 +25997,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -26073,7 +26073,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/ZedShadow_Skin49_Einstein_04_mult.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/ZedShadow_Skin49_Einstein_04_mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -26154,7 +26154,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/ZedShadow_Skin49_Primary_R_Explosion_smoke.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/ZedShadow_Skin49_Primary_R_Explosion_smoke.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -26234,7 +26234,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/ZedShadow_Skin49_Einstein_04_mult.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/ZedShadow_Skin49_Einstein_04_mult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -26316,7 +26316,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Primary_R_Hit_01_exit_smoke.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Primary_R_Hit_01_exit_smoke.tex"
                 numFrames: u16 = 4
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     birthUvScrollRateMult: embed = ValueVector2 {
@@ -26461,7 +26461,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Fire02.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Fire02.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -26515,7 +26515,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Samira_Skin49_R_MuzzleFlash_Backdrop.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Samira_Skin49_R_MuzzleFlash_Backdrop.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.00499999989
@@ -26550,7 +26550,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_01.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_01.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -26586,7 +26586,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/RingMult.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/RingMult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -26611,7 +26611,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_15.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_15.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.5 }
                 }
@@ -26634,7 +26634,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 4, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Morg_Skin49_E_MeshMult.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Morg_Skin49_E_MeshMult.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -26685,7 +26685,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sylas_Skin24_R_Praxis.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sylas_Skin24_R_Praxis.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -26749,7 +26749,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2.29999995, 1.25, 1 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sylas_Skin24_R_Praxis.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sylas_Skin24_R_Praxis.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 2 }
                 }
@@ -26891,7 +26891,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -27042,7 +27042,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -27152,7 +27152,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -27276,7 +27276,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_Particles_2_27.SKINS_Sion_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_Particles_2_27.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.34117648, 0.0745098069, 0.180392161, 1 }
@@ -27311,7 +27311,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isDirectionOriented: flag = true
@@ -27398,7 +27398,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -27509,7 +27509,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 10, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -27610,7 +27610,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -27659,11 +27659,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.699999988, 0.699999988 }
                     }
@@ -27790,7 +27790,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -27839,7 +27839,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -27900,7 +27900,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.tex"
             }
         }
         particleName: string = "Sion_Skin49_BA_Tar2"
@@ -28043,7 +28043,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -28126,7 +28126,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar_cresent.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar_cresent.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -28234,7 +28234,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -28358,7 +28358,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_Particles_2_27.SKINS_Sion_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_Particles_2_27.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.355550468, 0.147402152, 0.142870218, 1 }
@@ -28393,7 +28393,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isDirectionOriented: flag = true
@@ -28480,7 +28480,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -28591,7 +28591,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 10, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -28693,7 +28693,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -28742,11 +28742,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.699999988, 0.699999988 }
                     }
@@ -28874,7 +28874,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                 }
                 0xcb13aff1: f32 = -80
                 isUniformScale: flag = true
@@ -28923,7 +28923,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -28984,7 +28984,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -29141,7 +29141,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isDirectionOriented: flag = true
@@ -29228,7 +29228,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -29369,7 +29369,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -29524,7 +29524,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -29635,7 +29635,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -29759,7 +29759,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_Particles_2_27.SKINS_Sion_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_Particles_2_27.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.34117648, 0.0745098069, 0.180392161, 1 }
@@ -29794,7 +29794,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isDirectionOriented: flag = true
@@ -29881,7 +29881,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -29992,7 +29992,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 10, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -30093,7 +30093,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -30142,11 +30142,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.699999988, 0.699999988 }
                     }
@@ -30273,7 +30273,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -30322,7 +30322,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -30383,7 +30383,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.tex"
             }
         }
         particleName: string = "Sion_Skin49_BA_Tar1"
@@ -30492,7 +30492,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -30570,7 +30570,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Shield_glow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Shield_glow.tex"
                 texDiv: vec2 = { 4, 1 }
             }
             VfxEmitterDefinitionData {
@@ -30679,7 +30679,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -30812,7 +30812,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -30921,7 +30921,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 10, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -31022,7 +31022,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -31071,11 +31071,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.699999988, 0.699999988 }
                     }
@@ -31202,7 +31202,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -31251,7 +31251,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -31312,7 +31312,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -31469,7 +31469,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isDirectionOriented: flag = true
@@ -31556,7 +31556,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -31585,7 +31585,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -31612,7 +31612,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground_Ground.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground_Ground.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
             }
@@ -31634,7 +31634,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -31665,7 +31665,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground_Ground.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground_Ground.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
             }
@@ -31686,7 +31686,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -31715,11 +31715,11 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Mis_Head.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Mis_Head.tex"
                     texDivMult: vec2 = { 0.5, 0.5 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 4 }
@@ -31779,7 +31779,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -31812,11 +31812,11 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Mis_Head.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Mis_Head.tex"
                     texDivMult: vec2 = { 0.5, 0.5 }
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 4 }
@@ -31877,7 +31877,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -31891,11 +31891,11 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_BlackHole.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_BlackHole.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Base_Particles_1_342.StrawberryRebuild.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/Base_Particles_1_342.tex"
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 180
                     }
@@ -31939,7 +31939,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -31955,11 +31955,11 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_BlackHole.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_BlackHole.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Base_Particles_1_342.StrawberryRebuild.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/Base_Particles_1_342.tex"
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 180
                     }
@@ -32003,7 +32003,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -32035,11 +32035,11 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Universal_Line_2.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Universal_Line_2.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.75 }
@@ -32078,7 +32078,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -32106,11 +32106,11 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Universal_Line_2.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Universal_Line_2.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.75 }
@@ -32149,7 +32149,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -32163,11 +32163,11 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Base_Particles_1_342.StrawberryRebuild.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/Base_Particles_1_342.tex"
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 180
                     }
@@ -32211,7 +32211,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -32227,11 +32227,11 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Base_Particles_1_342.StrawberryRebuild.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/Base_Particles_1_342.tex"
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 180
                     }
@@ -32275,7 +32275,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -32290,11 +32290,11 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground_Ground.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground_Ground.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Base_Particles_1_342.StrawberryRebuild.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/Base_Particles_1_342.tex"
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 180
                     }
@@ -32338,7 +32338,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -32351,11 +32351,11 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground_Ground.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground_Ground.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Base_Particles_1_342.StrawberryRebuild.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/Base_Particles_1_342.tex"
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 180
                     }
@@ -32398,7 +32398,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -32427,11 +32427,11 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 3 }
                     }
@@ -32457,7 +32457,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -32490,11 +32490,11 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 3 }
                     }
@@ -32599,7 +32599,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -32778,7 +32778,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -32891,7 +32891,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -33000,7 +33000,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 10, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -33171,7 +33171,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Speedline.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Speedline.tex"
             }
         }
         particleName: string = "Sion_Skin49_Passive_Speed"
@@ -33348,7 +33348,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.200000003, 0.5, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit3_spikes.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit3_spikes.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -33504,7 +33504,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -33638,7 +33638,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -33746,7 +33746,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -33870,7 +33870,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_Particles_2_27.SKINS_Sion_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_Particles_2_27.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.34117648, 0.0745098069, 0.180392161, 1 }
@@ -33905,7 +33905,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isDirectionOriented: flag = true
@@ -33992,7 +33992,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -34103,7 +34103,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 10, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -34204,7 +34204,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -34253,11 +34253,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.699999988, 0.699999988 }
                     }
@@ -34384,7 +34384,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -34433,7 +34433,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -34494,7 +34494,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.tex"
             }
         }
         particleName: string = "Sion_Skin49_Q3_tar"
@@ -34520,7 +34520,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -34551,7 +34551,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00199997, 1.00199997, 1.00199997 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
             }
@@ -34573,7 +34573,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -34601,7 +34601,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_BlackHole.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_BlackHole.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
             }
@@ -34623,7 +34623,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -34658,7 +34658,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00199997, 1.00199997, 1.00199997 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
             }
@@ -34680,7 +34680,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -34710,7 +34710,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00100005, 1.00100005, 1.00100005 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground_Ground.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground_Ground.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
             }
@@ -34732,7 +34732,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -34763,7 +34763,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground_Ground.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground_Ground.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
             }
@@ -34785,7 +34785,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -34816,7 +34816,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_BlackHole.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_BlackHole.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
             }
@@ -34838,7 +34838,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -34870,7 +34870,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_BlackHole.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_BlackHole.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
             }
@@ -34892,7 +34892,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -34919,7 +34919,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_BlackHole.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_BlackHole.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
             }
@@ -34941,7 +34941,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -34975,11 +34975,11 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.33000004, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit3.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit3.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 3 }
                     }
@@ -35006,7 +35006,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -35036,10 +35036,10 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit3.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit3.tex"
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/HotSpring_Spring_GradientV.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/HotSpring_Spring_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 4 }
                     }
@@ -35077,7 +35077,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -35111,10 +35111,10 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit3.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit3.tex"
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/HotSpring_Spring_GradientV.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/HotSpring_Spring_GradientV.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 4 }
                     }
@@ -35152,7 +35152,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -35182,10 +35182,10 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.33000004, 1, 2.0999999 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit3.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit3.tex"
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 3 }
                     }
@@ -35212,7 +35212,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -35243,11 +35243,11 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00199997, 1.00199997, 1.00199997 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 3 }
                     }
@@ -35274,7 +35274,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_cas_charge.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -35309,11 +35309,11 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00199997, 1.00199997, 1.00199997 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin200_Q_Hit1_ground.tex"
                 uvMode: u8 = 2
                 texAddressModeBase: u8 = 2
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 3 }
                     }
@@ -35353,7 +35353,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_mesh_sonicwave.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_mesh_sonicwave.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -35415,7 +35415,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_meshtex_sonicwaves.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_meshtex_sonicwaves.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, -1.39999998 }
                 }
@@ -35463,7 +35463,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_mesh_sonicwave.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_mesh_sonicwave.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -35524,7 +35524,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_meshtex_sonicwaves.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_meshtex_sonicwaves.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -35595,7 +35595,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_mesh_sonicwave_bigger.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_mesh_sonicwave_bigger.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -35667,7 +35667,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_speedlines.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_speedlines.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, -3 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -35771,7 +35771,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_mesh_wake.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_mesh_wake.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -35791,7 +35791,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 90, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_wake_texture.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_wake_texture.tex"
                 uvMode: u8 = 2
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -1, 1 }
@@ -35891,7 +35891,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -36097,7 +36097,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -36279,7 +36279,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_AnimeShapes_Blur.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_AnimeShapes_Blur.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -36305,14 +36305,14 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 130, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_alpha_20.SKINS_Sion_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_alpha_20.tex"
                 blendMode: u8 = 1
                 meshRenderFlags: u8 = 0
                 colorLookUpScales: vec2 = { 0.699999988, 1 }
                 colorLookUpOffsets: vec2 = { 0.300000012, 0 }
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0989999995
-                    normalMapTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_heat_distort.SKINS_Sion_Skin49.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_heat_distort.tex"
                 }
                 isUniformScale: flag = true
                 isLocalOrientation: flag = false
@@ -36336,7 +36336,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_color-hold.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_color-hold.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -36556,7 +36556,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Base_Q_Embers.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Base_Q_Embers.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -36701,7 +36701,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Dots_01.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Dots_01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1.5
@@ -36894,7 +36894,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Glow5.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Glow5.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -36919,7 +36919,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Mask.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Mask.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -36951,9 +36951,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/R_decal_Missile_02.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/R_decal_Missile_02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Screen_Flames_Soft.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Screen_Flames_Soft.tex"
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = -90
                     }
@@ -36989,7 +36989,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Mask.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Mask.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -37024,9 +37024,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.699999988, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/R_decal_Missile_02.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/R_decal_Missile_02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -37053,7 +37053,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Mask.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Mask.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -37087,7 +37087,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/R_decal_Missile_02.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/R_decal_Missile_02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Shared/Particles/3026_Items_Trail_Up.TFT_Set15.tex"
                     uvScaleMult: embed = ValueVector2 {
@@ -37156,7 +37156,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 90, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Front_Cone_v02.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Front_Cone_v02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -37214,9 +37214,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 100, 90, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Front_Cone_v02.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Front_Cone_v02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/21.AprilFools2025.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/21.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -0.5 }
                     }
@@ -37391,7 +37391,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -37467,7 +37467,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -37617,7 +37617,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -37692,7 +37692,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Taliyah_Skin49_Q_rock_debris.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Taliyah_Skin49_Q_rock_debris.tex"
                 texDiv: vec2 = { 3, 1 }
             }
             VfxEmitterDefinitionData {
@@ -37758,7 +37758,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_Trail.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_Trail.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.5
@@ -37791,7 +37791,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Color-BloodFade.SKINS_Sion_CARE_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Color-BloodFade.tex"
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -37825,7 +37825,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_FlameTrail.SKINS_Sion_CARE_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_FlameTrail.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0 }
                 }
@@ -37891,7 +37891,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0.0200045779, 0 }
                     }
@@ -37912,7 +37912,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Buf_redTrail02.SKINS_Sion_CARE_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Buf_redTrail02.tex"
                 emitterUvScrollRate: vec2 = { 0.200000003, 0 }
             }
             VfxEmitterDefinitionData {
@@ -37976,7 +37976,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0.0200045779, 0.300007641 }
                     }
@@ -37999,7 +37999,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_mis_smoke_Trail.SKINS_Sion_CARE_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_mis_smoke_Trail.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.5, 0 }
                 }
@@ -38165,7 +38165,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.tex"
                 }
                 isUniformScale: flag = true
                 isRandomStartFrame: flag = true
@@ -38231,7 +38231,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.tex"
                 numFrames: u16 = 2
                 texDiv: vec2 = { 2, 2 }
             }
@@ -38312,7 +38312,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_mis_smoke_Trail.SKINS_Sion_CARE_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_mis_smoke_Trail.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.25, 0 }
                 }
@@ -38418,7 +38418,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_mis_smoke_Trail.SKINS_Sion_CARE_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_mis_smoke_Trail.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.25, 0 }
                 }
@@ -38524,7 +38524,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_mis_smoke_Trail.SKINS_Sion_CARE_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_mis_smoke_Trail.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.25, 0 }
                 }
@@ -38630,7 +38630,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_mis_smoke_Trail.SKINS_Sion_CARE_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_mis_smoke_Trail.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.25, 0 }
                 }
@@ -38698,7 +38698,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_mesh_sonicwave.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_mesh_sonicwave.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -38758,7 +38758,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Thresh_Skin05_Q_Einstein_01_mult.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Thresh_Skin05_Q_Einstein_01_mult.tex"
                 }
                 disableBackfaceCull: bool = true
                 birthRotation0: embed = ValueVector3 {
@@ -38819,7 +38819,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Buffer_Ground_Indicator.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Buffer_Ground_Indicator.tex"
                 texDiv: vec2 = { 0.699999988, 1 }
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, -0.550000012 }
@@ -38876,7 +38876,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_mesh_sonicwave.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas_mesh_sonicwave.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -38911,7 +38911,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Thresh_Skin05_Q_Einstein_01_mult.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Thresh_Skin05_Q_Einstein_01_mult.tex"
                 }
                 disableBackfaceCull: bool = true
                 birthRotation0: embed = ValueVector3 {
@@ -38972,7 +38972,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Buffer_Ground_Indicator.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Buffer_Ground_Indicator.tex"
                 texDiv: vec2 = { 0.699999988, 1 }
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, -0.555000007 }
@@ -39165,7 +39165,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.200000003, 0.5, 0.699999988 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit3_spikes.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit3_spikes.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -39321,7 +39321,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -39455,7 +39455,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -39563,7 +39563,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -39687,7 +39687,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_Particles_2_27.SKINS_Sion_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_Particles_2_27.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.34117648, 0.0745098069, 0.180392161, 1 }
@@ -39722,7 +39722,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isDirectionOriented: flag = true
@@ -39809,7 +39809,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -39920,7 +39920,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 10, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -40021,7 +40021,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -40070,11 +40070,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.699999988, 0.699999988 }
                     }
@@ -40201,7 +40201,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -40250,7 +40250,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -40311,7 +40311,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.tex"
             }
         }
         particleName: string = "Sion_Skin49_Q2_tar"
@@ -40417,7 +40417,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_shadow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_shadow.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -40592,7 +40592,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_hit_radial.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_hit_radial.tex"
                 numFrames: u16 = 2
             }
             VfxEmitterDefinitionData {
@@ -40699,7 +40699,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_Aura_Self_02.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_Aura_Self_02.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -40874,7 +40874,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar_cresent.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar_cresent.tex"
                 numFrames: u16 = 2
             }
             VfxEmitterDefinitionData {
@@ -40980,7 +40980,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.20000005, 1, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Spark_Star.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Spark_Star.tex"
             }
         }
         particleName: string = "Sion_Skin49_E_Buf"
@@ -41117,7 +41117,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/E_Star.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/E_Star.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -41169,7 +41169,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -41282,7 +41282,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -41412,7 +41412,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Samira_Skin49_R_MuzzleFlash_Backdrop.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Samira_Skin49_R_MuzzleFlash_Backdrop.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -41506,7 +41506,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -41555,7 +41555,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -41611,7 +41611,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.tex"
             }
         }
         particleName: string = "Sion_Skin49_E_Tar"
@@ -41637,7 +41637,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA1.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA1.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -41671,7 +41671,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.800000012, 0.850000024 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_cas_Shadow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_cas_Shadow.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0 }
                 }
@@ -41707,7 +41707,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA1.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA1.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -41747,7 +41747,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_sonicwaves.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_sonicwaves.tex"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -41771,7 +41771,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_smoke_trail_mult.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_smoke_trail_mult.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0 }
                 }
@@ -41793,7 +41793,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_mistTrail.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_mistTrail.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -41855,7 +41855,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "weapontrail5"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA1.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA1.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -41888,7 +41888,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_cas_Soft_Glow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_cas_Soft_Glow.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -4, 0 }
                 }
@@ -41915,7 +41915,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "WeaponStreak"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA1.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA1.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -41954,7 +41954,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Dissolve_Cloudy_01.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Dissolve_Cloudy_01.tex"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -41981,7 +41981,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_smoke_trail_mult.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_smoke_trail_mult.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, -0.200000003 }
                 }
@@ -42006,7 +42006,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_mis_smoke_Trail.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_mis_smoke_Trail.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1.29999995 }
@@ -42085,7 +42085,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "Temp_Mesh3"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA1.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA1.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -42116,7 +42116,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 5, 5 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Glow_Bright.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Glow_Bright.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.400000006, -0.800000012 }
                 }
@@ -42161,7 +42161,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "Temp_Mesh5"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA1.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA1.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -42195,7 +42195,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 1.25, 1.10000002 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_dash_sub.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_dash_sub.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.400000006, -0.800000012 }
                 }
@@ -42360,7 +42360,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Emote_Cas_spit.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Emote_Cas_spit.tex"
             }
         }
         particleName: string = "Sion_Skin49_Emote_Laugh"
@@ -42386,7 +42386,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/swipe3.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/swipe3.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -42426,7 +42426,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.800000012, 0.850000024 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_cas_Shadow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_cas_Shadow.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0.0500000007 }
                 }
@@ -42465,7 +42465,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/swipe3.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/swipe3.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -42506,7 +42506,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Dissolve_Cloudy_01.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Dissolve_Cloudy_01.tex"
                 }
                 isUniformScale: flag = true
                 birthRotation0: embed = ValueVector3 {
@@ -42529,7 +42529,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_smoke_trail_mult.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_smoke_trail_mult.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0 }
                 }
@@ -42551,7 +42551,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_mis_smoke_Trail.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_mis_smoke_Trail.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -42613,7 +42613,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "weapontrail3"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/swipe3.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/swipe3.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -42649,7 +42649,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_cas_Soft_Glow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_cas_Soft_Glow.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -7, 0 }
                 }
@@ -42673,7 +42673,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "Temp_Mesh1"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/swipe3.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/swipe3.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -42707,7 +42707,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 5, 5 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_dash_sub_2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_dash_sub_2.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.200000003, -0.899999976 }
                 }
@@ -42731,7 +42731,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1.60000002, 3 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_dash_sub_2.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_dash_sub_2.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.100000001, 1 }
                     }
@@ -42752,7 +42752,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "Temp_Mesh2"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/swipe3.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/swipe3.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -42787,7 +42787,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 5, 5 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_dash_sub_2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_dash_sub_2.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.150000006, -0.99000001 }
                 }
@@ -42811,7 +42811,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1.5, 4 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/Aatrox_Skin33_Q_Circle02.StrawberryRebuild.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/Aatrox_Skin33_Q_Circle02.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.100000001, 1 }
                     }
@@ -42945,7 +42945,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/hit_bits.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/hit_bits.tex"
                 numFrames: u16 = 16
                 texDiv: vec2 = { 2, 2 }
             }
@@ -43069,7 +43069,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -43191,10 +43191,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.tex"
                 numFrames: u16 = 4
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.200000003 }
                     }
@@ -43338,11 +43338,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.699999988, 0.699999988 }
                     }
@@ -43571,7 +43571,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isRandomStartFrame: flag = true
@@ -43617,7 +43617,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -43791,7 +43791,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -43916,10 +43916,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.tex"
                 numFrames: u16 = 4
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.200000003 }
                     }
@@ -44032,7 +44032,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -44132,7 +44132,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Rocks_2x2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Rocks_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -44248,7 +44248,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -44419,7 +44419,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Spark_tar.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Spark_tar.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 1 }
             }
@@ -44561,7 +44561,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.25
                     erosionFeatherOut: f32 = 0.25
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/RingMult.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/RingMult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -44585,7 +44585,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Smoke_Trail.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Smoke_Trail.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.5, 0 }
                 }
@@ -44698,7 +44698,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -44798,7 +44798,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -44943,7 +44943,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.25
                     erosionFeatherOut: f32 = 0.25
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/RingMult.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/RingMult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -44967,7 +44967,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Smoke_Trail.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Smoke_Trail.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.5, 0 }
                 }
@@ -45114,7 +45114,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.25
                     erosionFeatherOut: f32 = 0.25
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/RingMult.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/RingMult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -45138,7 +45138,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/WMis_Swirls.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/WMis_Swirls.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.5, 0 }
                 }
@@ -45288,7 +45288,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.25
                     erosionFeatherOut: f32 = 0.25
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/RingMult.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/RingMult.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 0, 0, 1, 0 }
                     }
@@ -45312,7 +45312,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/WMis_Swirls.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/WMis_Swirls.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.5, 0 }
                 }
@@ -45346,7 +45346,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA2.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA2.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -45386,7 +45386,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 0.800000012, 0.850000024 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_cas_Shadow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_cas_Shadow.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0 }
                 }
@@ -45422,7 +45422,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA2.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA2.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -45463,7 +45463,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_sonicwaves.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_sonicwaves.tex"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -45487,7 +45487,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_smoke_trail_mult.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_smoke_trail_mult.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0 }
                 }
@@ -45509,7 +45509,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_mistTrail.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_mistTrail.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -45571,7 +45571,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "weapontrail3"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA2.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA2.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -45607,7 +45607,7 @@ entries: map[hash,embed] = {
                 birthRotation0: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 180, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_cas_Soft_Glow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_cas_Soft_Glow.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -4, 0 }
                 }
@@ -45631,7 +45631,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "Temp_Mesh1"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA2.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA2.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -45663,7 +45663,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 5, 5 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.200000003, -0.899999976 }
                 }
@@ -45687,7 +45687,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1.60000002, 3 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_dash_sub_2.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_dash_sub_2.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.100000001, 1 }
                     }
@@ -45708,7 +45708,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "Temp_Mesh2"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA2.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA2.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -45742,7 +45742,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 5, 5 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_dash_sub_2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_dash_sub_2.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.150000006, -2.99000001 }
                 }
@@ -45793,7 +45793,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "WeaponStreak"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA2.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BA2.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -45832,7 +45832,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.5
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Dissolve_Cloudy_01.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Dissolve_Cloudy_01.tex"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -45859,7 +45859,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_smoke_trail_mult.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_smoke_trail_mult.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, -0.200000003 }
                 }
@@ -45884,7 +45884,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_mis_smoke_Trail.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_mis_smoke_Trail.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1.29999995 }
@@ -45969,7 +45969,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "weapontrail1"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Tar_Tower_3.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Tar_Tower_3.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -46005,7 +46005,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.899999976, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_cas_Soft_Glow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_cas_Soft_Glow.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { -10, 0 }
                 }
@@ -46031,7 +46031,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Tar_Tower_3.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Tar_Tower_3.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -46065,7 +46065,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.899999976, 0.800000012, 0.850000024 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_cas_Shadow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_cas_Shadow.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.100000001, 0 }
                 }
@@ -46100,7 +46100,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Tar_Tower_3.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Tar_Tower_3.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -46138,7 +46138,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_sonicwaves.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_sonicwaves.tex"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -46162,7 +46162,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_smoke_trail_mult.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_smoke_trail_mult.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0 }
                 }
@@ -46184,7 +46184,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_mistTrail.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_mistTrail.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 2, 1 }
                     }
@@ -46286,7 +46286,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Tar_Tower_3.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Tar_Tower_3.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -46319,7 +46319,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 5, 5 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.5, -0.300000012 }
                 }
@@ -46343,7 +46343,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1.5, 1.5 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_dash_sub_2.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_dash_sub_2.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.100000001, 1 }
                     }
@@ -46364,7 +46364,7 @@ entries: map[hash,embed] = {
                 emitterName: string = "Temp_Mesh2"
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Tar_Tower_3.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Tar_Tower_3.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -46397,7 +46397,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1, 5, 5 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.400000006, -0.99000001 }
                 }
@@ -46421,7 +46421,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 1.5, 4 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_dash_sub_2.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_dash_sub_2.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.100000001, 1 }
                     }
@@ -46545,7 +46545,7 @@ entries: map[hash,embed] = {
                 birthDrag: embed = ValueVector3 {
                     constantValue: vec3 = { 0.600000024, 0.200000003, 0.600000024 }
                 }
-                emissionMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_weapon_blade_mesh.SKINS_Sion_Skin49.scb"
+                emissionMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_weapon_blade_mesh.scb"
                 SpawnShape: pointer = VfxShapeLegacy {
                     emitOffset: embed = ValueVector3 {
                         constantValue: vec3 = { 25, -25, 25 }
@@ -46681,7 +46681,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponshards.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponshards.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -46850,7 +46850,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponshards.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponshards.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -46917,7 +46917,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Spark_Star.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Spark_Star.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -47006,7 +47006,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Blade2.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Blade2.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -47046,9 +47046,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponglow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponglow.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas_Mult.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas_Mult.tex"
                     texDivMult: vec2 = { 0, 3 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0 }
@@ -47078,7 +47078,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Blade1.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Blade1.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -47119,9 +47119,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponglow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponglow.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas_Mult.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas_Mult.tex"
                     texDivMult: vec2 = { 0, 3 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0 }
@@ -47190,7 +47190,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/BackDrop.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -47215,7 +47215,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Blade1.SKINS_Sion_Skin49.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Blade1.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -47259,9 +47259,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponglow.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weaponglow.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_AlphaSlice_1.tex"
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 90
                     }
@@ -47369,7 +47369,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -47474,7 +47474,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -47634,7 +47634,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -47773,7 +47773,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Hit_Flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -47856,7 +47856,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar_cresent.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar_cresent.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -47964,7 +47964,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1_01.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -48088,7 +48088,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_Particles_2_27.SKINS_Sion_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_Particles_2_27.tex"
                 blendMode: u8 = 1
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.355550468, 0.147402152, 0.142870218, 1 }
@@ -48123,7 +48123,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isDirectionOriented: flag = true
@@ -48210,7 +48210,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -48313,7 +48313,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.150000006
                     erosionFeatherOut: f32 = 0.150000006
                     erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                     erosionMapChannelMixer: embed = ValueColor {
                         constantValue: vec4 = { 1, 0, 0, 0 }
                     }
@@ -48362,11 +48362,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Pantheon_Skin49_Passive_OilySmoke_2x2.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.SKINS_Sion_Skin49.tex"
+                    textureMult: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_SphereScroll_01.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.699999988, 0.699999988 }
                     }
@@ -48494,7 +48494,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherIn: f32 = 0.300000012
                     erosionFeatherOut: f32 = 0.300000012
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_SmokeErode.tex"
                 }
                 0xcb13aff1: f32 = -80
                 isUniformScale: flag = true
@@ -48543,7 +48543,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Karthus_Skin10_Fire_Diff.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -48604,7 +48604,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_RadGrad.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -48761,7 +48761,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.SKINS_Sion_Skin49.tex"
+                    erosionMapName: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_cloud_01.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isDirectionOriented: flag = true
@@ -48848,7 +48848,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Aatrox_Skin31_tiao001.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -48959,7 +48959,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 10, 10, 0 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -49116,7 +49116,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Motes_shape.tex"
                 numFrames: u16 = 4
                 texAddressModeBase: u8 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -49288,7 +49288,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_Flare-Sun.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_Flare-Sun.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -49312,12 +49312,12 @@ entries: map[hash,embed] = {
                         mFading: f32 = 100
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_color-hold.SKINS_Sion_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_color-hold.tex"
                 isUniformScale: flag = true
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 600, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_disintegrate-light.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_disintegrate-light.tex"
             }
         }
         visibilityRadius: f32 = 3000
@@ -49812,7 +49812,7 @@ entries: map[hash,embed] = {
                         { 0, 1.00000012, 0 }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_color-hold.SKINS_Sion_Skin49.tex"
+                particleColorTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_color-hold.tex"
                 blendMode: u8 = 1
                 meshRenderFlags: u8 = 0
                 isUniformScale: flag = true
@@ -50123,7 +50123,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_smoke_02.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_smoke_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -50283,7 +50283,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_InfernalGuardian02.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_InfernalGuardian02.tex"
                 numFrames: u16 = 8
                 startFrame: u16 = 2
                 texDiv: vec2 = { 2, 4 }
@@ -50445,7 +50445,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_InfernalGuardian02.SKINS_Sion_Skin49.tex"
+                texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/common_InfernalGuardian02.tex"
                 numFrames: u16 = 8
                 startFrame: u16 = 2
                 texDiv: vec2 = { 2, 4 }
