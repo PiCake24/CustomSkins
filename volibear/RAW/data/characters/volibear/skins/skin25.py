@@ -2,24 +2,24 @@
 type: string = "PROP"
 version: u32 = 3
 linked: list[string] = {
-    "DATA/Volibear_Skins_Skin0_Skins_Skin1_Skins_Skin2_Skins_Skin3_Skins_Skin4_Skins_Skin5_Skins_Skin6.bin"
+    "DATA/Characters/Volibear/Volibear_Multi_Skins_Root_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin29_Skins_Skin3_Skins_Skin30_Skins_Skin31_Skins_Skin32_Skins_Skin33_Skins_Skin34_Skins_Skin35_Skins_Skin36_Skins_Skin37_Skins_Skin4_Skins_Skin5_Skins_Skin6_Skins_Skin7_Skins_Skin9.bin"
     "DATA/Characters/Volibear/Volibear.bin"
-    "DATA/Volibear_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin2_Skins_Skin3_Skins_Skin4_Skins_Skin5_Skins_Skin7_Skins_Skin9.bin"
     "DATA/Characters/Volibear/Animations/Skin0.bin"
-    "DATA/Volibear_Skins_Root_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin29_Skins_Skin3_Skins_Skin30_Skins_Skin31_Skins_Skin32_Skins_Skin33_Skins_Skin34_Skins_Skin35_Skins_Skin36_Skins_Skin37_Skins_Skin4_Skins_Skin5_Skins_Skin6_Skins_Skin7_Skins_Skin9.bin"
-    "DATA/Volibear_Skins_Root_Skins_Skin0_Skins_Skin19_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin29_Skins_Skin30_Skins_Skin31_Skins_Skin32_Skins_Skin33_Skins_Skin34_Skins_Skin35_Skins_Skin36_Skins_Skin37.bin"
-    "DATA/Volibear_Skins_Skin0_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin7_Skins_Skin9.bin"
-    "DATA/Volibear_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin2_Skins_Skin3_Skins_Skin4_Skins_Skin5_Skins_Skin6_Skins_Skin7_Skins_Skin9.bin"
-    "DATA/Volibear_Skins_Skin0_Skins_Skin1_Skins_Skin2_Skins_Skin4_Skins_Skin5_Skins_Skin6.bin"
-    "DATA/Volibear_Skins_Skin0_Skins_Skin1_Skins_Skin2_Skins_Skin3_Skins_Skin4_Skins_Skin5.bin"
-    "DATA/Volibear_Skins_Skin0_Skins_Skin1_Skins_Skin2_Skins_Skin4_Skins_Skin5.bin"
-    "DATA/Volibear_Skins_Skin0_Skins_Skin1_Skins_Skin2_Skins_Skin3_Skins_Skin5.bin"
-    "DATA/Volibear_Skins_Skin0_Skins_Skin1_Skins_Skin2_Skins_Skin5.bin"
+    "DATA/Characters/Volibear/Volibear_Multi_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin2_Skins_Skin3_Skins_Skin4_Skins_Skin5_Skins_Skin6_Skins_Skin7_Skins_Skin9.bin"
+    "DATA/Characters/Volibear/Volibear_Multi_Skins_Root_Skins_Skin0_Skins_Skin19_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin29_Skins_Skin30_Skins_Skin31_Skins_Skin32_Skins_Skin33_Skins_Skin34_Skins_Skin35_Skins_Skin36_Skins_Skin37.bin"
+    "DATA/Characters/Volibear/Volibear_Multi_Skins_Skin0_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin7_Skins_Skin9.bin"
+    "DATA/Characters/Volibear/Volibear_Multi_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin2_Skins_Skin3_Skins_Skin4_Skins_Skin5_Skins_Skin7_Skins_Skin9.bin"
+    "DATA/Characters/Volibear/Volibear_Multi_Skins_Skin0_Skins_Skin1_Skins_Skin2_Skins_Skin3_Skins_Skin4_Skins_Skin5_Skins_Skin6.bin"
+    "DATA/Characters/Volibear/Volibear_Multi_Skins_Skin0_Skins_Skin1_Skins_Skin2_Skins_Skin4_Skins_Skin5_Skins_Skin6.bin"
+    "DATA/Characters/Volibear/Volibear_Multi_Skins_Skin0_Skins_Skin1_Skins_Skin2_Skins_Skin3_Skins_Skin4_Skins_Skin5.bin"
+    "DATA/Characters/Volibear/Volibear_Multi_Skins_Skin0_Skins_Skin1_Skins_Skin2_Skins_Skin4_Skins_Skin5.bin"
+    "DATA/Characters/Volibear/Volibear_Multi_Skins_Skin0_Skins_Skin1_Skins_Skin2_Skins_Skin3_Skins_Skin5.bin"
+    "DATA/Characters/Volibear/Volibear_Multi_Skins_Skin0_Skins_Skin1_Skins_Skin2_Skins_Skin5.bin"
+    "DATA/Characters/Volibear/Volibear_Multi_Skins_Root_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin29_Skins_Skin3_Skins_Skin30_Skins_Skin31_Skins_Skin32_Skins_Skin33_Skins_Skin34_Skins_Skin35_Skins_Skin36_Skins_Skin37_Skins_Skin4_Skins_Skin5_Skins_Skin6_Skins_Skin7_Skins_Skin9.bin"
     "DATA/Characters/Volibear/Volibear.bin"
     "DATA/Characters/Volibear/Animations/Skin19.bin"
-    "DATA/Volibear_Skins_Skin19_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28.bin"
-    "DATA/Volibear_Skins_Root_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin29_Skins_Skin3_Skins_Skin30_Skins_Skin31_Skins_Skin32_Skins_Skin33_Skins_Skin34_Skins_Skin35_Skins_Skin36_Skins_Skin37_Skins_Skin4_Skins_Skin5_Skins_Skin6_Skins_Skin7_Skins_Skin9.bin"
-    "DATA/Volibear_Skins_Root_Skins_Skin0_Skins_Skin19_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin29_Skins_Skin30_Skins_Skin31_Skins_Skin32_Skins_Skin33_Skins_Skin34_Skins_Skin35_Skins_Skin36_Skins_Skin37.bin"
+    "DATA/Characters/Volibear/Volibear_Multi_Skins_Root_Skins_Skin0_Skins_Skin19_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin29_Skins_Skin30_Skins_Skin31_Skins_Skin32_Skins_Skin33_Skins_Skin34_Skins_Skin35_Skins_Skin36_Skins_Skin37.bin"
+    "DATA/Characters/Volibear/Volibear_Multi_Skins_Skin19_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28.bin"
 }
 entries: map[hash,embed] = {
     "Characters/Volibear/Skins/Skin25" = SkinCharacterDataProperties {
@@ -7536,6 +7536,7 @@ entries: map[hash,embed] = {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDrawAlways: list[hash] = {
                             "BODY"
+                            "HeadBase"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -8388,8 +8389,8 @@ entries: map[hash,embed] = {
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
                             "Mane"
-                            "BODY"
                             "HeadBase"
+                            "BODY"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -8520,6 +8521,7 @@ entries: map[hash,embed] = {
                         mSubmeshesToDraw: list[hash] = {
                             "BODY"
                             "Mane"
+                            "HeadBase"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -9020,6 +9022,7 @@ entries: map[hash,embed] = {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
                             "BODY"
+                            "HeadBase"
                         }
                         mLockMeshToAttachment: bool = true
                     }
