@@ -47586,6 +47586,10 @@ entries: map[hash,embed] = {
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
+                name: string = "fresnelAlpha_minmax"
+                value: vec4 = { 0, 1, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "ScreenSpace_Tiling"
                 value: vec4 = { 1, 1, 0, 0 }
             }
@@ -47689,6 +47693,10 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "USE_FRESNEL_ALPHA"
+                on: bool = false
+            }
             StaticMaterialSwitchDef {
                 name: string = "POST_LIGHTING_ON_SCROLLTEX"
                 on: bool = false

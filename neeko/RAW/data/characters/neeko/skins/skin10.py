@@ -292,7 +292,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_swirls.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
             }
@@ -367,9 +367,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.Champion_VFX_Memory_Optimization.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -467,9 +467,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.Champion_VFX_Memory_Optimization.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -544,7 +544,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Ezreal_Base_E_ringglow.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -605,7 +605,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Ezreal_Base_E_ringglow.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -1065,7 +1065,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_BA_speed_flash.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_BA_speed_flash.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -1178,7 +1178,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -1608,7 +1608,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_spotlight.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_spotlight.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.550000012
@@ -1712,7 +1712,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_glow.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -1841,7 +1841,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_enemy_tendrils.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_enemy_tendrils.Champion_VFX_Memory_Optimization.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.400000006 }
                 }
@@ -1859,7 +1859,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -1, 0 }
                     }
@@ -1956,131 +1956,6 @@ entries: map[hash,embed] = {
                 }
             }
             VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
-                }
-                particleLinger: option[f32] = {}
-                lifetime: option[f32] = {
-                    1.20000005
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "mesh_center_lines"
-                disabled: bool = true
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 5, 0 }
-                }
-                velocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 1, 1 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 1000, 0 }
-                            { 0, 0, 0 }
-                            { 0, -11, 0 }
-                        }
-                    }
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        times: list[f32] = {
-                            0.449999988
-                            0.460000008
-                        }
-                        values: list[f32] = {
-                            1
-                            0
-                        }
-                    }
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_cas_tendrils.scb"
-                    }
-                }
-                blendMode: u8 = 4
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.349999994
-                            0.449999988
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 15
-                alphaRef: u8 = 0
-                disableBackfaceCull: bool = true
-                miscRenderFlags: u8 = 1
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1.29999995, 1.39999998, 1.29999995 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                            0.400000006
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1, 5, 1 }
-                            { 1, 1, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_R_cas_tendrils.tex"
-                uvMode: u8 = 2
-                birthUVOffset: embed = ValueVector2 {
-                    constantValue: vec2 = { 0.5, 0 }
-                }
-                particleUVScrollRate: embed = IntegratedValueVector2 {
-                    constantValue: vec2 = { -1, 0 }
-                    dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.275000006
-                            0.375
-                            0.474999994
-                        }
-                        values: list[vec2] = {
-                            { 1.5, 0 }
-                            { -0, 0 }
-                            { -2, 0 }
-                            { -0.100000001, 0 }
-                        }
-                    }
-                }
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_cas_color_tendril_mult.tex"
-                    ParticleIntegratedUvRotateMult: embed = IntegratedValueFloat {
-                        dynamics: pointer = VfxAnimatedFloatVariableData {
-                            times: list[f32] = {
-                                0
-                            }
-                            values: list[f32] = {
-                                0
-                            }
-                        }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
                 rate: embed = ValueFloat {
                     constantValue: f32 = 1
@@ -2154,196 +2029,6 @@ entries: map[hash,embed] = {
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
-                    constantValue: f32 = 50
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.600000024
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            0.600000024
-                        }
-                    }
-                }
-                particleLinger: option[f32] = {}
-                lifetime: option[f32] = {
-                    0.800000012
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Sparks"
-                disabled: bool = true
-                birthOrbitalVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, -12, 0 }
-                }
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { -1000, 0, 0 }
-                }
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 5, 5, 5 }
-                }
-                birthAcceleration: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 600, 0 }
-                }
-                velocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 0, 0 }
-                }
-                worldAcceleration: embed = IntegratedValueVector3 {
-                    constantValue: vec3 = { 0, -100, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, -100, 0 }
-                        }
-                    }
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                SpawnShape: pointer = VfxShapeCylinder {
-                    radius: f32 = 150
-                    height: f32 = 100
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 460, 0 }
-                }
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00400000019
-                }
-                blendMode: u8 = 4
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.349999994
-                            0.699999988
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.0196078438, 0.925490201, 0.596078455, 0 }
-                            { 0.588235319, 0.101960786, 0.388235301, 1 }
-                            { 1, 0.620004594, 0, 1 }
-                            { 1, 1, 1, 0 }
-                        }
-                    }
-                }
-                miscRenderFlags: u8 = 1
-                isDirectionOriented: flag = true
-                isUniformScale: flag = true
-                isRotationEnabled: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 90, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0
-                                    360
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 90, 1, 0 }
-                        }
-                    }
-                }
-                isLocalOrientation: flag = false
-                directionVelocityScale: f32 = 0.00200000009
-                rotation0: embed = IntegratedValueVector3 {
-                    constantValue: vec3 = { 0, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.200000003
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 20, 0 }
-                            { 0, 1, 0 }
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 30, 65, 65 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    0.800000012
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.699999988
-                                    0.5
-                                    1.29999995
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 30, 65, 65 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.300000012
-                            0.800000012
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 1, 0 }
-                            { 1, 1, 0 }
-                            { 0.300000012, 1, 0 }
-                            { 2, 2, 0 }
-                            { 2, 2, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_glow.tex"
-                startFrame: u16 = 1
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
                 particleLifetime: embed = ValueFloat {
@@ -2383,87 +2068,6 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 1.00999999, 1.00999999, 1.00999999 }
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Neeko_Base_W.tex"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLinger: option[f32] = {}
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "ConeBurst1"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_AoE_cone_02.scb"
-                    }
-                }
-                blendMode: u8 = 1
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.0500000007
-                            0.850000024
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.141176477, 0.0745098069, 0.215686277, 0 }
-                            { 0.140001521, 0.0699931309, 0.220004573, 0.710002303 }
-                            { 0.141176477, 0.0745098069, 0.215686277, 0.156862751 }
-                            { 0.140001521, 0.0699931309, 0.220004573, 0 }
-                        }
-                    }
-                }
-                pass: i16 = -15
-                disableBackfaceCull: bool = true
-                miscRenderFlags: u8 = 1
-                isGroundLayer: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, -40, 0 }
-                }
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 5, 0, 5 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 0, 1 }
-                            { 1, 0, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neek_Base_R_AoE_ring_indicator.tex"
-                birthUVOffset: embed = ValueVector2 {
-                    constantValue: vec2 = { 0, 0.699999988 }
-                }
-                texDiv: vec2 = { 0.300000012, 1 }
-                particleUVScrollRate: embed = IntegratedValueVector2 {
-                    constantValue: vec2 = { 0, -1 }
-                    dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.200000003
-                        }
-                        values: list[vec2] = {
-                            { 0, -3 }
-                            { 0, -0.100000001 }
-                        }
-                    }
-                }
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -2632,228 +2236,6 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_W_spark.tex"
                 numFrames: u16 = 4
             }
-            VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 0.200000003
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.699999988
-                }
-                lifetime: option[f32] = {
-                    3
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "RimLighting"
-                disabled: bool = true
-                importance: u8 = 3
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                primitive: pointer = VfxPrimitiveAttachedMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mLockMeshToAttachment: bool = true
-                    }
-                }
-                blendMode: u8 = 2
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 0.450980395, 0.972549021, 0.105882354, 0.549019635 }
-                }
-                Color: embed = ValueColor {
-                    constantValue: vec4 = { 0.184313729, 0.588235319, 0.121568628, 0.941176474 }
-                }
-                pass: i16 = 24
-                reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_Blue_Cubemap.dds"
-                    reflectionOpacityDirect: f32 = -1
-                    reflectionOpacityGlancing: f32 = 0.200000003
-                    reflectionFresnelColor: vec4 = { 0.889997721, 0.700007617, 1, 1 }
-                }
-                depthBiasFactors: vec2 = { -1, -1 }
-                particleIsLocalOrientation: flag = true
-                isUniformScale: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1.00100005, 1.00100005, 1.00100005 }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/DefaultColorOverlifetime.tex"
-                birthUvScrollRate: embed = ValueVector2 {
-                    constantValue: vec2 = { 0.0209999997, 0.050999999 }
-                }
-                texDiv: vec2 = { 0.800000012, 0.800000012 }
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_P_texture.tex"
-                    birthUvScrollRateMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 1, 1 }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
-                }
-                particleLinger: option[f32] = {}
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "circle8"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_indicator.scb"
-                    }
-                }
-                blendMode: u8 = 4
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.97999543 }
-                }
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.300000012
-                            0.400000006
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.0235294122, 0.690196097, 1, 0 }
-                            { 0, 0.86999315, 1, 0.39000535 }
-                            { 0, 0.900007606, 1, 0.990005314 }
-                            { 0, 1, 0.930006862, 0.349996179 }
-                            { 0, 0.615686297, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = -5
-                disableBackfaceCull: bool = true
-                miscRenderFlags: u8 = 1
-                isUniformScale: flag = true
-                isGroundLayer: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0
-                                    360
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 1, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1.15499997, 1, 1 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.0399999991
-                            0.100000001
-                            0.449999988
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 0, 0 }
-                            { 1.00999999, 1, 1 }
-                            { 1, 0, 0 }
-                            { 1, 0, 0 }
-                            { 1.10000002, 0, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_indicator.tex"
-                uvMode: u8 = 2
-                texDiv: vec2 = { 0.300000012, 1 }
-                particleUVScrollRate: embed = IntegratedValueVector2 {
-                    constantValue: vec2 = { 0, 1 }
-                    dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.375
-                            1
-                        }
-                        values: list[vec2] = {
-                            { 0, 1 }
-                            { 0, 0 }
-                            { 0, -1 }
-                        }
-                    }
-                }
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_P_tattoo_brighter.tex"
-                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
-                        constantValue: vec2 = { 0, 1 }
-                        dynamics: pointer = VfxAnimatedVector2fVariableData {
-                            times: list[f32] = {
-                                0
-                                0.5
-                                1
-                            }
-                            values: list[vec2] = {
-                                { 0, 1.5 }
-                                { 0, 0 }
-                                { 0, -1 }
-                            }
-                        }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                lifetime: option[f32] = {
-                    0.100000001
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Avatar1"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                primitive: pointer = VfxPrimitiveAttachedMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mLockMeshToAttachment: bool = true
-                    }
-                }
-                blendMode: u8 = 1
-                pass: i16 = 8000
-                alphaRef: u8 = 0
-                disableBackfaceCull: bool = true
-                miscRenderFlags: u8 = 1
-                particleIsLocalOrientation: flag = true
-                isUniformScale: flag = true
-                isRandomStartFrame: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1.00999999, 1, 1 }
-                }
-                texture: string = "ASSETS/Shared/Particles/SRU_JungleBuff_Baron_MeleeMin_AvatarOverlay.tex"
-                numFrames: u16 = 4
-                birthUvScrollRate: embed = ValueVector2 {
-                    constantValue: vec2 = { 0.400000006, 0.200000003 }
-                }
-            }
         }
         particleName: string = "Neeko_Base_R_Indicator_Ally"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Indicator_Ally"
@@ -2914,7 +2296,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.Champion_VFX_Memory_Optimization.tex"
                 }
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 8, 1, 1 }
@@ -3002,7 +2384,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 birthScale0: embed = ValueVector3 {
@@ -3036,7 +2418,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_alphatrail.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 7, 0, 0 }
                     }
@@ -3068,7 +2450,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.Champion_VFX_Memory_Optimization.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -3 }
                     }
@@ -3084,202 +2466,6 @@ entries: map[hash,embed] = {
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_Channel_Tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 20
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.200000003
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.25
-                                    1.5
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            0.200000003
-                        }
-                    }
-                }
-                particleLinger: option[f32] = {
-                    11
-                }
-                lifetime: option[f32] = {
-                    2
-                }
-                emitterName: string = "bright2"
-                disabled: bool = true
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 3, 3, 3 }
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00400000019
-                }
-                primitive: pointer = VfxPrimitiveRay {}
-                blendMode: u8 = 1
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 0.0899977088, 0, 0, 0.349996179 }
-                }
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.850000024
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 1 }
-                            { 0.149019614, 0, 0, 1 }
-                            { 0.200000003, 0, 0, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 40
-                particleIsLocalOrientation: flag = true
-                isDirectionOriented: flag = true
-                hasPostRotateOrientation: flag = true
-                isRandomStartFrame: flag = true
-                isRotationEnabled: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 30, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1.20000005
-                                    0.850000024
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 30, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 20, 40, 20 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.25
-                                    2
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    4
-                                    3
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1.5
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 20, 40, 20 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.0500000007
-                            0.25
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 0, 0 }
-                            { 1, 0.25, 0.0500000007 }
-                            { 1, 1.5, 0.449999988 }
-                            { 0, 2, 1.5 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/FiddleSticks_Base_BA_Throw_Sparks.tex"
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/Fiddlesticks_Base_Grain_Mult.tex"
-                    birthUvScrollRateMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 0, 30 }
-                    }
-                }
-            }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
                     constantValue: f32 = 20
@@ -3573,740 +2759,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 texture: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/FiddleSticks_Base_P_BightSpark.tex"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 10
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.5
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    3
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            0.5
-                        }
-                    }
-                }
-                particleLinger: option[f32] = {
-                    11
-                }
-                lifetime: option[f32] = {
-                    2
-                }
-                emitterName: string = "bright4"
-                disabled: bool = true
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 3, 3, 3 }
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00400000019
-                }
-                primitive: pointer = VfxPrimitiveRay {}
-                blendMode: u8 = 4
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 0, 1, 0.800839245, 1 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec4] = {
-                            { 0, 1, 0.800839245, 1 }
-                        }
-                    }
-                }
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.850000024
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 1 }
-                            { 0.149019614, 0, 0, 1 }
-                            { 0.200000003, 0, 0, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 40
-                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
-                    erosionDriveCurve: embed = ValueFloat {
-                        dynamics: pointer = VfxAnimatedFloatVariableData {
-                            times: list[f32] = {
-                                0
-                                1
-                            }
-                            values: list[f32] = {
-                                0
-                                2
-                            }
-                        }
-                    }
-                    erosionFeatherOut: f32 = 0.25
-                    erosionMapName: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/Fiddlesticks_Base_Q_Spectral_Upwards_Erode.tex"
-                }
-                isDirectionOriented: flag = true
-                isRandomStartFrame: flag = true
-                isRotationEnabled: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 30, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1.20000005
-                                    0.850000024
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 30, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 30, 20, 40 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    0.5
-                                    0.50999999
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -0.25
-                                    -2
-                                    0.25
-                                    2
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    3
-                                    3
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1.5
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 30, 20, 40 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.0500000007
-                            0.25
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 0, 0 }
-                            { 1, 0.25, 0.0500000007 }
-                            { 1, 1.5, 0.449999988 }
-                            { 1, 2, 1.5 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/Fiddlesticks_Base_E_Flare.tex"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
-                }
-                lifetime: option[f32] = {
-                    5
-                }
-                emitterName: string = "inner"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 20, 0 }
-                }
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00300000003
-                }
-                blendMode: u8 = 1
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.450003803 }
-                }
-                Color: embed = ValueColor {
-                    constantValue: vec4 = { 0.310551614, 0.0313725509, 0.384313732, 1 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.5
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.310551614, 0.0313725509, 0.384313732, 0 }
-                            { 0.310551614, 0.0313725509, 0.384313732, 1 }
-                            { 0.310551614, 0.0313725509, 0.384313732, 0 }
-                        }
-                    }
-                }
-                pass: i16 = -20
-                miscRenderFlags: u8 = 1
-                isUniformScale: flag = true
-                useNavmeshMask: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                }
-                                keyValues: list[f32] = {
-                                    90
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    360
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 0 }
-                        }
-                    }
-                }
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 199, 1, 1 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.0306469928
-                            0.0615301169
-                            0.139046535
-                            0.195000619
-                            0.237534136
-                            0.311010212
-                            0.440408617
-                            0.529361248
-                            0.611830831
-                            0.646140754
-                            0.711457193
-                            0.742622018
-                            0.772133946
-                            0.794581354
-                            0.860669672
-                            0.879965961
-                            0.931044281
-                            0.954880834
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1.00502515, 1, 1 }
-                            { 0.93418175, 1, 1 }
-                            { 1.16233337, 1, 1 }
-                            { 0.856346965, 1.00412726, 1 }
-                            { 1.00251257, 1.00726461, 1 }
-                            { 1.02010047, 1, 1 }
-                            { 0.994756341, 1, 1 }
-                            { 0.885678351, 1, 1 }
-                            { 1.06368792, 1, 1 }
-                            { 1.01633167, 1, 1 }
-                            { 1.12622893, 1, 1 }
-                            { 1.01130652, 1, 1 }
-                            { 1.00879395, 1, 1 }
-                            { 0.908455312, 1, 1 }
-                            { 1.0037688, 1, 1 }
-                            { 0.928391933, 1, 1 }
-                            { 1.00879395, 1, 1 }
-                            { 1.0138191, 1, 1 }
-                            { 0, 1, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/Fiddlesticks_Base_Soft_Glow.tex"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 3
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 5
-                }
-                lifetime: option[f32] = {
-                    5
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "small"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 20, 0 }
-                }
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00300000003
-                }
-                blendMode: u8 = 1
-                Color: embed = ValueColor {
-                    constantValue: vec4 = { 0.680689692, 0.421545744, 0.961623549, 1 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.0500000007
-                            0.949999988
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.680689692, 0.421545744, 0.961623549, 0 }
-                            { 0.680689692, 0.421545744, 0.961623549, 0.0500038154 }
-                            { 0.680689692, 0.421545744, 0.961623549, 1 }
-                            { 0.680689692, 0.421545744, 0.961623549, 0 }
-                        }
-                    }
-                }
-                pass: i16 = -10
-                miscRenderFlags: u8 = 1
-                isUniformScale: flag = true
-                useNavmeshMask: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                }
-                                keyValues: list[f32] = {
-                                    90
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    360
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 0 }
-                        }
-                    }
-                }
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 300, 150, 50 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 300, 150, 50 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.0306469928
-                            0.0615301169
-                            0.139046535
-                            0.195000619
-                            0.237534136
-                            0.311010212
-                            0.440408617
-                            0.529361248
-                            0.611830831
-                            0.646140754
-                            0.711457193
-                            0.742622018
-                            0.772133946
-                            0.794581354
-                            0.860669672
-                            0.879965961
-                            0.931044281
-                            0.954880834
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1.00502515, 1, 1 }
-                            { 0.93418175, 1, 1 }
-                            { 1.16233337, 1, 1 }
-                            { 0.856346965, 1.00412726, 1 }
-                            { 1.00251257, 1.00726461, 1 }
-                            { 1.02010047, 1, 1 }
-                            { 0.994756341, 1, 1 }
-                            { 0.885678351, 1, 1 }
-                            { 1.06368792, 1, 1 }
-                            { 1.01633167, 1, 1 }
-                            { 1.12622893, 1, 1 }
-                            { 1.01130652, 1, 1 }
-                            { 1.00879395, 1, 1 }
-                            { 0.908455312, 1, 1 }
-                            { 1.0037688, 1, 1 }
-                            { 0.928391933, 1, 1 }
-                            { 1.00879395, 1, 1 }
-                            { 1.0138191, 1, 1 }
-                            { 0, 1, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/Fiddlesticks_Base_Soft_Glow.tex"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
-                }
-                lifetime: option[f32] = {
-                    5
-                }
-                emitterName: string = "small1"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 20, 0 }
-                }
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00300000003
-                }
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.560006082 }
-                }
-                Color: embed = ValueColor {
-                    constantValue: vec4 = { 0, 1, 0.590005338, 0.349996179 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.254364103
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0, 1, 0.590005338, 0 }
-                            { 0, 1, 0.590005338, 0.349996179 }
-                            { 0, 1, 0.590005338, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 10
-                miscRenderFlags: u8 = 1
-                isUniformScale: flag = true
-                useNavmeshMask: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                }
-                                keyValues: list[f32] = {
-                                    90
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    360
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 0 }
-                        }
-                    }
-                }
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 80, 150, 50 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 80, 150, 50 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/Fiddlesticks_Base_Soft_Glow.tex"
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.tex"
-                    uvScaleMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 0, 0.0500000007 }
-                    }
-                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
-                        constantValue: vec2 = { 0, 0.0500000007 }
-                        dynamics: pointer = VfxAnimatedVector2fVariableData {
-                            times: list[f32] = {
-                                0
-                            }
-                            values: list[vec2] = {
-                                { 0, 0.0500000007 }
-                            }
-                        }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 5
-                }
-                lifetime: option[f32] = {
-                    5
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "small2"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 20, 0 }
-                }
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00300000003
-                }
-                Color: embed = ValueColor {
-                    constantValue: vec4 = { 0, 1, 0.719996929, 1 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.885286808
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0, 1, 0.719996929, 0 }
-                            { 0, 1, 0.719996929, 1 }
-                            { 0, 1, 0.719996929, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 213
-                miscRenderFlags: u8 = 1
-                isUniformScale: flag = true
-                useNavmeshMask: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                }
-                                keyValues: list[f32] = {
-                                    90
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    360
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 0 }
-                        }
-                    }
-                }
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 123, 150, 50 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 123, 150, 50 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/Fiddlesticks_Base_Soft_Glow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -4638,7 +3090,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
                 numFrames: u16 = 4
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0.200000003 }
@@ -4767,7 +3219,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -4839,7 +3291,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_beams.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Flicker_04.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Flicker_04.Champion_VFX_Memory_Optimization.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 1, 0 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -4943,7 +3395,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -5377,7 +3829,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
             }
         }
         particleName: string = "Neeko_Base_Idle_beam"
@@ -5632,7 +4084,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -5794,9 +4246,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.Champion_VFX_Memory_Optimization.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -5854,7 +4306,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
                 startFrame: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -5940,7 +4392,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_swirls.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
             }
@@ -6036,7 +4488,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0.5, 0 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -6567,9 +5019,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.Champion_VFX_Memory_Optimization.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -6662,7 +5114,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.Champion_VFX_Memory_Optimization.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -6841,7 +5293,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.Champion_VFX_Memory_Optimization.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -7005,7 +5457,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 startFrame: u16 = 1
             }
         }
@@ -7015,101 +5467,6 @@ entries: map[hash,embed] = {
     }
     "Characters/Neeko/Skins/Skin0/Particles/NeekoPTimer" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 10
-                }
-                lifetime: option[f32] = {
-                    0.100000001
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "circletimer"
-                disabled: bool = true
-                importance: u8 = 3
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00600000005
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/JarvanIV/Skins/Base/Particles/common_circletimer.scb"
-                    }
-                }
-                particleColorTexture: string = "ASSETS/Characters/JarvanIV/Skins/Base/Particles/common_color-hold.tex"
-                blendMode: u8 = 4
-                pass: i16 = 1000
-                colorLookUpScales: vec2 = { 0.300000012, 0.600000024 }
-                disableBackfaceCull: bool = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 90, 0, 180 }
-                }
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 20, 20, 0 }
-                }
-                texture: string = "ASSETS/Characters/JarvanIV/Skins/Base/Particles/common_white-black.tex"
-                birthUvScrollRate: embed = ValueVector2 {
-                    constantValue: vec2 = { -0.219999999, 0 }
-                }
-                uvScale: embed = ValueVector2 {
-                    constantValue: vec2 = { -1, 1 }
-                }
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
-                    uvScaleMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 12, 1 }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 0.5
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                lifetime: option[f32] = {
-                    1.5
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "timer"
-                disabled: bool = true
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Ivern/Skins/Base/Particles/Ivern_Base_P_campTimer.scb"
-                    }
-                }
-                particleColorTexture: string = "ASSETS/Particles/DefaultColorOverlifetime.tex"
-                blendMode: u8 = 4
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.501960814 }
-                }
-                pass: i16 = 1
-                miscRenderFlags: u8 = 1
-                isUniformScale: flag = true
-                isGroundLayer: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0.300000012, 1, 1 }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
-                uvScale: embed = ValueVector2 {
-                    constantValue: vec2 = { 2, 1 }
-                }
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Ivern/Skins/Base/Particles/Ivern_Base_P_campTimer_mult_rev.tex"
-                    texAddressModeMult: u8 = 2
-                    uvScrollClampMult: flag = true
-                    birthUvScrollRateMult: embed = ValueVector2 {
-                        constantValue: vec2 = { -1, 0 }
-                    }
-                }
-            }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.119999997
                 rate: embed = ValueFloat {
@@ -7145,7 +5502,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.Champion_VFX_Memory_Optimization.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 1 }
                 }
@@ -7202,7 +5559,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_ExtraBlured.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_ExtraBlured.Champion_VFX_Memory_Optimization.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 1 }
                 }
@@ -7252,7 +5609,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.Champion_VFX_Memory_Optimization.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 1 }
                 }
@@ -7305,7 +5662,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_ExtraBloom_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_ExtraBloom_01.Champion_VFX_Memory_Optimization.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 1 }
                 }
@@ -7368,7 +5725,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.Champion_VFX_Memory_Optimization.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 1 }
                 }
@@ -7538,7 +5895,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -7659,7 +6016,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_P_loop.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 1, 0, 0 }
                     }
@@ -7763,7 +6120,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0199999996
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.Champion_VFX_Memory_Optimization.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -7813,7 +6170,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -8050,7 +6407,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -8415,7 +6772,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_swirls.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -8949,7 +7306,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 280, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Ring.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Ring.Champion_VFX_Memory_Optimization.tex"
             }
         }
         particleName: string = "Neeko_Base_Q_bounce_02"
@@ -9298,7 +7655,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 280, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Ring.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Ring.Champion_VFX_Memory_Optimization.tex"
             }
         }
         particleName: string = "Neeko_Base_Q_bounce_01"
@@ -9384,7 +7741,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -9467,7 +7824,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.300000012
@@ -9915,644 +8272,6 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1.5
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Mesh_darkswiles"
-                disabled: bool = true
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00449999981
-                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00400000019
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_root.scb"
-                    }
-                }
-                blendMode: u8 = 1
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.200000003
-                            0.899999976
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.262745112, 0.184313729, 0.282352954, 1 }
-                            { 0.141176477, 0.0745098069, 0.215686277, 1 }
-                            { 0.141176477, 0.0745098069, 0.215686277, 1 }
-                            { 0.141176477, 0.0745098069, 0.215686277, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 6
-                disableBackfaceCull: bool = true
-                isRotationEnabled: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 180, 0 }
-                }
-                rotation0: embed = IntegratedValueVector3 {
-                    constantValue: vec3 = { 0, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 2, 0 }
-                            { 0, 1, 0 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.200000003
-                        }
-                        values: list[vec3] = {
-                            { 1.5, 1, 1.5 }
-                            { 1.29999995, 0.800000012, 1.29999995 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_root_tex.tex"
-                texAddressModeBase: u8 = 2
-                particleUVScrollRate: embed = IntegratedValueVector2 {
-                    constantValue: vec2 = { 0, 1 }
-                    dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                            1
-                        }
-                        values: list[vec2] = {
-                            { 0, 1 }
-                            { 0, 0.5 }
-                            { 0, 0.100000001 }
-                        }
-                    }
-                }
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_root_tex_mult.tex"
-                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
-                        constantValue: vec2 = { 0, 1 }
-                        dynamics: pointer = VfxAnimatedVector2fVariableData {
-                            times: list[f32] = {
-                                0
-                                0.699999988
-                            }
-                            values: list[vec2] = {
-                                { 0, 0.200000003 }
-                                { 0, 0 }
-                            }
-                        }
-                    }
-                    birthUVOffsetMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 0, -0.100000001 }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1.5
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "mesh_colorroot"
-                disabled: bool = true
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00449999981
-                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00400000019
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_root_rings.scb"
-                    }
-                }
-                blendMode: u8 = 1
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.899999976
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 1
-                disableBackfaceCull: bool = true
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0.800000012, 1, 0.800000012 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.300000012
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1, 1, 1 }
-                            { 1, 1, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_r_stun_tex.tex"
-                texDiv: vec2 = { 0.25, 1 }
-                particleUVScrollRate: embed = IntegratedValueVector2 {
-                    constantValue: vec2 = { -1, 0 }
-                    dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                        }
-                        values: list[vec2] = {
-                            { -3, 0 }
-                            { -0.200000003, 0 }
-                        }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1.5
-                }
-                lifetime: option[f32] = {
-                    0.200000003
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Mesh_subtract_swirl"
-                disabled: bool = true
-                importance: u8 = 3
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00400000019
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_root_wave.scb"
-                    }
-                }
-                blendMode: u8 = 2
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.00100000005
-                            0.200000003
-                            0.5
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.345098048, 0.996078432, 0.874509811, 0 }
-                            { 0.517647088, 0.925490201, 0.0196078438, 1 }
-                            { 0.905882359, 0.478431374, 0.156862751, 1 }
-                            { 0.913725495, 0.650980413, 0.0862745121, 1 }
-                            { 0.517647088, 0.925490201, 0.0196078438, 0 }
-                        }
-                    }
-                }
-                pass: i16 = -1
-                disableBackfaceCull: bool = true
-                isRotationEnabled: flag = true
-                rotation0: embed = IntegratedValueVector3 {
-                    constantValue: vec3 = { 0, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1, 0.5, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_root_tex.tex"
-                birthUVOffset: embed = ValueVector2 {
-                    constantValue: vec2 = { 0.400000006, 0 }
-                }
-                texAddressModeBase: u8 = 2
-                particleUVScrollRate: embed = IntegratedValueVector2 {
-                    constantValue: vec2 = { -1, 0 }
-                    dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                            1
-                        }
-                        values: list[vec2] = {
-                            { -2, 0 }
-                            { -0.200000003, 0 }
-                            { -0.100000001, 0 }
-                        }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 10
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.300000012
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            2
-                        }
-                    }
-                }
-                lifetime: option[f32] = {
-                    0.100000001
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "sparkles"
-                disabled: bool = true
-                birthOrbitalVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.200000003
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 1, 0 }
-                        }
-                    }
-                }
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 200, 0 }
-                }
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 12, 0 }
-                }
-                SpawnShape: pointer = VfxShapeCylinder {
-                    radius: f32 = 60
-                    height: f32 = 23
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 100, 0 }
-                }
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00400000019
-                }
-                blendMode: u8 = 4
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.5
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0, 0.669993162, 0.500007629, 1 }
-                            { 0, 1, 1, 0.839993894 }
-                            { 0, 0.669993162, 0.500007629, 0.850003839 }
-                            { 0, 0.666666687, 0.109803922, 1 }
-                        }
-                    }
-                }
-                isDirectionOriented: flag = true
-                isUniformScale: flag = true
-                isRotationEnabled: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 90, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0
-                                    360
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 90, 1, 0 }
-                        }
-                    }
-                }
-                isLocalOrientation: flag = false
-                directionVelocityScale: f32 = 0.00499999989
-                rotation0: embed = IntegratedValueVector3 {
-                    constantValue: vec3 = { 0, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.200000003
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 20, 0 }
-                            { 0, 1, 0 }
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 30, 65, 65 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    0.800000012
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.699999988
-                                    0.5
-                                    1.29999995
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 30, 65, 65 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.300000012
-                            0.800000012
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 1, 0 }
-                            { 1, 1, 0 }
-                            { 0.300000012, 1, 0 }
-                            { 0.699999988, 1, 0 }
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
-                startFrame: u16 = 1
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1.5
-                }
-                lifetime: option[f32] = {
-                    0.200000003
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "purple_swirl"
-                disabled: bool = true
-                importance: u8 = 3
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00400000019
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_root_wave.scb"
-                    }
-                }
-                blendMode: u8 = 1
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0.899999976
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 2
-                disableBackfaceCull: bool = true
-                isRotationEnabled: flag = true
-                rotation0: embed = IntegratedValueVector3 {
-                    constantValue: vec3 = { 0, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1, 1, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_root_tex.tex"
-                birthUVOffset: embed = ValueVector2 {
-                    constantValue: vec2 = { 0.400000006, 0 }
-                }
-                texAddressModeBase: u8 = 2
-                particleUVScrollRate: embed = IntegratedValueVector2 {
-                    constantValue: vec2 = { -1, 0 }
-                    dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                            1
-                        }
-                        values: list[vec2] = {
-                            { -1, 0 }
-                            { -0.200000003, 0 }
-                            { -0.100000001, 0 }
-                        }
-                    }
-                }
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_cas_color_tendril_mult.tex"
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 2
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLinger: option[f32] = {
-                    0.200000003
-                }
-                lifetime: option[f32] = {
-                    0.400000006
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "soft_glow"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                SpawnShape: pointer = 0xee39916f {
-                    emitOffset: vec3 = { 0, 100, 0 }
-                }
-                Color: embed = ValueColor {
-                    constantValue: vec4 = { 0, 0.839993894, 0.2399939, 1 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.899999976
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0, 0.839993894, 0.2399939, 0 }
-                            { 0, 0.839993894, 0.2399939, 1 }
-                            { 0, 0.839993894, 0.2399939, 0.340001523 }
-                            { 0, 0.839993894, 0.2399939, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 4
-                miscRenderFlags: u8 = 1
-                isUniformScale: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 0, 90 }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 160, 1, 1 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.300000012
-                            0.5
-                            0.699999988
-                            0.899999976
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0.899999976, 0, 0 }
-                            { 1, 0, 0 }
-                            { 0.899999976, 0, 0 }
-                            { 1, 0, 0 }
-                            { 1, 0, 0 }
-                            { 1.10000002, 0, 0 }
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/glow-soft.tex"
-                uvMode: u8 = 2
-                paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
-                    paletteCount: i32 = 8
-                }
-                particleUVRotateRate: embed = IntegratedValueFloat {
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            0
-                        }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 0.300000012
                 }
                 particleLinger: option[f32] = {}
@@ -10609,7 +8328,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_r_prismflash.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_r_prismflash.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -10685,9 +8404,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.Champion_VFX_Memory_Optimization.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
             }
@@ -10879,7 +8598,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 startFrame: u16 = 1
             }
         }
@@ -10977,7 +8696,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.Champion_VFX_Memory_Optimization.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -11156,7 +8875,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.Champion_VFX_Memory_Optimization.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -11320,7 +9039,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -11394,9 +9113,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.Champion_VFX_Memory_Optimization.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
             }
@@ -11538,7 +9257,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -11661,7 +9380,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Flicker_04.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Flicker_04.Champion_VFX_Memory_Optimization.tex"
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     constantValue: vec4 = { 0.898039222, 0.149019614, 0.588235319, 1 }
@@ -11916,7 +9635,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
                 startFrame: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -12002,7 +9721,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_swirls.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
             }
@@ -12767,7 +10486,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_R_AoE_waves.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 6, 0, 0 }
                     }
@@ -13370,7 +11089,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_P_loop.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 7, 0, 0 }
                     }
@@ -13656,7 +11375,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Warwick_Base_BightSpark.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Warwick_Base_BightSpark.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -13700,7 +11419,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.00400000019
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.Champion_VFX_Memory_Optimization.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -13750,7 +11469,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.Champion_VFX_Memory_Optimization.tex"
             }
         }
         particleName: string = "Neeko_Base_W_clone_death"
@@ -13852,7 +11571,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 particleIsLocalOrientation: flag = true
@@ -14103,7 +11822,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_BA_speed_flash.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_BA_speed_flash.Champion_VFX_Memory_Optimization.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -14379,7 +12098,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 birthScale0: embed = ValueVector3 {
@@ -14701,118 +12420,6 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Base"
-                disabled: bool = true
-                importance: u8 = 3
-                birthOrbitalVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 1, 0 }
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                blendMode: u8 = 4
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 1, 0.500007629, 0, 0.590005338 }
-                }
-                Color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.659998477 }
-                }
-                pass: i16 = 800
-                colorLookUpTypeY: u8 = 3
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 119, 119, 0 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.200000003
-                            0.300000012
-                            0.349999994
-                            0.400000006
-                            0.449999988
-                            0.550000012
-                            0.800000012
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1, 1, 1 }
-                            { 0.949999988, 1.04999995, 0.949999988 }
-                            { 1, 1, 1 }
-                            { 1.04999995, 0.975000024, 1.04999995 }
-                            { 1, 1.04999995, 1 }
-                            { 1, 1, 1 }
-                            { 0.980000019, 0.949999988, 0.800000012 }
-                            { 1, 1, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Nami/Skins/Skin32/Particles/Nami_Skin32_Q_New_Ring.tex"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "InnerBubble"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                blendMode: u8 = 1
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.719996929 }
-                }
-                Color: embed = ValueColor {
-                    constantValue: vec4 = { 0.274509817, 0.0156862754, 0.458823532, 0.56078434 }
-                }
-                pass: i16 = -10011
-                miscRenderFlags: u8 = 1
-                isGroundLayer: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 115, 115, 1 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.200000003
-                            0.300000012
-                            0.349999994
-                            0.400000006
-                            0.449999988
-                            0.550000012
-                            0.800000012
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1, 1, 1 }
-                            { 0.949999988, 1.04999995, 0.949999988 }
-                            { 1, 1, 1 }
-                            { 1.04999995, 0.975000024, 1.04999995 }
-                            { 1, 1.04999995, 1 }
-                            { 1, 1, 1 }
-                            { 0.980000019, 0.949999988, 0.800000012 }
-                            { 1, 1, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Nami/Skins/Skin32/Particles/Nami_Skin32_Q_LeadingEdge_Ring.tex"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                lifetime: option[f32] = {
                     7
                 }
                 isSingleParticle: flag = true
@@ -14857,7 +12464,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Maps/Particles/SR/SRX_Infernal_Fire_Mult.TFT_Set16.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
@@ -14872,369 +12479,6 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "DarktBits"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Nami/Skins/Skin32/Particles/Nami_Skin32_Q_debuff_MeshBubbleReverse.scb"
-                    }
-                }
-                blendMode: u8 = 1
-                Color: embed = ValueColor {
-                    constantValue: vec4 = { 0.250980407, 0.0980392173, 0.423529416, 1 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.25
-                            0.5
-                            0.800000012
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.250980407, 0.0980392173, 0.423529416, 1 }
-                            { 0.250980407, 0.0980392173, 0.423529416, 0.975000024 }
-                            { 0.250980407, 0.0980392173, 0.423529416, 1 }
-                            { 0.250980407, 0.0980392173, 0.423529416, 1 }
-                            { 0.250980407, 0.0980392173, 0.423529416, 0 }
-                        }
-                    }
-                }
-                pass: i16 = -20
-                isUniformScale: flag = true
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 14, 10.8000002, 10.8000002 }
-                }
-                texture: string = "ASSETS/Characters/Nami/Skins/Skin32/Particles/Nami_Skin32_Einstein_04_mult.tex"
-                birthUvScrollRate: embed = ValueVector2 {
-                    constantValue: vec2 = { -0.25, 0.200000003 }
-                }
-                birthUVOffset: embed = ValueVector2 {
-                    constantValue: vec2 = { 1, 1 }
-                    dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec2] = {
-                            { 1, 1 }
-                        }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterLinger: option[f32] = {}
-                emitterName: string = "CenterDarkness_Charge"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                blendMode: u8 = 1
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 0.819607854, 0.819607854, 0.819607854, 0.568627477 }
-                }
-                Color: embed = ValueColor {
-                    constantValue: vec4 = { 0, 0.729411781, 0.509803951, 0.933333337 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.200000003
-                            0.400000006
-                            0.800000012
-                        }
-                        values: list[vec4] = {
-                            { 0, 0.697946966, 0.48781237, 0 }
-                            { 0, 0.729411781, 0.509803951, 0.933333337 }
-                            { 0, 0.729411781, 0.509803951, 0.933333337 }
-                            { 0, 0.729411781, 0.509803951, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 50
-                alphaRef: u8 = 0
-                miscRenderFlags: u8 = 1
-                isGroundLayer: flag = true
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 132, 132, 115 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.200000003
-                            0.300000012
-                            0.349999994
-                            0.400000006
-                            0.449999988
-                            0.550000012
-                            0.800000012
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1, 1, 1 }
-                            { 0.949999988, 1.04999995, 0.949999988 }
-                            { 1, 1, 1 }
-                            { 1.04999995, 0.975000024, 1.04999995 }
-                            { 1, 1.04999995, 1 }
-                            { 1, 1, 1 }
-                            { 0.980000019, 0.949999988, 0.800000012 }
-                            { 1, 1, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Nami/Skins/Skin32/Particles/Nami_Skin32_Water_30.tex"
-                uvMode: u8 = 2
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2.95000005
-                }
-                lifetime: option[f32] = {
-                    0.100000001
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Edge"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                blendMode: u8 = 4
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.620004594 }
-                }
-                Color: embed = ValueColor {
-                    constantValue: vec4 = { 0.800000012, 0, 1, 1 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.150000006
-                            0.850000024
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.800000012, 0, 1, 0 }
-                            { 0.800000012, 0, 1, 1 }
-                            { 0.800000012, 0, 1, 1 }
-                            { 0.238431379, 0, 0.298039228, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 25
-                colorLookUpScales: vec2 = { 1, 0.200000003 }
-                miscRenderFlags: u8 = 1
-                isGroundLayer: flag = true
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 125, 125, 1 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.200000003
-                            0.300000012
-                            0.349999994
-                            0.400000006
-                            0.449999988
-                            0.550000012
-                            0.800000012
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1, 1, 1 }
-                            { 0.949999988, 1.04999995, 0.949999988 }
-                            { 1, 1, 1 }
-                            { 1.04999995, 0.975000024, 1.04999995 }
-                            { 1, 1.04999995, 1 }
-                            { 1, 1, 1 }
-                            { 0.980000019, 0.949999988, 0.800000012 }
-                            { 1, 1, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Nami/Skins/Skin32/Particles/Nami_Skin32_W_ShieldEdge.tex"
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    birthUvScrollRateMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 0, 0.150000006 }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 10
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.699999988
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                emitterName: string = "Distortion"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[f32] = {
-                            1
-                            0.5
-                        }
-                    }
-                }
-                SpawnShape: pointer = VfxShapeLegacy {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 15, 0, 0 }
-                    }
-                    emitRotationAngles: list[embed] = {
-                        ValueFloat {
-                            constantValue: f32 = 1
-                            dynamics: pointer = VfxAnimatedFloatVariableData {
-                                probabilityTables: list[pointer] = {
-                                    VfxProbabilityTableData {
-                                        keyTimes: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        keyValues: list[f32] = {
-                                            0
-                                            360
-                                        }
-                                    }
-                                }
-                                times: list[f32] = {
-                                    0
-                                }
-                                values: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
-                    }
-                    emitRotationAxes: list[vec3] = {
-                        { 0, 1.00000012, 0 }
-                    }
-                }
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
-                }
-                particleColorTexture: string = "ASSETS/Characters/Nami/Skins/Skin32/Particles/Nami_Skin32_common_color_bellcurve32.tex"
-                blendMode: u8 = 1
-                pass: i16 = 1300
-                distortionDefinition: pointer = VfxDistortionDefinitionData {
-                    distortion: f32 = 0.0900000036
-                    distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Nami/Skins/Skin32/Particles/Nami_Skin32_common_distort_heat.tex"
-                }
-                miscRenderFlags: u8 = 1
-                isUniformScale: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0
-                                    360
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 1, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 150, 200, 0 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 0 }
-                            { 2, 2, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Nami/Skins/Skin32/Particles/Nami_Skin32_Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -15285,7 +12529,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -15334,7 +12578,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -15384,7 +12628,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.Champion_VFX_Memory_Optimization.tex"
             }
         }
         particleName: string = "Neeko_Bubble"
@@ -15392,465 +12636,6 @@ entries: map[hash,embed] = {
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_Channel_cas_self" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 0.0500000007
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 50
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    0.5
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.300000012
-                                    0.5
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            1
-                        }
-                    }
-                }
-                particleLinger: option[f32] = {
-                    11
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                fieldCollectionDefinition: pointer = VfxFieldCollectionDefinitionData {
-                    fieldAttractionDefinitions: list[embed] = {
-                        VfxFieldAttractionDefinitionData {
-                            Position: embed = ValueVector3 {
-                                constantValue: vec3 = { 0, 150, 0 }
-                            }
-                            radius: embed = ValueFloat {
-                                constantValue: f32 = 1000
-                            }
-                            acceleration: embed = ValueFloat {
-                                constantValue: f32 = 1500
-                            }
-                        }
-                    }
-                    fieldNoiseDefinitions: list[embed] = {
-                        VfxFieldNoiseDefinitionData {
-                            radius: embed = ValueFloat {
-                                constantValue: f32 = 500
-                            }
-                            frequency: embed = ValueFloat {
-                                constantValue: f32 = 200
-                            }
-                            velocityDelta: embed = ValueFloat {
-                                constantValue: f32 = 30
-                            }
-                            axisFraction: vec3 = { 1, 1, 1 }
-                        }
-                    }
-                }
-                emitterName: string = "fireflies_poof"
-                disabled: bool = true
-                importance: u8 = 3
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { -1000, 1000, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    0.800000012
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0
-                                    0.5
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { -1000, 1000, 0 }
-                        }
-                    }
-                }
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 5, 10, 5 }
-                }
-                birthAcceleration: embed = ValueVector3 {
-                    constantValue: vec3 = { 200, 0, 0 }
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                SpawnShape: pointer = VfxShapeCylinder {
-                    flags: u8 = 1
-                    radius: f32 = 20
-                    height: f32 = 20
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 50, 0 }
-                }
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
-                }
-                blendMode: u8 = 4
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.5
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0, 0.669993162, 0.500007629, 0.259998471 }
-                            { 0, 1, 1, 0.549996197 }
-                            { 0, 0.669993162, 0.500007629, 0.680003047 }
-                            { 0, 0.666666687, 0.109803922, 1 }
-                        }
-                    }
-                }
-                pass: i16 = 1
-                alphaRef: u8 = 80
-                miscRenderFlags: u8 = 1
-                isDirectionOriented: flag = true
-                isRandomStartFrame: flag = true
-                isLocalOrientation: flag = false
-                directionVelocityScale: f32 = 0.00999999978
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 20, 20, 40 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                            0.600000024
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                            { 0.300000012, 0.300000012, 1 }
-                            { 1, 1, 1 }
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_W_spark.tex"
-                numFrames: u16 = 4
-            }
-            VfxEmitterDefinitionData {
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLinger: option[f32] = {}
-                lifetime: option[f32] = {
-                    0.5
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "tattoo_splash"
-                disabled: bool = true
-                importance: u8 = 3
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        times: list[f32] = {
-                            0
-                            0.400000006
-                            0.5
-                        }
-                        values: list[f32] = {
-                            1
-                            1
-                            1
-                        }
-                    }
-                }
-                SpawnShape: pointer = 0xee39916f {
-                    emitOffset: vec3 = { 0, 50, 0 }
-                }
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_P_transform.scb"
-                    }
-                }
-                blendMode: u8 = 4
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.200000003
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 1 }
-                            { 0, 1, 0.498039216, 1 }
-                        }
-                    }
-                }
-                pass: i16 = 5
-                meshRenderFlags: u8 = 0
-                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
-                    erosionDriveCurve: embed = ValueFloat {
-                        dynamics: pointer = VfxAnimatedFloatVariableData {
-                            times: list[f32] = {
-                                0
-                                0.100000001
-                                1
-                            }
-                            values: list[f32] = {
-                                0.100000001
-                                0.25
-                                1
-                            }
-                        }
-                    }
-                    erosionFeatherOut: f32 = 0.150000006
-                    erosionSliceWidth: f32 = 1
-                    erosionMapName: string = "ASSETS/Characters/Lucian/Skins/Skin08/Particles/Lucian_Skin08_Clouds.tex"
-                    erosionMapChannelMixer: embed = ValueColor {
-                        constantValue: vec4 = { 0, 0, 1, 0.0800030529 }
-                    }
-                }
-                disableBackfaceCull: bool = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0
-                                    360
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 1, 0 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.200000003
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 0.5, 1, 0.5 }
-                            { 1, 1, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_P_loop.tex"
-                paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
-                    paletteSelector: embed = ValueVector3 {
-                        constantValue: vec3 = { 1, 0, 0 }
-                    }
-                    paletteCount: i32 = 8
-                }
-                birthUVOffset: embed = ValueVector2 {
-                    constantValue: vec2 = { 0, 0.200000003 }
-                }
-                texDiv: vec2 = { 0.200000003, 1 }
-                particleUVScrollRate: embed = IntegratedValueVector2 {
-                    constantValue: vec2 = { 1, 2 }
-                    dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.400000006
-                            1
-                        }
-                        values: list[vec2] = {
-                            { 0, 4 }
-                            { 0, 1 }
-                            { 0, 0.200000003 }
-                        }
-                    }
-                }
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_P_texture.tex"
-                    birthUVOffsetMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 1, 1 }
-                        dynamics: pointer = VfxAnimatedVector2fVariableData {
-                            probabilityTables: list[pointer] = {
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                }
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                }
-                            }
-                            times: list[f32] = {
-                                0
-                            }
-                            values: list[vec2] = {
-                                { 1, 1 }
-                            }
-                        }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.699999988
-                }
-                particleLinger: option[f32] = {}
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Avatar_green"
-                disabled: bool = true
-                importance: u8 = 1
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                primitive: pointer = VfxPrimitiveAttachedMesh {}
-                blendMode: u8 = 1
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0, 0.86999315, 1, 0 }
-                            { 0.00784313772, 1, 0.419607848, 0.368627459 }
-                            { 0.00999465957, 1, 0.160006106, 0 }
-                        }
-                    }
-                }
-                disableBackfaceCull: bool = true
-                miscRenderFlags: u8 = 1
-                particleIsLocalOrientation: flag = true
-                isRandomStartFrame: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1.00999999, 1.00999999, 1.00999999 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.200000003
-                            0.800000012
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1.39999998, 1, 1.39999998 }
-                            { 1, 1, 1 }
-                            { 1, 1, 1 }
-                            { 1.10000002, 1.10000002, 1.10000002 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/DefaultColorOverlifetime.tex"
-                numFrames: u16 = 4
-            }
-            VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 0.600000024
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
-                }
-                particleLinger: option[f32] = {
-                    3
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Avatar_tattoo_linger"
-                disabled: bool = true
-                importance: u8 = 3
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                primitive: pointer = VfxPrimitiveAttachedMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mLockMeshToAttachment: bool = true
-                    }
-                }
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0, 0.996078432, 0.247058824, 1 }
-                            { 0, 1, 0, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 1
-                particleIsLocalOrientation: flag = true
-                isUniformScale: flag = true
-                isRandomStartFrame: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1.00999999, 1, 1 }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/DefaultColorOverlifetime.tex"
-                numFrames: u16 = 4
-                birthUvScrollRate: embed = ValueVector2 {
-                    constantValue: vec2 = { 0.400000006, 0.200000003 }
-                }
-                texDiv: vec2 = { 0.5, 0.5 }
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_P_tattoo.tex"
-                }
-            }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
                     constantValue: f32 = 1
@@ -15890,7 +12675,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0199999996
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.Champion_VFX_Memory_Optimization.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -15940,7 +12725,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -16170,7 +12955,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -16356,182 +13141,6 @@ entries: map[hash,embed] = {
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
                 rate: embed = ValueFloat {
-                    constantValue: f32 = 75
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.5
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.600000024
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            0.5
-                        }
-                    }
-                }
-                particleLinger: option[f32] = {
-                    0.5
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "sparks"
-                disabled: bool = true
-                birthOrbitalVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 0.200000003, 0.200000003, 0.200000003 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0
-                                    0.200000003
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0.200000003, 0.200000003, 0.200000003 }
-                        }
-                    }
-                }
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 1000, 1000, 1000 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.150000006
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 1000, 1000, 1000 }
-                        }
-                    }
-                }
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 3, 3, 3 }
-                }
-                SpawnShape: pointer = VfxShapeCylinder {
-                    flags: u8 = 1
-                    radius: f32 = 25
-                    height: f32 = 15
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 5, 0 }
-                }
-                particleColorTexture: string = "ASSETS/Characters/Vi/Skins/Base/Particles/common_color-firemissile.tex"
-                pass: i16 = 2
-                colorLookUpTypeY: u8 = 3
-                colorLookUpScales: vec2 = { 1, 0.5 }
-                colorLookUpOffsets: vec2 = { 0, 0.5 }
-                isDirectionOriented: flag = true
-                directionVelocityScale: f32 = 0.00999999978
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 5, 5, 8 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    0.800000012
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.300000012
-                                    1
-                                    3
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.800000012
-                                    1.20000005
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 5, 5, 8 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 5, 5, 5 }
-                            { 1, 1, 1 }
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Vi/Skins/Base/Particles/common_solar_tag.tex"
-                startFrame: u16 = 1
-            }
-            VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 0.0500000007
-                rate: embed = ValueFloat {
                     constantValue: f32 = 1
                 }
                 particleLifetime: embed = ValueFloat {
@@ -16608,56 +13217,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 texture: string = "ASSETS/Characters/Vi/Skins/Base/Particles/Vi_Shockwave_02.tex"
-            }
-            VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 0.0500000007
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
-                }
-                particleLinger: option[f32] = {
-                    2.5
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "burnt_ground"
-                disabled: bool = true
-                SpawnShape: pointer = 0xee39916f {
-                    emitOffset: vec3 = { 0, 3, 0 }
-                }
-                primitive: pointer = VfxPrimitiveArbitraryQuad {}
-                blendMode: u8 = 4
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.200000003
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 0.666666687, 0.498039216, 0 }
-                            { 1, 0.533333361, 0, 0.31764707 }
-                            { 1, 0.330006868, 0, 0.11999695 }
-                            { 0.666666687, 0, 0, 0 }
-                        }
-                    }
-                }
-                meshRenderFlags: u8 = 0
-                miscRenderFlags: u8 = 1
-                isUniformScale: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { -90, 0, 0 }
-                }
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 400, 400, 400 }
-                }
-                texture: string = "ASSETS/Characters/Vi/Skins/Base/Particles/common_Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -17527,40 +14086,6 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
-                }
-                particleLinger: option[f32] = {
-                    2
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterLinger: option[f32] = {
-                    1
-                }
-                emitterName: string = "Basic"
-                disabled: bool = true
-                primitive: pointer = VfxPrimitivePlanarProjection {
-                    mProjection: embed = VfxProjectionDefinitionData {
-                        mYRange: f32 = 50
-                        mFading: f32 = 100
-                    }
-                }
-                particleColorTexture: string = "ASSETS/Characters/Vi/Skins/Base/Particles/Vi_Base_R_ground_RGBA.tex"
-                blendMode: u8 = 1
-                isUniformScale: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 240, 240, 240 }
-                }
-                texture: string = "ASSETS/Characters/Vi/Skins/Base/Particles/Vi_Base_R_ground_crack.tex"
-            }
-            VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 0.0500000007
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 0.699999988
                 }
                 particleLinger: option[f32] = {
@@ -17649,64 +14174,6 @@ entries: map[hash,embed] = {
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.0500000007 }
                 }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.100000001
-                }
-                particleLinger: option[f32] = {
-                    10.3000002
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Streak"
-                disabled: bool = true
-                primitive: pointer = VfxPrimitiveRay {}
-                blendMode: u8 = 4
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.600000024
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 0, 0.666666687, 1, 1 }
-                            { 0, 0, 0.498039216, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 11
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { -90, 0, 90 }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 80, 700, 1 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.5
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 2, -50 }
-                            { 1, 2, -350 }
-                            { 0.5, 2, -500 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Vi/Skins/Base/Particles/Flare-Omnimax.tex"
-                startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.150000006
@@ -17894,7 +14361,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -18046,7 +14513,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -18073,7 +14540,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GroundImpactPetal.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GrImpact_Petal_OPT1.Champion_VFX_Memory_Optimization.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -18098,12 +14565,12 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 8, 12, 8 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_FlowerGround_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_FlowerGround_01.Champion_VFX_Memory_Optimization.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 5, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.Champion_VFX_Memory_Optimization.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1 }
@@ -18127,7 +14594,7 @@ entries: map[hash,embed] = {
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
                 rate: embed = ValueFloat {
-                    constantValue: f32 = 1
+                    constantValue: f32 = 2
                 }
                 particleLifetime: embed = ValueFloat {
                     constantValue: f32 = 0.600000024
@@ -18148,7 +14615,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GroundImpactPetal.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GrImpact_Petal_OPT1.Champion_VFX_Memory_Optimization.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -18173,7 +14640,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 4, 12, 4 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_FlowerGround_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_FlowerGround_01.Champion_VFX_Memory_Optimization.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0 }
                 }
@@ -18181,7 +14648,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 5, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.Champion_VFX_Memory_Optimization.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1 }
@@ -18226,7 +14693,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GroundImpactPetal.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GrImpact_Petal_OPT1.Champion_VFX_Memory_Optimization.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -18251,12 +14718,12 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 12, 12, 12 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 3, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.Champion_VFX_Memory_Optimization.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1 }
@@ -18301,7 +14768,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GroundImpactPetal.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GrImpact_Petal_OPT1.Champion_VFX_Memory_Optimization.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -18340,53 +14807,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 3, 1 }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1233
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.200000003
-                }
-                particleLinger: option[f32] = {
-                    0.400000006
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Temp_Avatar"
-                disabled: bool = true
-                primitive: pointer = VfxPrimitiveAttachedMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mLockMeshToAttachment: bool = true
-                    }
-                }
-                blendMode: u8 = 1
-                Color: embed = ValueColor {
-                    constantValue: vec4 = { 0.213672087, 0, 0, 1 }
-                }
-                pass: i16 = 1233
-                alphaRef: u8 = 0
-                reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    fresnel: f32 = 0.200000003
-                    fresnelColor: vec4 = { 0, 1, 0.421332121, 0 }
-                }
-                miscRenderFlags: u8 = 1
-                isUniformScale: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1.00999999, 1, 1 }
-                }
-                scale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0.699999988, 1, 1 }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.tex"
-                birthUvScrollRate: embed = ValueVector2 {
-                    constantValue: vec2 = { 0, 1 }
                 }
             }
         }
@@ -18569,7 +14992,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 1, 0 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -18772,7 +15195,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.Champion_VFX_Memory_Optimization.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 particleIsLocalOrientation: flag = true
@@ -18791,7 +15214,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.Champion_VFX_Memory_Optimization.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -18873,7 +15296,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_leadingedge.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_leadingedge.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -18950,7 +15373,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.Champion_VFX_Memory_Optimization.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 particleIsLocalOrientation: flag = true
@@ -18969,7 +15392,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.Champion_VFX_Memory_Optimization.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -19239,7 +15662,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Warwick_Base_BightSpark.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Warwick_Base_BightSpark.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -19703,7 +16126,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -19860,7 +16283,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.Champion_VFX_Memory_Optimization.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.300000012, 0 }
                 }
@@ -19952,7 +16375,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Ezreal_Base_E_ringglow.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -20290,7 +16713,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/glow-soft.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -20658,7 +17081,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -20753,7 +17176,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -0.600000024, 1 }
                     }
@@ -20905,7 +17328,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -21007,7 +17430,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_P_loop.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 7, 0, 0 }
                     }
@@ -21430,7 +17853,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 startFrame: u16 = 1
             }
         }
@@ -21619,7 +18042,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.Champion_VFX_Memory_Optimization.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.300000012, 0 }
                 }
@@ -21731,7 +18154,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.Champion_VFX_Memory_Optimization.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.300000012, 0 }
                 }
@@ -21819,7 +18242,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Ezreal_Base_E_ringglow.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -21903,7 +18326,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Ezreal_Base_E_ringglow.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -22330,16 +18753,16 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 45, 45, 20 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_ImpactGlow.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_ImpactGlow.Champion_VFX_Memory_Optimization.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
                     paletteCount: i32 = 8
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Flicker_04.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Flicker_04.Champion_VFX_Memory_Optimization.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0 }
                     }
@@ -22512,9 +18935,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 45, 25, 20 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
                     texDivMult: vec2 = { 2, 2 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0 }
@@ -22914,7 +19337,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_P_loop.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 1, 0, 0 }
                     }
@@ -23131,7 +19554,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0199999996
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.Champion_VFX_Memory_Optimization.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -23181,7 +19604,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -23312,7 +19735,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -23429,7 +19852,7 @@ entries: map[hash,embed] = {
                 meshRenderFlags: u8 = 0
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.100000001
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.Champion_VFX_Memory_Optimization.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -23452,7 +19875,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -23541,7 +19964,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Z_ball01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Z_ball01.Champion_VFX_Memory_Optimization.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_AoE_flower_erode.tex"
                 }
@@ -23741,7 +20164,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_AoE_petal.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 6, 0, 0 }
                     }
@@ -23910,7 +20333,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 numFrames: u16 = 4
             }
         }
@@ -23919,297 +20342,6 @@ entries: map[hash,embed] = {
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_ChannelLine" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
-                }
-                lifetime: option[f32] = {
-                    8
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "streaks"
-                disabled: bool = true
-                importance: u8 = 3
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                primitive: pointer = VfxPrimitiveBeam {
-                    mBeam: embed = VfxBeamDefinitionData {
-                        mBirthTilingSize: embed = ValueVector3 {
-                            constantValue: vec3 = { 0, 500, 0 }
-                        }
-                    }
-                }
-                blendMode: u8 = 1
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.360006094 }
-                }
-                Color: embed = ValueColor {
-                    constantValue: vec4 = { 0.117647059, 0, 0, 1 }
-                }
-                pass: i16 = 1
-                colorLookUpTypeY: u8 = 3
-                alphaRef: u8 = 0
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 30, 1, 1 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    2
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 30, 1, 1 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.0306469928
-                            0.0658342764
-                            0.103291713
-                            0.143586829
-                            0.184449494
-                            0.311010212
-                            0.357548237
-                            0.399545968
-                            0.440408617
-                            0.481271297
-                            0.646140754
-                            0.681328058
-                            0.7142452
-                            0.742622018
-                            0.772133946
-                            0.785244048
-                            0.801645875
-                            0.817536891
-                            0.860669672
-                            0.879965961
-                            0.894721925
-                            0.90947789
-                            0.942395031
-                            0.954880834
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1.00502515, 1, 1 }
-                            { 0.854271352, 1, 1 }
-                            { 1.33668339, 1, 1 }
-                            { 0.791659296, 1, 1 }
-                            { 1.00251257, 1, 1 }
-                            { 1.02010047, 1, 1 }
-                            { 0.869346738, 1, 1 }
-                            { 1.25628138, 1, 1 }
-                            { 0.496931911, 1, 1 }
-                            { 1.02010047, 1, 1 }
-                            { 1.01633167, 1, 1 }
-                            { 1.24246228, 1, 1 }
-                            { 0.455272585, 1, 1 }
-                            { 1.01130652, 1, 1 }
-                            { 1.00879395, 1, 1 }
-                            { 1.1909548, 1, 1 }
-                            { 0.61155653, 1, 1 }
-                            { 1.00879395, 1, 1 }
-                            { 1.0037688, 1, 1 }
-                            { 0.928391933, 1, 1 }
-                            { 1.19472361, 1, 1 }
-                            { 0.515978158, 1, 1 }
-                            { 1.32449305, 1, 1 }
-                            { 1.0138191, 1, 1 }
-                            { 0, 1, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/Fiddle_Sticks_Shadowy_hand_Beam.tex"
-                particleUVScrollRate: embed = IntegratedValueVector2 {
-                    constantValue: vec2 = { 2, 0 }
-                    dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.272701472
-                            0.488649249
-                            0.602156639
-                            0.665720761
-                            0.792849064
-                            0.897275805
-                            1
-                        }
-                        values: list[vec2] = {
-                            { 0.5, 0 }
-                            { 0.658291459, 0 }
-                            { 0.919597983, 0 }
-                            { 1.24120605, 0 }
-                            { 1.70351756, 0 }
-                            { 1.88442206, 0 }
-                            { 1.98492467, 0 }
-                            { 2, 0 }
-                        }
-                    }
-                }
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/Fiddlesticks_Base_Grain_Mult.tex"
-                    birthUvScrollRateMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 0, 2.5 }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
-                }
-                lifetime: option[f32] = {
-                    8
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "wispy energy"
-                disabled: bool = true
-                importance: u8 = 3
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, -300, 0 }
-                }
-                primitive: pointer = VfxPrimitiveBeam {
-                    mBeam: embed = VfxBeamDefinitionData {
-                        mBirthTilingSize: embed = ValueVector3 {
-                            constantValue: vec3 = { 0, 1800, 0 }
-                        }
-                    }
-                }
-                blendMode: u8 = 1
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.250003815 }
-                }
-                Color: embed = ValueColor {
-                    constantValue: vec4 = { 0.0156862754, 0, 0.0392156877, 1 }
-                }
-                pass: i16 = -4
-                colorLookUpTypeY: u8 = 3
-                alphaRef: u8 = 0
-                miscRenderFlags: u8 = 1
-                isGroundLayer: flag = true
-                useNavmeshMask: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 70, 1, 1 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    2
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 70, 1, 1 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.0306469928
-                            0.0658342764
-                            0.103291713
-                            0.143586829
-                            0.184449494
-                            0.311010212
-                            0.357548237
-                            0.399545968
-                            0.440408617
-                            0.481271297
-                            0.646140754
-                            0.681328058
-                            0.7142452
-                            0.742622018
-                            0.772133946
-                            0.785244048
-                            0.801645875
-                            0.817536891
-                            0.860669672
-                            0.879965961
-                            0.894721925
-                            0.90947789
-                            0.942395031
-                            0.954880834
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1.00502515, 1, 1 }
-                            { 0.854271352, 1, 1 }
-                            { 1.33668339, 1, 1 }
-                            { 0.791659296, 1, 1 }
-                            { 1.00251257, 1, 1 }
-                            { 1.02010047, 1, 1 }
-                            { 0.869346738, 1, 1 }
-                            { 1.25628138, 1, 1 }
-                            { 0.496931911, 1, 1 }
-                            { 1.02010047, 1, 1 }
-                            { 1.01633167, 1, 1 }
-                            { 1.24246228, 1, 1 }
-                            { 0.455272585, 1, 1 }
-                            { 1.01130652, 1, 1 }
-                            { 1.00879395, 1, 1 }
-                            { 1.1909548, 1, 1 }
-                            { 0.61155653, 1, 1 }
-                            { 1.00879395, 1, 1 }
-                            { 1.0037688, 1, 1 }
-                            { 0.928391933, 1, 1 }
-                            { 1.19472361, 1, 1 }
-                            { 0.515978158, 1, 1 }
-                            { 1.32449305, 1, 1 }
-                            { 1.0138191, 1, 1 }
-                            { 0, 1, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/FiddleSticks_Base_W_Smokey_beam.tex"
-                birthUvScrollRate: embed = ValueVector2 {
-                    constantValue: vec2 = { 0.850000024, 0 }
-                }
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/Fiddlesticks_Base_W_Tendril_Beam.tex"
-                    uvScaleMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 1, 0.330000013 }
-                    }
-                    birthUvScrollRateMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 0, 0.600000024 }
-                    }
-                }
-            }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
                     constantValue: f32 = 1
@@ -24380,347 +20512,6 @@ entries: map[hash,embed] = {
                     8
                 }
                 isSingleParticle: flag = true
-                emitterName: string = "outer energy"
-                disabled: bool = true
-                importance: u8 = 3
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, -300, 0 }
-                }
-                primitive: pointer = VfxPrimitiveBeam {
-                    mBeam: embed = VfxBeamDefinitionData {
-                        mBirthTilingSize: embed = ValueVector3 {
-                            constantValue: vec3 = { 0, 450, 0 }
-                        }
-                    }
-                }
-                blendMode: u8 = 4
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 1, 1, 1, 0.149996191 }
-                }
-                Color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 0, 0, 1 }
-                }
-                pass: i16 = 3
-                colorLookUpTypeY: u8 = 3
-                alphaRef: u8 = 0
-                miscRenderFlags: u8 = 1
-                isGroundLayer: flag = true
-                useNavmeshMask: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 70, 1, 1 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    2
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 70, 1, 1 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.0306469928
-                            0.0658342764
-                            0.103291713
-                            0.143586829
-                            0.184449494
-                            0.311010212
-                            0.357548237
-                            0.399545968
-                            0.440408617
-                            0.481271297
-                            0.646140754
-                            0.681328058
-                            0.7142452
-                            0.742622018
-                            0.772133946
-                            0.785244048
-                            0.801645875
-                            0.817536891
-                            0.860669672
-                            0.879965961
-                            0.894721925
-                            0.90947789
-                            0.942395031
-                            0.954880834
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1.00502515, 1, 1 }
-                            { 0.854271352, 1, 1 }
-                            { 1.33668339, 1, 1 }
-                            { 0.791659296, 1, 1 }
-                            { 1.00251257, 1, 1 }
-                            { 1.02010047, 1, 1 }
-                            { 0.869346738, 1, 1 }
-                            { 1.25628138, 1, 1 }
-                            { 0.496931911, 1, 1 }
-                            { 1.02010047, 1, 1 }
-                            { 1.01633167, 1, 1 }
-                            { 1.24246228, 1, 1 }
-                            { 0.455272585, 1, 1 }
-                            { 1.01130652, 1, 1 }
-                            { 1.00879395, 1, 1 }
-                            { 1.1909548, 1, 1 }
-                            { 0.61155653, 1, 1 }
-                            { 1.00879395, 1, 1 }
-                            { 1.0037688, 1, 1 }
-                            { 0.928391933, 1, 1 }
-                            { 1.19472361, 1, 1 }
-                            { 0.515978158, 1, 1 }
-                            { 1.32449305, 1, 1 }
-                            { 1.0138191, 1, 1 }
-                            { 0, 1, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/Fiddle_Sticks_Shadowy_hand_Beam.tex"
-                particleUVScrollRate: embed = IntegratedValueVector2 {
-                    constantValue: vec2 = { 2, 0 }
-                    dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.272701472
-                            0.488649249
-                            0.602156639
-                            0.665720761
-                            0.792849064
-                            0.897275805
-                            1
-                        }
-                        values: list[vec2] = {
-                            { 0.5, 0 }
-                            { 0.658291459, 0 }
-                            { 0.919597983, 0 }
-                            { 1.24120605, 0 }
-                            { 1.70351756, 0 }
-                            { 1.88442206, 0 }
-                            { 1.98492467, 0 }
-                            { 2, 0 }
-                        }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
-                }
-                lifetime: option[f32] = {
-                    8
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Connection Flare"
-                disabled: bool = true
-                importance: u8 = 3
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, -300, 0 }
-                }
-                primitive: pointer = VfxPrimitiveBeam {
-                    mBeam: embed = VfxBeamDefinitionData {
-                        mBirthTilingSize: embed = ValueVector3 {
-                            constantValue: vec3 = { 0, 450, 0 }
-                        }
-                    }
-                }
-                Color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 0, 0, 1 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.00999999978
-                            0.150000006
-                            0.25
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 0, 0, 0 }
-                            { 1, 0, 0, 1 }
-                            { 0.454901963, 0, 0, 1 }
-                            { 0.196078435, 0, 0, 1 }
-                            { 1, 0, 0, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 45
-                colorLookUpTypeY: u8 = 3
-                alphaRef: u8 = 0
-                miscRenderFlags: u8 = 1
-                isGroundLayer: flag = true
-                useNavmeshMask: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 70, 1, 1 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    1
-                                    2
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 70, 1, 1 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.0306469928
-                            0.0658342764
-                            0.103291713
-                            0.143586829
-                            0.184449494
-                            0.311010212
-                            0.357548237
-                            0.399545968
-                            0.440408617
-                            0.481271297
-                            0.646140754
-                            0.681328058
-                            0.7142452
-                            0.742622018
-                            0.772133946
-                            0.785244048
-                            0.801645875
-                            0.817536891
-                            0.860669672
-                            0.879965961
-                            0.894721925
-                            0.90947789
-                            0.942395031
-                            0.954880834
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1.00502515, 1, 1 }
-                            { 0.854271352, 1, 1 }
-                            { 1.33668339, 1, 1 }
-                            { 0.791659296, 1, 1 }
-                            { 1.00251257, 1, 1 }
-                            { 1.02010047, 1, 1 }
-                            { 0.869346738, 1, 1 }
-                            { 1.25628138, 1, 1 }
-                            { 0.496931911, 1, 1 }
-                            { 1.02010047, 1, 1 }
-                            { 1.01633167, 1, 1 }
-                            { 1.24246228, 1, 1 }
-                            { 0.455272585, 1, 1 }
-                            { 1.01130652, 1, 1 }
-                            { 1.00879395, 1, 1 }
-                            { 1.1909548, 1, 1 }
-                            { 0.61155653, 1, 1 }
-                            { 1.00879395, 1, 1 }
-                            { 1.0037688, 1, 1 }
-                            { 0.928391933, 1, 1 }
-                            { 1.19472361, 1, 1 }
-                            { 0.515978158, 1, 1 }
-                            { 1.32449305, 1, 1 }
-                            { 1.0138191, 1, 1 }
-                            { 0, 1, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/Fiddle_Sticks_Shadowy_hand_Beam.tex"
-                particleUVScrollRate: embed = IntegratedValueVector2 {
-                    constantValue: vec2 = { 2, 0 }
-                    dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.272701472
-                            0.488649249
-                            0.602156639
-                            0.665720761
-                            0.792849064
-                            0.897275805
-                            1
-                        }
-                        values: list[vec2] = {
-                            { 0.5, 0 }
-                            { 0.658291459, 0 }
-                            { 0.919597983, 0 }
-                            { 1.24120605, 0 }
-                            { 1.70351756, 0 }
-                            { 1.88442206, 0 }
-                            { 1.98492467, 0 }
-                            { 2, 0 }
-                        }
-                    }
-                }
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/Fiddlesticks_Base_BA_slash.tex"
-                    texAddressModeMult: u8 = 2
-                    uvScrollClampMult: flag = true
-                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
-                        constantValue: vec2 = { 0, 7 }
-                        dynamics: pointer = VfxAnimatedVector2fVariableData {
-                            times: list[f32] = {
-                                0
-                                0.0500000007
-                                0.25
-                                1
-                            }
-                            values: list[vec2] = {
-                                { 0, 7 }
-                                { 0, 10.1499996 }
-                                { 0, 35 }
-                                { 0, 28 }
-                            }
-                        }
-                    }
-                    birthUVOffsetMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 0, -1 }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
-                }
-                lifetime: option[f32] = {
-                    8
-                }
-                isSingleParticle: flag = true
                 emitterName: string = "target energy pan"
                 importance: u8 = 3
                 bindWeight: embed = ValueFloat {
@@ -24828,12 +20619,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_P_MaskBeam_02.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_P_MaskBeam_02.Champion_VFX_Memory_Optimization.tex"
                     texAddressModeMult: u8 = 2
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 90
@@ -25069,7 +20860,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -25132,7 +20923,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_AoE_petal.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 7, 0, 0 }
                     }
@@ -25311,7 +21102,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -25331,7 +21122,7 @@ entries: map[hash,embed] = {
                 meshRenderFlags: u8 = 0
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.100000001
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.Champion_VFX_Memory_Optimization.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -25354,7 +21145,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -25445,7 +21236,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Z_ball01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Z_ball01.Champion_VFX_Memory_Optimization.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_AoE_flower_erode.tex"
                 }
@@ -26079,7 +21870,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -26179,7 +21970,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Z_ball01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Z_ball01.Champion_VFX_Memory_Optimization.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_AoE_flower_erode.tex"
                 }
@@ -26351,7 +22142,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -26439,7 +22230,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_AoE_petal.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 5, 0, 0 }
                     }
@@ -26484,7 +22275,7 @@ entries: map[hash,embed] = {
                 meshRenderFlags: u8 = 0
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.100000001
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.Champion_VFX_Memory_Optimization.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -26507,7 +22298,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.Champion_VFX_Memory_Optimization.tex"
             }
         }
         particleName: string = "Neeko_Base_Q_AoE_01"
@@ -26833,7 +22624,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_circle_tex_root.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
                 birthUVOffset: embed = ValueVector2 {
@@ -26854,105 +22645,6 @@ entries: map[hash,embed] = {
                             { 0, 0.200000003 }
                             { 0, -0.200000003 }
                             { 0, -1.39999998 }
-                        }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
-                }
-                particleLinger: option[f32] = {}
-                lifetime: option[f32] = {
-                    1
-                }
-                emitterName: string = "Detail_pushout"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_circle.scb"
-                    }
-                }
-                blendMode: u8 = 4
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0.100000001
-                            0.300000012
-                            0.5
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.517647088, 0.925490201, 0.0196078438, 0 }
-                            { 0.345098048, 0.996078432, 0.874509811, 1 }
-                            { 0.345098048, 0.996078432, 0.874509811, 1 }
-                            { 0.843137264, 0.270588249, 0.250980407, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 1
-                disableBackfaceCull: bool = true
-                isUniformScale: flag = true
-                isRotationEnabled: flag = true
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 0, 1 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0.800000012, 1, 1.79999995 }
-                            { 1, 1, 2 }
-                            { 1, 1, 2 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_P_tattoo.tex"
-                paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
-                    paletteCount: i32 = 8
-                }
-                birthUVOffset: embed = ValueVector2 {
-                    constantValue: vec2 = { 0.200000003, 0.899999976 }
-                }
-                texDiv: vec2 = { 0.5, 2 }
-                particleUVScrollRate: embed = IntegratedValueVector2 {
-                    constantValue: vec2 = { 0, -1 }
-                    dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.699999988
-                        }
-                        values: list[vec2] = {
-                            { 0, -0.5 }
-                            { 0, -0 }
-                        }
-                    }
-                }
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_mesh.tex"
-                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
-                        constantValue: vec2 = { 0, -1 }
-                        dynamics: pointer = VfxAnimatedVector2fVariableData {
-                            times: list[f32] = {
-                                0
-                                1
-                            }
-                            values: list[vec2] = {
-                                { 0, -1 }
-                                { 0, -0 }
-                            }
                         }
                     }
                 }
@@ -27040,177 +22732,10 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.Champion_VFX_Memory_Optimization.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.200000003 }
                     }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
-                }
-                particleLinger: option[f32] = {}
-                lifetime: option[f32] = {
-                    1
-                }
-                emitterName: string = "circle3"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_indicator.scb"
-                    }
-                }
-                blendMode: u8 = 4
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.800000012
-                            0.899999976
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.669993162, 1, 0.500007629, 0 }
-                            { 0.290196091, 0.937254906, 0.839215696, 1 }
-                            { 0.870588243, 1, 0.219607845, 1 }
-                            { 0.770000756, 1, 0, 0 }
-                        }
-                    }
-                }
-                pass: i16 = -5
-                disableBackfaceCull: bool = true
-                miscRenderFlags: u8 = 1
-                isUniformScale: flag = true
-                isGroundLayer: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1.20000005, 1, 1 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0.899999976, 0, 0 }
-                            { 1, 1, 1 }
-                            { 1, 0, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_indicator.tex"
-                uvMode: u8 = 2
-                birthUvScrollRate: embed = ValueVector2 {
-                    constantValue: vec2 = { 0, 0.300000012 }
-                }
-                texDiv: vec2 = { 0.200000003, 1 }
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_P_tattoo_brighter.tex"
-                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
-                        constantValue: vec2 = { 0, 1 }
-                        dynamics: pointer = VfxAnimatedVector2fVariableData {
-                            times: list[f32] = {
-                                0
-                                0.699999988
-                                1
-                            }
-                            values: list[vec2] = {
-                                { 0, -0.699999988 }
-                                { 0, 0 }
-                                { 0, 1 }
-                            }
-                        }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1.79999995
-                }
-                particleLinger: option[f32] = {}
-                lifetime: option[f32] = {
-                    1.20000005
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "mesh_center_lines1"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_cas_tendrils.scb"
-                    }
-                }
-                blendMode: u8 = 4
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.5
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.517647088, 0.925490201, 0.0196078438, 1 }
-                            { 0.517647088, 0.925490201, 0.0196078438, 1 }
-                            { 0.517647088, 0.925490201, 0.0196078438, 1 }
-                        }
-                    }
-                }
-                pass: i16 = -1
-                alphaRef: u8 = 0
-                disableBackfaceCull: bool = true
-                miscRenderFlags: u8 = 1
-                isGroundLayer: flag = true
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1.29999995, 1.39999998, 1.29999995 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.400000006
-                        }
-                        values: list[vec3] = {
-                            { 0.800000012, 1, 0.800000012 }
-                            { 1, 1, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_root_rings.tex"
-                uvMode: u8 = 2
-                paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
-                    paletteCount: i32 = 8
-                }
-                texDiv: vec2 = { 1.20000005, 1 }
-                particleUVScrollRate: embed = IntegratedValueVector2 {
-                    constantValue: vec2 = { 1.20000005, 0 }
-                    dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec2] = {
-                            { -0.600000024, 0 }
-                            { -0.600000024, 0 }
-                        }
-                    }
-                }
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_P_texture.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -27251,87 +22776,6 @@ entries: map[hash,embed] = {
                     constantValue: vec3 = { 1.00999999, 1.00999999, 1.00999999 }
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Neeko_Base_W.tex"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
-                }
-                particleLinger: option[f32] = {}
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "ConeBurst1"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_AoE_cone_02.scb"
-                    }
-                }
-                blendMode: u8 = 1
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.5
-                            0.850000024
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.519996941, 0.930006862, 0.0200045779, 0 }
-                            { 0.140001521, 0.0699931309, 0.220004573, 0.11999695 }
-                            { 0.140001521, 0.0699931309, 0.220004573, 0.570000768 }
-                            { 0.140001521, 0.0699931309, 0.220004573, 0 }
-                        }
-                    }
-                }
-                pass: i16 = -15
-                disableBackfaceCull: bool = true
-                miscRenderFlags: u8 = 1
-                isGroundLayer: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, -40, 0 }
-                }
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 5, 0, 5 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 0, 1 }
-                            { 1, 0, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neek_Base_R_AoE_ring_indicator.tex"
-                birthUVOffset: embed = ValueVector2 {
-                    constantValue: vec2 = { 0, 0.300000012 }
-                }
-                texDiv: vec2 = { 0.300000012, 1 }
-                particleUVScrollRate: embed = IntegratedValueVector2 {
-                    constantValue: vec2 = { 0, 1 }
-                    dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec2] = {
-                            { 0, 0.100000001 }
-                            { 0, 0 }
-                        }
-                    }
-                }
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -27570,63 +23014,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Flare-Omnimax.tex"
-            }
-            VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 0.400000006
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 2
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1.60000002
-                }
-                particleLinger: option[f32] = {}
-                lifetime: option[f32] = {
-                    1.20000005
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Flash_darkglow"
-                disabled: bool = true
-                importance: u8 = 3
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                            0.899999976
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.0196078438, 0.925490201, 0.596078455, 0 }
-                            { 0.110002287, 0.700007617, 0.910002291, 0.590005338 }
-                            { 0.450003803, 0.200000003, 0.540001512, 1 }
-                            { 0.839993894, 0.269993126, 0.250003815, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 3
-                miscRenderFlags: u8 = 1
-                isUniformScale: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 10, 50, 40 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 0.5 }
-                            { 3, 3, 3 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/glow-soft.tex"
-                startFrame: u16 = 4
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Flare-Omnimax.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -28029,7 +23417,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -28205,7 +23593,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -28593,7 +23981,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -28714,7 +24102,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_P_loop.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 1, 0, 0 }
                     }
@@ -28939,7 +24327,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0199999996
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.Champion_VFX_Memory_Optimization.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -28989,7 +24377,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -29104,7 +24492,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.Champion_VFX_Memory_Optimization.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 1 }
                 }
@@ -29156,12 +24544,12 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.Champion_VFX_Memory_Optimization.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.5 }
                     }
@@ -29447,7 +24835,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -29727,7 +25115,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 numFrames: u16 = 4
             }
         }
@@ -29804,10 +25192,10 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { -10, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_edge.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_edge.Champion_VFX_Memory_Optimization.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -29963,9 +25351,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.Champion_VFX_Memory_Optimization.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -30476,7 +25864,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_circle_tex_root.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
                 birthUVOffset: embed = ValueVector2 {
@@ -30562,7 +25950,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_P_tattoo.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
                 birthUVOffset: embed = ValueVector2 {
@@ -30583,7 +25971,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_mesh.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_mesh.Champion_VFX_Memory_Optimization.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, -1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -30679,7 +26067,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.Champion_VFX_Memory_Optimization.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.200000003 }
                     }
@@ -30826,10 +26214,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_root_rings.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_root_rings.Champion_VFX_Memory_Optimization.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
                 texDiv: vec2 = { 1.20000005, 1 }
@@ -30905,7 +26293,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
                 startFrame: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -31408,7 +26796,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1
@@ -31461,7 +26849,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.Champion_VFX_Memory_Optimization.tex"
                 numFrames: u16 = 4
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 2 }
@@ -31862,7 +27250,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 startFrame: u16 = 1
             }
         }
@@ -32061,7 +27449,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -32138,7 +27526,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
             }
         }
         particleName: string = "Neeko_Base_E_cas_child"
@@ -32146,279 +27534,6 @@ entries: map[hash,embed] = {
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1.5
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Mesh_darkswiles"
-                disabled: bool = true
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00449999981
-                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00400000019
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_root.scb"
-                    }
-                }
-                blendMode: u8 = 1
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.200000003
-                            0.899999976
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.262745112, 0.184313729, 0.282352954, 1 }
-                            { 0.141176477, 0.0745098069, 0.215686277, 1 }
-                            { 0.141176477, 0.0745098069, 0.215686277, 1 }
-                            { 0.141176477, 0.0745098069, 0.215686277, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 6
-                disableBackfaceCull: bool = true
-                isRotationEnabled: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 180, 0 }
-                }
-                rotation0: embed = IntegratedValueVector3 {
-                    constantValue: vec3 = { 0, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 2, 0 }
-                            { 0, 1, 0 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.200000003
-                        }
-                        values: list[vec3] = {
-                            { 1.5, 1, 1.5 }
-                            { 1.29999995, 0.800000012, 1.29999995 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_root_tex.tex"
-                texAddressModeBase: u8 = 2
-                particleUVScrollRate: embed = IntegratedValueVector2 {
-                    constantValue: vec2 = { 0, 1 }
-                    dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                            1
-                        }
-                        values: list[vec2] = {
-                            { 0, 1 }
-                            { 0, 0.5 }
-                            { 0, 0.100000001 }
-                        }
-                    }
-                }
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_root_tex_mult.tex"
-                    ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
-                        constantValue: vec2 = { 0, 1 }
-                        dynamics: pointer = VfxAnimatedVector2fVariableData {
-                            times: list[f32] = {
-                                0
-                                0.699999988
-                            }
-                            values: list[vec2] = {
-                                { 0, 0.200000003 }
-                                { 0, 0 }
-                            }
-                        }
-                    }
-                    birthUVOffsetMult: embed = ValueVector2 {
-                        constantValue: vec2 = { 0, -0.100000001 }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1.5
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "mesh_colorroot"
-                disabled: bool = true
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00449999981
-                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00400000019
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_root_rings.scb"
-                    }
-                }
-                blendMode: u8 = 1
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.899999976
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 1
-                disableBackfaceCull: bool = true
-                isLocalOrientation: flag = false
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0.800000012, 1, 0.800000012 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.300000012
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1, 1, 1 }
-                            { 1, 1, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_r_stun_tex.tex"
-                texDiv: vec2 = { 0.25, 1 }
-                particleUVScrollRate: embed = IntegratedValueVector2 {
-                    constantValue: vec2 = { -1, 0 }
-                    dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                        }
-                        values: list[vec2] = {
-                            { -3, 0 }
-                            { -0.200000003, 0 }
-                        }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1.5
-                }
-                lifetime: option[f32] = {
-                    0.200000003
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Mesh_subtract_swirl"
-                disabled: bool = true
-                importance: u8 = 3
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00400000019
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_root_wave.scb"
-                    }
-                }
-                blendMode: u8 = 2
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.00100000005
-                            0.200000003
-                            0.5
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.345098048, 0.996078432, 0.874509811, 0 }
-                            { 0.517647088, 0.925490201, 0.0196078438, 1 }
-                            { 0.905882359, 0.478431374, 0.156862751, 1 }
-                            { 0.913725495, 0.650980413, 0.0862745121, 1 }
-                            { 0.517647088, 0.925490201, 0.0196078438, 0 }
-                        }
-                    }
-                }
-                pass: i16 = -1
-                disableBackfaceCull: bool = true
-                isRotationEnabled: flag = true
-                rotation0: embed = IntegratedValueVector3 {
-                    constantValue: vec3 = { 0, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1, 0.5, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_root_tex.tex"
-                birthUVOffset: embed = ValueVector2 {
-                    constantValue: vec2 = { 0.400000006, 0 }
-                }
-                texAddressModeBase: u8 = 2
-                particleUVScrollRate: embed = IntegratedValueVector2 {
-                    constantValue: vec2 = { -1, 0 }
-                    dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                            1
-                        }
-                        values: list[vec2] = {
-                            { -2, 0 }
-                            { -0.200000003, 0 }
-                            { -0.100000001, 0 }
-                        }
-                    }
-                }
-            }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
                     constantValue: f32 = 12
@@ -32623,247 +27738,8 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 startFrame: u16 = 1
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1.5
-                }
-                lifetime: option[f32] = {
-                    0.200000003
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "purple_swirl"
-                disabled: bool = true
-                importance: u8 = 3
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00400000019
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_root_wave.scb"
-                    }
-                }
-                blendMode: u8 = 1
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0.899999976
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 2
-                disableBackfaceCull: bool = true
-                isRotationEnabled: flag = true
-                rotation0: embed = IntegratedValueVector3 {
-                    constantValue: vec3 = { 0, 1, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1, 1, 1 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_root_tex.tex"
-                birthUVOffset: embed = ValueVector2 {
-                    constantValue: vec2 = { 0.400000006, 0 }
-                }
-                texAddressModeBase: u8 = 2
-                particleUVScrollRate: embed = IntegratedValueVector2 {
-                    constantValue: vec2 = { -1, 0 }
-                    dynamics: pointer = VfxAnimatedVector2fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.300000012
-                            1
-                        }
-                        values: list[vec2] = {
-                            { -1, 0 }
-                            { -0.200000003, 0 }
-                            { -0.100000001, 0 }
-                        }
-                    }
-                }
-                textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_cas_color_tendril_mult.tex"
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 2
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLinger: option[f32] = {
-                    0.200000003
-                }
-                lifetime: option[f32] = {
-                    0.400000006
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "soft_glow"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                SpawnShape: pointer = 0xee39916f {
-                    emitOffset: vec3 = { 0, 100, 0 }
-                }
-                Color: embed = ValueColor {
-                    constantValue: vec4 = { 0, 0.839993894, 0.2399939, 1 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.899999976
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0, 0.839993894, 0.2399939, 0 }
-                            { 0, 0.839993894, 0.2399939, 1 }
-                            { 0, 0.839993894, 0.2399939, 0.340001523 }
-                            { 0, 0.839993894, 0.2399939, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 4
-                miscRenderFlags: u8 = 1
-                isUniformScale: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 0, 90 }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 160, 1, 1 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            0.300000012
-                            0.5
-                            0.699999988
-                            0.899999976
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0.899999976, 0, 0 }
-                            { 1, 0, 0 }
-                            { 0.899999976, 0, 0 }
-                            { 1, 0, 0 }
-                            { 1, 0, 0 }
-                            { 1.10000002, 0, 0 }
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/glow-soft.tex"
-                uvMode: u8 = 2
-                paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
-                    paletteCount: i32 = 8
-                }
-                particleUVRotateRate: embed = IntegratedValueFloat {
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            0
-                        }
-                    }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.300000012
-                }
-                particleLinger: option[f32] = {}
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "prism_flash"
-                disabled: bool = true
-                importance: u8 = 3
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                SpawnShape: pointer = 0xee39916f {
-                    emitOffset: vec3 = { 0, 80, 0 }
-                }
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                    scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
-                }
-                blendMode: u8 = 4
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 2
-                meshRenderFlags: u8 = 0
-                miscRenderFlags: u8 = 1
-                isUniformScale: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 90, 0, 0 }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 90, 100, 1 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.100000001
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                            { 1, 1, 0 }
-                            { 2, 2, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_r_prismflash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -32937,7 +27813,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Maps/Particles/SR/SRX_Infernal_Fire_Mult.TFT_Set16.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
@@ -33024,7 +27900,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -33084,7 +27960,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -33145,7 +28021,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -33225,7 +28101,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Nami/Skins/Skin32/Particles/Nami_Skin32_common_fuzzyshadow.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.Champion_VFX_Memory_Optimization.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.200000003 }
                     }
@@ -33322,7 +28198,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, 0.300000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -33335,7 +28211,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                     }
@@ -33397,7 +28273,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, 0.300000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -33410,7 +28286,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                     }
@@ -33450,43 +28326,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.Champion_VFX_Memory_Optimization.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = -1
-                }
-                particleLinger: option[f32] = {
-                    3
-                }
-                lifetime: option[f32] = {
-                    0.100000001
-                }
-                emitterName: string = "Avatar"
-                disabled: bool = true
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                primitive: pointer = VfxPrimitiveAttachedMesh {}
-                blendMode: u8 = 4
-                alphaRef: u8 = 0
-                disableBackfaceCull: bool = true
-                particleIsLocalOrientation: flag = true
-                isUniformScale: flag = true
-                isRandomStartFrame: flag = true
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 12, 1, 1 }
-                }
-                texture: string = "ASSETS/Shared/Particles/SRU_JungleBuff_Baron_MeleeMin_AvatarOverlay.tex"
-                numFrames: u16 = 4
-                birthUvScrollRate: embed = ValueVector2 {
-                    constantValue: vec2 = { 0.400000006, 0.200000003 }
                 }
             }
             VfxEmitterDefinitionData {
@@ -33605,7 +28447,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -33731,7 +28573,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_enemy_tendrils.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_enemy_tendrils.Champion_VFX_Memory_Optimization.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.400000006 }
                 }
@@ -33749,7 +28591,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -1, 0 }
                     }
@@ -34046,166 +28888,8 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 startFrame: u16 = 1
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 2
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 1.20000005
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1.10000002
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            1.20000005
-                        }
-                    }
-                }
-                particleLinger: option[f32] = {
-                    1
-                }
-                lifetime: option[f32] = {
-                    1
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Fiora_Flash1"
-                disabled: bool = true
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 20, 900, 0 }
-                }
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 4, 4, 4 }
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            1
-                        }
-                    }
-                }
-                SpawnShape: pointer = VfxShapeCylinder {
-                    radius: f32 = 100
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 50, 0 }
-                }
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
-                }
-                blendMode: u8 = 4
-                Color: embed = ValueColor {
-                    constantValue: vec4 = { 1, 0.996078432, 0.988235295, 1 }
-                }
-                pass: i16 = -15
-                alphaRef: u8 = 0
-                miscRenderFlags: u8 = 1
-                particleIsLocalOrientation: flag = true
-                isUniformScale: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 1, 0, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0
-                                    360
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 1, 0, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 65, 35, 75 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1.20000005
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 65, 35, 75 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.200000003
-                            0.300000012
-                            0.5
-                            0.699999988
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0.5, 0.5, 0.5 }
-                            { 1, 0.200000003, 1.29999995 }
-                            { 0.5, 2, 1.04999995 }
-                            { 0.699999988, 0.200000003, 1.29999995 }
-                            { 0.300000012, 0.200000003, 1.29999995 }
-                            { 0, 0.200000003, 1.29999995 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Blitzcrank/Skins/Skin29/Particles/Blitzcrank_Skin29_Z_DumbShapes01.tex"
-                numFrames: u16 = 4
-                startFrame: u16 = 3
-                texDiv: vec2 = { 2, 2 }
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -34301,7 +28985,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Blitzcrank/Skins/Skin29/Particles/Blitzcrank_Skin29_Z_Glow.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -34367,7 +29051,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -34465,418 +29149,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Blitzcrank/Skins/Skin29/Particles/Blitzcrank_Skin29_Z_Glow.tex"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 3
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.400000006
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            2
-                        }
-                    }
-                }
-                lifetime: option[f32] = {
-                    0.300000012
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "DropletsRotate"
-                disabled: bool = true
-                birthOrbitalVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 5, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    0.899999976
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1
-                                    2
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 5, 0 }
-                        }
-                    }
-                }
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 100, 1900, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.600000024
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 100, 1900, 0 }
-                        }
-                    }
-                }
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 7, 4, 7 }
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                SpawnShape: pointer = VfxShapeLegacy {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 120, 10, 0 }
-                        dynamics: pointer = VfxAnimatedVector3fVariableData {
-                            probabilityTables: list[pointer] = {
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        0.699999988
-                                        1
-                                    }
-                                }
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        -1
-                                        1
-                                    }
-                                }
-                                VfxProbabilityTableData {}
-                            }
-                            times: list[f32] = {
-                                0
-                            }
-                            values: list[vec3] = {
-                                { 120, 10, 0 }
-                            }
-                        }
-                    }
-                    emitRotationAngles: list[embed] = {
-                        ValueFloat {
-                            constantValue: f32 = 1
-                            dynamics: pointer = VfxAnimatedFloatVariableData {
-                                probabilityTables: list[pointer] = {
-                                    VfxProbabilityTableData {
-                                        keyTimes: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        keyValues: list[f32] = {
-                                            0
-                                            360
-                                        }
-                                    }
-                                }
-                                times: list[f32] = {
-                                    0
-                                }
-                                values: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
-                    }
-                    emitRotationAxes: list[vec3] = {
-                        { 0, 1.00000012, 0 }
-                    }
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 30, 0 }
-                }
-                falloffTexture: string = "ASSETS/Characters/Blitzcrank/Skins/Skin29/Particles/DefaultFalloff.tex"
-                blendMode: u8 = 1
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0.600000024
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                        }
-                    }
-                }
-                pass: i16 = -3
-                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
-                    erosionDriveCurve: embed = ValueFloat {
-                        dynamics: pointer = VfxAnimatedFloatVariableData {
-                            times: list[f32] = {
-                                0.5
-                                1
-                            }
-                            values: list[f32] = {
-                                0
-                                1
-                            }
-                        }
-                    }
-                    erosionFeatherIn: f32 = 0.5
-                    erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Blitzcrank/Skins/Skin29/Particles/Blitzcrank_Skin29_Z_DiscoScroll.tex"
-                    erosionMapChannelMixer: embed = ValueColor {
-                        constantValue: vec4 = { 1, 0, 0, 0 }
-                    }
-                }
-                particleIsLocalOrientation: flag = true
-                isDirectionOriented: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 90, 0 }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 25, 35, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1.5
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 25, 35, 0 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.200000003
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                            { 1, 1, 0 }
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Blitzcrank/Skins/Skin29/Particles/Blitzcrank_Skin29_Z_BlobMult01.tex"
-                paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Blitzcrank/Skins/Skin29/Particles/Blitzcrank_Skin29_Z_Gradient02.tex"
-                    palleteSrcMixColor: embed = ValueColor {
-                        constantValue: vec4 = { 0.130006865, 0, 0, 0 }
-                    }
-                    paletteSelector: embed = ValueVector3 {
-                        constantValue: vec3 = { 1, 0, 0 }
-                    }
-                    PaletteUAnimationCurve: embed = ValueFloat {
-                        constantValue: f32 = 0.0500000007
-                        dynamics: pointer = VfxAnimatedFloatVariableData {
-                            times: list[f32] = {
-                                0.800000012
-                                1
-                            }
-                            values: list[f32] = {
-                                0
-                                0.00999999978
-                            }
-                        }
-                    }
-                    paletteCount: i32 = 64
-                }
-            }
-            VfxEmitterDefinitionData {
-                timeBeforeFirstEmission: f32 = 0.100000001
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.5
-                }
-                lifetime: option[f32] = {
-                    0.150000006
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "Ring_Ground_"
-                disabled: bool = true
-                importance: u8 = 3
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 1900, 0 }
-                }
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 5, 0 }
-                }
-                worldAcceleration: embed = IntegratedValueVector3 {
-                    constantValue: vec3 = { 0, 50, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 50, 0 }
-                        }
-                    }
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, -165.983185, 0 }
-                }
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00300000003
-                }
-                primitive: pointer = VfxPrimitiveMesh {
-                    mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Blitzcrank/Skins/Skin29/Particles/Blitzcrank_Skin29_Z_RadioWaveMesh.scb"
-                    }
-                }
-                blendMode: u8 = 4
-                birthColor: embed = ValueColor {
-                    constantValue: vec4 = { 0.858823538, 0.858823538, 0.858823538, 1 }
-                }
-                Color: embed = ValueColor {
-                    constantValue: vec4 = { 0.129411772, 0.74477762, 1, 1 }
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.150000006
-                            0.699999988
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 0.129411772, 0.74477762, 1, 1 }
-                            { 0.129411772, 0.74477762, 1, 1 }
-                            { 0.129411772, 0.74477762, 1, 1 }
-                            { 0.129411772, 0.74477762, 1, 0 }
-                        }
-                    }
-                }
-                disableBackfaceCull: bool = true
-                miscRenderFlags: u8 = 1
-                isRotationEnabled: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 360, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 360, 0 }
-                        }
-                    }
-                }
-                rotation0: embed = IntegratedValueVector3 {
-                    constantValue: vec3 = { 0, 2, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.5
-                        }
-                        values: list[vec3] = {
-                            { 0, 20, 0 }
-                            { 0, 20, 0 }
-                        }
-                    }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0.600000024, 2, 0.600000024 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.699999988
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 1.29999995, 0.800000012, 1.29999995 }
-                            { 1.29999995, 0, 1.29999995 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Blitzcrank/Skins/Skin29/Particles/Blitzcrank_Skin18_R_LongDot.tex"
-                texAddressModeBase: u8 = 2
-                uvScale: embed = ValueVector2 {
-                    constantValue: vec2 = { 3, 2 }
-                }
-                uvRotation: embed = ValueFloat {
-                    constantValue: f32 = 90
-                }
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -34989,7 +29262,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 2 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_AroundCircle_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_AroundCircle_01.Champion_VFX_Memory_Optimization.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0 }
                 }
@@ -34997,7 +29270,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 90
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.Champion_VFX_Memory_Optimization.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -35033,233 +29306,6 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 10
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.25
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.400000006
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            0.25
-                        }
-                    }
-                }
-                lifetime: option[f32] = {
-                    0.300000012
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "DropletsRotate1"
-                disabled: bool = true
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 1900, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    0.600000024
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.600000024
-                                    1
-                                    1.20000005
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 1900, 0 }
-                        }
-                    }
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                SpawnShape: pointer = VfxShapeLegacy {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 120, 10, 0 }
-                        dynamics: pointer = VfxAnimatedVector3fVariableData {
-                            probabilityTables: list[pointer] = {
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        0.699999988
-                                        1
-                                    }
-                                }
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        -1
-                                        1
-                                    }
-                                }
-                                VfxProbabilityTableData {}
-                            }
-                            times: list[f32] = {
-                                0
-                            }
-                            values: list[vec3] = {
-                                { 120, 10, 0 }
-                            }
-                        }
-                    }
-                    emitRotationAngles: list[embed] = {
-                        ValueFloat {
-                            constantValue: f32 = 1
-                            dynamics: pointer = VfxAnimatedFloatVariableData {
-                                probabilityTables: list[pointer] = {
-                                    VfxProbabilityTableData {
-                                        keyTimes: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        keyValues: list[f32] = {
-                                            0
-                                            360
-                                        }
-                                    }
-                                }
-                                times: list[f32] = {
-                                    0
-                                }
-                                values: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
-                    }
-                    emitRotationAxes: list[vec3] = {
-                        { 0, 1.00000012, 0 }
-                    }
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, -135.983185, 0 }
-                }
-                FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
-                    scaleBirthScaleByBoundObjectSize: f32 = 0.00300000003
-                }
-                primitive: pointer = VfxPrimitiveRay {}
-                falloffTexture: string = "ASSETS/Characters/Blitzcrank/Skins/Skin29/Particles/DefaultFalloff.tex"
-                blendMode: u8 = 4
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0.600000024
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                        }
-                    }
-                }
-                pass: i16 = -3
-                particleIsLocalOrientation: flag = true
-                isDirectionOriented: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 90, 0, 0 }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 25, 55, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1.5
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 25, 55, 0 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.200000003
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                            { 1, 1, 0 }
-                            { 0.5, 1, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Blitzcrank/Skins/Skin29/Particles/Blitzcrank_Skin18_R_LongDot.tex"
-                paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Blitzcrank/Skins/Skin29/Particles/Blitzcrank_Skin29_Z_Gradient02.tex"
-                    palleteSrcMixColor: embed = ValueColor {
-                        constantValue: vec4 = { 0.130006865, 0, 0, 0 }
-                    }
-                    paletteSelector: embed = ValueVector3 {
-                        constantValue: vec3 = { 1, 0, 0 }
-                    }
-                    PaletteUAnimationCurve: embed = ValueFloat {
-                        constantValue: f32 = 0.0500000007
-                        dynamics: pointer = VfxAnimatedFloatVariableData {
-                            times: list[f32] = {
-                                0.800000012
-                                1
-                            }
-                            values: list[f32] = {
-                                0
-                                0.00999999978
-                            }
-                        }
-                    }
-                    paletteCount: i32 = 64
                 }
             }
             VfxEmitterDefinitionData {
@@ -35466,7 +29512,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_AroundCircle_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_AroundCircle_01.Champion_VFX_Memory_Optimization.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0 }
                 }
@@ -35474,7 +29520,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 90
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.Champion_VFX_Memory_Optimization.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -35511,348 +29557,6 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 2
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 2
-                    dynamics: pointer = VfxAnimatedFloatVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.400000006
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[f32] = {
-                            2
-                        }
-                    }
-                }
-                lifetime: option[f32] = {
-                    0.300000012
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "DropletsRotate2"
-                disabled: bool = true
-                birthOrbitalVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 5, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    0.899999976
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1
-                                    2
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 0, 5, 0 }
-                        }
-                    }
-                }
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 100, 1900, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {}
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.600000024
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    -1
-                                    1
-                                }
-                            }
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 100, 1900, 0 }
-                        }
-                    }
-                }
-                birthDrag: embed = ValueVector3 {
-                    constantValue: vec3 = { 7, 4, 7 }
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                SpawnShape: pointer = VfxShapeLegacy {
-                    emitOffset: embed = ValueVector3 {
-                        constantValue: vec3 = { 120, 10, 0 }
-                        dynamics: pointer = VfxAnimatedVector3fVariableData {
-                            probabilityTables: list[pointer] = {
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        0.699999988
-                                        1
-                                    }
-                                }
-                                VfxProbabilityTableData {
-                                    keyTimes: list[f32] = {
-                                        0
-                                        1
-                                    }
-                                    keyValues: list[f32] = {
-                                        -1
-                                        1
-                                    }
-                                }
-                                VfxProbabilityTableData {}
-                            }
-                            times: list[f32] = {
-                                0
-                            }
-                            values: list[vec3] = {
-                                { 120, 10, 0 }
-                            }
-                        }
-                    }
-                    emitRotationAngles: list[embed] = {
-                        ValueFloat {
-                            constantValue: f32 = 1
-                            dynamics: pointer = VfxAnimatedFloatVariableData {
-                                probabilityTables: list[pointer] = {
-                                    VfxProbabilityTableData {
-                                        keyTimes: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        keyValues: list[f32] = {
-                                            0
-                                            360
-                                        }
-                                    }
-                                }
-                                times: list[f32] = {
-                                    0
-                                }
-                                values: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
-                    }
-                    emitRotationAxes: list[vec3] = {
-                        { 0, 1.00000012, 0 }
-                    }
-                }
-                EmitterPosition: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 30, 0 }
-                }
-                falloffTexture: string = "ASSETS/Characters/Blitzcrank/Skins/Skin29/Particles/DefaultFalloff.tex"
-                blendMode: u8 = 1
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0.600000024
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 0.627451003, 0.0313725509, 1 }
-                            { 1, 0.549019635, 0, 1 }
-                        }
-                    }
-                }
-                pass: i16 = -3
-                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
-                    erosionDriveCurve: embed = ValueFloat {
-                        dynamics: pointer = VfxAnimatedFloatVariableData {
-                            times: list[f32] = {
-                                0.5
-                                1
-                            }
-                            values: list[f32] = {
-                                0
-                                1
-                            }
-                        }
-                    }
-                    erosionFeatherIn: f32 = 0.5
-                    erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Blitzcrank/Skins/Skin29/Particles/Blitzcrank_Skin29_Z_DiscoScroll.tex"
-                    erosionMapChannelMixer: embed = ValueColor {
-                        constantValue: vec4 = { 1, 0, 0, 0 }
-                    }
-                }
-                particleIsLocalOrientation: flag = true
-                isDirectionOriented: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 90, 0 }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 25, 35, 0 }
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        probabilityTables: list[pointer] = {
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1
-                                }
-                            }
-                            VfxProbabilityTableData {
-                                keyTimes: list[f32] = {
-                                    0
-                                    1
-                                }
-                                keyValues: list[f32] = {
-                                    0.5
-                                    1.5
-                                }
-                            }
-                            VfxProbabilityTableData {}
-                        }
-                        times: list[f32] = {
-                            0
-                        }
-                        values: list[vec3] = {
-                            { 25, 35, 0 }
-                        }
-                    }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            0.200000003
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0, 0, 0 }
-                            { 1, 1, 0 }
-                            { 0, 0, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Blitzcrank/Skins/Skin29/Particles/Blitzcrank_Skin29_Z_BlobMult01.tex"
-            }
-            VfxEmitterDefinitionData {
-                rate: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.400000006
-                }
-                isSingleParticle: flag = true
-                emitterName: string = "outer_graphic"
-                disabled: bool = true
-                importance: u8 = 3
-                birthVelocity: embed = ValueVector3 {
-                    constantValue: vec3 = { 0, 900, 0 }
-                }
-                bindWeight: embed = ValueFloat {
-                    constantValue: f32 = 1
-                }
-                SpawnShape: pointer = 0xee39916f {
-                    emitOffset: vec3 = { 0, 10, 0 }
-                }
-                blendMode: u8 = 1
-                Color: embed = ValueColor {
-                    dynamics: pointer = VfxAnimatedColorVariableData {
-                        times: list[f32] = {
-                            0
-                            0.5
-                            1
-                        }
-                        values: list[vec4] = {
-                            { 1, 0.843137264, 0.474509805, 1 }
-                            { 0.0980392173, 0.909803927, 1, 1 }
-                            { 0.00999465957, 0.839993894, 1, 0 }
-                        }
-                    }
-                }
-                pass: i16 = 1
-                colorLookUpTypeY: u8 = 2
-                colorLookUpScales: vec2 = { 1, 0.100000001 }
-                alphaRef: u8 = 0
-                colorLookUpOffsets: vec2 = { 0, 0.899999976 }
-                alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
-                    erosionDriveCurve: embed = ValueFloat {
-                        dynamics: pointer = VfxAnimatedFloatVariableData {
-                            times: list[f32] = {
-                                0
-                                0.300000012
-                                1
-                            }
-                            values: list[f32] = {
-                                0
-                                0.800000012
-                                1
-                            }
-                        }
-                    }
-                    erosionMapName: string = "ASSETS/Characters/Blitzcrank/Skins/Skin29/Particles/Blitzcrank_Skin29_Z_InverseErode.tex"
-                    erosionMapChannelMixer: embed = ValueColor {
-                        constantValue: vec4 = { 0, 0, 1, 0 }
-                    }
-                    erosionMapAddressMode: u8 = 0
-                }
-                miscRenderFlags: u8 = 1
-                particleIsLocalOrientation: flag = true
-                isUniformScale: flag = true
-                isGroundLayer: flag = true
-                birthRotation0: embed = ValueVector3 {
-                    constantValue: vec3 = { 90, 0, 0 }
-                }
-                birthScale0: embed = ValueVector3 {
-                    constantValue: vec3 = { 150, 460, 460 }
-                }
-                scale0: embed = ValueVector3 {
-                    dynamics: pointer = VfxAnimatedVector3fVariableData {
-                        times: list[f32] = {
-                            0
-                            1
-                        }
-                        values: list[vec3] = {
-                            { 0.899999976, 0, 0 }
-                            { 1.10000002, 0, 0 }
-                        }
-                    }
-                }
-                texture: string = "ASSETS/Characters/Blitzcrank/Skins/Skin29/Particles/Blitzcrank_Skin29_Z_Circle02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -35995,7 +29699,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0, 0.400000006 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.Champion_VFX_Memory_Optimization.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, -8 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -36245,7 +29949,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -36325,7 +30029,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_ImpactGlow.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_ImpactGlow.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -36536,7 +30240,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
             }
         }
         particleName: string = "Neeko_Base_Run_Butterfly_Glow"
@@ -36603,7 +30307,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_BA_speed_flash.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_BA_speed_flash.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -36716,7 +30420,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -37145,7 +30849,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_spotlight.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_spotlight.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.550000012
@@ -37249,7 +30953,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_glow.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -37378,7 +31082,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_enemy_tendrils.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_enemy_tendrils.Champion_VFX_Memory_Optimization.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.400000006 }
                 }
@@ -37396,7 +31100,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -1, 0 }
                     }
@@ -39954,7 +33658,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Ezreal_Base_E_ringglow.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -40039,7 +33743,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Ezreal_Base_E_ringglow.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -41809,7 +35513,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Flare-Omnimax.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Flare-Omnimax.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.400000006
@@ -44324,7 +38028,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.00400000019
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.Champion_VFX_Memory_Optimization.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -44374,7 +38078,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -46425,7 +40129,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
                 startFrame: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -46520,7 +40224,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0.5, 0 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -46898,7 +40602,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Ezreal_Base_E_ringglow.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -47517,7 +41221,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -47573,7 +41277,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
                 startFrame: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -47639,7 +41343,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_R_AoE_waves.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 6, 0, 0 }
                     }
@@ -51741,7 +45445,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0199999996
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.Champion_VFX_Memory_Optimization.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -51791,7 +45495,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -52974,10 +46678,10 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { -10, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_edge.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_edge.Champion_VFX_Memory_Optimization.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -53818,7 +47522,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_root_tex_mult.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_root_tex_mult.Champion_VFX_Memory_Optimization.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -53896,7 +47600,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_r_stun_tex.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_r_stun_tex.Champion_VFX_Memory_Optimization.tex"
                 texDiv: vec2 = { 0.25, 1 }
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { -1, 0 }
@@ -54190,7 +47894,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -54354,7 +48058,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/glow-soft.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -54429,7 +48133,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_r_prismflash.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_r_prismflash.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -54505,9 +48209,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.Champion_VFX_Memory_Optimization.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
             }
@@ -54699,7 +48403,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 startFrame: u16 = 1
             }
         }
@@ -59791,7 +53495,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -60058,7 +53762,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -60098,7 +53802,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Skin10/Particles/Neeko_Skin10_Sparkle.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -62584,7 +56288,7 @@ entries: map[hash,embed] = {
                 meshRenderFlags: u8 = 0
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.100000001
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.Champion_VFX_Memory_Optimization.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -62607,7 +56311,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -65497,7 +59201,7 @@ entries: map[hash,embed] = {
                 meshRenderFlags: u8 = 0
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.100000001
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.Champion_VFX_Memory_Optimization.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -65520,7 +59224,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -71788,7 +65492,7 @@ entries: map[hash,embed] = {
                 meshRenderFlags: u8 = 0
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.100000001
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.Champion_VFX_Memory_Optimization.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -71811,7 +65515,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.Champion_VFX_Memory_Optimization.tex"
             }
         }
         particleName: string = "Neeko_Skin10_Q_AoE_01"
@@ -72556,7 +66260,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -73385,7 +67089,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_root_tex_mult.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_root_tex_mult.Champion_VFX_Memory_Optimization.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -73726,7 +67430,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/glow-soft.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -74341,7 +68045,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Maps/Particles/SR/SRX_Infernal_Fire_Mult.TFT_Set16.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
@@ -74769,7 +68473,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -74818,7 +68522,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -74868,7 +68572,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.Champion_VFX_Memory_Optimization.tex"
             }
         }
         particleName: string = "Neeko_Skin10_Bubble"
@@ -74970,7 +68674,7 @@ entries: map[hash,embed] = {
                     erosionFeatherIn: f32 = 0.200000003
                     erosionFeatherOut: f32 = 0.300000012
                     erosionSliceWidth: f32 = 1.20000005
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Upgrade_Aura.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Upgrade_Aura.Champion_VFX_Memory_Optimization.tex"
                 }
                 particleIsLocalOrientation: flag = true
                 isUniformScale: flag = true
@@ -75356,7 +69060,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 particleIsLocalOrientation: flag = true
@@ -75618,7 +69322,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 particleIsLocalOrientation: flag = true
@@ -75779,7 +69483,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 280, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Ring.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Ring.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -76382,7 +70086,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 280, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Ring.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Ring.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -77058,7 +70762,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.00499999989
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.Champion_VFX_Memory_Optimization.tex"
                 }
                 isUniformScale: flag = true
                 birthRotation0: embed = ValueVector3 {
@@ -77105,7 +70809,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.550000012
@@ -78297,7 +72001,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -78380,7 +72084,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.300000012
@@ -78706,7 +72410,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -79657,7 +73361,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -80229,7 +73933,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Ezreal_Base_E_ringglow.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -80318,7 +74022,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/glow-soft.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -81440,7 +75144,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_ImpactGlow.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_ImpactGlow.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -81678,7 +75382,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_leadingedge.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_leadingedge.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -85474,7 +79178,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -85546,7 +79250,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_beams.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Flicker_04.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Flicker_04.Champion_VFX_Memory_Optimization.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 1, 0 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -85651,7 +79355,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -87031,7 +80735,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 birthScale0: embed = ValueVector3 {
@@ -89714,7 +83418,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_circle_tex_root.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
                 birthUVOffset: embed = ValueVector2 {
@@ -90187,7 +83891,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -91449,7 +85153,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0199999996
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.Champion_VFX_Memory_Optimization.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -91499,7 +85203,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -91991,7 +85695,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Ezreal_Base_E_ringglow.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -94008,7 +87712,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                 }
@@ -94811,7 +88515,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Skin10/Particles/Neeko_Skin10_Sparkle.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -95897,7 +89601,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_spotlight.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_spotlight.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -96222,7 +89926,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_glow.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -96340,7 +90044,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.200000003
@@ -98540,7 +92244,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0199999996
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.Champion_VFX_Memory_Optimization.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -98590,7 +92294,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -98965,7 +92669,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { -1, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 12, 1 }
                     }
@@ -99002,7 +92706,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 1 }
                 }
@@ -99213,7 +92917,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_ExtraBloom_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_ExtraBloom_01.Champion_VFX_Memory_Optimization.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 1 }
                 }
@@ -99462,7 +93166,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -99679,7 +93383,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_spotlight.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_spotlight.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.550000012
@@ -99783,7 +93487,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_glow.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -102611,7 +96315,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.00400000019
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.Champion_VFX_Memory_Optimization.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -102661,7 +96365,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.Champion_VFX_Memory_Optimization.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -103418,7 +97122,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 2, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.5 }
                     }
@@ -103704,7 +97408,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -104542,7 +98246,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -104960,7 +98664,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_ExtraBloom_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_ExtraBloom_01.Champion_VFX_Memory_Optimization.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.25, 0 }
                 }
@@ -106680,7 +100384,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -106733,12 +100437,12 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 8, 12, 8 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_FlowerGround_01.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_FlowerGround_01.Champion_VFX_Memory_Optimization.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 5, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.Champion_VFX_Memory_Optimization.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1 }
@@ -106816,7 +100520,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 5, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.Champion_VFX_Memory_Optimization.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1 }
@@ -106891,7 +100595,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 3, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.Champion_VFX_Memory_Optimization.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1 }
@@ -107019,7 +100723,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.699999988, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.Champion_VFX_Memory_Optimization.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                 }
