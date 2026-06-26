@@ -8821,7 +8821,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 pass: i16 = 1
-                censorModulateValue: vec4 = { 0, 0, 0, 1 }
                 isDirectionOriented: flag = true
                 isRandomStartFrame: flag = true
                 birthRotationalVelocity0: embed = ValueVector3 {
@@ -9479,7 +9478,6 @@ entries: map[hash,embed] = {
                 pass: i16 = 3
                 alphaRef: u8 = 0
                 colorLookUpOffsets: vec2 = { 0.100000001, 0 }
-                censorModulateValue: vec4 = { 0, 0, 0, 1 }
                 miscRenderFlags: u8 = 1
                 isGroundLayer: flag = true
                 useNavmeshMask: flag = true
@@ -9565,7 +9563,6 @@ entries: map[hash,embed] = {
                 pass: i16 = 34
                 alphaRef: u8 = 0
                 colorLookUpOffsets: vec2 = { 0.100000001, 0 }
-                censorModulateValue: vec4 = { 0, 0, 0, 1 }
                 miscRenderFlags: u8 = 1
                 isGroundLayer: flag = true
                 useNavmeshMask: flag = true
@@ -10540,7 +10537,6 @@ entries: map[hash,embed] = {
                 }
                 alphaRef: u8 = 0
                 colorLookUpOffsets: vec2 = { 0.100000001, 0 }
-                censorModulateValue: vec4 = { 0, 0, 0, 1 }
                 miscRenderFlags: u8 = 1
                 isGroundLayer: flag = true
                 useNavmeshMask: flag = true
@@ -10694,7 +10690,6 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                censorModulateValue: vec4 = { 0, 0, 0, 1 }
                 isDirectionOriented: flag = true
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 20, 20, 0 }
@@ -11661,7 +11656,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 pass: i16 = 1
-                censorModulateValue: vec4 = { 0, 0, 0, 1 }
                 isDirectionOriented: flag = true
                 isRandomStartFrame: flag = true
                 birthRotationalVelocity0: embed = ValueVector3 {
@@ -12007,7 +12001,6 @@ entries: map[hash,embed] = {
                 pass: i16 = 3
                 alphaRef: u8 = 0
                 colorLookUpOffsets: vec2 = { 0.100000001, 0 }
-                censorModulateValue: vec4 = { 0, 0, 0, 1 }
                 miscRenderFlags: u8 = 1
                 isGroundLayer: flag = true
                 useNavmeshMask: flag = true
@@ -12091,7 +12084,6 @@ entries: map[hash,embed] = {
                 pass: i16 = 4
                 alphaRef: u8 = 0
                 colorLookUpOffsets: vec2 = { 0.100000001, 0 }
-                censorModulateValue: vec4 = { 0, 0, 0, 1 }
                 miscRenderFlags: u8 = 1
                 isGroundLayer: flag = true
                 useNavmeshMask: flag = true
@@ -13498,7 +13490,6 @@ entries: map[hash,embed] = {
                 }
                 alphaRef: u8 = 0
                 colorLookUpOffsets: vec2 = { 0.100000001, 0 }
-                censorModulateValue: vec4 = { 0, 0, 0, 1 }
                 miscRenderFlags: u8 = 1
                 isGroundLayer: flag = true
                 useNavmeshMask: flag = true
@@ -13628,7 +13619,6 @@ entries: map[hash,embed] = {
                 pass: i16 = 22
                 alphaRef: u8 = 0
                 colorLookUpOffsets: vec2 = { 0.100000001, 0 }
-                censorModulateValue: vec4 = { 0, 0, 0, 1 }
                 alphaErosionDefinition: pointer = VfxAlphaErosionDefinitionData {
                     erosionDriveCurve: embed = ValueFloat {
                         dynamics: pointer = VfxAnimatedFloatVariableData {
@@ -14092,7 +14082,6 @@ entries: map[hash,embed] = {
                 pass: i16 = 21
                 alphaRef: u8 = 0
                 colorLookUpOffsets: vec2 = { 0.100000001, 0 }
-                censorModulateValue: vec4 = { 0, 0, 0, 1 }
                 miscRenderFlags: u8 = 1
                 isGroundLayer: flag = true
                 useNavmeshMask: flag = true
@@ -14292,6 +14281,26 @@ entries: map[hash,embed] = {
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
+                name: string = "Matcap_Alpha"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "modelHeight"
+                value: vec4 = { 275, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "rimOffset"
+                value: vec4 = { 0.300000012, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMax"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMin"
+                value: vec4 = { 0.100000001, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "BlendMod"
                 value: vec4 = { 0.894999981, 0, 0, 0 }
             }
@@ -14321,6 +14330,16 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "USE_MATCAP_AS_ALPHA"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_ALBEDO_REMAP"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_RIM"
+            }
             StaticMaterialSwitchDef {
                 name: string = "BLEND_ALPHA"
             }
@@ -14378,6 +14397,26 @@ entries: map[hash,embed] = {
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
+                name: string = "Matcap_Alpha"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "modelHeight"
+                value: vec4 = { 275, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "rimOffset"
+                value: vec4 = { 0.300000012, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMax"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMin"
+                value: vec4 = { 0.100000001, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "BlendMod"
                 value: vec4 = { 1, 0, 0, 0 }
             }
@@ -14405,6 +14444,16 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "USE_MATCAP_AS_ALPHA"
+                on: bool = false
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_ALBEDO_REMAP"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_RIM"
+            }
             StaticMaterialSwitchDef {
                 name: string = "BLEND_ALPHA"
             }

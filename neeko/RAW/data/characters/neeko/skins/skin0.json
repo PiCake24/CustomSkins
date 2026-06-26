@@ -134143,6 +134143,86 @@
                         {
                           "key": "name",
                           "type": "string",
+                          "value": "modelHeight"
+                        },
+                        {
+                          "key": "value",
+                          "type": "vec4",
+                          "value": [
+                            275.0,
+                            0.0,
+                            0.0,
+                            0.0
+                          ]
+                        }
+                      ],
+                      "name": 3729264367
+                    },
+                    {
+                      "items": [
+                        {
+                          "key": "name",
+                          "type": "string",
+                          "value": "rimOffset"
+                        },
+                        {
+                          "key": "value",
+                          "type": "vec4",
+                          "value": [
+                            0.30000001192092896,
+                            0.0,
+                            0.0,
+                            0.0
+                          ]
+                        }
+                      ],
+                      "name": 3729264367
+                    },
+                    {
+                      "items": [
+                        {
+                          "key": "name",
+                          "type": "string",
+                          "value": "albedoNewMax"
+                        },
+                        {
+                          "key": "value",
+                          "type": "vec4",
+                          "value": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0
+                          ]
+                        }
+                      ],
+                      "name": 3729264367
+                    },
+                    {
+                      "items": [
+                        {
+                          "key": "name",
+                          "type": "string",
+                          "value": "albedoNewMin"
+                        },
+                        {
+                          "key": "value",
+                          "type": "vec4",
+                          "value": [
+                            0.10000000149011612,
+                            0.0,
+                            0.0,
+                            0.0
+                          ]
+                        }
+                      ],
+                      "name": 3729264367
+                    },
+                    {
+                      "items": [
+                        {
+                          "key": "name",
+                          "type": "string",
                           "value": "Fresnel_Color"
                         },
                         {
@@ -134177,6 +134257,35 @@
                         }
                       ],
                       "name": 3729264367
+                    }
+                  ],
+                  "valueType": "embed"
+                }
+              },
+              {
+                "key": "switches",
+                "type": "list2",
+                "value": {
+                  "items": [
+                    {
+                      "items": [
+                        {
+                          "key": "name",
+                          "type": "string",
+                          "value": "USE_ALBEDO_REMAP"
+                        }
+                      ],
+                      "name": 237114017
+                    },
+                    {
+                      "items": [
+                        {
+                          "key": "name",
+                          "type": "string",
+                          "value": "USE_RIM"
+                        }
+                      ],
+                      "name": 237114017
                     }
                   ],
                   "valueType": "embed"

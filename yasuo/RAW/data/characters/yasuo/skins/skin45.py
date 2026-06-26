@@ -47489,6 +47489,22 @@ entries: map[hash,embed] = {
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
+                name: string = "modelHeight"
+                value: vec4 = { 275, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "rimOffset"
+                value: vec4 = { 0.300000012, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMax"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMin"
+                value: vec4 = { 0.100000001, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "ColorFresnelSize"
                 value: vec4 = { 1, 0, 0, 0 }
             }
@@ -47529,6 +47545,12 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "USE_ALBEDO_REMAP"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_RIM"
+            }
             StaticMaterialSwitchDef {
                 name: string = "INVERT_BLOOM_FRESNEL"
             }
@@ -47621,6 +47643,22 @@ entries: map[hash,embed] = {
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
+                name: string = "modelHeight"
+                value: vec4 = { 275, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "rimOffset"
+                value: vec4 = { 0.300000012, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMax"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMin"
+                value: vec4 = { 0.100000001, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "ColorFresnelSize"
                 value: vec4 = { 2.5, 0, 0, 0 }
             }
@@ -47661,6 +47699,12 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "USE_ALBEDO_REMAP"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_RIM"
+            }
             StaticMaterialSwitchDef {
                 name: string = "INVERT_BLOOM_FRESNEL"
             }
@@ -47755,6 +47799,22 @@ entries: map[hash,embed] = {
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
+                name: string = "modelHeight"
+                value: vec4 = { 275, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "rimOffset"
+                value: vec4 = { 0.300000012, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMax"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMin"
+                value: vec4 = { 0.100000001, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "Bloom_Intensity"
                 value: vec4 = { 0.699999988, 0, 0, 0 }
             }
@@ -47768,6 +47828,12 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "USE_ALBEDO_REMAP"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_RIM"
+            }
             StaticMaterialSwitchDef {
                 name: string = "USE_ALPHA"
             }

@@ -151,6 +151,22 @@ entries: map[hash,embed] = {
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
+                name: string = "rimOffset"
+                value: vec4 = { 0.300000012, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMax"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMin"
+                value: vec4 = { 0.100000001, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "modelHeight"
+                value: vec4 = { 275, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "ENV_BlurAmount"
                 value: vec4 = { 1.20000005, 0, 0, 0 }
             }
@@ -188,6 +204,12 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "USE_ALBEDO_REMAP"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_RIM"
+            }
             StaticMaterialSwitchDef {
                 name: string = "LOCK_HIGHLIGHT"
                 on: bool = false
@@ -257,8 +279,32 @@ entries: map[hash,embed] = {
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
+                name: string = "modelHeight"
+                value: vec4 = { 275, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "rimOffset"
+                value: vec4 = { 0.300000012, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMax"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMin"
+                value: vec4 = { 0.100000001, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "Alpha"
                 value: vec4 = { 1, 0, 0, 0 }
+            }
+        }
+        switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "USE_ALBEDO_REMAP"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_RIM"
             }
         }
         shaderMacros: map[string,string] = {
@@ -353,6 +399,22 @@ entries: map[hash,embed] = {
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
+                name: string = "modelHeight"
+                value: vec4 = { 275, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "rimOffset"
+                value: vec4 = { 0.300000012, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMax"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMin"
+                value: vec4 = { 0.100000001, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "Additive_Intensity"
                 value: vec4 = { 1, 0, 0, 0 }
             }
@@ -378,6 +440,12 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "USE_ALBEDO_REMAP"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_RIM"
+            }
             StaticMaterialSwitchDef {
                 name: string = "OVERLAY_ADDATIVE"
             }
@@ -481,6 +549,22 @@ entries: map[hash,embed] = {
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
+                name: string = "modelHeight"
+                value: vec4 = { 275, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "rimOffset"
+                value: vec4 = { 0.300000012, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMax"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMin"
+                value: vec4 = { 0.100000001, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "VertAnim_UV_Dir2"
                 value: vec4 = { 1, 0, 0, 0 }
             }
@@ -555,6 +639,12 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "USE_RIM"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_ALBEDO_REMAP"
+            }
             StaticMaterialSwitchDef {
                 name: string = "DIFFUSEHOLD_USING_BCHANNEL"
             }

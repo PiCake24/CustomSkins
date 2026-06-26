@@ -102424,7 +102424,7 @@ entries: map[hash,embed] = {
                     10.6000004
                 }
                 lifetime: option[f32] = {
-                    0.5
+                    0.850000024
                 }
                 emitterName: string = "ground_ring"
                 birthDrag: embed = ValueVector3 {
@@ -102563,7 +102563,7 @@ entries: map[hash,embed] = {
                     0.5
                 }
                 lifetime: option[f32] = {
-                    0.600000024
+                    0.949999988
                 }
                 emitterName: string = "SmokeTrail"
                 birthVelocity: embed = ValueVector3 {
@@ -102694,7 +102694,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.699999988
+                    constantValue: f32 = 0.949999988
                 }
                 particleLinger: option[f32] = {
                     10.6999998
@@ -102729,7 +102729,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         times: list[f32] = {
-                            0.800000012
+                            0.899999976
                             1
                         }
                         values: list[vec3] = {
@@ -102777,7 +102777,7 @@ entries: map[hash,embed] = {
                     0.400000006
                 }
                 lifetime: option[f32] = {
-                    0.400000006
+                    0.699999988
                 }
                 emitterName: string = "Fill"
                 birthVelocity: embed = ValueVector3 {
@@ -103007,7 +103007,7 @@ entries: map[hash,embed] = {
                     0.699999988
                 }
                 lifetime: option[f32] = {
-                    0.400000006
+                    0.699999988
                 }
                 emitterName: string = "Fill1"
                 birthVelocity: embed = ValueVector3 {
@@ -103211,7 +103211,7 @@ entries: map[hash,embed] = {
                     0.5
                 }
                 lifetime: option[f32] = {
-                    0.600000024
+                    0.699999988
                 }
                 emitterName: string = "Twirl_Hot"
                 bindWeight: embed = ValueFloat {
@@ -103354,7 +103354,7 @@ entries: map[hash,embed] = {
                     0.5
                 }
                 lifetime: option[f32] = {
-                    0.600000024
+                    0.699999988
                 }
                 emitterName: string = "RingsDarkTop"
                 birthVelocity: embed = ValueVector3 {
@@ -103482,7 +103482,7 @@ entries: map[hash,embed] = {
                     0.5
                 }
                 lifetime: option[f32] = {
-                    0.600000024
+                    0.699999988
                 }
                 emitterName: string = "RingsDarkBase"
                 bindWeight: embed = ValueFloat {
@@ -103906,7 +103906,7 @@ entries: map[hash,embed] = {
                     10.1999998
                 }
                 lifetime: option[f32] = {
-                    0.600000024
+                    0.75
                 }
                 emitterName: string = "core"
                 bindWeight: embed = ValueFloat {
@@ -104049,7 +104049,7 @@ entries: map[hash,embed] = {
                     10.1999998
                 }
                 lifetime: option[f32] = {
-                    0.600000024
+                    0.720000029
                 }
                 emitterName: string = "core1"
                 bindWeight: embed = ValueFloat {
@@ -104186,7 +104186,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 1
                 }
                 particleLifetime: embed = ValueFloat {
-                    constantValue: f32 = 0.699999988
+                    constantValue: f32 = 0.949999988
                 }
                 particleLinger: option[f32] = {
                     10.6999998
@@ -104216,7 +104216,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     dynamics: pointer = VfxAnimatedVector3fVariableData {
                         times: list[f32] = {
-                            0.800000012
+                            0.899999976
                             1
                         }
                         values: list[vec3] = {
@@ -104595,7 +104595,7 @@ entries: map[hash,embed] = {
                     0.100000001
                 }
                 lifetime: option[f32] = {
-                    0.600000024
+                    0.649999976
                 }
                 emitterName: string = "black_ink"
                 birthVelocity: embed = ValueVector3 {
@@ -104845,7 +104845,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 0.200000003
                 }
                 lifetime: option[f32] = {
-                    0.600000024
+                    0.649999976
                 }
                 emitterName: string = "FireTrail"
                 importance: u8 = 3
@@ -144045,6 +144045,22 @@ entries: map[hash,embed] = {
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
+                name: string = "modelHeight"
+                value: vec4 = { 275, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "rimOffset"
+                value: vec4 = { 0.300000012, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMax"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMin"
+                value: vec4 = { 0.100000001, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "Alpha"
                 value: vec4 = { 1, 0, 0, 0 }
             }
@@ -144085,6 +144101,12 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "USE_ALBEDO_REMAP"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_RIM"
+            }
             StaticMaterialSwitchDef {
                 name: string = "TEX_SWAP"
                 on: bool = false
@@ -144260,6 +144282,22 @@ entries: map[hash,embed] = {
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
+                name: string = "modelHeight"
+                value: vec4 = { 275, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "rimOffset"
+                value: vec4 = { 0.300000012, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMax"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMin"
+                value: vec4 = { 0.100000001, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "Alpha"
                 value: vec4 = { 1, 0, 0, 0 }
             }
@@ -144303,6 +144341,12 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "USE_ALBEDO_REMAP"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_RIM"
+            }
             StaticMaterialSwitchDef {
                 name: string = "TEX_SWAP"
                 on: bool = false
@@ -144376,6 +144420,22 @@ entries: map[hash,embed] = {
         }
         paramValues: list2[embed] = {
             StaticMaterialShaderParamDef {
+                name: string = "modelHeight"
+                value: vec4 = { 275, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "rimOffset"
+                value: vec4 = { 0.300000012, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMax"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMin"
+                value: vec4 = { 0.100000001, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
                 name: string = "Alpha"
                 value: vec4 = { 1, 0, 0, 0 }
             }
@@ -144418,6 +144478,12 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "USE_ALBEDO_REMAP"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_RIM"
+            }
             StaticMaterialSwitchDef {
                 name: string = "TEX_SWAP"
                 on: bool = false
@@ -144483,6 +144549,22 @@ entries: map[hash,embed] = {
             }
         }
         paramValues: list2[embed] = {
+            StaticMaterialShaderParamDef {
+                name: string = "rimOffset"
+                value: vec4 = { 0.300000012, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMin"
+                value: vec4 = { 0.100000001, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "modelHeight"
+                value: vec4 = { 275, 0, 0, 0 }
+            }
+            StaticMaterialShaderParamDef {
+                name: string = "albedoNewMax"
+                value: vec4 = { 1, 0, 0, 0 }
+            }
             StaticMaterialShaderParamDef {
                 name: string = "SpecularColor"
             }
@@ -144563,6 +144645,12 @@ entries: map[hash,embed] = {
             }
         }
         switches: list2[embed] = {
+            StaticMaterialSwitchDef {
+                name: string = "USE_ALBEDO_REMAP"
+            }
+            StaticMaterialSwitchDef {
+                name: string = "USE_RIM"
+            }
             StaticMaterialSwitchDef {
                 name: string = "ALPHA"
             }
