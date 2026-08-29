@@ -29,8 +29,8 @@
                   "items": [
                     {
                       "key": "image",
-                      "type": "string",
-                      "value": "ASSETS/Characters/Yasuo/Skins/Base/YasuoLoadScreen.tex"
+                      "type": "file",
+                      "value": 4310972364613619405
                     }
                   ],
                   "name": 3496109055
@@ -335,8 +335,8 @@
                     },
                     {
                       "key": "texture",
-                      "type": "string",
-                      "value": "ASSETS/Characters/Yasuo/Skins/Base/Yasuo_base_TX_CM.tex"
+                      "type": "file",
+                      "value": 18416263442522903324
                     },
                     {
                       "key": "skinScale",
@@ -391,8 +391,8 @@
                             "items": [
                               {
                                 "key": "texture",
-                                "type": "string",
-                                "value": "ASSETS/Characters/Yasuo/Skins/Base/Yasuo_Weapon_Trail_TX_CM.tex"
+                                "type": "file",
+                                "value": 18164852713109489133
                               },
                               {
                                 "key": "submesh",
@@ -436,9 +436,9 @@
                 "type": "option",
                 "value": {
                   "items": [
-                    "ASSETS/Characters/Yasuo/HUD/Yasuo_Circle.tex"
+                    10118144092867401739
                   ],
-                  "valueType": "string"
+                  "valueType": "file"
                 }
               },
               {
@@ -446,9 +446,9 @@
                 "type": "option",
                 "value": {
                   "items": [
-                    "ASSETS/Characters/Yasuo/HUD/Yasuo_Square.tex"
+                    6978580138912929876
                   ],
-                  "valueType": "string"
+                  "valueType": "file"
                 }
               },
               {
@@ -469,6 +469,11 @@
                 "key": "mResourceResolver",
                 "type": "link",
                 "value": "Characters/Yasuo/Skins/Skin0/Resources"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0"
               }
             ],
             "name": 2607278582
@@ -5171,6 +5176,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_01"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_01"
               }
             ],
             "name": 1171098015
@@ -9850,6 +9860,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_02"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_02"
               }
             ],
             "name": 1171098015
@@ -12789,6 +12804,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 198
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall_big_impact"
               }
             ],
             "name": 1171098015
@@ -17486,6 +17506,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_03"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_03"
               }
             ],
             "name": 1171098015
@@ -22160,6 +22185,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_04"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_04"
               }
             ],
             "name": 1171098015
@@ -24535,6 +24565,11 @@
                 "key": "soundPersistentDefault",
                 "type": "string",
                 "value": "Play_sfx_Yasuo_YasuoDashWrapper_cast"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_E_Dash"
               }
             ],
             "name": 1171098015
@@ -27861,6 +27896,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_01"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_01"
               }
             ],
             "name": 1171098015
@@ -31176,6 +31216,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_03"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_03"
               }
             ],
@@ -34630,6 +34675,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 198
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_hit_tar"
               }
             ],
             "name": 1171098015
@@ -37928,6 +37978,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_02"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_02"
               }
             ],
             "name": 1171098015
@@ -41221,6 +41276,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_04"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_04"
               }
             ],
             "name": 1171098015
@@ -44396,6 +44456,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 198
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_EQ3_cas"
               }
             ],
             "name": 1171098015
@@ -44852,6 +44917,11 @@
                   ],
                   "valueType": "f32"
                 }
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Passive_Burst"
               }
             ],
             "name": 1171098015
@@ -50281,6 +50351,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_impact_tar"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_impact_tar"
               }
             ],
             "name": 1171098015
@@ -53030,6 +53105,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_WindStrike"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_WindStrike"
               }
             ],
@@ -59423,6 +59503,11 @@
                 "key": "soundOnCreateDefault",
                 "type": "string",
                 "value": "Play_sfx_Yasuo_YasuoRKnockUpCombo_hit_land"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_land_tar"
               }
             ],
             "name": 1171098015
@@ -60168,7 +60253,7 @@
                         {
                           "key": "particleColorTexture",
                           "type": "string",
-                          "value": "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
+                          "value": "ASSETS/Shared/Particles/color-hold_2.tex"
                         },
                         {
                           "key": "blendMode",
@@ -60557,6 +60642,11 @@
                   ],
                   "valueType": "f32"
                 }
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_E_timer4"
               }
             ],
             "name": 1171098015
@@ -61302,7 +61392,7 @@
                         {
                           "key": "particleColorTexture",
                           "type": "string",
-                          "value": "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
+                          "value": "ASSETS/Shared/Particles/color-hold_2.tex"
                         },
                         {
                           "key": "blendMode",
@@ -61769,6 +61859,11 @@
                   ],
                   "valueType": "f32"
                 }
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_E_timer5"
               }
             ],
             "name": 1171098015
@@ -62514,7 +62609,7 @@
                         {
                           "key": "particleColorTexture",
                           "type": "string",
-                          "value": "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
+                          "value": "ASSETS/Shared/Particles/color-hold_2.tex"
                         },
                         {
                           "key": "blendMode",
@@ -62981,6 +63076,11 @@
                   ],
                   "valueType": "f32"
                 }
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_E_timer2"
               }
             ],
             "name": 1171098015
@@ -63726,7 +63826,7 @@
                         {
                           "key": "particleColorTexture",
                           "type": "string",
-                          "value": "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
+                          "value": "ASSETS/Shared/Particles/color-hold_2.tex"
                         },
                         {
                           "key": "blendMode",
@@ -64115,6 +64215,11 @@
                   ],
                   "valueType": "f32"
                 }
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_E_timer3"
               }
             ],
             "name": 1171098015
@@ -65501,6 +65606,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 198
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_E_dash_hit"
               }
             ],
             "name": 1171098015
@@ -66293,7 +66403,7 @@
                         {
                           "key": "particleColorTexture",
                           "type": "string",
-                          "value": "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
+                          "value": "ASSETS/Shared/Particles/color-hold_2.tex"
                         },
                         {
                           "key": "blendMode",
@@ -67220,7 +67330,7 @@
                         {
                           "key": "particleColorTexture",
                           "type": "string",
-                          "value": "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
+                          "value": "ASSETS/Shared/Particles/color-hold_2.tex"
                         },
                         {
                           "key": "blendMode",
@@ -67687,6 +67797,11 @@
                   ],
                   "valueType": "f32"
                 }
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_E_timer1"
               }
             ],
             "name": 1171098015
@@ -69669,6 +69784,11 @@
                 "key": "soundPersistentDefault",
                 "type": "string",
                 "value": "Play_sfx_Yasuo_YasuoSheathSpark_buffactivate"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_I_sheath_spark"
               }
             ],
             "name": 1171098015
@@ -70928,7 +71048,7 @@
                         {
                           "key": "particleColorTexture",
                           "type": "string",
-                          "value": "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
+                          "value": "ASSETS/Shared/Particles/color-hold_2.tex"
                         },
                         {
                           "key": "blendMode",
@@ -72591,6 +72711,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 198
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_wind_hit_tar"
               }
             ],
             "name": 1171098015
@@ -75929,6 +76054,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_EQ_cas"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_EQ_cas"
               }
             ],
             "name": 1171098015
@@ -76159,6 +76289,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_4"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_4"
               }
             ],
@@ -76400,6 +76535,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_1"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_1"
               }
             ],
             "name": 1171098015
@@ -76630,6 +76770,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_2"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_2"
               }
             ],
@@ -76870,6 +77015,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_3"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_3"
               }
             ],
@@ -86571,6 +86721,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 198
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_01"
               }
             ],
             "name": 1171098015
@@ -96129,6 +96284,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 198
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_03"
               }
             ],
             "name": 1171098015
@@ -105687,6 +105847,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 198
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_02"
               }
             ],
             "name": 1171098015
@@ -115226,6 +115391,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 198
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_05"
               }
             ],
             "name": 1171098015
@@ -124784,6 +124954,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 198
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_04"
               }
             ],
             "name": 1171098015
@@ -126231,6 +126406,11 @@
                 "key": "soundOnCreateDefault",
                 "type": "string",
                 "value": "Play_sfx_Yasuo_YasuoPassiveMSShieldOn_buffdeactivate"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_passive_activate"
               }
             ],
             "name": 1171098015
@@ -136026,6 +136206,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 198
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall1"
               }
             ],
             "name": 1171098015
@@ -145679,6 +145864,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 198
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall3"
               }
             ],
             "name": 1171098015
@@ -155332,6 +155522,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 198
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall2"
               }
             ],
             "name": 1171098015
@@ -165002,6 +165197,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 198
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall5"
               }
             ],
             "name": 1171098015
@@ -174673,6 +174873,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 198
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall4"
               }
             ],
             "name": 1171098015
@@ -178337,6 +178542,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_windstrike_02"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_windstrike_02"
               }
             ],
             "name": 1171098015
@@ -179141,6 +179351,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_R_slash_cas"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_R_slash_cas"
               }
             ],
@@ -180580,13 +180795,13 @@
                                   },
                                   {
                                     "key": "baseTexture",
-                                    "type": "string",
-                                    "value": "ASSETS/Characters/Yasuo/Skins/Base/Particles/Yasuo_base_R_sword_text_swap.tex"
+                                    "type": "file",
+                                    "value": 8408765453486354249
                                   },
                                   {
                                     "key": "transitionTexture",
-                                    "type": "string",
-                                    "value": "ASSETS/Characters/Yasuo/Skins/Base/Particles/Color_yasuo_w_windwall_dust.tex"
+                                    "type": "file",
+                                    "value": 12151510015923044395
                                   },
                                   {
                                     "key": "transitionSample",
@@ -181107,6 +181322,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_SwordGlow"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_SwordGlow"
               }
             ],
@@ -182597,6 +182817,11 @@
                 "key": "soundPersistentDefault",
                 "type": "string",
                 "value": "Play_sfx_Yasuo_YasuoQW_buffactivate"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_wind_ready_buff"
               }
             ],
             "name": 1171098015

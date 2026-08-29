@@ -36,7 +36,7 @@ entries: map[hash,embed] = {
             }
         }
         loadscreen: embed = CensoredImage {
-            image: string = "ASSETS/Characters/Volibear/Skins/Base/VolibearLoadscreen.tex"
+            image: file = "assets/characters/volibear/skins/base/volibearloadscreen.tex"
         }
         skinAudioProperties: embed = skinAudioProperties {
             tagEventList: list[string] = {
@@ -173,30 +173,30 @@ entries: map[hash,embed] = {
         skinMeshProperties: embed = SkinMeshDataProperties {
             skeleton: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base.skl"
             simpleSkin: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base.skn"
-            texture: string = "ASSETS/Characters/Volibear/Skins/Base/volibear_base_TX_CM.tex"
+            texture: file = "assets/characters/volibear/skins/base/volibear_base_tx_cm.tex"
 	 	 	skinScale: f32 = 2
             selfIllumination: f32 = 0.699999988
             reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
             initialSubmeshToHide: string = "HeadFrenzy FrenzyDaggers ShacklePieces ShackleBlades Crystal"
             materialOverride: list[embed] = {
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
+                    texture: file = "assets/characters/volibear/skins/base/volibear_base_ice_tx_cm.tex"
                     submesh: string = "ice_back"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
+                    texture: file = "assets/characters/volibear/skins/base/volibear_base_ice_tx_cm.tex"
                     submesh: string = "ice_legs"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
+                    texture: file = "assets/characters/volibear/skins/base/volibear_base_ice_tx_cm.tex"
                     submesh: string = "ice_arms"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
+                    texture: file = "assets/characters/volibear/skins/base/volibear_base_ice_tx_cm.tex"
                     submesh: string = "ice_arms_float"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Poro_TX_CM.tex"
+                    texture: file = "assets/characters/volibear/skins/base/volibear_base_poro_tx_cm.tex"
                     submesh: string = "Poro"
                 }
             }
@@ -206,17 +206,18 @@ entries: map[hash,embed] = {
             ""
         }
         mContextualActionData: link = "Characters/Volibear/CAC/Volibear_Base"
-        iconCircle: option[string] = {
-            "ASSETS/Characters/Volibear/HUD/Volibear_Circle_0.tex"
+        iconCircle: option[file] = {
+            "assets/characters/volibear/hud/volibear_circle_0.tex"
         }
-        iconSquare: option[string] = {
-            "ASSETS/Characters/Volibear/HUD/Volibear_Square.tex"
+        iconSquare: option[file] = {
+            "assets/characters/volibear/hud/volibear_square.tex"
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
             attachToBone: string = "Buffbone_Cstm_Healthbar"
             unitHealthBarStyle: u8 = 12
         }
         mResourceResolver: link = "Characters/Volibear/Skins/Skin0/Resources"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0"
     }
     0x02570d22 = GearSkinUpgrade {
         mGearData: pointer = GearData {
@@ -556,6 +557,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_Passive_maxStacks_R_SpikeB"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_R_SpikeB"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_R_SpikeB"
     }
     "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_R_SpikeC" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -872,6 +874,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_Passive_maxStacks_R_SpikeC"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_R_SpikeC"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_R_SpikeC"
     }
     "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_R_SpikeA" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -1313,6 +1316,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_Passive_maxStacks_R_SpikeA"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_R_SpikeA"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_R_SpikeA"
     }
     "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_Aura_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -1418,6 +1422,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_Passive_zeroStacks_Aura_01"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_Aura_01"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_Aura_01"
     }
     "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_L_SpikeA" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -1884,6 +1889,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_Passive_midStacks_L_SpikeA"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_L_SpikeA"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_L_SpikeA"
     }
     "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_L_SpikeB" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -2200,6 +2206,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_Passive_midStacks_L_SpikeB"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_L_SpikeB"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_L_SpikeB"
     }
     "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_L_SpikeC" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -2535,6 +2542,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_Passive_midStacks_L_SpikeC"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_L_SpikeC"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_L_SpikeC"
     }
     "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_Aura_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -4041,6 +4049,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_Passive_maxStacks_Aura_01"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_Aura_01"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_Aura_01"
     }
     "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_R_SpikeB" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -4377,6 +4386,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_Passive_midStacks_R_SpikeB"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_R_SpikeB"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_R_SpikeB"
     }
     "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_R_SpikeC" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -4712,6 +4722,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_Passive_midStacks_R_SpikeC"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_R_SpikeC"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_R_SpikeC"
     }
     "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_R_SpikeA" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5169,6 +5180,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_Passive_midStacks_R_SpikeA"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_R_SpikeA"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_R_SpikeA"
     }
     "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_Aura_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5358,6 +5370,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_Passive_midStacks_Aura_01"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_Aura_01"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_Aura_01"
     }
     "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_R_SpikeA" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5739,6 +5752,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_Passive_zeroStacks_R_SpikeA"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_R_SpikeA"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_R_SpikeA"
     }
     "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_R_SpikeB" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -6111,6 +6125,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_Passive_zeroStacks_R_SpikeB"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_R_SpikeB"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_R_SpikeB"
     }
     "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_R_SpikeC" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -6486,6 +6501,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_Passive_zeroStacks_R_SpikeC"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_R_SpikeC"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_R_SpikeC"
     }
     "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_L_SpikeB" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -6858,6 +6874,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_Passive_zeroStacks_L_SpikeB"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_L_SpikeB"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_L_SpikeB"
     }
     "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_R_Buf_Max" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -6882,9 +6899,9 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
+                            "HeadBase"
                             "BODY"
                             "Mane"
-                            "HeadBase"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -7160,9 +7177,9 @@ entries: map[hash,embed] = {
                 primitive: pointer = VfxPrimitiveAttachedMesh {
                     mMesh: embed = VfxMeshDefinitionData {
                         mSubmeshesToDraw: list[hash] = {
+                            "HeadBase"
                             "BODY"
                             "Mane"
-                            "HeadBase"
                         }
                         mLockMeshToAttachment: bool = true
                     }
@@ -8482,8 +8499,8 @@ entries: map[hash,embed] = {
                             "HeadBase"
                         }
                         mSubmeshesToDrawAlways: list[hash] = {
-                            "Mane"
                             "BODY"
+                            "Mane"
                             "HeadBase"
                         }
                         mLockMeshToAttachment: bool = true
@@ -9155,6 +9172,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_R_Buf_Max"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_R_Buf_Max"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_R_Buf_Max"
     }
     "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_L_SpikeC" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -9530,6 +9548,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_Passive_zeroStacks_L_SpikeC"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_L_SpikeC"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_L_SpikeC"
     }
     "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_L_SpikeA" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -10013,6 +10032,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_Passive_maxStacks_L_SpikeA"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_L_SpikeA"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_L_SpikeA"
     }
     "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_L_SpikeB" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -10333,6 +10353,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_Passive_maxStacks_L_SpikeB"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_L_SpikeB"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_L_SpikeB"
     }
     "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_L_SpikeA" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -10714,6 +10735,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_Passive_zeroStacks_L_SpikeA"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_L_SpikeA"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_L_SpikeA"
     }
     "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_L_SpikeC" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -11030,6 +11052,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Base_Passive_maxStacks_L_SpikeC"
         particlePath: string = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_L_SpikeC"
+        objectPath: hash = "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_L_SpikeC"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_midStacks_Aura_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -11140,6 +11163,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Skin06_Passive_midStacks_Aura_01"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_midStacks_Aura_01"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_midStacks_Aura_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_ult_paws_R" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -11778,6 +11802,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Q_ult_paws_R"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_ult_paws_R"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_ult_paws_R"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Death_02" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -13029,6 +13054,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Death_02"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Death_02"
         flags: u16 = 199
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Death_02"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Death_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -13212,6 +13238,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Death_01"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Death_01"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Death_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Slow" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -13544,6 +13571,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Slow"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Slow"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Slow"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_hitFlash_Crit" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -13913,6 +13941,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_hitFlash_Crit"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_hitFlash_Crit"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_hitFlash_Crit"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_ult_paws_L" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -14551,6 +14580,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Q_ult_paws_L"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_ult_paws_L"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_ult_paws_L"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Recall_handSparks" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -16066,6 +16096,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Recall_handSparks"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Recall_handSparks"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Recall_handSparks"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_W_Marked_Scratch" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -16815,6 +16846,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Skin06_W_Marked_Scratch"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_W_Marked_Scratch"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_W_Marked_Scratch"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_E_AOE_Warning" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -18779,6 +18811,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_E_AOE_Warning"
         soundPersistentDefault: string = "Play_sfx_Volibear_VolibearE_buffactivate"
         flags: u16 = 214
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_E_AOE_Warning"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_cast" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -18995,18 +19028,22 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Skin06_Q_cast"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_cast"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_cast"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_midStacks_R_SpikeB" = VfxSystemDefinitionData {
         particleName: string = "Volibear_Skin06_Passive_midStacks_R_SpikeB"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_midStacks_R_SpikeB"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_midStacks_R_SpikeB"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_midStacks_R_SpikeC" = VfxSystemDefinitionData {
         particleName: string = "Volibear_Skin06_Passive_midStacks_R_SpikeC"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_midStacks_R_SpikeC"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_midStacks_R_SpikeC"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_midStacks_R_SpikeA" = VfxSystemDefinitionData {
         particleName: string = "Volibear_Skin06_Passive_midStacks_R_SpikeA"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_midStacks_R_SpikeA"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_midStacks_R_SpikeA"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_BasicAttack_Swipe_R_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -19268,6 +19305,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Skin06_BasicAttack_Swipe_R_01"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_BasicAttack_Swipe_R_01"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_BasicAttack_Swipe_R_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_AOE_Warning" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -19896,6 +19934,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_R_AOE_Warning"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_AOE_Warning"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_AOE_Warning"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_pawsFront" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -20251,14 +20290,17 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Q_pawsFront"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_pawsFront"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_pawsFront"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_R_SpikeB" = VfxSystemDefinitionData {
         particleName: string = "Volibear_Skin06_Passive_zeroStacks_R_SpikeB"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_R_SpikeB"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_R_SpikeB"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_R_SpikeB/Volibear_Skin06_Passive_maxStacks_R_SpikeB" = VfxSystemDefinitionData {
         particleName: string = "Volibear_Skin06_Passive_maxStacks_R_SpikeB"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_R_SpikeB/Volibear_Skin06_Passive_maxStacks_R_SpikeB"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_R_SpikeB/Volibear_Skin06_Passive_maxStacks_R_SpikeB"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_hit" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -21634,6 +21676,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Q_hit"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_hit"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_hit"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Recall_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -21708,6 +21751,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Recall_01"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Recall_01"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Recall_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_leapGroundShadow" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -21832,6 +21876,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Skin06_R_leapGroundShadow"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_leapGroundShadow"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_leapGroundShadow"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_E_Shield_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -23316,6 +23361,7 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 3000
         particleName: string = "Volibear_Skin06_E_Shield_01"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_E_Shield_01"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_E_Shield_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_E_AOE" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -26407,18 +26453,22 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_E_AOE"
         soundOnCreateDefault: string = "Play_sfx_Volibear_VolibearE_explo"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_E_AOE"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_midStacks_L_SpikeA" = VfxSystemDefinitionData {
         particleName: string = "Volibear_Skin06_Passive_midStacks_L_SpikeA"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_midStacks_L_SpikeA"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_midStacks_L_SpikeA"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_midStacks_L_SpikeB" = VfxSystemDefinitionData {
         particleName: string = "Volibear_Skin06_Passive_midStacks_L_SpikeB"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_midStacks_L_SpikeB"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_midStacks_L_SpikeB"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_midStacks_L_SpikeC" = VfxSystemDefinitionData {
         particleName: string = "Volibear_Skin06_Passive_midStacks_L_SpikeC"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_midStacks_L_SpikeC"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_midStacks_L_SpikeC"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_W_Slash" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -27127,6 +27177,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_W_Slash"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_W_Slash"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_W_Slash"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_Impact_Dust_A" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -27395,6 +27446,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_R_Impact_Dust_A"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_Impact_Dust_A"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_Impact_Dust_A"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_Aura_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -27500,6 +27552,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Skin06_Passive_zeroStacks_Aura_01"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_Aura_01"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_Aura_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_Buf_Max" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -29672,6 +29725,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Skin06_R_Buf_Max"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_Buf_Max"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_Buf_Max"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_thunderFist_Bolt" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -29908,6 +29962,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_R_thunderFist_Bolt"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_thunderFist_Bolt"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_thunderFist_Bolt"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_BasicAttack_Swipe_L_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -30171,10 +30226,12 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Skin06_BasicAttack_Swipe_L_01"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_BasicAttack_Swipe_L_01"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_BasicAttack_Swipe_L_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_maxStacks_R_SpikeC" = VfxSystemDefinitionData {
         particleName: string = "Volibear_Skin06_Passive_maxStacks_R_SpikeC"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_maxStacks_R_SpikeC"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_maxStacks_R_SpikeC"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_attack_buf_R" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -30767,10 +30824,12 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Skin06_R_attack_buf_R"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_attack_buf_R"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_attack_buf_R"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_maxStacks_R_SpikeA" = VfxSystemDefinitionData {
         particleName: string = "Volibear_Skin06_Passive_maxStacks_R_SpikeA"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_maxStacks_R_SpikeA"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_maxStacks_R_SpikeA"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_W_hit_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -30872,6 +30931,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_W_hit_01"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_W_hit_01"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_W_hit_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_E_Hit_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -31377,6 +31437,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_E_Hit_01"
         soundOnCreateDefault: string = "Play_sfx_Volibear_VolibearE_hit"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_E_Hit_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_hitDust" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -31982,6 +32043,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Q_hitDust"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_hitDust"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_hitDust"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_E_wiggleSpark_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -32697,6 +32759,7 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 3000
         particleName: string = "Volibear_Skin06_E_wiggleSpark_01"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_E_wiggleSpark_01"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_E_wiggleSpark_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Taunt_handGlow_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -33319,6 +33382,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Taunt_handGlow_01"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Taunt_handGlow_01"
         flags: u16 = 197
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Taunt_handGlow_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_attack_buf_L" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -33911,6 +33975,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Skin06_R_attack_buf_L"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_attack_buf_L"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_attack_buf_L"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Taunt_Hit_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -34569,10 +34634,12 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Taunt_Hit_01"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Taunt_Hit_01"
         flags: u16 = 197
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Taunt_Hit_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_maxStacks_L_SpikeA" = VfxSystemDefinitionData {
         particleName: string = "Volibear_Skin06_Passive_maxStacks_L_SpikeA"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_maxStacks_L_SpikeA"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_maxStacks_L_SpikeA"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_BasicAttack_Hit_Right" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -34906,14 +34973,17 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_BasicAttack_Hit_Right"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_BasicAttack_Hit_Right"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_BasicAttack_Hit_Right"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_maxStacks_L_SpikeB" = VfxSystemDefinitionData {
         particleName: string = "Volibear_Skin06_Passive_maxStacks_L_SpikeB"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_maxStacks_L_SpikeB"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_maxStacks_L_SpikeB"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_maxStacks_L_SpikeC" = VfxSystemDefinitionData {
         particleName: string = "Volibear_Skin06_Passive_maxStacks_L_SpikeC"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_maxStacks_L_SpikeC"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_maxStacks_L_SpikeC"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_landingImpact_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -37620,6 +37690,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_landingImpact_01"
         soundOnCreateDefault: string = "Play_sfx_Volibear_VolibearR_hit_ground"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_landingImpact_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Recall_Roar_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -39066,6 +39137,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Recall_Roar_01"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Recall_Roar_01"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Recall_Roar_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_W_LifeSteal" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -39545,14 +39617,17 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_W_LifeSteal"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_W_LifeSteal"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_W_LifeSteal"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_R_SpikeA" = VfxSystemDefinitionData {
         particleName: string = "Volibear_Skin06_Passive_zeroStacks_R_SpikeA"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_R_SpikeA"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_R_SpikeA"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_R_SpikeC" = VfxSystemDefinitionData {
         particleName: string = "Volibear_Skin06_Passive_zeroStacks_R_SpikeC"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_R_SpikeC"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_R_SpikeC"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Taunt_Swipe_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -39824,6 +39899,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Taunt_Swipe_01"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Taunt_Swipe_01"
         flags: u16 = 197
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Taunt_Swipe_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_aura_arc_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -40391,6 +40467,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Skin06_R_aura_arc_01"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_aura_arc_01"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_aura_arc_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Taunt_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -40585,6 +40662,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Taunt_01"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Taunt_01"
         flags: u16 = 197
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Taunt_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_thunderFist" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -41068,6 +41146,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_R_thunderFist"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_thunderFist"
         flags: u16 = 204
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_R_thunderFist"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Recall_GroundRune_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -42206,6 +42285,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Recall_GroundRune_01"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Recall_GroundRune_01"
         flags: u16 = 199
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Recall_GroundRune_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_hitFlash_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -42566,6 +42646,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_hitFlash_01"
         soundOnCreateDefault: string = "Play_sfx_Volibear_VolibearPChain_hit"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_hitFlash_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Recall_endBolt_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -44220,6 +44301,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Recall_endBolt_01"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Recall_endBolt_01"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Recall_endBolt_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_aura" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -44894,11 +44976,13 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Skin06_Q_aura"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_aura"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_aura"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_ult_runDust" = VfxSystemDefinitionData {
         particleName: string = "Volibear_Skin06_Q_ult_runDust"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_ult_runDust"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_ult_runDust"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_pawPrints" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -45716,6 +45800,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Q_pawPrints"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_pawPrints"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_pawPrints"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_pawSparks" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -46031,6 +46116,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Q_pawSparks"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_pawSparks"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Q_pawSparks"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Idle_Breath" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -46612,15 +46698,18 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Skin06_Idle_Breath"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Idle_Breath"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Idle_Breath"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Idle_pawSpark" = VfxSystemDefinitionData {
         particleName: string = "Volibear_Skin06_Idle_pawSpark"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Idle_pawSpark"
         flags: u16 = 204
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Idle_pawSpark"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_L_SpikeB" = VfxSystemDefinitionData {
         particleName: string = "Volibear_Skin06_Passive_zeroStacks_L_SpikeB"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_L_SpikeB"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_L_SpikeB"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Recall_handSparks_L" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -47035,6 +47124,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Recall_handSparks_L"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Recall_handSparks_L"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Recall_handSparks_L"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_maxStacks_Aura_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -48275,10 +48365,12 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Volibear_Skin06_Passive_maxStacks_Aura_01"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_maxStacks_Aura_01"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_maxStacks_Aura_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_L_SpikeC" = VfxSystemDefinitionData {
         particleName: string = "Volibear_Skin06_Passive_zeroStacks_L_SpikeC"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_L_SpikeC"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_L_SpikeC"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_chainLightning_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -48817,6 +48909,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Passive_chainLightning_01"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_chainLightning_01"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_chainLightning_01"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Recall_Land" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -50004,10 +50097,12 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_Recall_Land"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Recall_Land"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Recall_Land"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_L_SpikeA" = VfxSystemDefinitionData {
         particleName: string = "Volibear_Skin06_Passive_zeroStacks_L_SpikeA"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_L_SpikeA"
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_Passive_zeroStacks_L_SpikeA"
     }
     "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_W_Chomp" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -50997,6 +51092,7 @@ entries: map[hash,embed] = {
         particleName: string = "Volibear_Skin06_W_Chomp"
         particlePath: string = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_W_Chomp"
         flags: u16 = 198
+        objectPath: hash = "Characters/Volibear/Skins/Skin6/Particles/Volibear_Skin06_W_Chomp"
     }
     "Characters/Volibear/Skins/Skin6/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {

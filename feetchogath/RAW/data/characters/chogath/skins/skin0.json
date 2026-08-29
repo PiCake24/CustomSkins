@@ -29,8 +29,8 @@
                   "items": [
                     {
                       "key": "image",
-                      "type": "string",
-                      "value": "ASSETS/Characters/Chogath/skins/base/ChogathLoadScreen.tex"
+                      "type": "file",
+                      "value": 14467668957324630073
                     }
                   ],
                   "name": 3496109055
@@ -186,8 +186,8 @@
                     },
                     {
                       "key": "texture",
-                      "type": "string",
-                      "value": "ASSETS/Characters/Chogath/skins/base/GreenTerror.tex"
+                      "type": "file",
+                      "value": 6492224236662956275
                     },
                     {
                       "key": "skinScale",
@@ -247,9 +247,9 @@
                 "type": "option",
                 "value": {
                   "items": [
-                    "ASSETS/Characters/Chogath/HUD/GreenTerror_Circle.tex"
+                    1498651459847699054
                   ],
-                  "valueType": "string"
+                  "valueType": "file"
                 }
               },
               {
@@ -257,9 +257,9 @@
                 "type": "option",
                 "value": {
                   "items": [
-                    "ASSETS/Characters/Chogath/HUD/GreenTerror_Square.tex"
+                    3898474307476062898
                   ],
-                  "valueType": "string"
+                  "valueType": "file"
                 }
               },
               {
@@ -280,6 +280,11 @@
                 "key": "mResourceResolver",
                 "type": "link",
                 "value": "Characters/Chogath/Skins/Skin0/Resources"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Chogath/Skins/Skin0"
               }
             ],
             "name": 2607278582
@@ -9281,6 +9286,11 @@
                 "key": "soundOnCreateDefault",
                 "type": "string",
                 "value": "Play_sfx_Chogath_Rupture_cast2"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_Q_cas"
               }
             ],
             "name": 1171098015
@@ -12872,6 +12882,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis2"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis2"
               }
             ],
             "name": 1171098015
@@ -15902,6 +15917,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis3"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis3"
               }
             ],
@@ -19800,6 +19820,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis4"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis4"
               }
             ],
@@ -24094,6 +24119,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis5"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis5"
               }
             ],
@@ -28785,6 +28815,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis6"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis6"
               }
             ],
             "name": 1171098015
@@ -32111,6 +32146,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis"
               }
             ],

@@ -46,7 +46,7 @@ entries: map[hash,embed] = {
         championSkinName: string = "Yasuo"
         metaDataTags: string = "gender:male,faction:ionia,race:human,element:wind"
         loadscreen: embed = CensoredImage {
-            image: string = "ASSETS/Characters/Yasuo/Skins/Base/YasuoLoadScreen.tex"
+            image: file = "assets/characters/yasuo/skins/base/yasuoloadscreen.tex"
         }
         skinAudioProperties: embed = skinAudioProperties {
             tagEventList: list[string] = {
@@ -216,7 +216,7 @@ entries: map[hash,embed] = {
         skinMeshProperties: embed = SkinMeshDataProperties {
             skeleton: string = "ASSETS/Characters/Yasuo/Skins/Base/Yasuo.skl"
             simpleSkin: string = "ASSETS/Characters/Yasuo/Skins/Base/Yasuo.skn"
-            texture: string = "ASSETS/Characters/Yasuo/Skins/Base/Yasuo_base_TX_CM.tex"
+            texture: file = "assets/characters/yasuo/skins/base/yasuo_base_tx_cm.tex"
 	 	 	skinScale: f32 = 2
             selfIllumination: f32 = 0.699999988
             brushAlphaOverride: f32 = 0.5
@@ -227,7 +227,7 @@ entries: map[hash,embed] = {
             initialSubmeshToHide: string = "Yasuo_Instrument_Mat, Weapon_Trail"
             materialOverride: list[embed] = {
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Yasuo/Skins/Base/Yasuo_Weapon_Trail_TX_CM.tex"
+                    texture: file = "assets/characters/yasuo/skins/base/yasuo_weapon_trail_tx_cm.tex"
                     submesh: string = "Weapon_Trail"
                 }
             }
@@ -238,16 +238,17 @@ entries: map[hash,embed] = {
             "BottleFix_Skin01"
         }
         mContextualActionData: link = "Characters/Yasuo/CAC/Yasuo_Base"
-        iconCircle: option[string] = {
-            "ASSETS/Characters/Yasuo/HUD/Yasuo_Circle.tex"
+        iconCircle: option[file] = {
+            "assets/characters/yasuo/hud/yasuo_circle.tex"
         }
-        iconSquare: option[string] = {
-            "ASSETS/Characters/Yasuo/HUD/Yasuo_Square.tex"
+        iconSquare: option[file] = {
+            "assets/characters/yasuo/hud/yasuo_square.tex"
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
             unitHealthBarStyle: u8 = 12
         }
         mResourceResolver: link = "Characters/Yasuo/Skins/Skin0/Resources"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -1439,6 +1440,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Base_BA_Crit_hit_01"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_01"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_01"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_02" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -2621,6 +2623,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Base_BA_Crit_hit_02"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_02"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_02"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall_big_impact" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -3376,6 +3379,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall_big_impact"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoWMovingWall_hit"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall_big_impact"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_03" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -4561,6 +4565,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Base_BA_Crit_hit_03"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_03"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_03"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_04" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5742,6 +5747,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Base_BA_Crit_hit_04"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_04"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_BA_Crit_hit_04"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_E_Dash" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -6321,6 +6327,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_E_Dash"
         voiceOverOnCreateDefault: string = "Play_vo_Yasuo_YasuoDashWrapper_cast"
         soundPersistentDefault: string = "Play_sfx_Yasuo_YasuoDashWrapper_cast"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_E_Dash"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -7170,6 +7177,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_base_BA_hit_tar_01"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_01"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_01"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_03" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -8012,6 +8020,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_base_BA_hit_tar_03"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_03"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_03"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_hit_tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -8896,6 +8905,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_hit_tar"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoQ_hit"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_hit_tar"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_02" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -9735,6 +9745,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_base_BA_hit_tar_02"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_02"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_02"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_04" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -10573,6 +10584,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_base_BA_hit_tar_04"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_04"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_hit_tar_04"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_EQ3_cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -11420,6 +11432,7 @@ entries: map[hash,embed] = {
         particleName: string = "Yasuo_Base_EQ3_cas"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_EQ3_cas"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_EQ3_cas"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Passive_Burst" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -11533,6 +11546,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             -1
         }
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Passive_Burst"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_impact_tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -12943,6 +12957,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Base_R_impact_tar"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_impact_tar"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_impact_tar"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_WindStrike" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -13621,6 +13636,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Base_Q_WindStrike"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_WindStrike"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_WindStrike"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_land_tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -15291,6 +15307,7 @@ entries: map[hash,embed] = {
         particleName: string = "Yasuo_Base_R_land_tar"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_land_tar"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoRKnockUpCombo_hit_land"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_land_tar"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_E_timer4" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -15478,7 +15495,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.549996197 }
@@ -15575,6 +15592,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             350
         }
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_E_timer4"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_E_timer5" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -15762,7 +15780,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.549996197 }
@@ -15881,6 +15899,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             350
         }
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_E_timer5"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_E_timer2" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -16068,7 +16087,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.549996197 }
@@ -16187,6 +16206,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             350
         }
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_E_timer2"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_E_timer3" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -16374,7 +16394,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.549996197 }
@@ -16471,6 +16491,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             350
         }
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_E_timer3"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_E_dash_hit" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -16836,6 +16857,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_E_dash_hit"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoDashWrapper_hit"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_E_dash_hit"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_E_timer1" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -17036,7 +17058,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.549996197 }
@@ -17277,7 +17299,7 @@ entries: map[hash,embed] = {
                 FlexShapeDefinition: pointer = VfxFlexShapeDefinitionData {
                     scaleEmitOffsetByBoundObjectSize: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.549996197 }
@@ -17396,6 +17418,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             350
         }
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_E_timer1"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_I_sheath_spark" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -17932,6 +17955,7 @@ entries: map[hash,embed] = {
         particleName: string = "Yasuo_Base_I_sheath_spark"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_I_sheath_spark"
         soundPersistentDefault: string = "Play_sfx_Yasuo_YasuoSheathSpark_buffactivate"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_I_sheath_spark"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_wind_hit_tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -18268,7 +18292,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.TFT_Set15.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-hold_2.tex"
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     constantValue: vec4 = { 1, 1, 1, 0.360006094 }
@@ -18705,6 +18729,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_wind_hit_tar"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoQ3W_hit"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_wind_hit_tar"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_EQ_cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -19576,6 +19601,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Base_EQ_cas"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_EQ_cas"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_EQ_cas"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_4" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -19625,6 +19651,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_base_BA_trail_4"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_4"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_4"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_1" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -19675,6 +19702,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_base_BA_trail_1"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_1"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_1"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_2" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -19724,6 +19752,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_base_BA_trail_2"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_2"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_2"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_3" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -19774,6 +19803,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_base_BA_trail_3"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_3"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_BA_trail_3"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -22324,6 +22354,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_01"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoWMovingWall_buffactivate"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_01"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_03" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -24835,6 +24866,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_03"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoWMovingWall_buffactivate"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_03"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_02" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -27346,6 +27378,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_02"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoWMovingWall_buffactivate"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_02"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_05" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -29855,6 +29888,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_05"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoWMovingWall_buffactivate"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_05"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_04" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -32366,6 +32400,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_04"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoWMovingWall_buffactivate"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_w_windwall_enemy_04"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_passive_activate" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -32745,6 +32780,7 @@ entries: map[hash,embed] = {
             -1
         }
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoPassiveMSShieldOn_buffdeactivate"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_passive_activate"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall1" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -35320,6 +35356,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall1"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoWMovingWall_buffactivate"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall1"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall3" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -37856,6 +37893,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall3"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoWMovingWall_buffactivate"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall3"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall2" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -40392,6 +40430,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall2"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoWMovingWall_buffactivate"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall2"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall5" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -42932,6 +42971,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall5"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoWMovingWall_buffactivate"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall5"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall4" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -45471,6 +45511,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall4"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoWMovingWall_buffactivate"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_W_windwall4"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_windstrike_02" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -46392,6 +46433,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Base_Q_windstrike_02"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_windstrike_02"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_windstrike_02"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_R_slash_cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -46563,6 +46605,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_base_R_slash_cas"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_R_slash_cas"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_R_slash_cas"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_SwordGlow" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -46945,8 +46988,8 @@ entries: map[hash,embed] = {
                         subMeshName: option[string] = {
                             "Yasuo_Base_Weapon_Mat"
                         }
-                        baseTexture: string = "ASSETS/Characters/Yasuo/Skins/Base/Particles/Yasuo_base_R_sword_text_swap.tex"
-                        transitionTexture: string = "ASSETS/Characters/Yasuo/Skins/Base/Particles/Color_yasuo_w_windwall_dust.tex"
+                        baseTexture: file = "assets/characters/yasuo/skins/base/particles/yasuo_base_r_sword_text_swap.tex"
+                        transitionTexture: file = "assets/characters/yasuo/skins/base/particles/color_yasuo_w_windwall_dust.tex"
                         transitionSample: f32 = 0.0625
                     }
                 }
@@ -47083,6 +47126,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Base_R_SwordGlow"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_SwordGlow"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_SwordGlow"
     }
     "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_wind_ready_buff" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -47468,6 +47512,7 @@ entries: map[hash,embed] = {
         particleName: string = "Yasuo_Base_Q_wind_ready_buff"
         particlePath: string = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_wind_ready_buff"
         soundPersistentDefault: string = "Play_sfx_Yasuo_YasuoQW_buffactivate"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_Q_wind_ready_buff"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Joke_SwordGrab" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -48815,6 +48860,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_Joke_SwordGrab"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Joke_SwordGrab"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Joke_SwordGrab"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_R_DragonTrail" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -49157,6 +49203,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_R_DragonTrail"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_R_DragonTrail"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_R_DragonTrail"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Q_wind_mis" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -51205,6 +51252,7 @@ entries: map[hash,embed] = {
         particleName: string = "Yasuo_Skin55_Q_wind_mis"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Q_wind_mis"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoQ3W_missilelaunch"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Q_wind_mis"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall4_Enemy" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -53553,6 +53601,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall4_Enemy"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoWMovingWall_buffactivate"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall4_Enemy"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Dance_Dragon_Trail_FadeIn" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -53727,6 +53776,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_Dance_Dragon_Trail_FadeIn"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Dance_Dragon_Trail_FadeIn"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Dance_Dragon_Trail_FadeIn"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_Crit_hit_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -55619,6 +55669,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_BA_Crit_hit_01"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_Crit_hit_01"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_Crit_hit_01"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_Crit_hit_02" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -55704,6 +55755,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_BA_Crit_hit_02"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_Crit_hit_02"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_Crit_hit_02"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall5_Enemy" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -58067,11 +58119,13 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall5_Enemy"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoWMovingWall_buffactivate"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall5_Enemy"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Idle_Chest_Gem" = VfxSystemDefinitionData {
         particleName: string = "Yasuo_Skin55_Idle_Chest_Gem"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Idle_Chest_Gem"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Idle_Chest_Gem"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Q_WindStrike_02" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -60038,6 +60092,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_Q_WindStrike_02"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Q_WindStrike_02"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Q_WindStrike_02"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall3_Enemy" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -62383,6 +62438,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall3_Enemy"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoWMovingWall_buffactivate"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall3_Enemy"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall5" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -64687,6 +64743,7 @@ entries: map[hash,embed] = {
             0, 0, 0.999999881, 0
             0, 0, 0, 1
         }
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall5"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_E_timer2" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -65535,6 +65592,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             350
         }
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_E_timer2"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall4" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -67818,6 +67876,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall4"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoWMovingWall_buffactivate"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall4"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_E_timer3" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -68666,6 +68725,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             350
         }
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_E_timer3"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Dragon_Trail_small" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -68890,6 +68950,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_Dragon_Trail_small"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Dragon_Trail_small"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Dragon_Trail_small"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_EQ3_cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -69150,6 +69211,7 @@ entries: map[hash,embed] = {
         particleName: string = "Yasuo_Skin55_EQ3_cas"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_EQ3_cas"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_EQ3_cas"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_E_timer1" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -69999,6 +70061,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             350
         }
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_E_timer1"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Respawn_Dragon_Trail" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -70619,6 +70682,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_Respawn_Dragon_Trail"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Respawn_Dragon_Trail"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Respawn_Dragon_Trail"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall1" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -72745,6 +72809,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall1"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoWMovingWall_buffactivate"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall1"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall3" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -75023,6 +75088,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall3"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoWMovingWall_buffactivate"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall3"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_E_timer4" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -75871,6 +75937,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             350
         }
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_E_timer4"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall2" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -78156,6 +78223,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall2"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoWMovingWall_buffactivate"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall2"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_E_timer5" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -79004,6 +79072,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             350
         }
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_E_timer5"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Recall_Yasuo" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -80366,6 +80435,7 @@ entries: map[hash,embed] = {
         particleName: string = "Yasuo_Skin55_Recall_Yasuo"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Recall_Yasuo"
         flags: u16 = 197
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Recall_Yasuo"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Recall_Flute_Death" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -81284,6 +81354,7 @@ entries: map[hash,embed] = {
         particleName: string = "Yasuo_Skin55_Recall_Flute_Death"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Recall_Flute_Death"
         flags: u16 = 197
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Recall_Flute_Death"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall2_Enemy" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -83634,6 +83705,7 @@ entries: map[hash,embed] = {
         particleName: string = "Yasuo_Skin55_W_windwall2_Enemy"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall2_Enemy"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoWMovingWall_buffactivate"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall2_Enemy"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Q_wind_ready_buff" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -84403,7 +84475,7 @@ entries: map[hash,embed] = {
                 }
                 alphaRef: u8 = 0
                 reflectionDefinition: pointer = VfxReflectionDefinitionData {
-                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.TFT_Set17.dds"
+                    reflectionMapTexture: string = "ASSETS/Shared/Particles/Generic_White_Cubemap.dds"
                     reflectionOpacityGlancing: f32 = 0
                     fresnel: f32 = 0.100000001
                     fresnelColor: vec4 = { 0.674509823, 0.674509823, 1, 0 }
@@ -85612,6 +85684,7 @@ entries: map[hash,embed] = {
         particleName: string = "Yasuo_Skin55_Q_wind_ready_buff"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Q_wind_ready_buff"
         soundPersistentDefault: string = "Play_sfx_Yasuo_YasuoQW_buffactivate"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Q_wind_ready_buff"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Idle_Arm_Magic" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -86493,6 +86566,7 @@ entries: map[hash,embed] = {
         particleName: string = "Yasuo_Skin55_Idle_Arm_Magic"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Idle_Arm_Magic"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Idle_Arm_Magic"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Recall_Dragon_Trail_End" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -87073,6 +87147,7 @@ entries: map[hash,embed] = {
         particleName: string = "Yasuo_Skin55_Recall_Dragon_Trail_End"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Recall_Dragon_Trail_End"
         flags: u16 = 197
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Recall_Dragon_Trail_End"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_passive_activate" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -88308,6 +88383,7 @@ entries: map[hash,embed] = {
             -1
         }
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoPassiveMSShieldOn_buffdeactivate"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_passive_activate"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Sword_Glint" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -88509,6 +88585,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_Sword_Glint"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Sword_Glint"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Sword_Glint"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_R_impact_tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -89823,6 +89900,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_R_impact_tar"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_R_impact_tar"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_R_impact_tar"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_R_land_tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -92010,6 +92088,7 @@ entries: map[hash,embed] = {
         particleName: string = "Yasuo_Skin55_R_land_tar"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_R_land_tar"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoRKnockUpCombo_hit_land"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_R_land_tar"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Respawn_Yasuo" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -92812,6 +92891,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_Respawn_Yasuo"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Respawn_Yasuo"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Respawn_Yasuo"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Dance_Flute" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -92867,6 +92947,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_Dance_Flute"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Dance_Flute"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Dance_Flute"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Homeguard" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -93570,6 +93651,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_Homeguard"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Homeguard"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Homeguard"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Q_hit_tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -94802,6 +94884,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Q_hit_tar"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoQ_hit"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Q_hit_tar"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Q_WindStrike" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -96529,6 +96612,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_Q_WindStrike"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Q_WindStrike"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Q_WindStrike"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Dance_Dragon" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -97215,6 +97299,7 @@ entries: map[hash,embed] = {
         particleName: string = "Yasuo_Skin55_Dance_Dragon"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Dance_Dragon"
         flags: u16 = 197
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Dance_Dragon"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Joke_Dragon_Trail" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -97806,6 +97891,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_Joke_Dragon_Trail"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Joke_Dragon_Trail"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Joke_Dragon_Trail"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_I_sheath_spark" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -98083,6 +98169,7 @@ entries: map[hash,embed] = {
         particleName: string = "Yasuo_Skin55_I_sheath_spark"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_I_sheath_spark"
         soundPersistentDefault: string = "Play_sfx_Yasuo_YasuoSheathSpark_buffactivate"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_I_sheath_spark"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_hit_tar_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -99430,6 +99517,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_BA_hit_tar_01"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_hit_tar_01"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_hit_tar_01"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Q_wind_hit_tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -100630,6 +100718,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Q_wind_hit_tar"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoQ3W_hit"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Q_wind_hit_tar"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_hit_tar_02" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -100715,6 +100804,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_BA_hit_tar_02"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_hit_tar_02"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_hit_tar_02"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_E_dash_hit" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -101393,6 +101483,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_E_dash_hit"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoDashWrapper_hit"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_E_dash_hit"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_R_SwordGlow" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -101857,6 +101948,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_R_SwordGlow"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_R_SwordGlow"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_R_SwordGlow"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Dance_Dragon_FadeIn" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -101918,6 +102010,7 @@ entries: map[hash,embed] = {
         particleName: string = "Yasuo_Skin55_Dance_Dragon_FadeIn"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Dance_Dragon_FadeIn"
         flags: u16 = 197
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Dance_Dragon_FadeIn"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall_big_impact" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -102850,6 +102943,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall_big_impact"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoWMovingWall_hit"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall_big_impact"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_trail_1" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -103072,6 +103166,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_BA_trail_1"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_trail_1"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_trail_1"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_trail_2" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -103288,6 +103383,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_BA_trail_2"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_trail_2"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_trail_2"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_trail_3" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -103510,6 +103606,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_BA_trail_3"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_trail_3"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_trail_3"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_trail_4" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -103726,6 +103823,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_BA_trail_4"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_trail_4"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_BA_trail_4"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Dance_Ground" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -104387,6 +104485,7 @@ entries: map[hash,embed] = {
         particleName: string = "Yasuo_Skin55_Dance_Ground"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Dance_Ground"
         flags: u16 = 197
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Dance_Ground"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_E_Dash" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -105094,6 +105193,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_E_Dash"
         voiceOverOnCreateDefault: string = "Play_vo_Yasuo_YasuoDashWrapper_cast"
         soundPersistentDefault: string = "Play_sfx_Yasuo_YasuoDashWrapper_cast"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_E_Dash"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Joke_Dragon_Loop" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -105950,6 +106050,7 @@ entries: map[hash,embed] = {
         particleName: string = "Yasuo_Skin55_Joke_Dragon_Loop"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Joke_Dragon_Loop"
         flags: u16 = 197
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Joke_Dragon_Loop"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Death_Dragon_Trail" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -106803,6 +106904,7 @@ entries: map[hash,embed] = {
         particleName: string = "Yasuo_Skin55_Death_Dragon_Trail"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Death_Dragon_Trail"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Death_Dragon_Trail"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_TauntSword" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -108040,6 +108142,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_TauntSword"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_TauntSword"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_TauntSword"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_R_Dragon" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -108257,6 +108360,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_R_Dragon"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_R_Dragon"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_R_Dragon"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_ShoulderPad_ColorChange" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -108324,6 +108428,7 @@ entries: map[hash,embed] = {
         particleName: string = "Yasuo_Skin55_ShoulderPad_ColorChange"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_ShoulderPad_ColorChange"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_ShoulderPad_ColorChange"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_TauntSword_Loop" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -109019,6 +109124,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_TauntSword_Loop"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_TauntSword_Loop"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_TauntSword_Loop"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall1_Enemy" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -111214,6 +111320,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall1_Enemy"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoWMovingWall_buffactivate"
         flags: u16 = 198
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_W_windwall1_Enemy"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Homeguard_In" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -111946,6 +112053,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Yasuo_Skin55_Homeguard_In"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Homeguard_In"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Homeguard_In"
     }
     "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_EQ_cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -112372,31 +112480,32 @@ entries: map[hash,embed] = {
         particleName: string = "Yasuo_Skin55_EQ_cas"
         particlePath: string = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_EQ_cas"
         soundOnCreateDefault: string = "Play_sfx_Yasuo_YasuoEQComboSoundHit_OnBuffActivate"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_EQ_cas"
     }
     "Characters/Yasuo/Skins/Skin55/Materials/MultiMask_Panner_Fresnel_Dragon_inst" = StaticMaterialDef {
         name: string = "Characters/Yasuo/Skins/Skin55/Materials/MultiMask_Panner_Fresnel_Dragon_inst"
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "MatCap_Tex"
-                texturePath: string = "ASSETS/Shared/Materials/black.tex"
+                texturePath: file = "assets/shared/materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "MatCap_Mask"
-                texturePath: string = "ASSETS/Shared/Materials/black.tex"
+                texturePath: file = "assets/shared/materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin55/Yasuo_Skin55_Dragon_ScrollTex.tex"
+                texturePath: file = "assets/characters/yasuo/skins/skin55/yasuo_skin55_dragon_scrolltex.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Main_Texture"
-                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin55/Yasuo_Skin55_Dragon_Dreams_TX_CM.tex"
+                texturePath: file = "assets/characters/yasuo/skins/skin55/yasuo_skin55_dragon_dreams_tx_cm.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "OutlineMask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/white.tex"
+                texturePath: file = "assets/shared/materials/white.tex"
                 addressU: u32 = 2
                 addressV: u32 = 2
                 addressW: u32 = 2
@@ -112688,14 +112797,14 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin55/Yasuo_Skin55_TX_CM.tex"
+                texturePath: file = "assets/characters/yasuo/skins/skin55/yasuo_skin55_tx_cm.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Mask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.tex"
+                texturePath: file = "assets/shared/materials/black.tex"
             }
         }
         paramValues: list2[embed] = {
@@ -112819,25 +112928,25 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "MatCap_Tex"
-                texturePath: string = "ASSETS/Shared/Materials/MatCap_ToonPlastic.tex"
+                texturePath: file = "assets/shared/materials/matcap_toonplastic.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "MatCap_Mask"
-                texturePath: string = "ASSETS/Shared/Materials/gradient_a.tex"
+                texturePath: file = "assets/shared/materials/gradient_a.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin55/Yasuo_Skin55_TX_CM.tex"
+                texturePath: file = "assets/characters/yasuo/skins/skin55/yasuo_skin55_tx_cm.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Main_Texture"
-                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin55/Yasuo_Skin55_TX_CM.tex"
+                texturePath: file = "assets/characters/yasuo/skins/skin55/yasuo_skin55_tx_cm.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "OutlineMask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.tex"
+                texturePath: file = "assets/shared/materials/black.tex"
                 addressU: u32 = 2
                 addressV: u32 = 2
                 addressW: u32 = 2
@@ -113153,7 +113262,7 @@ entries: map[hash,embed] = {
                             driver: pointer = HasBuffDynamicMaterialBoolDriver {
                                 mScriptName: string = "yasuorarmorpen"
                             }
-                            TextureName: string = "ASSETS/Characters/Yasuo/Skins/Skin55/Yasuo_Skin55_TX_CM.tex"
+                            TextureName: file = "assets/characters/yasuo/skins/skin55/yasuo_skin55_tx_cm.tex"
                         }
                     }
                 }
@@ -113164,7 +113273,7 @@ entries: map[hash,embed] = {
                             driver: pointer = HasBuffDynamicMaterialBoolDriver {
                                 mScriptName: string = "yasuorarmorpen"
                             }
-                            TextureName: string = "ASSETS/Characters/Yasuo/Skins/Skin55/Yasuo_Skin55_TX_CM.tex"
+                            TextureName: file = "assets/characters/yasuo/skins/skin55/yasuo_skin55_tx_cm.tex"
                         }
                     }
                 }
@@ -113176,49 +113285,49 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Pattern_Mask"
-                texturePath: string = "ASSETS/Shared/Materials/black.tex"
+                texturePath: file = "assets/shared/materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "ScreenSpace_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.tex"
+                texturePath: file = "assets/shared/materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "MatCap_Tex"
-                texturePath: string = "ASSETS/Shared/Materials/black.tex"
+                texturePath: file = "assets/shared/materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Color_Mask_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.tex"
+                texturePath: file = "assets/shared/materials/black.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin55/Yasuo_Skin55_TX_CM.tex"
+                texturePath: file = "assets/characters/yasuo/skins/skin55/yasuo_skin55_tx_cm.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "iridescentTex"
-                texturePath: string = "ASSETS/Shared/Materials/black.tex"
+                texturePath: file = "assets/shared/materials/black.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "AdditiveScrollTex"
-                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin54/Particles/Yasuo_Skin54_Q_Wind01.tex"
+                texturePath: file = "assets/characters/yasuo/skins/skin54/particles/yasuo_skin54_q_wind01.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "AdditiveScroll_Mask"
-                texturePath: string = "ASSETS/Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_TX_CM_Mask02.tex"
+                texturePath: file = "assets/characters/yasuo/skins/skin55/particles/yasuo_skin55_tx_cm_mask02.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture2"
-                texturePath: string = "ASSETS/Shared/Materials/black.tex"
+                texturePath: file = "assets/shared/materials/black.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -113470,7 +113579,7 @@ entries: map[hash,embed] = {
                             driver: pointer = HasBuffDynamicMaterialBoolDriver {
                                 mScriptName: string = "yasuorarmorpen"
                             }
-                            TextureName: string = "ASSETS/Characters/Yasuo/Skins/Skin55/Yasuo_Skin55_TX_CM.tex"
+                            TextureName: file = "assets/characters/yasuo/skins/skin55/yasuo_skin55_tx_cm.tex"
                         }
                     }
                 }
@@ -113533,7 +113642,7 @@ entries: map[hash,embed] = {
             "Yasuo_Q_wind_hit_tar" = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Q_wind_hit_tar"
             "Yasuo_Q_wind_mis" = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Q_wind_mis"
             "Yasuo_Q_wind_ready_buff" = "Characters/Yasuo/Skins/Skin55/Particles/Yasuo_Skin55_Q_wind_ready_buff"
-            0xc542e434 = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_Recall"
+            "Yasuo_Recall" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_Recall"
             "Yasuo_recall_start_sound" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_recall_start_sound"
             "Yasuo_R_cantcast_beam" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_R_cantcast_beam"
             "Yasuo_R_cas_marker_01" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_R_cas_marker_01"

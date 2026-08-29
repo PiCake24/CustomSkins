@@ -16,24 +16,25 @@ entries: map[hash,embed] = {
         skinMeshProperties: embed = SkinMeshDataProperties {
             skeleton: string = "ASSETS/Characters/Nasus/Skins/Base/Nasus.skl"
             simpleSkin: string = "ASSETS/Characters/Nasus/Skins/Base/Nasus.skn"
-            texture: string = "ASSETS/Characters/Nasus/Skins/Base/Nasus.tex"
+            texture: file = "assets/characters/nasus/skins/base/nasus.tex"
 	 	 	skinScale: f32 = 2
             selfIllumination: f32 = 0.5
             reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
-            initialSubmeshToHide: string = "Leona_Mat, Shield_Mat, Sun_Glasses_Mat"
-            submeshRenderOrder: string = "Sun_Mat, Hair"
+            initialSubmeshToHide: string = "Sun_Mat, Sun_Sword_Mat, Sun_Shield_Mat, Sun_Glasses_Mat"
+            submeshRenderOrder: string = "Leona_Mat, Hair"
         }
         armorMaterial: string = "Metal"
         defaultAnimations: list[string] = {
             "Idle1_BOOMBOX"
         }
-        iconCircle: option[string] = {
-            "ASSETS/Characters/NasusUlt/HUD/Nasus_Circle.tex"
+        iconCircle: option[file] = {
+            "assets/characters/nasusult/hud/nasus_circle.tex"
         }
-        iconSquare: option[string] = {
-            "ASSETS/Characters/NasusUlt/HUD/Nasus_Square.tex"
+        iconSquare: option[file] = {
+            "assets/characters/nasusult/hud/nasus_square.tex"
         }
         mResourceResolver: link = "Characters/NasusUlt/Skins/Skin0/Resources"
+        objectPath: hash = "Characters/NasusUlt/Skins/Skin0"
     }
     "Characters/NasusUlt/Skins/Skin18/Resources" = ResourceResolver {}
 }

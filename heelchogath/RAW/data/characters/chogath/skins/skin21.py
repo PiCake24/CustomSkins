@@ -20,7 +20,7 @@ entries: map[hash,embed] = {
         championSkinName: string = "Chogath"
         metaDataTags: string = "faction:void,gender:male,race:monster"
         loadscreen: embed = CensoredImage {
-            image: string = "ASSETS/Characters/Chogath/skins/base/ChogathLoadScreen.tex"
+            image: file = "assets/characters/chogath/skins/base/chogathloadscreen.tex"
         }
         skinAudioProperties: embed = skinAudioProperties {
             tagEventList: list[string] = {
@@ -80,7 +80,7 @@ entries: map[hash,embed] = {
         skinMeshProperties: embed = SkinMeshDataProperties {
             skeleton: string = "ASSETS/Characters/Chogath/skins/base/Chogath.skl"
             simpleSkin: string = "ASSETS/Characters/Chogath/skins/base/Chogath.skn"
-            texture: string = "ASSETS/Characters/Chogath/skins/base/GreenTerror.tex"
+            texture: file = "assets/characters/chogath/skins/base/greenterror.tex"
 	 	 	skinScale: f32 = 2
             selfIllumination: f32 = 0.699999988
             overrideBoundingBox: option[vec3] = {
@@ -91,16 +91,17 @@ entries: map[hash,embed] = {
         }
         armorMaterial: string = "Flesh"
         mContextualActionData: link = "Characters/Chogath/CAC/Chogath_Base"
-        iconCircle: option[string] = {
-            "ASSETS/Characters/Chogath/HUD/GreenTerror_Circle.tex"
+        iconCircle: option[file] = {
+            "assets/characters/chogath/hud/greenterror_circle.tex"
         }
-        iconSquare: option[string] = {
-            "ASSETS/Characters/Chogath/HUD/GreenTerror_Square.tex"
+        iconSquare: option[file] = {
+            "assets/characters/chogath/hud/greenterror_square.tex"
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
             unitHealthBarStyle: u8 = 12
         }
         mResourceResolver: link = "Characters/Chogath/Skins/Skin0/Resources"
+        objectPath: hash = "Characters/Chogath/Skins/Skin0"
     }
     "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_Q_cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -2414,6 +2415,7 @@ entries: map[hash,embed] = {
         particleName: string = "Chogath_Base_Q_cas"
         particlePath: string = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_Q_cas"
         soundOnCreateDefault: string = "Play_sfx_Chogath_Rupture_cast2"
+        objectPath: hash = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_Q_cas"
     }
     "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis2" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -3336,6 +3338,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Chogath_Base_E_mis2"
         particlePath: string = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis2"
+        objectPath: hash = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis2"
     }
     "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis3" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -4096,6 +4099,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Chogath_Base_E_mis3"
         particlePath: string = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis3"
+        objectPath: hash = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis3"
     }
     "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis4" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5102,6 +5106,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Chogath_Base_E_mis4"
         particlePath: string = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis4"
+        objectPath: hash = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis4"
     }
     "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis5" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -6210,6 +6215,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Chogath_Base_E_mis5"
         particlePath: string = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis5"
+        objectPath: hash = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis5"
     }
     "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis6" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -7420,6 +7426,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Chogath_Base_E_mis6"
         particlePath: string = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis6"
+        objectPath: hash = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis6"
     }
     "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -8282,25 +8289,26 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Chogath_Base_E_mis"
         particlePath: string = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis"
+        objectPath: hash = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis"
     }
     "Characters/Chogath/Skins/Skin21/Materials/ChoGath_Skin21_FlowMap_Bloom_inst" = StaticMaterialDef {
         name: string = "Characters/Chogath/Skins/Skin21/Materials/ChoGath_Skin21_FlowMap_Bloom_inst"
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "FlowMap"
-                texturePath: string = "ASSETS/Characters/Chogath/skins/Skin14/Chogath_skin14_FM.tex"
+                texturePath: file = "assets/characters/chogath/skins/skin14/chogath_skin14_fm.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Chogath/skins/Skin21/Chogath_Skin21_TX_CM.tex"
+                texturePath: file = "assets/characters/chogath/skins/skin21/chogath_skin21_tx_cm.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Mask"
-                texturePath: string = "ASSETS/Characters/Chogath/skins/Skin14/ChoGath_Skin14_TX_CM_Mask.tex"
+                texturePath: file = "assets/characters/chogath/skins/skin14/chogath_skin14_tx_cm_mask.tex"
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Specular_Mask"
-                texturePath: string = "ASSETS/Shared/Materials/black.tex"
+                texturePath: file = "assets/shared/materials/black.tex"
             }
         }
         paramValues: list2[embed] = {
@@ -8462,26 +8470,26 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Chogath/skins/Skin21/Chogath_Skin21_Recall_TX_CM.tex"
+                texturePath: file = "assets/characters/chogath/skins/skin21/chogath_skin21_recall_tx_cm.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Swapped_Texture"
-                texturePath: string = "ASSETS/Characters/Chogath/skins/Skin21/Chogath_Skin21_Recall_TX_CM.tex"
+                texturePath: file = "assets/characters/chogath/skins/skin21/chogath_skin21_recall_tx_cm.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Ink_Texture"
-                texturePath: string = "ASSETS/Characters/Chogath/skins/Skin14/Chogath_Skin14_Ink_Mask.tex"
+                texturePath: file = "assets/characters/chogath/skins/skin14/chogath_skin14_ink_mask.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Ink_Color_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.tex"
+                texturePath: file = "assets/shared/materials/black.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -8637,26 +8645,26 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Chogath/skins/Skin21/Chogath_Skin21_TX_CM.tex"
+                texturePath: file = "assets/characters/chogath/skins/skin21/chogath_skin21_tx_cm.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Swapped_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/white.tex"
+                texturePath: file = "assets/shared/materials/white.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Ink_Texture"
-                texturePath: string = "ASSETS/Characters/Chogath/skins/Skin14/Chogath_Skin14_Ink_Mask.tex"
+                texturePath: file = "assets/characters/chogath/skins/skin14/chogath_skin14_ink_mask.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Ink_Color_Texture"
-                texturePath: string = "ASSETS/Shared/Materials/black.tex"
+                texturePath: file = "assets/shared/materials/black.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -8883,6 +8891,7 @@ entries: map[hash,embed] = {
         particleName: string = "Chogath_Skin21_Emote_Recall_Outline"
         particlePath: string = "Characters/Chogath/Skins/Skin21/Particles/Chogath_Skin21_Emote_Recall_Outline"
         flags: u16 = 134
+        objectPath: hash = "Characters/Chogath/Skins/Skin21/Particles/Chogath_Skin21_Emote_Recall_Outline"
     }
     "Characters/Chogath/Skins/Skin21/Particles/Chogath_Skin21_W_cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -9763,6 +9772,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Chogath_Skin21_W_cas"
         particlePath: string = "Characters/Chogath/Skins/Skin21/Particles/Chogath_Skin21_W_cas"
+        objectPath: hash = "Characters/Chogath/Skins/Skin21/Particles/Chogath_Skin21_W_cas"
     }
     "Characters/Chogath/Skins/Skin21/Particles/Chogath_Skin21_Recall_MountainMat_danshan" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -10292,6 +10302,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             200
         }
+        objectPath: hash = "Characters/Chogath/Skins/Skin21/Particles/Chogath_Skin21_Recall_MountainMat_danshan"
     }
     "Characters/Chogath/Skins/Skin21/Particles/Chogath_Skin21_Idle_clould3" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -10434,6 +10445,7 @@ entries: map[hash,embed] = {
         particleName: string = "Chogath_Skin21_Idle_clould3"
         particlePath: string = "Characters/Chogath/Skins/Skin21/Particles/Chogath_Skin21_Idle_clould3"
         flags: u16 = 198
+        objectPath: hash = "Characters/Chogath/Skins/Skin21/Particles/Chogath_Skin21_Idle_clould3"
     }
     "Characters/Chogath/Skins/Skin21/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {

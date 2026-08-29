@@ -6,7 +6,7 @@ linked: list[string] = {
     "DATA/Characters/Sion/Sion.bin"
     "DATA/Characters/Sion/Sion_Multi_Skins_Skin0_Skins_Skin1_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin29_Skins_Skin3_Skins_Skin30_Skins_Skin31_Skins_Skin32_Skins_Skin33_Skins_Skin34_Skins_Skin35_Skins_Skin36_Skins_Skin37_Skins_Skin38_Skins_Skin39_Skins_Skin4_Skins_Skin40_Skins_Skin41_Skins_Skin42_Skins_Skin43_Skins_Skin44_Skins_Skin45_Skins_Skin46_Skins_Skin47_Skins_Skin48_Skins_Skin49.bin"
     "DATA/Characters/Sion/Animations/Skin0.bin"
-    "DATA/Characters/Sion/Sion_Multi_Skins_Root_Skins_Skin0_Skins_Skin1_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin29_Skins_Skin3_Skins_Skin30_Skins_Skin31_Skins_Skin32_Skins_Skin33_Skins_Skin34_Skins_Skin35_Skins_Skin36_Skins_Skin37_Skins_Skin38_Skins_Skin39_Skins_Skin4_Skins_Skin40_Skins_Skin41_Skins_Skin42_Skins_Skin43_Skins_Skin44_Skins_Skin45_Skins_Skin46_Skins_Skin47_Skins_Skin48_Skins_Skin49.bin"
+    "DATA/Characters/Sion/Sion_Multi_Skins_Root_Skins_Skin0_Skins_Skin1_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin20_Skins_Skin21_Skins_Skin22_Skins_Skin23_Skins_Skin24_Skins_Skin25_Skins_Skin26_Skins_Skin27_Skins_Skin28_Skins_Skin29_Skins_Skin3_Skins_Skin30_Skins_Skin31_Skins_Skin32_Skins_Skin33_Skins_Skin34_Skins_Skin35_Skins_Skin36_Skins_Skin37_Skins_Skin38_Skins_Skin39_Skins_Skin4_Skins_Skin40_Skins_Skin41_Skins_Skin42_Skins_Skin43_Skins_Skin44_Skins_Skin45_Skins_Skin46_Skins_Skin47_Skins_Skin48_Skins_Skin49_Skins_Skin50_Skins_Skin51_Skins_Skin52_Skins_Skin53_Skins_Skin54_Skins_Skin55_Skins_Skin56_Skins_Skin57_Skins_Skin58.bin"
     "DATA/Characters/Sion/Sion_Multi_Skins_Skin0_Skins_Skin1_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin20_Skins_Skin21_Skins_Skin3_Skins_Skin30_Skins_Skin31_Skins_Skin32_Skins_Skin33_Skins_Skin34_Skins_Skin35_Skins_Skin36_Skins_Skin37_Skins_Skin38_Skins_Skin39_Skins_Skin4_Skins_Skin40_Skins_Skin41_Skins_Skin42_Skins_Skin43_Skins_Skin44_Skins_Skin45_Skins_Skin46_Skins_Skin47_Skins_Skin48_Skins_Skin49.bin"
     "DATA/Characters/Sion/Sion_Multi_Skins_Skin0_Skins_Skin1_Skins_Skin10_Skins_Skin11_Skins_Skin12_Skins_Skin13_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin20_Skins_Skin21_Skins_Skin3_Skins_Skin4_Skins_Skin40_Skins_Skin41_Skins_Skin42_Skins_Skin43_Skins_Skin44_Skins_Skin45_Skins_Skin46_Skins_Skin47_Skins_Skin48_Skins_Skin5_Skins_Skin6_Skins_Skin7_Skins_Skin8_Skins_Skin9.bin"
     "DATA/Characters/Sion/Sion_Multi_Skins_Skin0_Skins_Skin14_Skins_Skin15_Skins_Skin16_Skins_Skin17_Skins_Skin18_Skins_Skin19_Skins_Skin2_Skins_Skin20_Skins_Skin21_Skins_Skin3_Skins_Skin30_Skins_Skin31_Skins_Skin32_Skins_Skin33_Skins_Skin34_Skins_Skin35_Skins_Skin36_Skins_Skin37_Skins_Skin38_Skins_Skin39_Skins_Skin4_Skins_Skin40_Skins_Skin41_Skins_Skin42_Skins_Skin43_Skins_Skin44_Skins_Skin45_Skins_Skin46_Skins_Skin47_Skins_Skin48_Skins_Skin49.bin"
@@ -32,7 +32,7 @@ entries: map[hash,embed] = {
         championSkinName: string = "SionBase"
         metaDataTags: string = "faction:noxus,gender:male,race:undead"
         loadscreen: embed = CensoredImage {
-            image: string = "ASSETS/Characters/Sion/Skins/Base/SionLoadScreen.tex"
+            image: file = "assets/characters/sion/skins/base/sionloadscreen.tex"
         }
         skinAudioProperties: embed = skinAudioProperties {
             tagEventList: list[string] = {
@@ -175,7 +175,7 @@ entries: map[hash,embed] = {
         skinMeshProperties: embed = SkinMeshDataProperties {
             skeleton: string = "ASSETS/Characters/Sion/Skins/Base/Sion.skl"
             simpleSkin: string = "ASSETS/Characters/Sion/Skins/Base/Sion.skn"
-            texture: string = "ASSETS/Characters/Sion/Skins/Base/Sion_Base_TX_CM.tex"
+            texture: file = "assets/characters/sion/skins/base/sion_base_tx_cm.tex"
 	 	 	skinScale: f32 = 2
             brushAlphaOverride: f32 = 0.550000012
             reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
@@ -183,16 +183,17 @@ entries: map[hash,embed] = {
         }
         armorMaterial: string = "Flesh"
         mContextualActionData: link = "Characters/Sion/CAC/Sion_Base"
-        iconCircle: option[string] = {
-            "ASSETS/Characters/Sion/HUD/Sion_Circle.tex"
+        iconCircle: option[file] = {
+            "assets/characters/sion/hud/sion_circle.tex"
         }
-        iconSquare: option[string] = {
-            "ASSETS/Characters/Sion/HUD/Sion_Square.tex"
+        iconSquare: option[file] = {
+            "assets/characters/sion/hud/sion_square.tex"
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
             unitHealthBarStyle: u8 = 12
         }
         mResourceResolver: link = "Characters/Sion/Skins/Skin0/Resources"
+        objectPath: hash = "Characters/Sion/Skins/Skin0"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas3" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -545,7 +546,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Ground.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.TFT_Set15.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0 }
                     }
@@ -1137,6 +1138,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas3"
         soundPersistentDefault: string = "Play_sfx_Sion_SionQ_haze"
         flags: u16 = 197
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas3"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Minion" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -1573,6 +1575,7 @@ entries: map[hash,embed] = {
         particleName: string = "Sion_Skin49_E_Minion"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Minion"
         flags: u16 = 198
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Minion"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit1" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -2319,6 +2322,7 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 3000
         particleName: string = "Sion_Skin49_Q_Hit1"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit1"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit1"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Smoke" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -2773,6 +2777,7 @@ entries: map[hash,embed] = {
         particleName: string = "Sion_Skin49_Passive_Smoke"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Smoke"
         flags: u16 = 198
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Smoke"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit2" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -3195,7 +3200,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Ground.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.TFT_Set15.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Einstein_01_mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0 }
                     }
@@ -3544,6 +3549,7 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 3000
         particleName: string = "Sion_Skin49_Q_Hit2"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit2"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit2"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -3651,6 +3657,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Sion_Skin49_W_Cas"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Cas"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Cas"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit3" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -6160,6 +6167,7 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 3000
         particleName: string = "Sion_Skin49_Q_Hit3"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit3"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Hit3"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tower1" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -7294,6 +7302,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Sion_Skin49_BA_Tower1"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tower1"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tower1"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weapon" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -7958,6 +7967,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Sion_Skin49_Q_Cas1_weapon"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weapon"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas1_weapon"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Mis" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -11164,6 +11174,7 @@ entries: map[hash,embed] = {
         particleName: string = "Sion_Skin49_E_Mis"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Mis"
         flags: u16 = 197
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Mis"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Buf_champ" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -11657,6 +11668,7 @@ entries: map[hash,embed] = {
         particleName: string = "Sion_Skin49_E_Buf_champ"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Buf_champ"
         soundPersistentDefault: string = "Play_sfx_Sion_SionSlowStun_buffactivate"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Buf_champ"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Shield" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -12074,7 +12086,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Trail_Up.TFT_Set15.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Trail_Up.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.200000003 }
                     }
@@ -14079,7 +14091,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 360, 330, 0 }
                 }
-                texture: string = "ASSETS/Shared/Particles/Aatrox_Skin33_03_Circle_light.TFT_Set15.tex"
+                texture: string = "ASSETS/Shared/Particles/Aatrox_Skin33_03_Circle_light.tex"
                 birthFrameRate: embed = ValueFloat {
                     constantValue: f32 = 0
                 }
@@ -14109,6 +14121,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             -1
         }
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Shield"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Ax" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -14653,6 +14666,7 @@ entries: map[hash,embed] = {
         particleName: string = "Sion_Skin49_Passive_Ax"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Ax"
         flags: u16 = 198
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Ax"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -16802,6 +16816,7 @@ entries: map[hash,embed] = {
         particleName: string = "Sion_Skin49_Passive_Cas"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Cas"
         flags: u16 = 198
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Cas"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Nova" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -19637,6 +19652,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Sion_Skin49_W_Nova"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Nova"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Nova"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Skin" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -19652,12 +19668,12 @@ entries: map[hash,embed] = {
                 materialOverrideDefinitions: list[embed] = {
                     VfxMaterialOverrideDefinitionData {
                         priority: i32 = 1
-                        baseTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Sion_Skin49_TX_CM.tex"
-                        transitionTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_TX_CM.tex"
+                        baseTexture: file = "assets/characters/sion/skins/skin49/sion_skin49_tx_cm.tex"
+                        transitionTexture: file = "assets/characters/sion/skins/skin49/particles/sion_skin49_tx_cm.tex"
                     }
                     VfxMaterialOverrideDefinitionData {
                         priority: i32 = 1
-                        baseTexture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_TX_CM.tex"
+                        baseTexture: file = "assets/characters/sion/skins/skin49/particles/sion_skin49_tx_cm.tex"
                     }
                 }
             }
@@ -19665,6 +19681,7 @@ entries: map[hash,embed] = {
         particleName: string = "Sion_Skin49_Passive_Skin"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Skin"
         flags: u16 = 198
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Skin"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q1_tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -20814,6 +20831,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Sion_Skin49_Q1_tar"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q1_tar"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q1_tar"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -20851,6 +20869,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Sion_Skin49_E_Cas"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Cas"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Cas"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -21845,6 +21864,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Sion_Skin49_Passive_Tar"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Tar"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Tar"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Explosion" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -26739,6 +26759,7 @@ entries: map[hash,embed] = {
         particleName: string = "Sion_Skin49_R_Explosion"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Explosion"
         flags: u16 = 197
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Explosion"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar2" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -27886,6 +27907,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Sion_Skin49_BA_Tar2"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar2"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar2"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar3" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -29217,6 +29239,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Sion_Skin49_BA_Tar3"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar3"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar3"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -30369,6 +30392,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Sion_Skin49_BA_Tar1"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar1"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -31545,6 +31569,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Sion_Skin49_R_Tar"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Tar"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Tar"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Indicator2" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -32490,6 +32515,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Indicator2"
         soundPersistentDefault: string = "Play_sfx_Sion_SionQ_outline"
         flags: u16 = 197
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Indicator2"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Nova_Tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -32988,6 +33014,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Sion_Skin49_W_Nova_Tar"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Nova_Tar"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_W_Nova_Tar"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Speed" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -33157,6 +33184,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Sion_Skin49_Passive_Speed"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Speed"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Speed"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q3_tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -34480,6 +34508,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Sion_Skin49_Q3_tar"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q3_tar"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q3_tar"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Indicator_Red2" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -35308,6 +35337,7 @@ entries: map[hash,embed] = {
         particleName: string = "Sion_Skin49_Q_Indicator_Red2"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Indicator_Red2"
         flags: u16 = 197
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Indicator_Red2"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -37070,7 +37100,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Sion/Skins/Skin49/Particles/R_decal_Missile_02.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Trail_Up.TFT_Set15.tex"
+                    textureMult: string = "ASSETS/Shared/Particles/3026_Items_Trail_Up.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 3 }
                     }
@@ -38977,6 +39007,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Sion_Skin49_R_Cas"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Cas"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q2_tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -40297,6 +40328,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Sion_Skin49_Q2_tar"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q2_tar"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q2_tar"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Buf" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -40966,6 +40998,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Sion_Skin49_E_Buf"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Buf"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Buf"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -41597,6 +41630,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Sion_Skin49_E_Tar"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Tar"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_E_Tar"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_trail1" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -42210,6 +42244,7 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 3000
         particleName: string = "Sion_Skin49_BA_trail1"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_trail1"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_trail1"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Emote_Laugh" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -42346,6 +42381,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Sion_Skin49_Emote_Laugh"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Emote_Laugh"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Emote_Laugh"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_trail3" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -42805,6 +42841,7 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 3000
         particleName: string = "Sion_Skin49_BA_trail3"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_trail3"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_trail3"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Hand" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -45306,6 +45343,7 @@ entries: map[hash,embed] = {
         particleName: string = "Sion_Skin49_Passive_Hand"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Hand"
         flags: u16 = 196
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Passive_Hand"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_trail2" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -45933,6 +45971,7 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 3000
         particleName: string = "Sion_Skin49_BA_trail2"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_trail2"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_trail2"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_trail4" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -46412,6 +46451,7 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 3000
         particleName: string = "Sion_Skin49_BA_trail4"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_trail4"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_trail4"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas2_weapon" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -47463,6 +47503,7 @@ entries: map[hash,embed] = {
         particleName: string = "Sion_Skin49_Q_Cas2_weapon"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas2_weapon"
         soundOnCreateDefault: string = "Play_sfx_Sion_SionQ_glint"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_Cas2_weapon"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar_Crit" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -49105,6 +49146,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Sion_Skin49_BA_Tar_Crit"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar_Crit"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_BA_Tar_Crit"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_mis_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -49304,6 +49346,7 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 3000
         particleName: string = "Sion_Skin49_Q_mis_01"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_mis_01"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_Q_mis_01"
     }
     "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Pulverize_cas_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -50434,6 +50477,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Sion_Skin49_R_Pulverize_cas_01"
         particlePath: string = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Pulverize_cas_01"
+        objectPath: hash = "Characters/Sion/Skins/Skin49/Particles/Sion_Skin49_R_Pulverize_cas_01"
     }
     "Characters/Sion/Skins/Skin49/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {

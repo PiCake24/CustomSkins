@@ -41,7 +41,7 @@ entries: map[hash,embed] = {
         championSkinName: string = "Yasuo"
         metaDataTags: string = "gender:male,faction:ionia,race:human,element:wind"
         loadscreen: embed = CensoredImage {
-            image: string = "ASSETS/Characters/Yasuo/Skins/Base/YasuoLoadScreen.tex"
+            image: file = "assets/characters/yasuo/skins/base/yasuoloadscreen.tex"
         }
         skinAudioProperties: embed = skinAudioProperties {
             tagEventList: list[string] = {
@@ -211,7 +211,7 @@ entries: map[hash,embed] = {
         skinMeshProperties: embed = SkinMeshDataProperties {
             skeleton: string = "ASSETS/Characters/Yasuo/Skins/Base/Yasuo.skl"
             simpleSkin: string = "ASSETS/Characters/Yasuo/Skins/Base/Yasuo.skn"
-            texture: string = "ASSETS/Characters/Yasuo/Skins/Base/Yasuo_base_TX_CM.tex"
+            texture: file = "assets/characters/yasuo/skins/base/yasuo_base_tx_cm.tex"
 	 	 	skinScale: f32 = 2
             selfIllumination: f32 = 0.699999988
             brushAlphaOverride: f32 = 0.5
@@ -222,7 +222,7 @@ entries: map[hash,embed] = {
             initialSubmeshToHide: string = "Yasuo_Instrument_Mat, Weapon_Trail"
             materialOverride: list[embed] = {
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Yasuo/Skins/Base/Yasuo_Weapon_Trail_TX_CM.tex"
+                    texture: file = "assets/characters/yasuo/skins/base/yasuo_weapon_trail_tx_cm.tex"
                     submesh: string = "Weapon_Trail"
                 }
             }
@@ -233,16 +233,17 @@ entries: map[hash,embed] = {
             "BottleFix_Skin01"
         }
         mContextualActionData: link = "Characters/Yasuo/CAC/Yasuo_Base"
-        iconCircle: option[string] = {
-            "ASSETS/Characters/Yasuo/HUD/Yasuo_Circle.tex"
+        iconCircle: option[file] = {
+            "assets/characters/yasuo/hud/yasuo_circle.tex"
         }
-        iconSquare: option[string] = {
-            "ASSETS/Characters/Yasuo/HUD/Yasuo_Square.tex"
+        iconSquare: option[file] = {
+            "assets/characters/yasuo/hud/yasuo_square.tex"
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
             unitHealthBarStyle: u8 = 12
         }
         mResourceResolver: link = "Characters/Yasuo/Skins/Skin0/Resources"
+        objectPath: hash = "Characters/Yasuo/Skins/Skin0"
     }
     "Characters/Yasuo/Skins/Skin11/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
@@ -300,7 +301,7 @@ entries: map[hash,embed] = {
             "Yasuo_Q_wind_hit_tar" = "Characters/Yasuo/Skins/Skin10/Particles/Yasuo_Skin10_Q_wind_hit_tar"
             "Yasuo_Q_wind_mis" = "Characters/Yasuo/Skins/Skin10/Particles/Yasuo_Skin10_Q_wind_mis"
             "Yasuo_Q_wind_ready_buff" = "Characters/Yasuo/Skins/Skin10/Particles/Yasuo_Skin10_Q_wind_ready_buff"
-            0xc542e434 = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_Recall"
+            "Yasuo_Recall" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_base_Recall"
             "Yasuo_recall_start_sound" = "Characters/Yasuo/Skins/Skin0/Particles/Yasuo_Base_recall_start_sound"
             "Yasuo_R_cantcast_beam" = "Characters/Yasuo/Skins/Skin10/Particles/Yasuo_Skin10_R_cantcast_beam"
             "Yasuo_R_cas_marker_01" = "Characters/Yasuo/Skins/Skin10/Particles/Yasuo_Skin10_R_cas_marker_01"

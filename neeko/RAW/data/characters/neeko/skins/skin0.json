@@ -29,8 +29,8 @@
                   "items": [
                     {
                       "key": "image",
-                      "type": "string",
-                      "value": "ASSETS/Characters/Neeko/Skins/Base/NeekoLoadscreen.tex"
+                      "type": "file",
+                      "value": 3455770561553501692
                     }
                   ],
                   "name": 3496109055
@@ -273,8 +273,8 @@
                     },
                     {
                       "key": "texture",
-                      "type": "string",
-                      "value": "ASSETS/Characters/Neeko/Skins/Base/Neeko_Base_TX_CM.tex"
+                      "type": "file",
+                      "value": 18260425559048575896
                     },
                     {
                       "key": "skinScale",
@@ -329,8 +329,8 @@
                             "items": [
                               {
                                 "key": "texture",
-                                "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Neeko_Base_Butterfly_TX_CM.tex"
+                                "type": "file",
+                                "value": 18320797801456163834
                               },
                               {
                                 "key": "submesh",
@@ -359,8 +359,8 @@
                             "items": [
                               {
                                 "key": "texture",
-                                "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Neeko_Base_Recall_Tree_TX_CM.tex"
+                                "type": "file",
+                                "value": 8733284034915981938
                               },
                               {
                                 "key": "submesh",
@@ -422,9 +422,9 @@
                 "type": "option",
                 "value": {
                   "items": [
-                    "ASSETS/Characters/Neeko/HUD/Neeko_Circle_0.tex"
+                    10699296882362160468
                   ],
-                  "valueType": "string"
+                  "valueType": "file"
                 }
               },
               {
@@ -432,9 +432,9 @@
                 "type": "option",
                 "value": {
                   "items": [
-                    "ASSETS/Characters/Neeko/HUD/Neeko_Square.tex"
+                    18310149194990969284
                   ],
-                  "valueType": "string"
+                  "valueType": "file"
                 }
               },
               {
@@ -460,6 +460,11 @@
                 "key": "mResourceResolver",
                 "type": "link",
                 "value": "Characters/Neeko/Skins/Skin0/Resources"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0"
               }
             ],
             "name": 2607278582
@@ -787,7 +792,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteCount",
@@ -1104,7 +1109,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.tex"
                         },
                         {
                           "key": "paletteDefinition",
@@ -1114,7 +1119,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteSelector",
@@ -1543,7 +1548,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.tex"
                         },
                         {
                           "key": "paletteDefinition",
@@ -1553,7 +1558,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteSelector",
@@ -1898,7 +1903,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteCount",
@@ -2167,7 +2172,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteCount",
@@ -3822,6 +3827,11 @@
                   ],
                   "valueType": "f32"
                 }
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Root_Empowered"
               }
             ],
             "name": 1171098015
@@ -4102,7 +4112,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_BA_speed_flash.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_BA_speed_flash.tex"
                         }
                       ],
                       "name": 164488258
@@ -4556,7 +4566,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
                         }
                       ],
                       "name": 164488258
@@ -6356,7 +6366,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_spotlight.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_spotlight.tex"
                         }
                       ],
                       "name": 164488258
@@ -6789,7 +6799,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteSelector",
@@ -7320,7 +7330,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_enemy_tendrils.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_enemy_tendrils.tex"
                         },
                         {
                           "key": "birthUVOffset",
@@ -7401,7 +7411,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
                               },
                               {
                                 "key": "birthUvScrollRateMult",
@@ -9051,6 +9061,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Indicator_Ally"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Indicator_Ally"
               }
             ],
             "name": 1171098015
@@ -9295,7 +9310,7 @@
                               {
                                 "key": "erosionMapName",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.tex"
                               }
                             ],
                             "name": 1585720219
@@ -9670,7 +9685,7 @@
                               {
                                 "key": "erosionMapName",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
                               },
                               {
                                 "key": "erosionMapAddressMode",
@@ -9811,7 +9826,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteSelector",
@@ -9948,7 +9963,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.tex"
                               },
                               {
                                 "key": "birthUvScrollRateMult",
@@ -10009,6 +10024,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 198
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_Mis_beam"
               }
             ],
             "name": 1171098015
@@ -12388,7 +12408,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
                         },
                         {
                           "key": "numFrames",
@@ -12450,6 +12470,11 @@
                 "key": "soundPersistentDefault",
                 "type": "string",
                 "value": "Play_sfx_Neeko_NeekoP_charge"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_Channel_Tar"
               }
             ],
             "name": 1171098015
@@ -12888,7 +12913,7 @@
                               {
                                 "key": "erosionMapName",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
                               }
                             ],
                             "name": 1585720219
@@ -13148,7 +13173,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Flicker_04.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Flicker_04.tex"
                               },
                               {
                                 "key": "ParticleIntegratedUvScrollMult",
@@ -13562,7 +13587,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         }
                       ],
                       "name": 164488258
@@ -15268,7 +15293,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         }
                       ],
                       "name": 164488258
@@ -15285,6 +15310,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Idle_beam"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Idle_beam"
               }
             ],
@@ -16341,7 +16371,7 @@
                               {
                                 "key": "erosionMapName",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
                               }
                             ],
                             "name": 1585720219
@@ -17004,7 +17034,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.tex"
                         },
                         {
                           "key": "paletteDefinition",
@@ -17014,7 +17044,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteSelector",
@@ -17267,7 +17297,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
                         },
                         {
                           "key": "startFrame",
@@ -17634,7 +17664,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteCount",
@@ -18042,7 +18072,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
                               },
                               {
                                 "key": "ParticleIntegratedUvScrollMult",
@@ -18123,6 +18153,11 @@
                 "key": "scaleDynamicallyWithAttachedBone",
                 "type": "bool",
                 "value": true
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_mis_empowered_child"
               }
             ],
             "name": 1171098015
@@ -19159,6 +19194,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 134
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Empowered_Tar_Minions"
               }
             ],
             "name": 1171098015
@@ -20203,7 +20243,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.tex"
                         },
                         {
                           "key": "paletteDefinition",
@@ -20213,7 +20253,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteSelector",
@@ -20608,7 +20648,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.tex"
                         },
                         {
                           "key": "numFrames",
@@ -21308,7 +21348,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.tex"
                         },
                         {
                           "key": "numFrames",
@@ -21975,7 +22015,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         },
                         {
                           "key": "startFrame",
@@ -22003,6 +22043,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 198
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_Hit"
               }
             ],
             "name": 1171098015
@@ -22189,7 +22234,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.tex"
                         },
                         {
                           "key": "uvScale",
@@ -22471,7 +22516,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_ExtraBlured.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_ExtraBlured.tex"
                         },
                         {
                           "key": "uvScale",
@@ -22715,7 +22760,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.tex"
                         },
                         {
                           "key": "uvScale",
@@ -22978,7 +23023,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_ExtraBloom_01.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_ExtraBloom_01.tex"
                         },
                         {
                           "key": "uvScale",
@@ -23274,7 +23319,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.tex"
                         },
                         {
                           "key": "uvScale",
@@ -23308,6 +23353,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/NeekoPTimer"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/NeekoPTimer"
               }
             ],
@@ -23987,7 +24037,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         },
                         {
                           "key": "numFrames",
@@ -24472,7 +24522,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteSelector",
@@ -24911,7 +24961,7 @@
                               {
                                 "key": "normalMapTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.tex"
                               }
                             ],
                             "name": 1238702953
@@ -25113,7 +25163,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.tex"
                         }
                       ],
                       "name": 164488258
@@ -26089,7 +26139,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         },
                         {
                           "key": "numFrames",
@@ -26671,6 +26721,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_Transform_Nonchamp"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_Transform_Nonchamp"
               }
             ],
@@ -27693,7 +27748,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteSelector",
@@ -28479,6 +28534,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_Hit"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_Hit"
               }
             ],
@@ -29964,7 +30024,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Ring.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Ring.tex"
                         }
                       ],
                       "name": 164488258
@@ -29981,6 +30041,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_bounce_02"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_bounce_02"
               }
             ],
@@ -31479,7 +31544,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Ring.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Ring.tex"
                         }
                       ],
                       "name": 164488258
@@ -31496,6 +31561,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_bounce_01"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_bounce_01"
               }
             ],
@@ -31838,7 +31908,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.tex"
                         }
                       ],
                       "name": 164488258
@@ -32184,7 +32254,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         }
                       ],
                       "name": 164488258
@@ -32839,6 +32909,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_cas"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_cas"
               }
             ],
@@ -34018,6 +34093,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_cas_body"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_cas_body"
               }
             ],
             "name": 1171098015
@@ -34314,7 +34394,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_r_prismflash.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_r_prismflash.tex"
                         }
                       ],
                       "name": 164488258
@@ -34639,7 +34719,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.tex"
                         },
                         {
                           "key": "paletteDefinition",
@@ -34649,7 +34729,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteCount",
@@ -35420,7 +35500,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         },
                         {
                           "key": "startFrame",
@@ -35458,6 +35538,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 198
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Hit"
               }
             ],
             "name": 1171098015
@@ -35832,7 +35917,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.tex"
                         },
                         {
                           "key": "numFrames",
@@ -36532,7 +36617,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.tex"
                         },
                         {
                           "key": "numFrames",
@@ -37194,7 +37279,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         },
                         {
                           "key": "startFrame",
@@ -37506,7 +37591,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.tex"
                         },
                         {
                           "key": "paletteDefinition",
@@ -37516,7 +37601,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteCount",
@@ -37542,6 +37627,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_BA_tar"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_BA_tar"
               }
             ],
@@ -38121,7 +38211,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
                         }
                       ],
                       "name": 164488258
@@ -38661,7 +38751,7 @@
                         {
                           "key": "particleColorTexture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Flicker_04.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Flicker_04.tex"
                         },
                         {
                           "key": "blendMode",
@@ -39744,7 +39834,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
                         },
                         {
                           "key": "startFrame",
@@ -40108,7 +40198,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteCount",
@@ -43241,7 +43331,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteSelector",
@@ -43345,6 +43435,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 198
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Hit_AoE"
               }
             ],
             "name": 1171098015
@@ -44007,6 +44102,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_cas"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_cas"
               }
             ],
@@ -45683,7 +45783,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteSelector",
@@ -46790,7 +46890,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Warwick_Base_BightSpark.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Warwick_Base_BightSpark.tex"
                         }
                       ],
                       "name": 164488258
@@ -46992,7 +47092,7 @@
                               {
                                 "key": "normalMapTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.tex"
                               }
                             ],
                             "name": 1238702953
@@ -47194,7 +47294,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.tex"
                         }
                       ],
                       "name": 164488258
@@ -47227,6 +47327,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 198
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_clone_death"
               }
             ],
             "name": 1171098015
@@ -47617,7 +47722,7 @@
                               {
                                 "key": "erosionMapName",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
                               },
                               {
                                 "key": "erosionMapAddressMode",
@@ -48300,6 +48405,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_mis"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_mis"
               }
             ],
             "name": 1171098015
@@ -48640,7 +48750,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_BA_speed_flash.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_BA_speed_flash.tex"
                         },
                         {
                           "key": "numFrames",
@@ -49715,7 +49825,7 @@
                               {
                                 "key": "erosionMapName",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
                               },
                               {
                                 "key": "erosionMapAddressMode",
@@ -50642,6 +50752,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_BA_mis"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_BA_mis"
               }
             ],
             "name": 1171098015
@@ -51187,7 +51302,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
                         },
                         {
                           "key": "textureMult",
@@ -51197,7 +51312,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Maps/Particles/SR/SRX_Infernal_Fire_Mult.TFT_Set16.tex"
+                                "value": "ASSETS/Maps/Particles/SR/SRX_Infernal_Fire_Mult.tex"
                               },
                               {
                                 "key": "ParticleIntegratedUvScrollMult",
@@ -51477,7 +51592,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
                         }
                       ],
                       "name": 164488258
@@ -51694,7 +51809,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.tex"
                         }
                       ],
                       "name": 164488258
@@ -51916,7 +52031,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.tex"
                         }
                       ],
                       "name": 164488258
@@ -51933,6 +52048,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Bubble"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Bubble"
               }
             ],
@@ -52127,7 +52247,7 @@
                               {
                                 "key": "normalMapTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.tex"
                               }
                             ],
                             "name": 1238702953
@@ -52329,7 +52449,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.tex"
                         }
                       ],
                       "name": 164488258
@@ -53302,7 +53422,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         },
                         {
                           "key": "numFrames",
@@ -54141,6 +54261,11 @@
                 "key": "soundOnCreateDefault",
                 "type": "string",
                 "value": "Play_sfx_Neeko_NeekoP_charge_active"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_Channel_cas_self"
               }
             ],
             "name": 1171098015
@@ -59076,7 +59201,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
                         },
                         {
                           "key": "particleUVScrollRate",
@@ -59722,7 +59847,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         },
                         {
                           "key": "numFrames",
@@ -59846,7 +59971,7 @@
                                     {
                                       "key": "mSimpleMeshName",
                                       "type": "string",
-                                      "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GrImpact_Petal_OPT1.Champion_VFX_Memory_Optimization.scb"
+                                      "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GrImpact_Petal_OPT1.scb"
                                     }
                                   ],
                                   "name": 1787328523
@@ -59959,7 +60084,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_FlowerGround_01.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_FlowerGround_01.tex"
                         },
                         {
                           "key": "uvScale",
@@ -59986,7 +60111,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.tex"
                               },
                               {
                                 "key": "texAddressModeMult",
@@ -60197,7 +60322,7 @@
                                     {
                                       "key": "mSimpleMeshName",
                                       "type": "string",
-                                      "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GrImpact_Petal_OPT1.Champion_VFX_Memory_Optimization.scb"
+                                      "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GrImpact_Petal_OPT1.scb"
                                     }
                                   ],
                                   "name": 1787328523
@@ -60310,7 +60435,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_FlowerGround_01.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_FlowerGround_01.tex"
                         },
                         {
                           "key": "birthUVOffset",
@@ -60354,7 +60479,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.tex"
                               },
                               {
                                 "key": "texAddressModeMult",
@@ -60565,7 +60690,7 @@
                                     {
                                       "key": "mSimpleMeshName",
                                       "type": "string",
-                                      "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GrImpact_Petal_OPT1.Champion_VFX_Memory_Optimization.scb"
+                                      "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GrImpact_Petal_OPT1.scb"
                                     }
                                   ],
                                   "name": 1787328523
@@ -60678,7 +60803,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
                         },
                         {
                           "key": "uvScale",
@@ -60705,7 +60830,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.tex"
                               },
                               {
                                 "key": "texAddressModeMult",
@@ -60916,7 +61041,7 @@
                                     {
                                       "key": "mSimpleMeshName",
                                       "type": "string",
-                                      "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GrImpact_Petal_OPT1.Champion_VFX_Memory_Optimization.scb"
+                                      "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GrImpact_Petal_OPT1.scb"
                                     }
                                   ],
                                   "name": 1787328523
@@ -61083,7 +61208,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
                         },
                         {
                           "key": "uvScale",
@@ -61123,6 +61248,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 198
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Dunk_Zone"
               }
             ],
             "name": 1171098015
@@ -61881,7 +62011,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
                               },
                               {
                                 "key": "ParticleIntegratedUvScrollMult",
@@ -62739,7 +62869,7 @@
                               {
                                 "key": "erosionMapName",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.tex"
                               },
                               {
                                 "key": "erosionMapAddressMode",
@@ -62824,7 +62954,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.tex"
                         },
                         {
                           "key": "particleUVScrollRate",
@@ -63192,7 +63322,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_leadingedge.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_leadingedge.tex"
                         }
                       ],
                       "name": 164488258
@@ -63504,7 +63634,7 @@
                               {
                                 "key": "erosionMapName",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.tex"
                               },
                               {
                                 "key": "erosionMapAddressMode",
@@ -63589,7 +63719,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.tex"
                         },
                         {
                           "key": "particleUVScrollRate",
@@ -63665,6 +63795,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_mis"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_mis"
               }
             ],
@@ -64732,7 +64867,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Warwick_Base_BightSpark.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Warwick_Base_BightSpark.tex"
                         }
                       ],
                       "name": 164488258
@@ -65846,6 +65981,11 @@
                 "key": "scaleDynamicallyWithAttachedBone",
                 "type": "bool",
                 "value": true
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_Ready"
               }
             ],
             "name": 1171098015
@@ -66562,7 +66702,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         },
                         {
                           "key": "startFrame",
@@ -67236,7 +67376,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.tex"
                         },
                         {
                           "key": "birthUVOffset",
@@ -67638,7 +67778,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteCount",
@@ -69060,7 +69200,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteCount",
@@ -69135,6 +69275,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 195
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_mis"
               }
             ],
             "name": 1171098015
@@ -70702,7 +70847,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
                               }
                             ],
                             "name": 2962735549
@@ -71111,7 +71256,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
                               },
                               {
                                 "key": "birthUvScrollRateMult",
@@ -71763,7 +71908,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         },
                         {
                           "key": "numFrames",
@@ -72186,7 +72331,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteSelector",
@@ -72345,6 +72490,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_Clone_Overlay"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_Clone_Overlay"
               }
             ],
@@ -73980,7 +74130,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         },
                         {
                           "key": "startFrame",
@@ -74002,6 +74152,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Joke_Tailspin"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Joke_Tailspin"
               }
             ],
@@ -74794,7 +74949,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.tex"
                         },
                         {
                           "key": "birthUVOffset",
@@ -75282,7 +75437,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.tex"
                         },
                         {
                           "key": "birthUVOffset",
@@ -75664,7 +75819,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteCount",
@@ -76022,7 +76177,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteCount",
@@ -77123,6 +77278,11 @@
                   ],
                   "valueType": "f32"
                 }
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Root"
               }
             ],
             "name": 1171098015
@@ -77812,7 +77972,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_ImpactGlow.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_ImpactGlow.tex"
                         },
                         {
                           "key": "paletteDefinition",
@@ -77822,7 +77982,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteSelector",
@@ -77859,7 +78019,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Flicker_04.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Flicker_04.tex"
                               },
                               {
                                 "key": "birthUvScrollRateMult",
@@ -78516,7 +78676,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
                         },
                         {
                           "key": "textureMult",
@@ -78526,7 +78686,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
                               },
                               {
                                 "key": "texDivMult",
@@ -79085,6 +79245,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_Ally_Overlay"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_Ally_Overlay"
               }
             ],
@@ -80249,7 +80414,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteSelector",
@@ -81193,7 +81358,7 @@
                               {
                                 "key": "normalMapTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.tex"
                               }
                             ],
                             "name": 1238702953
@@ -81395,7 +81560,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.tex"
                         }
                       ],
                       "name": 164488258
@@ -81698,6 +81863,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_cas"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_cas"
               }
             ],
             "name": 1171098015
@@ -81973,7 +82143,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.tex"
                         }
                       ],
                       "name": 164488258
@@ -82468,7 +82638,7 @@
                               {
                                 "key": "normalMapTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.tex"
                               }
                             ],
                             "name": 1238702953
@@ -82565,7 +82735,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.tex"
                         }
                       ],
                       "name": 164488258
@@ -82956,7 +83126,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Z_ball01.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Z_ball01.tex"
                         },
                         {
                           "key": "textureMult",
@@ -83829,7 +83999,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteSelector",
@@ -84555,7 +84725,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         },
                         {
                           "key": "numFrames",
@@ -84577,6 +84747,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_AoE_03"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_AoE_03"
               }
             ],
@@ -85657,7 +85832,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
                         },
                         {
                           "key": "birthUvScrollRate",
@@ -85684,7 +85859,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_P_MaskBeam_02.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_P_MaskBeam_02.tex"
                               },
                               {
                                 "key": "texAddressModeMult",
@@ -86468,6 +86643,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_ChannelLine"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_ChannelLine"
               }
             ],
             "name": 1171098015
@@ -86743,7 +86923,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.tex"
                         }
                       ],
                       "name": 164488258
@@ -87015,7 +87195,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteSelector",
@@ -87774,7 +87954,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         },
                         {
                           "key": "numFrames",
@@ -87862,7 +88042,7 @@
                               {
                                 "key": "normalMapTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.tex"
                               }
                             ],
                             "name": 1238702953
@@ -87959,7 +88139,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.tex"
                         }
                       ],
                       "name": 164488258
@@ -88357,7 +88537,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Z_ball01.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Z_ball01.tex"
                         },
                         {
                           "key": "textureMult",
@@ -89291,6 +89471,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_AoE_02"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_AoE_02"
               }
             ],
             "name": 1171098015
@@ -90122,6 +90307,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 134
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Tar_Minions"
               }
             ],
             "name": 1171098015
@@ -91080,7 +91270,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         },
                         {
                           "key": "numFrames",
@@ -91520,7 +91710,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Z_ball01.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Z_ball01.tex"
                         },
                         {
                           "key": "textureMult",
@@ -92297,7 +92487,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.tex"
                         }
                       ],
                       "name": 164488258
@@ -92664,7 +92854,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteSelector",
@@ -92864,7 +93054,7 @@
                               {
                                 "key": "normalMapTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.tex"
                               }
                             ],
                             "name": 1238702953
@@ -92961,7 +93151,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.tex"
                         }
                       ],
                       "name": 164488258
@@ -92978,6 +93168,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_AoE_01"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_AoE_01"
               }
             ],
@@ -94015,6 +94210,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 134
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Empowered_Tar"
               }
             ],
             "name": 1171098015
@@ -94363,7 +94563,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteCount",
@@ -94841,7 +95041,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.tex"
                               },
                               {
                                 "key": "birthUvScrollRateMult",
@@ -96066,7 +96266,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Flare-Omnimax.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Flare-Omnimax.tex"
                         }
                       ],
                       "name": 164488258
@@ -97378,6 +97578,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Cas_EnemyOnly"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Cas_EnemyOnly"
               }
             ],
             "name": 1171098015
@@ -97719,7 +97924,7 @@
                               {
                                 "key": "erosionMapName",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
                               }
                             ],
                             "name": 1585720219
@@ -98031,6 +98236,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_cas_beam"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_cas_beam"
               }
             ],
@@ -98413,7 +98623,7 @@
                               {
                                 "key": "erosionMapName",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
                               }
                             ],
                             "name": 1585720219
@@ -98725,6 +98935,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_BA_cas_beam"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_BA_cas_beam"
               }
             ],
@@ -99309,6 +99524,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 134
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_tar"
               }
             ],
             "name": 1171098015
@@ -100009,7 +100229,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         },
                         {
                           "key": "numFrames",
@@ -100494,7 +100714,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteSelector",
@@ -101493,7 +101713,7 @@
                               {
                                 "key": "normalMapTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.tex"
                               }
                             ],
                             "name": 1238702953
@@ -101695,7 +101915,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.tex"
                         }
                       ],
                       "name": 164488258
@@ -102199,7 +102419,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.tex"
                         },
                         {
                           "key": "uvScale",
@@ -102435,7 +102655,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.tex"
                         },
                         {
                           "key": "uvScale",
@@ -102462,7 +102682,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
                               },
                               {
                                 "key": "uvScaleMult",
@@ -103556,7 +103776,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         },
                         {
                           "key": "numFrames",
@@ -104617,7 +104837,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         },
                         {
                           "key": "numFrames",
@@ -104639,6 +104859,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_cas_body/Neeko_Base_P_Channel_cas"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_cas_body/Neeko_Base_P_Channel_cas"
               }
             ],
@@ -104964,7 +105189,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_edge.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_edge.tex"
                         },
                         {
                           "key": "uvMode",
@@ -104979,7 +105204,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteCount",
@@ -105669,7 +105894,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.tex"
                         },
                         {
                           "key": "paletteDefinition",
@@ -105679,7 +105904,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteSelector",
@@ -106589,6 +106814,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 197
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Mis_empowered"
               }
             ],
             "name": 1171098015
@@ -107462,6 +107692,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_cas_handglow"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_cas_handglow"
               }
             ],
             "name": 1171098015
@@ -107786,7 +108021,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteCount",
@@ -108158,7 +108393,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteCount",
@@ -108256,7 +108491,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_mesh.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_mesh.tex"
                               },
                               {
                                 "key": "ParticleIntegratedUvScrollMult",
@@ -108675,7 +108910,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.tex"
                               },
                               {
                                 "key": "birthUvScrollRateMult",
@@ -109324,7 +109559,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_root_rings.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_root_rings.tex"
                         },
                         {
                           "key": "uvMode",
@@ -109339,7 +109574,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteCount",
@@ -109677,7 +109912,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
                         },
                         {
                           "key": "startFrame",
@@ -111850,7 +112085,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
                         }
                       ],
                       "name": 164488258
@@ -112102,7 +112337,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.tex"
                         },
                         {
                           "key": "numFrames",
@@ -112158,6 +112393,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Cas_AllyOnly"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Cas_AllyOnly"
               }
             ],
@@ -113803,7 +114043,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         },
                         {
                           "key": "startFrame",
@@ -113825,6 +114065,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Joke_Tailspin_Start"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Joke_Tailspin_Start"
               }
             ],
@@ -114568,7 +114813,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         },
                         {
                           "key": "startFrame",
@@ -114891,7 +115136,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         }
                       ],
                       "name": 164488258
@@ -114908,6 +115153,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_cas_child"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_cas_child"
               }
             ],
@@ -115721,7 +115971,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         },
                         {
                           "key": "startFrame",
@@ -116065,7 +116315,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
                         },
                         {
                           "key": "textureMult",
@@ -116075,7 +116325,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Maps/Particles/SR/SRX_Infernal_Fire_Mult.TFT_Set16.tex"
+                                "value": "ASSETS/Maps/Particles/SR/SRX_Infernal_Fire_Mult.tex"
                               },
                               {
                                 "key": "ParticleIntegratedUvScrollMult",
@@ -116457,7 +116707,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
                         }
                       ],
                       "name": 164488258
@@ -116738,7 +116988,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.tex"
                         }
                       ],
                       "name": 164488258
@@ -117024,7 +117274,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.tex"
                         }
                       ],
                       "name": 164488258
@@ -117393,7 +117643,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.tex"
                               },
                               {
                                 "key": "uvScaleMult",
@@ -117819,7 +118069,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
                         },
                         {
                           "key": "particleUVScrollRate",
@@ -117878,7 +118128,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
                               },
                               {
                                 "key": "birthUvScrollRateMult",
@@ -118166,7 +118416,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
                         },
                         {
                           "key": "particleUVScrollRate",
@@ -118225,7 +118475,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
                               },
                               {
                                 "key": "birthUvScrollRateMult",
@@ -118418,7 +118668,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.tex"
                         },
                         {
                           "key": "birthUvScrollRate",
@@ -118918,7 +119168,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
                         }
                       ],
                       "name": 164488258
@@ -119440,7 +119690,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_enemy_tendrils.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_enemy_tendrils.tex"
                         },
                         {
                           "key": "birthUVOffset",
@@ -119521,7 +119771,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
                               },
                               {
                                 "key": "birthUvScrollRateMult",
@@ -120749,7 +120999,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         },
                         {
                           "key": "startFrame",
@@ -121164,7 +121414,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.tex"
                         }
                       ],
                       "name": 164488258
@@ -121460,7 +121710,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         },
                         {
                           "key": "startFrame",
@@ -121880,7 +122130,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.tex"
                         }
                       ],
                       "name": 164488258
@@ -122396,7 +122646,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_AroundCircle_01.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_AroundCircle_01.tex"
                         },
                         {
                           "key": "birthUVOffset",
@@ -122437,7 +122687,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.tex"
                               },
                               {
                                 "key": "ParticleIntegratedUvScrollMult",
@@ -123406,7 +123656,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_AroundCircle_01.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_AroundCircle_01.tex"
                         },
                         {
                           "key": "birthUVOffset",
@@ -123447,7 +123697,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.tex"
                               },
                               {
                                 "key": "ParticleIntegratedUvScrollMult",
@@ -124195,7 +124445,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.tex"
                               },
                               {
                                 "key": "ParticleIntegratedUvScrollMult",
@@ -124281,6 +124531,11 @@
                 "key": "flags",
                 "type": "u16",
                 "value": 199
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Tar"
               }
             ],
             "name": 1171098015
@@ -125165,7 +125420,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         }
                       ],
                       "name": 164488258
@@ -125501,7 +125756,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_ImpactGlow.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_ImpactGlow.tex"
                         }
                       ],
                       "name": 164488258
@@ -126327,7 +126582,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                         }
                       ],
                       "name": 164488258
@@ -126344,6 +126599,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Run_Butterfly_Glow"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Run_Butterfly_Glow"
               }
             ],
@@ -126625,7 +126885,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_BA_speed_flash.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_BA_speed_flash.tex"
                         }
                       ],
                       "name": 164488258
@@ -127079,7 +127339,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
                         }
                       ],
                       "name": 164488258
@@ -128874,7 +129134,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_spotlight.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_spotlight.tex"
                         }
                       ],
                       "name": 164488258
@@ -129307,7 +129567,7 @@
                               {
                                 "key": "paletteTexture",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                               },
                               {
                                 "key": "paletteSelector",
@@ -129838,7 +130098,7 @@
                         {
                           "key": "texture",
                           "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_enemy_tendrils.Champion_VFX_Memory_Optimization.tex"
+                          "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_enemy_tendrils.tex"
                         },
                         {
                           "key": "birthUVOffset",
@@ -129919,7 +130179,7 @@
                               {
                                 "key": "textureMult",
                                 "type": "string",
-                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
+                                "value": "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
                               },
                               {
                                 "key": "birthUvScrollRateMult",
@@ -134050,6 +134310,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Indicator_Enemy"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Indicator_Enemy"
               }
             ],
             "name": 1171098015
@@ -134078,8 +134343,8 @@
                         },
                         {
                           "key": "texturePath",
-                          "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Neeko_Base_TX_CM.tex"
+                          "type": "file",
+                          "value": 18260425559048575896
                         },
                         {
                           "key": "addressU",
@@ -134108,8 +134373,8 @@
                         },
                         {
                           "key": "texturePath",
-                          "type": "string",
-                          "value": "ASSETS/Characters/Neeko/Skins/Base/Neeko_Base_P_Quillglow_mask.tex"
+                          "type": "file",
+                          "value": 17350596923592952346
                         },
                         {
                           "key": "addressU",
@@ -134606,8 +134871,8 @@
                                         },
                                         {
                                           "key": "TextureName",
-                                          "type": "string",
-                                          "value": "ASSETS/Characters/Neeko/Skins/Base/Neeko_Base_P_Quillglow_texture.tex"
+                                          "type": "file",
+                                          "value": 16473678159229694644
                                         }
                                       ],
                                       "name": 567330916

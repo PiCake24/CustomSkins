@@ -30,7 +30,7 @@ entries: map[hash,embed] = {
         championSkinName: string = "Neeko"
         metaDataTags: string = "gender:female,race:vastaya,faction:ixtal"
         loadscreen: embed = CensoredImage {
-            image: string = "ASSETS/Characters/Neeko/Skins/Base/NeekoLoadscreen.tex"
+            image: file = "assets/characters/neeko/skins/base/neekoloadscreen.tex"
         }
         skinAudioProperties: embed = skinAudioProperties {
             tagEventList: list[string] = {
@@ -177,7 +177,7 @@ entries: map[hash,embed] = {
         skinMeshProperties: embed = SkinMeshDataProperties {
             skeleton: string = "ASSETS/Characters/Neeko/Skins/Base/Neeko_Base.skl"
             simpleSkin: string = "ASSETS/Characters/Neeko/Skins/Base/Neeko_Base.skn"
-            texture: string = "ASSETS/Characters/Neeko/Skins/Base/Neeko_Base_TX_CM.tex"
+            texture: file = "assets/characters/neeko/skins/base/neeko_base_tx_cm.tex"
 	 	 	skinScale: f32 = 3
             selfIllumination: f32 = 0.699999988
             overrideBoundingBox: option[vec3] = {
@@ -188,7 +188,7 @@ entries: map[hash,embed] = {
             initialSubmeshToHide: string = "Neeko_Base_Butterfly_Mat Neeko_Base_Recall_Tree_Mat"
             materialOverride: list[embed] = {
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Neeko/Skins/Base/Neeko_Base_Butterfly_TX_CM.tex"
+                    texture: file = "assets/characters/neeko/skins/base/neeko_base_butterfly_tx_cm.tex"
                     submesh: string = "Neeko_Base_Butterfly_Mat"
                 }
                 SkinMeshDataProperties_MaterialOverride {
@@ -196,7 +196,7 @@ entries: map[hash,embed] = {
                     submesh: string = "Headquills"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Neeko/Skins/Base/Neeko_Base_Recall_Tree_TX_CM.tex"
+                    texture: file = "assets/characters/neeko/skins/base/neeko_base_recall_tree_tx_cm.tex"
                     submesh: string = "Neeko_Base_Recall_Tree_Mat"
                 }
             }
@@ -210,17 +210,18 @@ entries: map[hash,embed] = {
         }
         armorMaterial: string = "Flesh"
         mContextualActionData: link = "Characters/Neeko/CAC/Neeko_Base"
-        iconCircle: option[string] = {
-            "ASSETS/Characters/Neeko/HUD/Neeko_Circle_0.tex"
+        iconCircle: option[file] = {
+            "assets/characters/neeko/hud/neeko_circle_0.tex"
         }
-        iconSquare: option[string] = {
-            "ASSETS/Characters/Neeko/HUD/Neeko_Square.tex"
+        iconSquare: option[file] = {
+            "assets/characters/neeko/hud/neeko_square.tex"
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
             attachToBone: string = "Buffbone_Cstm_Healthbar"
             unitHealthBarStyle: u8 = 12
         }
         mResourceResolver: link = "Characters/Neeko/Skins/Skin0/Resources"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0"
     }
     "Characters/Neeko/Skins/Skin8/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {

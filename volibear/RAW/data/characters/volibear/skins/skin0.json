@@ -51,8 +51,8 @@
                   "items": [
                     {
                       "key": "image",
-                      "type": "string",
-                      "value": "ASSETS/Characters/Volibear/Skins/Base/VolibearLoadscreen.tex"
+                      "type": "file",
+                      "value": 16789866249230784216
                     }
                   ],
                   "name": 3496109055
@@ -285,8 +285,8 @@
                     },
                     {
                       "key": "texture",
-                      "type": "string",
-                      "value": "ASSETS/Characters/Volibear/Skins/Base/volibear_base_TX_CM.tex"
+                      "type": "file",
+                      "value": 12703301485179144878
                     },
                     {
                       "key": "skinScale",
@@ -322,8 +322,8 @@
                             "items": [
                               {
                                 "key": "texture",
-                                "type": "string",
-                                "value": "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
+                                "type": "file",
+                                "value": 13306906365455264534
                               },
                               {
                                 "key": "submesh",
@@ -337,8 +337,8 @@
                             "items": [
                               {
                                 "key": "texture",
-                                "type": "string",
-                                "value": "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
+                                "type": "file",
+                                "value": 13306906365455264534
                               },
                               {
                                 "key": "submesh",
@@ -352,8 +352,8 @@
                             "items": [
                               {
                                 "key": "texture",
-                                "type": "string",
-                                "value": "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
+                                "type": "file",
+                                "value": 13306906365455264534
                               },
                               {
                                 "key": "submesh",
@@ -367,8 +367,8 @@
                             "items": [
                               {
                                 "key": "texture",
-                                "type": "string",
-                                "value": "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Ice_TX_CM.tex"
+                                "type": "file",
+                                "value": 13306906365455264534
                               },
                               {
                                 "key": "submesh",
@@ -382,8 +382,8 @@
                             "items": [
                               {
                                 "key": "texture",
-                                "type": "string",
-                                "value": "ASSETS/Characters/Volibear/Skins/Base/Volibear_Base_Poro_TX_CM.tex"
+                                "type": "file",
+                                "value": 15557796778738207055
                               },
                               {
                                 "key": "submesh",
@@ -426,9 +426,9 @@
                 "type": "option",
                 "value": {
                   "items": [
-                    "ASSETS/Characters/Volibear/HUD/Volibear_Circle_0.tex"
+                    10948184063214011866
                   ],
-                  "valueType": "string"
+                  "valueType": "file"
                 }
               },
               {
@@ -436,9 +436,9 @@
                 "type": "option",
                 "value": {
                   "items": [
-                    "ASSETS/Characters/Volibear/HUD/Volibear_Square.tex"
+                    7080740739838618603
                   ],
-                  "valueType": "string"
+                  "valueType": "file"
                 }
               },
               {
@@ -464,6 +464,11 @@
                 "key": "mResourceResolver",
                 "type": "link",
                 "value": "Characters/Volibear/Skins/Skin0/Resources"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Volibear/Skins/Skin0"
               }
             ],
             "name": 2607278582
@@ -1887,6 +1892,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_R_SpikeB"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_R_SpikeB"
               }
             ],
             "name": 1171098015
@@ -3290,6 +3300,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_R_SpikeC"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_R_SpikeC"
               }
             ],
@@ -5251,6 +5266,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_R_SpikeA"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_R_SpikeA"
               }
             ],
             "name": 1171098015
@@ -5708,6 +5728,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_Aura_01"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_Aura_01"
               }
             ],
@@ -7768,6 +7793,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_L_SpikeA"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_L_SpikeA"
               }
             ],
             "name": 1171098015
@@ -9180,6 +9210,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_L_SpikeB"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_L_SpikeB"
               }
             ],
@@ -10671,6 +10706,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_L_SpikeC"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_L_SpikeC"
               }
             ],
@@ -16686,6 +16726,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_Aura_01"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_Aura_01"
               }
             ],
             "name": 1171098015
@@ -18182,6 +18227,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_R_SpikeB"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_R_SpikeB"
               }
             ],
             "name": 1171098015
@@ -19672,6 +19722,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_R_SpikeC"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_R_SpikeC"
               }
             ],
@@ -21711,6 +21766,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_R_SpikeA"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_R_SpikeA"
               }
             ],
             "name": 1171098015
@@ -22548,6 +22608,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_Aura_01"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_midStacks_Aura_01"
               }
             ],
@@ -24211,6 +24276,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_R_SpikeA"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_R_SpikeA"
               }
             ],
             "name": 1171098015
@@ -25824,6 +25894,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_R_SpikeB"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_R_SpikeB"
               }
             ],
@@ -27454,6 +27529,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_R_SpikeC"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_R_SpikeC"
               }
             ],
             "name": 1171098015
@@ -29068,6 +29148,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_L_SpikeB"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_L_SpikeB"
               }
             ],
             "name": 1171098015
@@ -29171,9 +29256,9 @@
                                       "type": "list",
                                       "value": {
                                         "items": [
+                                          2439213486,
                                           3685382517,
-                                          3583474878,
-                                          2439213486
+                                          3583474878
                                         ],
                                         "valueType": "hash"
                                       }
@@ -30332,9 +30417,9 @@
                                       "type": "list",
                                       "value": {
                                         "items": [
+                                          2439213486,
                                           3685382517,
-                                          3583474878,
-                                          2439213486
+                                          3583474878
                                         ],
                                         "valueType": "hash"
                                       }
@@ -35670,8 +35755,8 @@
                                       "type": "list",
                                       "value": {
                                         "items": [
-                                          3583474878,
                                           3685382517,
+                                          3583474878,
                                           2439213486
                                         ],
                                         "valueType": "hash"
@@ -38400,6 +38485,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_R_Buf_Max"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_R_Buf_Max"
               }
             ],
             "name": 1171098015
@@ -40028,6 +40118,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_L_SpikeC"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_L_SpikeC"
               }
             ],
@@ -42158,6 +42253,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_L_SpikeA"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_L_SpikeA"
               }
             ],
             "name": 1171098015
@@ -43585,6 +43685,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_L_SpikeB"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_L_SpikeB"
               }
             ],
@@ -45248,6 +45353,11 @@
                 "key": "particlePath",
                 "type": "string",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_L_SpikeA"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_zeroStacks_L_SpikeA"
               }
             ],
             "name": 1171098015
@@ -46651,6 +46761,11 @@
               {
                 "key": "particlePath",
                 "type": "string",
+                "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_L_SpikeC"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
                 "value": "Characters/Volibear/Skins/Skin0/Particles/Volibear_Base_Passive_maxStacks_L_SpikeC"
               }
             ],

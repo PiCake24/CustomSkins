@@ -22,7 +22,7 @@ entries: map[hash,embed] = {
         championSkinName: string = "BaseNasus"
         metaDataTags: string = "faction:shurima,race:ascended,gender:male,appearance:dog"
         loadscreen: embed = CensoredImage {
-            image: string = "ASSETS/Characters/Nasus/Skins/Base/NasusLoadScreen.tex"
+            image: file = "assets/characters/nasus/skins/base/nasusloadscreen.tex"
         }
         skinAudioProperties: embed = skinAudioProperties {
             tagEventList: list[string] = {
@@ -104,7 +104,7 @@ entries: map[hash,embed] = {
         skinMeshProperties: embed = SkinMeshDataProperties {
             skeleton: string = "ASSETS/Characters/Nasus/Skins/Base/Nasus.skl"
             simpleSkin: string = "ASSETS/Characters/Nasus/Skins/Base/Nasus.skn"
-            texture: string = "ASSETS/Characters/Nasus/Skins/Base/Nasus.tex"
+            texture: file = "assets/characters/nasus/skins/base/nasus.tex"
 	 	 	skinScale: f32 = 2
             selfIllumination: f32 = 0.5
             reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
@@ -113,16 +113,17 @@ entries: map[hash,embed] = {
         }
         armorMaterial: string = "Metal"
         mContextualActionData: link = "Characters/Nasus/CAC/Nasus_Base"
-        iconCircle: option[string] = {
-            "ASSETS/Characters/Nasus/HUD/Nasus_Circle.tex"
+        iconCircle: option[file] = {
+            "assets/characters/nasus/hud/nasus_circle.tex"
         }
-        iconSquare: option[string] = {
-            "ASSETS/Characters/Nasus/HUD/Nasus_Square.tex"
+        iconSquare: option[file] = {
+            "assets/characters/nasus/hud/nasus_square.tex"
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
             unitHealthBarStyle: u8 = 12
         }
         mResourceResolver: link = "Characters/Nasus/Skins/Skin0/Resources"
+        objectPath: hash = "Characters/Nasus/Skins/Skin0"
     }
     "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Eye_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -1304,6 +1305,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Nasus_Skin48_Eye_01"
         particlePath: string = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Eye_01"
+        objectPath: hash = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Eye_01"
     }
     "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Recall_Ground_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -3928,6 +3930,7 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 99999
         particleName: string = "Nasus_Skin48_Recall_Ground_01"
         particlePath: string = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Recall_Ground_01"
+        objectPath: hash = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Recall_Ground_01"
     }
     "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Idle_02" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -4007,6 +4010,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Nasus_Skin48_Idle_02"
         particlePath: string = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Idle_02"
+        objectPath: hash = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Idle_02"
     }
     "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Idle_03" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -4663,6 +4667,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Nasus_Skin48_Idle_03"
         particlePath: string = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Idle_03"
+        objectPath: hash = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Idle_03"
     }
     "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Idle_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5911,6 +5916,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Nasus_Skin48_Idle_01"
         particlePath: string = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Idle_01"
+        objectPath: hash = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Idle_01"
     }
     "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Q_Buf" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -7546,6 +7552,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Nasus_Skin48_Q_Buf"
         particlePath: string = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Q_Buf"
+        objectPath: hash = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Q_Buf"
     }
     "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Eye" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -7627,6 +7634,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Nasus_Skin48_Eye"
         particlePath: string = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Eye"
+        objectPath: hash = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Eye"
     }
     "Characters/Nasus/Skins/Skin48/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
@@ -7636,13 +7644,13 @@ entries: map[hash,embed] = {
             "Nasus_BA2_Trail1" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_BA2_Trail1"
             "Nasus_BA2_Trail2" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_BA2_Trail2"
             "Nasus_Crit_Tar" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_Crit_Tar"
-            0x84b9e382 = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_emote_dance_sound"
-            0x5a7341f7 = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_emote_death_sound"
-            0x7db4d860 = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_emote_laugh_sound"
-            0x4bee3d85 = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_emote_recall_winddown_sound"
-            0x339d64f4 = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_emote_recall_windup_sound"
-            0x70c35e01 = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_emote_taunt_sound"
-            0x64aa7e8b = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_emote_VO_taunt"
+            "Nasus_emote_dance_sound" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_emote_dance_sound"
+            "Nasus_emote_death_sound" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_emote_death_sound"
+            "Nasus_emote_laugh_sound" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_emote_laugh_sound"
+            "Nasus_emote_recall_winddown_sound" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_emote_recall_winddown_sound"
+            "Nasus_emote_recall_windup_sound" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_emote_recall_windup_sound"
+            "Nasus_emote_taunt_sound" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_emote_taunt_sound"
+            "Nasus_emote_VO_taunt" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_emote_VO_taunt"
             "Nasus_E_Green_Ring" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_E_Green_Ring"
             "Nasus_E_Red_Ring" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_E_Red_Ring"
             "Nasus_E_SpiritFire" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_E_SpiritFire"
@@ -7667,19 +7675,26 @@ entries: map[hash,embed] = {
             "Nasus_R_Transform_End" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_R_Transform"
             "Nasus_E_Cas_Tar" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_E_Cas_Tar"
             "Nasus_E_Tick_Tar" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_E_Tick_Tar"
-            0x5af72d4a = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Idle_01"
-            0x59f72bb7 = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Idle_02"
-            0xea7e1ebb = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Recall_Ground_01"
-            0xeb7e204e = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_Recall_Ground_02"
-            0xec7e21e1 = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_Recall_Ground_03"
-            0xed7e2374 = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_Recall_Ground_04"
-            0x0e3f1d9b = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_Q_Buf_01"
-            0xee7e2507 = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_Recall_Ground_05"
-            0xef7e269a = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_Recall_Ground_06"
-            0xf07e282d = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_Recall_Ground_07"
-            0x58f72a24 = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Idle_03"
-            0x280a1e97 = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Eye"
-            0x1754392b = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Eye_01"
+            "Nasus_Idle_01" = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Idle_01"
+            "Nasus_Idle_02" = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Idle_02"
+            "Nasus_Recall_Ground_01" = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Recall_Ground_01"
+            "Nasus_Recall_Ground_02" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_Recall_Ground_02"
+            "Nasus_Recall_Ground_03" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_Recall_Ground_03"
+            "Nasus_Recall_Ground_04" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_Recall_Ground_04"
+            "Nasus_Q_Buf_01" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_Q_Buf_01"
+            "Nasus_Recall_Ground_05" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_Recall_Ground_05"
+            "Nasus_Recall_Ground_06" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_Recall_Ground_06"
+            "Nasus_Recall_Ground_07" = "Characters/Nasus/Skins/Skin45/Particles/Nasus_Skin45_Recall_Ground_07"
+            "Nasus_Idle_03" = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Idle_03"
+            "Nasus_Eye" = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Eye"
+            "Nasus_Eye_01" = "Characters/Nasus/Skins/Skin48/Particles/Nasus_Skin48_Eye_01"
+            0x84b9e382 = "Characters/Nasus/Skins/Skin0/Particles/Nasus_base_emote_dance_sound"
+            0x5a7341f7 = "Characters/Nasus/Skins/Skin0/Particles/Nasus_base_emote_death_sound"
+            0x7db4d860 = "Characters/Nasus/Skins/Skin0/Particles/Nasus_base_emote_laugh_sound"
+            0x4bee3d85 = "Characters/Nasus/Skins/Skin0/Particles/Nasus_base_emote_recall_winddown_sound"
+            0x339d64f4 = "Characters/Nasus/Skins/Skin0/Particles/Nasus_base_emote_recall_windup_sound"
+            0x70c35e01 = "Characters/Nasus/Skins/Skin0/Particles/Nasus_base_emote_taunt_sound"
+            0x64aa7e8b = "Characters/Nasus/Skins/Skin0/Particles/nasus_base_emote_VO_taunt"
         }
     }
     "Characters/Nasus/Skins/Skin48/Materials/HairBVFX_inst" = StaticMaterialDef {
@@ -7687,19 +7702,19 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Nasus/Skins/Skin48/Nasus_Skin48_HairVFX_TX_CM.tex"
+                texturePath: file = "assets/characters/nasus/skins/skin48/nasus_skin48_hairvfx_tx_cm.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Scroll_Texture"
-                texturePath: string = "ASSETS/Characters/Nasus/Skins/Skin45/DrMundo_Skin06_Particles_1_234.tex"
+                texturePath: file = "assets/characters/nasus/skins/skin45/drmundo_skin06_particles_1_234.tex"
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Alpha_Mask"
-                texturePath: string = "ASSETS/Characters/Nasus/Skins/Skin45/Nasus_Skin45_HairMask_TX_CM.tex"
+                texturePath: file = "assets/characters/nasus/skins/skin45/nasus_skin45_hairmask_tx_cm.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1

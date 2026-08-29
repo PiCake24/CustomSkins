@@ -9,7 +9,7 @@ entries: map[hash,embed] = {
             "Crit" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Crit.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_crit.anm"
                 }
             }
             "death" = AtomicClipData {
@@ -31,7 +31,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Death.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_death.anm"
                 }
             }
             "Joke" = AtomicClipData {
@@ -53,19 +53,19 @@ entries: map[hash,embed] = {
                 }
                 mTickDuration: f32 = 0.0333333388
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Joke.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_joke.anm"
                 }
             }
             "Spell1" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Attack1.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_attack1.anm"
                 }
             }
             "Spell3" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Spell3.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_spell3.anm"
                 }
             }
             "taunt" = AtomicClipData {
@@ -81,7 +81,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Taunt.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_taunt.anm"
                 }
             }
             "Attack2" = AtomicClipData {
@@ -101,7 +101,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Attack2.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_attack2.anm"
                 }
             }
             0x0e2d9deb = AtomicClipData {
@@ -122,14 +122,14 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Spell4_Run.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_spell4_run.anm"
                 }
             }
             "Run" = AtomicClipData {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Run.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_run.anm"
                 }
             }
             "Attack1" = AtomicClipData {
@@ -149,19 +149,19 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Attack1.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_attack1.anm"
                 }
             }
             "Idle1_Base" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Idle1.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_idle1.anm"
                 }
             }
             "Spell1_Chrg" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Spell1_CHRG.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_spell1_chrg.anm"
                 }
             }
             "Passive_Attack1" = AtomicClipData {
@@ -175,7 +175,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Passive_Attack1.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_passive_attack1.anm"
                 }
             }
             "Passive_Attack2" = AtomicClipData {
@@ -189,7 +189,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Passive_Attack2.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_passive_attack2.anm"
                 }
             }
             "Passive_Idle1" = AtomicClipData {
@@ -203,7 +203,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Passive_Idle1.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_passive_idle1.anm"
                 }
             }
             0x7ff7bfcd = AtomicClipData {
@@ -218,27 +218,27 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Passive_Run.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_passive_run.anm"
                 }
             }
             "Spell1_Hit1" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Spell1_Hit1.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_spell1_hit1.anm"
                 }
             }
             "Spell1_Hit2" = AtomicClipData {
                 mFlags: u32 = 8
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Spell1_Hit2.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_spell1_hit2.anm"
                 }
             }
             "Idle_In" = AtomicClipData {
                 mFlags: u32 = 8
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Idle_IN.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_idle_in.anm"
                 }
             }
             "Attack3" = AtomicClipData {
@@ -258,27 +258,27 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Attack3.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_attack3.anm"
                 }
             }
             "Run_Fast" = AtomicClipData {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Run_Fast.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_run_fast.anm"
                 }
             }
             "Attack_Tower" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Attack_Tower.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_attack_tower.anm"
                 }
             }
             "Run_Haste" = AtomicClipData {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Run_Haste.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_run_haste.anm"
                 }
             }
             "Passive_Death" = AtomicClipData {
@@ -311,26 +311,26 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Passive_Death.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_passive_death.anm"
                 }
             }
             "Channel" = AtomicClipData {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_channel_loop.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_channel_loop.anm"
                 }
             }
             "Channel_Wndup" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_channel_in.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_channel_in.anm"
                 }
             }
             "Stunned" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Stunned.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_stunned.anm"
                 }
             }
             0xa09e88b7 = AtomicClipData {
@@ -345,7 +345,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Passive_Run_In.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_passive_run_in.anm"
                 }
             }
             "Passive_Run" = SequencerClipData {
@@ -378,14 +378,14 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Laugh.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_laugh.anm"
                 }
             }
             0xbb7b9f71 = AtomicClipData {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_KnockedUp.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_knockedup.anm"
                 }
             }
             "Passive_Dash" = AtomicClipData {
@@ -399,7 +399,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Passive_Dash.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_passive_dash.anm"
                 }
             }
             "Recall" = AtomicClipData {
@@ -421,19 +421,19 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Recall.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_recall.anm"
                 }
             }
             "Spell4" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Spell4_Hit.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_spell4_hit.anm"
                 }
             }
             "Spell4_Hit" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Spell4_Hit.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_spell4_hit.anm"
                 }
             }
             "Attack_Tower2" = AtomicClipData {
@@ -453,7 +453,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Attack2_Tower.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_attack2_tower.anm"
                 }
             }
             "Spell4_RunIn" = AtomicClipData {
@@ -473,7 +473,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Spell4_RunIN.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_spell4_runin.anm"
                 }
             }
             "Dance_Loop" = AtomicClipData {
@@ -486,7 +486,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Dance_LOOP.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_dance_loop.anm"
                 }
             }
             "Dance_In" = AtomicClipData {
@@ -509,7 +509,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Dance_IN.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_dance_in.anm"
                 }
             }
             "Dance" = SequencerClipData {
@@ -528,7 +528,7 @@ entries: map[hash,embed] = {
             "Idle2_Base" = AtomicClipData {
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Idle2.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_idle2.anm"
                 }
             }
             0x9733b790 = SequencerClipData {
@@ -549,7 +549,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Dance_SPIN.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_dance_spin.anm"
                 }
             }
             "Spell4_Stop" = AtomicClipData {
@@ -563,21 +563,21 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Spell4_STOP.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_spell4_stop.anm"
                 }
             }
             "Run_Slow" = AtomicClipData {
                 mFlags: u32 = 2
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Run_Slow.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_run_slow.anm"
                 }
             }
             "KnockedUp_In" = AtomicClipData {
                 mFlags: u32 = 8
                 mTrackDataName: hash = "Default"
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_KnockedUp_IN.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_knockedup_in.anm"
                 }
             }
             "KnockedUp" = SequencerClipData {
@@ -616,7 +616,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Dance_IN.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_dance_in.anm"
                 }
             }
             0x2469b82f = AtomicClipData {
@@ -630,7 +630,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Dance_SPIN.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_dance_spin.anm"
                 }
             }
             "Passive_Dance_LOOP" = AtomicClipData {
@@ -644,7 +644,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 mAnimationResourceData: embed = AnimationResourceData {
-                    mAnimationFilePath: string = "ASSETS/Characters/Sion/Skins/Base/Animations/Sion_Dance_LOOP.anm"
+                    mAnimationFilePath: file = "assets/characters/sion/skins/base/animations/sion_dance_loop.anm"
                 }
             }
             0x1c772fea = SequencerClipData {
@@ -1794,5 +1794,6 @@ entries: map[hash,embed] = {
                 mTime: f32 = 0
             }
         }
+        objectPath: hash = "Characters/Sion/Animations/Skin0"
     }
 }

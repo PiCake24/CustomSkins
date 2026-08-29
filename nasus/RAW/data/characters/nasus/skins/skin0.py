@@ -18,7 +18,7 @@ entries: map[hash,embed] = {
         championSkinName: string = "BaseNasus"
         metaDataTags: string = "faction:shurima,race:ascended,gender:male,appearance:dog"
         loadscreen: embed = CensoredImage {
-            image: string = "ASSETS/Characters/Nasus/Skins/Base/NasusLoadScreen.tex"
+            image: file = "assets/characters/nasus/skins/base/nasusloadscreen.tex"
         }
         skinAudioProperties: embed = skinAudioProperties {
             tagEventList: list[string] = {
@@ -100,7 +100,7 @@ entries: map[hash,embed] = {
         skinMeshProperties: embed = SkinMeshDataProperties {
             skeleton: string = "ASSETS/Characters/Nasus/Skins/Base/Nasus.skl"
             simpleSkin: string = "ASSETS/Characters/Nasus/Skins/Base/Nasus.skn"
-            texture: string = "ASSETS/Characters/Nasus/Skins/Base/Nasus.tex"
+            texture: file = "assets/characters/nasus/skins/base/nasus.tex"
 	 	 	skinScale: f32 = 2
             selfIllumination: f32 = 0.5
             reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
@@ -109,16 +109,17 @@ entries: map[hash,embed] = {
         }
         armorMaterial: string = "Metal"
         mContextualActionData: link = "Characters/Nasus/CAC/Nasus_Base"
-        iconCircle: option[string] = {
-            "ASSETS/Characters/Nasus/HUD/Nasus_Circle.tex"
+        iconCircle: option[file] = {
+            "assets/characters/nasus/hud/nasus_circle.tex"
         }
-        iconSquare: option[string] = {
-            "ASSETS/Characters/Nasus/HUD/Nasus_Square.tex"
+        iconSquare: option[file] = {
+            "assets/characters/nasus/hud/nasus_square.tex"
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
             unitHealthBarStyle: u8 = 12
         }
         mResourceResolver: link = "Characters/Nasus/Skins/Skin0/Resources"
+        objectPath: hash = "Characters/Nasus/Skins/Skin0"
     }
     "Characters/Nasus/Skins/Skin0/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {

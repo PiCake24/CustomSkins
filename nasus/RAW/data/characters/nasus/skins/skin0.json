@@ -29,8 +29,8 @@
                   "items": [
                     {
                       "key": "image",
-                      "type": "string",
-                      "value": "ASSETS/Characters/Nasus/Skins/Base/NasusLoadScreen.tex"
+                      "type": "file",
+                      "value": 12812825583607202223
                     }
                   ],
                   "name": 3496109055
@@ -208,8 +208,8 @@
                     },
                     {
                       "key": "texture",
-                      "type": "string",
-                      "value": "ASSETS/Characters/Nasus/Skins/Base/Nasus.tex"
+                      "type": "file",
+                      "value": 16949739528687967662
                     },
                     {
                       "key": "skinScale",
@@ -260,9 +260,9 @@
                 "type": "option",
                 "value": {
                   "items": [
-                    "ASSETS/Characters/Nasus/HUD/Nasus_Circle.tex"
+                    12480766595354393089
                   ],
-                  "valueType": "string"
+                  "valueType": "file"
                 }
               },
               {
@@ -270,9 +270,9 @@
                 "type": "option",
                 "value": {
                   "items": [
-                    "ASSETS/Characters/Nasus/HUD/Nasus_Square.tex"
+                    17096960354334916835
                   ],
-                  "valueType": "string"
+                  "valueType": "file"
                 }
               },
               {
@@ -293,6 +293,11 @@
                 "key": "mResourceResolver",
                 "type": "link",
                 "value": "Characters/Nasus/Skins/Skin0/Resources"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/Nasus/Skins/Skin0"
               }
             ],
             "name": 2607278582

@@ -23,7 +23,7 @@ entries: map[hash,embed] = {
         championSkinName: string = "BaseNasus"
         metaDataTags: string = "faction:shurima,race:ascended,gender:male,appearance:dog"
         loadscreen: embed = CensoredImage {
-            image: string = "ASSETS/Characters/Nasus/Skins/Base/NasusLoadScreen.tex"
+            image: file = "assets/characters/nasus/skins/base/nasusloadscreen.tex"
         }
         skinAudioProperties: embed = skinAudioProperties {
             tagEventList: list[string] = {
@@ -105,7 +105,7 @@ entries: map[hash,embed] = {
         skinMeshProperties: embed = SkinMeshDataProperties {
             skeleton: string = "ASSETS/Characters/Nasus/Skins/Base/Nasus.skl"
             simpleSkin: string = "ASSETS/Characters/Nasus/Skins/Base/Nasus.skn"
-            texture: string = "ASSETS/Characters/Nasus/Skins/Base/Nasus.tex"
+            texture: file = "assets/characters/nasus/skins/base/nasus.tex"
 	 	 	skinScale: f32 = 2
             selfIllumination: f32 = 0.5
             reflectionFresnelColor: rgba = { 0, 0, 0, 255 }
@@ -114,16 +114,17 @@ entries: map[hash,embed] = {
         }
         armorMaterial: string = "Metal"
         mContextualActionData: link = "Characters/Nasus/CAC/Nasus_Base"
-        iconCircle: option[string] = {
-            "ASSETS/Characters/Nasus/HUD/Nasus_Circle.tex"
+        iconCircle: option[file] = {
+            "assets/characters/nasus/hud/nasus_circle.tex"
         }
-        iconSquare: option[string] = {
-            "ASSETS/Characters/Nasus/HUD/Nasus_Square.tex"
+        iconSquare: option[file] = {
+            "assets/characters/nasus/hud/nasus_square.tex"
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
             unitHealthBarStyle: u8 = 12
         }
         mResourceResolver: link = "Characters/Nasus/Skins/Skin0/Resources"
+        objectPath: hash = "Characters/Nasus/Skins/Skin0"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_W_Cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -198,6 +199,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             -1
         }
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_W_Cas"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_BA2_Trail1" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -343,6 +345,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             -1
         }
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_BA2_Trail1"
     }
     "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_dance_sound" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -363,6 +366,7 @@ entries: map[hash,embed] = {
         particleName: string = "nasus_skin05_emote_dance_sound"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_dance_sound"
         flags: u16 = 132
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_dance_sound"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_R_Buf" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -1580,6 +1584,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Nasus_Skin05_R_Buf"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_R_Buf"
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_R_Buf"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_BA2_Trail1_Ult" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -1725,6 +1730,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             -1
         }
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_BA2_Trail1_Ult"
     }
     "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_interactive_50stack" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -1745,6 +1751,7 @@ entries: map[hash,embed] = {
         particleName: string = "nasus_skin05_interactive_50stack"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_interactive_50stack"
         flags: u16 = 132
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_interactive_50stack"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_Q_Tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -2492,6 +2499,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Nasus_Skin05_Q_Tar"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_Q_Tar"
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_Q_Tar"
     }
     "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_recall_start_leadout_sound" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -2512,6 +2520,7 @@ entries: map[hash,embed] = {
         particleName: string = "nasus_skin05_recall_start_leadout_sound"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_recall_start_leadout_sound"
         flags: u16 = 164
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_recall_start_leadout_sound"
     }
     "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_ultform_run_sound" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -2532,6 +2541,7 @@ entries: map[hash,embed] = {
         particleName: string = "nasus_skin05_ultform_run_sound"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_ultform_run_sound"
         flags: u16 = 164
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_ultform_run_sound"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_SpiritFire" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -2779,6 +2789,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Nasus_Skin05_E_SpiritFire"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_SpiritFire"
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_SpiritFire"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_Crit_Trail1_Ult" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -2931,6 +2942,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             -1
         }
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_Crit_Trail1_Ult"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_Cas_Tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -3717,6 +3729,7 @@ entries: map[hash,embed] = {
         particleName: string = "Nasus_Skin05_E_Cas_Tar"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_Cas_Tar"
         flags: u16 = 198
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_Cas_Tar"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_Q_Hit" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -3799,6 +3812,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Nasus_Skin05_Q_Hit"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_Q_Hit"
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_Q_Hit"
     }
     "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_taunt_sound" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -3819,6 +3833,7 @@ entries: map[hash,embed] = {
         particleName: string = "nasus_skin05_emote_taunt_sound"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_taunt_sound"
         flags: u16 = 132
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_taunt_sound"
     }
     "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_recall_winddown_sound" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -3839,6 +3854,7 @@ entries: map[hash,embed] = {
         particleName: string = "nasus_skin05_recall_winddown_sound"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_recall_winddown_sound"
         flags: u16 = 164
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_recall_winddown_sound"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_W_Cas_Child" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -4058,6 +4074,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Nasus_Skin05_W_Cas_Child"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_W_Cas_Child"
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_W_Cas_Child"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_W_Buf" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -4930,6 +4947,7 @@ entries: map[hash,embed] = {
         particleName: string = "Nasus_Skin05_W_Buf"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_W_Buf"
         soundPersistentDefault: string = "Play_sfx_NasusSkin05_NasusW_loop"
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_W_Buf"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_Q_Buf_AxeGlow" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -4997,6 +5015,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             -1
         }
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_Q_Buf_AxeGlow"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_R_Cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5088,6 +5107,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Nasus_Skin05_R_Cas"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_R_Cas"
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_R_Cas"
     }
     "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_respawn_sound" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5108,6 +5128,7 @@ entries: map[hash,embed] = {
         particleName: string = "nasus_skin05_respawn_sound"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_respawn_sound"
         flags: u16 = 164
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_respawn_sound"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_R_Buf_Sound" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5125,6 +5146,7 @@ entries: map[hash,embed] = {
         particleName: string = "Nasus_Skin05_R_Buf_Sound"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_R_Buf_Sound"
         soundPersistentDefault: string = "Play_sfx_NasusSkin05_NasusR_loop"
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_R_Buf_Sound"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_W_Buf_Ground" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5661,6 +5683,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Nasus_Skin05_W_Buf_Ground"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_W_Buf_Ground"
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_W_Buf_Ground"
     }
     "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_interactive_100stack" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5681,6 +5704,7 @@ entries: map[hash,embed] = {
         particleName: string = "nasus_skin05_interactive_100stack"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_interactive_100stack"
         flags: u16 = 132
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_interactive_100stack"
     }
     "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_ultform_runin_sound" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5701,6 +5725,7 @@ entries: map[hash,embed] = {
         particleName: string = "nasus_skin05_ultform_runin_sound"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_ultform_runin_sound"
         flags: u16 = 164
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_ultform_runin_sound"
     }
     "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_ultdance_sound" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5721,6 +5746,7 @@ entries: map[hash,embed] = {
         particleName: string = "nasus_skin05_emote_ultdance_sound"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_ultdance_sound"
         flags: u16 = 132
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_ultdance_sound"
     }
     "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_ultform_idle1_sound" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5741,6 +5767,7 @@ entries: map[hash,embed] = {
         particleName: string = "nasus_skin05_ultform_idle1_sound"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_ultform_idle1_sound"
         flags: u16 = 164
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_ultform_idle1_sound"
     }
     "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_recall_start_sound" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5761,6 +5788,7 @@ entries: map[hash,embed] = {
         particleName: string = "nasus_skin05_recall_start_sound"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_recall_start_sound"
         flags: u16 = 164
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_recall_start_sound"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_Crit_Trail1" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5913,6 +5941,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             -1
         }
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_Crit_Trail1"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_Tar_Red" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5964,6 +5993,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_Tar_Red"
         soundOnCreateDefault: string = "Play_sfx_NasusSkin05_NasusE_boom"
         flags: u16 = 204
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_Tar_Red"
     }
     "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_joke_sound" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5984,6 +6014,7 @@ entries: map[hash,embed] = {
         particleName: string = "nasus_skin05_emote_joke_sound"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_joke_sound"
         flags: u16 = 132
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_joke_sound"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_Q_Buf_AxeHeadGlow" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -6393,6 +6424,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Nasus_Skin05_Q_Buf_AxeHeadGlow"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_Q_Buf_AxeHeadGlow"
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_Q_Buf_AxeHeadGlow"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_R_Avatar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -6417,13 +6449,14 @@ entries: map[hash,embed] = {
                 materialOverrideDefinitions: list[embed] = {
                     VfxMaterialOverrideDefinitionData {
                         priority: i32 = -1
-                        baseTexture: string = "ASSETS/Characters/Nasus/Skins/Skin05/nasus_Skin05_ultimate_TX_CM.tex"
+                        baseTexture: file = "assets/characters/nasus/skins/skin05/nasus_skin05_ultimate_tx_cm.tex"
                     }
                 }
             }
         }
         particleName: string = "Nasus_Skin05_R_Avatar"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_R_Avatar"
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_R_Avatar"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_Tar_Green" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -6475,6 +6508,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_Tar_Green"
         soundOnCreateDefault: string = "Play_sfx_NasusSkin05_NasusE_boom"
         flags: u16 = 204
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_Tar_Green"
     }
     "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_death_sound" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -6498,6 +6532,7 @@ entries: map[hash,embed] = {
         particleName: string = "nasus_skin05_emote_death_sound"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_death_sound"
         flags: u16 = 132
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_death_sound"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_Tar_Warning" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -7399,6 +7434,7 @@ entries: map[hash,embed] = {
         particleName: string = "Nasus_Skin05_E_Tar_Warning"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_Tar_Warning"
         soundOnCreateDefault: string = "Play_sfx_NasusSkin05_NasusE_marker"
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_Tar_Warning"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_Tick_Tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -8002,6 +8038,7 @@ entries: map[hash,embed] = {
         particleName: string = "Nasus_Skin05_E_Tick_Tar"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_Tick_Tar"
         flags: u16 = 198
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_Tick_Tar"
     }
     "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_VO_laugh_ultdogs_sound" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -8022,6 +8059,7 @@ entries: map[hash,embed] = {
         particleName: string = "nasus_skin05_emote_VO_laugh_ultdogs_sound"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_VO_laugh_ultdogs_sound"
         flags: u16 = 132
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_VO_laugh_ultdogs_sound"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_Tar_AfterBurn" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -9496,6 +9534,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Nasus_Skin05_E_Tar_AfterBurn"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_Tar_AfterBurn"
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_Tar_AfterBurn"
     }
     "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_interactive_150stack" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -9516,6 +9555,7 @@ entries: map[hash,embed] = {
         particleName: string = "nasus_skin05_interactive_150stack"
         particlePath: string = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_interactive_150stack"
         flags: u16 = 132
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_interactive_150stack"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_BA1_Trail1" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -9668,6 +9708,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             -1
         }
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_BA1_Trail1"
     }
     "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_BA1_Trail1_Ult" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -9820,6 +9861,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             -1
         }
+        objectPath: hash = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_BA1_Trail1_Ult"
     }
     "Characters/Nasus/Skins/Skin5/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
@@ -9829,13 +9871,13 @@ entries: map[hash,embed] = {
             "Nasus_BA2_Trail1" = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_BA2_Trail1"
             "Nasus_BA2_Trail2" = "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_BA2_Trail2"
             "Nasus_Crit_Tar" = "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_Crit_Tar"
-            0x84b9e382 = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_dance_sound"
-            0x5a7341f7 = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_death_sound"
-            0x7db4d860 = "Characters/Nasus/Skins/Skin0/Particles/Nasus_base_emote_laugh_sound"
-            0x4bee3d85 = "Characters/Nasus/Skins/Skin0/Particles/Nasus_base_emote_recall_winddown_sound"
-            0x339d64f4 = "Characters/Nasus/Skins/Skin0/Particles/Nasus_base_emote_recall_windup_sound"
-            0x70c35e01 = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_taunt_sound"
-            0x64aa7e8b = "Characters/Nasus/Skins/Skin0/Particles/nasus_base_emote_VO_taunt"
+            "Nasus_emote_dance_sound" = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_dance_sound"
+            "Nasus_emote_death_sound" = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_death_sound"
+            "Nasus_emote_laugh_sound" = "Characters/Nasus/Skins/Skin0/Particles/Nasus_base_emote_laugh_sound"
+            "Nasus_emote_recall_winddown_sound" = "Characters/Nasus/Skins/Skin0/Particles/Nasus_base_emote_recall_winddown_sound"
+            "Nasus_emote_recall_windup_sound" = "Characters/Nasus/Skins/Skin0/Particles/Nasus_base_emote_recall_windup_sound"
+            "Nasus_emote_taunt_sound" = "Characters/Nasus/Skins/Skin5/Particles/nasus_skin05_emote_taunt_sound"
+            "Nasus_emote_VO_taunt" = "Characters/Nasus/Skins/Skin0/Particles/nasus_base_emote_VO_taunt"
             "Nasus_E_Green_Ring" = "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_E_Green_Ring"
             "Nasus_E_Red_Ring" = "Characters/Nasus/Skins/Skin0/Particles/Nasus_Base_E_Red_Ring"
             "Nasus_E_SpiritFire" = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_E_SpiritFire"
@@ -9890,6 +9932,13 @@ entries: map[hash,embed] = {
             "Nasus_W_Buf_Ground" = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_W_Buf_Ground"
             "Nasus_W_Cas_Child" = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_W_Cas_Child"
             "Nasus_W_Cas" = "Characters/Nasus/Skins/Skin5/Particles/Nasus_Skin05_W_Cas"
+            0x84b9e382 = "Characters/Nasus/Skins/Skin0/Particles/Nasus_base_emote_dance_sound"
+            0x5a7341f7 = "Characters/Nasus/Skins/Skin0/Particles/Nasus_base_emote_death_sound"
+            0x7db4d860 = "Characters/Nasus/Skins/Skin0/Particles/Nasus_base_emote_laugh_sound"
+            0x4bee3d85 = "Characters/Nasus/Skins/Skin0/Particles/Nasus_base_emote_recall_winddown_sound"
+            0x339d64f4 = "Characters/Nasus/Skins/Skin0/Particles/Nasus_base_emote_recall_windup_sound"
+            0x70c35e01 = "Characters/Nasus/Skins/Skin0/Particles/Nasus_base_emote_taunt_sound"
+            0x64aa7e8b = "Characters/Nasus/Skins/Skin0/Particles/nasus_base_emote_VO_taunt"
         }
     }
     "Characters/Nasus/CAC/Nasus_Skin05" = ContextualActionData {
@@ -10175,7 +10224,7 @@ entries: map[hash,embed] = {
                                             "Characters/Renekton/CharacterRecords/Root"
                                         }
                                     }
-                                    0xb6da23cb {}
+                                    ContextualConditionEnemyEncounterNumber {}
                                 }
                             }
                         }

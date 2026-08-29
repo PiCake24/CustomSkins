@@ -20,7 +20,7 @@ entries: map[hash,embed] = {
         championSkinName: string = "Chogath"
         metaDataTags: string = "faction:void,gender:male,race:monster"
         loadscreen: embed = CensoredImage {
-            image: string = "ASSETS/Characters/Chogath/skins/base/ChogathLoadScreen.tex"
+            image: file = "assets/characters/chogath/skins/base/chogathloadscreen.tex"
         }
         skinAudioProperties: embed = skinAudioProperties {
             tagEventList: list[string] = {
@@ -80,7 +80,7 @@ entries: map[hash,embed] = {
         skinMeshProperties: embed = SkinMeshDataProperties {
             skeleton: string = "ASSETS/Characters/Chogath/skins/base/Chogath.skl"
             simpleSkin: string = "ASSETS/Characters/Chogath/skins/base/Chogath.skn"
-            texture: string = "ASSETS/Characters/Chogath/skins/base/GreenTerror.tex"
+            texture: file = "assets/characters/chogath/skins/base/greenterror.tex"
 	 	 	skinScale: f32 = 2
             selfIllumination: f32 = 0.699999988
             overrideBoundingBox: option[vec3] = {
@@ -91,16 +91,17 @@ entries: map[hash,embed] = {
         }
         armorMaterial: string = "Flesh"
         mContextualActionData: link = "Characters/Chogath/CAC/Chogath_Base"
-        iconCircle: option[string] = {
-            "ASSETS/Characters/Chogath/HUD/GreenTerror_Circle.tex"
+        iconCircle: option[file] = {
+            "assets/characters/chogath/hud/greenterror_circle.tex"
         }
-        iconSquare: option[string] = {
-            "ASSETS/Characters/Chogath/HUD/GreenTerror_Square.tex"
+        iconSquare: option[file] = {
+            "assets/characters/chogath/hud/greenterror_square.tex"
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
             unitHealthBarStyle: u8 = 12
         }
         mResourceResolver: link = "Characters/Chogath/Skins/Skin0/Resources"
+        objectPath: hash = "Characters/Chogath/Skins/Skin0"
     }
     "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_Q_cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -2414,6 +2415,7 @@ entries: map[hash,embed] = {
         particleName: string = "Chogath_Base_Q_cas"
         particlePath: string = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_Q_cas"
         soundOnCreateDefault: string = "Play_sfx_Chogath_Rupture_cast2"
+        objectPath: hash = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_Q_cas"
     }
     "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis2" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -3336,6 +3338,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Chogath_Base_E_mis2"
         particlePath: string = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis2"
+        objectPath: hash = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis2"
     }
     "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis3" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -4096,6 +4099,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Chogath_Base_E_mis3"
         particlePath: string = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis3"
+        objectPath: hash = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis3"
     }
     "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis4" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5102,6 +5106,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Chogath_Base_E_mis4"
         particlePath: string = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis4"
+        objectPath: hash = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis4"
     }
     "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis5" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -6210,6 +6215,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Chogath_Base_E_mis5"
         particlePath: string = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis5"
+        objectPath: hash = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis5"
     }
     "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis6" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -7420,6 +7426,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Chogath_Base_E_mis6"
         particlePath: string = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis6"
+        objectPath: hash = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis6"
     }
     "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -8282,6 +8289,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Chogath_Base_E_mis"
         particlePath: string = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis"
+        objectPath: hash = "Characters/Chogath/Skins/Skin0/Particles/Chogath_Base_E_mis"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -9724,7 +9732,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0x82951f90
+                            effectKey: hash = "Chogath_Q_cas_child"
                         }
                     }
                 }
@@ -10545,7 +10553,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0x191a417c
+                            effectKey: hash = "Chogath_Q_Cas_Spring3"
                         }
                     }
                 }
@@ -10575,7 +10583,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0xbfda9627
+                            effectKey: hash = "Chogath_Q_Cas_Spring"
                         }
                     }
                 }
@@ -10608,7 +10616,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0x191a417c
+                            effectKey: hash = "Chogath_Q_Cas_Spring3"
                         }
                     }
                 }
@@ -10641,7 +10649,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0x1a1a430f
+                            effectKey: hash = "Chogath_Q_Cas_Spring2"
                         }
                     }
                 }
@@ -10674,7 +10682,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0xbfda9627
+                            effectKey: hash = "Chogath_Q_Cas_Spring"
                         }
                     }
                 }
@@ -10707,7 +10715,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0x2a01b197
+                            effectKey: hash = "Chogath_Q_Cas_Angel"
                         }
                     }
                 }
@@ -10740,7 +10748,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0x1a068083
+                            effectKey: hash = "Chogath_Q_Cas_Angel_Back"
                         }
                     }
                 }
@@ -10773,7 +10781,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0x1a068083
+                            effectKey: hash = "Chogath_Q_Cas_Angel_Back"
                         }
                     }
                 }
@@ -10806,7 +10814,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0x1a068083
+                            effectKey: hash = "Chogath_Q_Cas_Angel_Back"
                         }
                     }
                 }
@@ -10840,7 +10848,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0x2a01b197
+                            effectKey: hash = "Chogath_Q_Cas_Angel"
                         }
                     }
                 }
@@ -11224,7 +11232,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0x432d96df
+                            effectKey: hash = "Chogath_Q_Cas_Spring_Small"
                         }
                     }
                 }
@@ -11257,7 +11265,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0x9d0b98db
+                            effectKey: hash = "Chogath_Q_Cas_Spring_Small_Back"
                         }
                     }
                 }
@@ -11290,7 +11298,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0xadc49717
+                            effectKey: hash = "Chogath_Q_Cas_Spring_Small2"
                         }
                     }
                 }
@@ -11323,7 +11331,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0xadc49717
+                            effectKey: hash = "Chogath_Q_Cas_Spring_Small2"
                         }
                     }
                 }
@@ -11627,7 +11635,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0x82951f90
+                            effectKey: hash = "Chogath_Q_cas_child"
                         }
                     }
                 }
@@ -12022,6 +12030,7 @@ entries: map[hash,embed] = {
         particleName: string = "Chogath_Skin36_Q_cas"
         particlePath: string = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_cas"
         soundOnCreateDefault: string = "Play_sfx_Chogath_Rupture_cast2"
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_cas"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_E_mis_child_02" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -12951,6 +12960,7 @@ entries: map[hash,embed] = {
             0, 0, 0.699999928, 0
             0, 0, 0, 1
         }
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_E_mis_child_02"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_E_mis_child_03" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -13880,6 +13890,7 @@ entries: map[hash,embed] = {
             0, 0, 0.799999893, 0
             0, 0, 0, 1
         }
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_E_mis_child_03"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Recall_Roar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -15397,6 +15408,7 @@ entries: map[hash,embed] = {
         particleName: string = "Chogath_Skin36_Recall_Roar"
         particlePath: string = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Recall_Roar"
         flags: u16 = 199
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Recall_Roar"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -15417,7 +15429,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0xe674b0cc
+                            effectKey: hash = "Chogath_Q_Cas_Spring_Small_Child2"
                         }
                     }
                     boneToSpawnAt: list[string] = {
@@ -16143,6 +16155,7 @@ entries: map[hash,embed] = {
             0, 0, 0.999999881, 0
             0, 0, 0, 1
         }
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Recall_Glow03" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -17438,6 +17451,7 @@ entries: map[hash,embed] = {
         particleName: string = "Chogath_Skin36_Recall_Glow03"
         particlePath: string = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Recall_Glow03"
         flags: u16 = 199
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Recall_Glow03"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Recall_Glow05" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -18933,6 +18947,7 @@ entries: map[hash,embed] = {
         particleName: string = "Chogath_Skin36_Recall_Glow05"
         particlePath: string = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Recall_Glow05"
         flags: u16 = 199
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Recall_Glow05"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Recall_Glow06" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -19801,6 +19816,7 @@ entries: map[hash,embed] = {
         particleName: string = "Chogath_Skin36_Recall_Glow06"
         particlePath: string = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Recall_Glow06"
         flags: u16 = 199
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Recall_Glow06"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small_Back" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -19821,7 +19837,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0x3ec85b1a
+                            effectKey: hash = "Chogath_Q_Cas_Spring_Small_Back_Child"
                         }
                     }
                     boneToSpawnAt: list[string] = {
@@ -20543,6 +20559,7 @@ entries: map[hash,embed] = {
             0, 0, 0.999999881, 0
             0, 0, 0, 1
         }
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small_Back"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_E_mis_child" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -21466,6 +21483,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Chogath_Skin36_E_mis_child"
         particlePath: string = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_E_mis_child"
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_E_mis_child"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_W_cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -25502,6 +25520,7 @@ entries: map[hash,embed] = {
             7.64274186e-15, -8.74227695e-08, -0.999999881, 0
             0, 20, 5, 1
         }
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_W_cas"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_R_tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -25655,7 +25674,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectHeight: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rainbow_02.HA_CREPE.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rainbow_02.tex"
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     dynamics: pointer = VfxAnimatedColorVariableData {
@@ -28168,7 +28187,7 @@ entries: map[hash,embed] = {
                     scaleBirthScaleByBoundObjectSize: f32 = 0.00499999989
                     scaleEmitOffsetByBoundObjectHeight: f32 = 0.00499999989
                 }
-                particleColorTexture: string = "ASSETS/Shared/Particles/color-rainbow_02.HA_CREPE.tex"
+                particleColorTexture: string = "ASSETS/Shared/Particles/color-rainbow_02.tex"
                 blendMode: u8 = 4
                 birthColor: embed = ValueColor {
                     constantValue: vec4 = { 0.700007617, 0.930006862, 1, 0.800000012 }
@@ -28430,6 +28449,7 @@ entries: map[hash,embed] = {
         particleName: string = "Chogath_Skin36_R_tar"
         particlePath: string = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_R_tar"
         flags: u16 = 198
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_R_tar"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small_Child" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -28683,6 +28703,7 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 99999
         particleName: string = "Chogath_Skin36_Q_Cas_Spring_Small_Child"
         particlePath: string = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small_Child"
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small_Child"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small_Back_Child" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -28945,6 +28966,7 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 99999
         particleName: string = "Chogath_Skin36_Q_Cas_Spring_Small_Back_Child"
         particlePath: string = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small_Back_Child"
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small_Back_Child"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small2" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -28965,7 +28987,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0x7fed3bb6
+                            effectKey: hash = "Chogath_Q_Cas_Spring_Small_Child"
                         }
                     }
                     boneToSpawnAt: list[string] = {
@@ -29687,6 +29709,7 @@ entries: map[hash,embed] = {
             0, 0, 0.999999881, 0
             0, 0, 0, 1
         }
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small2"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_R_indicator" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -30371,6 +30394,7 @@ entries: map[hash,embed] = {
             0, 0, 1.04999983, 0
             0, 0, 0, 1
         }
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_R_indicator"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -30391,7 +30415,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0x4569a4de
+                            effectKey: hash = "Chogath_Q_Cas_Spring_Child"
                         }
                     }
                     boneToSpawnAt: list[string] = {
@@ -31364,6 +31388,7 @@ entries: map[hash,embed] = {
             0, 0, 0.999999881, 0
             0, 0, 0, 1
         }
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Angel" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -31854,6 +31879,7 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 99999
         particleName: string = "Chogath_Skin36_Q_Cas_Angel"
         particlePath: string = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Angel"
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Angel"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small_Child2" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -32107,6 +32133,7 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 99999
         particleName: string = "Chogath_Skin36_Q_Cas_Spring_Small_Child2"
         particlePath: string = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small_Child2"
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small_Child2"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Child" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -32361,6 +32388,7 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 99999
         particleName: string = "Chogath_Skin36_Q_Cas_Spring_Child"
         particlePath: string = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Child"
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Child"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Angel_Back" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -32829,6 +32857,7 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 99999
         particleName: string = "Chogath_Skin36_Q_Cas_Angel_Back"
         particlePath: string = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Angel_Back"
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Angel_Back"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Child2" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -33082,6 +33111,7 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 99999
         particleName: string = "Chogath_Skin36_Q_Cas_Spring_Child2"
         particlePath: string = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Child2"
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Child2"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring2" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -33102,7 +33132,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0x4569a4de
+                            effectKey: hash = "Chogath_Q_Cas_Spring_Child"
                         }
                     }
                     boneToSpawnAt: list[string] = {
@@ -34065,6 +34095,7 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 99999
         particleName: string = "Chogath_Skin36_Q_Cas_Spring2"
         particlePath: string = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring2"
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring2"
     }
     "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring3" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -34085,7 +34116,7 @@ entries: map[hash,embed] = {
                 childParticleSetDefinition: pointer = VfxChildParticleSetDefinitionData {
                     childrenIdentifiers: list[embed] = {
                         VfxChildIdentifier {
-                            effectKey: hash = 0x314e9f84
+                            effectKey: hash = "Chogath_Q_Cas_Spring_Child2"
                         }
                     }
                     boneToSpawnAt: list[string] = {
@@ -35048,6 +35079,7 @@ entries: map[hash,embed] = {
         visibilityRadius: f32 = 99999
         particleName: string = "Chogath_Skin36_Q_Cas_Spring3"
         particlePath: string = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring3"
+        objectPath: hash = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring3"
     }
     "Characters/Chogath/Skins/Skin36/Resources" = ResourceResolver {
         resourceMap: map[hash,link] = {
@@ -35076,23 +35108,23 @@ entries: map[hash,embed] = {
             "Chogath_W_cas_child" = "Characters/Chogath/Skins/Skin32/Particles/Chogath_Skin32_W_cas_child"
             "Chogath_R_mis" = "Characters/Chogath/Skins/Skin32/Particles/Chogath_Skin32_R_mis"
             "Chogath_BA_Crit_tar" = "Characters/Chogath/Skins/Skin32/Particles/Chogath_Skin32_BA_Crit_tar"
-            0xd8bc1a07 = "Characters/Chogath/Skins/Skin32/Particles/Chogath_Skin32_R_mis_child"
-            0x5b9a9279 = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_E_mis_child_02"
-            0x5a9a90e6 = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_E_mis_child_03"
-            0x82951f90 = "Characters/Chogath/Skins/Skin32/Particles/Chogath_Skin32_Q_cas_child"
-            0xbfda9627 = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring"
-            0x4569a4de = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Child"
-            0x2a01b197 = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Angel"
-            0x1a1a430f = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring2"
-            0x191a417c = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring3"
-            0x432d96df = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small"
-            0xadc49717 = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small2"
-            0x314e9f84 = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Child2"
-            0xe674b0cc = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small_Child2"
-            0x7fed3bb6 = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small_Child"
-            0x9d0b98db = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small_Back"
-            0x3ec85b1a = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small_Back_Child"
-            0x1a068083 = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Angel_Back"
+            "Chogath_R_mis_child" = "Characters/Chogath/Skins/Skin32/Particles/Chogath_Skin32_R_mis_child"
+            "Chogath_E_mis_child_02" = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_E_mis_child_02"
+            "Chogath_E_mis_child_03" = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_E_mis_child_03"
+            "Chogath_Q_cas_child" = "Characters/Chogath/Skins/Skin32/Particles/Chogath_Skin32_Q_cas_child"
+            "Chogath_Q_Cas_Spring" = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring"
+            "Chogath_Q_Cas_Spring_Child" = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Child"
+            "Chogath_Q_Cas_Angel" = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Angel"
+            "Chogath_Q_Cas_Spring2" = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring2"
+            "Chogath_Q_Cas_Spring3" = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring3"
+            "Chogath_Q_Cas_Spring_Small" = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small"
+            "Chogath_Q_Cas_Spring_Small2" = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small2"
+            "Chogath_Q_Cas_Spring_Child2" = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Child2"
+            "Chogath_Q_Cas_Spring_Small_Child2" = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small_Child2"
+            "Chogath_Q_Cas_Spring_Small_Child" = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small_Child"
+            "Chogath_Q_Cas_Spring_Small_Back" = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small_Back"
+            "Chogath_Q_Cas_Spring_Small_Back_Child" = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Spring_Small_Back_Child"
+            "Chogath_Q_Cas_Angel_Back" = "Characters/Chogath/Skins/Skin36/Particles/Chogath_Skin36_Q_Cas_Angel_Back"
             "Chogath_Skin32_Recall_Glow" = "Characters/Chogath/Skins/Skin32/Particles/Chogath_Skin32_Recall_Glow"
             0x47bd64a1 = "Characters/Chogath/Skins/Skin32/Particles/Chogath_Skin32_Recall_groundImpact"
             "Chogath_Skin32_Recall_groundOpen" = "Characters/Chogath/Skins/Skin32/Particles/Chogath_Skin32_Recall_groundOpen"
@@ -35113,28 +35145,28 @@ entries: map[hash,embed] = {
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Texture"
-                texturePath: string = "ASSETS/Characters/Chogath/skins/Skin36/Chogath_Skin36_TX_CM.tex"
+                texturePath: file = "assets/characters/chogath/skins/skin36/chogath_skin36_tx_cm.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "MatCap_Tex"
-                texturePath: string = "ASSETS/Characters/Chogath/skins/Skin32/Chogath_Skin32_Props_MatCap.tex"
+                texturePath: file = "assets/characters/chogath/skins/skin32/chogath_skin32_props_matcap.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Mask"
-                texturePath: string = "ASSETS/Characters/Chogath/skins/Skin32/Chogath_Skin32_ChoGathTX_GM.tex"
+                texturePath: file = "assets/characters/chogath/skins/skin32/chogath_skin32_chogathtx_gm.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "EvolvingPassiveTex"
-                texturePath: string = "ASSETS/Shared/Materials/lava_mask.tex"
+                texturePath: file = "assets/shared/materials/lava_mask.tex"
             }
         }
         paramValues: list2[embed] = {

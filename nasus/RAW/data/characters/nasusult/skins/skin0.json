@@ -43,8 +43,8 @@
                     },
                     {
                       "key": "texture",
-                      "type": "string",
-                      "value": "ASSETS/Characters/Nasus/Skins/Base/Nasus.tex"
+                      "type": "file",
+                      "value": 16949739528687967662
                     },
                     {
                       "key": "skinScale",
@@ -69,12 +69,12 @@
                     {
                       "key": "initialSubmeshToHide",
                       "type": "string",
-                      "value": "Leona_Mat, Shield_Mat, Sun_Glasses_Mat"
+                      "value": "Sun_Mat, Sun_Sword_Mat, Sun_Shield_Mat, Sun_Glasses_Mat"
                     },
                     {
                       "key": "submeshRenderOrder",
                       "type": "string",
-                      "value": "Sun_Mat, Hair"
+                      "value": "Leona_Mat, Hair"
                     }
                   ],
                   "name": 1628559524
@@ -100,9 +100,9 @@
                 "type": "option",
                 "value": {
                   "items": [
-                    "ASSETS/Characters/NasusUlt/HUD/Nasus_Circle.tex"
+                    15619362742305896635
                   ],
-                  "valueType": "string"
+                  "valueType": "file"
                 }
               },
               {
@@ -110,15 +110,20 @@
                 "type": "option",
                 "value": {
                   "items": [
-                    "ASSETS/Characters/NasusUlt/HUD/Nasus_Square.tex"
+                    15908399490319504596
                   ],
-                  "valueType": "string"
+                  "valueType": "file"
                 }
               },
               {
                 "key": "mResourceResolver",
                 "type": "link",
                 "value": "Characters/NasusUlt/Skins/Skin0/Resources"
+              },
+              {
+                "key": "objectPath",
+                "type": "hash",
+                "value": "Characters/NasusUlt/Skins/Skin0"
               }
             ],
             "name": 2607278582

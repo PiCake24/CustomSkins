@@ -21,7 +21,7 @@ entries: map[hash,embed] = {
         championSkinName: string = "Neeko"
         metaDataTags: string = "gender:female,race:vastaya,faction:ixtal"
         loadscreen: embed = CensoredImage {
-            image: string = "ASSETS/Characters/Neeko/Skins/Base/NeekoLoadscreen.tex"
+            image: file = "assets/characters/neeko/skins/base/neekoloadscreen.tex"
         }
         skinAudioProperties: embed = skinAudioProperties {
             tagEventList: list[string] = {
@@ -168,7 +168,7 @@ entries: map[hash,embed] = {
         skinMeshProperties: embed = SkinMeshDataProperties {
             skeleton: string = "ASSETS/Characters/Neeko/Skins/Base/Neeko_Base.skl"
             simpleSkin: string = "ASSETS/Characters/Neeko/Skins/Base/Neeko_Base.skn"
-            texture: string = "ASSETS/Characters/Neeko/Skins/Base/Neeko_Base_TX_CM.tex"
+            texture: file = "assets/characters/neeko/skins/base/neeko_base_tx_cm.tex"
 	 	 	skinScale: f32 = 3
             selfIllumination: f32 = 0.699999988
             overrideBoundingBox: option[vec3] = {
@@ -179,7 +179,7 @@ entries: map[hash,embed] = {
             initialSubmeshToHide: string = "Neeko_Base_Butterfly_Mat Neeko_Base_Recall_Tree_Mat"
             materialOverride: list[embed] = {
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Neeko/Skins/Base/Neeko_Base_Butterfly_TX_CM.tex"
+                    texture: file = "assets/characters/neeko/skins/base/neeko_base_butterfly_tx_cm.tex"
                     submesh: string = "Neeko_Base_Butterfly_Mat"
                 }
                 SkinMeshDataProperties_MaterialOverride {
@@ -187,7 +187,7 @@ entries: map[hash,embed] = {
                     submesh: string = "Headquills"
                 }
                 SkinMeshDataProperties_MaterialOverride {
-                    texture: string = "ASSETS/Characters/Neeko/Skins/Base/Neeko_Base_Recall_Tree_TX_CM.tex"
+                    texture: file = "assets/characters/neeko/skins/base/neeko_base_recall_tree_tx_cm.tex"
                     submesh: string = "Neeko_Base_Recall_Tree_Mat"
                 }
             }
@@ -201,17 +201,18 @@ entries: map[hash,embed] = {
         }
         armorMaterial: string = "Flesh"
         mContextualActionData: link = "Characters/Neeko/CAC/Neeko_Base"
-        iconCircle: option[string] = {
-            "ASSETS/Characters/Neeko/HUD/Neeko_Circle_0.tex"
+        iconCircle: option[file] = {
+            "assets/characters/neeko/hud/neeko_circle_0.tex"
         }
-        iconSquare: option[string] = {
-            "ASSETS/Characters/Neeko/HUD/Neeko_Square.tex"
+        iconSquare: option[file] = {
+            "assets/characters/neeko/hud/neeko_square.tex"
         }
         healthBarData: embed = CharacterHealthBarDataRecord {
             attachToBone: string = "Buffbone_Cstm_Healthbar"
             unitHealthBarStyle: u8 = 12
         }
         mResourceResolver: link = "Characters/Neeko/Skins/Skin0/Resources"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Root_Empowered" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -282,7 +283,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_swirls.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteCount: i32 = 8
                 }
             }
@@ -357,9 +358,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -457,9 +458,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -534,7 +535,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Ezreal_Base_E_ringglow.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -595,7 +596,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Ezreal_Base_E_ringglow.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -993,6 +994,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             300
         }
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Root_Empowered"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Indicator_Ally" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -1055,7 +1057,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_BA_speed_flash.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_BA_speed_flash.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -1168,7 +1170,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -1598,7 +1600,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_spotlight.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_spotlight.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.550000012
@@ -1702,7 +1704,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_glow.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -1831,7 +1833,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_enemy_tendrils.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_enemy_tendrils.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.400000006 }
                 }
@@ -1849,7 +1851,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -1, 0 }
                     }
@@ -2229,6 +2231,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Neeko_Base_R_Indicator_Ally"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Indicator_Ally"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Indicator_Ally"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_Mis_beam" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -2286,7 +2289,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.Champion_VFX_Memory_Optimization.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.tex"
                 }
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 8, 1, 1 }
@@ -2374,7 +2377,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 birthScale0: embed = ValueVector3 {
@@ -2408,7 +2411,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_alphatrail.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 7, 0, 0 }
                     }
@@ -2440,7 +2443,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, -3 }
                     }
@@ -2453,6 +2456,7 @@ entries: map[hash,embed] = {
         particleName: string = "Neeko_Base_W_P_Mis_beam"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_Mis_beam"
         flags: u16 = 198
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_Mis_beam"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_Channel_Tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -3080,7 +3084,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
                 numFrames: u16 = 4
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 0.200000003 }
@@ -3093,6 +3097,7 @@ entries: map[hash,embed] = {
         particleName: string = "Neeko_Base_P_Channel_Tar"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_Channel_Tar"
         soundPersistentDefault: string = "Play_sfx_Neeko_NeekoP_charge"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_Channel_Tar"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Idle_beam" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -3209,7 +3214,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -3281,7 +3286,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_beams.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Flicker_04.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Flicker_04.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 1, 0 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -3385,7 +3390,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -3819,11 +3824,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
             }
         }
         particleName: string = "Neeko_Base_Idle_beam"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Idle_beam"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Idle_beam"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_mis_empowered_child" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -4074,7 +4080,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -4236,9 +4242,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -4296,7 +4302,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
                 startFrame: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -4382,7 +4388,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_swirls.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteCount: i32 = 8
                 }
             }
@@ -4478,7 +4484,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0.5, 0 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -4498,6 +4504,7 @@ entries: map[hash,embed] = {
         particleName: string = "Neeko_Base_E_mis_empowered_child"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_mis_empowered_child"
         scaleDynamicallyWithAttachedBone: bool = true
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_mis_empowered_child"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Empowered_Tar_Minions" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -4744,6 +4751,7 @@ entries: map[hash,embed] = {
         particleName: string = "Neeko_Base_E_Empowered_Tar_Minions"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Empowered_Tar_Minions"
         flags: u16 = 134
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Empowered_Tar_Minions"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_Hit" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5009,9 +5017,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -5104,7 +5112,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -5283,7 +5291,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -5447,13 +5455,14 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                 startFrame: u16 = 1
             }
         }
         particleName: string = "Neeko_Base_W_P_Hit"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_Hit"
         flags: u16 = 198
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_Hit"
     }
     "Characters/Neeko/Skins/Skin0/Particles/NeekoPTimer" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5492,7 +5501,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 1 }
                 }
@@ -5549,7 +5558,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_ExtraBlured.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_ExtraBlured.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 1 }
                 }
@@ -5599,7 +5608,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 1 }
                 }
@@ -5652,7 +5661,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_ExtraBloom_01.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_ExtraBloom_01.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 1 }
                 }
@@ -5715,7 +5724,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 1 }
                 }
@@ -5723,6 +5732,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "NeekoPTimer"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/NeekoPTimer"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/NeekoPTimer"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_Transform_Nonchamp" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -5885,7 +5895,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -6006,7 +6016,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_P_loop.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 1, 0, 0 }
                     }
@@ -6110,7 +6120,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0199999996
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.Champion_VFX_Memory_Optimization.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -6160,7 +6170,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -6397,7 +6407,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -6524,6 +6534,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Neeko_Base_P_Transform_Nonchamp"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_Transform_Nonchamp"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_Transform_Nonchamp"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_Hit" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -6762,7 +6773,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_swirls.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -6950,6 +6961,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Neeko_Base_Q_Hit"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_Hit"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_Hit"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_bounce_02" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -7296,11 +7308,12 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 280, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Ring.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Ring.tex"
             }
         }
         particleName: string = "Neeko_Base_Q_bounce_02"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_bounce_02"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_bounce_02"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_bounce_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -7645,11 +7658,12 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 280, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Ring.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Ring.tex"
             }
         }
         particleName: string = "Neeko_Base_Q_bounce_01"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_bounce_01"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_bounce_01"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -7731,7 +7745,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -7814,7 +7828,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.300000012
@@ -7980,6 +7994,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Neeko_Base_Q_cas"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_cas"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_cas"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_cas_body" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -8254,6 +8269,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Neeko_Base_E_cas_body"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_cas_body"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_cas_body"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Hit" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -8318,7 +8334,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_r_prismflash.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_r_prismflash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -8394,9 +8410,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteCount: i32 = 8
                 }
             }
@@ -8588,7 +8604,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                 startFrame: u16 = 1
             }
         }
@@ -8598,6 +8614,7 @@ entries: map[hash,embed] = {
             370
         }
         flags: u16 = 198
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Hit"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_BA_tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -8686,7 +8703,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.tex"
                 numFrames: u16 = 4
                 startFrame: u16 = 2
                 texDiv: vec2 = { 2, 2 }
@@ -8865,7 +8882,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_z_shapes.tex"
                 numFrames: u16 = 4
                 texDiv: vec2 = { 2, 2 }
             }
@@ -9029,7 +9046,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -9103,15 +9120,16 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteCount: i32 = 8
                 }
             }
         }
         particleName: string = "Neeko_Base_BA_tar"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_BA_tar"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_BA_tar"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Hit_AoE" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -9247,7 +9265,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -9370,7 +9388,7 @@ entries: map[hash,embed] = {
                 EmitterPosition: embed = ValueVector3 {
                     constantValue: vec3 = { 0, 50, 0 }
                 }
-                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Flicker_04.Champion_VFX_Memory_Optimization.tex"
+                particleColorTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Flicker_04.tex"
                 blendMode: u8 = 4
                 Color: embed = ValueColor {
                     constantValue: vec4 = { 0.898039222, 0.149019614, 0.588235319, 1 }
@@ -9625,7 +9643,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
                 startFrame: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -9711,7 +9729,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_swirls.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteCount: i32 = 8
                 }
             }
@@ -10476,7 +10494,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_R_AoE_waves.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 6, 0, 0 }
                     }
@@ -10500,6 +10518,7 @@ entries: map[hash,embed] = {
         particleName: string = "Neeko_Base_R_Hit_AoE"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Hit_AoE"
         flags: u16 = 198
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Hit_AoE"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -10661,6 +10680,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Neeko_Base_W_P_cas"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_cas"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_cas"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_clone_death" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -11079,7 +11099,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_P_loop.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 7, 0, 0 }
                     }
@@ -11365,7 +11385,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Warwick_Base_BightSpark.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Warwick_Base_BightSpark.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -11409,7 +11429,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.00400000019
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.Champion_VFX_Memory_Optimization.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -11459,7 +11479,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.tex"
             }
         }
         particleName: string = "Neeko_Base_W_clone_death"
@@ -11467,6 +11487,7 @@ entries: map[hash,embed] = {
         voiceOverOnCreateDefault: string = "Play_vo_Neeko_CloneDestroyed2D"
         soundPersistentDefault: string = "Play_sfx_Neeko_NeekoWClone_clonedeath"
         flags: u16 = 198
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_clone_death"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_mis" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -11561,7 +11582,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 particleIsLocalOrientation: flag = true
@@ -11731,6 +11752,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Neeko_Base_W_P_mis"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_mis"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_mis"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_BA_mis" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -11812,7 +11834,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_BA_speed_flash.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_BA_speed_flash.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -12088,7 +12110,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     erosionFeatherOut: f32 = 0.5
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 birthScale0: embed = ValueVector3 {
@@ -12333,6 +12355,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Neeko_Base_BA_mis"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_BA_mis"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_BA_mis"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Bubble" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -12454,9 +12477,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Maps/Particles/SR/SRX_Infernal_Fire_Mult.TFT_Set16.tex"
+                    textureMult: string = "ASSETS/Maps/Particles/SR/SRX_Infernal_Fire_Mult.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -12519,7 +12542,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -12568,7 +12591,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -12618,11 +12641,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.tex"
             }
         }
         particleName: string = "Neeko_Bubble"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Bubble"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Bubble"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_Channel_cas_self" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -12665,7 +12689,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0199999996
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.Champion_VFX_Memory_Optimization.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -12715,7 +12739,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -12945,7 +12969,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -13125,6 +13149,7 @@ entries: map[hash,embed] = {
         particleName: string = "Neeko_Base_P_Channel_cas_self"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_Channel_cas_self"
         soundOnCreateDefault: string = "Play_sfx_Neeko_NeekoP_charge_active"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_Channel_cas_self"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Dunk_Zone" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -14351,7 +14376,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -14503,7 +14528,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -14530,7 +14555,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GrImpact_Petal_OPT1.Champion_VFX_Memory_Optimization.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GrImpact_Petal_OPT1.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -14555,12 +14580,12 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 8, 12, 8 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_FlowerGround_01.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_FlowerGround_01.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 5, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1 }
@@ -14605,7 +14630,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GrImpact_Petal_OPT1.Champion_VFX_Memory_Optimization.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GrImpact_Petal_OPT1.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -14630,7 +14655,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 4, 12, 4 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_FlowerGround_01.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_FlowerGround_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.200000003, 0 }
                 }
@@ -14638,7 +14663,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 5, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1 }
@@ -14683,7 +14708,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GrImpact_Petal_OPT1.Champion_VFX_Memory_Optimization.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GrImpact_Petal_OPT1.scb"
                     }
                 }
                 blendMode: u8 = 1
@@ -14708,12 +14733,12 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 12, 12, 12 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 3, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_Traveling_01.tex"
                     texAddressModeMult: u8 = 2
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 3, 1 }
@@ -14758,7 +14783,7 @@ entries: map[hash,embed] = {
                 }
                 primitive: pointer = VfxPrimitiveMesh {
                     mMesh: embed = VfxMeshDefinitionData {
-                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GrImpact_Petal_OPT1.Champion_VFX_Memory_Optimization.scb"
+                        mSimpleMeshName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_GrImpact_Petal_OPT1.scb"
                     }
                 }
                 blendMode: u8 = 4
@@ -14797,7 +14822,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 3, 1 }
                 }
@@ -14806,6 +14831,7 @@ entries: map[hash,embed] = {
         particleName: string = "Neeko_Dunk_Zone"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Dunk_Zone"
         flags: u16 = 198
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Dunk_Zone"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_mis" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -14982,7 +15008,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 1, 0 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -15185,7 +15211,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.Champion_VFX_Memory_Optimization.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 particleIsLocalOrientation: flag = true
@@ -15204,7 +15230,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -15286,7 +15312,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_leadingedge.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_leadingedge.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -15363,7 +15389,7 @@ entries: map[hash,embed] = {
                     }
                     erosionFeatherOut: f32 = 0.5
                     erosionSliceWidth: f32 = 2
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.Champion_VFX_Memory_Optimization.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.tex"
                     erosionMapAddressMode: u8 = 0
                 }
                 particleIsLocalOrientation: flag = true
@@ -15382,7 +15408,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -15402,6 +15428,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Neeko_Base_Q_mis"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_mis"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_mis"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_Ready" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -15652,7 +15679,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Warwick_Base_BightSpark.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Warwick_Base_BightSpark.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -15930,6 +15957,7 @@ entries: map[hash,embed] = {
         particleName: string = "Neeko_Base_W_P_Ready"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_Ready"
         scaleDynamicallyWithAttachedBone: bool = true
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_Ready"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_mis" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -16116,7 +16144,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -16273,7 +16301,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.300000012, 0 }
                 }
@@ -16365,7 +16393,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Ezreal_Base_E_ringglow.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -16703,7 +16731,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/glow-soft.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -16722,6 +16750,7 @@ entries: map[hash,embed] = {
         particleName: string = "Neeko_Base_E_mis"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_mis"
         flags: u16 = 195
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_mis"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_Clone_Overlay" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -17071,7 +17100,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
                 }
             }
             VfxEmitterDefinitionData {
@@ -17166,7 +17195,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -0.600000024, 1 }
                     }
@@ -17318,7 +17347,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -17420,7 +17449,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_P_loop.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 7, 0, 0 }
                     }
@@ -17455,6 +17484,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Neeko_Base_W_Clone_Overlay"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_Clone_Overlay"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_Clone_Overlay"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Joke_Tailspin" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -17843,12 +17873,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                 startFrame: u16 = 1
             }
         }
         particleName: string = "Neeko_Base_Joke_Tailspin"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Joke_Tailspin"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Joke_Tailspin"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Root" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -18032,7 +18063,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.300000012, 0 }
                 }
@@ -18144,7 +18175,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_stun_tex.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { -0.300000012, 0 }
                 }
@@ -18232,7 +18263,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Ezreal_Base_E_ringglow.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -18316,7 +18347,7 @@ entries: map[hash,embed] = {
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Ezreal_Base_E_ringglow.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -18575,6 +18606,7 @@ entries: map[hash,embed] = {
         overrideScaleCap: option[f32] = {
             300
         }
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Root"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_Ally_Overlay" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -18743,16 +18775,16 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 45, 45, 20 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_ImpactGlow.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_ImpactGlow.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
                     paletteCount: i32 = 8
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Flicker_04.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Flicker_04.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0 }
                     }
@@ -18925,9 +18957,9 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 45, 25, 20 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
                     texDivMult: vec2 = { 2, 2 }
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0.200000003, 0 }
@@ -19044,6 +19076,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Neeko_Base_P_Ally_Overlay"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_Ally_Overlay"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_Ally_Overlay"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -19327,7 +19360,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_P_loop.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 1, 0, 0 }
                     }
@@ -19544,7 +19577,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0199999996
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.Champion_VFX_Memory_Optimization.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -19594,7 +19627,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -19665,6 +19698,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Neeko_Base_P_cas"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_cas"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_cas"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_AoE_03" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -19725,7 +19759,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -19842,7 +19876,7 @@ entries: map[hash,embed] = {
                 meshRenderFlags: u8 = 0
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.100000001
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.Champion_VFX_Memory_Optimization.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -19865,7 +19899,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -19954,7 +19988,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Z_ball01.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Z_ball01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_AoE_flower_erode.tex"
                 }
@@ -20154,7 +20188,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_AoE_petal.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 6, 0, 0 }
                     }
@@ -20323,12 +20357,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                 numFrames: u16 = 4
             }
         }
         particleName: string = "Neeko_Base_Q_AoE_03"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_AoE_03"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_AoE_03"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_ChannelLine" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -20609,12 +20644,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 1, 0 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_P_MaskBeam_02.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_P_MaskBeam_02.tex"
                     texAddressModeMult: u8 = 2
                     UvRotationMult: embed = ValueFloat {
                         constantValue: f32 = 90
@@ -20790,6 +20825,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Neeko_Base_P_ChannelLine"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_ChannelLine"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_P_ChannelLine"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_AoE_02" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -20850,7 +20886,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -20913,7 +20949,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_AoE_petal.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 7, 0, 0 }
                     }
@@ -21092,7 +21128,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -21112,7 +21148,7 @@ entries: map[hash,embed] = {
                 meshRenderFlags: u8 = 0
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.100000001
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.Champion_VFX_Memory_Optimization.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -21135,7 +21171,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -21226,7 +21262,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Z_ball01.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Z_ball01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_AoE_flower_erode.tex"
                 }
@@ -21439,6 +21475,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Neeko_Base_Q_AoE_02"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_AoE_02"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_AoE_02"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Tar_Minions" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -21639,6 +21676,7 @@ entries: map[hash,embed] = {
         particleName: string = "Neeko_Base_E_Tar_Minions"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Tar_Minions"
         flags: u16 = 134
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Tar_Minions"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_AoE_01" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -21860,7 +21898,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -21960,7 +21998,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Z_ball01.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Z_ball01.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
                     textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_AoE_flower_erode.tex"
                 }
@@ -22132,7 +22170,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_flash.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -22220,7 +22258,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_AoE_petal.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 5, 0, 0 }
                     }
@@ -22265,7 +22303,7 @@ entries: map[hash,embed] = {
                 meshRenderFlags: u8 = 0
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.100000001
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.Champion_VFX_Memory_Optimization.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/distort-shockwave.tex"
                 }
                 miscRenderFlags: u8 = 1
                 isUniformScale: flag = true
@@ -22288,11 +22326,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.tex"
             }
         }
         particleName: string = "Neeko_Base_Q_AoE_01"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_AoE_01"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_AoE_01"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Empowered_Tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -22539,6 +22578,7 @@ entries: map[hash,embed] = {
         particleName: string = "Neeko_Base_E_Empowered_Tar"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Empowered_Tar"
         flags: u16 = 134
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Empowered_Tar"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Cas_EnemyOnly" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -22614,7 +22654,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_circle_tex_root.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteCount: i32 = 8
                 }
                 birthUVOffset: embed = ValueVector2 {
@@ -22722,7 +22762,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.200000003 }
                     }
@@ -23004,7 +23044,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Flare-Omnimax.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Flare-Omnimax.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.0500000007
@@ -23325,6 +23365,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Neeko_Base_R_Cas_EnemyOnly"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Cas_EnemyOnly"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Cas_EnemyOnly"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_cas_beam" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -23407,7 +23448,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -23491,6 +23532,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Neeko_Base_Q_cas_beam"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_cas_beam"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Q_cas_beam"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_BA_cas_beam" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -23583,7 +23625,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.Champion_VFX_Memory_Optimization.tex"
+                    erosionMapName: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_trail.tex"
                 }
                 disableBackfaceCull: bool = true
                 isUniformScale: flag = true
@@ -23667,6 +23709,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Neeko_Base_BA_cas_beam"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_BA_cas_beam"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_BA_cas_beam"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -23799,6 +23842,7 @@ entries: map[hash,embed] = {
         particleName: string = "Neeko_Base_E_tar"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_tar"
         flags: u16 = 134
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_tar"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_cas_body/Neeko_Base_P_Channel_cas" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -23971,7 +24015,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -24092,7 +24136,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_P_loop.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 1, 0, 0 }
                     }
@@ -24317,7 +24361,7 @@ entries: map[hash,embed] = {
                 distortionDefinition: pointer = VfxDistortionDefinitionData {
                     distortion: f32 = 0.0199999996
                     distortionMode: u8 = 2
-                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.Champion_VFX_Memory_Optimization.tex"
+                    normalMapTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Cas_DistortionRipples.tex"
                 }
                 disableBackfaceCull: bool = true
                 miscRenderFlags: u8 = 1
@@ -24367,7 +24411,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self_02.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -24482,7 +24526,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 1 }
                 }
@@ -24534,12 +24578,12 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 0.300000012, 20, 0 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha_Extra.tex"
                 uvScale: embed = ValueVector2 {
                     constantValue: vec2 = { 2, 1 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.5 }
                     }
@@ -24825,7 +24869,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                 numFrames: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -25105,12 +25149,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                 numFrames: u16 = 4
             }
         }
         particleName: string = "Neeko_Base_P_Channel_cas"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_cas_body/Neeko_Base_P_Channel_cas"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_cas_body/Neeko_Base_P_Channel_cas"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Mis_empowered" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -25182,10 +25227,10 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { -10, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_edge.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_edge.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteCount: i32 = 8
                 }
                 particleUVRotateRate: embed = IntegratedValueFloat {
@@ -25341,9 +25386,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/common_flareblue.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -25563,6 +25608,7 @@ entries: map[hash,embed] = {
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Mis_empowered"
         soundPersistentDefault: string = "Play_sfx_Neeko_NeekoE_missile_empowered"
         flags: u16 = 197
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_Mis_empowered"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_cas_handglow" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -25783,6 +25829,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Neeko_Base_W_P_cas_handglow"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_cas_handglow"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_W_P_cas_handglow"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Cas_AllyOnly" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -25854,7 +25901,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_circle_tex_root.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteCount: i32 = 8
                 }
                 birthUVOffset: embed = ValueVector2 {
@@ -25940,7 +25987,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_P_tattoo.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteCount: i32 = 8
                 }
                 birthUVOffset: embed = ValueVector2 {
@@ -25961,7 +26008,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_mesh.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_mis_mesh.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, -1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -26057,7 +26104,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_base.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 0.200000003 }
                     }
@@ -26204,10 +26251,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_root_rings.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_root_rings.tex"
                 uvMode: u8 = 2
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteCount: i32 = 8
                 }
                 texDiv: vec2 = { 1.20000005, 1 }
@@ -26283,7 +26330,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
                 startFrame: u16 = 4
             }
             VfxEmitterDefinitionData {
@@ -26786,7 +26833,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 1
@@ -26839,7 +26886,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.tex"
                 numFrames: u16 = 4
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0.400000006, 2 }
@@ -26851,6 +26898,7 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Neeko_Base_R_Cas_AllyOnly"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Cas_AllyOnly"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Cas_AllyOnly"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Joke_Tailspin_Start" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -27240,12 +27288,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                 startFrame: u16 = 1
             }
         }
         particleName: string = "Neeko_Base_Joke_Tailspin_Start"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Joke_Tailspin_Start"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Joke_Tailspin_Start"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_cas_child" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -27439,7 +27488,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -27516,11 +27565,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
             }
         }
         particleName: string = "Neeko_Base_E_cas_child"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_cas_child"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_E_cas_child"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Tar" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -27728,7 +27778,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -27803,9 +27853,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Maps/Particles/SR/SRX_Infernal_Fire_Mult.TFT_Set16.tex"
+                    textureMult: string = "ASSETS/Maps/Particles/SR/SRX_Infernal_Fire_Mult.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 0.5 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -27890,7 +27940,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_BubbleDecal_ColoredAlpha.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -27950,7 +28000,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -28011,7 +28061,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_BubbleAround.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -28091,7 +28141,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Nami/Skins/Skin32/Particles/Nami_Skin32_common_fuzzyshadow.tex"
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.tex"
                     uvScaleMult: embed = ValueVector2 {
                         constantValue: vec2 = { 1, 0.200000003 }
                     }
@@ -28188,7 +28238,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, 0.300000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -28201,7 +28251,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                     }
@@ -28263,7 +28313,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
                 particleUVScrollRate: embed = IntegratedValueVector2 {
                     constantValue: vec2 = { 0, 0.300000012 }
                     dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -28276,7 +28326,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_NoiseBubble.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                     }
@@ -28316,7 +28366,7 @@ entries: map[hash,embed] = {
                 birthScale0: embed = ValueVector3 {
                     constantValue: vec3 = { 1.00999999, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.tex"
                 birthUvScrollRate: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 1 }
                 }
@@ -28437,7 +28487,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -28563,7 +28613,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_enemy_tendrils.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_enemy_tendrils.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.400000006 }
                 }
@@ -28581,7 +28631,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -1, 0 }
                     }
@@ -28878,7 +28928,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -28975,7 +29025,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -29041,7 +29091,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
                 startFrame: u16 = 1
             }
             VfxEmitterDefinitionData {
@@ -29139,7 +29189,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 1, 1 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Aura_Self.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -29252,7 +29302,7 @@ entries: map[hash,embed] = {
                 scale0: embed = ValueVector3 {
                     constantValue: vec3 = { 2, 2, 2 }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_AroundCircle_01.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_AroundCircle_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0 }
                 }
@@ -29260,7 +29310,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 90
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -29502,7 +29552,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_AroundCircle_01.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_R_AroundCircle_01.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0.300000012, 0 }
                 }
@@ -29510,7 +29560,7 @@ entries: map[hash,embed] = {
                     constantValue: f32 = 90
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, 1 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -29689,7 +29739,7 @@ entries: map[hash,embed] = {
                     constantValue: vec2 = { 0, 0.400000006 }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_RingNoiseColor2.tex"
                     ParticleIntegratedUvScrollMult: embed = IntegratedValueVector2 {
                         constantValue: vec2 = { 0, -8 }
                         dynamics: pointer = VfxAnimatedVector2fVariableData {
@@ -29710,6 +29760,7 @@ entries: map[hash,embed] = {
             370
         }
         flags: u16 = 199
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Tar"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Run_Butterfly_Glow" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -29939,7 +29990,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -30019,7 +30070,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_ImpactGlow.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_ImpactGlow.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -30230,11 +30281,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_glowspecks.tex"
             }
         }
         particleName: string = "Neeko_Base_Run_Butterfly_Glow"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Run_Butterfly_Glow"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_Run_Butterfly_Glow"
     }
     "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Indicator_Enemy" = VfxSystemDefinitionData {
         complexEmitterDefinitionData: list[pointer] = {
@@ -30297,7 +30349,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_BA_speed_flash.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_BA_speed_flash.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.100000001
@@ -30410,7 +30462,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_E_Circle_01.tex"
             }
             VfxEmitterDefinitionData {
                 rate: embed = ValueFloat {
@@ -30839,7 +30891,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_spotlight.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_spotlight.tex"
             }
             VfxEmitterDefinitionData {
                 timeBeforeFirstEmission: f32 = 0.550000012
@@ -30943,7 +30995,7 @@ entries: map[hash,embed] = {
                 }
                 texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_z_glow.tex"
                 paletteDefinition: pointer = VfxPaletteDefinitionData {
-                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.Champion_VFX_Memory_Optimization.tex"
+                    paletteTexture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_base_z_colors.tex"
                     paletteSelector: embed = ValueVector3 {
                         constantValue: vec3 = { 3, 0, 0 }
                     }
@@ -31072,7 +31124,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_enemy_tendrils.Champion_VFX_Memory_Optimization.tex"
+                texture: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_R_enemy_tendrils.tex"
                 birthUVOffset: embed = ValueVector2 {
                     constantValue: vec2 = { 0, 0.400000006 }
                 }
@@ -31090,7 +31142,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 textureMult: pointer = VfxTextureMultDefinitionData {
-                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.Champion_VFX_Memory_Optimization.tex"
+                    textureMult: string = "ASSETS/Characters/Neeko/Skins/Base/Particles/Neeko_Base_Q_trail_mult.tex"
                     birthUvScrollRateMult: embed = ValueVector2 {
                         constantValue: vec2 = { -1, 0 }
                     }
@@ -32047,20 +32099,21 @@ entries: map[hash,embed] = {
         }
         particleName: string = "Neeko_Base_R_Indicator_Enemy"
         particlePath: string = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Indicator_Enemy"
+        objectPath: hash = "Characters/Neeko/Skins/Skin0/Particles/Neeko_Base_R_Indicator_Enemy"
     }
     "Characters/Neeko/Skins/Skin0/Materials/Neeko_Headquills" = StaticMaterialDef {
         name: string = "Characters/Neeko/Skins/Skin0/Materials/Neeko_Headquills"
         samplerValues: list2[embed] = {
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Diffuse_Color"
-                texturePath: string = "ASSETS/Characters/Neeko/Skins/Base/Neeko_Base_TX_CM.tex"
+                texturePath: file = "assets/characters/neeko/skins/base/neeko_base_tx_cm.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
             }
             StaticMaterialShaderSamplerDef {
                 TextureName: string = "Mask"
-                texturePath: string = "ASSETS/Characters/Neeko/Skins/Base/Neeko_Base_P_Quillglow_mask.tex"
+                texturePath: file = "assets/characters/neeko/skins/base/neeko_base_p_quillglow_mask.tex"
                 addressU: u32 = 1
                 addressV: u32 = 1
                 addressW: u32 = 1
@@ -32170,7 +32223,7 @@ entries: map[hash,embed] = {
                             driver: pointer = HasBuffDynamicMaterialBoolDriver {
                                 mScriptName: string = "NeekoWPassiveReady"
                             }
-                            TextureName: string = "ASSETS/Characters/Neeko/Skins/Base/Neeko_Base_P_Quillglow_texture.tex"
+                            TextureName: file = "assets/characters/neeko/skins/base/neeko_base_p_quillglow_texture.tex"
                         }
                     }
                 }
